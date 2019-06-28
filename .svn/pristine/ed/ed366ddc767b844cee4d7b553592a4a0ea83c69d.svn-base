@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlnormalizer-basic1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/urlnormalizer-basic/urlnormalizer-basic.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

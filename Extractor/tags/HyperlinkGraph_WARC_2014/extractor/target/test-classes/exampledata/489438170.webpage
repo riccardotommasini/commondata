@@ -1,0 +1,651 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es-ES">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Observatorio Ateo de Argentina   &raquo; Investigaciones</title>
+
+<meta name="generator" content="WordPress 2.5.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.argatea.com.ar/blog/wp-content/themes/argatea/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Observatorio Ateo de Argentina RSS Feed" href="http://www.blog.argatea.com.ar/feed/" />
+<link rel="pingback" href="http://www.argatea.com.ar/blog/xmlrpc.php" />
+
+<meta name="description" content="ArgAtea - Asociaci�n Civil de Ateos en Argentina." />
+<meta name="keywords" content="ateos argentina, ateismo argentina, ateos, agnosticos Argentina, agnosticismo argentina,ateismo, agnosticismo, Laicismo, laicismo, laico, humanismo, humanista, Camap�a atea" />
+<meta name="robots" content="index, follow" />
+<base href="http://argatea.com.ar/" />
+<link rel="alternate" type="application/rss+xml" title="Asociaci�n Civil de Ateos en Argentina" href="http://argatea.com.ar/index2.php?option=com_rss&amp;feed=RSS2.0&amp;no_html=1" />
+<link rel="shortcut icon" href="http://argatea.com.ar/images/favicon.ico" />
+<link rel="stylesheet" href="http://argatea.com.ar/templates/Flexi/css/template_css.css" type="text/css"/><link rel="shortcut icon" href="http://argatea.com.ar/templates/Flexi/images/favicon.ico" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.argatea.com.ar/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.argatea.com.ar/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 2.5.1" />
+
+<style type='text/css'>
+<!--#header { background: url('http://www.argatea.com.ar/blog/wp-content/themes/argatea/images/header-img.php?upper=FBAF5C&lower=FBAF5C') no-repeat bottom center; }
+--></style>
+</head>
+<body>
+<div id="page" align="center">
+		
+	<div id="wrapper" style="width: 760px;">
+		
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		
+		
+		<!-- BEGIN TOP BAR AREA -->
+		<div id="topbar">
+
+			<div id="topcontent">
+				<div style="float: left; display: block;">
+					<!-- normally for topmenu -->
+					<div style="float: left; display: block;"><ul id="mainlevel-nav"><li><a href="http://argatea.com.ar/" class="mainlevel-nav" >Inicio</a></li><li><a href="http://argatea.com.ar/component/option,com_joomlaboard/Itemid,54/" class="mainlevel-nav" >Foro</a></li><li><a href="http://argatea.com.ar/content/blogcategory/0/35/" class="mainlevel-nav" >Novedades</a></li><li><a href="http://argatea.com.ar/component/option,com_contact/Itemid,3/" class="mainlevel-nav" >Contactar</a></li></ul></div>					<div align="right" id="topsearch">
+						<!-- normally for mini search -->
+						
+<form action="index.php?option=com_search&amp;Itemid=5" method="get">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="search" class="inputbox" type="text" size="20" value="buscar..."  onblur="if(this.value=='') this.value='buscar...';" onfocus="if(this.value=='buscar...') this.value='';" />	</div>
+
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="5" />	
+</form>					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- BEGIN TOP BAR AREA -->
+		
+		
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		
+		
+		<!-- BEGIN HEADER AREA -->
+		<div id="headerbar">
+			<div id="headerleft"><img src="templates/Flexi/images/header_curve_left.gif"  alt=" " /></div>
+			<div id="headercontent">
+				<div id="headerlogo" align="left">
+					<img src="templates/Flexi/images/logo.png" height="200" alt="ateismo en argentina" />
+					<img src="templates/Flexi/images/logo_separator.gif"  alt="asociacion civil de ateos en argentina" height="100" style="vertical-align:top; margin-top:50px;"/>
+					<!-- MODIFICACION DEL RATA en las 2 lineas anteriores gif->png height=100->200 y todo el style de la 2da linea -->
+				</div>
+				<div id="headersitename">
+					<a href="index.php">
+					Asociaci&oacute;n Civil de Ateos en Argentina					</a>
+				</div>
+			</div>			
+			<div id="headerright"><img src="templates/Flexi/images/header_curve_right.gif" alt=" " /></div>
+		</div>
+		<!-- END TOP BAR AREA -->
+
+
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		
+		
+		<!-- BEGIN PATHWAY AREA -->
+
+		<div id="pathwaybar">
+			<div id="pathwayleft"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+			<div id="pathwaycontent"><span class="pathway">Inicio </span></div>
+			<div id="pathwayright"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		</div>
+
+		<!-- END PATHWAY AREA -->
+
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+
+		<!-- BEGIN CONTENT AREA -->
+		<div id="maincontent" align="left">
+
+	<div id="content" class="narrowcolumn">
+
+		
+		 		<h2 class="pagetitle">Archive for the &#8216;Investigaciones&#8217; Category</h2>
+
+ 	  
+
+		<div class="navigation">
+			<div class="alignleft"><a href="http://www.blog.argatea.com.ar/category/investigaciones/page/2/">&laquo; Previous Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post">
+				<h3 id="post-1172"><a href="http://www.blog.argatea.com.ar/2010/06/27/textos-escolares-usados-en-colegios-para-fomentar-la-homofobia-desalentar-el-uso-del-preservativo-y-demonizar-el-aborto/" rel="bookmark" title="Permanent Link to TEXTOS ESCOLARES USADOS EN COLEGIOS PARA FOMENTAR LA HOMOFOBIA, DESALENTAR EL USO DEL PRESERVATIVO Y DEMONIZAR EL ABORTO">TEXTOS ESCOLARES USADOS EN COLEGIOS PARA FOMENTAR LA HOMOFOBIA, DESALENTAR EL USO DEL PRESERVATIVO Y DEMONIZAR EL ABORTO</a></h3>
+				<small>Domingo, Junio 27th, 2010</small>
+
+				<div class="entry">
+					<p class="margen0">Domingo, 27 de junio de 2010</p>
+<h3 class="margen0"><strong>Sexo, mentiras y manuales</strong></h3>
+<h3 class="margen0"><span style="color: #800000;">El Inadi analiza la denuncia contra una escuela de Bella Vista que utilizó textos integristas para enseñar que la homosexualidad es una “enfermedad” que “requiere tratamiento”. Los alumnos aprenden a “reconocer” a las personas con esas “desviaciones”. Y a rechazar el uso del preservativo.</span></h3>
+<p class="margen0">Por Soledad Vallejos</p>
+<p class="margen0">“Que identifique la homosexualidad como una enfermedad”, “que rechace la desviación de la homosexualidad”, “que de-sarrolle actitudes de objetividad frente a la desviación de la homosexualidad y comprensión frente a las personas que la padecen”. Eso procuraba una docente que lograran los adolescentes a su cargo en 1º año de Polimodal de la Escuela Modelo de Bella Vista, en la provincia de Buenos Aires. La institución es privada, pero no confesional, sino “un colegio laico, común y corriente”, como describió a este diario la mujer que durante 2009 descubrió qué estudiaba su hijo de 16 años en Educación para la Salud y cuyo estupor, tras encontrar cauce en la Agrupación Nacional Putos Peronistas (ANPP), terminó convirtiéndose en denuncia ante el Inadi, donde actualmente se encuentra en estudio el material.</p>
+<p>En rigor, no se trata de un libro completo ni de un cuadernillo realizado por la docente, sino de fragmentos fotocopiados y entregados sin información bibliográfica alguna. Además de la lección referente a “la conducta homosexual” (y que incluye un ítem sobre “amaneramiento”), los adolescentes también recibieron otras para reconocer “la castidad como la única decisión verdaderamente saludable para la prevención” del VIH, y otra que habla de “vida prenatal” y define al aborto como el “disponer de una vida ajena” (ver aparte).</p>
+<p>El material “es de altísimo contenido homofóbico y de dudoso origen científico” al tiempo que demuestra que, “a contramano de los materiales de Educación Sexual Integral, que el Ministerio de Educación ya comenzó a repartir entre las escuelas secundarias públicas y privadas, todavía quedan muchas instituciones educativas que promueven contenidos homofóbicos en sus currículas”, señaló a este diario Mariano Rapetti, de la ANPP. Amén de propagar su homofobia flagrante, los apuntes desfiguran abiertamente afirmaciones científicas avaladas por asociaciones profesionales y organismos internacionales, incitan al odio y la discriminación por razón de orientación sexual, tanto como a la sanción moral y el aislamiento, aunque piadoso por tratarse de personas enfermas, de quienes incurran en “conductas desordenadas”.</p>
+<p>Las páginas, parte de cuyos contenidos acompañan esta nota (ver aparte), también recuerdan notablemente algunas de las exposiciones que, desde hace unas semanas, se escuchan en el Congreso en contra del proyecto de ampliación del matrimonio civil. Tienen un origen bien concreto y una circulación no tan opaca, tanto que su rastro traza un mapa del integrismo fundamentalista argentino.</p>
+<h3><span class="fgprincipal">Estudios culturales</span></h3>
+<p>El material de la discordia fue brindado como texto de estudio a chicas y chicos de entre 15 y 16 años, en el marco de la materia Educación para la Salud que, como lo señala su denominación, difícilmente pueda escapar a las generales de la ley de Educación Sexual Integral. Sin embargo, en cuanto a sexualidades, prevención de enfermedades y anticoncepción, la docente que eligió educar a por lo menos un curso con estos contenidos (la denuncia refiere el ciclo lectivo 2009) está muy lejos de eximirse. Para enseñar los dos primeros temas, eligió las lecciones 32 y 33 de Hechos para amar, el volumen Nº 10 de la colección Aprendiendo a querer, hit de Alafa Editores, el brazo impresor de la fundamentalista y pro vida Alianza Latinoamericana para la Familia. La serie, que abarca un ciclo de 12 años, desde la infancia hasta la pubertad y el fin de la adolescencia, configura, según alardea la propia Alianza, “un programa de educación sexual con acento en la formación integral de la persona y la familia”. Fue pensada y escrita enteramente por Carlos Beltramo Alvarez y Christine de Marcellus de Vollmer, ambos jerarcas de Alafa, que en su versión norteamericana es más conocida como Alliance for Family (AFF).</p>
+<p>En cambio, el material que refiere la “etapa prenatal” y alerta “SOS - bebés en peligro” para referirse al aborto fue extraído de un libro de texto, Biología, de Maria Leonie Dutey y Susana Teresa Nocetti.</p>
+<p>“Hay materia de sobra para considerar y debatir: asuntos como el sida, la homosexualidad y otras áreas difíciles que requieren de mucha información”, advierte Marcellus de Vollmer en la introducción de Hechos para amar, y las páginas que estudiaron chicas y chicos en Bella Vista no la desmienten. Ni siquiera cuando, por algún motivo sin explicar, la docente entregó a la clase fotocopias del manual dedicado al docente. De allí que, por ejemplo, al comienzo de la lección 32, “Homosexualidad”, se expliciten las “sugerencias metodológicas”: “A veces, algunos alumnos, por no tener los conceptos claros, manifiestan una cierta inseguridad sobre el tema de la homosexualidad, sobre todo los hombres. Por ello es necesario desarrollar bien el tema de la homoidentificación” (sic).</p>
+<p>Para entrar en tema, el apunte propone estimular la palabra de alumnas y alumnos: “Preguntarles qué opinan de los homosexuales, cómo los ven en la calle y qué impresiones les suscitan”. La inquietud era válida “tanto en hombres como en el caso del lesbianismo”. A continuación, cabía a la persona responsable del curso llevar adelante la “exposición”, a partir de ocho puntos: “generalidades de la homosexualidad”, “las influencias para una conducta homosexual”, la “dinámica psicológica en estos casos”, la “relación con las etapas de crecimiento”, la diferenciación entre “la inclinación (que) es una enfermedad” y “la conducta (que) es una contradicción con la sexualidad”, cuál es “la mejor actitud de parte de un homosexual” (respuesta: abstinencia, castidad y someterse a “tratamientos de recuperación”), el “amaneramiento y la discriminación”, que no deben existir siempre que tanta tolerancia “no ponga en riesgo la salud moral de los demás”.</p>
+<p>Hace ya 37 años que la Asociación Americana de Psiquiatría (APA) eliminó la homosexualidad del Manual de Diagnóstico de los trastornos mentales. Hace 20 que la Organización Mundial de la Salud (OMS) dejó de considerarla patología; fue un 17 de mayo, y desde entonces esa fecha es celebrada como el Día Internacional de Lucha Contra la Homofobia. En ambos casos, la razón del cambio fue simple: no había evidencia científica para sostener que la opción sexual puede ser una enfermedad. En 2000, sin embargo, la APA debió complementar su afirmación, y aclarar que los presuntos “tratamientos de recuperación”, tan mentados por voceros integristas y voceros confesionales cuando tienen ante sí un auditorio, no tienen fundamento científico, y que tampoco son eficaces porque la homosexualidad no requiere tratamiento psiquiátrico.</p>
+<p>Y sin embargo en Bella Vista era como si el tiempo no hubiera pasado. Las y los adolescentes debieron memorizar que la homosexualidad, entendida como “inclinación a tener estimulación sexual con personas del mismo sexo”, es “una desviación”. Resulta contraria al “significado de la sexualidad como sus dimensiones; esto es, la de comunicación, la de identidad y la de transmisión de vida”. Tan grave puede resultar que “en caso de que se detecten conductas homosexuales o atracción de un chico por otros del mismo sexo”, es preciso alertar a sus padres y procurarle “un seguimiento cercano por parte del equipo psicológico de apoyo de la escuela”. La “conducta homosexual” tiene “causales”, porque, como las feministas, “el homosexual no ‘nace’, sino que se ‘hace’”, como consecuencia desgraciada de una infancia traumática: “Un padre hostil o distante, padres sobreprotectores, la pérdida de ambos padres o que un miembro de la familia haya vestido al niño con ropa de mujer”. Para afirmar esto, citan a “los científicos”, sin aclarar cuáles de ellos, ni si tienen algún nombre. En todo caso, validarían que un varón es gay porque tuvo un padre “deslucido, desvalorizado” y una madre “dominante y temible”, y que una mujer es lesbiana porque le tocó un “padre violento” que “despierta el temor al hombre”, o bien tuvo un padre “ausente”, a quien “la mujer homosexual lo internaliza como una figura débil, poco atractiva”.</p>
+<p>En las hojas que circularon en el curso se sostiene que la homosexualidad es “un problema”, entre otras cosas, físico: una relación “en la que lleguen a la intimidad (dos personas del mismo sexo) está claramente en contra de todos los principios de la verdad de la sexualidad: no hay comunicación profunda porque no hay complementación física, sino más bien un abuso del cuerpo; no es fuente de vida; tampoco lo es de verdadero amor y contraría la propia identidad. Esto quiere decir que la naturaleza ha brindado a cada uno una identidad clara”. Se trata, sin más, de una identidad que “siempre apunta a la complementariedad con el otro sexo”, que en el caso de la relación “entre hombre y mujer en el contexto de la pareja estable y permanente” es “una de las comunicaciones más profundas”.</p>
+<p>Quienes en las últimas semanas han concurrido a las reuniones de la Comisión de Legislación General, cuando se da cita a expositores y especialistas para opinar sobre el proyecto de ampliación del matrimonio civil, seguramente tienen cierta familiaridad con estos argumentos. Los han sostenido, casi letra a letra, y hasta con idénticas definiciones (“apertura a la vida”, “transmisión de la vida”, “complementariedad”, el “amor verdadero”) voceros del Opus Dei, abogados que tienen por misión infiltrar el Estado con la “verdad” bíblica y hablan de familia y tradición y hasta alguna diputada evangélica cuya oposición al proyecto en su propia Cámara no fue precisamente exitosa.</p>
+<p>El capítulo sobre homosexualidad que se estudió en la provincia de Buenos Aires no termina allí: también explica que “el homosexual es digno de todo respeto y de todo tipo de ayuda, incluyendo la asistencia moral y religiosa”, aunque, como se trata de “un trastorno”, sólo podría pensarse en esa orientación como en “una desviación de los comportamientos normales”. Puesto que “la inclinación es una enfermedad como cualquier otra”, no se trata de “buscar culpables al respecto, sino tratar de solucionar el problema”. Por eso lo mejor que pueden hacer “estas personas” es observar “abstinencia sexual, fruto de la castidad”, además de someterse a “tratamientos de recuperación”. ¿Cómo saber quién podría necesitar ayuda? Pues por señas exteriores, tales como “el amaneramiento”, que es algo “exhibicionista, para ser visto, para de alguna manera ser reconocido”. El propio manual, sin embargo, plantea cierto desaliento, porque no hay certezas: “Hay homosexuales sin amaneramiento y con formas y aspecto totalmente normales”, y aún más: “Hay amanerados que no son homosexuales”. De todos modos, insta la instrucción, es preciso actuar, porque “la homosexualidad no es normal y natural”, de manera que “es legítimo” no contratar gays y lesbianas para empleos docentes, militares y de sociabilidad frecuente con jóvenes y niños. Por lo mismo es lícito “impedir que los homosexuales adopten niños”. Es que, se exculpa, “la sociedad tiene el derecho y el deber de defender a sus integrantes”.</p>
+<p>Por lo demás, el material no se priva de citar a manuales del seudopensamiento reaccionario como Orientaciones para la educación sexual, de Eva Balague y Norberto Uva, que la Editorial Claretiana publicó en 1987, o Conductas sexuales inadecuadas, de Héctor Segú.</p>
+<h3><span class="fgprincipal">Llame ya</span></h3>
+<p>En Argentina, toda esta bibliografía se consigue solamente en un lugar: una oscura oficina de la avenida Rivadavia, frente al Congreso. Corresponde a un señor Luis Méndez Huergo, quien vende los ejemplares como parte de los servicios bibliográficos de la Mutual D’Agostino, que procura beneficios para “miembros, empleados, alumnos y padres de alumnos de Fasta”. Eso significa que se trata de la rama social de la <a href="http://www.fasta.org.ar/">Fraternidad de Agrupaciones Santo Tomás de Aquino</a>, cuyas filas bullen de ultranazis y cuyo fundador, Aníbal Fosbery, es recordado, entre otras cosas, por sus melosas y encendidas defensas del nazi Erich Priebke.</p>
+<p>No sería descabellado pensar que estos materiales también sean textos de estudio en las instituciones escolares afines a Fasta, que no son pocas en el país.</p>
+<p><img src="http://www.pagina12.com.ar/fotos/20100627/notas/carta2b.jpg" alt="" width="200" height="261" /><img src="http://www.pagina12.com.ar/fotos/20100627/notas/carta4b.jpg" alt="" width="200" height="247" /></p>
+<p><img src="http://www.pagina12.com.ar/fotos/20100627/notas/carta6b.jpg" alt="" width="200" height="277" /><img src="http://www.pagina12.com.ar/fotos/20100627/notas/carta8b.jpg" alt="" width="200" height="288" /></p>
+<p>Link a la nota:<br />
+<a href="http://www.pagina12.com.ar/imprimir/diario/sociedad/3-148358-2010-06-27.html">http://www.pagina12.com.ar/imprimir/diario/sociedad/3-148358-2010-06-27.html</a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a> |   <a href="http://www.blog.argatea.com.ar/2010/06/27/textos-escolares-usados-en-colegios-para-fomentar-la-homofobia-desalentar-el-uso-del-preservativo-y-demonizar-el-aborto/#respond" title="Comentarios en TEXTOS ESCOLARES USADOS EN COLEGIOS PARA FOMENTAR LA HOMOFOBIA, DESALENTAR EL USO DEL PRESERVATIVO Y DEMONIZAR EL ABORTO">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1141"><a href="http://www.blog.argatea.com.ar/2010/04/30/dime-con-quien-te-reunes-y-te-dire-que-piensas-dime-a-quien-discriminas-y-te-dire-como-piensas/" rel="bookmark" title="Permanent Link to Michetti, Duhalde, &#8230; y el &#8220;obispo&#8221; Marino : &#8220;Dime con quién te reúnes y te diré que piensas&#8221;, Dime a quién discriminas y te diré como piensas&#8221;">Michetti, Duhalde, &#8230; y el &#8220;obispo&#8221; Marino : &#8220;Dime con quién te reúnes y te diré que piensas&#8221;, Dime a quién discriminas y te diré como piensas&#8221;</a></h3>
+				<small>Viernes, Abril 30th, 2010</small>
+
+				<div class="entry">
+					<p>Viernes, 30 de abril de 2010</p>
+<h2>De reunión con<strong> el obispo</strong></h2>
+<p>El obispo auxiliar platense <strong>Antonio Marino</strong> se reunió en la sede de la Conferencia Episcopal Argentina con los senadores <strong>Juan Carlos Romero e Hilda González de Duhalde y 17 diputados nacionales del peronismo disidente, para expresarles de primera mano la oposición de la Iglesia al proyecto de ley que permite el matrimonio entre personas del mismo sexo. </strong> “Hay valores que no son negociables”, aseveró el religioso a los legisladores e indicó que el matrimonio heterosexual “no es negociable ni equiparable a otras realidades”.</p>
+<p>Entre los diputados figuró Gabriela Michetti, que coincidió con el obispo desde el punto de vista religioso</p>
+<div id="permalink">Link a la nota:<br />
+<a href="http://www.pagina12.com.ar/imprimir/diario/sociedad/3-144884-2010-04-30.html">http://www.pagina12.com.ar/imprimir/diario/sociedad/3-144884-2010-04-30.html</a></div>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a> |   <a href="http://www.blog.argatea.com.ar/2010/04/30/dime-con-quien-te-reunes-y-te-dire-que-piensas-dime-a-quien-discriminas-y-te-dire-como-piensas/#respond" title="Comentarios en Michetti, Duhalde, &#8230; y el &#8220;obispo&#8221; Marino : &#8220;Dime con quién te reúnes y te diré que piensas&#8221;, Dime a quién discriminas y te diré como piensas&#8221;">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1104"><a href="http://www.blog.argatea.com.ar/2010/03/12/bicentenario-del-conflicto/" rel="bookmark" title="Permanent Link to BICENTENARIO DEL CONFLICTO">BICENTENARIO DEL CONFLICTO</a></h3>
+				<small>Viernes, Marzo 12th, 2010</small>
+
+				<div class="entry">
+					<p>Publicación: 10/03/2010<br />
+Temática: Educacion<br />
+INTERNA EXTERNA</p>
+<p><strong class="a4n">Educación responde a sus trabajadores</strong></p>
+<p> <strong>Funcionarios del Ministerio de Educación salieron a responder, a través de este medio, a las denuncian en su contra sobre censura, realizada por un grupo de trabajadores del área con relación a la impresión de unos cuadernillos sobre el Bicentenario. </strong></p>
+<p>Por Patricio Tesei</p>
+<p><img src="http://www.noticiasurbanas.com.ar/0.gif" alt="" align="left" />Trabajadores de la Dirección de Currícula y Enseñanza del Ministerio de Educación porteño, a través de un comunicado, denunciaron “censura” luego de que las autoridades del área decidieran suspender la impresión de una serie de &#8220;documentos curriculares sobre el Bicentenario de la Revolución de Mayo&#8221;, que habían sido producidos por la misma Dirección y &#8220;aprobados por el Ministerio en diciembre de 2009&#8243;.</p>
+<p>La respuesta llegó a este medio. “La posición tomada por el Ministerio de Educación de la Ciudad respecto de los contenidos elaborados por la Dirección Operativa de Currícula y Enseñanza es evitar que la selección y redacción de los contenidos curriculares estén supeditados a la decisión de una sola persona, ya sea el Ministro, un Secretario, un Director General, o un Director Operativo”, señalaron las autoridades del ministerio que hoy comanda Esteban Bullrich.</p>
+<p>Y agregaron:<strong>“Para mantener la pluralidad de ideas se está creando una comisión de especialistas muy reconocidos en la materia de curriculum, de la cual participará la Dirección Operativa de Currícula, que diagrame y analice los contenidos curriculares, como sucede en muchos otros sistemas educativos del mundo. Este Ministerio entiende sobre la importancia y el impacto que conlleva toda decisión que atañe a lo curricular porque enriquece y forma a nada menos que a 700.000 futuros ciudadanos”.</strong></p>
+<p>http://www.noticiasurbanas.com.ar/info_item.shtml?sh_itm=47b8412ec8342589ebd2dc3bbcb848c2</p>
+<p>Publicación: 09/03/2010<br />
+Temática: Educacion<br />
+Educación acusada de censura<br />
+<strong>Una denuncia que parte de trabajadores del Ministerio de Educación porteño acusa a las autoridades del área de suspender la impresión de una serie de &#8220;documentos curriculares&#8221; preparados en ocasión del Bicentenario. Insatisfechos con las explicaciones recibidas, plantean la existencia de motivos ideológicos para la cancelación del proyecto.</strong></p>
+<p><strong><span class="autor">Por Martín Mérola</span></strong></p>
+<p><img src="http://www.noticiasurbanas.com.ar/apc-aa-nu/img_upload</p>
+<p>El festejo del Bicentenario del 25 de mayo de 1810 no sólo genera problemas a partir de fondos y decretos. La intención de llevar a los niños porteños más material sobre el origen de su país provocó en la Ciudad un enfrentamiento entre trabajadores de la Dirección de Currícula y Enseñanza y el Ministerio de Educación local.</p>
+<p>De acuerdo a lo que denunciaron los trabajadores mediante un comunicado, el Ministerio decidió suspender la impresión de una serie de "documentos curriculares sobre el Bicentenario de la Revolución de Mayo" que habían sido producidos por la misma Dirección y "aprobados por el Ministerio en diciembre de 2009". "La elaboración de los citados materiales insumió 18 meses de trabajo con la colaboración de instituciones y personalidades de reconocida trayectoria en el ámbito privado y público", comunicaron los denunciantes.</p>
+<p>Como explicación, el Ministerio planteó que se decidió por un cambio de estrategia en la forma en que se divulgarán los contenidos, pasando del formato escrito de las cuadrículas a una serie de charlas en la próxima Feria del Libro y una muestra itinerante por las escuelas. Los trabajadores argumentan que esta nueva estrategia no es incompatible con la original y el uso del material ya elaborado.</p>
+<p>Entre las consecuencias destacadas en el comunicado se cuenta el que la decisión "opera en dirección al vaciamiento de contenidos y recursos para la enseñanza en la escuela pública, agregando que la nueva estrategia no tiene alcance suficiente para incluir a todas las escuelas. También se cita la pérdida de los recursos ya invertidos y los derechos cedidos gratuitamente por diversas instituciones.</p>
+<p>Para cerrar, se argumenta que la medida "tiende a vaciar a la Dirección de Currícula y Enseñanza de las actividades que le corresponden en la estructura ministerial, a la vez que desvaloriza la tarea y producción de los trabajadores de la educación". <strong>El planteo es que si no hay una explicación más satisfactoria sobre el por qué se suspendió la estrategia original, se trataría de un caso de censura.</strong></p>
+<p>http://www.noticiasurbanas.com.ar/info_item.shtml?sh_itm=7872d4a3dd2a0c4ecab4ebcf668f9978</p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a> |   <a href="http://www.blog.argatea.com.ar/2010/03/12/bicentenario-del-conflicto/#respond" title="Comentarios en BICENTENARIO DEL CONFLICTO">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1103"><a href="http://www.blog.argatea.com.ar/2010/03/12/direccion-de-curricula-de-la-cartera-educativa-portena-y-el-manoseo-con-censura-ideologica-de-la-educacion-por-vicaria-episcopal/" rel="bookmark" title="Permanent Link to EL MINISTERIO DE EDUCACION PORTEÑO y el manoseo con censura ideológica de &#8220;TEXTOS SOBRE EL BICENTENARIO&#8221;, desde la Vicaría Episcopal">EL MINISTERIO DE EDUCACION PORTEÑO y el manoseo con censura ideológica de &#8220;TEXTOS SOBRE EL BICENTENARIO&#8221;, desde la Vicaría Episcopal</a></h3>
+				<small>Viernes, Marzo 12th, 2010</small>
+
+				<div class="entry">
+					<p>Viernes, 12 de marzo de 2010</p>
+<p><strong>EL MINISTERIO DE EDUCACION PORTEÑO DIO MARCHA ATRAS CON LA PUBLICACION DE TEXTOS SOBRE EL BICENTENARIO</strong></p>
+<p><strong>Bullrich sólo lee la historia oficial</strong></p>
+<p><strong>Los equipos de historiadores de la Dirección de Currícula de la cartera educativa porteña elaboraron textos basados en dos ejes: el Estado como una construcción social y los protagonistas subalternos. La Iglesia habría cuestionado el enfoque gramsciano.</strong></p>
+<p>Por Nora Veiras<img class="alignright" style="width: 232px; float: right;" src="http://www.pagina12.com.ar/fotos/thumb/232/20100312/notas/na15fo01.jpg" alt="/fotos/20100312/notas/na15fo01.jpg" /></p>
+<p>El jefe de Gobierno porteño, Mauricio Macri, junto al ministro Esteban Bullrich.<strong></strong></p>
+<p><strong>Durante dieciocho meses, un equipo de historiadores trabajó en la elaboración de documentos para conmemorar el Bicentenario en las escuelas porteñas con el aval del ex ministro de Educación macrista Mariano Narodowski. Los textos, láminas, folletos y líneas de tiempo ya estaban en imprenta cuando el team del nuevo ministro Esteban Bullrich empezó a mostrarse inquieto. Tras sucesivas reuniones y contradicciones, un comunicado explicó que “para mantener la pluralidad de ideas se está creando una comisión de especialistas muy reconocidos, que diagrame y analice los contenidos curriculares”. La impresión quedó suspendida. <span style="color: #ff0000;">Los historiadores concluyeron que “ante la falta de argumentos se sospecha de una censura ideológica”. El veredicto condenatorio de la Vicaría Episcopal para la Educación, encabezada por el presbítero Juan Torella, habría sido el motivo del cambio de estrategia.</span></strong></p>
+<div id="imagen">
+<p>“Dentro de los nuevos temas que se comenzaron a discutir en este resurgimiento de la historia política se encuentra el estudio de los sectores populares como sujetos activos de la historia, sus modos de intervención y su pensamiento político (&#8230;) Reconociendo una influencia directa de los escritos de Gramsci que planteaban su interés por la recuperación de la historia de los grupos sociales subalternos, a los que definía como ‘cualquiera que esté su-bordinado en términos de clase, casta, edad, género y oficio o de cualquier otro modo’”, explican los historiadores en la introducción de los textos pensados para el nivel medio.</p>
+<p><strong>El teórico marxista italiano Antonio Gramsci es una de las obsesiones del titular de la Comisión de Educación del Episcopado, el arzobispo de La Plata Héctor Aguer. <span style="color: #ff0000;">Apeló al descalificativo de “gramscianos” para oponerse a la asignatura incorporada en las secundarias bonaerenses como Construcción de la Sociedad</span>. </strong>En las sucesivas marchas y contramarchas desatadas a partir de la designación de Mercedes Miguel como directora de Planeamiento, acompañada por Sergio Siciliano, deslizaron que habían mostrado los materiales a un sector de mucha influencia en la sociedad que los había cuestionado. Ante la reacción de los equipos de historiadores adujeron entonces razones presupuestarias que impedían la impresión de los textos para entregarlos a las escuelas. Más reuniones, notas enviadas al ministro, nunca respondidas, y presentaciones ante la Defensoría del Pueblo provocaron nuevas justificaciones y cambios de estrategia. Un comunicado, firmado por trescientas personas del área curricular y acompañada por la Unión de Trabajadores de la Educación (UTE), potenció la protesta. <strong>Informaron entonces que los materiales para la educación inicial y primaria van a publicarse en CD y van a hacer las láminas que lo acompañan. En el caso del nivel medio les dijeron que van a publicar el material complementario de los cuatro sujetos privilegiados: mujeres, grupos originarios, africanos, afroamericanos, trabajadores y desocupados y las treinta y dos tarjetas sobre medios de comunicación y política que recorren de 1810 a 2010. Los textos no aparecerán ni siquiera en CD.</strong></p>
+<p>Desde que Bullrich desembarcó en Educación para suceder al efímero Abel Parentini Posse, los hombres y mujeres de la Iglesia reforzaron su presencia en el gabinete que más les interesa a los purpurados. Licenciado en Sistemas y con apenas un voluntariado de dos meses en Nicaragua para enseñar Matemática en un orfanato, Bullrich está lejos de ser un especialista en Historia. Ante el escandelete que despuntaba por el cambio de planes con los trabajos realizados por la Dirección de Currícula, el ministro sacó un comunicado –difundido a través del portal Noticias Urbanas– en el que anunció la formación de “una comisión de especialistas muy reconocidos en la materia currículum” que “diagrame y analice” los contenidos curriculares “como sucede en muchos otros sistemas educativos del mundo. “Este Ministerio entiende sobre la importancia y el impacto que conlleva toda decisión que atañe a lo curricular porque enriquece y forma a nada menos que a 700.000 futuros ciudadanos”, sostuvo en el texto. Horas después, en la Dirección de Currícula recibieron la noticia de la publicación desdoblada en CD de parte de los materiales. Sobre la comisión supervisora de notables nadie informó quiénes serían ni para qué teniendo en cuenta las decisiones tomadas. Este diario no recibió respuesta a los mensajes dejados en el contestador de la cartera educativa porteña.</p>
+<p>Uno de las historiadores, que pidió reserva de su nombre, explicó a Página/12 que “nos dijeron que los materiales para Media son los que menos le gustaron a Esteban (Bullrich). Recorren 1810-2010 en dos ejes, pensando al Estado como una construcción colectiva y privilegiando la mirada de acción de grupos subalternos, buscamos mirar formas de intervención, formas de asociaciones, escenarios de conflictivdad y resistencia. Esta fundamentación está explícita. Como en los relatos tradicionales estos sujetos están poco visibles, desde el ministerio y, acompañando los contenidos mínimos que también los privilegian, buscamos esas miradas.”</p>
+<p>La desazón del equipo de Currícula, que fue avalado para realizar los trabajos por la directora del área, Graciela Capelletti, se acentuó porque en diciembre la revista Plural, editada por el propio ministerio, anticipó la publicación de los materiales que llegarían a todas las escuelas. En febrero, Laura Manolakis, la directora de Planeamiento, felicitó a los especialistas y anunció que los trabajos saldrían con una presentación suya. Poco después Manolakis, sobreviviente de la gestión Narodowski, fue desplazada y todo empezó de nuevo.</p>
+<p>En una detallada nota enviada a los medios, los profesores de Historia destacaron que en la elaboración de los trabajos recibieron la colaboración de distintas instituciones como el Museo Histórico Nacional, el Museo Nacional de Bellas Artes, el Centro de Estudios Legales y Sociales, el Museo del Cabildo y la Revolución, la Facultad de Filosofía y Letras UBA, entre otras. Los docentes advirtieron que la decisión de no publicar los trabajos “opera en dirección al vaciamiento de contenidos y recursos para la enseñanza en la escuela pública. La ‘otra estrategia’ que el Ministerio de Educación mencionó no puede incluir a la totalidad de escuelas y docentes de los tres niveles educativos aludidos y no resulta un recurso de acceso permanente como los documentos.”</p>
+</div>
+<div id="permalink">Link a la nota:<br />
+<a href="http://www.pagina12.com.ar/imprimir/diario/elpais/1-141860-2010-03-12.html">http://www.pagina12.com.ar/imprimir/diario/elpais/1-141860-2010-03-12.html</a></div>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a> |   <a href="http://www.blog.argatea.com.ar/2010/03/12/direccion-de-curricula-de-la-cartera-educativa-portena-y-el-manoseo-con-censura-ideologica-de-la-educacion-por-vicaria-episcopal/#respond" title="Comentarios en EL MINISTERIO DE EDUCACION PORTEÑO y el manoseo con censura ideológica de &#8220;TEXTOS SOBRE EL BICENTENARIO&#8221;, desde la Vicaría Episcopal">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1068"><a href="http://www.blog.argatea.com.ar/2010/01/18/sentido-comun/" rel="bookmark" title="Permanent Link to Sentido común: &#8220;El pecado&#8221; de ser pobre">Sentido común: &#8220;El pecado&#8221; de ser pobre</a></h3>
+				<small>Lunes, Enero 18th, 2010</small>
+
+				<div class="entry">
+					<p><img style="vertical-align: middle;" src="http://3.bp.blogspot.com/_bN1UGKziYDQ/S076H0L3mlI/AAAAAAAAEhU/U9h1a2EP3Qs/s1600/14%2Bgener.jpg" alt="" width="641" height="485" /><strong><a href="http://peproig.blogspot.com/"></a></strong></p>
+<p><strong><a href="http://peproig.blogspot.com/">http://peproig.blogspot.com/</a></strong></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a> |   <a href="http://www.blog.argatea.com.ar/2010/01/18/sentido-comun/#respond" title="Comentarios en Sentido común: &#8220;El pecado&#8221; de ser pobre">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1056"><a href="http://www.blog.argatea.com.ar/2010/01/04/los-abogados-del-bergoglio-pedido-judicial-para-que-se-anule-matrimonio-gay/" rel="bookmark" title="Permanent Link to Los abogados del Bergoglio: Pedido judicial para que se anule matrimonio gay">Los abogados del Bergoglio: Pedido judicial para que se anule matrimonio gay</a></h3>
+				<small>Lunes, Enero 4th, 2010</small>
+
+				<div class="entry">
+					<h2>Matrimonio de “desobedientes”<strong></strong></h2>
+<p>Un abogado vinculado con el <strong><span style="color: #800000;">nacionalismo católico</span></strong> presentó ante la Cámara Nacional en lo Civil un recurso para que se declare nulo el matrimonio entre Freyre y Di Bello. Y pidió que los esposos y la gobernadora Fabiana Ríos sean investigados por “desobediencia”.</p>
+<p>El abogado reclamó que la Justicia secuestre el acta de matrimonio firmada en la ciudad de Ushuaia.</p>
+<p>El casamiento de <strong>Alex Freyre y José María Di Bello</strong> fue un “verdadero escándalo” que está cerca de configurar delito de “desobediencia”, argumentó el abogado Pedro Javier María Andereggen al momento de presentar, sobre el filo de la feria judicial, un pedido de nulidad del matrimonio ya formalizado.</p>
+<p class="margen0">El abogado vinculado fuertemente a los <span style="color: #800000;"><strong>sectores nacionalistas católicos de la revista Cabildo y la Asociación Cristo Sacerdote,</strong></span> entre otras agrupaciones, realizó el trámite ante la Cámara Nacional en lo Civil, a la que demandó que los flamantes esposos y la gobernadora de Tierra del Fuego, Fabiana Ríos, sean investigados penalmente por desobedientes. Andereggen, además, solicitó que la Justicia anule el matrimonio proceda a secuestrar “la partida y libreta”, aun cuando el segundo documento no existe porque el Registro Civil fueguino está en deuda con la entrega de libretas desde hace dos años.</p>
+<p>La presentación, que hasta el momento es la primera, sostiene que Freyre, Di Bello y Ríos, al realizar la boda, obraron “en abierta violación a la medida cautelar” dictada el 1º de diciembre por la Sala E de la Cámara Civil nacional. “En tales condiciones, la desobediencia judicial resulta evidente y manifiesta por parte de los Sres. Alejandro Freyre y José María Di Bello”, porque Freyre sería parte de la causa judicial abierta en la ciudad de Buenos Aires y por lo tanto habría sido notificado de la suspensión de su boda.</p>
+<p>La nueva demanda, sin embargo, es falaz al menos en ese término: la causa previa que refiere como impedimento no involucra a Freyre. Se trata, en realidad, según publicó este diario el 5 de diciembre, de la consecuencia de un pedido realizado el 17 de noviembre, y que la jueza María Rosa Bosio, del Juzgado Civil 92 había rechazado por improcedente (de la misma opinión fue la fiscal Raquel Mercante): Andereggen pedía la nulidad de la autorización de Seijas que posibilitaba el matrimonio, argumentando que esa magistrada no tenía competencia para revisar una cuestión de fondo relacionada con el Código Civil. Luego de que Bosio desestimara la demanda, Andereggen encontró aliados en la Sala E de la Cámara (integrada por los jueces Juan Carlos Dupuis, Fernando Racimo y Mario Calatayud), que el mismo 1º de diciembre, fecha del casamiento, dictó la medida cautelar y la notificó sin demoras al Registro Civil, mientras Freyre y Di Bello esperaban el inicio de la ceremonia.</p>
+<p>En lo que a Ríos refiere, Andereggen solicitó que se inicie una investigación por desobediencia para determinar “si existe imputación de ese delito también a la gobernadora”. Los contrayentes y la funcionaria habrían violado, según entiende el abogado también conocido porque en 2004 pidió el cierre de la exposición antológica de León Ferrari en el Centro Cultural Recoleta, la mismísima lógica. “Se extiende la demanda de nulidad planteada en estos autos, por lógica consecuencia, a este hecho nuevo, es decir al matrimonio celebrado en la ciudad de Ushuaia”, escribió Andereggen, quien pidió a la Cámara Civil que habilite la feria judicial para tratar su pedido de anulación del matrimonio.</p>
+<p>Alex Freyre y José María Di Bello lograron convertirse en marido y marido el lunes 28 de diciembre, en la que fue la última boda de 2009 celebrada en Ushuaia. Lo consiguieron luego de que el Registro Civil fueguino les denegara el turno para casarse y, así, les diera pie a presentar un recurso jerárquico, en el que, por el camino administrativo, solicitaron la intervención del Poder Ejecutivo provincial. Ríos, tras un dictamen favorable de los abogados de la gobernación, firmó el decreto que autorizó la celebración del matrimonio, habida cuenta del fallo de Seijas, el planteo de inconstitucionalidad del impedimento, y una recomendación presentada por el Inadi.</p>
+<p>Inicialmente, la pareja planeaba casarse en la ciudad de Buenos Aires el 1º de diciembre. En una decisión que sorprendió a propios y ajenos, el jefe de Gobierno Mauricio Macri no había apelado el fallo de la jueza porteña Seijas, por lo que ya había quedado firme y despejaba el camino para celebrar el matrimonio. Sin embargo, a horas del inicio de la ceremonia, un juzgado y la propia Cámara Civil del ámbito nacional decidieron suspenderla.</p>
+<p><img src="http://www.pagina12.com.ar/fotos/thumb/232/20100102/notas/na12fo10.jpg" alt="" width="232" height="161" /></p>
+<div id="permalink">Link a la nota:</p>
+<p><a href="http://www.pagina12.com.ar/imprimir/diario/sociedad/3-137927.html">http://www.pagina12.com.ar/imprimir/diario/sociedad/3-137927.html</a></div>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/entrevistas/" title="Ver todas las entradas en Entrevistas" rel="category tag">Entrevistas</a>,  <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a>,  <a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas en Personajes" rel="category tag">Personajes</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/01/04/los-abogados-del-bergoglio-pedido-judicial-para-que-se-anule-matrimonio-gay/#respond" title="Comentarios en Los abogados del Bergoglio: Pedido judicial para que se anule matrimonio gay">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1054"><a href="http://www.blog.argatea.com.ar/2009/12/30/mexico-los-protegidos-del-vaticano-buscan-recuperar-privilegios/" rel="bookmark" title="Permanent Link to México: Los protegidos del Vaticano buscan recuperar privilegios">México: Los protegidos del Vaticano buscan recuperar privilegios</a></h3>
+				<small>Mi&eacute;rcoles, Diciembre 30th, 2009</small>
+
+				<div class="entry">
+					<h3 style="text-align: justify;"><a href="http://www.argenpress.info/2009/12/cardenales-y-obispos-protegidos-por-el.html">Cardenales y obispos protegidos por el Papa y Calderón, buscan recuperar privilegios en México</a></h3>
+<h3 style="text-align: justify;"><span style="font-size: 11pt; font-weight: normal;"><br />
+Pedro Echeverría (especial para ARGENPRESS.info)</span></h3>
+<h3 style="text-align: justify;"><span style="font-size: 11pt; font-weight: normal;">1. Ayer, en su homilía dominical, el cardenal Rivera Carrera aseguró que “la cultura moderna, además de atacar a la familia con la poligamia y el adulterio, hoy la agrede en su esencia por la equiparación de las uniones homosexuales con el matrimonio entre el hombre y la mujer, hasta el punto de permitir la adopción de niños y niñas en el seno de esas uniones. La Iglesia enseña que el respeto hacia las personas homosexuales no puede, en modo alguno, llevar a la legalización de las uniones homosexuales. El bien común exige que las leyes reconozcan, favorezcan y protejan la unión matrimonial como base de la familia, célula primaria de la sociedad”. El arzobispo de México, cardenal con una enorme presencia, está a la cabeza del alto clero mexicano que ha sido acusado de protector de pederastas, de estar aliado al gobierno panista y a poderosos empresarios.</span></h3>
+<h3 style="margin: 0cm 0cm 0.0001pt; text-align: justify;"><span style="font-size: 11pt; font-weight: normal;">2. Desde que el presidente Carlos Salinas le otorgó todos los derechos al clero en 1992 y estableció totales relaciones con el Estado Vaticano, la poderosa jerarquía eclesiástica no ha descansado en la búsqueda de la recuperación de su dominación arrebatada a mediados del siglo XIX por las fuerzas liberales juaristas. El clero, los militares y los sectores de derecha impulsaron una guerra contra la Reforma liberal (1858/60), luego aprovecharon los privilegios de los 35 años (1876/1911) de la dictadura porfirista y en 1926 lanzó una Guerra Cristera contra el gobierno de la revolución y la Constitución de la República. Es por esa terrible historia, en la que el clero ha estado siempre aliado a las clases explotadoras y opresoras, por la que hay que tener mucho cuidado en sus intervenciones y su fortalecimiento. El PAN y el PRI neoliberales han apoyado su fortalecimiento.</span></h3>
+<h3 style="margin: 0cm 0cm 0.0001pt; text-align: justify;"><span style="font-size: 11pt; font-weight: normal;">3. No me metería a discutir el significado ideológico o filosófico de las religiones porque pienso como Marx que es simplemente “el opio del pueblo”. La palabra “opio” no es despectiva ni agresiva, pues el opio sólo es una droga analgésica narcótica que “se extrae de las cabezas verdes de la adormilera” (planta similar a la amapola). Parecería que la religión sólo adormece, da protección y descanso a la gente humilde en esta putrefacta sociedad capitalista que mata de hambre, enloquece a la persona y la arrincona negándole todas las salidas. ¿Cómo los humildes pueden huir de la opresión y sus penalidades si no cuentan con otras propuestas, con ideas liberadoras que las ayuden a despertar? Por eso el alto clero, a través de los siglos, se ha aprovechado de esa bondad y desesperación humana, para prometerles el cielo como salvación ante sus sufrimientos en la tierra.</span></h3>
+<h3 style="margin: 0cm 0cm 0.0001pt; text-align: justify;"><span style="font-size: 11pt; font-weight: normal;">4. ¿Qué pueden hacer los millones de familias que durante días y semanas no han tenido que comer, no les ha salido un trabajo, han visto enfermarse gravemente a sus hijos, etcétera y de pronto, sin poderse explicar racionalmente el por qué de las cosas, “como un milagro”, obtienen un ingreso económico, comen y sus hijos moribundos salvan su vida? ¿Cuántas millones de promesas se hacen a cualquier santo, a cualquier Dios, en los momentos de mayor desesperación que sirven de alivio, de descanso, de “colchón”, para que la gente más pobre y más honesta no tenga que darse con la pared? Por eso pienso que mientras exista el capitalismo, la explotación, la opresión y la miseria, la gran mayoría de la población tendrá que encontrar un lugar para desahogar sus penas y sus sufrimientos. Parece que la religión ayuda es fundamental para dormir el alma. El pueblo parece necesitarla.</span></h3>
+<h3 style="margin: 0cm 0cm 0.0001pt; text-align: justify;"><span style="font-size: 11pt; font-weight: normal;">5. El problema no es la religión como ideología porque en última instancia hay una enorme cantidad de ideologías y religiones en el mundo y cada quien puede adoptar la que quiera. El problema surge cuando las personas o grupos las interpretan para beneficio de sus intereses personales y se aprovechan de la gente honesta que los siguen. Todavía se puede hablar en México de alto clero o gran jerarquía eclesiástica que forma parte de la clase dominante y de los sectores minoritarios que determinan acerca de las políticas de Estado; pero también de clero bajo que es la gran masa de sacerdotes o curas de pueblos y pequeñas ciudades ligados directamente a los problemas de la población tales como miseria y pobreza, defensa de derechos indígenas, campesinos y sectores marginados. Sus ideologías suelen oponerse en los momentos en que la población se manifiesta.</span></h3>
+<h3 style="margin: 0cm 0cm 0.0001pt; text-align: justify;"><span style="font-size: 11pt; font-weight: normal;">6. La alta jerarquía católica en México, formada por los delegados papales, cardenales y arzobispos de casi todas las grandes capitales de los estados de la República, mantiene un papel determinante en las políticas de cada entidad. Todos los políticos de alto nivel deben lograr “la bendición” de esos jerarcas para obtener algún cargo de elección, de lo contrario su partido será castigado desde el púlpito y las sacristías de la iglesias. El clero –como los fuertes partidos y organizaciones empresariales hace alta política desde la cúspide del poder para conservar los privilegios que durante siglos ha tenido. Cuando desde el púlpito condena el aborto o su legalización, cuando combate a los homosexuales prohibiendo que pudieran formar una propia familia con hijos adoptados o cuando llama a sus feligreses a no votar por partidos no religiosos, están interviniendo directamente en política.</span></h3>
+<p style="text-align: justify;"><span style="font-size: 11pt; font-family: Arial;">7. En los dos últimos años el alto clero, mediante un arreglo o acuerdo con el gobierno del PAN y los líderes del PRI han logrado echar abajo en 18 estados -de los 32 en que se divide el país- de las medidas avanzadas que años antes se habían logrado en materia de aborto y sociedades de convivencia. No se han podido imponer en la Ciudad de México donde desde hace 12 años gobierno el PRD. Es el motivo por el cual el Cardenal Norberto Rivera va ahora con toda su fuerza después de varios ensayos provocadores que ha preparado contra los gobiernos del PRD y López Obrador. Lo que el clero busca es recuperar el mayor poder posible en estos momentos en que el gobierno de la derecha panista, apuntalado por el ejército, demuestra tener fuerza. La pregunta sería: ¿Tendrán los ciudadanos del DF la fuerza para confrontar a los mercaderes de la iglesia?</span></p>
+<p class="MsoNormal">
+<p><a href="http://www.argenpress.info/2009/12/cardenales-y-obispos-protegidos-por-el.html" target="_blank">http://www.argenpress.info/2009/12/cardenales-y-obispos-protegidos-por-el.html</a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a> |   <a href="http://www.blog.argatea.com.ar/2009/12/30/mexico-los-protegidos-del-vaticano-buscan-recuperar-privilegios/#respond" title="Comentarios en México: Los protegidos del Vaticano buscan recuperar privilegios">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1004"><a href="http://www.blog.argatea.com.ar/2009/08/23/bendita-soja/" rel="bookmark" title="Permanent Link to BENDITA SOJA">BENDITA SOJA</a></h3>
+				<small>Domingo, Agosto 23rd, 2009</small>
+
+				<div class="entry">
+					<p>9/07/08</p>
+<p><img id="BLOGGER_PHOTO_ID_5221152986695560050" style="margin: 0px 0px 10px 10px; float: right;" src="http://3.bp.blogspot.com/_SBP5ycDJZhM/SHVC-oH1a3I/AAAAAAAACSs/g5iOpjjkSHs/s400/pecado.jpg" border="0" alt="" width="244" height="343" /></p>
+<h3 class="post-title entry-title"><strong> </strong></h3>
+<div class="post-body entry-content"><strong><a href="http://3.bp.blogspot.com/_SBP5ycDJZhM/SHVC-oH1a3I/AAAAAAAACSs/g5iOpjjkSHs/s1600-h/pecado.jpg"></a></strong><a href="http://lomasnuevoolomasviejo-besuzzo.blogspot.com/">http://lomasnuevoolomasviejo-besuzzo.blogspot.com/</a></p>
+<p><strong></strong></p>
+<div><a href="http://lomasnuevoolomasviejo-besuzzo.blogspot.com/2008_07_01_archive.html"><span style="font-size: 180%; font-family: trebuchet ms;"><strong><strong><em>Bendita soja</em></strong></strong></span></a></div>
+<div><span style="font-size: 180%; font-family: trebuchet ms;"><strong><strong><em><br />
+</em></strong></strong></span><strong>Por Horacio Verbitsky<br />
+El Grupo de Reflexión Rural, que orienta el militante de la resistencia peronista Jorge Eduardo Rulli, reveló que <em><span style="color: #ff0000;"><strong>una rama de la Federación Agraria Argentina, en combinación con la transnacional Monsanto, introdujo el cultivo de su variedad transgénica en el país y que la Iglesia Católica tiene interés directo en el negocio</strong>. </span></em>En el editorial de su programa Horizonte Sur que, pese a su posición hipercrítica hacia el gobierno, se sigue transmitiendo por Radio Nacional, <strong><em><span style="color: #ff6666;"><span style="color: #ff0000;">Rulli recordó que desde la Central de los Trabajadores Argentinos, CTA, denunció a la Federación Agraria, a fines de la década pasada, “por haber multiplicado las primeras semillas de soja RR en combinación con Monsanto</span>”</span></em></strong>. En ese momento el secretario general de la CTA era Víctor De Gennaro. Ante la desmentida de Buzzi<a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVMcb0BRcI/AAAAAAAACUE/HU9yb9E7Gcg/s1600-h/images.jpg"><img id="BLOGGER_PHOTO_ID_5221163394391950786" style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVMcb0BRcI/AAAAAAAACUE/HU9yb9E7Gcg/s400/images.jpg" border="0" alt="" /></a><br />
+el Grupo de Reflexión Rural emprendió una investigación en <strong><em><span style="color: #ff0000;">el archivo de la Federación Agraria. Allí descubrió que el negocio con las semillas de Monsanto<a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVLSejpLnI/AAAAAAAACT8/bJ2WhLEHSuw/s1600-h/250px-MonsantoLogo.png"><img id="BLOGGER_PHOTO_ID_5221162123818249842" style="margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVLSejpLnI/AAAAAAAACT8/bJ2WhLEHSuw/s400/250px-MonsantoLogo.png" border="0" alt="" /></a> lo había realizado AFA, “una rama de la Federación Agraria, en manos de los pro-chinos”. Es decir, de la fracción que conducen el presidente de la Federación Agraria de Entre Ríos, Alfredo De Angeli<a href="http://1.bp.blogspot.com/_SBP5ycDJZhM/SHVGic6sPrI/AAAAAAAACTk/fQl8o-B14Yo/s1600-h/damdgeli.jpg"><img id="BLOGGER_PHOTO_ID_5221156900697816754" style="margin: 0px 0px 10px 10px; float: right;" src="http://1.bp.blogspot.com/_SBP5ycDJZhM/SHVGic6sPrI/AAAAAAAACTk/fQl8o-B14Yo/s400/damdgeli.jpg" border="0" alt="" width="276" height="138" /></a>, y su vicepresidente y responsable del Partido Comunista Revolucionario, Juan Alberto Echeverría, con varias condenas por evasión fiscal. Rulli sostiene que “Buzzi lo sabía y nos podría haber evitado tanta búsqueda y esfuerzo”. El orientador del Grupo de Reflexión Rural también recordó que “hace ocho o nueve años”, durante un retiro cerrado de Caritas, le entregó en mano al obispo Jorge Casaretto<br />
+“una carpeta con evidencias científicas sobre los daños que la ingesta de soja ocasiona en el </span></em></strong></strong><strong><strong><em><span style="color: #ff0000;"><a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGXhz8HrI/AAAAAAAACS8/8LBytBqWjnM/s1600-h/cassretto.jpg"><img id="BLOGGER_PHOTO_ID_5221156713033113266" class="alignright" style="border: 0pt none; margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGXhz8HrI/AAAAAAAACS8/8LBytBqWjnM/s400/cassretto.jpg" border="0" alt="" width="260" height="206" /></a></span></em></strong></strong><strong><strong><em><span style="color: #ff0000;">desarrollo neurológico y hormonal de los niños”.</span></em></strong> </strong></div>
+<div><strong>Por eso, el obispo “no puede ignorar las consecuencias de aquellos supuestos planes solidarios que implementaba la institución que presidía”. </strong></div>
+<div><strong>Se refiere a los cursos que Caritas organizó en todo el país para incluir la soja en la dieta diaria. </strong></div>
+<div><strong>Rulli también discutió el tema con el <span style="color: #ff0000;"><em><strong>ingeniero<br />
+Eduardo Luis Serantes, presidente de la institución de beneficencia de la Iglesia Católica. “Me respondió con desplante que contaba con todo el respaldo de la Secretaría de Agricultura y del gobierno”, en la gestión de Fernando </strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong><a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGiMOK9cI/AAAAAAAACTc/woZxoNBe7mw/s1600-h/serantes.jpg"><img id="BLOGGER_PHOTO_ID_5221156896216118722" style="margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGiMOK9cI/AAAAAAAACTc/woZxoNBe7mw/s400/serantes.jpg" border="0" alt="" width="239" height="209" /></a></strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong>de la Rúa. Rulli añade que Serantes sigue siendo presidente de Caritas y al mismo tiempo director de la empresa de agronegocios Cazenave y Asociados,</strong></em></span></strong></div>
+<div><strong><span style="color: #ff0000;"><em><strong><a href="http://www.e-cazenave.com.ar/"> http://www.e-cazenave.com.ar/</a> </strong></em></span></strong></div>
+<div><strong><span style="color: #ff0000;"><em><strong>una consultora que brinda servicios agropecuarios a empresas exportadoras. También es responsable del fondo agrícola de inversión de Molinos y asesor de empresas agroindustriales y de servicios, como Dow Agro Sciences SA. En su publicación oficial Huellas de Esperanza Caritas anunció recetas de milanesas de soja y en las páginas interiores encomió los planes de “ayuda solidaria” organizados por las grandes empresas sojeras y un proyecto de fabricación de hamburguesas de soja en Entre Ríos, en colaboración con Aapresid, la Asociación de Siembra Directa, promotora del modelo sojero. En la semana previa al acto del 25 de mayo de este año en Rosario, Casaretto y Serantes </strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong><a href="http://4.bp.blogspot.com/_SBP5ycDJZhM/SHVGiT9zZgI/AAAAAAAACTs/l89uOTJfggk/s1600-h/cea.jpg"><img id="BLOGGER_PHOTO_ID_5221156898294949378" style="margin: 0px 0px 10px 10px; float: right;" src="http://4.bp.blogspot.com/_SBP5ycDJZhM/SHVGiT9zZgI/AAAAAAAACTs/l89uOTJfggk/s400/cea.jpg" border="0" alt="" width="142" height="165" /></a></strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong>recibieron en San Isidro al presidente de la Sociedad Rural, Luciano Miguens, quien les pidió ayuda para forzar al gobierno a una negociación. La respuesta fue la declaración del Episcopado que instó al diálogo, y que la Comisión de Enlace mencionó para explicar la suspensión del lockout patronal. Fue la primera declaración en muchos años en la que la conducción episcopal no mencionó el grave problema de la pobreza.,<a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGYNLWNJI/AAAAAAAACTU/1udKBI7Bpto/s1600-h/huellas-logo.gif"><img id="BLOGGER_PHOTO_ID_5221156724674016402" class="alignleft" style="margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGYNLWNJI/AAAAAAAACTU/1udKBI7Bpto/s400/huellas-logo.gif" border="0" alt="" width="194" height="47" /></a><br />
+</strong></em></span></strong></div>
+<p><strong><em><strong></strong></em> </strong></p>
+</div>
+<div class="addthis_toolbox addthis_default_style"><strong><a class="addthis_button_facebook at300b" title="Send to Facebook" href="http://www.addthis.com/bookmark.php?pub=walterbesuzzo&amp;v=250&amp;source=tbx-250&amp;s=facebook&amp;url=http%3A%2F%2Flomasnuevoolomasviejo-besuzzo.blogspot.com%2F2008%2F07%2Fbendita-soja.html&amp;title=Bendita%20soja&amp;content=" target="_blank"></a> <a class="addthis_button_email at300b" title="Email"></a> <a class="addthis_button_favorites at300b" title="Save to Favorites"></a> <a class="addthis_button_print at300b" title="Print"></a> </strong></div>
+<p><a href="http://lomasnuevoolomasviejo-besuzzo.blogspot.com/2008_07_01_archive.html"><span class="post-author vcard"><strong><br />
+</strong></span></a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a>,  <a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas en Personajes" rel="category tag">Personajes</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2009/08/23/bendita-soja/#respond" title="Comentarios en BENDITA SOJA">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-997"><a href="http://www.blog.argatea.com.ar/2009/08/11/tres-investigadores-analizan-la-concepcion-de-la-pobreza-que-tiene-caritas/" rel="bookmark" title="Permanent Link to TRES INVESTIGADORES ANALIZAN LA CONCEPCION DE LA POBREZA QUE TIENE CARITAS">TRES INVESTIGADORES ANALIZAN LA CONCEPCION DE LA POBREZA QUE TIENE CARITAS</a></h3>
+				<small>Martes, Agosto 11th, 2009</small>
+
+				<div class="entry">
+					<p>Martes, 11 de agosto de 2009<br />
+Tres investigadores analizan la concepción de la pobreza que tiene Cáritas</p>
+<p><strong>“Ven al pobre como un sujeto pasivo”</strong><br />
+Tras la controversia por los planteos del Vaticano y el Episcopado sobre la pobreza, un estudio realizado en la Universidad de Córdoba concluye que Cáritas “<strong>opta por darles a los pobres, pero sin permitirles actuar y dependiendo de la solidaridad y la caridad ajena”.</strong><br />
+Por Mariana Carbajal<br />
+Los investigadores de la UNC relevaron documentos públicos y privados de Cáritas Córdoba.<br />
+El Vaticano y el Episcopado se refirieron la semana pasada al “escándalo de la pobreza” en la Argentina. Y lo hicieron en el marco de la colecta Más por Menos, que la Iglesia realiza a través de Cáritas. Pero, ¿qué significa la pobreza para Cáritas? ¿Qué valores guían su labor? Opción sin pobres es el escueto pero elocuente título de una investigación que, justamente, buceó en los documentos de la institución. En esas tres palabras se resumen las conclusiones que obtuvieron tres comunicadores sociales, Horacio Javier Etchichury, Soledad Ceballos y Laura Bálsamo, que analizaron el rol de la entidad en la provincia de Córdoba: “Cáritas Arquidiocesana de Córdoba opta por darles a los pobres, pero sin permitirles actuar, sin revertir su situación y dependiendo de la solidaridad y la caridad ajena”, sintetizan.</p>
+<p>El estudio se basa en el análisis de un conjunto de materiales gráficos producidos por Cáritas entre 1998 y 2002; algunos públicos, como las cartillas y folletos; y otros de circulación interna, como el Proyecto Institucional de 2002. “No hicimos un trabajo de observación o de campo; nos hemos centrado en el planteo, las ideas en que se basa su acción”, aclara Ceballos, integrante del Centro de Comunicación y Género de la Red Nosotras en el Mundo. Los tres autores dialogaron con Página/12 y comentaron sus impresiones sobre la propuesta de Cáritas. “Apelar a la caridad eterna de las personas que contribuyen con un vuelto de supermercados o tejiendo un cuadrito de lana, considerando que allí se terminan todas las posibilidades de revertir esa situación –en el caso de que eso fuera lo que se pretende–”, resumen en el libro.</p>
+<p><strong>–¿Cuál es la visión que tiene Cáritas de los pobres?</strong></p>
+<p><strong>S. C.</strong>: –En torno del “pobre”, Cáritas Córdoba representa en general a un sujeto pasivo; no enfatiza sus iniciativas ni sus recursos propios; el pobre no parece capaz de transformar su situación de pobreza.</p>
+<p><strong>L. B.</strong>: –Es, además, un sujeto diferente de Cáritas, un “otro” social y cultural, que no tiene su misma condición. Tampoco se nombra a los pobres como ciudadanos, y esto ayuda a desplazar la cuestión de la pobreza desde el ámbito de lo público a lo privado.</p>
+<p>Ceballos y Bálsamo iniciaron el trabajo como tesis de la licenciatura en Comunicación Social de la UNC, bajo la dirección de Etchichury, profesor de Derecho Constitucional de la Universidad Nacional de Córdoba y ex colaborador del Servicio Paz y Justicia. El libro está prologado por el ex sacerdote tercermundista Erio Vaudagna e incluye un capítulo escrito por Etchichury, en el que compara la propuesta de Cáritas con otra: la que postulan los derechos sociales contemplados en la Constitución. “Quisimos encontrar las representaciones sobre la pobreza que existían en Cáritas Córdoba, y también sobre los actores sociales y sus acciones, además de los valores que guiaban la tarea de la institución. Intentamos describir la propuesta de Cáritas frente a la pobreza: qué es, qué hay que hacer frente a ella, quiénes deben hacerlo”, precisó Bálsamo.</p>
+<p><strong>–¿Y cómo se ve Cáritas a sí misma?</strong></p>
+<p><strong>L. B.</strong>: –En principio, se muestra con un rol mediador. Como vehículo para llevar el evangelio a todas las personas; y por otro, como mediadora entre sujetos portadores de recursos, o sea los contribuyentes, y sujetos portadores de necesidades, los pobres. También media entre la sociedad civil y el Estado. Como ONG, Cáritas asegura la distribución de los recursos que el Estado provee a los grupos más necesitados, y el Estado la convoca para fiscalizar donaciones o planes de trabajo, lo que significa también, a nuestro entender, continuar legitimando su tarea, como la única capaz de distribuir genuinamente esas donaciones.</p>
+<p><strong>H. E.</strong>: –Hay que recordar que Cáritas se define a sí misma como una institución “evangelizadora”. No surge para revertir la injusticia social, o la situación de pobreza, sino para evangelizar las relaciones sociales. Ahí está la paradoja: confiar la ejecución o control de políticas sociales estatales a una institución que tiene eso como segunda o tercera prioridad.</p>
+<p><strong>–¿Qué propuesta tiene frente a la pobreza?</strong></p>
+<p><strong>S. C.</strong>: –La pobreza aparece como una realidad dada, reificada, como una situación no querida por Dios, una excepción al Plan de Dios para los hombres. También se la describe desde la noción católica de pecado social o estructural, un concepto ambiguo usado tanto por la teología de la liberación como por el neoconservadurismo.</p>
+<p><strong>L. B.</strong>: –Cáritas Córdoba se define también a partir de la “opción por los pobres”, como parte de un proyecto que se presenta como ya elaborado por Dios, y que Cáritas sólo cumple. Este rol de simple ejecutora impide cualquier refutación o discusión del plan divino.</p>
+<p><strong>H. E.</strong>: –En su planteo, la salida de la pobreza depende, en gran parte, de la buena voluntad de otros, de la “comunidad cristiana de bienes”. Cuando llama a la organización de los pobres, Cáritas apunta más bien a que se hagan responsables de su propio desarrollo, lo que deja de lado la comprensión estructural de la pobreza. Las propuestas concretas se centran en las parroquias (bolsas de trabajo o farmacias parroquiales) o tienen un alcance muy limitado, como la Campaña de la Frazada. Concretamente, no se señala a los responsables de la injusticia social. Tampoco se explica quién está obligado a revertirla.</p>
+<p><strong>–¿Qué aspectos les llamaron la atención del discurso de la institución?</strong></p>
+<p><strong>S. C.</strong>: –El énfasis en la “evangelización de la sociedad”, porque nos parece que así la Iglesia intenta recuperar el espacio público perdido sin tener que apropiarse del Estado; el objetivo es renovar su predominio sobre la sociedad civil. Pueden pensarse las acciones sociales de Cáritas como lugares desde donde instaurar la catolicidad en el seno de lo social y la cultura.</p>
+<p><strong>L. B.</strong>: –El valor de la solidaridad se presenta como la solución transformadora. Esto deja librada la solución de la pobreza a la voluntad individual, al acto privado de dar.</p>
+<p><strong>S. C.</strong>: –Aparece la esperanza como la única salida posible a la exclusión y la pobreza, y así otras personas generarán espacios solidarios donde el pobre pueda insertarse. Cáritas, en su rol de organizadora, animadora y coordinadora de la solidaridad, se ubica en el rol central de portadora de esa solución. Pero esto deja a los pobres sin voz para construir y participar en las definiciones del mundo social. Los deja sin posibilidad de definirse y desarrollarse como ciudadanos.</p>
+<p><strong>–¿Es un enfoque de derechos?</strong></p>
+<p><strong>H. E.</strong>: –La propuesta de Cáritas implica un paso atrás respecto de la Constitución. Al menos, en el terreno de los fundamentos. Con la inclusión de derechos sociales a la salud, la alimentación o la vivienda, la Constitución toma la pobreza como problema político, y no como cuestión moral o personal. Tampoco hay requisitos morales para gozar de estos derechos; son universales, no hay que “merecerlos”, ni se los condiciona a un modelo determinado de familia, por ejemplo. También se definen obligaciones del Estado y se las hace exigibles, incluso ante los jueces. Salir de la pobreza no depende entonces de la buena voluntad de un grupo: la comunidad se ha obligado legalmente. Y a diferencia de lo que ocurre en Cáritas, las políticas están sujetas al debate público y la decisión democrática. Cáritas Córdoba, en cambio, no da poder decisorio ni a los pobres, ni a los cristianos laicos, ni a los donantes. Es un ente vertical y jerárquico. No hay democracia interna en Cáritas, a pesar de que en los últimos años hay demandas en tal sentido dentro de la institución.</p>
+<p><strong>–¿Qué ejes se destacan en la historia de Cáritas?</strong></p>
+<p><strong>L. B.</strong>: –Cáritas se crea en Argentina en 1956, apenas caído el peronismo; en Córdoba se funda en 1969, el año del Cordobazo. La primera comisión directiva se integra con damas de la caridad, de las familias tradicionales.</p>
+<p><strong>S. C.</strong>: –Lo importante es que fue variando su rol. Empieza modestamente, quizá como un esfuerzo para unir a los sectores más conservadores y los más progresistas dentro de aquella Iglesia. Cáritas organizaba cursos de oficios y tenía una bolsa de empleo, además de impulsar la Campaña de la Frazada.</p>
+<p><strong>L. B.</strong>: –A fines de los ’80, con el proyecto de “evangelización de la sociedad” y con la hiperinflación, Cáritas crece en importancia. Crea una red de comedores y distribuye la ayuda alimentaria estatal. Ya en los ’90, empieza a cumplir un rol más parecido al de una ONG, con voluntarios profesionalizados, ayuda a microemprendimientos y, desde la instancia del Arzobispado, denunciará la pobreza y se irá poniendo en el rol de árbitro o mediador social en la crisis.</p>
+<p><strong>H. E.</strong>: –Por eso integra los consejos que distribuyen, después de 2001, los planes sociales. Así, una institución no representativa interviene en la gestión de fondos públicos. Su legitimidad deriva de presentarse como eficaz y transparente; con esto se intenta compensar la falta de democracia interna y de representatividad política.<br />
+Link a la nota:<br />
+<a href="http://www.pagina12.com.ar/imprimir/diario/sociedad%3C/p"></a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a> |   <a href="http://www.blog.argatea.com.ar/2009/08/11/tres-investigadores-analizan-la-concepcion-de-la-pobreza-que-tiene-caritas/#comments" title="Comentarios en TRES INVESTIGADORES ANALIZAN LA CONCEPCION DE LA POBREZA QUE TIENE CARITAS">1 Comment &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-993"><a href="http://www.blog.argatea.com.ar/2009/08/03/argentina-pastores-del-orden/" rel="bookmark" title="Permanent Link to Argentina: Pastores del orden">Argentina: Pastores del orden</a></h3>
+				<small>Lunes, Agosto 3rd, 2009</small>
+
+				<div class="entry">
+					<p><!--[endif]--></p>
+<table class="MsoTableGrid" style="border: medium none; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="border: 1pt solid windowtext; padding: 0cm 5.4pt; width: 398.1pt;" width="531" valign="top">
+<p class="MsoNormal" style="text-align: justify;">Romina De Luca (MOMARANDU)</p>
+<p class="MsoNormal" style="text-align: justify;">Hace más de un año que se le   dio sanción a la Ley 26.150, más conocida como “Programa Nacional de   Educación Sexual Integral”. Se trata de un intento de reglamentar su   enseñanza obligatoria desde el nivel inicial hasta el superior.</p>
+<p class="MsoNormal" style="text-align: justify;">El kirchnerismo, una vez más,   quiso hacer alarde de un supuesto progresismo en materia educativa.</p>
+<p class="MsoNormal" style="text-align: justify;">La Iglesia católica reaccionó   imponiendo sus condiciones y aprovechó para avanzar en su armado político y   cultural. En primer término, bloqueó el tratamiento del tema. Cuando su   salida se mostró inevitable, logró varios gobiernos provinciales tardaran en   adherir al proyecto. Por último, y como instancia final, garantizó una ley a   su medida. Como arma de combate, editó su propio libro de educación sexual.   Más vale tarde… El texto legal establece, a modo genérico, el derecho de los   alumnos a recibir educación sexual integral en los establecimientos   educativos. La categoría “integral” implica que se entiende a la sexualidad   como parte del ser humano y por lo tanto su tratamiento debe darse en todas   las etapas y fases de la vida. La ley sólo formula lo que podríamos llamar   declaraciones de principios, donde indica la necesidad de transmitir   conocimientos pertinentes, precisos y confiables sobre los distintos aspectos   de la sexualidad.</p>
+<p class="MsoNormal" style="text-align: justify;">Al mismo tiempo se fomenta la   promoción de conductas “responsables” para la prevención de problemas de   salud sexual y/o reproductiva. Para su implementación se dispuso todo el   tiempo del mundo. El Ministerio de la Nación dispone de un plazo mínimo de   180 días para la elaboración de los contenidos curriculares que las   provincias deben tomar como base para luego elaborar sus propios contenidos.   A tales efectos, conformó una Comisión Interdisciplinaria, que estuvo más de   seis meses paralizada. A su vez, se previó una implementación “gradual y   progresiva, con un plazo de hasta cuatro años” (artículo 10º). No obstante,   estos puntos resultan menores frente al famoso artículo 5º. En éste, se   dispone que los contenidos de enseñanza deberán estar en consonancia con los   “idearios” de cada comunidad educativa. Tal como sospechará el lector, este   punto abre la puerta para que las escuelas religiosas elaboren sus propios   proyectos.</p>
+<h3 class="MsoNormal" style="text-align: justify;">Este artículo no aparece en la   ley por “gracia divina”, sino que responde a las presiones políticas del   clero. Veamos algunos ejemplos significativos. Por la gracia del señor En la   Ciudad de Buenos Aires, durante el año 2004, la Legislatura trató el proyecto   de “educación sexual”. Allí, la Iglesia libró una batalla para lograr que   cada escuela privada pudiera elaborar su propio proyecto educativo.1 Si bien   este objetivo puede parecer “defensivo”, en realidad equivale a una cobertura   legal para que los sacerdotes operen ideológicamente.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">Para llevar adelante su   propuesta, el clero se valió de los legisladores macristas.2 La organización   clerical ACIERA expresó que Mauricio representaba la concepción de la   “educación sexual basada en los valores del reino de Dios” con la familia   como principal actor.3 Para ambos, la enseñanza sexual debería ser una tarea   privativa de la familia en tanto ella constituiría el agente educador   natural; además debería impartirse a partir del séptimo grado. Así, el   proyecto PRO se limitaba a proponer talleres de formación y orientación para   padres y docentes.4 En diciembre de 2004, la sesión dedicada al tema terminó   en escándalo cuando las dos partes, oficialismo y oposición, no dieron   quórum.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">En ese momento, el futuro jefe   de gobierno porteño, Mauricio Macri operó para que sus legisladores no   votaran el proyecto K.5 Sin embargo, finalmente el proyecto se aprobó con la   inclusión del polémico artículo 5° de la ley nacional, que en este caso,   llevó el número 8º, en 2006. Luego de la sanción, ambos “contendientes” (el   kirchnerismo y el macrismo) se felicitaron.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">La Provincia de Buenos Aires   aprobó un proyecto de educación sexual obligatoria en todos los niveles, en   2004. Sin embargo, éste no prosperó puesto que la Iglesia logró que fuera   vetado por Felipe Solá. Hoy día, la Provincia no ha avanzado aún en la promulgación   de ningún proyecto. Producto de la discusión de 2004, sólo posee un programa   piloto que se aplica en 75 escuelas. Todavía no se sancionó una ley   específica para el conjunto de la provincia y solamente se han introducido   algunos contenidos en otras materias como “construcción de ciudadanía”.   Adriana Puiggrós, la otrora “progresista”, tuvo un alineamiento poco ambiguo:   “hay contenidos mínimos, en función de la libertad de conciencia, hay un   margen de libertad para que las escuelas elijan”.6 Es decir, pretende   obstaculizar todo avance contra el clero.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">En Córdoba, el Ministro de   Educación, Eduardo Mundet, declaró, a fines del 2006, que no se implementaría   la Ley durante el 2007, porque los docentes, según él, no estarían aún   “capacitados”. Recién en octubre del corriente año se incorporaron dos   documentos de base para la discusión sobre los contenidos.7 La concreción del   proyecto aparece como algo remoto. Similar es la situación de Chaco.8 En la   provincia de Julio Cobos, el “ladero” de Cristina, tampoco se avanzó   demasiado. La ministra de Educación, Emma Cunietti, se reunió con los   referentes del Consejo de Educación Católica (CONSEC).</h3>
+<h3 class="MsoNormal" style="text-align: justify;">Allí, la Iglesia, en la voz del   padre Augusto Baracchini, sostuvo que no se oponía a la Ley, pero que ésta   debía propugnar el sexo “con amor”.9 “Amor”, esconde, en el lenguaje   clerical, la obligación del matrimonio.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">En Corrientes directamente se   desconocía el asunto. Hasta agosto, la provincia no había adherido a la Ley   Nacional. Aquí también la Iglesia demostró una gran capacidad militante: el   obispo Carmelo Giaquinta llamó a la desobediencia civil contra la nueva   ley.10 Por su parte, el Centro de Investigación y Capacitación Social, de   orientación católica, desarrolló distintas actividades promoviendo una sola   voz: el Estado no debe olvidarse de la familia.11</h3>
+<h3 class="MsoNormal" style="text-align: justify;">Entre Ríos merece un capítulo   aparte. La ley 9.501, que incorporaba la educación sexual, fue sancionada   tempranamente: en el 2003. Pero, el gobernador Jorge Busti, junto a la   Iglesia, impidió su ejecución. Al punto tal que, en 2005, sectores laicos   iniciaron una campaña para interpelar al gobernador.12 La Iglesia respondió   con un contragolpe y se encargó de recolectar 15.000 firmas que fueron   presentadas a la cámara de senadores para que se revisara el proyecto   original.13 Exigía que se incorporaran una serie de reformas: reconocimiento   de los padres como principales educadores de sus hijos, eliminación de las   menciones de género y de toda alusión al problema de los embarazos no   deseados y, por último, el rechazo a la participación de profesionales de la   salud y de ciencias sociales en la elaboración de los contenidos. En el mes   de agosto, sin debate, las modificaciones fueron aprobadas.14 Por su parte,   el proyecto K tampoco resulta progresista y evidencia sus limitaciones. No   sólo por la presencia de cláusulas que habilitan a las comunidades religiosas   a enseñar lo que quieran sino también porque un debate serio sobre la   sexualidad no se debería limitar a la resolución individual de los problemas.   El aborto libre y gratuito como opción debería aparecer en la agenda.15 Sin   embargo, no aparece en ningún lado y en su reemplazo se ofrece la vasectomía,   es decir, la mutilación.</h3>
+<p class="MsoNormal" style="text-align: justify;">
+<p class="MsoNormal" style="text-align: justify;">El reino de las tinieblas</p>
+<p class="MsoNormal" style="text-align: justify;">La Iglesia no sólo resistió los   embates, sino que tomó la ofensiva editando su propio manual de educación   sexual: Educación para el amor.16 Allí, se imparten las directivas   educacionales a directivos, docentes y padres.17 Bien, veamos cómo se   entienden la sexualidad allí. El manual explica la cuestión como una forma   positiva si va unida a los principios morales de la familia patriarcal   jerárquica cristiana y destinada a la procreación. Para la juventud se   pregona el pudor, la virginidad y la castidad.18 En un libro presentado como   orientador sobre educación sexual, uno esperaría que se desarrollaran temas   básicos en la materia, tal como postulan, “científicamente”. Sin embargo, la   concepción aparece como una obra de creación divina, mágica. Ella sería el   primer objetivo primero de la mujer-madre tal como María, en tanto, “la   femineidad se manifiesta y se revela hasta el fondo, mediante la maternidad”   (p. 30 y 108). Así, el rol de la mujer en la sociedad se subordina a mera   parturienta. La única forma “normal” de familia es la patriarcal. Las otras   formas son “no modélicas”, que el señor acoge sólo por su divina gracia y   capacidad de perdón (p. 53-54 y 72). Es decir, los homosexuales deberían   pasar su vida (y la eternidad posterior…) en penitencia. El SIDA aparece en   el mismo punto en el que se desarrolla la homosexualidad (p. 30). No hay que   ser muy suspicaces para advertir la relación que se traza entre ambos. En   relación a los métodos anticonceptivos, se presentan sus peligros en lugar de   sus beneficios. En todo caso, y como última instancia, se avalan los métodos   naturales que, como todos sabemos, tienen una efectividad más que dudosa.</p>
+<p class="MsoNormal" style="text-align: justify;">La Iglesia propone así una   visión mística del mundo y de la sexualidad. Se encarga de negar el carácter   placentero del sexo y lo reduce a la procreación dentro de la familia   patriarcal. No debería llamarnos mucho la atención. Encarnando la   justificación general de las relaciones de explotación, machaca sobre dos   puntos: la familia y el sufrimiento o lo que es lo mismo, el orden y la   explotación.</p>
+<p class="MsoNormal" style="text-align: justify;">El kirchnerismo ha intentado   realizar algunas tibias reformas de tipo progresista, en particular en   materia cultural. Sin embargo, como podemos observar, la Iglesia ha logrado   elaborar una respuesta contundente. Ha organizado sus fuerzas no sólo para   obstaculizar los tímidos proyectos presidenciales. Para ello estableció   alianzas con sectores de la derecha argentina, pero también con gobernadores   oficialistas, como Felipe Solá o Jorge Busti. Asimismo, no se limitó a   obstaculizar el programa K, sino que tomó la ofensiva ideológica, como   organización cultural que es. En ese sentido, elaboró los contenidos y las   herramientas para difundirlo, algo que el oficialismo no hizo. La “acometida”   K se mostró sumamente endeble, revelando dos cuestiones. En primer lugar, al   vitalidad de la Iglesia como partido político. En segundo, la debilidad del   armado cultural educacional kirchnerista. En el momento en que necesitaba   expropiar políticamente a las fuerzas que brotaron del Argentinazo, Kirchner   se animó a desafiar ideológicamente a la Iglesia, llegando a amagar con la   despenalización del aborto como táctica electoral. La profundización del   reflujo libra a la pareja presidencial de tales avatares, como la presidenta   acaba de confirmar, y deja a la educación a merced del avance clerical.</p>
+<p class="MsoNormal" style="text-align: justify;">Notas:</p>
+<p class="MsoNormal" style="text-align: justify;">1) Ley nº 2.110, sancionada el   12/10/2006, BOCBA Nº 2569 del 20/11/2006. http://www.cedom. gov.ar</p>
+<p class="MsoNormal" style="text-align: justify;">2) Fue impulsado por Jorge   Enríquez, Santiago de Estrada y Juan Carlos Lynch y recibió en la Cámara el   despacho por minoría.</p>
+<p class="MsoNormal" style="text-align: justify;">3) ACIERA: Alianza Cristiana de   Iglesias Evangélicas de la República Argentina, está conformada por diez mil   quinientas iglesias. Documentos emitidos el 05, 16 y 25 de noviembre de 2004.   www.aciera. org/declaraciones/educacionsexual.doc</p>
+<p class="MsoNormal" style="text-align: justify;">4) Véase   www.diariodegestion.com.ar/index.php/jorgeenriquez/ 2006/06/08</p>
+<p class="MsoNormal" style="text-align: justify;">5) Diario La Nación, 15/10/2004   www.lanacion. com.ar</p>
+<p class="MsoNormal" style="text-align: justify;">6) Declaraciones del 10/07/2007   en www.abc.gov.ar</p>
+<p class="MsoNormal" style="text-align: justify;">7) Véase www.cba.gov.ar</p>
+<p class="MsoNormal" style="text-align: justify;">) Ley nº 5.811 más conocida   como Ley Dumrauf.</p>
+<p class="MsoNormal" style="text-align: justify;">9) “Estamos de acuerdo con una   educación integral, y la sexualidad es una faceta importante. Además la   iglesia en sus escuelas hace muchos años que esta dando educación sexual,   pero como algo integral planteando dos morales, una objetiva y otra   subjetiva. Sobre la primera es que trabajamos, planteando un ideal de sexo   con amor, porque últimamente se ha vaciado el amor del sexo” en: http//   weblog.mendoza.edu.ar</p>
+<p class="MsoNormal" style="text-align: justify;">10) Ver:   www.corrientesonline.com/2005/11/07/</p>
+<p class="MsoNormal" style="text-align: justify;">11) Ver:   http://cicsoboletin.blogspot.com/2007/08</p>
+<p class="MsoNormal" style="text-align: justify;">12) Ver:   www.cronistadigital.com.ar, 21/05/2007</p>
+<p class="MsoNormal" style="text-align: justify;">13)   www.larepublicadigital.com.ar</p>
+<p class="MsoNormal" style="text-align: justify;">14) Véase www.mujereshoy.com</p>
+<p class="MsoNormal" style="text-align: justify;">15) Véase Rosana López   Rodríguez: “Maternidad y Barbarie”, en El Aromo, nº 17, diciembre de 2004.</p>
+<p class="MsoNormal" style="text-align: justify;">16) Conferencia Episcopal   Argentina: Educación para el amor. Plan General y Cartillas, Buenos Aires,   CEA, 2006.</p>
+<p class="MsoNormal" style="text-align: justify;">17) Idem, p. 5.</p>
+<p class="MsoNormal" style="text-align: justify;">18) Recuperan los principios   fijados por el Papa Juan Pablo II en la Familiares Consortio, nº 37, en   Ibidem, p.11.</p>
+<p class="MsoNormal" style="text-align: justify;">
+<p class="MsoNormal" style="text-align: justify;">Romina De Luca es integrante   del Grupo de Investigación de Historia de la Educación Argentina – CEICS</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><a href="http://www.argenpress.info/2009/08/argentina-pastores-del-orden.html">http://www.argenpress.info/2009/08/argentina-pastores-del-orden.html</a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/entrevistas/" title="Ver todas las entradas en Entrevistas" rel="category tag">Entrevistas</a>,  <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a>,  <a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas en Personajes" rel="category tag">Personajes</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2009/08/03/argentina-pastores-del-orden/#respond" title="Comentarios en Argentina: Pastores del orden">No Comments &#187;</a></p>
+
+			</div>
+
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="http://www.blog.argatea.com.ar/category/investigaciones/page/2/">&laquo; Previous Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+
+	
+	</div>
+
+	<div id="sidebar">
+		<ul>
+					<li id="search" class="widget widget_search">			<form id="searchform" method="get" action="http://www.blog.argatea.com.ar">
+			<div>
+			<input type="text" name="s" id="s" size="15" /><br />
+			<input type="submit" value="Buscar" />
+			</div>
+			</form>
+		</li><li id="linkcat-372" class="widget widget_links"><h2 class="widgettitle"></h2>
+	<ul>
+<li><a href="http://ateus.org/?page_id=32">Ateus de Catalunya</a></li>
+<li><a href="http://blog-sin-dioses.blogspot.com/" title="No dejes de visitar nuestro sitio principal en www.sindioses.org">Blog Sin Dioses</a></li>
+<li><a href="http://www.foroateo.com/">Cyberateos</a></li>
+<li><a href="http://www.federacionatea.org/">FIDA</a></li>
+<li><a href="http://es.groups.yahoo.com/group/laicismohoy/">Laicismo hoy</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-370" class="widget widget_links"><h2 class="widgettitle">Enlaces</h2>
+	<ul>
+<li><a href="http://www.atheistalliance.org/About-AAI.html" title="El propósito de AAI es trabajar por una sociedad que apoya y respeta una visión del mundo basada en los valores de la razón, el empirismo y el naturalismo, y protege y respeta la separación de la religión y el gobierno. (Aprobada enero 2009)" target="_top">AAI Atheist Alliance International</a></li>
+<li><a href="http://www.positiveatheism.org/tocindia.htm#INTRO" title="Atheism in India">Atheism in India</a></li>
+<li><a href="http://www.redcritica.org/" title="Red de Blogs Ateos">Red Atea</a></li>
+<li><a href="http://www.formauri.es/personal/enlacesCriticos/" title="Red por una informaciÃ³n crÃ­tica">Sitios Criticos y Escepticos</a></li>
+<li><a href="http://www.terceracultura.net/tc/" title="Cultura 3.0 es una iniciativa dedicada a propagar la ciencia de vanguardia y los valores seculares en nuestra sociedad. Nuestros intereses abarcan la cultura científica, política, tecnológica, literaria, artística y lúdica, enfocados desde una nueva conci" target="_top">Tercera Cultura</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-409" class="widget widget_links"><h2 class="widgettitle">Laicismo</h2>
+	<ul>
+<li><a href="http://www.apostasiacolectiva.org/" title="El colectivo Apostasía Colectiva quiere expresar un enérgico repudio a las expresiones del arzobispo de Granada, quien en una reciente homilía afirmó que &#8220;si la mujer aborta, entonces el hombre puede abusar de ella&#8221; y a la vez que comparó al aborto con el">Apostasía Colectiva en Argentina</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-698" class="widget widget_links"><h2 class="widgettitle">Periodismo Para Pensar</h2>
+	<ul>
+<li><a href="http://www.elenfoqueweb.com.ar/">elenfoqueweb</a></li>
+<li><a href="http://www.larespublica.com/">la rezpublica</a></li>
+
+	</ul>
+</li>
+<li id="archives" class="widget widget_archive"><h2 class="widgettitle">Archivos</h2>		<ul>
+			<li><a href='http://www.blog.argatea.com.ar/2010/08/' title='Agosto 2010'>Agosto 2010</a>&nbsp;(11)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/07/' title='Julio 2010'>Julio 2010</a>&nbsp;(29)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/06/' title='Junio 2010'>Junio 2010</a>&nbsp;(19)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/05/' title='Mayo 2010'>Mayo 2010</a>&nbsp;(12)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/04/' title='Abril 2010'>Abril 2010</a>&nbsp;(24)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/03/' title='Marzo 2010'>Marzo 2010</a>&nbsp;(20)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/02/' title='Febrero 2010'>Febrero 2010</a>&nbsp;(27)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/01/' title='Enero 2010'>Enero 2010</a>&nbsp;(18)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/12/' title='Diciembre 2009'>Diciembre 2009</a>&nbsp;(10)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/11/' title='Noviembre 2009'>Noviembre 2009</a>&nbsp;(10)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/10/' title='Octubre 2009'>Octubre 2009</a>&nbsp;(13)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/09/' title='Septiembre 2009'>Septiembre 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/08/' title='Agosto 2009'>Agosto 2009</a>&nbsp;(21)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/07/' title='Julio 2009'>Julio 2009</a>&nbsp;(16)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/06/' title='Junio 2009'>Junio 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/05/' title='Mayo 2009'>Mayo 2009</a>&nbsp;(9)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/04/' title='Abril 2009'>Abril 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/03/' title='Marzo 2009'>Marzo 2009</a>&nbsp;(5)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/02/' title='Febrero 2009'>Febrero 2009</a>&nbsp;(12)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/01/' title='Enero 2009'>Enero 2009</a>&nbsp;(17)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/12/' title='Diciembre 2008'>Diciembre 2008</a>&nbsp;(37)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/11/' title='Noviembre 2008'>Noviembre 2008</a>&nbsp;(27)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/10/' title='Octubre 2008'>Octubre 2008</a>&nbsp;(7)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/09/' title='Septiembre 2008'>Septiembre 2008</a>&nbsp;(26)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/08/' title='Agosto 2008'>Agosto 2008</a>&nbsp;(40)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/07/' title='Julio 2008'>Julio 2008</a>&nbsp;(17)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/06/' title='Junio 2008'>Junio 2008</a>&nbsp;(34)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/05/' title='Mayo 2008'>Mayo 2008</a>&nbsp;(41)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/04/' title='Abril 2008'>Abril 2008</a>&nbsp;(32)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/03/' title='Marzo 2008'>Marzo 2008</a>&nbsp;(37)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/02/' title='Febrero 2008'>Febrero 2008</a>&nbsp;(28)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/01/' title='Enero 2008'>Enero 2008</a>&nbsp;(43)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/12/' title='Diciembre 2007'>Diciembre 2007</a>&nbsp;(26)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/11/' title='Noviembre 2007'>Noviembre 2007</a>&nbsp;(22)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/10/' title='Octubre 2007'>Octubre 2007</a>&nbsp;(28)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/09/' title='Septiembre 2007'>Septiembre 2007</a>&nbsp;(29)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/08/' title='Agosto 2007'>Agosto 2007</a>&nbsp;(27)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/07/' title='Julio 2007'>Julio 2007</a>&nbsp;(21)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/06/' title='Junio 2007'>Junio 2007</a>&nbsp;(42)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/05/' title='Mayo 2007'>Mayo 2007</a>&nbsp;(36)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/04/' title='Abril 2007'>Abril 2007</a>&nbsp;(54)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/03/' title='Marzo 2007'>Marzo 2007</a>&nbsp;(34)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/02/' title='Febrero 2007'>Febrero 2007</a>&nbsp;(34)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/01/' title='Enero 2007'>Enero 2007</a>&nbsp;(39)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/12/' title='Diciembre 2006'>Diciembre 2006</a>&nbsp;(12)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/11/' title='Noviembre 2006'>Noviembre 2006</a>&nbsp;(17)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/10/' title='Octubre 2006'>Octubre 2006</a>&nbsp;(16)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/09/' title='Septiembre 2006'>Septiembre 2006</a>&nbsp;(20)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/08/' title='Agosto 2006'>Agosto 2006</a>&nbsp;(36)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/07/' title='Julio 2006'>Julio 2006</a>&nbsp;(2)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/06/' title='Junio 2006'>Junio 2006</a>&nbsp;(23)</li>
+		</ul>
+</li>		<li id="meta" class="widget widget_meta">			<h2 class="widgettitle">Meta</h2>			<ul>
+						<li><a href="http://www.argatea.com.ar/blog/wp-login.php">Iniciar Sesi&oacute;n</a></li>
+			<li><a href="http://www.blog.argatea.com.ar/feed/" title="Sindicar este sitio usando RSS 2.0">Entradas <abbr title="Sindicaci&oacute;n Realmente Simple">RSS</abbr></a></li>
+			<li><a href="http://www.blog.argatea.com.ar/comments/feed/" title="&Uacute;ltimos comentarios a todas las entradas en RSS">Comentarios <abbr title="Sindicaci&oacute;n Realmente Simple">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Gestionado con WordPress, una avanzada plataforma sem&aacute;ntica de publicaci&oacute;n personal.">WordPress.org</a></li>
+						</ul>
+		</li><li id="categories-117534311" class="widget widget_categories"><h2 class="widgettitle">Categor&iacute;as</h2>		<ul>
+			<li class="cat-item cat-item-423"><a href="http://www.blog.argatea.com.ar/category/artes-y-espectaculos/" title="Ver todas las entradas de Artes y Espectáculos">Artes y Espectáculos</a>
+</li>
+	<li class="cat-item cat-item-426"><a href="http://www.blog.argatea.com.ar/category/artes-y-espectaculos/cine/" title="Ver todas las entradas de Cine">Cine</a>
+</li>
+	<li class="cat-item cat-item-424"><a href="http://www.blog.argatea.com.ar/category/divulgacion/" title="Ver todas las entradas de Divulgación">Divulgación</a>
+</li>
+	<li class="cat-item cat-item-418"><a href="http://www.blog.argatea.com.ar/category/entrevistas/" title="Ver todas las entradas de Entrevistas">Entrevistas</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://www.blog.argatea.com.ar/category/estadisticas/" title="Ver todas las entradas de estadÃ­sticas">estadÃ­sticas</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas de General">General</a>
+</li>
+	<li class="cat-item cat-item-422"><a href="http://www.blog.argatea.com.ar/category/noticias/internacionales/" title="Ver todas las entradas de Internacionales">Internacionales</a>
+</li>
+	<li class="cat-item cat-item-428 current-cat"><a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas de Investigaciones">Investigaciones</a>
+</li>
+	<li class="cat-item cat-item-409"><a href="http://www.blog.argatea.com.ar/category/laicismo/" title="Ver todas las entradas de Laicismo">Laicismo</a>
+</li>
+	<li class="cat-item cat-item-427"><a href="http://www.blog.argatea.com.ar/category/artes-y-espectaculos/literatura/" title="Ver todas las entradas de Literatura">Literatura</a>
+</li>
+	<li class="cat-item cat-item-429"><a href="http://www.blog.argatea.com.ar/category/medios-de-comunicacion/" title="Ver todas las entradas de Medios de comunicación">Medios de comunicación</a>
+</li>
+	<li class="cat-item cat-item-421"><a href="http://www.blog.argatea.com.ar/category/noticias/nacionales/" title="Ver todas las entradas de Nacionales">Nacionales</a>
+</li>
+	<li class="cat-item cat-item-419"><a href="http://www.blog.argatea.com.ar/category/noticias/" title="Ver todas las entradas de Noticias">Noticias</a>
+</li>
+	<li class="cat-item cat-item-420"><a href="http://www.blog.argatea.com.ar/category/opiniones/" title="Ver todas las entradas de Opiniones">Opiniones</a>
+</li>
+	<li class="cat-item cat-item-425"><a href="http://www.blog.argatea.com.ar/category/organizaciones-ateas/" title="Ver todas las entradas de Organizaciones ateas">Organizaciones ateas</a>
+</li>
+	<li class="cat-item cat-item-436"><a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas de Personajes">Personajes</a>
+</li>
+	<li class="cat-item cat-item-440"><a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas de Separación Iglesia-Estado">Separación Iglesia-Estado</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.blog.argatea.com.ar/category/sociedad/" title="Ver todas las entradas de Sociedad">Sociedad</a>
+</li>
+		</ul>
+</li><li id="tag_cloud" class="widget widget_tag_cloud"><h2 class="widgettitle">Etiquetas</h2><a href='http://www.blog.argatea.com.ar/tag/aborto/' class='tag-link-56' title='104 temas' rel="tag" style='font-size: 22pt;'>aborto</a>
+<a href='http://www.blog.argatea.com.ar/tag/abuso-de-menores/' class='tag-link-119' title='14 temas' rel="tag" style='font-size: 8.304347826087pt;'>abuso&nbsp;sexual</a>
+<a href='http://www.blog.argatea.com.ar/tag/acoso-moral-y-religion/' class='tag-link-127' title='18 temas' rel="tag" style='font-size: 8.9130434782609pt;'>acoso</a>
+<a href='http://www.blog.argatea.com.ar/tag/anticoncepcion/' class='tag-link-62' title='12 temas' rel="tag" style='font-size: 8pt;'>anticoncepción</a>
+<a href='http://www.blog.argatea.com.ar/tag/apostasia/' class='tag-link-86' title='12 temas' rel="tag" style='font-size: 8pt;'>apostasía</a>
+<a href='http://www.blog.argatea.com.ar/tag/ateismo/' class='tag-link-63' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>ateÃ­smo</a>
+<a href='http://www.blog.argatea.com.ar/tag/benedicto-xvi/' class='tag-link-78' title='33 temas' rel="tag" style='font-size: 11.195652173913pt;'>Benedicto&nbsp;XVI</a>
+<a href='http://www.blog.argatea.com.ar/tag/bergoglio/' class='tag-link-103' title='47 temas' rel="tag" style='font-size: 13.326086956522pt;'>Bergoglio</a>
+<a href='http://www.blog.argatea.com.ar/tag/brasil/' class='tag-link-36' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>Brasil</a>
+<a href='http://www.blog.argatea.com.ar/tag/ciencia/' class='tag-link-14' title='25 temas' rel="tag" style='font-size: 9.9782608695652pt;'>ciencia</a>
+<a href='http://www.blog.argatea.com.ar/tag/cordoba/' class='tag-link-13' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>Cordoba</a>
+<a href='http://www.blog.argatea.com.ar/tag/corrupcion/' class='tag-link-54' title='12 temas' rel="tag" style='font-size: 8pt;'>corrupciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/curas-pederastas/' class='tag-link-482' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>curas&nbsp;pederastas</a>
+<a href='http://www.blog.argatea.com.ar/tag/derechos-humanos/' class='tag-link-32' title='52 temas' rel="tag" style='font-size: 14.086956521739pt;'>DD.HH.</a>
+<a href='http://www.blog.argatea.com.ar/tag/derecho-a-decidir/' class='tag-link-157' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>derechos</a>
+<a href='http://www.blog.argatea.com.ar/tag/dictadura-militar-iglesia-catolica-ultraconservadora/' class='tag-link-128' title='31 temas' rel="tag" style='font-size: 10.891304347826pt;'>dictadura&nbsp;militar</a>
+<a href='http://www.blog.argatea.com.ar/tag/discriminacion/' class='tag-link-70' title='48 temas' rel="tag" style='font-size: 13.478260869565pt;'>discriminaciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/educacion/' class='tag-link-8' title='33 temas' rel="tag" style='font-size: 11.195652173913pt;'>educaciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/eeuu/' class='tag-link-28' title='16 temas' rel="tag" style='font-size: 8.6086956521739pt;'>EE.UU</a>
+<a href='http://www.blog.argatea.com.ar/tag/entre-rios/' class='tag-link-48' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>Entre&nbsp;Rios</a>
+<a href='http://www.blog.argatea.com.ar/tag/estadisticas/' class='tag-link-55' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>estadÃ­sticas</a>
+<a href='http://www.blog.argatea.com.ar/tag/fudamentalismos/' class='tag-link-164' title='41 temas' rel="tag" style='font-size: 12.413043478261pt;'>fundamentalismo</a>
+<a href='http://www.blog.argatea.com.ar/tag/iglesia-cata%c2%b3lica/' class='tag-link-548' title='14 temas' rel="tag" style='font-size: 8.304347826087pt;'>Iglesia&nbsp;CatÃ³lica</a>
+<a href='http://www.blog.argatea.com.ar/tag/intolerancia/' class='tag-link-41' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>intolerancia</a>
+<a href='http://www.blog.argatea.com.ar/tag/islam/' class='tag-link-5' title='19 temas' rel="tag" style='font-size: 9.0652173913043pt;'>Islam</a>
+<a href='http://www.blog.argatea.com.ar/tag/laicismo/' class='tag-link-409' title='37 temas' rel="tag" style='font-size: 11.804347826087pt;'>Laicismo</a>
+<a href='http://www.blog.argatea.com.ar/tag/legislacion/' class='tag-link-33' title='41 temas' rel="tag" style='font-size: 12.413043478261pt;'>legislaciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/mar-del-plata/' class='tag-link-42' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>Mar&nbsp;del&nbsp;Plata</a>
+<a href='http://www.blog.argatea.com.ar/tag/mendoza/' class='tag-link-44' title='23 temas' rel="tag" style='font-size: 9.6739130434783pt;'>Mendoza</a>
+<a href='http://www.blog.argatea.com.ar/tag/moda-sotana/' class='tag-link-130' title='12 temas' rel="tag" style='font-size: 8pt;'>moda</a>
+<a href='http://www.blog.argatea.com.ar/tag/mexico/' class='tag-link-6' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>MÃ©xico</a>
+<a href='http://www.blog.argatea.com.ar/tag/obispado-castrense/' class='tag-link-161' title='28 temas' rel="tag" style='font-size: 10.434782608696pt;'>obispados</a>
+<a href='http://www.blog.argatea.com.ar/tag/opus-dei/' class='tag-link-59' title='21 temas' rel="tag" style='font-size: 9.3695652173913pt;'>Opus&nbsp;Dei</a>
+<a href='http://www.blog.argatea.com.ar/tag/pobreza-y-religion/' class='tag-link-111' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>pobreza</a>
+<a href='http://www.blog.argatea.com.ar/tag/politica-y-religion/' class='tag-link-546' title='23 temas' rel="tag" style='font-size: 9.6739130434783pt;'>política&nbsp;y&nbsp;religión</a>
+<a href='http://www.blog.argatea.com.ar/tag/salta/' class='tag-link-45' title='23 temas' rel="tag" style='font-size: 9.6739130434783pt;'>Salta</a>
+<a href='http://www.blog.argatea.com.ar/tag/sectas/' class='tag-link-229' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>sectas</a>
+<a href='http://www.blog.argatea.com.ar/tag/sociedad/' class='tag-link-17' title='25 temas' rel="tag" style='font-size: 9.9782608695652pt;'>Sociedad</a>
+<a href='http://www.blog.argatea.com.ar/tag/vaticano/' class='tag-link-53' title='42 temas' rel="tag" style='font-size: 12.565217391304pt;'>Vaticano</a>
+<a href='http://www.blog.argatea.com.ar/tag/christian-von-wernich/' class='tag-link-144' title='18 temas' rel="tag" style='font-size: 8.9130434782609pt;'>Von&nbsp;Wernich</a></li>		</ul>
+	</div>
+
+
+		</div>
+		<!-- END CONTENT AREA -->
+
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>	
+		
+		<!-- BEGIN FOOTER -->
+		<div id="footer">
+		<div id="footerbar" align="center">
+			<div id="footerleft"><img src="templates/Flexi/images/footer_curve_left.gif" alt=" " /></div>
+			<div id="footercontent" align="center">
+				<div align="center">
+	&copy; 2007 Asociaci�n Civil de Ateos en Argentina</div>
+
+<div align="center">
+	<a href="http://www.joomla.org">Joomla!</a> es Software Libre distribuido bajo licencia GNU/GPL.</div>				
+			</div>
+			<div id="footerright"><img src="templates/Flexi/images/footer_curve_right.gif" alt=" " /></div>
+		</div>
+		</div>
+		<!-- END FOOTER -->
+		
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>	
+	</div>
+	<br />
+</div>
+
+<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
+
+		</body>
+</html>
+

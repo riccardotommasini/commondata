@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html><head><title>WDC - Download the 2012 Hyperlink Graph</title>
+<link rel="stylesheet" href="/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Robert Meusel, Christian Bizer, Oliver Lehmberg">
+<meta name="keywords" content="Hyperlink Graph, WebGraph, Web Graph">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body> 
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="/images/ma-logo.gif" alt="University of Mannheim - Logo"></a>&nbsp;&nbsp;<br></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">Web Data Commons - Hyperlink Graph 2012 - Download Instructions</h1>
+</div>
+
+<div id="tagline">Extracting the Hyperlink Graph from the Common Web Crawl</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+<a href="http://vigna.di.unimi.it/">Sebastiano Vigna</a><br />
+<br/>
+<br/>
+</div>
+
+<div id="content">
+
+<p>
+This page provides detailed download instruction to obtain the hyperlink graph extracted from the <a href="http://commoncrawl.org/">Common Crawl</a> 2012 web corpus. The graph covers <b>3.5 billion web pages and 128 billion hyperlinks</b> between these pages.
+<br/>
+We also provide <a href="topology.html">basic statistics</a> about the hyperlink. Please visit the <a href="../index.html">overview page</a> for more information about the provided file formats.
+
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+
+<h3 id="indexarc">1. Index/Arc Format</h3>
+
+<p>
+<p>The following table contains the links for downloading the index as the arc file(s) of the graph for each aggregation level.<p>
+<table>
+<tr><th>Data Set</th><th>Index File</th><th>Arc File</th></tr>
+<tr><td>Page Graph</td><td>see below (45 GB)</td><td>see below (331 GB)</td></tr>
+<tr><td>Subdomain/Host Graph</td><td><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/sd-index.gz">download</a> (832 MB)</td><td><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/sd-arc.gz">download</a> (9.2 GB)</td></tr>
+<tr><td>1st Subdomain Graph</td><td><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/sd1-index.gz">download</a> (757 MB)</td><td><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/sd1-arc.gz">download</a> (8.7 GB)</td></tr>
+<tr><td>PLD Graph</td><td><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/pld-index.gz">download</a> (297 MB)</td><td><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/pld-arc.gz">download</a> (2.8 GB)</td></tr>
+</table>
+In case you experience any problems downloading the files please find additional information <a href="https://groups.google.com/forum/?fromgroups=#!topic/web-data-commons/SW7Gw2cLDr8" target="_blank">here</a>.
+<br><br>
+<b>Downloading the page graph:</b> The page graph (arc and indes files) are, due to their size split into in small files of around 500 MB. These files can be downloaded using <code>wget -i http://webdatacommons.org/hyperlinkgraph/2012-08/data/index.list.txt</code> for the index files and respectively <code>wget -i http://webdatacommons.org/hyperlinkgraph/2012-08/data/arc.list.txt</code> for the arc files.
+
+</p>
+<h2 id="webgraph">2. WebGraph Files</h3>
+<p>
+We also provide the page graph in the format expected by the <a href="http://webgraph.di.unimi.it/" target="_blank">WebGraph Framework</a> developed by Sebastiano Vigna. The graph is represented using three files: <code>.graph, .offsets, .properties</code>. All three are necessary to load the network into the library.
+<ul>
+<li><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/webgraph/network.graph">network.graph</a> (52 GB)</li>
+<li><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/webgraph/network.offsets">network.offsets</a> (4 GB)</li>
+<li><a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/webgraph/network.properties">network.properties</a> (1.5 MB)</li>
+</ul>
+Using the WebGraph Framework, which can be downloaded from <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22it.unimi.dsi%22">Maven Central</a>, these files can be loaded using the following line of code: 
+<code>BVGraph graph = BVGraph.loadMapped(baseName, new ProgressLogger())</code>.
+</p>
+<h2 id="additional">3. Additional Material</h3>
+<h3 id="pajek">3.1. PLD Graph (.NET)</h3>
+<p>
+We offer the PLD-aggregation of the page graph also in the <a href="https://gephi.org/users/supported-graph-formats/pajek-net-format/" target="_blank">Pajek NET Format</a> which is understood by various graph analysis tools such as <a href="http://pajek.imfm.si/doku.php" target="_blank">Pajek</a> or <a href="https://gephi.org/" target="_blank">Gephi</a>. The format combines the index and the arc list into a single file (<a href="data/example.net">example file</a>, 106 nodes, 141 arcs).
+
+The PLD graph can be downloaded from <a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/pajek/pld-pajek.gz">Pajek version of PLD Graph</a> (2.3 GB) and can directly be imported into Pajek after unzipping. To process the graph in acceptable time, we recommend to run Pajek with at least 32 GB of RAM.
+</p>
+<h3 id="ranking">3.2. Ranking Files</h2>
+<p>
+Beside the pure graph files, we also calculated for each host in the host graph the <code>harmonic centrality</code>, <code>indegree centrality</code>, <code>Katz's index</code>, and <code>Page Rank</code>. An interactive version of those ranking is available at <a href="http://wwwranking.webdatacommons.org" target="_blank">wwwranking.webdatacommons.org</a>. The incorporated rating data can also be downloaded using the files listed below. Each line within the files consists of the host and the value for the corresponding measure.
+<ul>
+<li>Harmonic Centrality: <a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-h.tsv.gz">http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-h.tsv.gz</a></li>
+<li>Indegree: <a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-indegree.tsv.gz">http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-indegree.tsv.gz</a></li>
+<li>Katz: <a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-katz.tsv.gz">http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-katz.tsv.gz</a></li>
+<li>PageRank: <a href="http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-pr.tsv.gz">http://data.dws.informatik.uni-mannheim.de/hyperlinkgraph/2012-08/ranking/hostgraph-pr.tsv.gz</a></li>
+</ul>
+<ul>
+<li><code>4253d61a54f38a577c1a86fba8fa0a84  hostgraph-h.tsv.gz</code></li>
+<li><code>f8fc1d3f239f64ef5e0b95856fa216e4  hostgraph-indegree.tsv.gz</code></li>
+<li><code>23537ca26d123298b84c24f6298c27f7  hostgraph-katz.tsv.gz</code></li>
+<li><code>1edc26f368022e45689fc1c4ee82a5f8  hostgraph-pr.tsv.gz</code></li>
+</ul>
+</p>
+<h2 id="license">4. License</h2>
+<p>The extracted data is provided according the same <a href="http://commoncrawl.org/about/terms-of-use/full-terms-of-use/">terms of use, disclaimer of warranties and limitation of liabilities</a> that apply to the Common Crawl corpus.</p>
+
+<p>The Web Data Commons extraction framework can be used under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache Software License</a>. </p>
+
+<h2 id="feedback">5. Feedback</h2>
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br/><br/>
+More information about Web Data Commons is found <a href="../index.html">here</a>.</p>
+
+</div>
+
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    } 
+});
+</script>
+
+</body>
+</html> 

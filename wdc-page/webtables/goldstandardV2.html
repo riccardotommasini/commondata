@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>Web Data Commons - T2Dv2</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Dominique Ritze, Oliver Lehmberg, Christian Bizer">
+<meta name="keywords" content="Web Tables, HTML table corpus, Gold standard">
+<link rel=Stylesheet href=stylesheet.css>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+<script type="text/javascript">
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+		//create histogram for instance table - class distribution
+	   var instanceData= new google.visualization.DataTable();
+        instanceData.addColumn('string', '#Header');
+        instanceData.addColumn('number', 'Number of tables');
+        instanceData.addRows([
+		['Populated Place' ,  50],
+		['Work' ,  49],
+		['Organization' , 39],
+		['Person' ,  34],
+		['Natural Place' ,  30],
+		['Architectural Structure' ,  31],
+		['Species' ,   14]
+        ]);
+		
+		// Set chart options
+        var optionsHead1 = {'title':'Categories for Instance Tables',
+                       'width':1500,
+                       'height':400,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: false}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders1 = new google.visualization.ColumnChart(document.getElementById('instanceDiv'));
+        chartHeaders1.draw(instanceData, optionsHead1);
+		
+		//create piechart for table types
+		var dataE = google.visualization.arrayToDataTable([
+          ['Table Type', '#Tables'],
+          ['Relational', 546],
+          ['Entity', 124], 
+          ['Layout', 61],
+          ['Matrix', 30],
+          ['Other', 18]
+        ]);
+        var optionsE = {
+          title: 'Table Types'
+        };
+		var chart1E = new google.visualization.PieChart(document.getElementById('piechartTypes'));
+        chart1E.draw(dataE, optionsE);
+		
+		var propertyData= new google.visualization.DataTable();
+        propertyData.addColumn('string', '#Property');
+        propertyData.addColumn('number', 'Number of mappings');
+        propertyData.addRows([
+            ['releaseDate',	27],
+			['elevation',	26],
+			['populationTotal',	23],
+			['location',	19],
+			['industry',	18],
+			['capital',	18],
+			['director',	17],
+			['country',	16],
+			['computingPlatform',	11],
+			['genre',	10]
+        ]);
+
+        var optionsHead3 = {'title':'Top 10 DBpedia properties',
+                       'width':1500,
+                       'height':400,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: false}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders3 = new google.visualization.ColumnChart(document.getElementById('properties'));
+        chartHeaders3.draw(propertyData, optionsHead3);
+      }
+    </script>
+    <style>
+
+        @media all {
+            .container_chart { display: block; }
+            .page-break    { display: none; }
+        }
+
+        @media print {
+            * { font-size: 95%; }
+            .container_chart { display: inline-block; }
+            .page-break    { display: inline-block; page-break-after:always; }
+        }
+
+    </style>
+	<style type="text/css">
+		.todo {
+		background-color: yellow; color: red; font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<a name='top'></a><div id="header">
+  <h1 style="font-size: 250%;">T2Dv2 Gold Standard for Matching Web Tables to DBpedia</h1></div>
+<div id="tagline">Gold Standard Design, Statistics, and Download</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dominique-ritze/">Dominique Ritze</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+<br/>
+<br/>
+</div>
+
+<br />
+
+<div id="content">
+<p>
+This page describes the <strong>T2Dv2 Gold Standard</strong> for evaluating matching systems on the task of matching Web tables to the DBpedia knowledge base. T2Dv2 is the second version of the <a href ="http://webdatacommons.org/webtables/goldstandard.html">T2D entity-level gold standard</a>. A principle difference to the first version of the gold standard is that T2Dv2 does not only contain positive but also negative examples. 
+</p>
+<p>Many HTML tables on the Web are used for layout purposes, but a small fraction of all tables contains structured data [<a href="#Cafarella2008">Cafarella2008</a>][<a href="#Crestan2011">Crestan2011</a>]. As  this data has a wide coverage, it could potentially be very valuable for  filling missing values   and extending cross-domain knowledge bases such as <a href="http://wiki.dbpedia.org/">DBpedia</a>, <a href="http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/">YAGO</a> or the <a href="http://www.google.com/insidesearch/features/search/knowledge.html">Google Knowledge Graph</a>. As a prerequisite for being able to use  table data for knowledge base extension, the Web tables need to be matched to the knowledge base in question, meaning that correspondences between the rows of the tables and the entities described in the knowledge base as well as between the columns of the tables and the schema of the knowledge base need to be found. </p>
+<p>Different systems have been developed to solve this matching task [<a href="#Venetis2010">Venetis2010</a>][<a href="#Limaye2010">Limaye 2010</a>][<a href="#Ellis2014">Ellis2014</a>][<a href="#Zhang2014">Zhang2014</a>]. Up till now, it was difficult to compare the performance of these systems as they were evaluated using (partly) non-public Web tables data as well as different knowledge bases. The T2D Gold Standard tries to fill this gap by providing a large set of human-generated correspondences between a public Web table corpus and the DBpedia knowledge base. The T2Dv2 Gold Standard has been used to generated to results described in [<a href="#Ritze2017">Ritze2017</a>].</p>
+
+
+<p>The T2Dv2 gold standard consists of manually annotated row-to-instance, attribute-to-property and table-to-class correspondences between 779 Web tables and the <a href="http://wiki.dbpedia.org/Downloads2014">DBpedia Knowledgebase Version 2014</a>. The tables originate from the <a href="http://webdatacommons.org/webtables/englishTables.html">English-language subset</a> of the <a href="http://webdatacommons.org/webtables/">Web Data Commons Web Tables Corpus</a>. Out of the 779 tables in the gold standard, 237 tables share at least one instance with DBpedia. The tables cover different topics including places, works, and people. Altogether, the gold standard contains 237 class, 25,119 instance and 618 property correspondences.</p>
+<p>The main difference to the <a href ="http://webdatacommons.org/webtables/goldstandard.html">previous version of this gold standard </a> is that tables are also included that are non-relational or do not have any overlap with DBpedia (negative examples). Since most tables found in the Web are actually non-relational, Web table matching systems first need to filter out all non-relational tables. Second, only a certain amount of tables actually overlaps with a knowledge base like DBpedia. Thus, the matching systems need to be able to distinguish between overlapping and non-overlapping tables. Besides adding the tables, the existing correspondences have manually been checked and updated.</p>
+
+</p>
+
+<p>All versions of the T2D gold standard are provided under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache license</a> for public download below.</p>
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+
+<h2 id="overview">1. Table Characteristics</h2>
+<p>The table below provides basic statistics about the size of the tables that are contained in the gold standard. The number of rows varies between 3 and 5000 while the number of columns is between 2 and 30. For small and narrow tables, it is difficult to decide whether they contain relational data that can be matched to DBpedia since often only little evidence is available. If large and broad tables are incorrectly mapped, it has a large influence on the resulting performance of the matching system.
+</p>
+
+<table >
+<tr><th></th><th>min</th><th>max</th><th>median</th><th>average</th></tr>
+<tr><th>row</th><td>3</td><td>5000</td><td>17</td><td>84</td></tr>
+<tr><th>column</th><td>2</td><td>30</td><td>4</td><td>5</td></tr>
+</table>
+
+<p>
+ In order to cover the challenges that a Web table matching system needs to face, the gold standard contains three types of tables: non-relational tables (layout, matrix, entity, other), relational tables that do not share any instance with DBpedia and relational tables for which least one instance correspondence can be found. In contrast to other gold standards, e.g. [<a href="#Limaye2010">Limaye 112</a>], for matching the tables of the T2Dv2 gold standard, a matching system must be able to distinugish between these types of tables and filter out the ones that cannot be mapped to the DBpedia knowlege base. An overview of the different table types and how they are classified is given on our <a href="http://webdatacommons.org/webtables/">extraction page</a>.  
+ </p>
+<p>
+In total, 779 tables are contained in the gold standard. Figure 1 shows the distribution of table types. About 70% of the tables are relational tables, the second most common type are entity tables. In our studies and experiments we focus on relational tables since they are potentially mostly useful for knowledge base completion.
+</p>
+<div style="width:1000px;">
+    <div id="piechartTypes" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 1 - Distribution of the table types.</p>
+</div>
+<p>
+Of all 546 relational tables, half of them (237) share at least one instance correspondences with DBpedia. Due to the overlap, these tables can be mapped to DBpedia. All non-overlapping tables cover topics that are not represented in DBpedia, one example are tables about products. 
+</p>
+
+<h2 id="column">2. Correspondence Characteristics</h2>
+<p>
+The T2Dv2 gold standard covers three different types of correspondences: row-to-instance, attribute-to-property and table-to-class correspondences. Altogether, 25 119 row-to-instance, 618 attribute-to-property and 237 table-to-class correspondences are contained. For details about how the tables including the correspondences have been chosen, see the page of the <a href ="http://webdatacommons.org/webtables/goldstandard.html">previous version</a>. 
+</p>
+<h3 id="class">2.1. Table-To-Class Correspondences</h3>
+<p>
+For the 237 relational overlapping tables, a table-to-class correspondence is available. We grouped these classes based on their super classes (called categories) and show the distribution of tables being mapped to each category in Figure 2. Altogether, the tables are mapped to 33 different DBpedia classes.
+</p>
+
+<div style="width:1000px;">
+    <div id="instanceDiv" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 2 - Distribution of Tables per Category</p>
+</div>
+
+<h3 id="property">2.2. Attribute-To-Property Correspondences</h3>
+<p>
+In total, 618 correspondences between attributes and properties can be found in the tables. Of them, 237 refer to an entity label attribute and are assigned to the property rdfs:label. The remaining correspondences point to DBpedia properties which are contained in the DBpedia ontology namespace. Figure 3 shows the top 10 DBpedia properties (without rdfs:label) which have been assigned to the attributes. Besides properties referring to objects or strings, we can also find properties with dates and numeric values, e.g. releaseDate or populationTotal. Including properties with different data types shows the strengths and weaknesses of the similarity functions employed by the matching systems/algorithms.
+</p>
+<div style="width:720px;">
+    <div id="properties" style="width: 900px; height: 500px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 3 - Top 10 DBpedia properties</p>
+</div>
+
+<p>The table below provides the average number of attribute-property correspondences per category.</p>
+<table >
+<tr><th>Category</th>
+<th>avg. # of attribute-property correspondences</th><th>
+<tr><th>Work</th><td>3.2</td></tr>
+<tr><th>Organization</th><td>2.2</td></tr>
+<tr><th>Architectural Structure</th><td>2.3</td></tr>
+<tr><th>Person</th><td>1.5</td></tr>
+<tr><th>Species</th><td>2.4</td></tr>
+<tr><th>Natural Place</th><td>2.1</td></tr>
+<tr><th>Populated Place</th><td>4.1</td></tr>
+</table>
+<p>
+The number of attributes that can be mapped for a category can vary. While tables of the category "Populated Place" can on average be mapped to 4 properties, tables of the category "Person" can on average only be mapped to 1.5 properties. Besides other characteristics, these differences significantly influence the difficulty of matching a certain table. Having a lot of attribute-to-property correspondences can help to better find row-to-entity or table-to-class correspondences since more property values are exploitable.
+</p>
+
+<h3 id="instance">2.3. Row-To-Instance Correspondences</h3>
+<p>
+T2Dv2 covers 25,119 row-to-instance correspondences coming from different topics. The table below provides the average number of row-instance correspondences per category.
+<p>
+
+<table >
+<tr><th>Category</th>
+<th>avg. # of row-instance correspondences</th><th>
+<tr><th>Work</th><td>131</td></tr>
+<tr><th>Organization</th><td>65</td></tr>
+<tr><th>Architectural Structure</th><td>67</td></tr>
+<tr><th>Person</th><td>89</td></tr>
+<tr><th>Species</th><td>250</td></tr>
+<tr><th>Natural Place</th><td>83</td></tr>
+<tr><th>Populated Place</th><td>130</td></tr>
+</table>
+<p>
+While tables of the category "Species" can be mapped to a lot of instances, tables about "Architectural Structure" have a tendency to contain less correspondences. Similar to the number of property mappings per table, the amount of rows that can be matched has an influence on the matching difficulty: the more correspondences to instances exist, the easier it becomes to find attribute-property as well as table-class correspondences.
+</p>
+
+<h2 id="download">3. Data Format </h2>
+<p>
+The Web tables are provided in the JSON format that is also used for the <a href="http://webdatacommons.org/webtables/2015/downloadInstructions.html">WDC Web Table Corpus 2015</a>. Besides the table itself, also metadata like the sourrounding text and timestamps is included. All tables are uniquely identified by their name, which is the  name of the table file without extension.
+</p>
+<p>
+Correspondences are provided as CSV files. Fields are separated by the comma (' , ') character and all values are double quoted (' " ').
+There are three different file types for the gold standard: the class correspondence file, the attribute correspondence files, and the entity correspondence files.</p>
+<p>The class file contains the class correspondences and the header information for each table. It has the following structure:</p>
+
+
+<table>
+<tr>
+<td>table name</td>
+<td>DBpedia class name</td>
+<td>DBpedia class URI</td>
+<td>Header row indices (comma-separated list)</td>
+</tr>
+</table>
+
+
+The attributes files contain the attribute correspondences and the key information for the tables. For each table, one attribute file with the same name exists. These files have the following structure:
+
+<table>
+<tr>
+<td>DBpedia property URI</td>
+<td>Column header (value from the first row)</td>
+<td>Is key column (boolean)</td>
+<td>Column index</td>
+</tr>
+</table>
+
+The entity files contain the entity correspondences for the tables. For each table, one entity file with the same name exists. These files have the following structure:
+
+<table>
+<tr>
+<td>DBpedia resource URI</td>
+<td>Key value</td>
+<td>Row index</td>
+</tr>
+</table>
+
+<h2>4. Download</h2>
+
+<p>To download the corpus of Web tables as well as the correspondences use the following link:</p>
+
+<table>
+<tr>
+<td>T2Dv2</td>
+<td><a href="extended_instance_goldstandard.tar.gz">T2Dv2</a></td>
+</tr>
+<!--
+<tr>
+<td>Limaye200_DBpedia</td>
+<td><a href="Limaye200_DBpedia.zip">Limaye200_DBpedia</a></td>
+</tr>-->
+</table>
+
+<h2 id="license">5. License</h2>
+<p>The correspondences of the T2D Gold standard is provided under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache license</a>. The Web tables are provided according the same <a href="http://commoncrawl.org/about/terms-of-use/full-terms-of-use/">terms of use, disclaimer of warranties and limitation of liabilities</a> that apply to the Common Crawl corpus.
+
+<h2 id="acknowledgments">6. Acknowledgements</h2>
+
+<p>We would like to thank Oktie Hassanzadeh, Mariano Rodriguez, Kavitha Srinivas and Michael J. Ward for their feedback on our gold standard.</p>
+
+<h2 id="feedback">7. Feedback</h2>
+<p>Please send questions and feedback to directly to the authors (listed above) or  post them in the <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br/>
+</p>
+
+<h2 id="othercorpera">8. References</h2>
+<ol>
+<li>[<a name="Cafarella2008">Cafarella2008</a>] Michael J. Cafarella, Eugene Wu, Alon Halevy, Yang Zhang, Daisy Zhe Wang: <a href='http://dl.acm.org/citation.cfm?id=1453916'>WebTables: exploring the power of tables on the web.</a> VLDB 2008.</li>
+<li>[<a name="Crestan2011">Crestan2011</a>] Eric Crestan and Patrick Pantel: <a href="http://dl.acm.org/citation.cfm?id=1935904">Web-scale table census and classification.</a> WSDM 2011.</li>
+<li>[<a name="Cafarella2009">Cafarella2009</a>] Michael J. Cafarella, Alon Halevy, and Nodira Khoussainova: <a href="http://dl.acm.org/citation.cfm?id=1687750">Data integration for the relational web.</a> Proc. VLDB Endow. 2009. </li>
+<li>[<a name="Venetis2010">Venetis2010</a>] Venetis, Petros, Alon Halevy, Jayant Madhavan, Marius Pasca, Warren Shen, Fei Wu, Gengxin Miao, and Chung Wu: <a href="http://grafia.cs.ucsb.edu/gengxin/pdf/tables.pdf">Table Search Using Recovered Semantics.</a> 2010. </li>
+<li>[<a name="Limaye2010">Limaye 2010</a>] Girija Limaye, Sunita Sarawagi, and Soumen Chakrabarti: <a href="http://dl.acm.org/citation.cfm?id=1920841.1921005&coll=DL&dl=GUIDE&CFID=489610762&CFTOKEN=92550669">Annotating and searching web tables using entities, types and relationships</a>. <em>Proc. VLDB Endow.</em> 3, 1-2, 2010.</li>
+<li>[<a name="Zhang2013">Zhang2013</a>] Zhang, Xiaolu, et al.: <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-37450-0_8">Mapping entity-attribute web tables to web-scale knowledge bases.</a> In: Database Systems for Advanced Applications. Springer, 2013.</li>
+<li>[<a name="Wang2012">Wang2012</a>] Jingjing Wang, Haixun Wang, Zhongyuan Wang, and Kenny Q. Zhu: <a href="http://dl.acm.org/citation.cfm?id=2427537">Understanding tables on the web.</a> In Proceedings of the 31st international conference on Conceptual Modeling (ER'12), 2012.</li>
+<li>[<a name ="Ellis2014">Ellis2014</a>]Jason Ellis, Achille Fokoue, Okite Hassanzadeh, Anastasios Kementsietsidis, Kavitha Srinivas, Michael J. Ward:<a href="http://doi.acm.org/10.1145/2737817.2737829">Exploring Big Data with Helix: Finding Needles in a Big Haystack.</a> In ACM SIGMOD Record, Volume 43 Issue 4, 2014.</li> 
+<li>[<a name ="Zhang2014">Zhang2014</a>]Ziqi Zhang:<a href="http://link.springer.com/chapter/10.1007%2F978-3-319-11964-9_31">Towards efficient and effective semantic table interpretation.</a> In Proceedings of the 13th International Semantic Web Conference (ISWC 2014), 2014.</li>
+<li>[<a name ="Ritze2017">Ritze2017</a>]Dominique Ritze, Christian Bizer:<a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Ritze-Bizer-FeatureUtilityStudy.pdf">Matching Web Tables To DBpedia - A Feature Utility Study</a> In Proceedings of the 20th International Conference on Extending Database Technology (EDBT 2017), 2017.</li>
+
+
+
+</ol>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+
+</body></html>

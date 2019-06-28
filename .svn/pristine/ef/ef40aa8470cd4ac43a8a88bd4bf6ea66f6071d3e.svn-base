@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body> 
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="images/ma-logo.gif" alt="University of Mannheim - Logo"></a>&nbsp;&nbsp;<br></div>
+<div itemscope itemtype="http://schema.org/WebObservatory">
+<div id="header">
+<h1 style="font-size: 250%;"><span itemprop="name">Web Data Commons</span></h1>
+</div>
+<meta itemprop="url" content="http://webdatacommons.org" />
+<div id="tagline"><span itemprop="description">Extracting Structured Data from the Common Crawl</span</div>
+<div id="content">
+
+<p>
+The Web Data Commons project extracts structured data from the  <a href="http://commoncrawl.org/">Common Crawl</a>, the largest web corpus available to the public, and provides the extracted data for public download in order to support researchers and companies in exploiting the wealth of information that is available on the Web. 
+</p>
+
+<h2 id="news">News</h2>
+<ul>
+<li><strong>2019-01-17: We have released a new version of the <a href="structureddata/2018-12/stats/stats.html">RDFa, Microdata, Microformat, and Embedded JSON-LD</a> data corpus extracted from the November 2018 Common Crawl corpus.</strong></li>
+<li><strong>2018-12-20: We have released the <a href="http://webdatacommons.org/largescaleproductcorpus/index.html">WDC Training Dataset and Gold Standard for Large-Scale Product Matching</a>.</strong></li>
+<li><strong>2018-01-08: We have released a new version of the <a href="structureddata/2017-12/stats/stats.html">RDFa, Microdata, Microformat, and Embedded JSON-LD</a> data corpus extracted from the November 2017 Common Crawl corpus.</strong></li>
+<li><strong>2017-06-26: We have released the <a href="https://github.com/olehmberg/winter/">Web Data Integration Framework (WInte.r)</a>, which provides parsers and methods for the integration of Web Tables.</strong></li>
+<li><strong>2017-01-17: We have released a new version of the <a href="structureddata/2016-10/stats/stats.html">RDFa, Microdata, Microformat, and Embedded JSON-LD</a> data corpus extracted from the October 2016 Common Crawl corpus.</strong></li>
+<li><strong>2016-09-01: We have released a <a href="productcorpus/index.html">Gold Standard for Product Matching and Product Feature Extraction</a>. The gold standards are accompanied by a 11.2 million product data corpus crawled in the first quarter of 2016.</strong></li>
+<li><strong>2016-04-25: We have released a new version of the <a href="structureddata/2015-11/stats/stats.html#results-2015-1">RDFa, Microdata, Microformat, and Embedded JSON-LD</a> data corpus extracted from the November 2015 Common Crawl corpus. This corpus for the first time also includes JSON-LD data.</strong></li>
+<li><strong>2016-04-13: We have released a <a href="isadb/index.html">web-scale "IsA" database</a> containing over 400 million hypernymy relations extracted from the text of HTML pages.</strong></li>
+<li><strong>2015-12-15: Paper about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Ritze-etal-ProfilingWebTables.pdf">Profiling the Potential of Web Tables for Augmenting Cross-domain Knowledge Bases</a> has been accepted at the <a href="http://www2016.ca/">WWW'16</a> conference in Montréal, Canada.</strong></li>
+<li><strong>2015-12-15: Anthelion, a focused crawler for structured data released as Yahoo open source project. Find the code as well as a more comprehensive description at the <a href="https://github.com/yahoo/anthelion">Yahoo GitHub repository</a> (<a href="http://yahoolabs.tumblr.com/post/135196452221/explore-anthelion-our-open-source-focused-crawler">Yahoo tumblr posting</a>)</strong></li>
+<li><strong>2015-11-19: <a href="webtables/index.html#results-2015">WDC Web Table Corpus 2015</a> released consisting of 233 million Web tables extracted from the July 2015 Common Crawl.</strong></li>
+<li><strong>2015-08-13: Journal Article about <a href="http://www.webscience-journal.net/webscience/article/view/11">The Graph Structure in the Web - Analyzed on Different Aggregation Levels</a> has been published by the <a href="http://www.webscience-journal.net/webscience/issue/view/1">Journal of Web Science</a>.</strong></li>
+<li><strong>2015-04-02: <a href="structureddata/index.html#toc3">RDFa, Microdata, and Microformat</a>  data sets extracted from the December 2014 Common Crawl corpus available for download.</strong></li>
+<li><strong>2015-04-01: <a href="webtables/goldstandard.html">T2D Gold Standard</a> for comparing matching systems on the task of finding correspondences between Web tables and large-scale knowledge bases released.</strong></li>
+<li><strong>2015-03-30: Paper about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/MeuselPaulheim-HeuristicsForFixingCommonErrorsInDeployedSchemaOrgMicrodata-ESWC2015.pdf">Heuristics for Fixing Common Errors in Deployed schema.org Microdata</a> accepted at <a href="http://2015.eswc-conferences.org/">ESWC2015</a> conference in Portoroz, Slovenia.</strong></li>
+<li><strong>2014-12-04: We have created several <a href="structureddata/2013-11/stats/schema_org_subsets.html">Class-Specific Subsets of the Schema.org Data contained in the Winter 2013 Microdata Corpus</a> (e.g. schema.org/Product and schema.org/Offer) in order to make it easier to work with the data.</strong></li>
+<li><strong>2014-08-27: We have released an easy to customize version of the <a href="framework/index.html">WDC Extraction Framework</a> including a tutorial, which explains the usage and customization in detail. See also our <a href="http://blog.commoncrawl.org/2014/08/web-data-commons-extraction-framework-for-the-distributed-processing-of-cc-data/">guest post</a> at the Common Crawl Blog.</strong></li>
+<li><strong>2014-08-13: <a href="http://webdatacommons.org/hyperlinkgraph/index.html#toc3">Hyperlink Graph Dataset</a> covering 1.7 billion web pages extracted from the April 2014 Common Crawl corpus available for download.</strong></li>
+<li><strong>2014-07-06: Paper about WebDataCommons Microdata, Rdfa and Microformats Dataset Series accepted at <a href="http://iswc2014.semanticweb.org/">ISWC'14</a> conference in Riva del Garda - Trentino, Italy: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-TheWDCMicrodataRdfaMicroformatsDataSeries-ISWC2014-rbds.pdf" target="_blank"> The WebDataCommons Microdata, RDFa and Microformat Dataset Series</a></strong></li>
+<li><strong>2014-04-14: Paper about WDC Pay-Level Domain Graph accepted at <a href="http://www.websci14.org/">WebSci'14</a> conference in Bloomington, USA: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Lehmberg-etal-GraphStructureOfTheWebPLD.pdf" target="_blank">Graph Structure in the Web - Aggregated by Pay-Level Domain</a></strong></li>
+<li><strong>2014-04-01: <a href="structureddata/index.html#results-2013-1">RDFa, Microdata, and Microformat</a>  data sets extracted from the Winter 2013 Common Crawl corpus available for download.</strong></li>
+<li><strong>2014-03-05: Initial release of the  <a href="http://webdatacommons.org/webtables/index.html">WDC Web Tables</a> data set  consisting of 147 million relational Web tables.</strong></li>
+<li><strong>2014-02-12: <a href="http://wwwranking.webdatacommons.org">First open ranking of the World Wide Web</a> is now available. The ranking is based on the <a href="hyperlinkgraph/index.html">WDC Hyperlink Graph</a>. </strong></li>
+<li><strong>2014-02-04: Paper about WDC Hyperlink Graph accepted at WWW2014 conference (Web Science Track) in Seoul: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-GraphStructureOfTheWeb.pdf">Graph Structure in the Web - Revisited</a></strong></li>
+<li><strong>2014-01-20: Paper about the integration of product data from the WDC Microdata data set accpeted at the DEOS2014 workshop at the WWW2014 conference in Seoul: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/petrovski_bryl_bizer_deos2014.pdf"  target="_blank"> Integrating Product Data from Websites offering Microdata Markup</a></strong></li>
+<li><strong>2013-11-12: Web Data Commons releases large <a href="hyperlinkgraph/index.html">Hyperlink Graph</a> covering 3.5 billion web pages and 128 billion hyperlinks between these pages.</strong></li>
+<li><strong>2013-09-02: Paper about the WDC RDFa, Microdata, and Microformat data set accepted at the ISWC2013 conference in Sydney: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Bizer-etal-DeploymentRDFaMicrodataMicroformats-ISWC-InUse-2013.pdf"  target="_blank">Deployment of RDFa, Microdata, and Microformats on the Web -- A Quantitative Analysis</a>.</strong></li>
+<li><strong>2013-07-12: New analysis available about the <a href="structureddata/2012-08/stats/microdata_products_detail.html">types of products that are offered by e-shops using Microdata markup</a>.</strong></li>
+<li><strong>2013-07-05: Yahoo! Research releases Glimmer search engine which enables you to search Web Data Commons data. <a href="https://groups.google.com/forum/?fromgroups=#!topic/web-data-commons/coDFbhRSAQQ" target="_blank">Details</a>.</strong></li>
+<li><strong>2012-12-10: <a href="structureddata/index.html#results-2012-1">RDFa, Microdata, and Microformat</a>  data sets extracted from the August 2012 Common Crawl corpus available for download.</strong></li>
+<li><strong>2012-06-29: We have created a <a href="structureddata/vocabulary-usage-analysis/index.html">new analysis on vocabulary usage</a> in our Microdata and RDFa data set.</strong></li>
+<li><strong>2012-06-20: Presentation of the Web Data Commons project and our data extraction framework at the <a href="http://aws.amazon.com/aws-summit-2012/berlin/">AWS Summit 2012 Berlin</a> - <a href="http://www.slideshare.net/hannesmuehleisen/aws-summit-berlin-2012-talk-on-web-data-commons"  target="_blank">Slides</a>.</strong></li>
+<li><strong>2012-04-16: Paper on Web Data Commons presented at the LDOW 2012 Workshop (<a href="structureddata/index.html#references">References</a>)</strong></li>
+<li><strong>2012-03-22: RDFa, Microdata, and Microformat data sets extracted from the February 2012 Common Crawl corpus available for download. </strong></li>
+<li><strong>2012-03-13: RDFa, Microdata, and Microformat data sets extracted from the  2009/2010 Common Crawl corpus available for download.</strong></li>
+</ul>
+
+<h2 id="dataset">Available Data Sets</h2>
+<div itemprop="webObservatoryProject" itemscope itemtype="http://schema.org/WebObservatoryProject">
+<meta itemprop="url" content="http://webdatacommons.org/structureddata/index.html"/>
+<h3><a href="structureddata/index.html"><span itemprop="name">RDFa, Microdata, and Microformat</span></a></h3>
+<p>
+More and more websites have started to embed structured data describing products, people, organizations, places, and events into their HTML pages using <span itemprop="method">markup standards such as RDFa, Microdata and Microformats</span>. 
+The Web Data Commons project extracts this data from several billion web pages. So far the project provides six different data set releases extracted from the Common Crawl 2016, 2015, 2014, 2013, 2012 and 2010. The project provides the extracted data for download and publishes statistics about the deployment of the different formats.
+</p>
+</div>
+<div itemprop="webObservatoryProject" itemscope itemtype="http://schema.org/WebObservatoryProject">
+<meta itemprop="url" content="http://webdatacommons.org/webtables/index.html"/>
+<h3><a href="webtables/index.html"><span itemprop="name">Web Tables</span></a></h3>
+<p>
+The Web contains vast amounts of <span itemprop="method">HTML tables</span>. Most of these tables are used for layout purposes, but a fraction of the tables is also quasi-relational, meaning that they contain structured data describing a set of entities, and are thus useful in application contexts such as data search, table augmentation, knowledge base construction, and for various NLP tasks. The WDC Web Tables data set consists of the 147 million relational Web tables that are contained in the overall set of 11 billion HTML tables found in the Common Crawl. 
+</p>
+</div>
+<div itemprop="webObservatoryProject" itemscope itemtype="http://schema.org/WebObservatoryProject">
+<meta itemprop="url" content="http://webdatacommons.org/hyperlinkgraph/index.html"/>
+<h3><a href="hyperlinkgraph/index.html"><span itemprop="name">Hyperlink Graph</span></a></h3>
+<p>
+We offer a large <span itemprop="method">hyperlink graph</span> that we extracted from the 2012 version of the Common Crawl. The WDC Hyperlink Graph covers 3.5 billion web pages and 128 billion hyperlinks between these pages. The graph can help researchers to improve search algorithms, develop spam detection methods and evaluate graph analysis algorithms.  To the best of our knowledge, the graph is the largest hyperlink graph that is available to the public. 
+</p>
+</div>
+<div itemprop="webObservatoryProject" itemscope itemtype="http://schema.org/WebObservatoryProject">
+<meta itemprop="url" content="http://webdatacommons.org/isadb/index.html"/>
+<h3><a href="isadb/index.html"><span itemprop="name">WebIsA Database</span></a></h3>
+<p>
+We offer a large <span itemprop="method">IsA database</span> that we extracted from the 2015 version of the Common Crawl. The WDC IsA Database contains more than 400 million hypernymy relations we extracted from the text of HTML pages included in the crawl.
+This collection of relations represents a rich source of knowledge and can be used to improve approaches in various application domains. We offer the tuple dataset for public download and an application programming interface to help other researchers programmatically query the database. In addition a <a href="http://webisadb.webdatacommons.org/webisadb/">demo web application</a> of the database is available.
+</p>
+</div>
+<div itemprop="webObservatoryProject" itemscope itemtype="http://schema.org/WebObservatoryProject">
+<meta itemprop="url" content="http://webdatacommons.org/productcorpus/index.html"/>
+<span itemprop="name"><b>Product Data Corpora</b></span>
+<p>
+We offer two product data corpora containing offers from multiple e-shops. The <a href="http://webdatacommons.org/productcorpus/index.html">first corpus</a>  consists of 5.6 million product offers from the categories mobile phones,
+ headphones and televisions and was crawled from 32 popular shopping websites. The corpus is accompanies by a manually verified gold standard for the evaluation and comparison
+ of product feature extraction and product matching methods. The <a href="http://webdatacommons.org/largescaleproductcorpus/index.html">second corpus</a> consists of more than 26 million product offers originating from 79 thousand websites.
+ The offers are grouped into 16 million clusters of offers referring to the same product using product identifiers, such as GTINs or MPNs.
+</p>
+</div>
+
+<h2 id="software">Available Software</h2>
+
+<h3><a href="framework/index.html">Extraction Framework</a></h3>
+<p>
+The effective processing of large web corpora presents challenges in terms of resources, time and costs. In order to extract the data sets presented above, the Web Data Commons project has developed a framework which provides an easy to use basis for the distributed processing of large web crawls using <a href="http://aws.amazon.com/de/">Amazon EC2 cloud services</a>. The framework is published under the terms of the Apache license and can be simply customized to perform also different data extraction tasks.
+</p>
+
+<h2 id="license">License</h2>
+
+<p>The Web Data Commons extraction framework can be used under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache Software License</a>. 
+</p>
+
+<h2 id="Feedback">Feedback</h2>
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.
+</p>
+<h2 id="about">About Web Data Commons Project</h2>
+<p>
+The Web Data Commons project was started by researchers  from <span itemprop="contributer" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Freie Universit&auml;t Berlin</span></span> and the <span itemprop="contributer" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Karlsruhe Institute of Technology (KIT)</span></span> in 2012. The goal of the project is to facilitate research and support companies in exploiting the wealth of information on the Web by extracting structured data from web crawls and provide this data for public download. Today the WDC Project is mainly maintained by the <span itemprop="contributer" itemscope itemtype="http://schema.org/Organization"><a href="http://dws.informatik.uni-mannheim.de/"><span itemprop="subOrganization" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Data and Web Science Research Group</a></a> at the <span itemprop="name">University of Mannheim</span></span>. The project is coordinated by <a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/"><span itemprop="accountablePerson">Christian Bizer</span></a> who has moved from Berlin to Mannheim.
+</p>
+<h2 id="credits">Credits</h2>
+<p>
+Web Data Commons is supported by the EU FP7 projects <a href="http://planet-data.eu">PlanetData</a> and <a href="http://lod2.eu">LOD2</a>, by an <a href="http://aws.amazon.com/education/">Amazon Web Services in Education Grant Award</a>, by the <a href="http://www.dfg.de/">German Research Foundation (DFG)</a> 
+and by the <a href="https://www.alwr-bw.de/kooperationen/vice/">ViCe</a> research project of the <a href="https://mwk.baden-wuerttemberg.de/de/startseite/">Ministry of Economy, Research and Arts of Baden - Württemberg</a>.
+</p>
+<a href="http://planet-data.eu"><img src="images/pd.gif" alt="PlanetData Logo"></a>&nbsp;&nbsp;&nbsp;
+<a href="http://lod2.eu"><img src="images/lod2.gif" alt="LOD2 Logo"></a>&nbsp;&nbsp;&nbsp;
+<a href="http://aws.amazon.com/education/"><img src="images/aws.png" alt="AWS Logo"></a>&nbsp;&nbsp;&nbsp;
+<a href="http://www.dfg.de/"><img src="images/dfg_logo.gif" alt="DFG Logo"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://mwk.baden-wuerttemberg.de/de/startseite/"><img src="images/mwk.png" height="130" alt="MWK_BW Logo"></a>&nbsp;&nbsp;&nbsp;
+
+</div>
+
+</div>
+</div>
+</body>
+</html> 
+<ul>

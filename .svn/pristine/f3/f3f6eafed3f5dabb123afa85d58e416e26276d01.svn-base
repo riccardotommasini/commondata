@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons - Winter 2014 Corpus - Schema.org Class Specific Subsets</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body><a name='top'></a>
+<h1>Class-Specific Subsets of the Schema.org Data contained in the Winter 2014 Corpus</h1>
+<p>This page provides access  to and statistics about class-specific subsets of the  <a href="http://schema.org">Schema.org</a> data contained in the <a href="http://webdatacommons.org/structureddata/2014-12/stats/stats.html">Winter 2014 version</a> of the <a href="http://webdatacommons.org/structureddata/">Web Data Commons Microdata corpus</a>.</p> 
+
+<h2>Introduction</h2>
+<p>
+As many users are only interested in specific types of Schema.org data (like product data, event data, or address data), we have created class-specific subsets out of the complete <a href="http://webdatacommons.org/structureddata/2013-11/stats/stats.html">Microdata corpus</a> for a selection of <i>schema.org</i> classes.
+The subsets contain all instances of a specific class  as well as all other data that is found on the webpages containing these instances. For example, a page containing data about a product might also contain reviews and offers for this product; a page containing data about an event might also contain data about the location of the event and the persons involved in the event. The data is represented in <a href="http://www.w3.org/TR/n-quads/">N-Quads</a> format, meaning that the forth element of each quad contains the URL of the webpage from which the data was extracted. </p>
+<p><b>Please note that </b>
+<ul>
+  <li>the data in the  files is not disjunct. This means that whenever you combine two files you might end up with duplicated quads, as one webpage can contain more than one class (e.g. schema.org/Product and schema.org/Offer).
+  </li>
+  <li>the  data is only the tip of the iceberg. The <a href="http://commoncrawl.org/">CommonCrawl </a>covers only a subset of all webpages that are offered by a specific website. Thus also only a subset of all data offered by a site is contained in our corpus. I you need more instances of a specific class, you will need to crawl deeper into the websites that we identified to contain specific types of Schema.org data.</li>
+</ul>
+You are welcome to use the datasets and also to tell about your findings. If you find our datasets useful for your research, please quote the paper: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-TheWDCMicrodataRdfaMicroformatsDataSeries-ISWC2014-rbds.pdf" target="_blank"> The WebDataCommons Microdata, RDFa and Microformat Dataset Series</a> by <i>Robert Meusel, Petar Petrovski, and Christian Bizer</i> in the Proceedings of the 13th International Semantic Web Conference: Replication, Benchmark, Data and Software Track (ISWC2014).
+
+</p>
+<h2>Class-Specific Subsets of the Schema.org Data</h2> 
+<p>
+<table style="width:1500px">
+<tr><th style="width:300px">Class Name</th><th style="width:250px">Total Number of</th><th style="width:370px">Top Classes (Entity Count)</th><th style="width:120px">Total File Size</th><th style="width:220px">Quad File</th></tr>
+<tr><th><a href="http://schema.org/AdministrativeArea">http://schema.org/AdministrativeArea</a></th><td> Quads: 1,724,857</br> URLs: 85,625</br> Hosts: 63</br></td><td>http://schema.org/AdministrativeArea (100,671)</br>
+http://schema.org/GeoCoordinates (84,152)</br>
+http://schema.org/Country (83,851)</br>
+http://schema.org/Continent (83,567)</br>
+</td><td>23 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgAdministrativeArea.nq.gz">schemaorgAdministrativeArea.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgAdministrativeArea.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Airport">http://schema.org/Airport</a></th><td> Quads: 80,258,863</br> URLs: 963,538</br> Hosts: 99</br></td><td>http://schema.org/Airport (26,764,415)</br>
+http://schema.org/PostalAddress (9,238)</br>
+http://schema.org/Product (1,290)</br>
+http://schema.org/Offer (1,283)</br>
+</td><td>961 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgAirport.nq.gz">schemaorgAirport.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgAirport.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/BodyOfWater">http://schema.org/BodyOfWater</a></th><td> Quads: 7,914</br> URLs: 290</br> Hosts: 10</br></td><td>http://schema.org/BodyOfWater (314)</br>
+http://schema.org/Product (179)</br>
+http://schema.org/Offer (177)</br>
+http://schema.org/ImageObject (173)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBodyOfWater.nq.gz">schemaorgBodyOfWater.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBodyOfWater.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Book">http://schema.org/Book</a></th><td> Quads: 68,816,749</br> URLs: 3,460,000</br> Hosts: 1,982</br></td><td>http://schema.org/Book (7,411,863)</br>
+http://schema.org/Offer (2,436,981)</br>
+http://schema.org/Review (1,349,532)</br>
+http:/schema.orgPerson (324,281)</br>
+</td><td>1,729 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBook.nq.gz">schemaorgBook.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBook.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Canal">http://schema.org/Canal</a></th><td> Quads: 1,619</br> URLs: 32</br> Hosts: 2</br></td><td>http://schema.org/ImageObject (61)</br>
+http://schema.org/Product (36)</br>
+http://schema.org/Offer (36)</br>
+http://schema.org/SearchAction (35)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCanal.nq.gz">schemaorgCanal.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCanal.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/City">http://schema.org/City</a></th><td> Quads: 12,125,985</br> URLs: 314,679</br> Hosts: 360</br></td><td>http://schema.org/GeoCoordinates (597,000)</br>
+http://schema.org/City (404,765)</br>
+http://schema.org/PostalAddress (387,934)</br>
+http://schema.org/Person (341,019)</br>
+</td><td>223 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCity.nq.gz">schemaorgCity.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCity.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/CollegeOrUniversity">http://schema.org/CollegeOrUniversity</a></th><td> Quads: 7,220,703</br> URLs: 219,107</br> Hosts: 384</br></td><td>http://schema.org/CollegeOrUniversity (678,821)</br>
+http://schema.org/Person (511,908)</br>
+http://schema.org/LocalBusiness (233,201)</br>
+http://schema.org/PostalAddress (197,852)</br>
+</td><td>148 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCollegeOrUniversity.nq.gz">schemaorgCollegeOrUniversity.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCollegeOrUniversity.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Comment">http://schema.org/Comment</a></th><td> Quads: 22,539,188</br> URLs: 488,678</br> Hosts: 824</br></td><td>http://schema.org/Comment (2,761,935)</br>
+http://schema.org/Person (1,597,908)</br>
+http://schema.org/SiteNavigationElement (346,683)</br>
+http://schema.org/Organization (228,704)</br>
+</td><td>1,069 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgComment.nq.gz">schemaorgComment.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgComment.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Continent">http://schema.org/Continent</a></th><td> Quads: 1,712,643</br> URLs: 86,090</br> Hosts: 5</br></td><td>http://schema.org/AdministrativeArea (90,940)</br>
+http://schema.org/Continent (86,746)</br>
+http://schema.org/Country (85,982)</br>
+http://schema.org/GeoCoordinates (85,792)</br>
+</td><td>22 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgContinent.nq.gz">schemaorgContinent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgContinent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Country">http://schema.org/Country</a></th><td> Quads: 105,066,663</br> URLs: 1,035,444</br> Hosts: 277</br></td><td>http://schema.org/Rating (6,739,676)</br>
+http://schema.org/Review (3,809,257)</br>
+http://schema.org/LodgingBusinessAmenity (2,362,936)</br>
+http://schema.org/Hotel (2,077,837)</br>
+</td><td>1,846 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCountry.nq.gz">schemaorgCountry.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCountry.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a></th><td> Quads: 50,901,532</br> URLs: 3,927,315</br> Hosts: 7,621</br></td><td>http://schema.org/CreativeWork (6,113,042)</br>
+http://schema.org/Person (1,384,495)</br>
+http://schema.org/Offer (834,633)</br>
+http://schema.org/Comment (553,373)</br>
+</td><td>6,551 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCreativeWork.nq.gz">schemaorgCreativeWork.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgCreativeWork.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/EducationalOrganization">http://schema.org/EducationalOrganization</a></th><td> Quads: 3,141,634</br> URLs: 105,687</br> Hosts: 1,048</br></td><td>http://schema.org/EducationalOrganization (182,619)</br>
+http://schema.org/PostalAddress (157,648)</br>
+http://schema.org/Person (101,636)</br>
+http://schema.org/GeoCoordinates (66,373)</br>
+</td><td>61 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgEducationalOrganization.nq.gz">schemaorgEducationalOrganization.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgEducationalOrganization.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Event">http://schema.org/Event</a></th><td> Quads: 51,988,080</br> URLs: 873,695</br> Hosts: 12,746</br></td><td>http://schema.org/Event (4,833,993)</br>
+http://schema.org/Place (2,573,623)</br>
+http://schema.org/PostalAddress (2,542,054)</br>
+http://schema.org/Person (859,660)</br>
+</td><td>1,020 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgEvent.nq.gz">schemaorgEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/GeoCoordinates">http://schema.org/GeoCoordinates</a></th><td>Quads: 278,920,851</br>URLs: 4,597,221</br>Hosts: 16,990</td>
+<td>http://schema.org/GeoCoordinates (13,523,743)</br>
+http://schema.org/PostalAddress (12,207,094)</br>
+http://schema.org/Rating (6,921,210)</br>
+http://schema.org/Review (4,958,743)</br>
+</td><td>5,593 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgGeoCoordinates.nq.gz">schemaorgGeoCoordinates.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgGeoCoordinates.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/GovernmentOrganization">http://schema.org/GovernmentOrganization</a></th><td> Quads: 217,491</br> URLs: 15,305</br> Hosts: 132</br></td><td>http://schema.org/GovernmentOrganization (26,503)</br>
+http://schema.org/PostalAddress (10,493)</br>
+http://schema.org/WebPage (2,552)</br>
+http://schema.org/CreativeWork (2,200)</br>
+</td><td>4 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgGovernmentOrganization.nq.gz">schemaorgGovernmentOrganization.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgGovernmentOrganization.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Hospital">http://schema.org/Hospital</a></th><td> Quads: 4,677,848</br> URLs: 232,978</br> Hosts: 174</br></td><td>http://schema.org/PostalAddress (290,739)</br>
+http://schema.org/Hospital (270,040)</br>
+http://schema.org/Physician (194,614)</br>
+http://schema.org/MedicalSpecialty (159,187)</br>
+</td><td>98 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgHospital.nq.gz">schemaorgHospital.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgHospital.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Hotel">http://schema.org/Hotel</a></th><td> Quads: 148,211,253</br> URLs: 3,136,152</br> Hosts: 5,337</br></td><td>http://schema.org/Rating (7,007,590)</br>
+http://schema.org/Hotel (6,335,124)</br>
+http://schema.org/Review (4,408,551)</br>
+http://schema.org/AggregateRating (3,936,372)</br>
+</td><td>2,994 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgHotel.nq.gz">schemaorgHotel.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgHotel.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/JobPosting">http://schema.org/JobPosting</a></th><td>Quads: 234,475,135</br>URLs: 2,011,332</br>Hosts: 3,962</td><td>http://schema.org/JobPosting (22,804,279)</br>
+http://schema.org/Place (16,321,339)</br>
+http://schema.org/Organization (12,164,867)</br>
+http://schema.org/Postaladdress (7,516,387)</br>
+</td><td>5,078 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgJobPosting.nq.gz">schemaorgJobPosting.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgJobPosting.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/LakeBodyOfWater">http://schema.org/LakeBodyOfWater</a></th><td> Quads: 28,577</br> URLs: 506</br> Hosts: 10</br></td><td>http://schema.org/Product (876)</br>
+http://schema.org/Offer (873)</br>
+http://schema.org/ImageObject (630)</br>
+http://schema.org/LakeBodyOfWater (531)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLakeBodyOfWater.nq.gz">schemaorgLakeBodyOfWater.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLakeBodyOfWater.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/LandmarksOrHistoricalBuildings">http://schema.org/LandmarksOrHistoricalBuildings</a></th><td> Quads: 188,690</br> URLs: 8,008</br> Hosts: 66</br></td><td>http://schema.org/GeoCoordinates (11,541)</br>
+http://schema.org/LandmarksOrHistoricalBuildings (9,261)</br>
+http://schema.org/Place (4,170)</br>
+http://schema.org/Hotel (2,700)</br>
+</td><td>4 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLandmarksOrHistoricalBuildings.nq.gz">schemaorgLandmarksOrHistoricalBuildings.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLandmarksOrHistoricalBuildings.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Language">http://schema.org/Language</a></th><td> Quads: 68,015</br> URLs: 1,001</br> Hosts: 20</br></td><td>http://schema.org/PostalAddress (1,642)</br>
+http://schema.org/openingHoursSpecification (1,288)</br>
+http://schema.org/GeoCoordinates (1,272)</br>
+http://schema.org/Language (1,118)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLanguage.nq.gz">schemaorgLanguage.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLanguage.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Library">http://schema.org/Library</a></th><td> Quads: 611,570</br> URLs: 48,159</br> Hosts: 50</br></td><td>http://schema.org/Library (54,665)</br>
+http://schema.org/PostalAddress (51,597)</br>
+http://schema.org/ItemPage (2,255)</br>
+http://schema.org/SearchResultsPage (672)</br>
+</td><td>10 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLibrary.nq.gz">schemaorgLibrary.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLibrary.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/LocalBusiness">http://schema.org/LocalBusiness</a></th><td>Quads: 327,712,127</br>URLs: 5,364,173</br>Hosts: 86,503</td><td>http://schema.org/LocalBusiness (20,193,868)</br>
+http://schema.org/PostalAddress (16,188,664)</br>
+http://schema.org/Rating (7,133,290)</br>
+http://schema.org/Review (5,587,489)</br>
+</td><td>6,322 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLocalBusiness.nq.gz">schemaorgLocalBusiness.nq.gz</a>(<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLocalBusiness.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Mountain">http://schema.org/Mountain</a></th><td> Quads: 91,481</br> URLs: 996</br> Hosts: 13</br></td><td>http://schema.org/Mountain (8,654)</br>
+http://schema.org/Review (2,208)</br>
+http://schema.org/Offer (1,203)</br>
+http://schema.org/Product (1,194)</br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMountain.nq.gz">schemaorgMountain.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMountain.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Movie">http://schema.org/Movie</a></th><td> Quads: 76,586,127</br> URLs: 1,448,455</br> Hosts: 2,530</br></td><td>http://schema.org/Person (8,392,358)</br>
+http://schema.org/Movie (3,540,733)</br>
+http://schema.org/AggregateRating (1,102,964)</br>
+http://schema.org/Review (488,243)</br>
+</td><td>1,956 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMovie.nq.gz">schemaorgMovie.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMovie.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Museum">http://schema.org/Museum</a></th><td> Quads: 1,319,654</br> URLs: 6,968</br> Hosts: 43</br></td><td>http://schema.org/Painting (409,830)</br>
+http://schema.org/Event (65,219)</br>
+http://schema.org/Museum (8,544)</br>
+http://schema.org/PostalAddress (7,382)</br>
+</td><td>27 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMuseum.nq.gz">schemaorgMuseum.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMuseum.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/MusicAlbum">http://schema.org/MusicAlbum</a></th><td> Quads: 54,046,120</br> URLs: 725,445</br> Hosts: 303</br></td><td>http://schema.org/MusicRecording (5,844,949)</br>
+http://schema.org/MusicAlbum (3,220,725)</br>
+http://schema.org/MusicGroup (582,132)</br>
+http://www.schema.org/MusicGroup (192,120)</br>
+</td><td>896 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMusicAlbum.nq.gz">schemaorgMusicAlbum.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMusicAlbum.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/MusicRecording">http://schema.org/MusicRecording</a></th><td> Quads: 101,809,348</br> URLs: 1,626,908</br> Hosts: 894</br></td><td>http://schema.org/MusicRecording (14,110,602)</br>
+http://schema.org/MusicAlbum (2,215,977)</br>
+http://schema.org/MusicGroup (1,731,286)</br>
+http://www.schema.org/MusicGroup (260,414)</br>
+</td><td>1,657 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMusicRecording.nq.gz">schemaorgMusicRecording.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMusicRecording.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Offer">http://schema.org/Offer</a></th><td>Quads: 2,336,061,281</br>URLs: 31,500,168</br>Hosts: 109,508</td><td>
+http://schema.org/Offer (236,634,256)</br>
+http://schema.org/Product (177,715,471)</br>
+http://schema.org/Organization (31,943,608)</br>
+http://schema.org/AggregateRating (28,400,027)</br>
+</td><td>49,564 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgOffer.nq.gz">schemaorgOffer.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgOffer.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Organization">http://schema.org/Organization</a></th><td>Quads: 1,323,680,882</br>URLs: 33,566,740</br>Hosts: 140,619</td><td>http://schema.org/Organization (100,053,752)</br>
+http://schema.org/Product (34,982,791)</br>
+http://schema.org/Offer (30,808,471)</br>
+http://schema.org/AggregateRating (13,951,978)</br>
+</td><td>33,068 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgOrganization.nq.gz">schemaorgOrganization.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgOrganization.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Painting">http://schema.org/Painting</a></th><td> Quads: 947,308</br> URLs: 10,193</br> Hosts: 59</br></td><td>http://schema.org/Painting (416,737)</br>
+http://schema.org/PostalAddress (4,316)</br>
+http://schema.org/Museum (4,314)</br>
+http://schema.org/CreativeWork (3,329)</br>
+</td><td>20 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPainting.nq.gz">schemaorgPainting.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPainting.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Park">http://schema.org/Park</a></th><td> Quads: 76,018</br> URLs: 1,631</br> Hosts: 30</br></td><td>http://schema.org/Park (1,801)</br>
+http://schema.org/ImageObject (1,750)</br>
+http://schema.org/WebSite (1,532)</br>
+http://schema.org/SearchAction (1,532)</br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPark.nq.gz">schemaorgPark.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPark.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Person">http://schema.org/Person</a></th><td> Quads: 1,004,736,308</br> URLs: 17,030,807</br> Hosts: 90,919</br></td><td>http://schema.org/Person (114,509,459)</br>
+http://schema.org/ImageObject (11,712,302)</br>
+http://schema.org/Offer (11,445,547)</br>
+http://schema.org/Product (11,035,878)</br>
+</td><td>38,691 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPerson.nq.gz">schemaorgPerson.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPerson.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Place">http://schema.org/Place</a></th><td>Quads: 347,879,926</br>URLs: 4,426,745</br>Hosts: 13,212</td><td>http://schema.org/Place (29,367,577)</br>
+http://schema.org/JobPosting (15,798,839)</br>
+http://schema.org/Organization (10,346,618)</br>
+http://schema.org/PostalAddress (9,335,721)</br>
+</td><td>7,458 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPlace.nq.gz">schemaorgPlace.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPlace.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/PostalAddress">http://schema.org/PostalAddress</a></th><td>Quads: 776,573,609</br>URLs: 13,475,055</br>Hosts: 131,064</td><td>http://schema.org/PostalAddress (48,086,763) </br>
+http://schema.org/LocalBusiness (16,641,260)</br>
+http://schema.org/GeoCoordinates (12,345,942)</br>
+http://schema.org/Place (9,071,774)</br>
+</td><td>14,364 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPostalAddress.nq.gz">schemaorgPostalAddress.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgPostalAddress.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Product">http://schema.org/Product</a></th><td>Quads: 2,829,523,589</br>URLs: 48,314,143</br>Hosts: 104,118</td><td>http://schema.org/Product (287,815,069)</br>
+http://schema.org/Offer (221,781,710)</br>
+http://schema.org/AggregateRating (38,398,548)</br>
+http://schema.org/Review (26,209,678)</br>
+</td><td>62,179 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgProduct.nq.gz">schemaorgProduct.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgProduct.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/RadioStation">http://schema.org/RadioStation</a></th><td> Quads: 814,912</br> URLs: 72,597</br> Hosts: 71</br></td><td>http://schema.org/RadioStation (96,649)</br>
+http://schema.org/PostalAddress (87,527)</br>
+http://schema.org/Review (18,534)</br>
+http://schema.org/Rating (18,462)</br>
+</td><td>15 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRadioStation.nq.gz">schemaorgRadioStation.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRadioStation.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Recipe">http://schema.org/Recipe</a></th><td>Quads: 74,769,543</br>URLs: 1,627,496</br>Hosts: 12,593</td><td>http://schema.org/AggregateRating (2,123,757)</br>
+http://schema.org/Recipe (2,025,713)</br>
+http://schema.org/Review (1,894,721)</br>
+http://schema.org/Rating (1,677,926)</br>
+</td><td>2,016 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRecipe.nq.gz">schemaorgRecipe.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRecipe.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Restaurant">http://schema.org/Restaurant</a></th><td> Quads: 13,992,018</br> URLs: 340,365</br> Hosts: 5,079</br></td><td>http://schema.org/Restaurant (720,640)</br>
+http://schema.org/PostalAddress (711,806)</br>
+http://schema.org/Review (383,200)</br>
+http://schema.org/Rating (302,915)</br>
+</td><td>340 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRestaurant.nq.gz">schemaorgRestaurant.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRestaurant.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/RiverBodyOfWater">http://schema.org/RiverBodyOfWater</a></th><td> Quads: 26,993</br> URLs: 511</br> Hosts: 6</br></td><td>http://schema.org/Product (882)</br>
+http://schema.org/Offer (882)</br>
+http://schema.org/RiverBodyOfWater (536)</br>
+http://schema.org/SearchAction (483)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRiverBodyOfWater.nq.gz">schemaorgRiverBodyOfWater.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgRiverBodyOfWater.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/School">http://schema.org/School</a></th><td> Quads: 7,790,963</br> URLs: 402,553</br> Hosts: 165</br></td><td>http://schema.org/School (668,207)</br>
+http://schema.org/PostalAddress (662,128)</br>
+http://www.schema.org/ProfilePage (205,517)</br>
+http://schema.org/Review (97,478)</br>
+</td><td>154 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSchool.nq.gz">schemaorgSchool.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSchool.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Sculpture">http://schema.org/Sculpture</a></th><td> Quads: 3,973</br> URLs: 378</br> Hosts: 13</br></td><td>http://schema.org/Sculpture (405)</br>
+http://schema.org/CreativeWork (327)</br>
+http://schema.org/Offer (37)</br>
+http://schema.org/WebSite (22)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSculpture.nq.gz">schemaorgSculpture.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSculpture.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/SeaBodyOfWater">http://schema.org/SeaBodyOfWater</a></th><td> Quads: 123</br> URLs: 7</br> Hosts: 7</br></td><td>http://schema.org/OceanBodyOfWater (8)</br>
+http://schema.org/SeaBodyOfWater (7)</br>
+http://schema.org/BodyOfWater (4)</br>
+http://schema.org/GeoCoordinates (3)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSeaBodyOfWater.nq.gz">schemaorgSeaBodyOfWater.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSeaBodyOfWater.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/ShoppingCenter">http://schema.org/ShoppingCenter</a></th><td> Quads: 389,023</br> URLs: 3,522</br> Hosts: 65</br></td><td>http://schema.org/ShoppingCenter (23,401)</br>
+http://schema.org/PostalAddress (21,920)</br>
+http://schema.org/ClothingStore (13,526)</br>
+http://schema.org/Organization (7,066)</br>
+</td><td>6 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgShoppingCenter.nq.gz">schemaorgShoppingCenter.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgShoppingCenter.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/SkiResort">http://schema.org/SkiResort</a></th><td> Quads: 17,902</br> URLs: 2,466</br> Hosts: 48</br></td><td>http://schema.org/SkiResort (2,565)</br>
+http://schema.org/Product (204)</br>
+http://schema.org/Offer (203)</br>
+http://schema.org/GeoCoordinates (175)</br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSkiResort.nq.gz">schemaorgSkiResort.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSkiResort.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/SportsEvent">http://schema.org/SportsEvent</a></th><td> Quads: 14,510,936</br> URLs: 91,104</br> Hosts: 441</br></td><td>http://schema.org/SportsEvent (577,286)</br>
+http://schema.org/SportStat/GamesPlayed (364,238)</br>
+http://schema.org/SportsAthlete/Soccer (364,238)</br>
+http://schema.org/SportStat/Soccer/Goals (364,238)</br>
+</td><td>220 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSportsEvent.nq.gz">schemaorgSportsEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSportsEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/SportsTeam">http://schema.org/SportsTeam</a></th><td> Quads: 2,866,521</br> URLs: 150,183</br> Hosts: 159</br></td><td>http://schema.org/Person (380,900)</br>
+http://schema.org/SportsTeam (235,587)</br>
+http://schema.org/Article (114,840)</br>
+http://schema.org/StadiumOrArena (25,106)</br>
+</td><td>54 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSportsTeam.nq.gz">schemaorgSportsTeam.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSportsTeam.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/StadiumOrArena">http://schema.org/StadiumOrArena</a></th><td> Quads: 428,744</br> URLs: 1,652</br> Hosts: 37</br></td><td>http://schema.org/SportsTeam (52,575)</br>
+http://schema.org/StadiumOrArena (26,642)</br>
+http://schema.org/SportsEvent/Match (13,570)</br>
+http://schema.org/SportsEvent (12,517)</br>
+</td><td>6 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgStadiumOrArena.nq.gz">schemaorgStadiumOrArena.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgStadiumOrArena.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/TVEpisode">http://schema.org/TVEpisode</a></th><td> Quads: 51,344,381</br> URLs: 465,265</br> Hosts: 258</br></td><td>http://schema.org/TVEpisode (4,781,619)</br>
+http://schema.org/TVSeason (2,765,877)</br>
+http://schema.org/Person (1,754,772)</br>
+http://schema.org/TVSeries (357,805)</br>
+</td><td>737 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgTVEpisode.nq.gz">schemaorgTVEpisode.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgTVEpisode.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/TelevisionStation">http://schema.org/TelevisionStation</a></th><td> Quads: 39,052</br> URLs: 1,950</br> Hosts: 20</br></td><td>http://schema.org/TelevisionStation (7,565)</br>
+http://schema.org/Review (446)</br>
+http://schema.org/Rating (441)</br>
+http://schema.org/ItemList (252)</br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgTelevisionStation.nq.gz">schemaorgTelevisionStation.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgTelevisionStation.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/WebPage">http://schema.org/WebPage</a></th><td> Quads: 614,434,808</br> URLs: 43,487,808</br> Hosts: 193,278</br></td><td>http://schema.org/WebPage (51,756,968)</br>
+http://schema.org/Person (14,325,400)</br>
+http://schema.org/Rating (10,741,483)</br>
+http://schema.org/UserComments (9,124,929)</br>
+</td><td>21,459 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgWebPage.nq.gz">schemaorgWebPage.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgWebPage.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/BroadcastEvent">http://schema.org/BroadcastEvent</a></th><td> Quads: 83,950</br> URLs: 1,499</br> Hosts: 16</td><td>http://schema.org/TVEpisode (5,468)</br>
+http://schema.org/TVSeries (2,983)</br>
+http://schema.org/BroadcastService (2,894)</br>
+http://schema.org/Person (2,155)</br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBroadcastEvent.nq.gz">schemaorgBroadcastEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBroadcastEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/BusinessEvent">http://schema.org/BusinessEvent</a></th><td> Quads: 312,556</br> URLs: 5,175</br> Hosts: 155</td><td>http://schema.org/PostalAddress (11,886)</br>
+http://schema.org/Place (8,087)</br>
+http://schema.org/Article (2,964)</br>
+http://schema.org/Person (2,812)</br>
+</td><td>7 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBusinessEvent.nq.gz">schemaorgBusinessEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgBusinessEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/ChildrensEvent">http://schema.org/ChildrensEvent</a></th><td> Quads: 786,265</br> URLs: 931</br> Hosts: 34</td><td>http://schema.org/Offer (44,457)</br>
+http://schema.org/Event (38,148)</br>
+http://schema.org/ (16,145)</br>
+http://schema.org/FoodEvent (6,132)</br>
+</td><td>16 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgChildrensEvent.nq.gz">schemaorgChildrensEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgChildrensEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/ComedyEvent">http://schema.org/ComedyEvent</a></th><td> Quads: 1,331,612</br> URLs: 1,676</br> Hosts: 31</td><td>http://schema.org/PostalAddress (85,391)</br>
+http://schema.org/Place (79,656)</br>
+http://schema.org/Offer (32,453)</br>
+http://schema.org/Event (16,725)</br>
+</td><td>21 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgComedyEvent.nq.gz">schemaorgComedyEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgComedyEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/DanceEvent">http://schema.org/DanceEvent</a></th><td> Quads: 654,095</br> URLs: 13,521</br> Hosts: 42</td><td>http://schema.org/Offer (37,149)</br>
+http://schema.org/Event (29,720)</br>
+http://schema.org/MusicEvent (5,093)</br>
+http://schema.org/FoodEvent (4,976)</br>
+</td><td>14 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgDanceEvent.nq.gz">schemaorgDanceEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgDanceEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/EducationEvent">http://schema.org/EducationEvent</a></th><td> Quads: 3,316,247</br> URLs: 19,673</td><td>http://www.schema.org/Person (220,296)</br>
+http://schema.org/EducationalOrganization (36,492)</br>
+http://schema.org/PostalAddress (35,228)</br>
+http://schema.org/Place (34,758)</br>
+</td><td>61 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgEducationEvent.nq.gz">schemaorgEducationEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgEducationEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/Festival">http://schema.org/Festival</a></th><td> Quads: 799,479</br> URLs: 2,336</br> Hosts: 118</td><td>http://schema.org/Offer (29,582)</br>
+http://schema.org/PostalAddress (28,385)</br>
+http://schema.org/MusicEvent (26,143)</br>
+http://schema.org/Place (24,412)</br>
+</td><td>15 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgFestival.nq.gz">schemaorgFestival.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgFestival.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/FoodEvent">http://schema.org/FoodEvent</a></th><td> Quads: 725,302</br> URLs: 560</br> Hosts: 36</td><td>http://schema.org/Offer (51,821)</br>
+http://schema.org/MusicEvent (7,472)</br>
+http://schema.org/SocialEvent (6,007)</br>
+http://schema.org/ChildrensEvent (3,083)</br>
+</td><td>15 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgFoodEvent.nq.gz">schemaorgFoodEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgFoodEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/LiteraryEvent">http://schema.org/LiteraryEvent</a></th><td> Quads: 107,642</br> URLs: 143</br> Hosts: 19</td><td>http://schema.org/PostalAddress (4,946)</br>
+http://schema.org/GeoCoordinates (4,765)</br>
+http://schema.org/EventVenue (4,750)</br>
+http://schema.org/MusicEvent (3,176)</br>
+</td><td>2 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLiteraryEvent.nq.gz">schemaorgLiteraryEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgLiteraryEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/MusicEvent">http://schema.org/MusicEvent</a></th><td> Quads: 11,063,503</br> URLs: 33,000</br> Hosts: 288</td><td>http://schema.org/PostalAddress (847,827)</br>
+http://schema.org/Place (548,826)</br>
+http://schema.org/Person (346,446)</br>
+http://schema.org/Event (43,084)</br>
+</td><td>163 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMusicEvent.nq.gz">schemaorgMusicEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgMusicEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/SaleEvent">http://schema.org/SaleEvent</a></th><td> Quads: 419,236</br> URLs: 629</br> Hosts: 56</td><td>http://schema.org/Offer (27,838)</br>
+http://schema.org/Event (18,595)</br>
+http://schema.org/MusicEvent (5,298)</br>
+http://schema.org/SocialEvent (4,683)</br>
+</td><td>8 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSaleEvent.nq.gz">schemaorgSaleEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSaleEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/SocialEvent">http://schema.org/SocialEvent</a></th><td> Quads: 794,319</br> URLs: 1,218</br> Hosts: 67</td><td>http://schema.org/Offer (53,152)</br>
+http://schema.org/Event (39,390)</br>
+http://schema.org/MusicEvent (10,023)</br>
+http://schema.org/FoodEvent (7,248)</br>
+</td><td>17 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSocialEvent.nq.gz">schemaorgSocialEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgSocialEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/TheaterEvent">http://schema.org/TheaterEvent</a></th><td> Quads: 11,415,646</br> URLs: 99,398</br> Hosts: 99</td><td>http://schema.org/Movie (415,484)</br>
+http://schema.org/AggregateRating (415,481)</br>
+http://schema.org/PostalAddress (132,424)</br>
+http://schema.org/MovieTheater (43,669)</br>
+</td><td>245 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgTheaterEvent.nq.gz">schemaorgTheaterEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgTheaterEvent.nq.sample.txt">sample</a>)</td></tr>
+<tr><th><a href="http://schema.org/VisualArtsEvent">http://schema.org/VisualArtsEvent</a></th><td> Quads: 539,571</br> URLs: 814</br> Hosts: 57</td><td>http://schema.org/Offer (38,225)</br>
+http://schema.org/Event (30,393)</br>
+http://schema.org/MusicEvent (4,692)</br>
+http://schema.org/FoodEvent (4,467)</br>
+</td><td>12 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgVisualArtsEvent.nq.gz">schemaorgVisualArtsEvent.nq.gz</a> (<a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2014-12/quads/ClassSpecificQuads/schemaorgVisualArtsEvent.nq.sample.txt">sample</a>)</td></tr>
+</table>
+<p>
+In case you are interested in a particular class or set of classes which is not listed above, please get in contact with the WebDataCommons team via <a href="http://groups.google.com/group/web-data-commons">Mailing List</a> or our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Google Group</a>.
+</p>
+
+<h2>Get the Code</h2>
+
+<p>
+The source code can be checked out from our <a href="https://subversion.assembla.com/svn/commondata/WDCFramework/">Subversion repository</a>. The extraction of Winter 2014 was done with <a href="https://subversion.assembla.com/svn/commondata/WDCFramework/tags/1/0/1/">version 1.0.1 of the extractor</a>. For more information about the framework and a detailed description how to run a own extraction visit the <a href="http://webdatacommons.org/framework">framework page</a>.
+</p>
+
+<h2>Get Support</h2>
+<p></p>
+
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.</p>
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    } 
+});
+</script>
+
+</body></html>

@@ -1,0 +1,17 @@
+http://data-vocabulary.org/Address/locality	438	0.3599013969
+http://data-vocabulary.org/Organization/name	442	0.3631881676
+http://data-vocabulary.org/Organization/address	429	0.3525061627
+http://data-vocabulary.org/Address/street-address	390	0.3204601479
+http://data-vocabulary.org/Organization/tel	370	0.3040262942
+http://data-vocabulary.org/Address/postal-code	316	0.2596548891
+http://data-vocabulary.org/Review/reviewer	182	0.149548069
+http://data-vocabulary.org/Review/itemreviewed	180	0.1479046836
+http://data-vocabulary.org/Review/rating	159	0.1306491372
+http://data-vocabulary.org/Review/dtreviewed	156	0.1281840592
+http://data-vocabulary.org/Review/description	154	0.1265406738
+http://data-vocabulary.org/Review-aggregate/rating	139	0.1142152835
+http://data-vocabulary.org/Review/summary	129	0.1059983566
+http://data-vocabulary.org/Address/region	119	0.0977814297
+http://data-vocabulary.org/Rating/average	110	0.0903861956
+http://data-vocabulary.org/Person/name	104	0.0854560394
+http://data-vocabulary.org/Organization/url	100	0.0821692687

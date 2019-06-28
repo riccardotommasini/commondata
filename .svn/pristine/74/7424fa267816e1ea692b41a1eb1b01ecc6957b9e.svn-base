@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="parse-html2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/parse-html/parse-html.jar!/" />
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/parse-html/tagsoup-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

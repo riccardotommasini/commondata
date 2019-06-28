@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlnormalizer-pass2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/plugins/urlnormalizer-pass/urlnormalizer-pass.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

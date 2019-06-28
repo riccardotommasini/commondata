@@ -1,0 +1,133 @@
+<html><head><title>WDC - RDFa, Microdata, and Microformat Data Sets</title>
+<link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body> 
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">Web Data Commons - RDFa, Microdata, and Microformat Data Sets</h1>
+</div>
+
+<div id="tagline">Cleaning schema.org Microdata</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="">Dominique Ritze</a><br />
+<a href="">Heiko Paulheim</a><br />
+</div>
+
+<div id="content">
+
+<p>
+More and more websites have started to embed structured data describing products, people, organizations, places, events into their HTML pages using markup standards such as RDFa, Microdata and Microformats. <br>The Web Data Commons project extracts this data from several billion web pages. The project provides the extracted data for download and publishes statistics about the deployment of the different formats.<br>
+Similar to other datasets retrieved from the Web, RDF datasets retrieved from such markup include duplicates, and based on the nature of the Web the compliance to given schemas is not always given.<br>
+For futher details about the statistical distribution of both issue types as well as some indications about the reason for their occurence have a look in the following papers:
+<ul>
+	<li>Robert Meusel, Christian Bizer, Heiko Paulheim: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-Schema-org-Adoption-WIMS2015.pdf">A Web-scale Study of the Adoption and Evolution of the schema.org Vocabulary over Time</a>. <a href="http://easyconferences.eu/?portfolio=wims-2015">5th International Conference on Web Intelligence, Mining and Semantics (WIMS2015)</a>, Limassol, Cyprus, July 2015.</li>
+	<li>Robert Meusel and Heiko Paulheim: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/MeuselPaulheim-HeuristicsForFixingCommonErrorsInDeployedSchemaOrgMicrodata-ESWC2015.pdf">Heuristics for Fixing Common Errors in Deployed schema.org Microdata</a>,Proceedings of the 12th Extended Semantic Web Conference (ESWC 2015), Portoroz, Slovenia, May 2015.
+	<li>Robert Meusel, Dominique Ritze, Heiko Paulheim: Towards More Accurately Statistical Profiling of Deployed schema.org Microdata, submitted revised Version in 2016 to the Journal of Data and Information Quality (JDIQ)</li>
+</ul>
+</p>
+
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+
+<div id="toccontent">
+
+<h2 id="about">1. Data Cleansing</h2>
+<p>
+In order to overcome the two major issues which could be identified within RDF data retrieved from markup with HTML we propose a simple but effective pipeline to clean the 
+data and improve the data quality. 
+<ul>
+<li>In a first step, syntactical duplicates (whenever two RDF-graph representations of two entities are identical) are removed within
+each website (PLD). </li>
+<li>
+In a second step using a set or heuristics, the most common schema violations are fixed. This will, under circumstances introduce new classes for various
+websites and therefore has an effect on the over profile of this particular website.
+</li><li>
+In a third step, the duplicates within the whole data corpus are removed. This results
+in a more accurate statistical profile of the data corpus.
+</li>
+</ul>
+</p>
+
+<h2 id="about">2. Source Code</h2>
+
+<p>
+The code in order to perform the described methods step by step can be found in the SVN of the WebDataCommons project: <a href="https://www.assembla.com/spaces/commondata/subversion/source/HEAD/MDCleaner/trunk"> Data Cleaner</a>.
+</p>
+<p>
+The project can be compiled using <a href="http://maven.apache.org/download.cgi">Maven</a> and can be execute via command-line-interface. 
+<ul>
+<li><code>Master -sort  FileFolder   OutputFolder   FILTERSTRING   NumberOfThreads </code> sorts the quads within the input files based on their webpage</li>
+<li><code>Master -plddedup  FileFolder   OutputFolder   FIXRDF   NumberOfThreads  </code> removes syntactical duplicates within a site.</li>
+<li><code>Master -correct  FileFolder   OutputFolder   ClassPropertyFile   DataTypePropertyFile   ObjectPropertyFile   DomainViolationFixFile   RangeVioloationFixFile   NumberOfThreads </code> corrects schema violations. The necessary <a href="https://www.assembla.com/spaces/commondata/subversion/source/HEAD/MDCleaner/trunk/src/main/resources/v191">files for schema.org Version 1.91</a> are part of the project.</li>
+<li><code>Master -dedup  FileFolder   OutputFolder   NumberOfThreads </code> removes syntactical duplicates within the whole corpus.</li>
+</ul>
+It is important to note, that the current code is designed to be executed on a single machine and cannot scale vertical.
+</p>
+<h2 id="data">3. Data</h2>
+<p>We have already applied the described methodology to the <a href="">WDC 2014 Microdata Corpus</a>, filtering for only <i>schema.org</i> related quads.
+This data was also used in order to perform the experiments described in <a href="">Robert Meusel, Dominique Ritze, Heiko Paulheim: Towards More Accurately Statistical Profiling of Deployed schema.org Microdata</a> (submitted to JDIQ). 
+We therefore stick to the nomenclature (S1 to S5) of the different intermediate coropra used in this publication, which is visualed also in the following diagramm:
+</p>
+<img src="pipeline.jpg" alt="Pipeline" width="1200px"/>
+<p>The data of the different steps within the process are provided for download as <a href="http://www.w3.org/TR/n-quads/">N-Quads</a>. The data generated in each step is provided indifferent files, which are compressed using GZIP and are not larger than 100MB each.</p>
+<p>The files of one step can be downloaded using <a href="http://www.gnu.org/software/wget/">wget</a> with e.g. the command <code>wget -i http://webdatacommons.org/structureddata/2014-12/files/md-schemaorg-cleaned-s1.list</code> to download all files for S1. The file lists, containing quads for a specific steps can be found in the table below, together with more detailed statistics about sizes.</p>
+<table>
+<tr><th>	Step	</th><th>	Total File Size	</th><th>	File List	</th></tr>
+<tr><th>	S1	</th><td align="right">	193 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/md-schemaorg-cleaned-s1.list'>md-schemaorg-cleaned-s1.list</a>	</td></tr>
+<tr><th>	S2	</th><td align="right">	112 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/md-schemaorg-cleaned-s2.list'>md-schemaorg-cleaned-s2.list</a>	</td></tr>
+<tr><th>	S3	</th><td align="right">	116 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/md-schemaorg-cleaned-s3.list'>md-schemaorg-cleaned-s3.list</a>	</td></tr>
+<tr><th>	S4	</th><td align="right">	115 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/md-schemaorg-cleaned-s4.list'>md-schemaorg-cleaned-s4.list</a>	</td></tr>
+<tr><th>	S5	</th><td align="right">	110 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/md-schemaorg-cleaned-s5.list'>md-schemaorg-cleaned-s5.list</a>	</td></tr>
+</table>
+<h2 id="references">4. Further References</h2>
+
+<ul>
+	<li>Robert Meusel, Petar Petrovski, Christian Bizer: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-TheWDCMicrodataRdfaMicroformatsDataSeries-ISWC2014-rbds.pdf" target="_blank"> The WebDataCommons Microdata, RDFa and Microformat Dataset Series</a>. In Proceedings of the 13th International Semantic Web Conference: Replication, Benchmark, Data and Software Track (ISWC2014).</li>
+	<li>Christian Bizer, Kai Eckert, Robert Meusel, Hannes M&uuml;hleisen, Michael Schuhmacher, and Johanna V&ouml;lker: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Bizer-etal-DeploymentRDFaMicrodataMicroformats-ISWC-InUse-2013.pdf">Deployment of RDFa, Microdata, and Microformats on the Web - A Quantitative Analysis</a>.  In Proceedings of the 12th International Semantic Web Conference, Part II: In-Use Track, pp.17-32 (ISWC2013).</li>
+  	<li>Hannes M&uuml;hleisen, Christian Bizer: <a href="http://ceur-ws.org/Vol-937/ldow2012-inv-paper-2.pdf">Web Data Commons - Extracting Structured Data from Two Large Web Corpora</a>. In Proceedings of the WWW2012 Workshop on Linked Data on the Web (LDOW2012).</li>
+<li>Peter Mika, Tim Potter: <a href="http://ceur-ws.org/Vol-937/ldow2012-inv-paper-1.pdf">Metadata Statistics for a Large Web Corpus</a>. In Proceedings of the WWW2012 Workshop on Linked Data on the Web (LDOW2012).</li>
+<li>Peter Mika: <a href="http://tripletalk.wordpress.com/2011/01/25/rdfa-deployment-across-the-web/">Microformats and RDFa deployment across the Web</a>. Blog Post.</li>
+<li><a href="http://sindice.com/stats/direct/basic-class-stats?settings=%7B%22iCreate%22%3A1355143360824%2C%22iStart%22%3A0%2C%22iEnd%22%3A50%2C%22iLength%22%3A50%2C%22sFilter%22%3A%22%22%2C%22sFilterEsc%22%3Atrue%2C%22aaSorting%22%3A%5B%5B4%2C%22desc%22%5D%5D%2C%22aaSearchCols%22%3A%5B%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%5D%2C%22abVisCols%22%3A%5Btrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%5D%2C%22ssDelta%22%3A%22%22%7D">Class Statistics</a> from the Sindice data search engine.</li>
+</ul>
+
+</div>
+
+</div>
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+</body>
+</html> 

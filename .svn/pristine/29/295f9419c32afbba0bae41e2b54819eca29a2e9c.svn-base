@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlfilter-suffix1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/urlfilter-suffix/urlfilter-suffix.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,38 @@
+10631569	0.3985580924	http://schema.org/VideoObject/name	http://purl.org/dc/terms/title							
+10628325	0.3984364808	http://schema.org/VideoObject/url	http://purl.org/dc/terms/title							
+10621810	0.3981922453	http://schema.org/VideoObject/description	http://purl.org/dc/terms/title							
+10621704	0.3981882716	http://schema.org/VideoObject/name	http://schema.org/VideoObject/description	http://purl.org/dc/terms/title						
+10621406	0.3981771001	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://purl.org/dc/terms/title						
+10616985	0.3980113649	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/description	http://purl.org/dc/terms/title					
+10616168	0.3979807371	http://schema.org/VideoObject/thumbnailUrl	http://purl.org/dc/terms/title							
+10616155	0.3979802497	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/url	http://purl.org/dc/terms/title						
+10614410	0.3979148329	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://purl.org/dc/terms/title					
+10614408	0.3979147579	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/description	http://purl.org/dc/terms/title				
+10439382	0.391353353	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height							
+10439369	0.3913528657	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title						
+10439356	0.3913523783	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title					
+10439341	0.391351816	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/height							
+10439340	0.3913517785	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height						
+10439335	0.3913515911	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height					
+10439330	0.3913514036	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title				
+10438575	0.3913231001	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title			
+10438574	0.3913230626	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height				
+10438574	0.3913230626	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://purl.org/dc/terms/title				
+10437623	0.3912874113	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title		
+10437601	0.3912865866	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/description	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title			
+10437600	0.3912865491	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/description	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title		
+10437584	0.3912859493	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height			
+10437584	0.3912859493	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://purl.org/dc/terms/title			
+10437583	0.3912859118	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/description	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title	
+10437176	0.3912706541	http://schema.org/VideoObject/embedURL	http://purl.org/dc/terms/title							
+10437145	0.391269492	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://purl.org/dc/terms/title						
+10437139	0.391269267	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://purl.org/dc/terms/title					
+10437131	0.3912689671	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://purl.org/dc/terms/title				
+10437128	0.3912688547	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title			
+10437127	0.3912688172	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title		
+10435412	0.391204525	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title	
+10435380	0.3912033254	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/name	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/description	http://schema.org/VideoObject/height	http://purl.org/dc/terms/title
+5406544	0.202681454	http://purl.org/dc/terms/title	http://data-vocabulary.org/Breadcrumb/url							
+5357271	0.2008342993	http://data-vocabulary.org/Breadcrumb/title	http://purl.org/dc/terms/title							
+5348316	0.2004985927	http://data-vocabulary.org/Breadcrumb/title	http://data-vocabulary.org/Breadcrumb/url	http://purl.org/dc/terms/title						
+1333408	0.0499870291	http://schema.org/Product/name	http://purl.org/dc/terms/title							

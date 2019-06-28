@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlfilter-domainblacklist1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/plugins/urlfilter-domainblacklist/urlfilter-domainblacklist.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

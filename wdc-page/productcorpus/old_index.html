@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html><head><title>Product Data Corpus</title>
+<link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="scripts/gcharts.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="../jquery.toc.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<style>
+.tar {
+text-align: right;
+}
+.rtable
+{
+    float: right;
+    padding-left:10px;
+
+}
+.smalltable, .smalltable TD, .smalltable TH
+{
+font-size:9pt;
+}
+.table-wrapper {
+  position:relative;
+}
+.table-scroll {
+  height:240px;
+  overflow:auto;
+  margin-top:-10px;
+}
+
+.show{
+  display:block;
+}
+
+.no-show{
+  display:none;
+}
+
+hr {
+    width: 50%;
+    margin: 20px 0; /* This leaves 10px margin on left and right. If only right margin is needed try margin-right: 10px; */
+}
+
+</style>
+
+</head>
+<body>
+
+ <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="files/images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">Web Data Commons - Product Data Corpus and Gold Standard for Product Data Integration</h1>
+</div>
+
+<div id="tagline">Generating a Product Data Catalog out of the Web</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/petar-petrovski/">Petar Petrovski</a><br />
+<a href="">Anna Primpeli</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+</div>
+
+<div id="content">
+	<p>
+		In order to support the efforts of a growing number of studies evaluating methods tailored for e-commerce and product purposes,
+		we present a publicly accessible product corpus and a gold standard which can be used to train and evaluate applications focusing on Product identity resolution and fusion and Product feature extraction.
+	</p>
+	<h2 id="news">News</h2>
+	<ul>
+	</ul>
+	<h2>Contents</h2>
+	<ul>
+		<li class="toc-h2 toc-active">
+		<a href="#toc1"> 1.About the WDC Product Data Corpus </a>
+		</li>
+		<li class="toc-h2 toc-active">
+		<a href="#toc2"> 2.Product Data Collection </a>
+		</li>
+		<li class="toc-h2 toc-active">
+		<a href="#toc3"> 3.Gold Standard Creation </a>
+		</li>
+		<li class="toc-h2 toc-active">
+		<a href="#toc4"> 5.Baselines for Product Matching </a>
+		</li>
+		<li class="toc-h2 toc-active">
+		<a href="#toc5"> 5.Evaluation and Results </a>
+		</li>
+		<li class="toc-h2 toc-active">
+		<a href="#toc6"> 6.References </a>
+		</li>
+	</ul>
+
+
+	<span id="toc1"></span>
+	<h2>1. About the WDC Product Data Corpus</h2>
+		<p>
+		The commercial perpective of hopping in the virtual world poses a challenge for continious improvement of technical solutions that enchance the consumer experience.
+		For further improvements of methods and applications within this field public, comprehensive, annotated product corpora contatining real-world data are inevitable. The WDC Product Data Corpus
+		provides more than 11 million HTML pages from different e-commerce websites that contain product data. Moreover the corups is acompanied by a gold standard and baselines for product feature extraction and product matching.
+		The gold standard and its baselines focus on 3 produc categories: Mobile Phones, Headphones and TVs.
+		</p>
+
+	<span id="toc2"></span>
+	<h2>2. Product Data Crawl</h2>
+		<p>
+		The motivation for the product crawl follow two main criteria: the diversity of its origin
+		and its quantity. This means that the chosen product specifications derive from different websites which use different schemata to express product specifications for the same product category.
+		Furthermore   the data should include a comprehensive amount of the products and offers provided by the selected websites.
+		</p>
+		<h3>Crawled Corpus</h3>
+		<p>
+		All statistics and the data from the crawl presented in this section can be downloaded at the following <a href="http://data.dws.informatik.uni-mannheim.de/productcrawl">link</a>.
+		</p>
+		<p>
+		The approach adapted for crawling data while satisfying the previous criteria is the crawling and scraping
+		framework, <a href="https://github.com/scrapy/scrapy"><i>scrapy</i></a>. The crawler was forced to retrieve data from 32 different PLDs which were chosen based on their containment of marked up
+		annotations as well as their traffic rankings as reported by <a href="http://alexa.com"><i>Alexa</i></a>. The following table shows the distribution
+		of pages included in the crawler per PLD.
+		</p>
+		<h4>Number of Pages per PLD in the Crawled Corpus</h4>
+		</br>
+		<table id="pagesPerPLD">
+			<tr><th>PLD</th><td>#Pages</td><th>PLD</th><td>#Pages</td></tr>
+			<tr><th>target.com</th><td>2,007,121</td>
+			<th>shop.com</th><td>1,754,368</td></tr>
+			<tr><th>walmart.com</th><td>1,711,517</td>
+			<th>selection.alibaba.com</th><td>607,410</td></tr>
+			<tr><th>microcenter.com</th><td>459,921</td>
+			<th>aliexpress.com</th><td>431,005</td></tr>
+			<tr><th>ebay.com</th><td>413,144</td>
+			<th>macmall.com</th><td>401,944</td></tr>
+			<tr><th>apple.com</th><td>391,539</td>
+			<th>bestbuy.com</th><td>389,146</td></tr>
+			<tr><th>techspot.com</th><td>386,273</td>
+			<th>techforless.com</th><td>361,234</td></tr>
+			<tr><th>overstock.com</th><td>347,846</td>
+			<th>searsoutlet.com</th><td>341,924</td></tr>
+			<tr><th>pcrush.com</th><td>292,904</td>
+			<th>tesco.com</th><td>222,802</td></tr>
+			<tr><th>frontierpc.com</th><td>187,184</td>
+			<th>abt.com</th><td>115,539</td></tr>
+			<tr><th>ipkart.com</th><td>63,112</td>
+			<th>conns.com</th><td>61,158</td></tr>
+			<tr><th>costco.com</th><td>54,274</td>
+			<th>dhgate.com</th><td>50,099</td></tr>
+			<tr><th>shop.lenovo.com</th><td>41,465</td>
+			<th>bjs.com</th><td>40,930</td></tr>
+			<tr><th>newegg.com</th><td>37,393</td>
+			<th>microsoftstore.com</th><td>24,163</td></tr>
+			<tr><th>samsclub.com</th><td>22,788</td>
+			<th>tomtop.com</th><td>13,306</td></tr>
+			<tr><th>alibaba.com</th><td>7,136</td>
+			<th>boostmobile.com</th><td>2,487</td></tr>
+			<tr><th>sears.com</th><td>659</td>
+			<th>membershipwireless.com</th><td>457</td></tr>
+		</table>
+		<p>
+		In order to restrict the obtained results, product categories and a list of 10 products per category were specified.
+		The table shows the distribution of the retrieved pages after the implementation of the above mentioned filters.
+		</p>
+		<br/>
+		<h4>Number of Pages per Product Category</h4>
+		<br/>
+		<table id="pagesPerCategory">
+			<tr><th>Category</th><td>#Pages</td></tr>
+			<tr><th>Headphones</th><td>355,648</td></tr>
+			<tr><th>Mobile Phones</th><td>1,246,213</td></tr>
+			<tr><th>Televisions</th><td>556,121</td></tr>
+		</table>
+		<h3>Markup Data of the Crawled Corpus</h3>
+		It has been shown that markup data like <a href="../structureddata/index.html">Microdata and RDFa</a> are becoming the standrad for embedding varios semantics of data items.
+		For the purpose of exploiting the Microdata markup in this couprus, the data derived from the crawl were profiled on the basis of markup data. The following table gives an overview about the top domains, classes and properties
+		as observed in the markup entities of the crawled corpus.
+		</p>
+		<div>
+			<h4>Statistics on the Markup Data of the Crawled Corpus</h4>
+			<table id="stats_corpus">
+				<tr><th> Distinct PLDs with markup data </th><td>29</td></tr>
+				<tr><th> Total Triples  </th><td>26,184,401</td></tr>
+				<tr><th> Total Entities </th><td>5,636,972</td></tr>
+				<tr><th> Top Domains by Extracted Triples </th>
+					<td><small><a href='' onclick="document.getElementById('ed09e999-0997-428b-aaa8-0043c084bc03').style.display='block';this.style.display='none';return false;">Show top values</a></small>
+						<ol id='ed09e999-0997-428b-aaa8-0043c084bc03' style='display:none'>
+						<li><a rel='nofollow' target='_blank' href='http://overstock.com'>overstock.com</a>(10,363,461 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://walmart.com'>walmart.com</a>(4,871,779 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://aliexpress.com'>aliexpress.com</a>(3,923,894 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://ebay.com'>ebay.com</a>(1,987,617 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://tesco.com'>tesco.com</a>(1,380,686 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://bestbuy.com'>bestbuy.com</a>(809,371 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://shop.com'>shop.com</a>(696,471 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://searsoutlet.com'>searsoutlet.com</a>(525,216 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://samsclub.com'>samsclub.com</a>(278,791 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://alibaba.com'>alibaba.com</a>(240,143 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://microcenter.com'>microcenter.com</a>(235,147 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://bjs.com'>bjs.com</a>(228,063 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://dhgate.com'>dhgate.com</a>(139,856 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://flipkart.com'>flipkart.com</a>(98,069 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://newegg.com'>newegg.com</a>(94,945 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://macmall.com'>macmall.com</a>(83,127 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://abt.com'>abt.com</a>(55,740 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://techspot.com'>techspot.com</a>(47,533 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://conns.com'>conns.com</a>(34,416 triples) </li>
+						<li><a rel='nofollow' target='_blank' href='http://apple.com'>apple.com</a>(21,726 triples) </li>
+				</ol></td></tr>
+				<tr><th> Top Classes by Entities </th>
+					<td><small><a href='' onclick="document.getElementById('classesByEntities').style.display='block';this.style.display='none';return false;">Show top values</a></small>
+						<ol id='classesByEntities' style='display:none'>
+						<li> <abbr title='http://schema.org/Product '>schema:Product</abbr> (1,123,437 Entities) </li>
+						<li> <abbr title='http://schema.org/Offer '>schema:Offer</abbr> (939,099 Entities) </li>
+						<li> <abbr title='http://schema.org/AggregateRating '>schema:AggregateRating</abbr> (783,860 Entities) </li>
+						<li> <abbr title='http://schema.org/Review '>schema:Review</abbr> (614,110 Entities) </li>
+						<li> <abbr title='http://schema.org/Rating '>schema:Rating</abbr> (578,198 Entities) </li>
+						<li> <abbr title='http://data-vocabulary.org/Breadcrumb '>data-vocabulary.org/Breadcrumb</abbr> (527,215 Entities) </li>
+						<li> <abbr title='http://schema.org/SomeProducts '>schema:SomeProducts</abbr> (386,745 Entities) </li>
+						<li> <abbr title='http://schema.org/Organization '>schema:Organization</abbr> (205,228 Entities) </li>
+						<li> <abbr title='http://schema.org/ListItem '>schema:ListItem</abbr> (143,448 Entities) </li>
+						<li> <abbr title='http://schema.org/BreadcrumbList '>schema:BreadcrumbList</abbr> (92,029 Entities) </li>
+						<li> <abbr title='http://schema.org/Brand '>schema:Brand</abbr> (54,564 Entities) </li>
+						<li> <abbr title='http://schema.org/WebPage '>schema:WebPage</abbr> (45,328 Entities) </li>
+						<li> <abbr title='http://schema.org/AggregateOffer '>schema:AggregateOffer</abbr> (37,760 Entities) </li>
+						<li> <abbr title='http://schema.org/SearchAction '>schema:SearchAction</abbr> (36,577 Entities) </li>
+						<li> <abbr title='http://schema.org/aggregateRating '>schema:aggregateRating</abbr> (24,531 Entities) </li>
+						<li> <abbr title='http://schema.org/SearchResultsPage '>schema:SearchResultsPage</abbr> (15,801 Entities) </li>
+						<li> <abbr title='http://schema.org/WPFooter '>schema:WPFooter</abbr> (5,491 Entities) </li>
+						<li> <abbr title='http://schema.org/WPHeader '>schema:WPHeader</abbr> (5,491 Entities) </li>
+						<li> <abbr title='http://data-vocabulary.org/Person '>data-vocabulary.org/Person</abbr> (3,074 Entities) </li>
+						<li> <abbr title='http://schema.org/LocalBusiness '>schema:LocalBusiness</abbr> (2,701 Entities) </li>
+				</ol></td></tr>
+				<tr><th> Top Properties </th>
+					<td><small><a href='' onclick="document.getElementById('propsByEntities').style.display='block';this.style.display='none';return false;">Show top values</a></small>
+						<ol id='propsByEntities' style='display:none'>
+						<li><abbr title='http://www.w3.org/1999/02/22-rdf-syntax-ns#type'>www.w3.org/1999/02/22-rdf-syntax-ns#type</abbr>(5,636,972 Entities)</li>
+						<li><abbr title='http://www.w3.org/1999/xhtml/microdata#item'>www.w3.org/1999/xhtml/microdata#item</abbr>(2,003,281 Entities)</li>
+						<li><abbr title='http://purl.org/dc/terms/title'>purl.org/dc/terms/title</abbr>(1,000,366 Entities)</li>
+						<li><abbr title='http://schema.org/Product/name'>schema.org/Product/name</abbr>(820,202 Entities)</li>
+						<li><abbr title='http://schema.org/Product/image'>schema.org/Product/image</abbr>(792,883 Entities)</li>
+						<li><abbr title='http://schema.org/Offer/price'>schema.org/Offer/price</abbr>(711,716 Entities)</li>
+						<li><abbr title='http://schema.org/Product/offers'>schema.org/Product/offers</abbr>(707,317 Entities)</li>
+						<li><abbr title='http://schema.org/Review/datePublished'>schema.org/Review/datePublished</abbr>(614,110 Entities)</li>
+						<li><abbr title='http://schema.org/Review/author'>schema.org/Review/author</abbr>(614,059 Entities)</li>
+						<li><abbr title='http://schema.org/Review/name'>schema.org/Review/name</abbr>(613,247 Entities)</li>
+						<li><abbr title='http://schema.org/Product/aggregateRating'>schema.org/Product/aggregateRating</abbr>(604,359 Entities)</li>
+						<li><abbr title='http://schema.org/Rating/ratingValue'>schema.org/Rating/ratingValue</abbr>(595,457 Entities)</li>
+						<li><abbr title='http://schema.org/AggregateRating/ratingValue'>schema.org/AggregateRating/ratingValue</abbr>(594,723 Entities)</li>
+						<li><abbr title='http://schema.org/Review/reviewRating'>schema.org/Review/reviewRating</abbr>(584,260 Entities)</li>
+						<li><abbr title='http://schema.org/Rating/bestRating'>schema.org/Rating/bestRating</abbr>(576,302 Entities)</li>
+						<li><abbr title='http://schema.org/Rating/worstRating'>schema.org/Rating/worstRating</abbr>(570,554 Entities)</li>
+						<li><abbr title='http://schema.org/Product/review'>schema.org/Product/review</abbr>(555,175 Entities)</li>
+						<li><abbr title='http://schema.org/Review/reviewBody'>schema.org/Review/reviewBody</abbr>(552,757 Entities)</li>
+						<li><abbr title='http://schema.org/Review/publisher'>schema.org/Review/publisher</abbr>(517,677 Entities)</li>
+						<li><abbr title='http://data-vocabulary.org/Breadcrumb/title'>data-vocabulary.org/Breadcrumb/title</abbr>(513,253 Entities)</li>
+					</ol></td></tr>
+					<tr><th>Detailed Statistics as Excel file</th><td><a target="_blank" href="files/CorpusStatistics.xlsx">CorpusStatistics.xlsx</a> (40kb)</td></tr>
+			</table>
+		</div>
+	<span id="toc3"></span>
+	<h2 id="gold"> 3. Gold Standard for product matching and product feature extraction</h2>
+		<p>
+		The gold standard provides two separate contributions: (1) product matching and (2) product feature extraction.
+		Given the product corpus, we create a product catalog  and a labeled subset from the said corpus (both introduced below).
+		Additionaly, we provide a set of correspondes between the said catalog and a labeled subset of the product corpus.
+		</p>
+
+		<h3 id="catalog"> Product Catalog</h3>
+		<p>
+		The product catolg was created to provide: (1) ground truth for various attribute values, (2) a uniqe dataset to be used for matching puposes. Additionaly, the product catalog provides a specific vocabulary describing product specifications needed to be defined. For this we selected the 10 most crawled products from each category.
+		To avoid conflicts deriving from multiple schemata of the different vendors, we define the product specification vocabulary as it is provided in the manufacturer's website or by leading online shopping
+		services, such as <a href="http://www.google.com/shopping"><i>Google Shopping</i></a>. The table below shows the distribution of properties per product category.</p>
+			<h4>Defined Properties per Product Category</h4>
+		<table>
+			<tr><th>Category</th><th>#Properties</th><th>List of Properties</th></tr>
+			<tr><th>Headphones</th><td>36</td><td><small><a href='' onclick="document.getElementById('headphoneProps').style.display='block';this.style.display='none';return false;">Show Properties for Headphones </a></small>
+				<ol id='headphoneProps' style='display:none'>
+				<li>description</li>
+				<li>product_type</li>
+				<li>width</li>
+				<li>depth</li>
+				<li>height</li>
+				<li>compatibility</li>
+				<li>series</li>
+				<li>weight</li>
+				<li>color</li>
+				<li>headphones_form_factor</li>
+				<li>headphones_cup_type</li>
+				<li>foldable</li>
+				<li>microphone</li>
+				<li>microphone_sensitivity</li>
+				<li>microphone_response</li>
+				<li>microphone_audio_details</li>
+				<li>headphones_technology</li>
+				<li>connectivity_technology</li>
+				<li>sound_output_mode</li>
+				<li>frequency_response</li>
+				<li>max_input_power</li>
+				<li>sensitivity</li>
+				<li>thd</li>
+				<li>impedance</li>
+				<li>diaphragm</li>
+				<li>magnet_material</li>
+				<li>detachable_cable</li>
+				<li>controls</li>
+				<li>cables_included</li>
+				<li>included_accessories</li>
+				<li>compliant_standards</li>
+				<li>warranty</li>
+				<li>brand</li>
+				<li>mpn</li>
+				<li>product_gtin</li>
+				<li>aditional_features</li>
+			</ol></td></tr>
+			<tr><th>Mobile Phones</th><td>32</td><td><small><a href='' onclick="document.getElementById('phoneProps').style.display='block';this.style.display='none';return false;">Show Properties for Mobile Phones </a></small>
+				<ol id='phoneProps' style='display:none'>
+				<li>Product Name</li>
+				<li>description</li>
+				<li>ram</li>
+				<li>water_resistance</li>
+				<li>memory</li>
+				<li>brand</li>
+				<li>phone_type</li>
+				<li>computer_operating_system</li>
+				<li>phone_carrier</li>
+				<li>product_type</li>
+				<li>core_count</li>
+				<li>processor_type</li>
+				<li>rear_cam_resolution</li>
+				<li>front_cam_resolution</li>
+				<li>color</li>
+				<li>wattage</li>
+				<li>power_supply</li>
+				<li>display_size</li>
+				<li>display_resolution</li>
+				<li>voltage</li>
+				<li>mpn</li>
+				<li>modelnum</li>
+				<li>width</li>
+				<li>height</li>
+				<li>depth</li>
+				<li>weight</li>
+				<li>dimensions</li>
+				<li>body_material</li>
+				<li>package_height</li>
+				<li>product_code</li>
+				<li>product_gtin</li>
+				<li>manufacturer</li>
+			</ol></td></tr>
+			<tr><th>Televisions</th><td>76</td><td><small><a href='' onclick="document.getElementById('tvProps').style.display='block';this.style.display='none';return false;">Show Properties for Televisions </a></small>
+				<ol id='tvProps' style='display:none'>
+				<li>Product Name</li>
+				<li>description</li>
+				<li>compatible_channels</li>
+				<li>product_type</li>
+				<li>wattage_operational</li>
+				<li>yearly_consumption</li>
+				<li>viewable_size</li>
+				<li>total_size</li>
+				<li>3d_technology</li>
+				<li>series</li>
+				<li>computer_operating_system</li>
+				<li>tv_tuner</li>
+				<li>builtin_dvd_player</li>
+				<li>video_interface</li>
+				<li>hdmi_ports</li>
+				<li>pc_interface</li>
+				<li>hdcp_compatability</li>
+				<li>timer_functions</li>
+				<li>stand</li>
+				<li>width</li>
+				<li>depth</li>
+				<li>height</li>
+				<li>weight</li>
+				<li>color</li>
+				<li>display_resolution</li>
+				<li>display_type</li>
+				<li>image_aspect_ratio</li>
+				<li>motion_enhancement_technology</li>
+				<li>refresh_rate</li>
+				<li>24p_technology</li>
+				<li>backlight_technology</li>
+				<li>image_contrast</li>
+				<li>brightness</li>
+				<li>widescreen_modes</li>
+				<li>viewing_angle</li>
+				<li>response_time</li>
+				<li>supported_languages</li>
+				<li>commercial_features</li>
+				<li>stand_design</li>
+				<li>stand_color</li>
+				<li>analog_tv_tuner</li>
+				<li>stereo_reception _system</li>
+				<li>secondary_audio_program</li>
+				<li>digital_tv_tuner</li>
+				<li>input_video_formats</li>
+				<li>supported_computer_resolution</li>
+				<li>channel_lock</li>
+				<li>closed_caption_capability</li>
+				<li>supported_memory_cards</li>
+				<li>supported_video_formats</li>
+				<li>supported_audio_formats</li>
+				<li>supported_picture_formats</li>
+				<li>usb_ports</li>
+				<li>memory</li>
+				<li>remote_control_model</li>
+				<li>digital_audio_format</li>
+				<li>audio_surround</li>
+				<li>speakers_qty</li>
+				<li>speakers_type</li>
+				<li>connectivity</li>
+				<li>wifi_protocol</li>
+				<li>internet_services</li>
+				<li>dlna</li>
+				<li>batteries_included</li>
+				<li>voltage</li>
+				<li>wattage_standby</li>
+				<li>warranty</li>
+				<li>dimensions_with_stand</li>
+				<li>dimensions_without_stand</li>
+				<li>package_width</li>
+				<li>package_depth</li>
+				<li>package_height</li>
+				<li>package_weight</li>
+				<li>brand</li>
+				<li>mpn</li>
+				<li>product_gtin</li>
+			</ol></td></tr>
+		</table>
+		<h3> Labeled Set Creation</h3>
+		<p>
+		We labed 4 distinct stuctural units from the HTML pages: (1) Microdata title, (2) Microdata description, (3) HTML tables and (4) HTML lists.
+		The labeled set comprises out of 500 product entities, while the distinct labeled properties are 338 in total.
+		It was created by three different annotators. In order to ensure the validity of the annotaton process,
+		the inter annotator agreement was calculated. Out of 1,500 labeled properties there were found 75 disagreements. Therefore, the inter
+		annotator agreement is estimated to be 95%. The table below shows the distribution of labeled entities per category.
+		Additionally, the files containing the labeled entities are provided per category
+		and in total for further use.
+		</p>
+		<table>
+		<tr><th>Category</th><th>#labeled Products</th><th>File with labeled Products</th><tr>
+		<tr><td>Headphones</td><td>124</td><td><a target="_blank" href="files/Labeling/entities/headphones_labeled_entities.txt">headphones_labeled_entities.txt</a>(230kb)</td></tr>
+		<tr><td>Mobile Phones</td><td>212</td><td><a target="_blank" href="files/Labeling/entities/phones_labeled_entities.txt">phones_labeled_entities.txt</a>(603kb)</td></tr>
+		<tr><td>Televisions</td><td>164</td><td><a target="_blank" href="files/Labeling/entities/tvs_labeled_entities.txt">tvs_labeled_entities.txt</a>(291kb)</td></tr>
+		<tr><td>Total</td><td>500</td><td><a target="_blank" href="files/Labeling/entities/all_labeled_entities.txt">all_labeled_entities.txt</a>(1,125kb)</td></tr>
+		</table>
+
+
+		<h4> General statistics per PLD, Sturctural unit and Totals for each category </h4>
+
+		<hr/>
+		<div id="intro_pld" class="show"> Statistics per PLD are availablre by clicking here.</div>
+		<div id="charts_pld" class="no-show">
+			<p>
+				The charts below shows the PLD usage for the top 12 most used properties in the gold standard for each product category.
+				Some more detailed statistics on all the properties before being mapped can be found in the following <a target="_blank" href="files/UnMappedProps_Statistics.xlsx">file (UnMappedProps_Statistics.xlsx)</a>. The file includes the feature names of tables and lists
+				and their frequency per product category as used by the different commercial websites as well as the distribution of PLDs to the feature names per product category.
+			</p>
+
+			<div>
+				<div id="headphones_pld" style="display:inline-block"></div>
+				<div id="phones_pld" style="display:inline-block"></div>
+				<div id="tvs_pld" style="display:inline-block"></div>
+			</div>
+		</div>
+		<hr/>
+<div id="intro_structure" class="show">
+  Statistics per struvtural unit are availablre by clicking here.
+</div>
+<div id="charts_structure" class="no-show">
+	<p>Write stuff... </p>
+	<div>
+		<div id="headphones_tables" style="display:inline-block"></div>
+		<div id="phones_tables" style="display:inline-block"></div>
+		<div id="tvs_tables" style="display:inline-block"></div>
+	</div>
+	<div>
+		<div id="headphones_lists" style="display:inline-block"></div>
+		<div id="phones_lists" style="display:inline-block"></div>
+		<div id="tvs_lists" style="display:inline-block"></div>
+	</div>
+</div>
+<hr/>
+<div id="intro_totals" class="show">
+  For more charts on total number of properties lalbeled click here.
+</div>
+
+<div id="charts_totals" class="no-show">
+Among the total number of defined properties we observed some that were used rather frequently and others that were used only from a few
+websites. The charts below present the most frequent properties per product category as found in titles, descriptions, tables and lists.
+Please note that the presented results do not include the tagline property which is used for the cases where a word in a title or description did not reveal any specification
+and thus could not be given any property value.
+
+
+<table >
+
+<tr>
+<td><div id="phones_Title" style="float:left"></div></td>
+<td><div id="headphones_Title" style="float:left"></div></td>
+<td><div id="tvs_Titles" style="float:left"></div></td>
+</tr>
+<tr>
+<td><div id="phones_Desc" style="float:left"></div></td>
+<td><div id="headphones_Desc" style="float:left"></div></td>
+<td><div id="tvs_Desc" style="float:left"></div></td>
+</tr>
+<tr>
+<td><div id="phones_Tables" style="float:left"/></td>
+<td><div id="headphones_Tables" style="float:left"/></td>
+<td><div id="tvs_Tables" style="float:left"/></td>
+</tr>
+<tr>
+<td><div id="phones_Lists" style="float:left"></div></td>
+<td><div id="headphones_Lists" style="float:left"></div></td>
+<td><div id="tvs_Lists" style="float:left"></div></td>
+</tr>
+</table>
+</div
+<hr/>
+
+
+<span id="toc4"></span>
+<h2>4. Baselines for Product Matching</h2>
+<p>
+The data at hand could be used for multiple experiments regarding the topic of product matching.
+Here we define our baselines for the product matching tasks. The experiments conducted follow a four step process: 1.creating Bag of Words, 2.Preprocessing of the data,
+3.Parametrization and finally 4.Computation of similarities and evaluation.
+</p>
+
+<h3>Datasets and Preprocessing Steps</h3>
+<p>
+We experiment on two datasets:
+<ul>
+    <li>
+        Preprocessed text from the entire HTML
+    </li>
+    <li>
+        Preprocessed name and description properties from Microdata markup
+    </li>
+</ul>
+</p>
+<p>Common text preprocessing techniques are applied in order to reduce the number of tokens of every textual input and
+to result in filtered, richer in content unstructured and structured product specifications which will eventually contribute
+better to the identity resolution task.</p>
+<p>The preprocessing starts with the <i>removal of HTML tags</i> which do not contribute to the content of the specification. As a second step,
+ <i>tokenization</i> by non-alphanumeric character is realized. Thirdly, the textual characters are converted to <i>lowercase</i> and <i>stemmed</i> using a Porter
+ Stemming Filter. Finally, <i>stopwords</i> are removed. It should be mentioned that all the steps are equally implemented  in the unstructured and
+ structured product specifications apart from the first step which is only realized for the unstructured specifications contained in
+ the HTML pages.</p>
+
+<h3>Parametrization</h3>
+<p>
+We experiment with 3 different variable parameters. We take all n- grams (n ∈ [1, 2, 3]) and test on them separately. Additionally, we relax to string matching constraints by calculating the Levenshtein distance between potential matches. Lastly, we do maximum and minimum frequency pruning.
+</p>
+<h3>Similarity Methods</h3>
+<p>
+There are three main similarity methods involved in the experiments: exact string matching, Jaccard similarity and Cosine similarity. On top of the implemented
+ similarity measures Levenshtein Distance can be calculated.
+ <ul>
+<li>1. Bag Of Words - Simple Model: Calculation of the percentage of the common unique words in the two inputs (Exact Similarity on ngram level).
+</br><pre>i. The list of tokens are transformed to sets of unique grams
+</br>ii. The containment of the exact unique words is calculated as </br><b>commonGrams/min{UniqueGramsCatalogEntity, UniqueGramsPage}</b></pre></li>
+
+<li>2. Cosine Similarity:
+</br>
+<pre>i. The unique grams of the two inputs are assigned weights* (see the weighting section)
+</br>ii. Common words between the unique sets are retrieved
+</br>iii. Cosine Similarity is calculated as the dot product of the weights of the common words
+</br>divided by the normalization factor </pre>
+</li>
+<li>3. Jaccard: Can be applied only for the case of ngrams with n>1. The similarity score is calculated as <b>A&cap;B/A&cup;B</b></li>
+<li> Levenshtein Similarity (on top):  In order to calculate the intersection between vectors
+(unique common words) the user can define if they want exact matching between the grams or if common grams
+should be considered those with a Levenshtein similarity above a certain user defined threshold.
+The Levenshtein similarity for common grams calculation can be implemented on top of all the previously
+mentioned similarity methods.</li>
+</ul>
+
+</p>
+<span id="toc5"></span>
+<h2>5. Evaluation and Results</h2>
+<p>
+In order to evaluate the implemented similarity methods we measure precision, recall and F1 measure. For this
+we need to first define a threshold. The threshold selection is done by brute-force search for the best F1 score result
+ over the set of [0,1] using a step size of 0.001.
+</p>
+
+<h3>Results</h3>
+<p>
+ The table below shows the best results that could be retrieved from the implemented methods while
+ the results of the whole set of experiments can be found in the attached files.
+ </p>
+ <h4> Headphones Results </h4>
+  </br>
+
+  <table>
+ <tr><th>Method</th><th>Precision</th><th>Recall</th><th>F1</th></tr>
+ <tr><th>Exact Matching</th><td>0.691</td><td>1.000</td><td>0.817</td></tr>
+  <tr><th>Jaccard Similarity</th><td>0.666</td><td>1.000</td><td>0.8</td></tr>
+ <tr><th>Cosine-TFIDF</th><td>0.77</td><td>1.000</td><td>0.87</td></tr>
+ <tr><td><a target="_blank" href="files/Headphones_results.xlsx">Headphones_results.xlsx</a>(16kb)</td></tr>
+
+ </table>
+  <h4> Mobile Phones Results </h4>
+   </br>
+
+  <table>
+ <tr><th>Method</th><th>Precision</th><th>Recall</th><th>F1</th></tr>
+ <tr><th>Exact Matching</th><td>0.463</td><td>0.703</td><td>0.558</td></tr>
+  <tr><th>Jaccard Similarity</th><td>0.463</td><td>0.703</td><td>0.558</td></tr>
+ <tr><th>Cosine-TFIDF</th><td>0.503</td><td>0.703</td><td>0.556</td></tr>
+  <tr><td><a target="_blank" href="files/Phones_results.xlsx">Phones_results.xlsx</a>(16kb)</td></tr>
+
+ </table>
+   <h4> Televisions Results </h4>
+    </br>
+
+  <table>
+ <tr><th>Method</th><th>Precision</th><th>Recall</th><th>F1</th></tr>
+ <tr><th>Exact Matching</th><td>0.334</td><td>0.875</td><td>0.494</td></tr>
+  <tr><th>Exact Matching</th><td>0.769</td><td>0.416</td><td>0.54</td></tr>
+ <tr><th>Exact Matching</th><td>0.440</td><td>0.854</td><td>0.581</td></tr>
+   <tr><td><a target="_blank" href="files/TVs_results.xlsx">TVs_results.xlsx</a>(15kb)</td></tr>
+
+ </table>
+</div>
+<span id="toc6"></span>
+<h2>6. References</h2>
+<ol>
+	<li>Petar Petrovski, Anna Primpeli, Robert Meusel, Christian Bizer: <a href="">Product Data Corpus and Gold Standard for Product Feature Extraction and Matching</a>. <a href="http://www.dexa.org/ecweb2016">17th International Conference on Electronic Commerce and Web Technologies</a>, Porto, Portugal, September 2016. (To Appear)</li>
+  <li>Robert Meusel, Anna Primpeli, Christian Meilicke, Heiko Paulheim, Christian Bizer: <a href="">Exploiting Microdata Annotations to Consistently Categorize Product Offers at Web Scale. <a href="http://www.dexa.org/ecweb2015">16th International Conference on Electronic Commerce and Web Technologies</a></li>
+	<li>Disheng Qiu, Luciano Barbosa, Xin Luna Dong, Yanyan Shen, Divesh Srivastava: <a href="http://www.vldb.org/pvldb/vol8/p2194-qiu.pdf" target="_blank">DEXTER: Large-Scale Discovery and Extraction of Product Specifications on the Web</a>, Proceedings of the VLDB Endowment, Vol. 8, No. 13, 2015.</li>
+	<li>Hanna Köpcke, Andreas Thor, Stefan Thomas, Erhard Rahm: <a href="http://dbs.uni-leipzig.de/file/edbt2012_final.pdf" target="_blank"> Tailoring entity resolution for matching product offers</a>. In Proceedings of the 15th Int.Conf. on Extending Database Technology (EDBT), 2012.</li>
+	<li>Hanna Köpcke, Andreas Thor, Erhard Rahm: <a href="http://dbs.uni-leipzig.de/file/edbt2012_final.pdf" target="_blank"> Evaluation of entity resolution approaches on real-world match problems</a>. Proceedings of the VLDB Endowment, Volume 3 Issue 1-2, September 2010 , 2010.</li>
+</ol>
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+$('[id*="intro_"]').each(function(){
+	var element = $(this); 
+	element.click(function() {
+		var id = element.attr("id").split("_")[1];
+		element.removeClass("show").addClass("no-show");
+		$('#charts_'+id).removeClass("no-show").addClass("show");
+	});
+});
+$('[id*="charts_"]').each(function(){
+	var element = $(this); 
+	element.click(function() {
+		var id = element.attr("id").split("_")[1];
+		element.removeClass("show").addClass("no-show");
+		$('#intro_'+id).removeClass("no-show").addClass("show");
+	});
+});
+</script>
+</body>
+</html>

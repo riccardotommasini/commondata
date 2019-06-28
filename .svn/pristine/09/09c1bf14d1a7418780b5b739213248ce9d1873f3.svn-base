@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlfilter-regex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/urlfilter-regex/urlfilter-regex.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

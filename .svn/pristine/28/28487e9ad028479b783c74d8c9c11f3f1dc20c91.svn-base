@@ -1,0 +1,42 @@
+<component name="libraryTable">
+  <library name="parse-tika2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/metadata-extractor-2.4.0-beta-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/commons-codec-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/isoparser-1.0-RC-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/geronimo-stax-api_1.0_spec-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/rome-0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/xmlbeans-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/apache-mime4j-core-0.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/bcprov-jdk15-1.45.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/netcdf-4.2-min.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/parse-tika.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/xz-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/asm-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/juniversalchardet-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/bcmail-jdk15-1.45.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/tika-parsers-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/aspectjrt-1.6.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/jempbox-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/poi-ooxml-schemas-3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/pdfbox-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/apache-mime4j-dom-0.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/fontbox-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/slf4j-api-1.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/tika-core-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/poi-3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/jdom-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/commons-compress-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/vorbis-java-tika-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/tagsoup-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/poi-scratchpad-3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/poi-ooxml-3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/vorbis-java-core-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-tika/boilerpipe-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

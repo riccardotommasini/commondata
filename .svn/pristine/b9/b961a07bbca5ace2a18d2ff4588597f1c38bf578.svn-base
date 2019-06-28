@@ -1,0 +1,45 @@
+9591	0.2163497327	http://data-vocabulary.org/Breadcrumb/title	http://purl.org/dc/terms/title			
+9556	0.2155602175	http://purl.org/dc/terms/title	http://data-vocabulary.org/Breadcrumb/url			
+9521	0.2147707022	http://data-vocabulary.org/Breadcrumb/title	http://data-vocabulary.org/Breadcrumb/url	http://purl.org/dc/terms/title		
+8904	0.2008526765	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title			
+8748	0.1973336943	http://schema.org/PostalAddress/addressLocality	http://purl.org/dc/terms/title			
+7889	0.1779567346	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title		
+7124	0.1607001872	http://schema.org/PostalAddress/addressRegion	http://purl.org/dc/terms/title			
+6755	0.1523764409	http://schema.org/Product/name	http://purl.org/dc/terms/title			
+6746	0.1521734227	http://schema.org/PostalAddress/postalCode	http://purl.org/dc/terms/title			
+6343	0.1430827186	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title		
+6239	0.1407367305	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title	
+6173	0.1392479303	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title		
+6173	0.1392479303	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress		
+6169	0.1391577	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title
+5348	0.1206379283	http://schema.org/LocalBusiness/name	http://purl.org/dc/terms/title			
+5339	0.1204349101	http://schema.org/LocalBusiness/address	http://purl.org/dc/terms/title			
+5214	0.1176152128	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title		
+5158	0.1163519885	http://schema.org/Product/description	http://purl.org/dc/terms/title			
+5118	0.1154496853	http://schema.org/Product/name	http://schema.org/Product/description	http://purl.org/dc/terms/title		
+4858	0.109584715	http://schema.org/PostalAddress/addressLocality	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title	
+4424	0.099794726	http://schema.org/LocalBusiness/telephone	http://purl.org/dc/terms/title			
+4398	0.099208229	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress	
+4398	0.099208229	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title	
+4167	0.0939974284	http://schema.org/Offer/price	http://purl.org/dc/terms/title			
+4162	0.0938846405	http://schema.org/Product/offers	http://purl.org/dc/terms/title			
+4153	0.0936816223	http://schema.org/Product/offers	http://schema.org/Product/name	http://purl.org/dc/terms/title		
+4151	0.0936365072	http://schema.org/LocalBusiness/telephone	http://schema.org/PostalAddress/addressLocality	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title
+4072	0.0918544585	http://schema.org/LocalBusiness/telephone	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title		
+4072	0.0918544585	http://schema.org/LocalBusiness/telephone	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress		
+4048	0.0913130766	http://schema.org/LocalBusiness/telephone	http://schema.org/PostalAddress/addressLocality	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress	
+4048	0.0913130766	http://schema.org/LocalBusiness/telephone	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title	
+3856	0.0869820216	http://schema.org/Offer/price	http://schema.org/Product/name	http://purl.org/dc/terms/title		
+3834	0.0864857549	http://schema.org/Product/offers	http://schema.org/Offer/price	http://schema.org/Product/name	http://purl.org/dc/terms/title	
+3616	0.0815682028	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/addressLocality	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title
+3532	0.0796733663	http://schema.org/PostalAddress/addressLocality	http://schema.org/LocalBusiness/name	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title
+3496	0.0788612935	http://schema.org/Product/offers	http://schema.org/Product/name	http://schema.org/Product/description	http://purl.org/dc/terms/title	
+3450	0.0778236449	http://schema.org/LocalBusiness/name	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title		
+3450	0.0778236449	http://schema.org/LocalBusiness/name	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress		
+3435	0.0774852812	http://schema.org/PostalAddress/addressLocality	http://schema.org/LocalBusiness/name	http://schema.org/PostalAddress/streetAddress	http://purl.org/dc/terms/title	
+3435	0.0774852812	http://schema.org/PostalAddress/addressLocality	http://schema.org/LocalBusiness/name	http://schema.org/LocalBusiness/address	http://schema.org/PostalAddress/streetAddress	
+3433	0.077440166	http://schema.org/AggregateRating/ratingValue	http://purl.org/dc/terms/title			
+3376	0.0761543841	http://schema.org/Product/image	http://purl.org/dc/terms/title			
+3301	0.0744625657	http://schema.org/Product/name	http://schema.org/Product/image	http://purl.org/dc/terms/title		
+3252	0.0733572444	http://schema.org/Product/offers	http://schema.org/Offer/price	http://schema.org/Product/name	http://schema.org/Product/description	http://purl.org/dc/terms/title
+3203	0.072251923	http://data-vocabulary.org/Product/name	http://purl.org/dc/terms/title			

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="parse-wdc1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/parse-wdc/parse-wdc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>Web Data Commons - Web Tables (English Subset)</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Petar Risotski, Christian Bizer, Oliver Lehmberg, Heiko Paulheim">
+<meta name="keywords" content="Web Tables, HTML table corpus, English subset">
+<link rel=Stylesheet href=stylesheet.css>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://rawgithub.com/jgallen23/toc/master/dist/jquery.toc.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+	  
+	   //create histogram for columns distribution
+	   var colsData= new google.visualization.DataTable();
+        colsData.addColumn('string', '#Columns');
+        colsData.addColumn('number', 'Number of tables');
+        colsData.addRows([
+		['3' , 11666899],
+		['4' , 6308962],
+		['5' , 4317703],
+		['6' , 3231053],
+		['7' , 2034778],
+		['8' , 503573],
+		['9' , 215843],
+		['10' , 61702],
+		['> 10', 211875]
+        ]);
+		
+		// Set chart options
+        var optionsCol = {'title':'Distribution of number of columns per table',
+                       'width':1000,
+                       'height':480,
+               'colors': ['#e6693e']};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartCols = new google.visualization.ColumnChart(document.getElementById('colsDist'));
+        chartCols.draw(colsData, optionsCol);
+			   
+		//create histogram for row distribution
+		var rowsData= new google.visualization.DataTable();
+        rowsData.addColumn('string', '#Rows');
+        rowsData.addColumn('number', 'Number of tables');
+        rowsData.addRows([
+		['5' , 5948030],
+		['6' , 3126635],
+		['7' , 1714739],
+		['8' , 1808900],
+		['9' , 1926354],
+		['10' , 2311281],
+		['11' , 1355939],
+		['12' , 1094919],
+		['13' , 887333],
+		['14' , 1229516],
+		['15' , 1231139],
+		['16' , 856286],
+		['17' , 544381],
+		['18' , 468634],
+		['19' , 452159],
+		['20' , 565587],
+		['21' , 331462],
+		['22' , 384830],
+		['23' , 245808],
+		['24' , 285586],
+		['25' , 257527],
+		['>25' , 1525312]
+        ]);
+		// Set chart options
+        var optionsRows= {'title':'Distribution of number of rows per table',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: true}};	   
+
+        // Instantiate and draw our chart, passing in some options.
+        var chartRows = new google.visualization.ColumnChart(document.getElementById('rowsDist'));
+        chartRows.draw(rowsData, optionsRows);
+		
+		//create histogram for headers distribution
+	   var headerData= new google.visualization.DataTable();
+        headerData.addColumn('string', '#Header');
+        headerData.addColumn('number', 'Number of tables');
+        headerData.addRows([
+		['price' , 1918631],
+		['name' ,  1390685],
+		['date' ,  1362459],
+		['title' , 967059],
+		['description' ,   589986],
+		['location' ,  521445],
+		['size' ,  492550],
+		['year' ,  325673],
+		['rating' , 273003],
+		['age' , 259590],
+		['model' , 184710],
+		['country' , 132455],
+		['manufacturer' , 66398],
+		['height' , 43195],
+		['area' , 24305],
+		['population' , 14114],
+		['isbn' , 6023]
+        ]);
+		
+		// Set chart options
+        var optionsHead = {'title':'Top 10 used headers',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: true}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders = new google.visualization.ColumnChart(document.getElementById('headersDiv'));
+        chartHeaders.draw(headerData, optionsHead);
+		
+	//create piechart for column datatypes
+		var dataE = google.visualization.arrayToDataTable([
+          ['datatype', '#Columns'],
+          ['String', 59604486],
+          ['Numeric', 29025368],
+          ['Date', 6266954],
+		  ['List', 2346239],
+          ['Boolean', 1265],
+          
+        ]);
+
+        var optionsE = {
+          title: 'Column Data Types',
+		  pieResidueSliceLabel: 'Boolean'
+        };
+
+        var chart1E = new google.visualization.PieChart(document.getElementById('piechartDatatypesEn'));
+        chart1E.draw(dataE, optionsE);
+
+		 //create histogram for top 20 tlds
+	   var data2= new google.visualization.DataTable();
+        data2.addColumn('string', 'TLD');
+        data2.addColumn('number', 'Number of tables');
+        data2.addRows([
+		  ['com', 18145569],
+          ['org', 2327622],
+          ['co.uk', 1325347],
+          ['net', 1289617],
+          ['de', 711298],
+          ['com.au', 317455],
+          ['edu', 313329],
+          ['gov', 242922],
+		  ['ca' , 197117],
+		['fm' , 183217],
+		['info' , 164187],
+		['fr' , 156844],
+		['ru' , 156568],
+		['org.uk' , 128726],
+		['pl' , 122488],
+		['it' , 118725],
+		['nl' , 112179],
+		['us' , 107506],
+		['se' , 100655],
+		['com.br' ,93706],
+		['other' ,2237311]
+        ]);
+
+        // Set chart options
+        var options2 = {'title':'Number of Tables per TLD',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: true}};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart2 = new google.visualization.ColumnChart(document.getElementById('TLDs'));
+        chart2.draw(data2, options2);
+		
+      }
+    </script>
+    <style>
+
+
+        @media all {
+            .container_chart { display: block; }
+            .page-break    { display: none; }
+        }
+
+        @media print {
+            * { font-size: 95%; }
+            .container_chart { display: inline-block; }
+            .page-break    { display: inline-block; page-break-after:always; }
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<a name='top'></a><div id="header"><h1 style="font-size: 250%;">Web Data Commons - English Subset of the Web Tables Corpus</h1></div>
+<div id="tagline">Statistics and Data Analysis</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/petar-ristoski/">Petar Ristoski</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+<a href="http://www.heikopaulheim.com/">Heiko Paulheim</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+<br/>
+<br/>
+</div>
+
+
+<br />
+
+<div id="content">
+<p>
+This page provides basic statistics about the subset of relational Web tables in the <a href="http://webdatacommons.org/webtables/index.html">WDC table corpus</a> that likely provide English language content. In addition, small tables that have less than 3 columns and less than 5 columns are filtered out. The subset consists of <b>28,552,388</b> tables out of the 126 million Web tables in the overall corpus.
+</p>
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+<h2 id="about">1. Identifying English TLD Web Tables</h2>
+<p>
+The language of the tables' content was detected using the <a href="https://code.google.com/p/language-detection/">language detection library by Cybozu Labs</a>.
+</p>
+</p>
+<h2 id="statistics">2. Web Tables Statistics</h2>
+
+<h3 id="statistics">2.1 TLDs Distribution</h3>
+
+<p>Figure 1 shows the distribution of extracted Web tables per top-level domain.</p>
+<div style="width:1500px;">
+    <div id="TLDs" style="width: 900px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 1 - Number of tables per TLD</p>
+</div>
+<p>The complete distribution of tables per top-level domain can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables_stats/2014-05/eng/tldCountSorted.txt">here</a>. 
+The file contains a list of two tab separated fields, <code>TLD</code> and <code>#tables</code>. E.g. the first entry of the file, <code>com	18145569</code>, means that there are 18145569 tables extracted from the "com" domain. </p>
+
+<h3 id="statistics">2.2 Number of Columns and Rows Distribution</h3>
+<p>The table below provides basic statistics for the tables' size in the complete corpus. The rows number excludes the header row and thus refers to the data rows of the table.<p>
+<table >
+<tr><th></th><th>min.</th><th>max.</th><th>average</th><th>median</th></tr>
+<tr><th>columns</th><td>3</td> <td>1 002</td><td>4.39</td><td>4</td></tr>
+<tr><th>rows</th><td>5</td><td>1 283</td><td>11.65</td><td>5</td></tr>
+</table>
+<h4 id="statistics">2.2.1 Number of Columns Distribution</h4>
+<p>Figure 2 shows the distribution of number of columns per table.</p>
+<div style="width:1000px;">
+    <div id="colsDist" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 2 - Distribution of Number of Columns per Table</p>
+</div>
+<p>
+</br>The complete distribution of number of columns per table can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables_stats/2014-05/eng/colsCountSorted.txt">here</a>.
+The file contains a list of two tab separated fields, <code>#columns</code> and <code>#tables</code>. E.g. the first entry of the file, <code>3	11666899</code>, means that there are 11666899 tables that have exactly 3 columns. </p>
+
+<h4 id="statistics">2.2.2 Number of Rows Distribution</h4>
+<p>Figure 3 shows the distribution of number of data rows per table.
+</br>
+Data rows are all rows of the table that are positioned under the header row and contain at least one non-empty cell.
+</p>
+
+</p>
+<div style="width:1500px;">
+    <div id="rowsDist" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 3 - Distribution of Number of Rows per Table</p>
+</div>
+<p>
+The complete distribution of number of rows per table can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables_stats/2014-05/eng/rowsCountSorted.txt">here</a>.
+The file contains a list of two tab separated fields, <code>#rows</code> and <code>#tables</code>. E.g. the first entry of the file, <code>5	5948030</code>, means that there are 5948030 tables that have exactly 5 data rows.
+
+<h3 id="statistics">2.3 Headers Distribution</h3>
+<p>In order to get a first impression about the topics of the tables, we applied a simple heuristic for identifying the column headers of each Web table. Our heuristic assumed that the column headers are in the first row of the web table that contains at least 80% non-empty cells of the number of cells of the row with highest number of non-empty cells in the table. The heuristic will fail on vertical tables as well as tables that require more sophisticated header unfolding. We also did not take column name synonyms like 'population' and 'number of inhabitants' into account. Thus, the numbers presented below should be understood as lower bounds.
+<br/> With the current approach were able to identify total of <b>125,174,154</b> column headers out of which <b>5,298,877</b> are different.
+</p>
+Figure 4 shows the number of tables in the corpus that contain some popular column headers.
+</p>
+<div style="width:1500px;">
+    <div id="headersDiv" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 4 - Popular Column Headers</p>
+</div>
+<p>
+The complete distribution of headers can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables_stats/2014-05/eng/headersCountSorted.txt.gz">here</a>. 
+The file contains a list of two tab separated fields, <code>header</code> and <code>#tables</code>. E.g. the first entry of the file, <code>price    1918631</code>, means that there are 1918631 tables that contain column with header <code>price</code>.
+</br>
+</p>
+
+<p>
+To get a better understanding which topics are covered in the corpus, we performed a rough matching to the cross-domain knowledge base <a href="http://dbpedia.org/About">DBpedia</a>, which is a structured data version of a subset of Wikipedia. We scanned the tables for properties used in DBpedia which are also used as table headers in our dataset.
+The complete list can be found here <a href="http://data.dws.informatik.uni-mannheim.de/webtables_stats/2014-05/eng/DBheaders.txt">here</a>.
+The file contains a list of two tab separated fields, <code>DBpediaProperty</code> and <code>#tables</code>. E.g. the entry, <code>title	885874</code>, means that there are 885874 tables that contain column with header <code>title</code>.
+</br>
+<h3 id="statistics">2.4 Labels Distribution</h3>
+<p>
+Most applications working with Web tables assume that the tables are entity-attribute tables and that they contain a string column that provides the name of the described entity (label column).
+To get an initial insight of the entity coverage of the corpus, we determined the label column of the tables using a simple heuristic and counted value occurrences in the label column of all Web tables. Our heuristic assumed the left-most column that is not a number or a date and has almost unique values to be the label column. [<a href="http://grafia.cs.ucsb.edu/gengxin/pdf/tables.pdf">Venetis2010</a>] report an accuracy of 83% using a similar simple heuristic.</br>
+Before counting, all values are normalized, and stop-word are removed. E.g. the music album name <code>The Dark Side of the Moon</code> will be normalized to <code>dark side moon</code>. While counting the value occurrences, we do not take surface form synonyms into account (like 'New York' and 'New York City'). Thus, the reported numbers should be understood as lower bounds.
+
+In the corpus of Web tables we were able to identify total of <b>332,592,822</b> label column values, where <b>53,344,591</b> are different values. 
+</p>
+
+<p>In Table 1 is shown values coverage from different topics.</p>
+<table border=1 cellpadding=2 cellspacing=2 width=1167 >
+ <col width=84 style='mso-width-source:userset;mso-width-alt:3072;width:63pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <col width=93 style='mso-width-source:userset;mso-width-alt:3401;width:70pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <col width=79 style='mso-width-source:userset;mso-width-alt:2889;width:59pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <col width=104 style='mso-width-source:userset;mso-width-alt:3803;width:78pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <col width=181 style='mso-width-source:userset;mso-width-alt:6619;width:136pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <col width=124 style='mso-width-source:userset;mso-width-alt:4534;width:93pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <col width=124 style='mso-width-source:userset;mso-width-alt:4534;width:93pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <tr height=23 style='height:17.25pt'>
+  <td colspan=2 height=23 class=xl72 width=138 style='height:17.25pt;
+  width:104pt'>Countries</td>
+  <td colspan=2 class=xl71 width=147 style='border-left:none;width:111pt'>Cities</td>
+  <td colspan=2 class=xl72 width=133 style='border-left:none;width:100pt'>Rivers</td>
+  <td colspan=2 class=xl71 width=158 style='border-left:none;width:119pt'>Movies</td>
+  <td colspan=2 class=xl72 width=235 style='border-left:none;width:177pt'>Camera
+  Models</td>
+  <td colspan=2 class=xl71 width=178 style='border-left:none;width:134pt'>Music
+  Albums</td>
+  <td colspan=2 class=xl72 width=178 style='border-left:none;width:134pt'>Footballers</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl66 style='height:15.0pt;border-top:none'>Name</td>
+  <td class=xl66 style='border-top:none;border-left:none'>#Tables</td>
+  <td class=xl67 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl67 style='border-top:none;border-left:none'>#Tables</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl66 style='border-top:none;border-left:none'>#Tables</td>
+  <td class=xl67 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl67 style='border-top:none;border-left:none'>#Tables</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl66 style='border-top:none;border-left:none'>#Tables</td>
+  <td class=xl67 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl67 style='border-top:none;border-left:none'>#Tables</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Name</td>
+  <td class=xl66 style='border-top:none;border-left:none'>#Tables</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>germany</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>78450</td>
+  <td class=xl68 style='border-top:none;border-left:none'>new york</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>19520</td>
+  <td class=xl65 style='border-top:none;border-left:none'>mississippi</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>8124</td>
+  <td class=xl68 style='border-top:none;border-left:none'>inception</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>6073</td>
+  <td class=xl65 style='border-top:none;border-left:none'>canon eos 40 d</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>63</td>
+  <td class=xl68 style='border-top:none;border-left:none'>aftermath</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>940</td>
+  <td class=xl65 style='border-top:none;border-left:none'>cristiano ronaldo</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>17049</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>italy</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>61448</td>
+  <td class=xl68 style='border-top:none;border-left:none'>london</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>13233</td>
+  <td class=xl65 style='border-top:none;border-left:none'>yangtze</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>2487</td>
+  <td class=xl68 style='border-top:none;border-left:none'>avatar</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>1423</td>
+  <td class=xl65 style='border-top:none;border-left:none'>nikon d 90</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>43</td>
+  <td class=xl68 style='border-top:none;border-left:none'>thriller</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>782</td>
+  <td class=xl65 style='border-top:none;border-left:none'>frank lampard</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>673</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>france</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>58087</td>
+  <td class=xl68 style='border-top:none;border-left:none'>luxembourg</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>7462</td>
+  <td class=xl65 style='border-top:none;border-left:none'>don</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>1196</td>
+  <td class=xl68 style='border-top:none;border-left:none'>taxi</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>1214</td>
+  <td class=xl65 style='border-top:none;border-left:none'>nikon d 5000</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>38</td>
+  <td class=xl68 style='border-top:none;border-left:none'>like virgin</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>530</td>
+  <td class=xl65 style='border-top:none;border-left:none'>thierry henry</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>549</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>japan</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>36662</td>
+  <td class=xl68 style='border-top:none;border-left:none'>athens</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>5972</td>
+  <td class=xl65 style='border-top:none;border-left:none'>lena</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>624</td>
+  <td class=xl68 style='border-top:none;border-left:none'>titanic</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>864</td>
+  <td class=xl65 style='border-top:none;border-left:none'>nikon d 80</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>37</td>
+  <td class=xl68 style='border-top:none;border-left:none'>like prayer</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>419</td>
+  <td class=xl65 style='border-top:none;border-left:none'>robin van persie</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>457</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>china</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>32624</td>
+  <td class=xl68 style='border-top:none;border-left:none'>dublin</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>5702</td>
+  <td class=xl65 style='border-top:none;border-left:none'>mackenzie</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>352</td>
+  <td class=xl68 style='border-top:none;border-left:none'>fantastic four</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>473</td>
+  <td class=xl65 style='border-top:none;border-left:none'>canon eos 10 d</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>36</td>
+  <td class=xl68 style='border-top:none;border-left:none'>true blue</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>405</td>
+  <td class=xl65 style='border-top:none;border-left:none'>fernando torres</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>392</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>austria</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>30774</td>
+  <td class=xl68 style='border-top:none;border-left:none'>berlin</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>4562</td>
+  <td class=xl65 style='border-top:none;border-left:none'>indus</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>232</td>
+  <td class=xl68 style='border-top:none;border-left:none'>deception</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>435</td>
+  <td class=xl65 style='border-top:none;border-left:none'>nikon d 60</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>34</td>
+  <td class=xl68 style='border-top:none;border-left:none'>something new</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>383</td>
+  <td class=xl65 style='border-top:none;border-left:none'>gareth bale</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>275</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>belgium</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>28020</td>
+  <td class=xl68 style='border-top:none;border-left:none'>budapest</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>3935</td>
+  <td class=xl65 style='border-top:none;border-left:none'>volta</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>207</td>
+  <td class=xl68 style='border-top:none;border-left:none'>ice age</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>379</td>
+  <td class=xl65 style='border-top:none;border-left:none'>canon eos d 60</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>28</td>
+  <td class=xl68 style='border-top:none;border-left:none'>yellow submarine</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>377</td>
+  <td class=xl65 style='border-top:none;border-left:none'>david beckham</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>273</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>netherlands</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>27620</td>
+  <td class=xl68 style='border-top:none;border-left:none'>amsterdam</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>3025</td>
+  <td class=xl65 style='border-top:none;border-left:none'>sava</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>150</td>
+  <td class=xl68 style='border-top:none;border-left:none'>moulin rouge</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>328</td>
+  <td class=xl65 style='border-top:none;border-left:none'>nikon d 100</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>23</td>
+  <td class=xl68 style='border-top:none;border-left:none'>twist shout</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>349</td>
+  <td class=xl65 style='border-top:none;border-left:none'>roberto carlos</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>243</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>ireland</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>19035</td>
+  <td class=xl68 style='border-top:none;border-left:none'>copenhagen</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>2905</td>
+  <td class=xl65 style='border-top:none;border-left:none'>kama</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>137</td>
+  <td class=xl68 style='border-top:none;border-left:none'>black knight</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>324</td>
+  <td class=xl65 style='border-top:none;border-left:none'>canon eos 50 d</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl68 style='border-top:none;border-left:none'>shine light</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>333</td>
+  <td class=xl65 style='border-top:none;border-left:none'>ronaldo</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>199</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>greece</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>18705</td>
+  <td class=xl68 style='border-top:none;border-left:none'>andorra</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>2461</td>
+  <td class=xl65 style='border-top:none;border-left:none'>tigris</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>135</td>
+  <td class=xl68 style='border-top:none;border-left:none'>glitter</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>291</td>
+  <td class=xl65 style='border-top:none;border-left:none'>canon eos 30 d</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>21</td>
+  <td class=xl68 style='border-top:none;border-left:none'>dark side moon</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>247</td>
+  <td class=xl65 style='border-top:none;border-left:none'>lionel messi</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>188</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>russia</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>18018</td>
+  <td class=xl68 style='border-top:none;border-left:none'>new york city</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>2418</td>
+  <td class=xl65 style='border-top:none;border-left:none'>oka</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>125</td>
+  <td class=xl68 style='border-top:none;border-left:none'>unfaithful</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>290</td>
+  <td class=xl65 style='border-top:none;border-left:none'>nikon d 200</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl68 style='border-top:none;border-left:none'>some girls</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>196</td>
+  <td class=xl65 style='border-top:none;border-left:none'>ronaldinho</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>166</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>denmark</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>16815</td>
+  <td class=xl68 style='border-top:none;border-left:none'>brussels</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>2400</td>
+  <td class=xl65 style='border-top:none;border-left:none'>rhine</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>124</td>
+  <td class=xl68 style='border-top:none;border-left:none'>joy ride</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>274</td>
+  <td class=xl65 style='border-top:none;border-left:none'>canon eos 20 d</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>17</td>
+  <td class=xl68 style='border-top:none;border-left:none'>one day your life</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>184</td>
+  <td class=xl65 style='border-top:none;border-left:none'>xabi alonso</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>croatia</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>14002</td>
+  <td class=xl68 style='border-top:none;border-left:none'>madrid</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>2031</td>
+  <td class=xl65 style='border-top:none;border-left:none'>ural</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>80</td>
+  <td class=xl68 style='border-top:none;border-left:none'>minority report</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>234</td>
+  <td class=xl65 style='border-top:none;border-left:none'>olympus e 500</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl68 style='border-top:none;border-left:none'>please please me</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>179</td>
+  <td class=xl65 style='border-top:none;border-left:none'>zinedine zidane</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>106</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>finland</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>13287</td>
+  <td class=xl68 style='border-top:none;border-left:none'>lisbon</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>1347</td>
+  <td class=xl65 style='border-top:none;border-left:none'>danube</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>63</td>
+  <td class=xl68 style='border-top:none;border-left:none'>just married</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>157</td>
+  <td class=xl65 style='border-top:none;border-left:none'>canon eos d 30</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl68 style='border-top:none;border-left:none'>abbey road</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>152</td>
+  <td class=xl65 style='border-top:none;border-left:none'>sergio ramos</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>66</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>mexico</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>13019</td>
+  <td class=xl68 style='border-top:none;border-left:none'>helsinki</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>1294</td>
+  <td class=xl65 style='border-top:none;border-left:none'>volga</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>61</td>
+  <td class=xl68 style='border-top:none;border-left:none'>from hell</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>131</td>
+  <td class=xl65 style='border-top:none;border-left:none'>olympus e 30</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl68 style='border-top:none;border-left:none'>sticky fingers</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>144</td>
+  <td class=xl65 style='border-top:none;border-left:none'>fabio cannavaro</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>36</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>hungary</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>11308</td>
+  <td class=xl68 style='border-top:none;border-left:none'>bratislava</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>498</td>
+  <td class=xl65 style='border-top:none;border-left:none'>loire</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>60</td>
+  <td class=xl68 style='border-top:none;border-left:none'>high crimes</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>85</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl68 style='border-top:none;border-left:none'>let bleed</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>117</td>
+  <td class=xl65 style='border-top:none;border-left:none'>oliver kahn</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>36</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>malta</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>9814</td>
+  <td class=xl68 style='border-top:none;border-left:none'>bern</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>497</td>
+  <td class=xl65 style='border-top:none;border-left:none'>tisa</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>31</td>
+  <td class=xl68 style='border-top:none;border-left:none'>monkeybone</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>80</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl68 style='border-top:none;border-left:none'>blood dance floor</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>105</td>
+  <td class=xl65 style='border-top:none;border-left:none'>rivaldo</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>30</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>bulgaria</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>6954</td>
+  <td class=xl68 style='border-top:none;border-left:none'>bucharest</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>497</td>
+  <td class=xl65 style='border-top:none;border-left:none'>elbe</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>27</td>
+  <td class=xl68 style='border-top:none;border-left:none'>shallow hal</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>76</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl68 style='border-top:none;border-left:none'>rubber soul</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>102</td>
+  <td class=xl65 style='border-top:none;border-left:none'>roberto baggio</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>29</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>cyprus</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>6880</td>
+  <td class=xl68 style='border-top:none;border-left:none'>kiev</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>457</td>
+  <td class=xl65 style='border-top:none;border-left:none'>vardar</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>25</td>
+  <td class=xl68 style='border-top:none;border-left:none'>joe somebody</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>64</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl68 style='border-top:none;border-left:none'>exciter</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>89</td>
+  <td class=xl65 style='border-top:none;border-left:none'>paolo maldini</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>28</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl65 style='height:15.75pt;border-top:none'>egypt</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>5777</td>
+  <td class=xl68 style='border-top:none;border-left:none'>belgrade</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>451</td>
+  <td class=xl65 style='border-top:none;border-left:none'>seine</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl68 style='border-top:none;border-left:none'>like mike</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>53</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl68 style='border-top:none;border-left:none'>black celebration</td>
+  <td class=xl68 align=right style='border-top:none;border-left:none'>69</td>
+  <td class=xl65 style='border-top:none;border-left:none'>marco van basten</td>
+  <td class=xl65 align=right style='border-top:none;border-left:none'>27</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=84 style='width:63pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=93 style='width:70pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=79 style='width:59pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=104 style='width:78pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=181 style='width:136pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=124 style='width:93pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=124 style='width:93pt'></td>
+  <td width=54 style='width:41pt'></td>
+ </tr>
+ <![endif]>
+</table>
+<div style="width:1237px;">
+    <div id="headersDiv" style="width: 1237px; height: 10px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:1237px;">Table. 1 - Values Coverage</p>
+</div>
+
+<h3 id="statistics">2.5 Column Data Types Distribution</h3>
+<p>
+We used rough type guessing algorithm to detect the data type of each table column. First, the data type of each column value was detect, using 5 pre-defined data types: string, numeric, date, boolean and list. Afterwards, the most used data type in the column was chosen as the final data type of the column. 
+</p>
+<p>
+Figure 5 shows distribution of column data types.
+</p>
+
+<div style="width:720px;">
+    <div id="piechartDatatypesEn" style="width: 900px; height: 500px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 5 - Column Data Types Distribution</p>
+</div>
+<h2 id="download">3. Data Formats and Download</h2>
+<p>For each Web page that contains at least one content Web table, we provide the corresponding 
+HTML file, the set of extracted Web tables in CSV format, the set of extracted Web tables in CSV format where the link columns are split in two columns (one for the text, one for the link itself), and a JSON file that contains meta data for the extraction of the Web tables. Each JSON file contains the URL of the Web page, 
+a reference to the corresponding HTML file in the gzip file, and information for each of the extracted Web tables. All files that are referring to the same Web page, share the same file name prefix,
+e.g. a JSON file with the name <code>71657325_XXXXXXX.json</code> would refer to the HTML file <code>71657325_YYYYYY</code>, a list of CSV files: <code>71657325_0_ZZZZZZZ.csv</code>, <code>71657325_1_ZZZZZZZ.csv</code> etc., and a list of CSV files that include the links: <code>71657325_0_LINK_WWWWWWWW.csv</code>, <code>71657325_1_LINK_WWWWWWWW.csv</code> etc.
+For each of the extracted Web tables, the JSON file contains the position of the table inside the HTML file, and basic statistics for the data in the Web tables. The complete JSON Schema can be found <a href="../data/jsonSchema2.json">here</a>.
+</p>
+
+<p>To download the corpora of Web table use the following links:</p>
+<table>
+<tr><th>Data Set</th><th>Size</th><th>#Files</th></tr>
+<tr><td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2014-05/completeCorpus/">Complete corpus</a></td><td>820 GB</td><td>900 (.tar)</td></tr>
+<tr><td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2014-05/englishCorpus/">Web Tables providing English content</a></td><td>237 GB</td><td>180(.tar)</td></tr>
+</table>
+
+You can download data samples on the following links:
+<ul>
+<li><a href="../data/sample1K.zip">1000 random Web tables</a></li>
+<li><a href="../data/sample10.zip">10 Web tables related to countries</a></li>
+</ul>
+
+<h2 id="feedback">4. Feedback</h2>
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br/><br/>
+More information about Web Data Commons can be found <a href="../index.html">here</a>.</p>
+<h2 id="acknowledgments">5. Credits</h2>
+<p>The extraction of the Web tables corpus was supported by the  <a href="http://www.dfg.de/">German Research Foundation (DFG)</a> under grant number PA 2373/1-1 (Mine@LOD), an <a href="http://aws.amazon.com/education/">Amazon Web Services in Education Grant award</a> and by the EU FP7 research project <a href="http://planet-data.eu">PlanetData</a>.</p>
+
+
+<a href="http://aws.amazon.com/education/"><img src="../images/dfg_logo.gif" alt="DFG Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://planet-data.eu"><img src="../images/pd.gif" alt="PlanetData Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://aws.amazon.com/education/"><img src="../images/aws.png" alt="AWS Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+
+</body></html>

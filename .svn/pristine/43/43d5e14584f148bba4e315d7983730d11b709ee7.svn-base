@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="index-static2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/index-static/index-static.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

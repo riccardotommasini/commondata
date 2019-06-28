@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html><head><title>WebIsA Database</title>
+<link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<style>
+.tar {
+text-align: right;
+}
+.rtable 
+{
+    float: right; 
+    padding-left:10px;
+        
+}
+.smalltable, .smalltable TD, .smalltable TH 
+{
+font-size:9pt; 
+}
+.table-wrapper {
+  position:relative;
+}
+.table-scroll {
+  height:240px;
+  overflow:auto;  
+  margin-top:-10px;
+}
+
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "name":"Web Data Commons - WebIsA Database",
+  "description":"WebIsADb is a publicly available database containing more than 400 million hypernymy relations we extracted from the CommonCrawl web corpus. This collection of relations represents a rich source of knowledge and may be useful for many researchers.",
+  "url":"http://webdatacommons.org/isadb/index.html",
+  "keywords":[
+     "IsADb"
+  ],
+  "creator":[
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/",
+		 "name":"Christian Bizer"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/alumni/prof-dr-kai-eckert/",
+		 "name":"Kai Eckert"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/drstefanofaralli/",
+		 "name":"Stefano Faralli"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/",
+		 "name":"Robert Meusel"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/professors/dr-heiko-paulheim/",
+		 "name":"Heiko Paulheim"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/professors/profdrsimonepaoloponzetto/",
+		 "name":"Simone Paolo Ponzetto"
+	  }
+  ],
+  "distribution":[
+     {
+        "@type":"DataDownload",
+        "fileFormat":"MongoDB database",
+        "contentUrl":"http://webdatacommons.org/isadb/index.html#toc2"
+     },
+     {
+        "@type":"DataDownload",
+        "fileFormat":"csv",
+        "contentUrl":"http://webdatacommons.org/isadb/index.html#toc2"
+     }
+  ],
+  "citation":[
+	  "Julian Seitner, Christian Bizer, Kai Eckert, Stefano Faralli, Robert Meusel, Heiko Paulheim and Simone Paolo Ponzetto, 2016. A Large Database of Hypernymy Relations Extracted from the Web. Proceedings of the 10th edition of the Language Resources and Evaluation Conference. Portoro�, Slovenia",
+	  "Stefano Faralli, Christian Bizer, Kai Eckert, Robert Meusel and Simone Paolo Ponzetto. A Repository of Taxonomic Relations from the Web. Proceedings of the 15th International Semantic Web Conference (Posters & Demos) 2016."
+  ]
+  }
+</script>
+
+
+
+
+</head>
+<body> 
+
+ <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">Web Data Commons - WebIsA Database</h1>
+</div>
+
+<div id="tagline">Generating a "IsA" Database out of the Web</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/alumni/prof-dr-kai-eckert/">Kai Eckert</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/drstefanofaralli/">Stefano Faralli</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/dr-heiko-paulheim/">Heiko Paulheim</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/profdrsimonepaoloponzetto/">Simone Paolo Ponzetto</a><br />
+</div>
+
+<div id="content">
+<p>
+WebIsADb is a publicly available database containing more than 400 million hypernymy relations we extracted from the CommonCrawl web corpus. 
+This collection of relations represents a rich source of knowledge and may be useful for many researchers. We offer the tuple dataset for public download and an application programming interface to help other researchers programmatically query the database.
+</p>
+
+<h2 id="news">News</h2>
+<ul>
+<li><strong>2016-05-30: WebIsADb involved @OKE2016 @ESWC2016</strong><br/>
+S. Faralli and S. P. Ponzetto. DWS at the 2016 Open Knowledge Extraction Challenge: A Hearst-like Pattern-Based Approach to Hypernym Extraction and Class Induction.<br>
+Candidated as ESWC 2016 Best Challenges Paper:<br> 
+<img width="450px" src="nominated.jpg">
+</li>
+<li><strong>2016-01-01: A paper about the WebIsADb was accepted at LREC 2016 <a href='lrec2016.pdf'> <img width='24px'  src='pdf.png'> </a>.  </strong><br />
+Julian Seitner, Christian Bizer, Kai Eckert, Stefano Faralli, Robert Meusel, Heiko Paulheim and Simone Paolo Ponzetto, 2016. A Large Database of Hypernymy Relations Extracted from the Web. Proceedings of the 10th edition of the Language Resources and Evaluation Conference. Portorož, Slovenia.
+</li>
+</ul>
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+
+<div id="toccontent">
+
+<h2 id="about">1. WebIsADb</h2>
+<p>Our approach to "isa" relation extraction can be divided in three main steps:
+
+<div class="rtable"> 
+<p>Table 1: The list of patterns used for the tuples extraction<br />
+    (NP<sub>t</sub> indicates the hyponym and NP<sub>h</sub> the hypernym). For<br />
+    each pattern we also report the estimated precision and<br />
+    the number of resulting matches.
+<p>
+
+<div class="table-wrapper">
+<table class="smalltable" width="100%">
+<tr><th width="220px">Pattern</th><th width="60px">Precision</th><th># match</th></tr>
+</table>
+<div class="table-scroll">
+<table class="smalltable">
+<tr style="visibility:hidden"><th width="220px">Pattern</th><th width="60px">Precision</th><th># match</th></tr>
+<tr><td>NP<sub>t</sub> and any other NP<sub>h</sub></td><td class="tar">0.76</td><td class="tar">975,735</td></tr>
+<tr><td>NP<sub>t</sub> and other NP<sub>h</sub></td><td class="tar">0.70</td><td class="tar">45,900,092</td></tr>
+<tr><td>NP<sub>t</sub> or other NP<sub>h</sub></td><td class="tar">0.70</td><td class="tar">13,392,348</td></tr>
+<tr><td>NP<sub>t</sub> is adj<sub>sup</sub> NP<sub>h</sub></td><td class="tar">0.63</td><td class="tar">6,150,245</td></tr>
+<tr><td>NP<sub>t</sub> is adj<sub>sup</sub> most NP<sub>h</sub></td><td class="tar">0.63</td><td class="tar">2,286,478</td></tr>
+<tr><td>NP<sub>h</sub> such as NP<sub>t</sub></td><td class="tar">0.58</td><td class="tar">70,337,543</td></tr>
+<tr><td>such NP<sub>h</sub> as NP<sub>t</sub></td><td class="tar">0.58</td><td class="tar">5,755,389</td></tr>
+<tr><td>NP<sub>t</sub> are a NP<sub>h</sub></td><td class="tar">0.57</td><td class="tar">15,141,131</td></tr>
+<tr><td>NP<sub>t</sub> and some other NP<sub>h</sub></td><td class="tar">0.54</td><td class="tar">296,524</td></tr>
+<tr><td>NP<sub>t</sub> which is called NP<sub>h</sub></td><td class="tar">0.50</td><td class="tar">119,317</td></tr>
+<tr><td>NP<sub>t</sub> are adj<sub>sup</sub> most NP<sub>h</sub></td><td class="tar">0.49</td><td class="tar">860,770</td></tr>
+<tr><td>examples of NP<sub>h</sub> are NP<sub>t</sub></td><td class="tar">0.45</td><td class="tar">267,764</td></tr>
+<tr><td>NP<sub>t</sub>, kinds of NP<sub>h</sub></td><td class="tar">0.45</td><td class="tar">4,618,873</td></tr>
+<tr><td>NP<sub>h</sub> including NP<sub>t</sub></td><td class="tar">0.44</td><td class="tar">80,640,885</td></tr>
+<tr><td>NP<sub>t</sub> is a NP<sub>h</sub></td><td class="tar">0.44</td><td class="tar">187,644,160</td></tr>
+<tr><td>NP<sub>h</sub> other than NP<sub>t</sub></td><td class="tar">0.44</td><td class="tar">7,175,087</td></tr>
+<tr><td>NP<sub>t</sub> were a NP<sub>h</sub></td><td class="tar">0.42</td><td class="tar">3,206,238</td></tr>
+<tr><td>NP<sub>t</sub> are adj<sub>sup</sub> NP<sub>h</sub></td><td class="tar">0.41</td><td class="tar">1,393,484</td></tr>
+<tr><td>NP<sub>t</sub> was a NP<sub>h</sub></td><td class="tar">0.39</td><td class="tar">39,585,428</td></tr>
+<tr><td>NP<sub>t</sub>, one of the NP<sub>h</sub></td><td class="tar">0.38</td><td class="tar">4,200,376</td></tr>
+<tr><td>NP<sub>t</sub> is example of NP<sub>h</sub></td><td class="tar">0.36</td><td class="tar">292,706</td></tr>
+<tr><td>examples of NP<sub>h</sub> is NP<sub>t</sub></td><td class="tar">0.33</td><td class="tar">267,021</td></tr>
+<tr><td>NP<sub>h</sub> e.g. NP<sub>t</sub></td><td class="tar">0.33</td><td class="tar">1,973,022</td></tr>
+<tr><td>NP<sub>t</sub>, forms of NP<sub>h</sub></td><td class="tar">0.33</td><td class="tar">3,326,957</td></tr>
+<tr><td>NP<sub>t</sub> like other NP<sub>h</sub></td><td class="tar">0.31</td><td class="tar">402,388</td></tr>
+<tr><td>NP<sub>h</sub> for example NP<sub>t</sub></td><td class="tar">0.31</td><td class="tar">2,356,522</td></tr>
+<tr><td>adj<sub>sup</sub> most NP<sub>h</sub> is NP<sub>t</sub></td><td class="tar">0.31</td><td class="tar">2,999,877</td></tr>
+<tr><td>NP<sub>t</sub> or the many NP<sub>h</sub></td><td class="tar">0.31</td><td class="tar">15,192</td></tr>
+<tr><td>NP<sub>h</sub> i.e. NP<sub>t</sub></td><td class="tar">0.29</td><td class="tar">2,114,793</td></tr>
+<tr><td>NP<sub>h</sub> which is similar to NP<sub>t</sub></td><td class="tar">0.29</td><td class="tar">63,713</td></tr>
+<tr><td>NP<sub>h</sub> notably NP<sub>t</sub></td><td class="tar">0.28</td><td class="tar">1,154,745</td></tr>
+<tr><td>NP<sub>h</sub> which are similar to NP<sub>t</sub></td><td class="tar">0.28</td><td class="tar">17,304</td></tr>
+<tr><td>NP<sub>t</sub> which is named NP<sub>h</sub></td><td class="tar">0.26</td><td class="tar">19,122</td></tr>
+<tr><td>NP<sub>h</sub> principally NP<sub>t</sub></td><td class="tar">0.26</td><td class="tar">455,578</td></tr>
+<tr><td>adj<sub>sup</sub> NP<sub>h</sub> is NP<sub>t</sub></td><td class="tar">0.25</td><td class="tar">10,360,953</td></tr>
+<tr><td>NP<sub>h</sub> in particular NP<sub>t</sub></td><td class="tar">0.25</td><td class="tar">2,354,596</td></tr>
+<tr><td>NP<sub>h</sub> example of this is NP<sub>t</sub></td><td class="tar">0.25</td><td class="tar">14,237</td></tr>
+<tr><td>NP<sub>h</sub> among them NP<sub>t</sub></td><td class="tar">0.23</td><td class="tar">524,784</td></tr>
+<tr><td>NP<sub>h</sub> mainly NP<sub>t</sub></td><td class="tar">0.22</td><td class="tar">4,792,792</td></tr>
+<tr><td>NP<sub>h</sub> except NP<sub>t</sub></td><td class="tar">0.22</td><td class="tar">9,648,662</td></tr>
+<tr><td>adj<sub>sup</sub> most NP<sub>h</sub> are NP<sub>t</sub></td><td class="tar">0.21</td><td class="tar">2,357,968</td></tr>
+<tr><td>NP<sub>t</sub> are examples of NP<sub>h</sub></td><td class="tar">0.20</td><td class="tar">2,205,089</td></tr>
+<tr><td>NP<sub>h</sub> especially NP<sub>t</sub></td><td class="tar">0.19</td><td class="tar">20,872,227</td></tr>
+<tr><td>adj<sub>sup</sub> NP<sub>h</sub> are NP<sub>t</sub></td><td class="tar">0.19</td><td class="tar">3,755,893</td></tr>
+<tr><td>NP<sub>h</sub> particularly NP<sub>t</sub></td><td class="tar">0.19</td><td class="tar">11,656,254</td></tr>
+<tr><td>NP<sub>t</sub>, a kind of NP<sub>h</sub></td><td class="tar">0.18</td><td class="tar">1,452,822</td></tr>
+<tr><td>NP<sub>t</sub>, a form of NP<sub>h</sub></td><td class="tar">0.18</td><td class="tar">1,127,173</td></tr>
+<tr><td>NP<sub>t</sub> which sound like NP<sub>h</sub></td><td class="tar">0.18</td><td class="tar">32,730</td></tr>
+<tr><td>NP<sub>h</sub> examples of this are NP<sub>t</sub></td><td class="tar">0.18</td><td class="tar">1,515</td></tr>
+<tr><td>NP<sub>t</sub> sort of NP<sub>h</sub></td><td class="tar">0.18</td><td class="tar">7,884,398</td></tr>
+<tr><td>NP<sub>h</sub> types NP<sub>t</sub></td><td class="tar">0.17</td><td class="tar">11,080,276</td></tr>
+<tr><td>NP<sub>h</sub> compared to NP<sub>t</sub> </td><td class="tar">0.17</td><td class="tar">346,525</td></tr>
+<tr><td>NP<sub>h</sub> mostly NP<sub>t</sub></td><td class="tar">0.16</td><td class="tar">8,383,063</td></tr>
+<tr><td>compare NP<sub>t</sub> with NP<sub>h</sub> </td><td class="tar">0.16</td><td class="tar">340,636</td></tr>
+<tr><td>NP<sub>t</sub>, one of those NP<sub>h</sub></td><td class="tar">0.15</td><td class="tar">99,241</td></tr>
+<tr><td>NP<sub>t</sub>, one of these NP<sub>h</sub></td><td class="tar">0.13</td><td class="tar">53,235</td></tr>
+<tr><td>NP<sub>t</sub> which look like NP<sub>h</sub></td><td class="tar">0.13</td><td class="tar">68,945</td></tr>
+<tr><td>NP<sub>h</sub> whether NP<sub>t</sub> or </td><td class="tar">0.13</td><td class="tar">2,800,349</td></tr>
+</table>
+	</div>  
+	</div>  
+	</div>  
+<ol>
+<li> <h3> WebDataCommons framework</h3><br />
+To extract a large collection of "isa" relations from the Web, we decided to rely on the largest publicly available Web corpus i.e. the crawl corpora provided by the <a href="http://commoncrawl.org">CommonCrawl Foundation</a>. The original corpus contains over 2.1 billion crawled web pages, consisting of over 38000 Web ARChive, ISO 28500:2009 (WARC) files with a total packed size of 168TB. 
+To efficiently extract "isa" relations from the crawl corpora, our implementation of relations extraction directly synchronizes with the framework of the <a href="http://webdatacommons.org/framework/">WebDataCommons project</a>;
+</li>
+<li> <h3>Extraction and filtering</h3><br/>
+The extraction of "isa" relations from text is based on Hearst-like patterns. We collected a set of 59 patterns (see Table 1 for the full list).
+The patterns identified are then translated into regular expressions which we use to match with the incoming text. 
+In order to test the quality of the above defined regular expressions, we extracted a random 1% portion of the entire corpus and analyzed 100 matches per pattern. With that evaluation, we estimated the precision of each pattern, as shown in Table 1. Patterns with a very low precision have then been excluded before performing the subsequent steps.
+Since both the Web and the extraction phase are sources of noise, some post-processing and filtering is required. To facilitate a sensible trade-off between coverage and precision, we try to remove only the obvious noise, while keeping as much coverage as possible. This strategy comes from the idea that some task may need ``less precise'' but ``more covering'' data. For supporting use cases where more precision is required, we provide metadata for each tuple, which allows for additional filtering techniques on the client side. As basic filtering techniques, we i) remove duplicates i.e. tuples that occur more than once under the same pay level domain are removed; ii) transform all the capital letters to lower case and removed all leading and trailing punctuations; iii) remove all quotation marks and apostrophes, since apostrophes are frequently used as replacement for quotation marks.
+The extraction and filtering of the tuples took around 2,200 computing hours and was run using 100 servers in parallel in less than 24 hours;
+</li>
+<li><h3>Indexing</h3><br />
+To store and access all the extracted relations we created a <a href="https://www.mongodb.org/">MongoDB</a> database.
+</li>
+</ol>
+</p>
+
+<h2 id="demo">2. Online Demo</h2>
+<p>To have a direct look at the WebIsA database, a demo Web application is also avaliable <a href="http://webisadb.webdatacommons.org/webisadb/">here</a> (see Figure 1). </p>
+
+<h2 id="resources">3. Resources</h2>
+<p>We offer both data and tools to re-generate/access the WebIsADb:</p>
+<ol>
+<div class="rtable"> 
+
+<div class="table-wrapper">
+<a href="http://webisadb.webdatacommons.org/webisadb/"><img src="demo.png" width=410px/></a>
+</div>
+<p>Figure 1: A screenshot of the Web application. 
+<p>
+</div>  
+<li><h3>Data</h3><br />
+The collection of relations can be downloaded in two formats:
+<ol>
+<li><h4>MongoDB database:</h4><br />
+The database consists of two MongoDB database instances: the first collecting the "isa" tuples (but not the metadata corresponding to the extraction contexts) and the second the extraction contexts  (i.e. the pay-level domains and the sentences from where a tuple was extracted).
+The two database can be separately downloaded and instantiated in the same or in two different machines.
+<ul><li>Download the database dumps:<br />
+    <ol>
+	<li>Tuples: <a href="http://data.dws.informatik.uni-mannheim.de/webisadb/repo/tuples-webisadb-april-2016.tar.gz">tuples-webisadb-april-2016.tar.gz</a> (204309024768 byte when un-compressed)</li>
+	<li>Contexts: <a href="http://data.dws.informatik.uni-mannheim.de/webisadb/repo/contexts-webisadb-april-2016.tar.gz">contexts-webisadb-april-2016.tar.gz</a> (117844946944 byte when un-compressed)</li>
+   </ol>
+</li>
+<li> Install MongoDB and restore the Tuples and Contexts dumps:<br />
+Download and install the MongoDB server (we recommend the installation of the version v3.0.7) on your machine/machines please follow the instructions reported at the official guide <a href="https://docs.mongodb.org/manual/installation/">Install MongoDB</a>.
+To instanciate our dumps on your target MongoDB servers, please follow the instructions reported at the official guide <a href="https://docs.mongodb.org/manual/tutorial/backup-and-restore-tools">Restore a MongoDB database</a>. Our suggestion is to use the "mongorestore" tools by passing as &lt;path to the backup&gt; argument the path to the folders "tuples-webisadb-april-2016" and "contexts-webisadb-april-2016" of the uncompressed dumps for tuples and contexts respectively.
+</li>
+</ul>
+<li><h4>Comma-separated values files:</h4><br /></li>
+</li>
+<ul>
+<li>Tuples CSV files:
+<table>
+<tr><th>link</th><th>description</th></tr>
+<tr><td><a href="http://data.dws.informatik.uni-mannheim.de/webisadb/repo/tuplesdb.1.tar.gz">tuplesdb.1.tar.gz</a></td><td>all the tuple grouped by the instance string value</td></tr>
+<tr><td><a href="http://data.dws.informatik.uni-mannheim.de/webisadb/repo/tuplesdb.2.tar.gz">tuplesdb.2.tar.gz</a></td><td>all the tuple grouped by the class string value</td></tr>
+</table>
+</li>
+The two above archives contain a set of tar file.  Each tar file contains a set of "csv" file with the following format:<br/>
+the first line of the csv files  contains a comma separated list of the fields name i.e "<i>_id,instance,class,frequency,pidspread,pldspread,modifications</i>".<br>
+The following lines of the files respect the schema of the head line e.g.:<br>
+"286980418,aang,character,41,11,32,<i>modification</i>" <br>
+where:
+<ul>
+<li>"286980418": the record identifier of the tuple as in the mongodb instance;</li>
+<li>"aang": the instance string value;</li>
+<li>"character": the class string value;</li>
+<li>"41": number of matches;</li>
+<li>"11": number of matching patterns;</li>
+<li>"32": number of matching pay-level domains;</li>
+<li><i>modification</i>: is a JSON representation of the list of all the variants of the relation "(aang,character)". Each item of the JSON representation includes:
+<ul>
+   <li><i>ipremod</i>: the pre-modifier of the "instance";</li>
+   <li><i>ipostmod</i>: the post-modifier of the "instance";</li>
+   <li><i>cpremod</i>: the pre-modifier of the "class";</li>
+   <li><i>cpostmod</i>: the post-modifier of the "class";</li>
+   <li><i>frequency</i>: the frequency of the "isa" relation "(ipremod +"aang"+ipostmod, cpremod+"character"+cpostmod)"</li>
+   <li><i>pidspread</i>: the number of matching pattern of the relation "(ipremod +"aang"+ipostmod,cpremod+"character"+cpostmod)"; </li>
+   <li><i>pldspread</i>: the number of pay level domains where we extracted the relation "(ipremod +"aang"+ipostmod,cpremod+"character"+cpostmod)";</b> </li>
+   <li><i>pids</i>: a semicolon separeted list of the correpsonding pay-level domains (e.g. including "appszoom.com");</li>
+   <li><i>plds</i>: a semicolon separeted list of the matching pattern labels (e.g. "p1,p25,p10,p8a,p3a" correponding to the following patterns: "NP<sub>t</sub> and other NP<sub>h</sub>", "NP<sub>h</sub> except NP<sub>t</sub>", "such NP<sub>h</sub> as NP<sub>t</sub>", "NP<sub>t</sub> is a NP<sub>h</sub>" and "NP<sub>h</sub> including NP<sub>t</sub>" respectively); </li>
+   <li><i>provids</i>: a semicolon separeted list of contexts id, one can use to retrive te whole context of the extractions (e.g. including the context identifier "383416952", one can use to serach the corresponding context in the resource described in the next paragraph).</li><br>
+</ul>
+</li>
+</li>
+</ul>
+
+
+<li>Contexts CSV files:<br/>
+<table>
+<tr><th>link</th><th>description</th></tr>
+<tr><td><a href="http://data.dws.informatik.uni-mannheim.de/webisadb/repo/contextsdb.tar.gz">contextsdb.tar.gz</a></td><td>all the contexts of the extracted tuples</td></tr>
+</table>
+The above archive contains a set of tar file.  Each tar file contains a set of "csv" file with the following format:<br/>
+the first line of the csv files  contains a comma separated list of the fields name i.e "<i>_id,provid,sentence,pld</i>".<br>
+The following lines of the files respect the schema of the head line e.g.:<br>
+"93459608,383416952,"This application has this option included too. Movie and TV series feature such characters as Aang, Prince Zuko, Katara, Sokka, Uncle Iroh, Commander Zhao, Fire Lord Ozai, Princess Yue, Katara's Grandma, Master Pakku, Monk Gyatso, Azula, Old Man in Temple, Zhao's Assistant, Earthbending Father.",appszoom.com" <br>
+where:
+<ul>
+<li>"93459608": the record identifier of the context as in the mongodb instance;</li>
+<li>"383416952": the context id that may be included in the "provids" filed of a tuple;</li>
+<li>"This application has this option included too. Movie and TV series feature such characters as Aang, Prince Zuko, Katara, Sokka, Uncle Iroh, Commander Zhao, Fire Lord Ozai, Princess Yue, Katara's Grandma, Master Pakku, Monk Gyatso, Azula, Old Man in Temple, Zhao's Assistant, Earthbending Father.": the sentence of the context;</li>
+<li>"appszoom.com": the pay-level domain.;</li>
+</ul>
+
+</li>
+</ul>
+</ol>
+<li><h3>Java API</h3><br/>
+The following archive contains the Java API to programmatically query the MongoDB instances of the WebIsADb: <br>
+<a href="http://data.dws.informatik.uni-mannheim.de/webisadb/api/WebIsADb-Java_API-src-maven_project-april-2016.tar.gz">WebIsADb-Java_API-src-maven_project-april-2016.tar.gz</a><br>
+The above package includes: a "readme.txt" with the instruction to configure the API and the "apidocs". Examples are also included in  the main method of the file: "src/de/unima/webtuples/WebIsADb.java" 
+</li>
+<li><h3>Relations extractor</h3><br/>
+The following archive contains the Java source code of the classes under the namespace "org.webdatacoomons.isadb": <br>
+<a href="http://data.dws.informatik.uni-mannheim.de/webisadb/extractor/webdatacommons_webisadb-tuple_extractor-src-april_2016.tar.gz">webdatacommons_webisadb-tuple_extractor-src-april_2016.tar.gz</a><br>
+The above package requires the  <a href="http://commoncrawl.org/">CommonCrawl framework</a> and can be used to re-build a new WebIsADb from fresh CommonCrawl dumps.
+</li>
+</ol>
+
+<h2 id="citing">4. Citing the WebIsA Database</h2><br/>
+Feel free to cite one or more of the following papers depending on what you are using.
+<ul>
+<li><i>If you use the database:</i><br> Julian Seitner, Christian Bizer, Kai Eckert, Stefano Faralli, Robert Meusel, Heiko Paulheim and Simone Paolo Ponzetto, 2016. A Large Database of Hypernymy Relations Extracted from the Web. Proceedings of the 10th edition of the Language Resources and Evaluation Conference. Portorož, Slovenia;</p></li>
+<li><i>If you use the web application:</i><br> Stefano Faralli, Christian Bizer, Kai Eckert, Robert Meusel and Simone Paolo Ponzetto. A Repository of Taxonomic Relations from the Web. Proceedings of the 15th International Semantic Web Conference (Posters & Demos) 2016.</p></li>
+</ul>
+
+
+
+<p>The WebIsADb and the API are licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Non Commercial-Share Alike 3.0 License</a>.</p>
+
+
+
+<h2 id="ack">Acknowledgements</h2>
+<p>
+This work was partially funded by the Deutsche Forschungsgemeinschaft within the JOIN-T project (research grant PO 1900/1-1). Part of the computational resources used for this work were provide by an Amazon AWS in Education Grant award.
+</p>
+</div>
+</div>
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+</body>
+</html> 

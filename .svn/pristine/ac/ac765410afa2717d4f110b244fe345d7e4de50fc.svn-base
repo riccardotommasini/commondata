@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="index-more">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/plugins/index-more/index-more.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

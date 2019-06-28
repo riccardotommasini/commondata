@@ -1,0 +1,124 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>aifb.kit.edu.wiki.edit</groupId>
+  <artifactId>generateCSV</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>generateCSV</name>
+  <url>http://maven.apache.org</url>
+
+ 
+	
+<build>
+ <plugins>
+      <plugin>
+    
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.2.1</version>
+        <configuration>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id> 
+            <phase>package</phase> 
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+         </plugin>
+ </plugins>
+</build>  
+          
+          
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    	<dependency>
+        	<groupId>org.apache.hadoop</groupId>
+        	<artifactId>hadoop-core</artifactId>
+        	<version>0.20.2-cdh3u2</version>
+        	<type>jar</type>
+        	<scope>compile</scope>
+        </dependency> 
+     <!--   <dependency>
+        	<groupId>org.apache.hadoop</groupId>
+        	<artifactId>hadoop-core</artifactId>
+        	<version>0.20.203.0</version>
+        	<type>jar</type>
+        	<scope>compile</scope>
+        </dependency> -->
+		
+		 <dependency>
+			<groupId>org.deri.any23</groupId>
+			<artifactId>any23-core</artifactId>
+			<version>0.6.1</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-jdk14</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.5.5</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+        <dependency>
+    		<groupId>org.semanticweb.yars</groupId>
+   		    <artifactId>nxparser</artifactId>
+    		<version>1.2.2</version>
+      		<!--<scope>compile</scope>-->
+     	</dependency>
+
+  </dependencies>
+  <repositories>
+		<!-- Specific repository for Any23 dependencies without a dedicated repository. -->
+		<repository>
+			<id>any23-repository-external</id>
+			<url>http://any23.googlecode.com/svn/repo-ext</url>
+		</repository>
+		<!-- The Any23 modules repository. -->
+		<repository>
+			<id>any23-repository</id>
+			<url>http://any23.googlecode.com/svn/repo</url>
+		</repository>
+		<repository>
+			<name>cloudera-maven</name>
+			<id>cloudera-maven</id>
+			<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+		</repository>
+		<repository>
+	           <id>nxparser-repo</id>
+	           <url> http://nxparser.googlecode.com/svn/repository </url>
+        </repository>
+        <repository>
+                <id>nxparser-snapshots</id>
+                <url>
+                        http://nxparser.googlecode.com/svn/snapshots
+                </url>
+        </repository>
+	</repositories>
+</project>

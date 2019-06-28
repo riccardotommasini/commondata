@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlnormalizer-regex2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/urlnormalizer-regex/urlnormalizer-regex.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

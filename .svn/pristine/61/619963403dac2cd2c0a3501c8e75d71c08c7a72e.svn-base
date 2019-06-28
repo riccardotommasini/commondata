@@ -1,0 +1,31 @@
+@relation foo
+
+@attribute domain string
+@attribute prop-1 numeric
+@attribute prop-2 numeric
+@attribute prop-3 numeric
+@attribute prop-4 numeric
+@attribute prop-5 numeric
+@attribute prop-6 numeric
+@attribute prop-7 numeric
+@attribute prop-8 numeric
+@attribute prop-9 numeric
+@attribute prop-10 numeric
+@attribute type-1 numeric
+@attribute type-2 numeric
+@attribute type-3 numeric
+@attribute type-4 numeric
+@attribute type-5 numeric
+@attribute type-6 numeric
+@attribute type-7 numeric
+@attribute type-8 numeric
+@attribute type-9 numeric
+@attribute type-10 numeric
+
+@data
+
+freenet.de,1,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,1
+youtube.com,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,1,1
+cnn.com,1,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,1
+finair.fi,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1
+wikipedia.org,1,0,0,0,0,1,1,1,0,1,1,0,0,0,0,1,1,1,0,1

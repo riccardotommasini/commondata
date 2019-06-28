@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lib-http">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/lib-http/lib-http.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

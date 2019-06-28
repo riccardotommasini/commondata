@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="subcollection">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/subcollection/subcollection.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

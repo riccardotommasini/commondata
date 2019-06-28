@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="subcollection2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/subcollection/subcollection.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

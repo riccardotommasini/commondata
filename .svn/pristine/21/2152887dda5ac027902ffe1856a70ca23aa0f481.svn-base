@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="language-identifier1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/language-identifier/language-identifier.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

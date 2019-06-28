@@ -1,0 +1,99 @@
+437	0.3590797042	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title						
+409	0.336072309	http://data-vocabulary.org/Organization/name	http://purl.org/dc/terms/title						
+393	0.322925226	http://data-vocabulary.org/Organization/address	http://purl.org/dc/terms/title						
+390	0.3204601479	http://data-vocabulary.org/Address/street-address	http://purl.org/dc/terms/title						
+386	0.3171733772	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://purl.org/dc/terms/title					
+381	0.3130649137	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title					
+375	0.3081347576	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Address/street-address	http://purl.org/dc/terms/title					
+372	0.3056696795	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title				
+370	0.3040262942	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title						
+370	0.3040262942	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/street-address	http://purl.org/dc/terms/title				
+367	0.3015612161	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title			
+365	0.2999178307	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title					
+357	0.2933442892	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title				
+344	0.2826622843	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title			
+341	0.2801972062	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title		
+316	0.2596548891	http://data-vocabulary.org/Address/postal-code	http://purl.org/dc/terms/title						
+314	0.2580115037	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://purl.org/dc/terms/title					
+310	0.2547247329	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title				
+306	0.2514379622	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title			
+304	0.2497945768	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title		
+291	0.2391125719	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Organization/tel	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title	
+181	0.1487263763	http://data-vocabulary.org/Review/reviewer	http://purl.org/dc/terms/title						
+179	0.147082991	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title						
+158	0.1298274445	http://data-vocabulary.org/Review/rating	http://purl.org/dc/terms/title						
+157	0.1290057518	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title					
+155	0.1273623665	http://data-vocabulary.org/Review/dtreviewed	http://purl.org/dc/terms/title						
+153	0.1257189811	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer	http://purl.org/dc/terms/title					
+153	0.1257189811	http://data-vocabulary.org/Review/description	http://purl.org/dc/terms/title						
+150	0.123253903	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description	http://purl.org/dc/terms/title					
+149	0.1224322104	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/rating	http://purl.org/dc/terms/title					
+145	0.1191454396	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title				
+139	0.1142152835	http://data-vocabulary.org/Review-aggregate/rating	http://purl.org/dc/terms/title						
+136	0.1117502054	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description	http://purl.org/dc/terms/title				
+135	0.1109285127	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title				
+134	0.11010682	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title			
+129	0.1059983566	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title			
+128	0.1051766639	http://data-vocabulary.org/Review/summary	http://purl.org/dc/terms/title						
+123	0.1010682005	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title					
+123	0.1010682005	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title		
+118	0.0969597371	http://data-vocabulary.org/Address/region	http://purl.org/dc/terms/title						
+117	0.0961380444	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title				
+110	0.0903861956	http://data-vocabulary.org/Rating/average	http://purl.org/dc/terms/title						
+110	0.0903861956	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title					
+108	0.0887428102	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title		
+106	0.0870994248	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title	
+104	0.0854560394	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/itemreviewed	http://purl.org/dc/terms/title			
+104	0.0854560394	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/description	http://purl.org/dc/terms/title			
+104	0.0854560394	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://purl.org/dc/terms/title			
+103	0.0846343468	http://data-vocabulary.org/Person/name	http://purl.org/dc/terms/title						
+102	0.0838126541	http://data-vocabulary.org/Review-aggregate/rating	http://data-vocabulary.org/Rating/average	http://purl.org/dc/terms/title					
+101	0.0829909614	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title				
+100	0.0821692687	http://data-vocabulary.org/Organization/url	http://purl.org/dc/terms/title						
+99	0.081347576	http://data-vocabulary.org/Breadcrumb/title	http://purl.org/dc/terms/title						
+98	0.0805258833	http://data-vocabulary.org/Event/summary	http://purl.org/dc/terms/title						
+98	0.0805258833	http://data-vocabulary.org/Breadcrumb/title	http://data-vocabulary.org/Breadcrumb/url	http://purl.org/dc/terms/title					
+95	0.0780608053	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title			
+90	0.0739523418	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title		
+88	0.0723089565	http://purl.org/dc/terms/title	http://data-vocabulary.org/Event/startDate						
+86	0.0706655711	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://purl.org/dc/terms/title					
+82	0.0673788003	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/url	http://purl.org/dc/terms/title					
+78	0.0640920296	http://data-vocabulary.org/Review-aggregate/count	http://purl.org/dc/terms/title						
+77	0.0632703369	http://data-vocabulary.org/Event/url	http://purl.org/dc/terms/title						
+76	0.0624486442	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://purl.org/dc/terms/title					
+75	0.0616269515	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Organization/tel	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title	
+72	0.0591618735	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title			
+71	0.0583401808	http://data-vocabulary.org/Rating/best	http://purl.org/dc/terms/title						
+71	0.0583401808	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://purl.org/dc/terms/title	http://data-vocabulary.org/Event/startDate				
+70	0.0575184881	http://data-vocabulary.org/Review-aggregate/count	http://data-vocabulary.org/Review-aggregate/rating	http://purl.org/dc/terms/title					
+70	0.0575184881	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title				
+70	0.0575184881	http://data-vocabulary.org/Review-aggregate/itemreviewed	http://purl.org/dc/terms/title						
+70	0.0575184881	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title				
+63	0.0517666393	http://data-vocabulary.org/Event/location	http://purl.org/dc/terms/title						
+62	0.0509449466	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/summary	http://purl.org/dc/terms/title					
+62	0.0509449466	http://data-vocabulary.org/Review-aggregate/itemreviewed	http://data-vocabulary.org/Review-aggregate/rating	http://purl.org/dc/terms/title					
+62	0.0509449466	http://data-vocabulary.org/Person/title	http://data-vocabulary.org/Person/name	http://purl.org/dc/terms/title					
+61	0.0501232539	http://data-vocabulary.org/Rating/best	http://data-vocabulary.org/Rating/average	http://purl.org/dc/terms/title					
+61	0.0501232539	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/tel	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title		
+60	0.0493015612	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Address/locality	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title	
+60	0.0493015612	http://data-vocabulary.org/Address/country-name	http://purl.org/dc/terms/title						
+59	0.0484798685	http://data-vocabulary.org/Review-aggregate/rating	http://data-vocabulary.org/Rating/best	http://data-vocabulary.org/Rating/average	http://purl.org/dc/terms/title				
+59	0.0484798685	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://purl.org/dc/terms/title				
+56	0.0460147905	http://data-vocabulary.org/Person/url	http://purl.org/dc/terms/title						
+56	0.0460147905	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/locality	http://data-vocabulary.org/Organization/tel	http://purl.org/dc/terms/title
+55	0.0451930978	http://data-vocabulary.org/Person/name	http://data-vocabulary.org/Person/url	http://purl.org/dc/terms/title					
+54	0.0443714051	http://data-vocabulary.org/Rating/count	http://purl.org/dc/terms/title						
+53	0.0435497124	http://data-vocabulary.org/Person/photo	http://purl.org/dc/terms/title						
+52	0.0427280197	http://data-vocabulary.org/Rating/count	http://data-vocabulary.org/Review-aggregate/rating	http://data-vocabulary.org/Rating/average	http://purl.org/dc/terms/title				
+52	0.0427280197	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Organization/tel	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title
+52	0.0427280197	http://data-vocabulary.org/Person/name	http://data-vocabulary.org/Person/photo	http://purl.org/dc/terms/title					
+52	0.0427280197	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://purl.org/dc/terms/title			
+50	0.0410846343	http://data-vocabulary.org/Address/locality	http://data-vocabulary.org/Event/summary	http://purl.org/dc/terms/title					
+50	0.0410846343	http://data-vocabulary.org/Review-aggregate/count	http://data-vocabulary.org/Review-aggregate/itemreviewed	http://data-vocabulary.org/Review-aggregate/rating	http://purl.org/dc/terms/title				
+50	0.0410846343	http://data-vocabulary.org/Review-aggregate/itemreviewed	http://data-vocabulary.org/Review-aggregate/rating	http://data-vocabulary.org/Rating/average	http://purl.org/dc/terms/title				
+49	0.0402629417	http://data-vocabulary.org/Address/country-name	http://data-vocabulary.org/Address/locality	http://purl.org/dc/terms/title					
+49	0.0402629417	http://data-vocabulary.org/Address/locality	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://purl.org/dc/terms/title				
+47	0.0386195563	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/eventType	http://purl.org/dc/terms/title					
+46	0.0377978636	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Address/locality	http://data-vocabulary.org/Event/summary	http://purl.org/dc/terms/title	http://data-vocabulary.org/Event/startDate		
+45	0.0369761709	http://data-vocabulary.org/Review-aggregate/count	http://data-vocabulary.org/Review-aggregate/itemreviewed	http://data-vocabulary.org/Review-aggregate/rating	http://data-vocabulary.org/Rating/average	http://purl.org/dc/terms/title			
+45	0.0369761709	http://data-vocabulary.org/Event/eventType	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://purl.org/dc/terms/title				

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="parse-tika1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/parse-tika/parse-tika.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons Extraction Report - August 2012 Corpus</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body><a name='top'></a><h1>Additional Statistics and Analysis of the Web Data Commons August 2012 Corpus</h1>
+<p>
+In addition to the <a href="stats.html">basic statistics</a> about the August 2012 <a href="http://webdatacommons.org">Web Data Commons</a> corpus, this document presents further statistics and analysis. First, we analyze the popularity of the websites contained in the 2012 release of the Common Crawl as well as their distribution by top-level-domain. Afterwards,
+we analyze the main topical areas of the published data as well as the co-occurance of popular vocabulary terms within these topical domains. 
+<br/>
+The data to verify and reproduce the results as well as to perform further investigations is available for <a href="how_to_get_the_data.html">download</a>.
+</p>
+<div id="content">
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+
+<div id="toccontent">
+
+<h2 id="crawl-relevance">1. Popularity of the Websites within the Common Crawl</h2><br />
+<p>In order to get an impression about the coverage of the Common Crawl, we matched the the <a href="http://www.alexa.com/topsites">Alexa top 1 million sites</a> list with the pay-level-domains (PLDs) covered by the Common Crawl. In addition, we calculated the percentages of the popular websites that contain structured data. The table also shows that frequently visited websites are more likely to contain structured data than less popular ones. For instance, nearly 50% of the Top 10,000 websites embed structured data. </p>
+<table>
+<tr><th></th><td colspan="2">Alexa PLDs in CC</td><td colspan="1"> # Alexa PLDs in</td><td colspan="4">% PLDs from WDC included in CC included in Alexa</td></tr>
+<tr><th>Top # PLDs Alexa List</th><td>#</td><td>%</td><td>WDC Aug 2012</td><!--<td>%</td>--><td>Overall</td><td>RDFa</td><td>Microdata</td><td>Microformats</td></tr>
+<tr><th>100</th><td>99</td><td>99.00</td><td>74</td><!--<td>74.00</td>--><td>74.75</td><td>34.34</td><td>55.56</td><td>68.69</td></tr>
+<tr><th>1,000</th><td>963</td><td>96.30</td><td>603</td><!--<td>60.30</td>--><td>62.62</td><td>40.08</td><td>31.67</td><td>46.11</td></tr>
+<tr><th>10,000</th><td>9,294</td><td>92.94</td><td>4,400</td><!--<td>44.00</td>--><td>47.34</td><td>30.47</td><td>15.55</td><td>29.75</td></tr>
+<tr><th>100,000</th><td>85,058</td><td>85.01</td><td>27,167</td><!--<td>27.17</td>--><td>31.94</td><td>16.46</td><td>7.20</td><td>20.07</td></tr>
+<tr><th>1,000,000</th><td>734,882</td><td>73.49</td><td>151,076</td><!--<td>15.1</td>1--><td>20.56</td><td>7.55</td><td>3.04</td><td>14.18</td></tr>
+</table>
+<br/>
+
+
+<h2 id="top-level">2. Distribution by Top-Level-Domain</h2><br />
+<p>The following table shows the distribution of the number of websites (Pay-Level-Domains, PLD) for the Top 20 Top-Level-Domain (TLDs) within the Common Crawl (CC). The table also contains the absolute and relative number of PLDs serving structured data as well as using specific formats. The table shows that RDFa, Microdata, and Microformats are used within all TLDs. The deployment on generic TLDs, such as 'com', 'net' or 'info', seem to be slightly stronger than the deployment on country-specific TLDs.</p>
+
+<table>
+<tr><th></th><th></th><td>PLDs per TLD in CC</td><td>PLD publishing</td><td>structured data</td><td>RDFa</td><td></td><td>Microdata</td><td></td><td>Microformats</td><td></td></tr>
+<tr><th></th><th>TLD</th><td>in CC #</td><td>#</td><td>%</td><td>#</td><td>%</td><td>#</td><td>%</td><td>#</td><td>%</td></tr>
+<tr><th>1</th><th>com</th><td>19,950,689</td><td>1,317,757</td><td>6.61</td><td>292,186</td><td>1.46</td><td>75,955</td><td>0.38</td><td>1,043,272</td><td>5.23</td></tr>
+<tr><th>2</th><th>de</th><td>2,810,040</td><td>79,366</td><td>2.82</td><td>15,769</td><td>0.56</td><td>4,760</td><td>0.17</td><td>64,358</td><td>2.29</td></tr>
+<tr><th>3</th><th>net</th><td>2,203,474</td><td>145,547</td><td>6.61</td><td>27,041</td><td>1.23</td><td>7,958</td><td>0.36</td><td>120,339</td><td>5.46</td></tr>
+<tr><th>4</th><th>org</th><td>2,064,960</td><td>152,977</td><td>7.41</td><td>30,231</td><td>1.46</td><td>5,854</td><td>0.28</td><td>125,490</td><td>6.08</td></tr>
+<tr><th>5</th><th>co.uk</th><td>1,448,245</td><td>64,043</td><td>4.42</td><td>14,456</td><td>1.00</td><td>4,658</td><td>0.32</td><td>48,963</td><td>3.38</td></tr>
+<tr><th>6</th><th>nl</th><td>951,484</td><td>28,820</td><td>3.03</td><td>8,413</td><td>0.88</td><td>2,718</td><td>0.29</td><td>20,352</td><td>2.14</td></tr>
+<tr><th>7</th><th>ru</th><td>699,275</td><td>27,496</td><td>3.93</td><td>4,144</td><td>0.59</td><td>2,202</td><td>0.31</td><td>22,439</td><td>3.21</td></tr>
+<tr><th>8</th><th>info</th><td>663,451</td><td>46,633</td><td>7.03</td><td>5,590</td><td>0.84</td><td>2,225</td><td>0.34</td><td>40,711</td><td>6.14</td></tr>
+<tr><th>9</th><th>it</th><td>620,726</td><td>20,068</td><td>3.23</td><td>6,478</td><td>1.04</td><td>1,647</td><td>0.27</td><td>13,905</td><td>2.24</td></tr>
+<tr><th>10</th><th>com.br</th><td>501,720</td><td>20,418</td><td>4.07</td><td>5,335</td><td>1.06</td><td>1,288</td><td>0.26</td><td>15,534</td><td>3.10</td></tr>
+<tr><th>11</th><th>com.au</th><td>428,164</td><td>21,400</td><td>5.00</td><td>6,474</td><td>1.51</td><td>2,157</td><td>0.50</td><td>14,194</td><td>3.32</td></tr>
+<tr><th>12</th><th>fr</th><td>425,204</td><td>29,794</td><td>7.01</td><td>6,441</td><td>1.51</td><td>3,397</td><td>0.80</td><td>22,073</td><td>5.19</td></tr>
+<tr><th>13</th><th>ch</th><td>390,336</td><td>8,659</td><td>2.22</td><td>2,245</td><td>0.58</td><td>486</td><td>0.12</td><td>6,437</td><td>1.65</td></tr>
+<tr><th>14</th><th>pl</th><td>382,670</td><td>15,524</td><td>4.06</td><td>3,951</td><td>1.03</td><td>1,414</td><td>0.37</td><td>11,309</td><td>2.96</td></tr>
+<tr><th>15</th><th>cz</th><td>368,429</td><td>11,271</td><td>3.06</td><td>4,970</td><td>1.35</td><td>693</td><td>0.19</td><td>6,361</td><td>1.73</td></tr>
+<tr><th>16</th><th>ca</th><td>319,055</td><td>20,938</td><td>6.56</td><td>5,247</td><td>1.64</td><td>1,632</td><td>0.51</td><td>15,343</td><td>4.81</td></tr>
+<tr><th>17</th><th>jp</th><td>288,267</td><td>14,248</td><td>4.94</td><td>6,206</td><td>2.15</td><td>415</td><td>0.14</td><td>8,403</td><td>2.92</td></tr>
+<tr><th>18</th><th>se</th><td>286,740</td><td>16,649</td><td>5.81</td><td>3,614</td><td>1.26</td><td>1,112</td><td>0.39</td><td>13,082</td><td>4.56</td></tr>
+<tr><th>19</th><th>eu</th><td>259,105</td><td>11,429</td><td>4.41</td><td>2,960</td><td>1.14</td><td>726</td><td>0.28</td><td>8,484</td><td>3.27</td></tr>
+<tr><th>20</th><th>dk</th><td>247,693</td><td>10,766</td><td>4.35</td><td>2,638</td><td>1.07</td><td>1,180</td><td>0.48</td><td>7,663</td><td>3.09</td></tr>
+</table>
+<br/>
+
+<h2 id="products">3. Main Topical Areas of the Data</h2>
+
+<p>Altogether we discovered structured data within 369 million of the 3 billion pages contained in the Common Crawl corpus (12.3%). The pages containing structured data originate from 2.29 million among the 40.5 million websites (PLDs) contained in the corpus (5.65%). Approximately 519 thousand websites use RDFa, while only 140 thousand websites use Microdata.  Microformats are used on 1.7 million websites.
+It is interesting to see that Microformats are used by approximately 2.5 times as many websites as RDFa and Microdata together.</p>
+
+<p>The statistics about the <a href="stats.html">Top Classes by domain count</a> show that the most popular topical areas of the published data (in terms of number of websites providing data about a topic) are:</p>
+<ul><li>persons and organizations (mainly represented using the hCard Microformat used on 1.5 million websites, but also RDFa and Microdata to a smaller extent)</li><li> blog- and CMS-related metadata (represented using RDFa and Microdata)</li><li> navigational metadata (breadcrumbs represented using RDFa and Microdata)</li><li>product and review data (represented using all three formats)</li><li>event data (represented using the hcalendar Microformat).</li> 
+</ul>
+<p>
+Additional topical domains with smaller but significant adoption include job postings (represented using Microdata) and recipes (represented using a Microformat).</p>
+
+<p>The topics of the data, as well as the formats and vocabularies used to represent the data, seem to be largely determined by the major consumers the data is targeted at: Google, Facebook, Yahoo!, and Bing. 
+For instance, the examined RDFa data is dominated by the <a href="http://developers.facebook.com/docs/opengraphprotocol/">Open Graph Protocol</a> promoted by Facebook, while the examined Microdata is dominated by the vocabularies promoted by Google, Yahoo!, and Bing via <a href="http://schema.org">schema.org</a>.</p>
+
+<p>In the following, we will analyze the main topical areas in more detail. The analyses are based on the <a href="stats.html">basis statistics</a> of the August 2012 <a href="http://webdatacommons.org">Web Data Commons</a> corpus and the <a href="how_to_get_the_data.html#pld-vector">Website-Class-Property Matrixes</a>.<br/>
+</p> 
+
+<h3 id="products">3.1 Product-related Data</h3>
+<br/>
+<p>RDFa, Microdata and Microformats are all used for the representation of product related-data .</p>
+<h4>Products in RDFa</h4>
+<br/>
+<p>We identified three <a href="top_classes_by_domaincount_for_extractor_html-rdfa.html">RDFa classes</a>, og:"product", dv:Product, and gr:Offering, that are used each on at least 500 different websites for describing products. og:"product" is the most popular class, being used by more than 19,000 websites.</p>
+
+<h4>Products in Microdata</h4>
+<br/>
+<p>Reviewing all <a href="top_classes_by_domaincount_for_extractor_html-microdata.html">Microdata classes</a> that are used in more than 100 different websites, we could identify four classes, schema:Product, schema:Offer, datavoc:Product, and datavoc:Offer, that are frequently used to describe products or offers.<br/>
+The following table shows the co-occurences of these classes with other product-related classes on the same website. For instance, 4,308 websites provide product data together with aggregate ratings for these products.</p>
+<br/>
+<table>
+<tr><th>Class co-occurrence</th><td># PLDs</td></tr>
+<tr><th>{schema:Product} </th><td>16,612</td></tr>
+<tr><th>{schema:Product, schema:Offer}</th><td> 7,194</td></tr>
+<tr><th>{schema:Product, schema:AggregateRating} </th><td>4,308</td></tr>
+<tr><th>{schema:Product, schema:Offer,schema:AggregateRating}</th><td> 3,226</td></tr>
+<tr><th>{schema:Product, datavoc:Product}</th><td> 2,810 </td></tr>
+<tr><th>{schema:Product, schema:Offer,datavoc:Product, datavoc:Offer-aggregate} </th><td>2,701</td></tr>
+</table>
+<br/>
+<p>In addition to the class co-occurrences, we analyzed which properties are frequently used to describe schema:Products. The table below shows that schema:Product/name, schema:Product/description,
+schema:Product/image, and schema:Product/offers are the most
+frequently used properties.</p>
+<table>
+<tr><th></th><td>PLDs Total</td><td></td></tr>
+<tr><th>Property</th><td> # </td><td>%</td></tr>
+<tr><th>schema:Product/name</th><td> 14,342</td><td> 86.34</td></tr>
+<tr><th>schema:Product/description</th><td> 10,297 </td><td>61.99</td></tr>
+<tr><th>schema:Product/image</th><td> 8,093 </td><td>48.72</td></tr>
+<tr><th>schema:Product/offers </th><td>7,545 </td><td>45.42</td></tr>
+<tr><th>schema:Offer/price</th><td> 6,894 </td><td>41.50</td></tr>
+<tr><th>schema:AggregateRating</th><td> 4,308</td><td> 25.93</td></tr>
+<tr><th>schema:AggregateRating/ratingValue</th><td> 3,990</td><td> 24.02</td></tr>
+<tr><th>schema:PostalAddress/streetAddress</th><td> 3,723</td><td> 22.41</td></tr>
+</table>
+<br/>
+<p>
+Additionaly we analyzed the <a href="microdata_products_detail.html">types of products that are offered by e-shops using Microdata markup</a>.
+</p>
+<br/>
+<h4>Products in Microformats</h4>
+<br/>
+<p>The hListing microformat is used by 4,030 websites to represent product data. Around 80% of these websites also offer information about the price. Around 70% use the properties itemUrl and itemPhoto. Overall we found almost 3,000 websites which offer detailed hListing information
+(listing, lister, item, price, itemUrl and itemPhoto) within
+our data set.</p>
+
+<h3 id="cms">3.2. Blog and CMS Metadata</h3>
+
+<h4>Blog and CMS Data in RDFa</h4>
+<p>Frequently used <a href="top_classes_by_domaincount_for_extractor_html-rdfa.html">classes within the RDFa corpus</a> that are related to blogs and CMS are og:"article", foaf:Document,
+sioc:Item, sioc:Post, sioct:BlogPost, and sioc:Comment. We analyzed the co-occurence of those classes which is shown in the following table.</p>
+<table>
+<tr><th>Class co-occurence</th><td># PLDs</td></tr>
+<tr><th>{foaf:document}</th><td>49,252</td></tr>
+<tr><th>{foaf:document, foaf:image}</th><td>36,860</td></tr>
+<tr><th>{foaf:document,sioc:item}</th><td>33,132</td></tr>
+<tr><th>{foaf:image, sioc:item}</th><td>28,799</td></tr>
+<tr><th>{foaf:document, foaf:image, sioc:item}</th><td>28,799</td></tr>
+<tr><th>{foaf:document, foaf:image, sioc:item, sioc:useraccount}</th><td>15,180</td></tr>
+<tr><th>{foaf:document, foaf:image, sioc:item, sioc:useraccount, skos:concept}</th><td>7,981</td></tr>
+</table>
+A possible explanation of the high co-occurrence between sioc:Item and foaf:Document could be the Drupal 7 CMS. Drupal 7 is a widely used web content management framework which supports RDFa natively and marks every page per default as both, a sioc:Item and a foaf:Document (see <a href="http://groups.drupal.org/node/22231">Drupal Blog Post</a>).
+<h4>Blog and CMS Data in Microdata</h4>
+<br/>
+<p>The class schema:BlogPosting is used
+by 25,235 websites making it the single most used <a href="top_classes_by_domaincount_for_extractor_html-microdata.html">Microdata class</a>
+in our data set.</p>
+<h3 id="facebook">3.3. Open Graph Protocol (OGP)</h3>
+<br/>
+<p>The <a href="top_classes_by_domaincount_for_extractor_html-rdfa.html">most frequently used RDFa classes</a> are dominated by the Open Graph Protocol (OGP). For instance, og:"article" is used by 183,046 websites. OGP is developed and promoted by Facebook in order to ease the integration of external content into the social networking platform. In contrast to RDFa, OGP allows the usage of literals instead of URIs to identify classes. For this reason we added the 'og:'-prefix in the table and mark the literals with quotes.</p>
+<h4>Deployment of Facebook Classes</h4>
+<br/>
+<p>We could identify all <a href="https://developers.facebook.com/docs/technical-guides/opengraph/built-in-objects/">9 pre-defined
+Facebook classes</a> to be used within our corpus. The table below shows the number of pay-level-domains where the mentioned Facebook classes could be found. The first 3 classes are widely used by different websites. Beside those classes the Facebook websites defines 6 other classes, which are not that widely adopted yet.</p>
+<br/>
+<table>
+<tr><th></th><th>Class</th><td># PLD</td></tr>
+<tr><th>1</th><th>og:"article"</th><td>183,046</td></tr>
+<tr><th>2</th><th>og:"blog"</th><td>58,971</td></tr>
+<tr><th>3</th><th>og:"website"</th><td>56,573</td></tr>
+<tr><th>4</th><th>og:"book"</th><td>742</td></tr>
+<tr><th>5</th><th>og:"profile"</th><td>394</td></tr>
+<tr><th>6</th><th>og:"video.movie"</th><td>50</td></tr>
+<tr><th>7</th><th>og:"video.other"</th><td>47</td></tr>
+<tr><th>8</th><th>og:"video.episode"</th><td>20</td></tr>
+<tr><th>9</th><th>og:"video.tv_show"</th><td>18</td></tr>
+</table>
+<h4>Facebook Class co-occurence</h4>
+<br/>
+<p>To determine if Facebook classes are used in combination with non-Facebook
+classes, we analyzed the co-occurrence of the three most frequent
+OGP classes together with other classes. The table below shows that only a very small fraction of the websites use Facebook classes together with other classes from non-Facebook vocabularies (FOAF being used together with OGP by 2,452 out of 183,046 websites).</p>
+<br/>
+<table>
+<tr><th></th><th>Class co-occurrence</th><td>#PLD</td></tr>
+<tr><th>1</th><th>{og:"article"}</th><td>183,046</td></tr>
+<tr><th>2</th><th>{og:"article", og:"blog"}</th><td>34,978</td></tr>
+<tr><th>3</th><th>{og:"article", og:"website"}</th><td>20,706</td></tr>
+<tr><th>4</th><th>{og:"article", foaf:document}</th><td>2,452</td></tr>
+<tr><th>5</th><th>{og:"article", og:"blog", og:"website"}</th><td>2,443</td></tr>
+<tr><th>6</th><th>{og:"article", foaf:image}</th><td>2,126</td></tr>
+</table>
+<h3 id="jobpostings">3.4. Job Postings</h3>
+<br/>
+<p>We identified 552  websites using <a href="top_classes_by_domaincount_for_extractor_html-microdata.html#jobPostingclass">schema:JobPostings</a>. Based on the co-occurrence analysis between this class and co-occurring properties we see that around 50% of the PLDs using schema:JobPostings also use properties to describe the title, description and the location of the job. This means our corpus includes around 250 websites which provide comprehensive job descriptions and could potentially be good starting points for focused deeper crawling.</p>
+<h3 id="recipes">3.5. Recipes</h3>
+<br/>
+<p>We identified 3,278 websites offering structured data about <a href="stats.html#html-mf-hrecipe">recipes</a> in general. Over
+80% do list ingredients for their recipes and 20% of those sites offer additional information like durations and nutrition information. Besides the hRecipe classes, around 40% of the websites use in
+addition <a href="stats.html#html-mf-hcard">hCard</a> to include information about the author. This means our corpus includes over 600 pages which contain comprehensive information about recipes and could potentially be good starting points for crawling.</p>
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    } 
+});
+</script>
+</div>
+</body></html>

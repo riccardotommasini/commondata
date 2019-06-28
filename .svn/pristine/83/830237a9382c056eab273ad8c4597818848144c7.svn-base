@@ -1,0 +1,96 @@
+29368	0.11235018	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate					
+28996	0.1109270573	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary					
+28702	0.1098023313	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate				
+20914	0.0800085693	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer					
+20682	0.0791210305	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description					
+19356	0.0740482867	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description				
+17748	0.0678967241	http://data-vocabulary.org/Breadcrumb/title	http://data-vocabulary.org/Breadcrumb/url					
+16268	0.0622348382	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/itemreviewed					
+16167	0.0618484527	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/itemreviewed					
+15737	0.0602034453	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/itemreviewed				
+15278	0.0584474956	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name					
+14124	0.0540327548	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/summary					
+14041	0.0537152301	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate				
+13587	0.0519784083	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate			
+13445	0.0514351733	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/eventType					
+13354	0.0510870438	http://data-vocabulary.org/Event/eventType	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate				
+12921	0.0494305596	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality					
+12824	0.0490594766	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/eventType	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate			
+12522	0.0479041458	http://data-vocabulary.org/Event/startDate	http://data-vocabulary.org/Event/endDate					
+12518	0.0478888434	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary					
+12514	0.047873541	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://data-vocabulary.org/Event/endDate				
+12509	0.047854413	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed				
+12438	0.0475827955	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://data-vocabulary.org/Event/endDate			
+12242	0.0468329782	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed			
+12235	0.046806199	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/eventType	http://data-vocabulary.org/Event/startDate		
+12109	0.0463241736	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed			
+12036	0.0460449049	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/itemreviewed				
+11621	0.0444572815	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/itemreviewed			
+11556	0.0442086175	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed		
+11138	0.0426095173	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/tel					
+11005	0.0421007127	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/tel				
+9911	0.0379155078	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/itemreviewed		
+9750	0.0372995865	http://data-vocabulary.org/Review/dtreviewed	http://data-vocabulary.org/Review/rating	http://data-vocabulary.org/Review/reviewer	http://data-vocabulary.org/Review/summary	http://data-vocabulary.org/Review/description	http://data-vocabulary.org/Review/itemreviewed	
+8974	0.0343309219	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/locality					
+8887	0.0339980949	http://data-vocabulary.org/Organization/org	http://data-vocabulary.org/Organization/locality					
+8885	0.0339904437	http://data-vocabulary.org/Organization/org	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/locality				
+8810	0.0337035238	http://data-vocabulary.org/RecipeIngredient/amount	http://data-vocabulary.org/RecipeIngredient/name					
+6806	0.0260370241	http://data-vocabulary.org/Event/photo	http://data-vocabulary.org/Event/summary					
+6588	0.0252030436	http://data-vocabulary.org/Event/photo	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary				
+6504	0.0248816934	http://data-vocabulary.org/Event/photo	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate			
+5505	0.0210599204	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/locality					
+5427	0.0207615237	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address					
+5409	0.0206926629	http://data-vocabulary.org/Rating/best	http://data-vocabulary.org/Rating/average					
+5159	0.0197362632	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality				
+3633	0.0138983998	http://data-vocabulary.org/Review-aggregate/itemreviewed	http://data-vocabulary.org/Review-aggregate/rating					
+3626	0.0138716206	http://data-vocabulary.org/Person/name	http://data-vocabulary.org/Person/url					
+3558	0.0136114799	http://data-vocabulary.org/Review-aggregate/count	http://data-vocabulary.org/Review-aggregate/rating					
+3557	0.0136076543	http://data-vocabulary.org/Event/photo	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate		
+3506	0.0134125487	http://www.data-vocabulary.org/RecipeIngredient/name	http://www.data-vocabulary.org/RecipeIngredient/amount					
+3343	0.0127889762	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/locality				
+3252	0.0124408467	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/country-name					
+3195	0.0122227876	http://data-vocabulary.org/Product/name	http://data-vocabulary.org/Product/price					
+3074	0.0117598901	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/description	http://rdf.data-vocabulary.org/photo				
+3050	0.0116680758	http://data-vocabulary.org/Product/photo	http://data-vocabulary.org/Product/name					
+2978	0.0113926327	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/description	http://rdf.data-vocabulary.org/photo	http://rdf.data-vocabulary.org/brand	http://rdf.data-vocabulary.org/url		
+2968	0.0113543767	http://data-vocabulary.org/Product/description	http://data-vocabulary.org/Product/photo					
+2915	0.0111516199	http://data-vocabulary.org/Product/description	http://data-vocabulary.org/Product/name	http://data-vocabulary.org/Product/photo				
+2890	0.01105598	http://rdf.data-vocabulary.org/category	http://rdf.data-vocabulary.org/url					
+2871	0.0109832936	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/country-name				
+2854	0.0109182584	http://rdf.data-vocabulary.org/category	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/photo	http://rdf.data-vocabulary.org/description	http://rdf.data-vocabulary.org/brand	http://rdf.data-vocabulary.org/url	
+2843	0.0108761768	http://data-vocabulary.org/Organization/geo	http://data-vocabulary.org/Organization/name					
+2769	0.0105930826	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/url					
+2715	0.0103865002	http://data-vocabulary.org/Organization/geo	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name				
+2650	0.0101378363	http://data-vocabulary.org/Geo/longitude	http://data-vocabulary.org/Geo/latitude					
+2634	0.0100766267	http://data-vocabulary.org/Person/name	http://data-vocabulary.org/Person/photo					
+2566	0.009816486	http://data-vocabulary.org/Organization/address	http://data-vocabulary.org/Organization/name	http://data-vocabulary.org/Organization/url				
+2516	0.0096252061	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/price	http://rdf.data-vocabulary.org/description	http://rdf.data-vocabulary.org/photo	http://rdf.data-vocabulary.org/brand	http://rdf.data-vocabulary.org/url	
+2501	0.0095678221	http://data-vocabulary.org/Product/url	http://data-vocabulary.org/Product/photo					
+2449	0.009368891	http://data-vocabulary.org/Product/photo	http://data-vocabulary.org/Product/name	http://data-vocabulary.org/Product/price				
+2392	0.0091508319	http://rdf.data-vocabulary.org/category	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/price	http://rdf.data-vocabulary.org/photo	http://rdf.data-vocabulary.org/description	http://rdf.data-vocabulary.org/brand	http://rdf.data-vocabulary.org/url
+2309	0.0088333072	http://data-vocabulary.org/Product/description	http://data-vocabulary.org/Product/name	http://data-vocabulary.org/Product/photo	http://data-vocabulary.org/Product/price			
+2287	0.008749144	http://data-vocabulary.org/Product/url	http://data-vocabulary.org/Product/photo	http://data-vocabulary.org/Product/name	http://data-vocabulary.org/Product/price			
+2253	0.0086190737	http://data-vocabulary.org/Product/description	http://data-vocabulary.org/Product/url	http://data-vocabulary.org/Product/name	http://data-vocabulary.org/Product/photo	http://data-vocabulary.org/Product/price		
+2111	0.0080758387	http://data-vocabulary.org/Recipe/instructions	http://data-vocabulary.org/Recipe/name					
+2031	0.0077697908	http://data-vocabulary.org/Review-aggregate/count	http://data-vocabulary.org/Review-aggregate/itemreviewed	http://data-vocabulary.org/Review-aggregate/rating				
+1986	0.0075976388	http://data-vocabulary.org/Event/photo	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/eventType	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	
+1982	0.0075823364	http://data-vocabulary.org/Organization/region	http://data-vocabulary.org/Organization/locality					
+1975	0.0075555573	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/locality			
+1893	0.0072418582	http://data-vocabulary.org/Person/title	http://data-vocabulary.org/Person/name					
+1889	0.0072265558	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/region	http://data-vocabulary.org/Organization/locality				
+1849	0.0070735318	http://data-vocabulary.org/Person/name	http://data-vocabulary.org/Person/url	http://data-vocabulary.org/Person/photo				
+1845	0.0070582294	http://data-vocabulary.org/Recipe/author	http://data-vocabulary.org/Recipe/name					
+1820	0.0069625895	http://data-vocabulary.org/Recipe/yield	http://data-vocabulary.org/Recipe/name					
+1801	0.0068899031	http://data-vocabulary.org/Organization/org	http://data-vocabulary.org/Organization/url	http://data-vocabulary.org/Organization/region	http://data-vocabulary.org/Organization/locality			
+1793	0.0068592983	http://data-vocabulary.org/Recipe/review	http://data-vocabulary.org/Recipe/name					
+1754	0.0067101	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/endDate	http://data-vocabulary.org/Event/startDate		
+1744	0.006671844	http://data-vocabulary.org/Rating/count	http://data-vocabulary.org/Rating/average					
+1737	0.0066450648	http://data-vocabulary.org/Recipe/photo	http://data-vocabulary.org/Recipe/name					
+1717	0.0065685528	http://data-vocabulary.org/Address/postal-code	http://data-vocabulary.org/Address/street-address	http://data-vocabulary.org/Address/region	http://data-vocabulary.org/Address/country-name			
+1691	0.0064690873	http://data-vocabulary.org/Product/description	http://data-vocabulary.org/Product/url	http://data-vocabulary.org/Product/price				
+1691	0.0064690873	http://data-vocabulary.org/Product/url	http://data-vocabulary.org/Product/name	http://data-vocabulary.org/Product/price				
+1691	0.0064690873	http://data-vocabulary.org/Product/url	http://data-vocabulary.org/Product/photo	http://data-vocabulary.org/Product/price				
+1688	0.0064576105	http://data-vocabulary.org/Event/photo	http://data-vocabulary.org/Event/location	http://data-vocabulary.org/Event/url	http://data-vocabulary.org/Event/summary	http://data-vocabulary.org/Event/startDate	http://data-vocabulary.org/Event/endDate	
+1627	0.0062242489	http://data-vocabulary.org/Recipe/instructions	http://data-vocabulary.org/Recipe/yield	http://data-vocabulary.org/Recipe/name				
+1624	0.0062127721	http://data-vocabulary.org/Rating/count	http://data-vocabulary.org/Rating/best	http://data-vocabulary.org/Rating/average				
+1555	0.0059488058	http://data-vocabulary.org/Recipe/author	http://data-vocabulary.org/Recipe/review	http://data-vocabulary.org/Recipe/name				

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html><head><title>WebIsA Database</title>
+<link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<style>
+.tar {
+text-align: right;
+}
+.rtable 
+{
+    float: right; 
+    padding-left:10px;
+        
+}
+.smalltable, .smalltable TD, .smalltable TH 
+{
+font-size:9pt; 
+}
+.table-wrapper {
+  position:relative;
+}
+.table-scroll {
+  height:240px;
+  overflow:auto;  
+  margin-top:-10px;
+}
+
+</style>
+
+</head>
+<body> 
+
+ <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="http://webdatacommons.org/images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">Web Data Commons - WebIsADb</h1>
+</div>
+
+
+<div id="content">
+<p>
+<a href="http://webdatacommons.org/">Web Data Commons</a> and <a href="http://dws.informatik.uni-mannheim.de/en/people/" >Data and Web Science group University of Mannheim</a> are pleased to announce that WebIsADb is offered as a publicly resource to the research community.
+WebIsADb is a database containing more than 400 million hypernymy relations we extracted from the CommonCrawl web corpus. 
+This collection of relations represents a rich source of knowledge and may be useful for many researchers. 
+We offer the tuple dataset for public download and an application programming interface to help other researchers programmatically query the database.
+The resource and more can be found <a HREF="http://webdatacommons.org/isadb/">here</a>.
+</p>
+
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+</body>
+</html> 

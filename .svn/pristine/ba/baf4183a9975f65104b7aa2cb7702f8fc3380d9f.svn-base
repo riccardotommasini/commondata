@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons - Winter 2014 Corpus - Download Instructions</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body><a name='top'></a>
+<h1>Download Instructions for the WDC RDFa, Microdata, and Microformats Data Sets (December 2014)  </h1>
+<p>This document contains instructions on how to download the December 2014 version of the <a href="http://webdatacommons.org/structureddata/">Web Data Commons</a> RDFa, Microdata, and Microformats data sets.</p>
+
+<div id="toccontent">
+<h2>Download the Extracted Data</h2>
+<p>The extracted RDFa, Microdata and Microformat data is provided for download as <a href="http://www.w3.org/TR/n-quads/">N-Quads</a>. Files are compressed using GZIP and each file is around 100 MB large. Overall 3,581 files with a total size of 373 GB are provided.</p>
+
+<p>
+<a href="http://webdatacommons.org/structureddata/2014-12/files/file.list">List of download URLs for RDF from the Winter 2014 corpus</a> (<a href="../../index.html#examples">Example Content</a>)</p>
+
+<p>The extracted RDF data can be downloaded using <a href="http://www.gnu.org/software/wget/">wget</a> with the command <code>wget -i http://webdatacommons.org/structureddata/2014-12/files/file.list</code>. The files, containing quads for a specific formats can be found in the table below, together with more detailed statistics about the number of files and sizes.</p>
+
+<table>
+<tr><th>	Format	</th><th>	Number Of Files	</th><th>	Total File Size	</th><th>	File List	</th></tr>
+<tr><th>	html-rdfa	</th><td align="right">	638	</td><td align="right">	65 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-rdfa.list'>html-rdfa.list</a>	</td></tr>
+<tr><th>	html-microdata	</th><td align="right">	2301	</td><td align="right">	242 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-microdata.list'>html-microdata.list</a>	</td></tr>
+<tr><th>	html-mf-geo	</th><td align="right">	5	</td><td align="right">	454 MB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-geo.list'>html-mf-geo.list</a>	</td></tr>
+<tr><th>	html-mf-hcalendar	</th><td align="right">	24	</td><td align="right">	2 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-hcalendar.list'>html-mf-hcalendar.list</a>	</td></tr>
+<tr><th>	html-mf-hcard	</th><td align="right">	504	</td><td align="right">	51 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-hcard.list'>html-mf-hcard.list</a>	</td></tr>
+<tr><th>	html-mf-hrecipe	</th><td align="right">	7	</td><td align="right">	688 MB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-hrecipe.list'>html-mf-hrecipe.list</a>	</td></tr>
+<tr><th>	html-mf-hlisting	</th><td align="right">	3	</td><td align="right">	281 MB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-hlisting.list'>html-mf-hlisting.list</a>	</td></tr>
+<tr><th>	html-mf-hresume	</th><td align="right">	1	</td><td align="right">	6 MB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-hresume.list'>html-mf-hresume.list</a>	</td></tr>
+<tr><th>	html-mf-hreview	</th><td align="right">	26	</td><td align="right">	2 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-hreview.list'>html-mf-hreview.list</a>	</td></tr>
+<tr><th>	html-mf-species	</th><td align="right">	1	</td><td align="right">	9 MB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-species.list'>html-mf-species.list</a>	</td></tr>
+<tr><th>	html-mf-xfn	</th><td align="right">	23	</td><td align="right">	2 GB	</td><td>	<a href='http://webdatacommons.org/structureddata/2014-12/files/html-mf-xfn.list'>html-mf-xfn.list</a>	</td></tr>
+
+</table>
+
+<h2>Get the Code</h2>
+
+<p>
+The source code can be checked out from our <a href="https://subversion.assembla.com/svn/commondata/WDCFramework/">Subversion repository</a>. The extraction of Winter 2014 was done with <a href="https://subversion.assembla.com/svn/commondata/WDCFramework/tags/1/0/1/">version 1.0.1 of the extractor</a>. For more information about the framework and a detailed description how to run a own extraction visit the <a href="http://webdatacommons.org/framework">framework page</a>.
+</p>
+
+<h2>Get Support</h2>
+<p></p>
+
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.</p>
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    } 
+});
+</script>
+
+</body></html>

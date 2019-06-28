@@ -1,0 +1,141 @@
+81641	0.3379879942	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/url							
+80748	0.3342910371	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type							
+80026	0.3313020079	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url						
+63629	0.2634195819	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name							
+62962	0.2606582488	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/url						
+62219	0.2575822811	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url					
+61236	0.2535127303	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/image							
+59067	0.2445332229	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url						
+58990	0.2442144484	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url					
+58815	0.2434899607	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description							
+57601	0.2384640861	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/type						
+57532	0.238178431	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url					
+49721	0.2058414407	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url				
+40054	0.165820741	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url				
+39709	0.1643924653	http://ogp.me/nsurl	http://ogp.me/nstitle							
+39095	0.1618505485	http://ogp.me/nsdescription	http://ogp.me/nstitle							
+38564	0.1596522459	http://ogp.me/nsimage	http://ogp.me/nstitle							
+38294	0.1585344649	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url			
+37410	0.1548747671	http://ogp.me/nstype	http://ogp.me/nstitle							
+36935	0.1529083006	http://ogp.me/nssite-name	http://ogp.me/nstitle							
+36361	0.150531981	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle						
+35534	0.1471082592	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle						
+33906	0.1403684537	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype					
+33299	0.1378555165	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nstitle						
+32385	0.1340716208	http://ogp.me/nsimage	http://ogp.me/nsurl	http://ogp.me/nstitle						
+32136	0.1330407783	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nsurl	http://ogp.me/nstitle					
+30958	0.1281639412	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmlapp-id							
+30570	0.1265576485	http://ogp.me/nsimage	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype					
+30276	0.1253405092	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id						
+30048	0.1243966053	http://ogp.me/nsimage	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle				
+29915	0.1238459946	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle				
+29853	0.123589319	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype			
+29564	0.1223928793	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+29175	0.1207824467	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+29175	0.1207824467	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+24637	0.1019954461	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type							
+24397	0.101001863	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+24190	0.1001448975	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id			
+23552	0.0975036224	http://opengraphprotocol.org/schema/title	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+23552	0.0975036224	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+23552	0.0975036224	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+22753	0.0941958187	http://purl.org/rss/1.0/modules/content/encoded	http://purl.org/dc/terms/title							
+22234	0.0920471952	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://www.facebook.com/2008/fbmlapp-id						
+22234	0.0920471952	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id						
+22234	0.0920471952	http://opengraphprotocol.org/schema/title	http://www.facebook.com/2008/fbmladmins	http://www.facebook.com/2008/fbmlapp-id						
+22234	0.0920471952	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://www.facebook.com/2008/fbmlapp-id						
+17936	0.0742537777	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id			
+17014	0.0704367626	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id		
+16901	0.0699689505	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id		
+16541	0.0684785759	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id	
+16335	0.0676257504	http://rdfs.org/sioc/nsnum-replies	http://purl.org/dc/terms/title							
+15571	0.0644628441	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://purl.org/dc/terms/title						
+11458	0.0474353136	http://creativecommons.org/nsattributionName	http://creativecommons.org/nsattributionURL							
+10752	0.0445125233	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nstype							
+10674	0.0441896088	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle					
+10541	0.0436389981	http://purl.org/dc/terms/date	http://purl.org/dc/terms/title							
+10537	0.0436224384	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype						
+10537	0.0436224384	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle						
+10481	0.0433906024	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype				
+10208	0.0422604016	http://purl.org/dc/terms/date	http://purl.org/rss/1.0/modules/content/encoded	http://purl.org/dc/terms/title						
+9673	0.0400455392	http://ogp.me/nsimage	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle			
+9311	0.0385468847	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title							
+9186	0.0380293935	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id						
+9157	0.0379093355	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title					
+8982	0.0371848479	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title							
+8926	0.0369530118	http://purl.org/dc/terms/created	http://purl.org/dc/terms/title							
+8917	0.0369157524	http://purl.org/dc/terms/date	http://purl.org/dc/terms/created	http://purl.org/dc/terms/title						
+8901	0.0368495136	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id					
+8891	0.0368081143	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title				
+8868	0.0367128959	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id				
+8858	0.0366714966	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://xmlns.com/foaf/0.1/name						
+8858	0.0366714966	http://rdfs.org/sioc/nshas-creator	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title						
+8742	0.0361912647	http://purl.org/dc/terms/date	http://purl.org/dc/terms/created	http://purl.org/rss/1.0/modules/content/encoded	http://purl.org/dc/terms/title					
+8652	0.0358186711	http://purl.org/dc/terms/date	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title					
+8610	0.035644794	http://purl.org/dc/terms/date	http://purl.org/dc/terms/created	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title				
+8557	0.0354253778	http://ogp.me/nslocale	http://ogp.me/nstitle							
+8545	0.0353756986	http://purl.org/dc/terms/date	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title				
+8531	0.0353177396	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstitle						
+8436	0.0349244463	http://purl.org/dc/terms/date	http://purl.org/dc/terms/created	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title			
+8314	0.0344193749	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype					
+8132	0.0336659077	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype		
+8124	0.0336327882	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle				
+8094	0.0335085904	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id			
+7694	0.0318526185	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title			
+7625	0.0315669634	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype			
+7490	0.0310080729	http://ogp.me/nsimage	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id		
+7459	0.030879735	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title							
+7338	0.0303788036	http://www.w3.org/2000/01/rdf-schemalabel	http://www.w3.org/2004/02/skos/coreprefLabel							
+7277	0.0301262679	http://www.w3.org/2000/01/rdf-schemalabel	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title						
+7269	0.0300931484	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id	
+7139	0.0295549576	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name						
+7139	0.0295549576	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://xmlns.com/foaf/0.1/name						
+7139	0.0295549576	http://rdfs.org/sioc/nsnum-replies	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title						
+7093	0.0293645208	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title			
+7085	0.0293314014	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title		
+6904	0.0285820741	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://xmlns.com/foaf/0.1/name					
+6904	0.0285820741	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://rdfs.org/sioc/nshas-creator	http://xmlns.com/foaf/0.1/name					
+6904	0.0285820741	http://rdfs.org/sioc/nsnum-replies	http://rdfs.org/sioc/nshas-creator	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title					
+6740	0.0279031256	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://purl.org/dc/terms/created	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title		
+6704	0.0277540882	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle		
+6325	0.0261850549	http://creativecommons.org/nsattributionName	http://purl.org/dc/elements/1.1/title							
+5963	0.0246864003	http://creativecommons.org/nsattributionName	http://creativecommons.org/nsattributionURL	http://purl.org/dc/elements/1.1/title						
+5732	0.0237300766	http://purl.org/dc/elements/1.1/type	http://purl.org/dc/elements/1.1/title							
+5601	0.0231877458	http://purl.org/dc/elements/1.1/type	http://creativecommons.org/nsattributionName	http://purl.org/dc/elements/1.1/title						
+5437	0.0225087974	http://rdfs.org/sioc/nsnum-replies	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel	http://purl.org/dc/terms/title					
+5437	0.0225087974	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel					
+5430	0.0224798178	http://rdfs.org/sioc/nsnum-replies	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title				
+5430	0.0224798178	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel	http://www.w3.org/2004/02/skos/coreprefLabel				
+5318	0.0220161457	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title		
+5300	0.021941627	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title	
+5251	0.0217387704	http://purl.org/dc/elements/1.1/type	http://creativecommons.org/nsattributionName	http://creativecommons.org/nsattributionURL	http://purl.org/dc/elements/1.1/title					
+4981	0.0206209894	http://opengraphprotocol.org/schema/locale	http://opengraphprotocol.org/schema/type							
+4974	0.0205920099	http://purl.org/rss/1.0/modules/content/encoded	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel					
+4974	0.0205920099	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title					
+4974	0.0205920099	http://rdfs.org/sioc/nsnum-replies	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel					
+4974	0.0205920099	http://purl.org/dc/terms/date	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel					
+4970	0.0205754502	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/locale	http://opengraphprotocol.org/schema/type						
+4946	0.0204760919	http://purl.org/dc/terms/date	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel						
+4946	0.0204760919	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel						
+4946	0.0204760919	http://rdfs.org/sioc/nsnum-replies	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel						
+4946	0.0204760919	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title						
+4946	0.0204760919	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel						
+4941	0.0204553923	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/locale	http://opengraphprotocol.org/schema/type					
+4931	0.020413993	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/locale	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url				
+4923	0.0203808735	http://ogp.me/ns/fbapp-id	http://ogp.me/nstitle							
+4910	0.0203270544	http://ogp.me/nsurl	http://ogp.me/ns/fbapp-id	http://ogp.me/nstitle						
+4904	0.0203022149	http://ogp.me/ns/fbapp-id	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle					
+4895	0.0202649555	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name				
+4895	0.0202649555	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name				
+4895	0.0202649555	http://rdfs.org/sioc/nsnum-replies	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://purl.org/dc/terms/title				
+4892	0.0202525357	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel			
+4892	0.0202525357	http://rdfs.org/sioc/nsnum-replies	http://purl.org/rss/1.0/modules/content/encoded	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel			
+4892	0.0202525357	http://rdfs.org/sioc/nsnum-replies	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2000/01/rdf-schemalabel	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title			
+4847	0.0200662389	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://purl.org/dc/terms/created	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel	http://rdfs.org/sioc/nshas-creator	http://purl.org/dc/terms/title	
+4832	0.0200041399	http://purl.org/dc/terms/date	http://rdfs.org/sioc/nsnum-replies	http://purl.org/dc/terms/created	http://purl.org/rss/1.0/modules/content/encoded	http://xmlns.com/foaf/0.1/name	http://www.w3.org/2000/01/rdf-schemalabel	http://rdfs.org/sioc/nshas-creator	http://www.w3.org/2004/02/skos/coreprefLabel	http://purl.org/dc/terms/title
+4716	0.0195239081	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/ns/fbapp-id	http://ogp.me/nstitle	http://ogp.me/nstype				
+4573	0.0189318982	http://rdf.data-vocabulary.org/url	http://rdf.data-vocabulary.org/title							
+4438	0.0183730077	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/ns/fbapp-id	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle			
+4337	0.0179548748	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/ns/fbapp-id	http://ogp.me/nstitle	http://ogp.me/nstype		
+4173	0.0172759263	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/locale	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url			
+4155	0.0172014076	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins							

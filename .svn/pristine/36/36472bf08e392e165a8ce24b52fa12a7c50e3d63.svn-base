@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html><head><title>WDC - Web Table Corpora</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Petar Risotski, Christian Bizer, Oliver Lehmberg, Heiko Paulheim">
+<meta name="keywords" content="HTML Table Corpus, Content Table Corpus, Table Search, SearchJoins">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<link rel=Stylesheet href=stylesheet.css>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+    </script>
+    <style>
+
+
+        @media all {
+            .container_chart { display: block; }
+            .page-break    { display: none; }
+        }
+
+        @media print {
+            * { font-size: 95%; }
+            .container_chart { display: inline-block; }
+            .page-break    { display: inline-block; page-break-after:always; }
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<a name='top'></a><div id="header">
+  <h1 style="font-size: 250%;">Web Data Commons - Web Table Corpora</h1></div>
+<div id="tagline">A Series of Web Table Corpora extracted from the Common Crawl</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dominique-ritze/">Dominique Ritze</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="http://www.bizer.de/">Christian Bizer</a><br />
+Sanikumar Zope</div>
+
+
+<br />
+
+<div id="content">
+<p>
+A subset of the HTML tables on the Web contains relational data which can be useful for various applications. The <a href="http://webdatacommons.org/">Web Data Commons project</a> has extracted two large corpora of relational Web tables from the Common Crawl and offers them for public download. This page provides an overview of the corpora as well as their use cases.</p>
+<h2>News</h2>
+<ul>
+  <li><strong>2017-06-26: </strong>We have released the <a href="https://github.com/olehmberg/winter/">Web Data Integration Framework (WInte.r)</a>, which provides parsers and methods for the integration of Web Tables.</li>
+  <li><strong>2017-02-07: </strong>A second version of the T2D gold standard <a href="http://webdatacommons.org/webtables/goldstandardV2.html">T2Dv2</a> has been released.</li>
+  <li><strong>2016-10-15: </strong></strong>Paper about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Ritze-Bizer-FeatureUtilityStudy.pdf">Matching Web Tables To DBpedia - A Feature Utility Study</a> has been accepted at the <a href="http://edbticdt2017.unive.it/">EDBT'17</a> conference in Venice, Italy.</li>
+  <li><strong>2016-02-01: </strong>Poster about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Lehmberg-WTCorpus.pdf">A Large Public Corpus of Web Tables containing Time and Context Metadata</a> (<a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Lehmberg-WTCorpus-Poster.pdf">poster</a>) has been accepted as poster at the <a href="http://www2016.ca/">WWW'16</a> conference in Montréal, Canada.</li>
+  <li><strong>2015-12-15: </strong>Paper about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Ritze-etal-ProfilingWebTables.pdf">Profiling the Potential of Web Tables for Augmenting Cross-domain Knowledge Bases</a> has been accepted at the <a href="http://www2016.ca/">WWW'16</a> conference in Montréal, Canada.</li>
+   <li><strong>2015-12-01: </strong>Added context information described in the <a href="#results-2015">WDC Web Table Corpus 2015 Extraction</a> to the <a href="http://webdatacommons.org/webtables/goldstandard.html#instance">Entity-level Gold Standard</a> of the <a href="http://webdatacommons.org/webtables/goldstandard.html">T2D Gold Standard</a>.</li>
+   <li><strong>2015-11-19: </strong><a href="#results-2015">WDC Web Table Corpus 2015</a> released consisting of 233 million Web tables extracted from the July 2015 Common Crawl.</li>	
+  <li><strong>2015-04-01: </strong><a href="http://webdatacommons.org/webtables/goldstandard.html">T2D Gold Standard</a> for comparing matching systems on the task of finding correspondences between Web tables and large-scale knowledge bases released.</li>
+  <li><strong>2015-02-25: </strong><a href="https://wwwdb.inf.tu-dresden.de/misc/dwtc/">Dresden Web Table Corpus</a> published containing 125 million data tables extracted from the July 2014 version of the Common Crawl.
+  <li><strong>2014-10-27:</strong> Tables corpus is used by <a href="http://dws.informatik.uni-mannheim.de/en/news/detail/news/2014/10/27/search-join-engine-wins-semantic-web-challenge-big-data-track/">Mannheim Search Join Engine</a> which wins prize at Semantic Web Challenge 2014.</li>
+  <li><strong>2014-03-05: </strong><a href="#results-2012">WDC Web Table Corpus 2012</a> released consisting of 147 million relational Web tables extracted from the August 2012 Common Crawl.</li>
+</ul>
+
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+
+<h2 id="about">1. About the WDC Web Table Corpora</h2>
+<p>
+The Web contains vast amounts of HTML tables. Most of these tables are used for layout purposes, but a small subset of the tables is relational, meaning that they contain structured data describing a set of entities. The Web Data Commons project extracts relational Web tables from the  <a href="http://commoncrawl.org/">Common Crawl</a>, the largest and most up-to-data Web corpus that is currently available to the public. The resulting Web table corpora are provided for public download. In addition, we calculate statistics about the structure and content of the tables.
+</p>
+<p>
+Up till now, we have extracted two Web table corpora from the Common Crawl:
+<ul>
+  <li><a href="#results-2015">WDC Web Table Corpus 2015</a> 
+    <ul>
+      <li>extracted from the July 2015 Common Crawl containing 1.78 billion HTML pages originating from 15 million pay-level domains.</li>
+      <li>the corpus contains <strong>233 million Web tables</strong> which are classified into the categories: relational,  entity,  and matrix.
+      <li>the corpus contains metadata for each table including table orientation, header rows, key columns</li>
+      <li>the corpus contains context information for the table such as the title of the HTML page, the caption of the table, the text before and after the table, and timestamps from the page.</li>
+    </ul>
+  </li>
+  <li><a href="#results-2012">WDC Web Table Corpus 2012 </a>
+    <ul>
+      
+      <li>extracted from the 2012 Common Crawl containing 3.5 billion HTML pages originating from 40 million pay-level domains.</li>
+      <li>the corpus contains <strong>147 million  Web tables</strong>.</li>
+      <li>the corpus does not contain metadata about table orientation, header rows, and key columns, as well as no table context data.
+    </p>
+</li>
+    </ul>
+  </li>
+</ul>
+<h2 id="about">2. Application Potential of Web Tables</h2>
+
+<p>This Section gives an overview of existing research on  employing Web tables within various application domains as well as empirical studies about the amount and content of relational tables on the Web. The first step towards understanding Web tables is to detect relational tables [<a href="#Wang2002">Wang2002</a>]. Initial studies by Cafarella et al. [<a href="#Cafarella2008">Cafarella2008</a>] showed that out of 14 billion HTML tables in the Google crawl, 154 million tables contained relational data (1.1%). In [<a href="#Crestan2011">Crestan2011</a>], the authors provide a fine-grained classification of the different types of HTML tables that are found on the Web based on the Bing Web crawl.  [<a href="#Hassanzadeh2015">Hassanzadeh2015</a>] identifies the topical distribution of Web table data by matching tables to different cross-domain knowledge bases.</p>
+<p>Recently, a body of interesting research has developed around exploiting relational Web tables for the following applications:</p>
+<ol>
+<li><b>Data Search</b>: A user that is in need for some data is likely to find a table containing the desired data somewhere on the Web. [<a href="#Cafarella2009">Cafarella2009</a>], [<a href="#Venetis2011">Venetis2011</a>], and [<a href="#Pimplikar2012">Pimplikar2012</a>] propose methods for finding matching tables given a set of keywords describing the information need. An example of a table search service is <a href="http://research.google.com/tables">Google Table Search</a> which allows users to search for Web tables as well as public Google Fusion Tables [<a href="#Balakrishnan2015">Balakrishnan2015</a>]. [<a href="#Tam2015">Tam2015</a>] formalize the requirements for Web table search and present algorithms to solve the connected problems.
+
+<li><b>Table Extension/Completion</b>: [<a href="#Cafarella2009">Cafarella2009</a>], [<a href="#Yakout2012">Yakout2012</a>], [<a href="#Bhagavatula2013">Bhagavatula2013</a>], [<a href="#DasSarma2012">DasSarma2012</a>],  [<a href="#Bizer2014">Bizer2014</a>], [<a href="#Lehmberg2014">Lehmberg2014</a>] and [<a href="#Lehmberg2015">Lehmberg2015</a>] propose methods for extending a local table with additional columns based on the corpus of tables that are published on the Web. A user having a local table describing countries could for instance use these methods to have columns containing the population, area total, and the capital of each country added to his table. [<a href="#Ahmadov2015">Ahmadov2015</a>] try to fill missing values in existing tables.</li>
+
+<li><b>Knowledge Base Construction</b>: The data contained in Web tables can also be used to construct or extend general-purpose knowledge bases such as DBpedia, Freebase or YAGO. [<a href="#Zhang2013">Zhang2013</a>] propose a method for extending the DBpedia knowledge base with data from Web tables. [<a href="#Sekhavat2014">Sekhavat2014</a>] introduce a probabilistic approach for extending YAGO by exploiting natural language patterns.   [<a href="#Wang2012">Wang2012</a>] propose a method for building a comprehensive knowledge base using linguistic patters to extract a probabilistic taxonomy of classes and entities from Web texts and add facts about the attributes of the entities using Web tables afterwards. Biperpedia [<a href="Gupta2014">Gupta2014</a>] has been created by exploiting query stream and applying the learnt extractors. The Knowledge Vault [<a href="#Dong2014">Dong2014</a>] extends  Freebase using Web tables data amongst other types of Web data. An overview of knowledge base construction approaches using Web sources is given by Weikum and Theobald [<a href="Weikum2010">Weikum2010</a>].</li>
+
+<li><b>Table Matching</b>: For most applications, the matching of Web tables plays an important role and is discussed in different works. [<a href="#Limaye2010">Limaye2010</a>], [<a href="#Mulwad2010">Mulwad2010</a>] propose frameworks to annotate the Web tables with entities, properties and types from knowledge bases. [<a href="#Ritze2015">Ritze2015</a>] introduce an simultaneous schema- and instance matching approach to annotate rows with entities, columns with properties and tables with types. Other methods further exploit the context [<a href="#Wang2015">Wang2015</a>], [<a href="#Braunschweig2015">Braunschweig2015</a>] as well as timestamps [<a href="#Zhang2013">Zhang2013</a>]. In addition to fully automatic approaches, crowdsourcing can support the matching process [<a href="#Fan2014">Fan2014</a>], [<a href="#Chu2015">Chu2015</a>].</li>
+
+<li><b>NLP Tasks</b>: The table corpus could also be useful for various natural language processing tasks as the things that appear in the same column are often closely related to each other, which for example can be exploited for disambiguation.</li>
+</ol>
+
+<h2 id="results-2015">3. WDC Web Table Corpus 2015</h2>
+<p> This Section describes the methodology that was used to extract the July 2015 Web Table Corpus  and links to pages containing detailed statistics about the corpus as well as download instructions. The July 2015 Common Crawl corpus contains 1.78 billion HTML documents from over 15 million pay-level domains.</p>
+
+<p>We employ the <a href="https://wwwdb.inf.tu-dresden.de/misc/dwtc/">DWTC framework</a> from the Database Technology Group at the University of Dresden to extract HTML tables  from the crawl and to distinguish between different types of Web tables, e.g. relational and layout tables. The table type assignment works in two steps: filtering and classification. </p>
+<p>First, the framework <strong>filters</strong> out all HTML tables that are not innermost tables, i.e., that contain tables in their cells, and all tables contain less than 2 columns or 3 rows. Further, the framework looks at other criteria such as sparseness of the table, average attribute size, number of links etc. This step discards most of the HTML tables that we consider as non-genuine. Altogether, we parsed 1.78 billion HTML pages from the Common Crawl July 2015 Web corpus. In these pages we found a total of 10.24 billion innermost tables, i.e., an average of 5.75 innermost tables per page.
+After the filtering step, 233 million tables remain. A content-based deduplication is not performed. </p>
+<p>
+Second, the framework parses the tables and <strong>classifies</strong> them as <i>Relational</i>, <i>Entity</i>, <i>Matrix</i> and <i>Layout</i> [<a href="#Eberius2015">Eberius2015</a>]. Figure 1 shows examples of the first three table types. Relational tables (1.a) describe a set of similar entities (here: lakes) with one or more attributes (area). The name of the entity, also called key, is contained in the table. In contrast, entity tables (1.b) only describe one entity with one or more attributes. The name of this entity is usually not contained in the table but may be found in the table context. A common example of entity tables are tables containing product details (but not the product name) on shopping websites. The third table type matrix (1.c) is most often used for results of statistical evaluations.</p>
+<figure>
+  <img src="2015/tableTypes.png" alt="Table Types">
+  <figcaption>
+    <p>Fig. 1: Examples of the three table types extracted from the English Wikipedia [<a href="#Braunschweig2015a">Braunschweig2015a</a>]</p>
+  </figcaption>
+</figure> 
+<p> The classification into the different types uses a mixture of global and local features, see [<a href="#Braunschweig2015a">Braunschweig2015a</a>] for more details. The global features include average and standard deviation of the column and row count as well as the average cell length. Additionally, it computes content ratios (image, alphabetical and digit) and cumulative content type length consistencies of the rows and columns [<a href="#Crestan2011">Crestan2011</a>, <a href="#Wang2002">Wang2002</a>]. The local features are local average length, local length variance and local content ratio of cells.
+Table 1 shows the distribution of the resulting table types. Altogether, 90,266,223 tables were classified as relational tables (0.9%) which is in line with the results by Cafarella et al. [<a href="#Cafarella2008">Cafarella2008</a>] (1.1%) and the results of our <a href="#results-2012">previous extraction</a> (1.3%).</p>
+<table>
+  <tr><th>#Type</th><th>#Tables</th><th>% of all tables</th></tr>
+  <tr><th>Relational</th><td align="right">90,266,223</td><td align="right">0.90</td></tr>
+  <tr><th>Entity</th><td align="right">139,687,207</td><td align="right">1.40</td></tr>
+  <tr><th>Matrix</th><td align="right">3,086,430</td><td align="right">0.03</td></tr>
+  <tr><th>Sum</th><td align="right"><strong>233,039,860</strong></td><td align="right"><strong>2.25</strong></td></tr>
+  <caption>
+  <strong>Table 1: Table Types in WDC 2015 Corpus</strong>
+  </caption>
+</table>
+
+<p>&nbsp;</p>
+<p>
+On top of the DWTC framework, we implemented methods to determine the <b>orientation of a table</b>, i.e., <i>Horizontal</i> or <i>Vertical</i>,  the<b> header row,</b> the <b>key column </b>(if existant), as well as methods to extract <strong>context data</strong> from the page content around the Web table. </p>
+<p>
+<b>Table Orientation</b>: 
+In horizontal tables, the attributes are represented in the columns while in vertical tables the attributes are described in rows, e.g. as shown in Figure 1a. The determination of the table orientation bases on the idea that for horizontal tables, the cells in one column have a similar length because they belong to the same attribute. In contrast, the opposite holds for vertical tables where cells in one row typically have a similar length. We determine the orientation of a table by computing the standard deviation (STD) of the cell length for each row and column. If the average STD for columns is smaller than the average STD for rows, we define the table as horizontal and otherwise as vertical.
+</p>
+<p>
+<b>Header Row Detection</b>: 
+For the description of our header row detection, we always assume to have a horizontal table but of course can also be applied on vertical tables. We define a header row as the row containing the attribute names, e.g. the first row in Figure 1a with the attribute names 'Lake' and 'Area'. Our header detection bases on the idea that a header row shows a different characteristic than the following rows. Therefore, we analyze the rows by building a content pattern for each cell in a row. A cell content pattern is a strining together of the following classes: alphabetical (A), digit (D), punctuation (P) and special character (S). For example, a cell with the content "area" has the content pattern "AAAA" while a cell with the content "5.69m" is described by the pattern "DPDDA". Based on these patterns, we can determine the different characteristics of rows and thus we can conclude which row contains the names of the attributes and is in turn considered as the header row.  
+</p>
+<p>
+<b>Key Column Detection</b>: 
+Similar to the header row detection, we assume to have a horizontal table for the key column detection. The key column of a table is said to be the column which contains the names of the entities, e.g. the second column of the table in Figure 1a with the attribute name 'Lake'. Our key column detection bases on the idea that a key column contains a certain amount of unique cell values because it contains the names of different entities. Thus, our main assumption is that the key column covers a high amount of unique cell values. Besides the requirement of having at least 50% unique values, it must be a column mainly consisting of string values and have an average length greater than 3.5 and lower than 200.</p> 
+<p><strong>Context Data:</strong> In order to understand the content of Web tables [<a href="#Yakout2012">Yakout2012</a>] as well as for determining the timeliness of the content, it is beneficial to know the text that appears on the HTML page around the Web table. We thus also extract context related data from the HTML page: HTML page title, table caption, 200 words before as well as after the table, the last modified date in the HTTP header, and sentences in surrounding paragraphs containing timestamps.</p>
+
+<p>We ran the table extraction on Amazon EC2 using 100 AWS c1.xlarge machines, the extraction and table classification together took around 25 hours, which cost around 250 USD. The table below summarizes key figures of the extraction run:</p>
+
+<table><tbody><tr><th>Crawl Date</th><td>July 2015</td></tr>
+<tr>
+  <th>Crawl  Data Volumn</th><td>165 Gigabyte</td></tr>
+<tr>
+  <th>HTML Pages</th><td>1.78 billion</td></tr>
+<tr>
+  <th>Domains in Crawl (PLDs)</th>
+  <td>15 million </td></tr>
+<tr>
+  <th>Extracted Tables</th><td>233 million</td></tr>
+<tr>
+  <th>PLDs of Extracted Tables </th>
+  <td>323 thousand</td>
+</tr>
+</tbody>
+</table>
+
+<p>We have calculated statistics for three subsets of the overall table corpus:</p>
+<ul style="clear: left">
+<li><a href="2015/relationalStatistics.html">Detailed Statistics about relational tables</a></li>
+<li><a href="2015/EnglishStatistics.html">Detailed Statistics about English-language relational tables</a></li>
+<li><a href="2015/entityStatistics.html">Detailed Statistics about entity tables</a></li>
+</ul>
+<p>An  details about the data format that we use to represent the tables as well as instructions on how to download the table corpus are found at</p>
+<ul style="clear: left">
+  <li><a href="2015/downloadInstructions.html">Download instructions</a></li>
+</ul>
+
+<h2 id="results-2012">4. WDC Web Table Corpus 2012</h2>
+<p> This Section describes the methodology that was applied to extract the August 2012 Web Table Corpus from the Common Crawl Web corpus and links to pages containing detailed statistics about the corpus as well as download instructions.  The 2012 Common Crawl corpus contains 3.5 billion HTML documents which originate from over 40 million pay-level domains.</p>
+
+[<a href="#Cafarella2008">Cafarella2008</a>], [<a href="#Crestan2011">Crestan2011</a>], and [<a href="#Wang2002">Wang2002</a>] propose classification methods for distinguishing between relational Web tables and other HTML tables. Based on the features proposed in these papers, we implemented a classifier for detecting relational Web tables. The classifier works in two steps. First, it filters out all HTML tables that are not innermost tables, i.e., that contain tables in their cells, and that contain less than 5 cells or 3 rows. This step discards already around 90% of all HTML tables. Second, we parse the remaining tables and classify them as <i>relational</i> or <i>not relational</i> using a mixture of layout and content features. The layout features include the average and the standard deviation of the column count, row count and cell length. Additionally we compute the length consistency of the rows and columns. Content features are the percentages of link, form, image, empty, digit, and text cells. We also compute the content type consistency for rows and columns. 
+</p>
+<p>Altogether, we parsed 3,301,089,681 HTML pages from the Common Crawl 2012 Web corpus. In these pages we found a total of 11,245,583,889 innermost tables, i.e., an average of 3.4 innermost tables per page. Out of these tables, 147,636,113 were classified as relational tables (1.3%). The tables originate from 101,177,544 different pages. A further classification into entity tables has not been performed.</p>
+<p>In order not to miss relational tables, we tuned our classifier for recall at the cost of precision. An evaluation on a test set of several thousand tables showed that only around 60% of the tables classified as relational are actually relational tables (compared to the 80% precision reported in [<a href="#Cafarella2008">Cafarella2008</a>]). </p>
+
+<p>We ran the table extraction on Amazon EC2 using 100 AWS c1.xlarge machines, which ran an adapted version of the extraction framework that we also used to extract the <a href="http://webdatacommons.org/">WebDataCommons RDFa, Microdata, and Microformat Data Set</a> from the Common Crawl. The extraction and table classification together took around 1,500 machine hours, which cost around 150 USD.  The table below summarizes key figures of the extraction run:</p>
+
+<table><tbody><tr>
+  <th>Crawl Date</th>
+  <td>August 2012</td></tr>
+<tr>
+  <th>Crawl  Data Volumn</th>
+  <td>1020 Gigabyte</td></tr>
+<tr>
+  <th>HTML Pages</th>
+  <td>3.5 billion</td></tr>
+<tr>
+  <th>Domains in Crawl (PLDs)</th>
+  <td>40 million</td></tr>
+<tr>
+  <th>Extracted Tables</th>
+  <td>147 million</td></tr>
+<tr>
+  <th>PLDs of Extracted Tables </th>
+  <td>1.01 million</td></tr>
+</tbody></table>
+
+<p>We have calculated statistics for the complete table corpus as well as for the English-language subset:</p>
+<ul style="clear: left">
+<li><a href="2012/relationalStatistics.html">Detailed Statistics about relational tables</a></li>
+<li><a href="2012/EnglishStatistics.html">Detailed Statistics about English-language relational tables</a></li>
+</ul>
+<p>An  details about the data format that we use to represent the tables as well as instructions on how to download the table corpus are found at</p>
+<ul style="clear: left">
+  <li><a href="2012/downloadInstructions.html">Download instructions</a></li>
+</ul>
+
+<h2 id="feedback">4. Source Code</h2>
+<p>
+The <a href="https://subversion.assembla.com/svn/commondata/WDCFramework/tags/1/0/3/">source code</a> of the extraction framework which has been used for the creation of the July 2015 Web Table Corpus is publicly available. The code builds on the <a href="https://wwwdb.inf.tu-dresden.de/misc/dwtc/">DWTC framework</a> from the Database Technology Group at the University of Dresden which again is partly based on the code that we used to extract the 2012 Web Table Corpus.  </p>
+
+<h2 id="feedback">5. License</h2>
+<p>
+The code can be used under the terms of the  <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache software license</a>.
+</p>
+
+<h2 id="feedback">6. Feedback</h2>
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br/><br/>
+General information about the Web Data Commons project is found <a href="../index.html">here</a>.</p>
+
+<h2 id="acknowledgments">7. Credits</h2>
+<p>The extraction of the Web Table Corpus was supported by an <a href="http://aws.amazon.com/education/">Amazon Web Services in Education Grant award</a></a>.</p>
+<a href="http://aws.amazon.com/education/"><img src="../images/aws.png" alt="AWS Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<h2 id="othercorpera">8. Other Web Data Corpora</h2>
+<p>In the following, we list other Web data corpora which are accessible to the public:</p>
+<ol>
+    <li><a href="https://wwwdb.inf.tu-dresden.de/misc/dwtc/"> Dresden Web Table Corpus</a> containing 125 million data tables extracted from the July 2014 version of the Common Crawl.
+   <li><a href="http://dbpedia.org/services-resources/downloads/dbpedia-tables">DBpedia as Tables</a>: Tabular representation of the DBpedia knowledge base containing Wikipedia infobox data. The instances of each of the 530 classes in the knowledge base are provided as a seperate table. Altogether the tables cover 4 million entities.</li>
+   <li><a href="http://downey-n1.cs.northwestern.edu/public/">WikiTables</a>: Corpus consisting of 15 million non-infobox tables extracted from Wikipedia.</li>
+   <li><a href="http://webdatacommons.org/">WebDataCommons RDFa, Microdata and Microformat Data Set</a>: RDF data set consisting of 7 billion triples RDFa, Microdata and Microformat which originate from 40 million different websites and have been extracted from the 2012 version of the common crawl. The data can be easily translated into tables (one table per class and website).</li>
+   <li><a href="http://km.aifb.kit.edu/projects/btc-2012/">Billion Triples Challenge 2012 Data Set</a>: Corpus consisting of 1.4 billion Linked Data triples that were crawled from around 1000 different Linked Data sources on the Web. The data can be easily translated into tables (one table per class and data source).</li>
+   <li><a href="http://publicdata.eu/">publicdata.eu</a>: Data portal containing references to 46,000 government data sets which are mostly tabular.</li>
+   <li><a href="http://www.data.gov/">data.gov</a>: Data portal containing 85,000 data sets provided by the US government. The data sets are mostly tabular.</li>
+</ol>
+
+
+<h2 id="references">9. References</h2>
+<p>
+If you like to cite a reference for the WDC web tables corpus please refer to:</p>
+<p>Oliver Lehmberg, Dominique Ritze, Robert Meusel, Christian Bizer: <a href='http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Lehmberg-WTCorpus.pdf'>A Large Public Corpus of Web Tables containing Time and Context Metadata.</a> WWW 2016.
+</p>
+<ol>
+    <li>[<a name="Cafarella2008">Cafarella2008</a>] Michael J. Cafarella, Eugene Wu, Alon Halevy, Yang Zhang, Daisy Zhe Wang: <a href='http://dl.acm.org/citation.cfm?id=1453916'>WebTables: exploring the power of tables on the Web.</a> VLDB 2008.</li>
+<li>[<a name="Crestan2011">Crestan2011</a>] <a href="http://dl.acm.org/citation.cfm?id=1935904">Eric Crestan and Patrick Pantel: Web-scale table census and classification.</a> WSDM 2011.</li>
+<li>[<a name="Cafarella2009">Cafarella2009</a>] Michael J. Cafarella, Alon Halevy, and Nodira Khoussainova: <a href="http://dl.acm.org/citation.cfm?id=1687750">Data integration for the relational Web.</a> Proc. VLDB Endow. 2009. </li>
+<li>[<a name="Yakout2012">Yakout2012</a>] Mohamed Yakout, Kris Ganjam, Kaushik Chakrabarti, and Surajit Chaudhuri: <a href="http://dl.acm.org/citation.cfm?id=2213848">InfoGather: entity augmentation and attribute discovery by holistic matching with Web tables.</a> In Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data (SIGMOD '12), 2012.</li>
+<li>[<a name="Bhagavatula2013">Bhagavatula2013</a>] Chandra Sekhar Bhagavatula, Thanapon Noraset, and Doug Downey: <a href="http://dl.acm.org/citation.cfm?id=2501516">Methods for exploring and mining tables on Wikipedia.</a> In Proceedings of the ACM SIGKDD Workshop on Interactive Data Exploration and Analytics (IDEA '13), 2013.</li>
+<li>[<a name="Pimplikar2012">Pimplikar2012</a>] Rakesh Pimplikar and Sunita Sarawagi: <a href="http://dl.acm.org/citation.cfm?id=2336665">Answering table queries on the Web using column keywords.</a> Proc. VLDB Endow. 5:10, 2012.</li>
+<li>[<a name="DasSarma2012">DasSarma2012</a>] Anish Das Sarma, Lujun Fang, Nitin Gupta, Alon Halevy, Hongrae Lee, Fei Wu, Reynold Xin, and Cong Yu: <a href="http://dl.acm.org/citation.cfm?id=2213962">Finding related tables.</a> In Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data (SIGMOD '12), 2012.</li>
+<li>[<a name="Zhang2013">Zhang2013</a>] Zhang, Xiaolu, et al.: <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-37450-0_8">Mapping entity-attribute Web tables to web-scale knowledge bases.</a> In: Database Systems for Advanced Applications. Springer, 2013.</li>
+<li>[<a name="Wang2012">Wang2012</a>] Jingjing Wang, Haixun Wang, Zhongyuan Wang, and Kenny Q. Zhu: <a href="http://dl.acm.org/citation.cfm?id=2427537">Understanding tables on the Web.</a> In Proceedings of the 31st international conference on Conceptual Modeling (ER'12), 2012.</li>
+   <li>[<a name="Wang2002">Wang2002</a>] WANG, Yalin; HU, Jianying: <a href="http://dl.acm.org/citation.cfm?id=736657">Detecting tables in html documents.</a> In: Document Analysis Systems V. Springer Berlin Heidelberg, 2002.</li>
+<li>[<a name="Chen2013">Chen2013</a>] Zhe Chen and Michael Cafarella: <a href="http://dl.acm.org/citation.cfm?id=2509909">Automatic Web spreadsheet data extraction.</a> In Proceedings of the 3rd International Workshop on Semantic Search Over the Web. 2013.</li>
+<li>[<a name="Bizer2014">Bizer2014</a>] Christian Bizer: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Bizer-SearchJoinsWithTheWeb-ICDT2014.pdf">Search Joins with the Web.</a> Invited Lecture at the International Conference on Database Theory (ICDT2014). 2014.</li>
+<li>[<a name="Lehmberg2014">Lehmberg2014</a>] Oliver Lehmberg, Dominique Ritze, Petar Ristoski, Kai Eckert, Heiko Paulheim and Christian Bizer: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Lehmberg-Ritze-Ristoski-Eckert-Paulheim-Bizer-TableExtension-SemanticWebChallenge-ISWC2014-Paper.pdf" target="_blank">Extending Tables with Data from over a Million Websites</a> (<a href="http://de.slideshare.net/bizer/lehmberg-ritzeristoskieckertpaulheimbizertable-extensionsemanticwebchallengeiswc2014slides" target="_blank">Slides</a>, <a href="http://videolectures.net/iswc2014_bizer_extending_tables/" target="_blank">Video</a>). Semantic Web Challenge 2014, Riva del Garda, Italy, October 2014.</li>
+<li>[<a name="Balakrishnan2015">Balakrishnan2015</a>] Sreeram Balakrishnan, Alon Halevy, et al.: <a href="http://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper3.pdf">Applying WebTables in Practice</a>. Conference on Innovative Data Systems Research (CIDR). 2015.</li>
+<li>[<a name="Morcos2015">Morcos2015</a>] John Morcos, Ziawasch Abedjan, Ihab Francis Ilyas, Mourad Ouzzani, Paolo Papotti, Michael Stonebraker: <a href="http://dl.acm.org/citation.cfm?id=2735366">DataXFormer: An Interactive Data Transformation Tool</a>. SIGMOD '15 Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data. 2015.</li>
+<li>[<a name="Lehmberg2015">Lehmberg2015</a>] Oliver Lehmberg, Dominique Ritze, Petar Ristoski, Robert Meusel, Heiko Paulheim, Christian Bizer: <a href="http://dx.doi.org/10.1016/j.websem.2015.05.001">The Mannheim Search Join Engine.</a> Journal of Web Semantics, 2015 (In Press).</li>
+<li>[<a name="Venetis2011">Venetis20111</a>] Petros Venetis, Alon Halevy, Jayand Madhavan, Marius Pasca, Warren Shen, Fei Wu, Gengxin Miao, Chung Wu: <a href="http://www.vldb.org/pvldb/vol4/p528-venetis.pdf">Recovering Semantics of Tables on the Web.</a> Proceedings of the VLDB Endow., 2011.</li>
+<li>[<a name="Tang2006">Tang2006</a>] Kai-Tai Tang, Howard Leung: <a href="http://dl.acm.org/citation.cfm?id=2081385">Reconstructing the correct writing sequence from a set of chinese character strokes.</a> Springer-Verlag Berlin, Heidelberg 2006.</li>
+<li>[<a name="Sekhavat2014">Sekhavat2014</a>] Yoones A. Sekhavat, Francesco di Paolo, Denilson Barbosa, Paolo Merialdo: <a href="http://ceur-ws.org/Vol-1184/ldow2014_paper_02.pdf">Knowledge Base Augmentation using Tabular Data.</a> Proceedings of LDOW, 2014.</li>
+<li>[<a name="Ritze2015">Ritze2015</a>] Dominique Ritze, Oliver Lehmberg, Christian Bizer: <a href="http://dl.acm.org/citation.cfm?id=2797118">Matching HTML Tables to DBpedia</a> Proceedings of the 5th International Conference on Web Intelligence, Mining and Semantics, 2015.</li>
+<li>[<a name="Limaye2010">Limaye2010</a>] Girija Limaye, Sunita Sarawagi, Soumen Chakrabarti: <a href="http://vldb.org/pvldb/vldb2010/papers/R118.pdf">Annotating and Searching Web Tables
+Using Entities, Types and Relationships</a> Proceedings of the VLDB Endowment, 2010.</li>
+<li>[<a name="Hassanzadeh2015">Hassanzadeh2015</a>] Oktie Hassanzadeh, Michael J. Ward, Mariano Rodriguez-Muro, Kavitha Srinivas: <a href="http://disi.unitn.it/~pavel/om2015/papers/om2015_TLpaper3.pdf">Understanding a Large Corpus of Web Tables Through Matching with Knowledge Bases – An Empirical Study</a> Proceedings of the OM Workshop, 2015.</li>
+<li>[<a name="Weikum2010">Weikum2010</a>] Gerhard Weikum, Martin Theobald: <a href="http://people.mpi-inf.mpg.de/~weikum/pods2010-weikum&theobald.pdf">From Information to Knowledge: Harvesting Entities and Relationships from Web Sources</a> Proceedings of the PODS, 2010.</li>
+<li>[<a name="Dong2014">Dong2014</a>] Xin Luna Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, Wei Zhang: <a href="http://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf">Knowledge Vault: A Web-Scale Approach to Probabilistic Knowledge Fusion</a> Proceedings of the KDD, 2014.</li>
+<li>[<a name="Gupta2014">Gupta2014</a>] Rahul Gupta, Alon Halevy, Xuezhi Wang, Steven Euijong Whang, Fei Wu: <a href="http://research.google.com/pubs/pub41894.html">Biperpedia: An Ontology for Search Applications</a> Proceedings of VLDB Endowment, 2014.</li>
+<li>[<a name="Zhang2013">Zhang2013</a>] Meihui Zhang, Kaushik Chakrabarti: <a href="http://dl.acm.org/citation.cfm?id=2465276">InfoGather+:Semantic Matching and Annotation of Numeric and Time-Varying Attributes in Web Tables</a> Proceedings of SIGMOD, 2013.</li>
+<li>[<a name="Braunschweig2015">Braunschweig2015</a>] Katrin Braunschweig, Maik Thiele, Julian Eberius, Wolfgang Lehner: <a href="http://dl.acm.org/citation.cfm?id=2695794">Column-specific Context Extraction for Web Tables</a> Proceedings of SAC, 2015.</li>
+<li>[<a name="Tam2015">Tam2015</a>] Nguyen Thanh Tam, Nguyen Quoc Viet Hung, Matthias Weidlich, Karl Aberer: <a href="http://infoscience.epfl.ch/record/203577/files/ICDE15_Webtable.pdf">Result Selection and Summarization for Web Table Search</a> Proceedings of the 31st International Conference on Data Engineering, 2015.</li>
+<li>[<a name="Fan2014">Fan2014</a>] Ju Fan, Meiyu Lu, Beng Chin Ooi, Wang-Chiew Tan, Meihui Zhang: <a href="http://www.comp.nus.edu.sg/~cdas/pdfs/crowdweb.pdf">A Hybrid Machine-Crowdsourcing System for Matching Web Tables</a> Proceedings of the 30st International Conference on Data Engineering, 2014.</li>
+<li>[<a name="Mulwad2010">Mulwad2010</a>] Varish Mulwad, Tim Finin, Zareen Syed, Anupam Joshi: <a href="http://ceur-ws.org/Vol-665/MulwadEtAl_COLD2010.pdf">Using linked data to interpret tables</a> Proceedings of the 1st International Workshop on Consuming Linked Data, 2010.</li>
+<li>[<a name="Wang2015">Wang2015</a>] Hong Wang, Anqi Liu, Jing Wang, Brian D. Ziebart, Clement T. Yu, Warren Shen: <a href="http://dl.acm.org/citation.cfm?id=2809453">Context Retrieval for Web Tables</a> Proceedings of the ICTIR, 2015.</li>
+<li>[<a name="Chu2015">Chu2015</a>] Xu Chu, John Morcos, Ihab F. Ilyas, Mourad Ouzzani, Paolo Papotti, Nan Tang, Yin Ye: <a href="http://dl.acm.org/citation.cfm?id=2809453">KATARA: A Data Cleaning System Powered by Knowledge Bases and Crowdsourcing</a> Proceedings of the SIGMOD, 2015.</li>
+<li>[<a name="Braunschweig2015a">Braunschweig2015a</a>] Katrin Braunschweig: <a href="http://nbn-resolving.de/urn:nbn:de:bsz:14-qucosa-184502">Recovering the Semantics of Tabular Web Data</a> PhD Thesis, 2015.</li>
+<li>[<a name="Eberius2015">Eberius2015</a>] Julian Eberius, Katrin Braunschweig, Markus Hentsch, Maik Thiele, Ahmad Ahmadov, Wolfgang Lehner: <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7406328&isnumber=7406315">Building the Dresden Web Table Corpus: A Classification Approach</a> Proceedings of the 2nd International Symposium on Big Data Computing (BDC), 2015.</li>
+<li>[<a name="Ahmadov2015">Ahmadov2015</a>] Ahmad Ahmadov, Maik Thiele, Julian Eberius, Wolfgang Lehner, Robert Wrembel: <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7406326&isnumber=7406315">Towards a Hybrid Imputation Approach Using Web Tables</a> Proceedings of the 2nd International Symposium on Big Data Computing (BDC), 2015.</li>
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+
+</body></html>

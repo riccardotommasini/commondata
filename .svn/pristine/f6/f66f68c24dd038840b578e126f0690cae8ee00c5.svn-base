@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="protocol-ftp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/protocol-ftp/protocol-ftp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/protocol-ftp/commons-net-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

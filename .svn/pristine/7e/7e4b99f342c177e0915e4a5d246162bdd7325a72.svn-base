@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>WDC - Web Table Corpus 2015 - Download Instructions</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Petar Risotski, Christian Bizer, Oliver Lehmberg, Heiko Paulheim">
+<meta name="keywords" content="Web Tables, HTML table corpus, English subset">
+<link rel=Stylesheet href=stylesheet.css>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+    <style>
+
+
+        @media all {
+            .container_chart { display: block; }
+            .page-break    { display: none; }
+        }
+
+        @media print {
+            * { font-size: 95%; }
+            .container_chart { display: inline-block; }
+            .page-break    { display: inline-block; page-break-after:always; }
+        }
+
+    </style>
+	
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+<div id="header">
+  <div id="header2">
+    <h1 style="font-size: 250%;">WDC Web Table Corpus 2015 - Download Instructions</h1>
+  </div>
+</div>
+<div id="authors"> <a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dominique-ritze/">Dominique Ritze</a><br />
+  <a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+  <a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+  <a href="http://www.bizer.de/">Christian Bizer</a><br />
+  Sanikumar Zope</div>
+<div id="content">
+<p>This page describes the data format that is used to represent table data. Further, it contains the download instructions for the WDC Web Table Corpora 2015. General information about the WDC Web Table Corpus 2015 can be found on the <a href="../index.html#results-2015">overview page</a>.</p>
+
+<h2 id="format">1. Data Format</h2>
+<p>
+As data format, we use JSON containing not only the table data but also meta- and context information. Figure 1 shows an exmaple Web table about soccer clubs, the section below shows the resulting JSON file. The relation object represents the Web table itself in a column wise format. Each array of the object contains the content of one column, this holds for both <a href="../index.html#results-2015">horizontal and vertical tables</a>. For horizontal tables, this means each array covers all values belonging to one attribute. Further, the basic information like the page title, title of the table (if present) and url are listed together with some administrative data like the offset and s3Link. Since we do not only parse the table, all computed information, e.g. the table type, orientation, header and key column is also included, see <a href="../index.html#results-2015">extraction description</a> for further details. </p>
+<p>
+Whenever we speak about an index, e.g. <i>headerRowIndex</i> or <i>keyColumnIndex</i>, the index starts at 0. We apply our own header detection which sets <i>hasHeader</i> to true if we found a header and indicates the according header row in <i>headerRowIndex</i>. The field <i>headerPosition</i> which is in this example set to "FIRST_ROW" represtens the original header detection from the DWCT group. Since they only have a look at HTML header-tags in a table which are rarely used, we added our header detection but kept this header detection for compatibility. In our example, the header for attributes is the first row consisting of the values "#","Club","Country","Points" while the key column is the second column "Club","Barcelona","Real Madrid","Bayern München","Paris Saint Germain","Atlético Madrid","Juventus","Manchester City","Arsenal","FC Porto","Manchester United".
+</p>
+All contextual information like the timestamps and the surrounding words are contained. We applied a simple heuristic to exclude HTML tags from the sourrounding text. Note that the timestamps are extracted from the previous resp. following paragraph (text within next next HTML paragrpah tag) which does not need to correspond to timestamps found in the sourrounding 200 words, e.g. another table follows and not a paragrpah. Note that the table does not have a caption, that is why the title object is empty.
+</p>
+<figure>
+  <img src="exampleTable.png" alt="Example table">
+  <figcaption>
+    <p>Fig. 1: Example Web table of soccer clubs</p>
+  </figcaption>
+</figure> 
+<p>&nbsp;</p>
+<div class="note-box-text note-box-example-code"><div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="javascript source-javascript"><pre class="de1"><span class="br0">&#123;</span>
+  <span class="st0">&quot;relation&quot;</span><span class="sy0">:[</span> 
+	<span class="st0">["#","1","2","3","4","5","6","7","8","9","10"]</span><span class="sy0">,</span> 
+	<span class="st0">["Club","Barcelona","Real Madrid","Bayern München","Paris Saint Germain","Atlético Madrid","Juventus","Manchester City","Arsenal","FC Porto","Manchester United"]</span><span class="sy0">,</span> 
+	<span class="st0">["Country","ESP","ESP","GER","FRE","ESP","ITA","ENG","ENG","POR","ENG"]</span><span class="sy0">,</span>
+	<span class="st0">["Points","2037","2008","1973","1914","1880","1863","1862","1853","1850","1804"]</span>
+<span class="br0">   &#93;</span>
+  <span class="st0">&quot;pageTitle&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;FootballDatabase - Club Rankings and Statistics&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;title&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;url&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;http://footballdatabase.com/index.php?page\u003dplayer\u0026Id\u003d660&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;hasHeader&quot;</span><span class="sy0">:</span> <span class="nu0">true</span><span class="sy0">,</span>
+  <span class="st0">&quot;headerPosition&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;FIRST_ROW&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;tableType&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;RELATION&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;tableNum&quot;</span><span class="sy0">:</span> <span class="nu0">0</span><span class="sy0">,</span>
+  <span class="st0">&quot;s3Link&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;common-crawl/crawl-data/CC-MAIN-2015-32/segments/1438042981460.12/warc/CC-MAIN-20150728002301-00000-ip-10-236-191-2.ec2.internal.warc.gz&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;recordEndOffset&quot;</span><span class="sy0">:</span> <span class="nu0">99246001</span><span class="sy0">,</span>
+  <span class="st0">&quot;recordOffset&quot;</span><span class="sy0">:</span> <span class="nu0">99230046</span><span class="sy0">,</span>
+  <span class="st0">&quot;tableOrientation&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;HORIZONTAL&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;TableContextTimeStampBeforeTable&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;{10283\u003dOn Wednesday, December 6, 2006 Islanders General Manager Garth Snow attended the Fifth Annual John Theissen Holiday Fundraiser.}&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;TableContextTimeStampAfterTable&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;{37811\u003dIn 2005, Slovakian champion FC Artmedia upset 39-time Scottish league champion Celtic 5-0 in their European Champions League second-round qualifying match.}&quot;</span><span class="sy0">,</span>  
+  <span class="st0">&quot;lastModified&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;Sat, 19 Jun 2010 15:14:57 GMT&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;textBeforeTable&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;Chelsea Ronnie MacDonald Bayern München Peter P. Juventus Mitsurinho Real Madrid Jan S0L0 Barcelona Globovision Football&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;textAfterTable&quot;</span><span class="sy0">:</span> <span class="nu0">&quot;Full World Ranking Match Centre Argentina Primera 2015 26 July 2015 Vélez Sarsfield 0 - 2 Olimpo Brazil Serie A 2015 26 July 2015 Vasco da Gama 1 - 4 Palmeiras Mexico Liga&quot;</span><span class="sy0">,</span>
+  <span class="st0">&quot;hasKeyColumn&quot;</span><span class="sy0">:</span> <span class="nu0">true</span><span class="sy0">,</span>
+  <span class="st0">&quot;keyColumnIndex&quot;</span><span class="sy0">:</span> <span class="nu0">1</span><span class="sy0">,</span>
+  <span class="st0">&quot;headerRowIndex&quot;</span><span class="sy0">:</span> <span class="nu0">0</span><span class="sy0"></span>  
+<span class="br0">&#125;</span></pre></div></div></div>
+
+<h2 id="download">2. Download</h2>
+<p>We provide 3 different downloads: the complete Web Table Corpus containing all tables types (also entity and relational tables), the relational Web Table Corpus and the English Web Table Corpus. The complete corpus is divided into 99 archives. Each archive in the complete corpus contains one folder with JSON files describing Web tables extracted from a couple thousand Web pages. Similar holds for the relational corpus also consisting of 99 archives. The English Web Table Corpus consists of 51 archives where each archive covers about 1 million JSON files. In contrast to the other two downloads, one JSON file only describes one Web table.
+</p>
+
+<p>To download the corpora of Web tables use the following links:</p>
+<table>
+<tr><th>Data Set</th><th>Size</th><th>#Files</th></tr>
+<tr>
+  <td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/completeCorpus/compressed">Complete Corpus 2015</a></td><td>165 GB</td><td>99 (.tar)</td></tr>
+<tr>
+  <td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/relationalCorpus/compressed">Relational Corpus 2015</a></td><td>69 GB</td><td>99 (.tar)</td></tr>
+<tr>
+  <td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/englishCorpus/compressed">English-Language Relational Web Tables 2015</a></td><td>69 GB</td><td>51 (.tar)</td></tr>
+</table>
+<br/>
+You can download a data sample from the complete corpus on the following link:
+<ul>
+<li><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/sample.gz">~10.000 random Web tables</a></li>
+</ul>
+
+</p>
+<h2 id="feedback">3. Feedback</h2>
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br>
+More information about Web Data Commons is found <a href="../index.html">here</a>.
+</p>
+
+<h2 id="acknowledgments">4. Credits</h2>
+<p>The extraction of the Web Table Corpus was supported by an <a href="http://aws.amazon.com/education/">Amazon Web Services in Education Grant award</a>.</p>
+<a href="http://aws.amazon.com/education/"><img src="../../images/aws.png" alt="AWS Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  </div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+  </script>
+</body></html>

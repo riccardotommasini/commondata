@@ -1,0 +1,166 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-03/schema",
+	"description": "The file provides basic statistics for all content tables that were extracted from the given Web page",
+	"id": "http://jsonschema.net",
+	"required": false,
+	"properties": {
+		"arcfilePosition": {
+			"type": "number",
+			"description": "THE FIELD IS NOT RELEVANT FOR FURTHER USE!",
+			"id": "http://jsonschema.net/arcfilePosition",
+			"required": false
+		},
+		"arcfile": {
+			"type": "string",
+			"description": "THE FIELD IS NOT RELEVANT FOR FURTHER USE!",
+			"id": "http://jsonschema.net/arcfile",
+			"required": false
+		},
+		"contentTables": {
+			"type": "array",
+			"description": "Array of all tables extracted from the current Web page",
+			"id": "http://jsonschema.net/contentTables",
+			"required": false,
+			"items": {
+				"type": "object",
+				"id": "http://jsonschema.net/contentTables/0",
+				"required": false,
+				"properties": {
+					"avgCellLength": {
+						"type": "number",
+						"description": "Average length of cell values",
+						"id": "http://jsonschema.net/contentTables/0/avgCellLength",
+						"required": false
+					},
+					"avgColCount": {
+						"type": "number",
+						"description": "Number of rows in the extracted table. (don't get confused with the field name)",
+						"id": "http://jsonschema.net/contentTables/0/avgColCount",
+						"required": false
+					},
+					"avgRowCount": {
+						"type": "number",
+						"description": "Number of columns in the extracted table. (don't get confused with the field name)",
+						"id": "http://jsonschema.net/contentTables/0/avgRowCount",
+						"required": false
+					},
+					"cellLengthStdDeviation": {
+						"type": "number",
+						"description": "Standard deviation of cell values lenght",
+						"id": "http://jsonschema.net/contentTables/0/cellLengthStdDeviation",
+						"required": false
+					},
+					"colCLC": {
+						"type": "number",
+						"description": "Cumulative length consistency of table columns.",
+						"id": "http://jsonschema.net/contentTables/0/colCLC",
+						"required": false
+					},
+					"colCTC": {
+						"type": "number",
+						"description": "cumulative content type consistency of table columns. ",
+						"id": "http://jsonschema.net/contentTables/0/colCTC",
+						"required": false
+					},
+					"colStdDeviation": {
+						"type": "number",
+						"description": "Standard deviation of the number of cells in all table's columns",
+						"id": "http://jsonschema.net/contentTables/0/colStdDeviation",
+						"required": false
+					},
+					"content": {
+						"type": "boolean",
+						"description": "True if the table is a content table. (always true)",
+						"id": "http://jsonschema.net/contentTables/0/content",
+						"required": false
+					},
+					"digitPercentage": {
+						"type": "number",
+						"description": "Percent of numeric cell values.",
+						"id": "http://jsonschema.net/contentTables/0/digitPercentage",
+						"required": false
+					},
+					"emptyPercentage": {
+						"type": "number",
+						"description": "Percent of empty cells.",
+						"id": "http://jsonschema.net/contentTables/0/emptyPercentage",
+						"required": false
+					},
+					"end": {
+						"type": "number",
+						"description": "Position of the last character of the Web table in the HTML file.",
+						"id": "http://jsonschema.net/contentTables/0/end",
+						"required": false
+					},
+					"formPercentage": {
+						"type": "number",
+						"description": "Percent of forms in cells.",
+						"id": "http://jsonschema.net/contentTables/0/formPercentage",
+						"required": false
+					},
+					"imagePercentage": {
+						"type": "number",
+						"description": "Percent of cells with image content.",
+						"id": "http://jsonschema.net/contentTables/0/imagePercentage",
+						"required": false
+					},
+					"linkPercentage": {
+						"type": "number",
+						"description": "Percent of cells that contain links.",
+						"id": "http://jsonschema.net/contentTables/0/linkPercentage",
+						"required": false
+					},
+					"relevant": {
+						"type": "boolean",
+						"title": "THE FIELD IS NOT RELEVANT FOR FURTHER USE!",
+						"id": "http://jsonschema.net/contentTables/0/relevant",
+						"required": false
+					},
+					"rowCLC": {
+						"type": "number",
+						"description": "Cumulative length consistency of table rows. ",
+						"id": "http://jsonschema.net/contentTables/0/rowCLC",
+						"required": false
+					},
+					"start": {
+						"type": "number",
+						"description": "Position of the first character of the Web table in the HTML file.",
+						"id": "http://jsonschema.net/contentTables/0/start",
+						"required": false
+					},
+					"textPercentage": {
+						"type": "number",
+						"description": "Percent of cells with string values.",
+						"id": "http://jsonschema.net/contentTables/0/textPercentage",
+						"required": false
+					}
+				}
+			}
+		},
+		"filename": {
+			"type": "string",
+			"description": "The name of the HTML file",
+			"id": "http://jsonschema.net/filename",
+			"required": false
+		},
+		"hasContentTables": {
+			"type": "boolean",
+			"description": "True if the web page contains web tables. (always true)",
+			"id": "http://jsonschema.net/hasContentTables",
+			"required": false
+		},
+		"hasRelevantTables": {
+			"type": "boolean",
+			"description": "THE FIELD IS NOT RELEVANT FOR FURTHER USE!",
+			"id": "http://jsonschema.net/hasRelevantTables",
+			"required": false
+		},
+		"uri": {
+			"type": "string",
+			"title": "The URL of the current Web page",
+			"id": "http://jsonschema.net/uri",
+			"required": false
+		}
+	}
+}

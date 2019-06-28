@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>WDC - Web Table Corpus 2015 - Statistics about English-language Relational Subset</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Petar Risotski, Christian Bizer, Oliver Lehmberg, Heiko Paulheim">
+<meta name="keywords" content="Web Tables, HTML table corpus, English subset">
+<link rel=Stylesheet href=stylesheet.css>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link rel=Stylesheet href=stylesheet.css>
+
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+	  
+	 //create histogram for columns distribution, horizontal tables
+	   var colsData= new google.visualization.DataTable();
+        colsData.addColumn('string', '#Columns');
+        colsData.addColumn('number', 'Number of tables');
+        colsData.addRows([
+		['2' , 8293373],
+		['3' , 8153920],
+		['4' , 9617761],
+		['5' , 5887240],
+		['6' , 4380062],
+		['7' , 4619937],
+		['8' , 1219474],
+		['9' , 1144711],
+		['10' , 1091728],
+		['11' , 635268],
+		['12' , 686946],
+		['13' , 297207],
+		['14' , 381750],
+		['15' , 205604],
+		['16' , 122192],
+		['17' , 140356],
+		['18' , 149947],
+		['19' , 151206],
+		['20' , 42091],
+		['> 20' , 448677]
+        ]);
+		
+		// Set chart options
+        var optionsCol = {'title':'Distribution of number of columns per table (Horizontal Table)',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: true}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartCols = new google.visualization.ColumnChart(document.getElementById('colsDistH'));
+        chartCols.draw(colsData, optionsCol);
+		
+//create histogram for rows distribution, vertical tables
+	   var colsData2= new google.visualization.DataTable();
+        colsData2.addColumn('string', '#Rows');
+        colsData2.addColumn('number', 'Number of tables');
+        colsData2.addRows([
+		['2' , 88092],
+		['3' , 1123029],
+		['4' , 1016348],
+		['5' , 350265],
+		['6' , 234719],
+		['7' , 136910],
+		['8' , 39688],
+		['9' , 22625],
+		['10' , 45818],
+		['11' , 17866],
+		['12' , 14560],
+		['13' , 3689],
+		['14' , 18593],
+		['15' , 3577],
+		['16' , 13974],
+		['17' , 2615],
+		['18' , 4888],
+		['19' , 6261],
+		['20' , 1936],
+		['> 20' , 5262]
+        ]);
+		
+		// Set chart options
+        var optionsCol2 = {'title':'Distribution of number of rows per table (Vertical Table)',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: true}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartCols2 = new google.visualization.ColumnChart(document.getElementById('rowsDistV'));
+        chartCols2.draw(colsData2, optionsCol2);
+				
+		//create histogram for row distribution, horizontal table
+		var rowsData= new google.visualization.DataTable();
+        rowsData.addColumn('string', '#Rows');
+        rowsData.addColumn('number', 'Number of tables');
+        rowsData.addRows([
+		['3' , 7075318],
+		['4' , 4992528],
+		['5' , 4538942],
+		['6' , 6229177],
+		['7' , 3700084],
+		['8' , 2237778],
+		['9' , 1638746],
+		['10' , 1217438],
+		['11' , 2434901],
+		['12' , 1244128],
+		['13' , 1433395],
+		['14' , 775251],
+		['15' , 523416],
+		['16' , 559270],
+		['17' , 487302],
+		['18' , 420670],
+		['19' , 443883],
+		['20' , 384443],
+		['> 20' , 7332780]
+        ]);
+		// Set chart options
+        var optionsRows= {'title':'Distribution of number of rows per table (Horizontal Table)',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e']};	   
+
+        // Instantiate and draw our chart, passing in some options.
+        var chartRows = new google.visualization.ColumnChart(document.getElementById('rowsDistH'));
+        chartRows.draw(rowsData, optionsRows);
+			   			
+		//create histogram for col distribution, vertical table
+		var rowsData2= new google.visualization.DataTable();
+        rowsData2.addColumn('string', '#Columns');
+        rowsData2.addColumn('number', 'Number of tables');
+        rowsData2.addRows([
+		['3' , 990989],
+		['4' , 302970],
+		['5' , 255013],
+		['6' , 698709],
+		['7' , 176545],
+		['8' , 84410],
+		['9' , 143883],
+		['10' , 39955],
+		['11' , 50150],
+		['12' , 27083],
+		['13' , 24863],
+		['14' , 59216],
+		['15' , 23976],
+		['16' , 21900],
+		['17' , 45769],
+		['18' , 15451],
+		['19' , 12979],
+		['20' , 13083],
+		['> 20' , 163771]
+        ]);
+		// Set chart options
+        var optionsRows2= {'title':'Distribution of number of columns per table (Vertical Table)',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e']};	   
+
+        // Instantiate and draw our chart, passing in some options.
+        var chartRows2 = new google.visualization.ColumnChart(document.getElementById('colsDistV'));
+        chartRows2.draw(rowsData2, optionsRows2);
+
+//create histogram for top 20 tlds
+	   var data2= new google.visualization.DataTable();
+        data2.addColumn('string', 'TLD');
+        data2.addColumn('number', 'Number of tables');
+        data2.addRows([
+		  ['com', 35469047],
+		  ['org', 6181787],
+          ['gov', 1815394],
+          ['edu', 1599939],
+          ['net', 1373796],
+          ['es', 1187215],
+          ['uk', 957423],
+          ['au', 394181],
+          ['us', 367615],
+          ['ca', 265908],
+		  ['de' , 122816],
+		['fr' , 99467],
+		['info' , 72980],
+		['eu' , 71656],
+		['pk' , 67295],
+		['in' , 62394],
+		['fm' , 43087],
+		['za' , 41440],
+		['cr' , 36875],
+		['pt' , 36034],
+		['br' , 33599],
+		['other' ,520121]
+        ]);
+		
+		var options2 = {'title':'Number of Tables per TLD',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: true}};
+			   
+		// Instantiate and draw our chart, passing in some options.
+        var chart2 = new google.visualization.ColumnChart(document.getElementById('TLDs'));
+        chart2.draw(data2, options2);	   
+
+				//create histogram for top 20 top private domains
+	   var data3= new google.visualization.DataTable();
+        data3.addColumn('string', 'PLD');
+        data3.addColumn('number', 'Number of tables');
+        data3.addRows([
+		  ['cappex.com', 2300676],
+		  ['ucm.es', 1025565],
+          ['google.com', 996493],
+          ['hollisterco.com', 788350],
+          ['d3football.com', 747199],
+          ['healthgrades.com', 671608],
+          ['reef.org', 663737],
+          ['1080thefan.com', 478942],
+          ['seatgeek.com', 467690],
+          ['gtaforums.com', 454205],
+		  ['dpreview.com' , 415929],
+		['bigstockphoto.com' , 404236],
+		['yahoo.com' , 378335],
+		['gilt.com' , 355703],
+		['timeanddate.com', 354518],
+		['appliancefactoryparts.com' , 352223],
+		['usms.org' , 343226],
+		['sportinglife.com' , 330070],
+		['stackexchange.com' , 310184],
+		['mlb.com' , 295937],
+		['clinicaltrials.gov' , 289026],
+		['other' ,38396171]
+        ]);
+
+        // Set chart options
+        var options3 = {'title':'Number of Tables per PLD',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: true}};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart3 = new google.visualization.ColumnChart(document.getElementById('PLDs'));
+        chart3.draw(data3, options3);
+
+		//create piechart for column datatypes
+		var data = google.visualization.arrayToDataTable([
+          ['datatype', '#Columns'],
+          ['Numeric', 143292388],
+		  ['String', 129595315],
+		  ['Date', 3413287],
+          ['Link', 219596],
+          ['Boolean', 8542],
+          ['List', 1974]
+        ]);
+
+        var options = {
+          title: 'Column Data Types'
+        };
+
+        var chart1 = new google.visualization.PieChart(document.getElementById('piechartDatatypes'));
+        chart1.draw(data, options);
+		
+		
+		//create histogram for headers distribution
+	   var headerData= new google.visualization.DataTable();
+        headerData.addColumn('string', '#Header');
+        headerData.addColumn('number', 'Number of tables');
+        headerData.addRows([
+		['date' ,  4226269],
+		['name',   2836442],
+		['description' ,   2497487],
+		['comments' ,  2421225],
+		['title',   2343268],
+		['categories',  2243032],
+		['time' ,  1919412],
+		['team' , 1830519],
+		['price', 1681798],
+		['forum' , 1485886],
+		['type' , 1264365],
+		['event' , 1219241],
+		['score' , 1178552],
+		['UK' , 1159253],
+		['stats' , 1128417],
+		['last_post_info' , 1115844],
+		['location' , 1112573],
+		['age' , 1033802],
+		['pos' , 979596]
+        ]);
+		
+		// Set chart options
+        var optionsHead = {'title':'Popular Column Headers',
+                       'width':1500,
+                       'height':480,
+               'colors': ['#e6693e']};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders = new google.visualization.ColumnChart(document.getElementById('headersDiv'));
+        chartHeaders.draw(headerData, optionsHead);
+      }
+    </script>
+    <style>
+
+
+        @media all {
+            .container_chart { display: block; }
+            .page-break    { display: none; }
+        }
+
+        @media print {
+            * { font-size: 95%; }
+            .container_chart { display: inline-block; }
+            .page-break    { display: inline-block; page-break-after:always; }
+        }
+
+    </style>
+	
+	<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "name":"WDC Web Table Corpus 2015 / English-language Relational Subset",
+  "description":"The dataset consists of relational Web tables in the WDC Web Table Corpus 2015 that are in English. It includes 50,820,165 tables out of the 90 million relational Web tables in the corpus",
+  "url":"http://webdatacommons.org/webtables/2015/EnglishStatistics.html",
+  "version":"2015",
+  "keywords":[
+     "web tables",
+     "relational tables",
+	 "english tables"
+  ],
+  "creator":[
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/",
+		 "name":"Christian Bizer"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/",
+		 "name":"Robert Meusel"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/",
+		 "name":"Oliver Lehmberg"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/dominique-ritze/",
+		 "name":"Dominique Ritze"
+	  },
+	  {
+		 "@type":"Person",
+		 "name":"Sanikumar Zope"
+	  }
+  ],
+  "distribution":[
+     {
+        "@type":"DataDownload",
+        "fileFormat":"json",
+        "contentUrl":"http://webdatacommons.org/webtables/2015/downloadInstructions.html"
+     }
+  ],
+  "citation":[
+	  "Oliver Lehmberg, Dominique Ritze, Robert Meusel, Christian Bizer: A Large Public Corpus of Web Tables containing Time and Context Metadata. WWW 2016"
+  ]
+  }
+</script>
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<a name='top'></a><div id="header"><h1 style="font-size: 250%;">WDC Web Table Corpus 2015 - Statistics about English-language Relational Subset</h1></div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dominique-ritze/">Dominique Ritze</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="http://www.bizer.de/">Christian Bizer</a><br />
+Sanikumar Zope </br>
+<br/>
+</div>
+
+
+<div id="content">
+<p>
+This page provides basic statistics about the subset of relational Web tables in the <a href="../index.html#results-2015">WDC Web Table Corpus 2015</a> that are in English. The subset consists of <b>50,820,165</b> tables out of the 90 million relational Web tables in the corpus. In addition, we offer statistics about a subset consisting of only <a href="relationalStatistics.html">relational tables</a> and a subset containing <a href="entityStatistics.html">entity tables</a>. All tables are publicly available for <a href="downloadInstructions.html">download</a>.
+</p>
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+<h2 id="about">1. Identifying English-language Web Tables</h2>
+<p>
+In contrast to previous extractions where English-language tables are filtered by their top-level domain ("com", "org", "net", "eu", "uk"), we now use a <a href="https://github.com/shuyo/language-detection">language detection</a> to identify English-language Web tables. The language detection uses language profiles which have been learnt on Wikipedia abstracts using a naive Bayesian filter. Accroding to the authors, the algorithm achieves a precision of over 99% and can be used for 53 languages.
+</p>
+<p>
+As input for the language detection, we take the page title, the table header as well as the text before and after the table. 
+To test the language detection, we used the extracted relational Web tables from one warc-file (1461 Web tables). We manually evaluated whether it classfies a table as English or non-English table. The algorithm decides for the correct class in 99.1% of the cases while the heuristic using top-level domains only in 86.1% of the cases.
+</p>
+
+<h3 id="statistics">2. TLDs Distribution</h3>
+
+<p>Figure 1 shows the distribution of extracted English-language Web tables per top-level domain.</p>
+
+<div style="width:720px;">
+    <div id="TLDs" style="width: 900px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 1 - Number of tables per TLD</p>
+</div>
+<p>The complete distribution of tables per top-level domain can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/statistics/English/TLD.txt">here</a>. 
+The file contains a list of key values pairs, with <code>TLD</code> as key and <code>#tables</code> as value. For example the entry, <code>Key : .com Value : 35469047</code>, means that there are 35,469,047 tables extracted from the "com" domain. Compared to the <a href="../2012/EnglishStatistics.html">previous corpus</a>, it is noticeable that the "gov" domain was not even among the top 20 TLDs.</p>
+
+
+<h3 id="statistics">3. PLD Distribution</h3>
+<p>Figure 2 shows the distribution of extracted Web tables per pay-level domain.</p>
+<div style="width:1500px;">
+    <div id="PLDs" style="width: 900px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 2 - Number of tables per PLD</p>
+</div>
+<p>Altogether, 323,160 different PLDs are represented in all the 51 million English-language tables. The complete distribution of tables per pay-level domain can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/statistics/English/PLD.txt">here</a>. Again, the file contains key value pairs where the key represents the PLD and the value the number of tables per PLD.</p>
+
+
+<h3 id="statistics">4. Table size and Distribution</h3>
+<p>Table 1 shows the overall number of English-language relational tables, divided into horizontal and vertical tables. In a horizontal table, the entities are represented in rows and the attributes in columns. Whenever the entities are included in columns and the attributes in rows, we talk about vertical tables. A vertical table can be transferred into a horizontal table by simply flipping it.<p>
+
+<table>
+  <tr><th></th><th>#tables</th></tr>
+  <tr><th>horizontal</th><td align="right">47,669,450</td></tr>
+  <tr><th>vertical</th><td align="right">3,150,715</td></tr>
+  <tr><th>sum</th><td align="right">50,820,165</td></tr>
+  <caption>Table 1: Number of horizontal and vertical relational tables</caption>
+</table>
+
+<p>Table 2 provides basic statistics for the tables' size. The row numbers exclude the header row (if present) and thus refer data rows. Data rows are all rows of the table that are positioned under the header row and contain at least one non-empty cell. <p>
+
+<table>
+<tr><th></th><th>min.</th><th>max.</th><th>average</th><th>median</th></tr>
+<tr><th>Columns Horizontal Tables (attributes)</th><td align="right">2</td> <td align="right">18106</td><td align="right">5.22</td><td align="right">4</td></tr>
+<tr><th>Rows Horizontal Tables (entities)</th><td align="right">3</td><td align="right">17033</td><td align="right">16.06</td><td align="right">7</td></tr>
+<tr><th>Columns Vertical Tables (entities)</th><td align="right">3</td> <td align="right">16142</td><td align="right">8.47</td><td align="right">4</td></tr>
+<tr><th>Rows Vertical Tables (attributes)</th><td align="right">2</td><td align="right">486</td><td align="right">4.47</td><td align="right">6</td></tr>
+<caption>Table 2: Statistics about the columns and rows</caption>
+</table>
+
+<h4 id="statistics">4.1. Horizontal Tables</h4>
+<p>Figure 3 shows the distribution of number of columns (attributes) per table (Horizontal Table).</p>
+<div style="width:1500px;">
+    <div id="colsDistH" style="width: 900px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 3 - Distribution of Number of Columns (attributes) per Table (Horizontal Table)</p>
+</div>
+The complete distribution of number of columns per horizontal table can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/statistics/English/colDistriHori_list.txt">here</a>. The key of the key value pair represents the number of columns and the value the number of horizontal tables having exactly this number of columns, e.g. the line <code>Key : 33 Value : 1323</code> means that there are 1,323 tables with exactly 13 columns.</p>
+
+<p>Figure 4 shows the distribution of number of data rows (entities) per table. Data rows are all rows of the table that are positioned under the header row and contain at least one non-empty cell.
+</p>
+<div style="width:1500px;">
+    <div id="rowsDistH" style="width: 900px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 4 - Distribution of Number of Rows (entities) per Table (Horizontal Table)</p>
+</div>
+The complete distribution of number of rows per horizontal table can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/statistics/English/rowDistriHori_list.txt">here</a>.
+The key of the key value pair represents the number of data rows and the value the number of horizontal tables having exactly this number of data rows, e.g. the line <code>Key : 8 Value : 2932320</code> means that there are 2,932,320 tables with exactly 8 data rows.</p>
+
+<h4 id="statistics">4.2. Vertical Tables</h4>
+<p>Figure 5 shows the distribution of number of columns (entities) per table (Vertical Table).</p>
+<div style="width:1500px;">
+    <div id="colsDistV" style="width: 900px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 5 - Distribution of Number of Columns (entities) per Table (Vertical Table)</p>
+</div>
+<p>
+</br>The complete distribution of number of columns per vertical table can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/statistics/English/rowDistriVerti_list.txt">here</a>. 
+The key of the key value pair represents the number of columns and the value the number of vertical tables having exactly this number of columns, e.g. the line <code>Key : 13 Value : 42917</code> means that there are 42,917 tables with exactly 13 columns. Since we know that these tables are vertical, this number corresponds to the number of rows after flipping the table.</p>
+
+<p>Figure 6 shows the distribution of number of data rows (attributes) per table (Vertical Table).
+</p>
+<div style="width:1500px;">
+    <div id="rowsDistV" style="width: 900px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 6 - Distribution of Number of Rows (attributes) per Table(Vertical Table)</p>
+</div>
+
+<p>
+The complete distribution of number of rows per vertical table can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/statistics/English/colDistriVerti_list.txt">here</a>.
+The key of the key value pair represents the number of data rows and the value the number of vertical tables having exactly this number of data rows, e.g. the line <code>Key : 8 Value : 38554</code> means that there are 38,554 tables with exactly 8 rows. Since we know that these tables are vertical, this number corresponds to the number of columns after flipping the table.</p>
+
+<h3 id="statistics">5. Headers Distribution</h3>
+<p>In order to get a first impression about the topics of the tables, we applied a simple heuristic for identifying the column headers of each Web table. Our heuristic is based on the Cell Content Pattern, which is defined as a tuple containing a representation of the composition of characters in a cell [<a href="#Tang2006">Tang2006</a>]. After extracting the content pattern of a cell, a comparison between the patterns in the current row and the following rows is made. If one row shows different patterns compared to its following rows, we consider this row as header containing the column names. By now, we only consider two cases: the first row is the header row or no header row exists. A more sophisticated header unfolding [<a href="#Chen2013">Chen2013</a>] would be necessary to find for example headers that spanning over several rows.</p>
+<p>
+In contrast to our previous extraction, we can now deal with headers of vertical tables [<a href="#Crestan2011">Crestan2011</a>] and we know whether a header is present or not (about 20% of all tables do not have a header according to [<a href="#Pimplikar2012">Pimplikar2012</a>]). 
+We did not take any column name synonyms like 'population' and 'number of inhabitants' into account. The only simple normalization we apply is to remove trailing 's' to get singular forms of nouns. Thus, the number of different headers can be seen as upper bound.</p>
+<p>
+
+<p>
+<br/> With the current approach were able to identify total of <b>49,496,022</b> column headers from which <b>2,823,260</b> are different. Figure 7 shows popular (useful) column headers together with their number of occurrences. The most often used header is the empty string (17,077,810 times) which we exclude in the figure since it does not provide any information about the content of the tables.</p>
+
+<div style="width:1500px;">
+    <div id="headersDiv" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 7 - Popular Column Headers</p>
+</div>
+
+<p>
+The complete distribution of headers can be found <a href="http://data.dws.informatik.uni-mannheim.de/webtables/2015-07/statistics/English/header.tar.gz">here</a>. 
+The file contains a list of two tab separated fields, <code>header</code> and <code>#tables</code>. E.g. the entry of the file, <code>Key : date Value : 4226269</code>, means that there are 4,226,269 tables that contain a column with header <code>date</code>.
+</br>
+</p>
+
+<h3 id="statistics">6. Column Data Types Distribution</h3>
+<p>Currently computed</p>
+<p>
+We used a rough type guessing algorithm to detect the data type of each table column. First, the data type of each column value was detect, using 5 pre-defined data types: string, numeric, date, boolean and list. Afterwards, the most used data type in the column was chosen as the final data type of the column. 
+</p>
+<p>
+Figure 8 shows distribution of column data types.
+</p>
+
+<div style="width:720px;">
+    <div id="piechartDatatypes" style="width: 900px; height: 500px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 8 - Column Data Types Distribution</p>
+</div>
+
+
+<h3 id="statistics">7. Context Information</h3>
+</p>
+<p>Table 3 provides basic statistics about context related data. It shows for how many of the English-language relational tables, context related data exists (the sourrounding words are extracted for all of the tables). The last modified date comes from the HTTP header of the HTML page.</p>
+<table >
+<tr><th></th><th>#number of tables</th></tr>
+<tr><th>Timestamp Before Relational Table</th><td align="right">7,559,004</td></tr>
+<tr><th>Timestamp After Relational Table</th><td align="right">23,966,060</td></tr>
+<tr><th>Last Modified Date of HTML Page</th><td align="right">10,253,797</td></tr>
+<caption> Table 3: Extracted Context Information</caption>
+</table>
+
+</p>
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+
+</body></html>

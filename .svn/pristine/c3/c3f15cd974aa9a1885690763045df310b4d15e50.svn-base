@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+<!-- Configuration by Dat tranquydat@gmail.com -->
+
+<configuration>
+<!-- Nutch Performance Tuning Parameters -->
+
+<property>
+  <name>fetcher.server.delay</name>
+  <!-- changed to 0 from 0.5 - default 5 -->
+  <value>0</value>
+  <description>The number of seconds the fetcher will delay between
+   successive requests to the same server.</description>
+</property>
+
+<property>
+  <name>fetcher.threads.fetch</name>
+  <!-- Changed to 20 from 10 -->
+  <value>40</value>
+  <description>The number of FetcherThreads the fetcher should use.
+  This is also determines the maximum number of requests that are
+  made at once (each FetcherThread handles one connection). The total
+  number of threads running in distributed mode will be the number of
+  fetcher threads * number of nodes as fetcher has one map task per node.
+  </description>
+</property>
+
+<property>
+  <name>fetcher.threads.per.queue</name>
+  <value>5</value>
+  <description>This number is the maximum number of threads that
+    should be allowed to access a queue at one time. Replaces
+    deprecated parameter 'fetcher.threads.per.host'.
+   </description>
+</property>
+
+<property>
+ <name>fetcher.max.crawl.delay</name>
+ <value>5</value>
+ <description>
+ If the Crawl-Delay in robots.txt is set to greater than this value (in
+ seconds) then the fetcher will skip this page, generating an error report.
+ If set to -1 the fetcher will never skip such pages and will wait the
+ amount of time retrieved from robots.txt Crawl-Delay, however long that
+ might be.
+ </description>
+</property> 
+
+<!-- Nutch Parameters for Hadoop Configuration -->
+
+<property>
+  <name>mapred.map.tasks</name>
+  <value>37</value>
+  <description>The default number of map tasks per job.  Typically set
+  to a prime several times greater than number of available hosts.
+  Ignored when mapred.job.tracker is "local".  
+  </description>
+</property>
+
+<property>
+  <name>mapred.tasktracker.tasks.maximum</name>
+  <value>5</value>
+  <description>The maximum number of tasks that will be run
+  simultaneously by a task tracker.
+  </description>
+</property>
+
+<property>
+  <name>mapred.reduce.tasks</name>
+  <value>5</value>
+  <description>The default number of reduce tasks per job.  Typically set
+  to a prime close to the number of available hosts.  Ignored when
+  mapred.job.tracker is "local".
+  </description>
+</property>
+
+<!-- General Parameters -->
+
+<property>
+ <name>http.agent.name</name>
+ <value>WebDataCommonsCrawler</value>
+</property>
+
+
+
+<property>
+  <name>http.robots.agents</name>
+  <value>WebDataCommonsCrawler,*</value>
+  <description>The agent strings we'll look for in robots.txt files,
+  comma-separated, in decreasing order of precedence. You should
+  put the value of http.agent.name as the first agent name, and keep the
+  default * at the end of the list. E.g.: BlurflDev,Blurfl,*
+  </description>
+</property>
+
+<property>
+  <name>db.update.max.inlinks</name>
+  <value>1000</value>
+  <description>Maximum number of inlinks to take into account when updating
+  a URL score in the crawlDB. Only the best scoring inlinks are kept.
+  </description>
+</property>
+
+<property>
+  <name>file.crawl.parent</name>
+  <value>true</value>
+  <description>The crawler is not restricted to the directories that you specified in the
+    Urls file but it is jumping into the parent directories as well. For your own crawlings you can
+    change this bahavior (set to false) the way that only directories beneath the directories that you specify get
+    crawled.</description>
+</property>
+
+<property>
+  <name>http.accept.language</name>
+  <value>*</value>
+  <!-- en-us,en-gb,en,de;q=0.7,*;q=0.3-->
+  <description>Value of the "Accept-Language" request header field.
+  This allows selecting non-English language as default one to retrieve.
+  It is a useful setting for search engines build for certain national group.
+  </description>
+</property>
+
+
+<!-- Properties for focused/ domain specific crawling -->
+<property>
+  <name>db.ignore.internal.links</name>
+  <value>false</value>
+  <description>If true, when adding new links to a page, links from
+  the same host are ignored.  This is an effective way to limit the
+  size of the link database, keeping only the highest quality
+  links.
+  </description>
+</property>
+
+<property>
+  <name>db.ignore.external.links</name>
+  <value>true</value>
+  <description>If true, outlinks leading from a page to external hosts
+  will be ignored. This is an effective way to limit the crawl to include
+  only initially injected hosts, without creating complex URLFilters.
+  </description>
+</property>
+
+<property>
+  <name>db.max.outlinks.per.page</name>
+  <value>-1</value>
+  <description>The maximum number of outlinks that we'll process for a page.
+  If this value is nonnegative (>=0), at most db.max.outlinks.per.page outlinks
+  will be processed for a page; otherwise, all outlinks will be processed.
+  </description>
+</property>
+
+<property>
+  <name>generate.max.count</name>
+  <value>-1</value>
+  <description>The maximum number of urls in a single
+  fetchlist.  -1 if unlimited. The urls are counted according
+  to the value of the parameter generator.count.mode.
+  </description>
+</property>
+
+<property>
+  <name>generate.count.mode</name>
+  <value>domain</value>
+  <description>Determines how the URLs are counted for generator.max.count.
+  Default value is 'host' but can be 'domain'. Note that we do not count
+  per IP in the new version of the Generator.
+  </description>
+</property>
+
+<property>
+  <name>generate.update.crawldb</name>
+  <value>false</value>
+  <description>For highly-concurrent environments, where several
+  generate/fetch/update cycles may overlap, setting this to true ensures
+  that generate will create different fetchlists even without intervening
+  updatedb-s, at the cost of running an additional job to update CrawlDB.
+  If false, running generate twice without intervening
+  updatedb will generate identical fetchlists.
+  </description>
+</property>
+
+<property>
+  <name>partition.url.mode</name>
+  <value>byDomain</value>
+  <description>Determines how to partition URLs. Default value is 'byHost',
+  also takes 'byDomain' or 'byIP'.
+  </description>
+</property>
+
+<!-- Not used in WDC as fetcher.parse is set to false as nutch crawl is performing a seperate parsing step -->
+<property>
+  <name>fetcher.follow.outlinks.depth</name>
+  <value>-1</value>
+  <description>(EXPERT)When fetcher.parse is true and this value is greater than 0 the fetcher will extract outlinks
+  and follow until the desired depth is reached. A value of 1 means all generated pages are fetched and their first degree
+  outlinks are fetched and parsed too. Be careful, this feature is in itself agnostic of the state of the CrawlDB and does not
+  know about already fetched pages. A setting larger than 2 will most likely fetch home pages twice in the same fetch cycle.
+  It is highly recommended to set db.ignore.external.links to true to restrict the outlink follower to URL's within the same
+  domain. When disabled (false) the feature is likely to follow duplicates even when depth=1.
+  A value of -1 of 0 disables this feature.
+  </description>
+</property>
+
+<property>
+  <name>fetcher.verbose</name>
+  <value>false</value>
+  <description>If true, fetcher will log more verbosely.</description>
+</property>
+
+<property>
+  <name>fetcher.store.content</name>
+  <value>true</value>
+  <description>If true, fetcher will store content.</description>
+</property>
+
+<property>
+  <name>parser.html.outlinks.ignore_tags</name>
+  <value>img,script,link</value>
+  <description>Comma separated list of HTML tags, from which outlinks
+  shouldn't be extracted. Nutch takes links from: a, area, form, frame,
+  iframe, script, link, img. If you add any of those tags here, it
+  won't be taken. Default is empty list. Probably reasonable value
+  for most people would be "img,script,link".</description>
+</property>
+
+<property>
+  <name>link.ignore.internal.host</name>
+  <value>false</value>
+  <description>Ignore outlinks to the same hostname.</description>
+</property>
+
+<property>
+  <name>link.ignore.internal.domain</name>
+  <value>false</value>
+  <description>Ignore outlinks to the same domain.</description>
+</property>
+
+<property>
+  <name>link.ignore.limit.page</name>
+  <value>true</value>
+  <description>Limit to only a single outlink to the same page.</description>
+</property>
+
+<!-- plugin properties -->
+
+<property>
+  <name>plugin.includes</name>
+  <!-- deaktivat url scoring and parse html, activate parse-wdc
+  <value>protocol-http|urlfilter-regex|parse-(html|tika)|index-(basic|anchor)|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
+  -->
+  <value>protocol-http|urlfilter-regex|parse-(wdc|tika)|index-(basic|anchor)|urlnormalizer-(pass|regex|basic)</value>
+  <description>Regular expression naming plugin directory names to
+  include.  Any plugin not matching this expression is excluded.
+  In any case you need at least include the nutch-extensionpoints plugin. By
+  default Nutch includes crawling just HTML and plain text via HTTP,
+  and basic indexing and search plugins. In order to use HTTPS please enable
+  protocol-httpclient, but be aware of possible intermittent problems with the
+  underlying commons-httpclient library.
+  </description>
+</property>
+
+
+<property>
+  <name>plugin.excludes</name>
+   <!-- deactivate url scoring
+  <value></value>
+  -->
+  <value>scoring-opic</value>
+  <description>Regular expression naming plugin directory names to exclude.
+  </description>
+</property>
+
+
+<property>
+  <name>plugin.auto-activation</name>
+
+  <value>true</value>
+  <description>Defines if some plugins that are not activated regarding
+  the plugin.includes and plugin.excludes properties must be automaticaly
+  activated if they are needed by some actived plugins.
+  </description>
+</property>
+
+
+<property>
+  <name>scoring.filter.order</name>
+  <value></value>
+  <description>The order in which scoring filters are applied.
+  This may be left empty (in which case all available scoring
+  filters will be applied in the order defined in plugin-includes
+  and plugin-excludes), or a space separated list of implementation
+  classes.
+  </description>
+</property>
+</configuration>

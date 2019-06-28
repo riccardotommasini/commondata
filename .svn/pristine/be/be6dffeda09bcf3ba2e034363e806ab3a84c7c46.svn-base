@@ -1,0 +1,127 @@
+3819047	0.0987668289	http://search.yahoo.com/searchmonkey/reference/summary	http://purl.org/dc/elements/1.1/description					
+2658662	0.0687573667	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address					
+2221697	0.057456734	http://rdf.data-vocabulary.org/role	http://rdf.data-vocabulary.org/address					
+2218004	0.0573612269	http://rdf.data-vocabulary.org/nickname	http://rdf.data-vocabulary.org/role					
+2215182	0.0572882454	http://rdf.data-vocabulary.org/nickname	http://rdf.data-vocabulary.org/role	http://rdf.data-vocabulary.org/address				
+2095406	0.0541906413	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/postal-code					
+2090886	0.0540737466	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/region					
+2015169	0.0521155806	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/postal-code				
+1642427	0.0424758602	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/region				
+1459225	0.0377379556	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/country-name					
+1453432	0.0375881391	http://www.w3.org/2006/vcard/nslocality	http://www.w3.org/2006/vcard/nsregion					
+1444239	0.037350393	http://www.w3.org/2006/vcard/nslocality	http://www.w3.org/2006/vcard/nsstreet-address					
+1429927	0.0369802612	http://www.w3.org/2006/vcard/nslocality	http://www.w3.org/2006/vcard/nsstreet-address	http://www.w3.org/2006/vcard/nsregion				
+1419761	0.0367173517	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/country-name				
+1377229	0.0356174043	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/name					
+1207477	0.0312273387	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/region			
+1144220	0.0295914088	http://www.w3.org/2006/vcard/nsadr	http://www.w3.org/2006/vcard/nstel					
+1092713	0.0282593532	http://creativecommons.org/nsattributionName	http://creativecommons.org/nsattributionURL					
+1046412	0.0270619333	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/country-name	http://rdf.data-vocabulary.org/postal-code			
+959637	0.0248177892	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name					
+953039	0.0246471541	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/postal-code					
+934400	0.0241651189	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/url					
+911653	0.0235768441	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends					
+911653	0.0235768441	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends					
+911650	0.0235767666	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends				
+897881	0.0232206776	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type					
+840248	0.0217301936	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmlapp-id					
+837548	0.0216603671	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/url				
+823178	0.0212887353	http://creativecommons.org/nsattributionName	http://purl.org/dc/elements/1.1/title					
+813912	0.0210491013	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfviewPictures					
+813906	0.0210489462	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfviewPictures			
+812252	0.021006171	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdffriendCount					
+812235	0.0210057314	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdffriendCount				
+812232	0.0210056538	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdffriendCount			
+812199	0.0210048003	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdffriendCount	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfviewPictures		
+811407	0.0209843179	http://search.yahoo.com/searchmonkey/media/title	http://search.yahoo.com/searchmonkey/media/thumbnail					
+810482	0.0209603959	http://search.yahoo.com/searchmonkey-relation/Link	http://www.w3.org/2006/vcard/nsadr	http://www.w3.org/2006/vcard/nstel				
+793879	0.020531015	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url			
+793515	0.0205216014	http://creativecommons.org/nsattributionName	http://creativecommons.org/nsattributionURL	http://purl.org/dc/elements/1.1/title				
+782530	0.0202375113	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/name					
+774509	0.020030075	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/name				
+744440	0.0192524413	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/postal-code				
+744440	0.0192524413	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/name				
+742631	0.0192056576	http://purl.org/dc/terms/date	http://purl.org/dc/terms/title					
+741233	0.019169503	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url				
+741233	0.019169503	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url				
+737025	0.0190606772	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/name		
+735885	0.0190311949	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/rating					
+713669	0.0184566527	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/rating			
+707034	0.0182850607	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/postal-code			
+707034	0.0182850607	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/rating		
+706190	0.0182632335	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/rating				
+706190	0.0182632335	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/rating				
+698172	0.0180558748	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/rating	
+691955	0.017895093	http://rdf.data-vocabulary.org/tel	http://rdf.data-vocabulary.org/address					
+640930	0.0165755027	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/rating			
+640930	0.0165755027	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/rating			
+640930	0.0165755027	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/rating			
+634684	0.0164139708	http://purl.org/dc/elements/1.1/type	http://purl.org/dc/elements/1.1/title					
+623405	0.0161222774	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins					
+602080	0.0155707778	http://purl.org/dc/elements/1.1/type	http://creativecommons.org/nsattributionName	http://purl.org/dc/elements/1.1/title				
+586483	0.0151674138	http://purl.org/dc/terms/creator	http://purl.org/dc/terms/description					
+583287	0.01508476	http://search.yahoo.com/searchmonkey/media/title	http://purl.org/dc/terms/description					
+578029	0.0149487795	http://purl.org/dc/elements/1.1/type	http://creativecommons.org/nsattributionName	http://creativecommons.org/nsattributionURL	http://purl.org/dc/elements/1.1/title			
+576055	0.0148977286	http://purl.org/dc/terms/creator	http://search.yahoo.com/searchmonkey/media/title	http://purl.org/dc/terms/description				
+574859	0.0148667981	http://www.purl.org/stuff/revnumRatings	http://www.purl.org/stuff/revmaxRating	http://www.purl.org/stuff/revrating				
+574691	0.0148624533	http://search.yahoo.com/searchmonkey/media/title	http://purl.org/dc/terms/description	http://search.yahoo.com/searchmonkey/media/thumbnail				
+574103	0.0148472467	http://purl.org/dc/terms/creator	http://search.yahoo.com/searchmonkey/media/title	http://purl.org/dc/terms/description	http://search.yahoo.com/searchmonkey/media/thumbnail			
+567853	0.0146856114	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/image					
+563930	0.0145841562	http://www.w3.org/2006/vcard/nspostal-code	http://www.w3.org/2006/vcard/nslocality					
+563605	0.0145757511	http://www.w3.org/2006/vcard/nspostal-code	http://www.w3.org/2006/vcard/nslocality	http://www.w3.org/2006/vcard/nsstreet-address				
+562579	0.0145492171	http://www.w3.org/2006/vcard/nspostal-code	http://www.w3.org/2006/vcard/nslocality	http://www.w3.org/2006/vcard/nsstreet-address	http://www.w3.org/2006/vcard/nsregion			
+520349	0.0134570799	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/country-name	http://rdf.data-vocabulary.org/name		
+518269	0.0134032877	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/image				
+508833	0.0131592572	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/country-name	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/postal-code	
+497776	0.0128733051	http://search.yahoo.com/searchmonkey/media/height	http://search.yahoo.com/searchmonkey/media/width					
+497318	0.0128614604	http://search.yahoo.com/searchmonkey/media/height	http://search.yahoo.com/searchmonkey/media/title					
+497317	0.0128614346	http://search.yahoo.com/searchmonkey/media/height	http://search.yahoo.com/searchmonkey/media/title	http://search.yahoo.com/searchmonkey/media/width				
+490071	0.0126740411	http://search.yahoo.com/searchmonkey/media/height	http://search.yahoo.com/searchmonkey/media/title	http://search.yahoo.com/searchmonkey/media/thumbnail				
+490070	0.0126740152	http://search.yahoo.com/searchmonkey/media/height	http://search.yahoo.com/searchmonkey/media/title	http://search.yahoo.com/searchmonkey/media/thumbnail	http://search.yahoo.com/searchmonkey/media/width			
+487998	0.0126204299	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfheadline					
+487985	0.0126200937	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfheadline	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends			
+487950	0.0126191886	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfheadline	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfviewPictures		
+487378	0.0126043957	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfheadline	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdffriendCount	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfviewPictures	
+482970	0.0124903976	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image			
+475788	0.0123046593	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/country-name	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/rating
+456027	0.0117936073	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://www.facebook.com/2008/fbmlapp-id				
+448968	0.01161105	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url		
+444327	0.0114910261	http://purl.org/dc/terms/duration	http://purl.org/dc/terms/title					
+443227	0.0114625783	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+440796	0.0113997087	http://purl.org/mediasample	http://purl.org/dc/terms/title					
+440793	0.0113996311	http://purl.org/dc/terms/duration	http://purl.org/mediasample	http://purl.org/dc/terms/title				
+435933	0.0112739435	http://purl.org/dc/elements/1.1/title	http://purl.org/dc/elements/1.1/source					
+424962	0.0109902154	http://search.yahoo.com/searchmonkey/media/presentation	http://search.yahoo.com/searchmonkey/media/title					
+424945	0.0109897758	http://search.yahoo.com/searchmonkey/media/presentation	http://search.yahoo.com/searchmonkey/media/title	http://search.yahoo.com/searchmonkey/media/thumbnail				
+422147	0.0109174149	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends			
+421564	0.0109023375	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdflastLogin	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood					
+421504	0.0109007858	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdflastLogin	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood				
+421503	0.01090076	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdflastLogin	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends		
+413179	0.0106854877	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id			
+411274	0.0106362212	http://rdf.data-vocabulary.org/tel	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/name				
+411257	0.0106357816	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfstatus	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood					
+411208	0.0106345144	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfstatus	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage			
+411206	0.0106344626	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfstatus	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends		
+411203	0.0106343851	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfstatus	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends				
+411203	0.0106343851	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfstatus	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage				
+411203	0.0106343851	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfstatus	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood				
+410648	0.0106200318	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfphoto	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdflastLogin	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfstatus	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfsendMessage	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfmood	http://x.myspacecdn.com/modules/sitesearch/static/rdf/profileschema.rdfaddToFriends	
+410484	0.0106157905	http://search.yahoo.com/searchmonkey/media/presentation	http://search.yahoo.com/searchmonkey/media/height	http://search.yahoo.com/searchmonkey/media/title	http://search.yahoo.com/searchmonkey/media/thumbnail	http://search.yahoo.com/searchmonkey/media/width		
+409078	0.0105794291	http://purl.org/mediaposition	http://purl.org/dc/terms/title					
+409069	0.0105791963	http://purl.org/dc/terms/duration	http://purl.org/mediasample	http://purl.org/mediaposition	http://purl.org/dc/terms/title			
+408510	0.0105647397	http://rdf.data-vocabulary.org/rating	http://rdf.data-vocabulary.org/itemreviewed					
+406431	0.0105109733	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id		
+406275	0.0105069389	http://search.yahoo.com/searchmonkey-relation/Link	http://www.purl.org/stuff/revReview					
+405898	0.010497189	http://purl.org/dc/terms/duration	http://purl.org/mediasample	http://purl.org/mediaposition				
+405898	0.010497189	http://purl.org/mediasample	http://purl.org/mediaposition	http://purl.org/dc/terms/title				
+396268	0.0102481414	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description					
+395026	0.0102160213	http://www.w3.org/2006/vcard/nsadr	http://search.yahoo.com/searchmonkey/commerce/businessCategory					
+393565	0.0101782374	http://xmlns.com/foaf/0.1/homepage	http://xmlns.com/foaf/0.1/name					
+388969	0.0100593773	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name				
+385132	0.0099601462	http://search.yahoo.com/searchmonkey-relation/Link	http://www.purl.org/stuff/revReview	http://www.purl.org/stuff/revtext				
+380395	0.0098376396	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type			
+366549	0.0094795593	http://purl.org/dc/terms/description	http://purl.org/dc/terms/type					
+365872	0.0094620509	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url		
+364052	0.0094149827	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/country-name	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/region		
+356525	0.0092203222	http://search.yahoo.com/searchmonkey-relation/Link	http://www.w3.org/2006/vcard/nsadr	http://www.purl.org/stuff/revReview	http://www.w3.org/2006/vcard/nstel			
+356109	0.0092095637	http://www.w3.org/2006/vcard/nsurl	http://www.w3.org/2006/vcard/nslocality					

@@ -1,0 +1,66 @@
+16518406	0.1725430342	http://data-vocabulary.org/Breadcrumb/title	http://data-vocabulary.org/Breadcrumb/url						
+10715027	0.1119238303	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url						
+10702326	0.111791162	http://schema.org/VideoObject/name	http://schema.org/VideoObject/description						
+10697442	0.1117401462	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/description					
+10675008	0.1115058118	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/url						
+10673264	0.1114875948	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url					
+10673242	0.111487365	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/description				
+10496903	0.1096454158	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height						
+10496877	0.1096451442	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height					
+10496862	0.1096449875	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/height						
+10496861	0.109644977	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height					
+10496856	0.1096449248	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height				
+10496090	0.1096369236	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height				
+10496089	0.1096369131	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height			
+10495142	0.1096270212	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height			
+10495120	0.1096267914	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/height	http://schema.org/VideoObject/description			
+10495119	0.109626781	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://schema.org/VideoObject/description		
+10495103	0.1096266139	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height		
+10495102	0.1096266034	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	http://schema.org/VideoObject/description	
+10494663	0.1096220178	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url						
+10494652	0.1096219029	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url					
+10494644	0.1096218194	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url				
+10494641	0.109621788	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://schema.org/VideoObject/height			
+10494640	0.1096217776	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height		
+10492923	0.1096038427	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/height	
+10492895	0.1096035502	http://schema.org/VideoObject/thumbnailUrl	http://schema.org/VideoObject/playerType	http://schema.org/VideoObject/embedURL	http://schema.org/VideoObject/name	http://schema.org/VideoObject/url	http://schema.org/VideoObject/width	http://schema.org/VideoObject/description	http://schema.org/VideoObject/height
+2421256	0.0252912331	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress						
+2339117	0.0244332501	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality						
+2236878	0.0233653124	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress					
+2198620	0.0229656884	http://schema.org/Product/offers	http://schema.org/Product/name						
+2012747	0.0210241518	http://schema.org/LocalBusiness/name	http://schema.org/LocalBusiness/address						
+1703754	0.0177965649	http://schema.org/Product/name	http://schema.org/Product/image						
+1619118	0.0169124995	http://schema.org/MusicRecording/url	http://schema.org/MusicRecording/name						
+1616395	0.0168840564	http://schema.org/MusicRecording/name	http://schema.org/MusicRecording/duration						
+1614295	0.0168621208	http://schema.org/MusicRecording/url	http://schema.org/MusicRecording/name	http://schema.org/MusicRecording/duration					
+1519405	0.0158709472	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/addressLocality						
+1487221	0.0155347691	http://schema.org/MusicRecording/name	http://schema.org/MusicRecording/inAlbum						
+1471213	0.0153675576	http://schema.org/Person/url	http://schema.org/Person/name						
+1348409	0.0140848082	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress					
+1319034	0.0137779716	http://schema.org/PostalAddress/addressRegion	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/streetAddress				
+1303140	0.0136119508	http://data-vocabulary.org/Breadcrumb/title	http://data-vocabulary.org/Breadcrumb/child						
+1284708	0.0134194193	http://schema.org/Product/offers	http://schema.org/Product/name	http://schema.org/Product/image					
+1272221	0.0132889863	http://data-vocabulary.org/Breadcrumb/title	http://data-vocabulary.org/Breadcrumb/child	http://data-vocabulary.org/Breadcrumb/url					
+1269618	0.0132617967	http://schema.org/Product/name	http://schema.org/Product/description						
+1254791	0.0131069212	http://schema.org/MusicRecording/name	http://schema.org/MusicRecording/duration	http://schema.org/MusicRecording/inAlbum					
+1253113	0.0130893937	http://schema.org/MusicRecording/url	http://schema.org/MusicRecording/name	http://schema.org/MusicRecording/duration	http://schema.org/MusicRecording/inAlbum				
+1185723	0.0123854713	http://schema.org/LocalBusiness/url	http://schema.org/LocalBusiness/name						
+1133152	0.0118363409	http://schema.org/Product/name	http://schema.org/Product/description	http://schema.org/Product/image					
+1126736	0.0117693225	http://schema.org/LocalBusiness/url	http://schema.org/LocalBusiness/name	http://schema.org/LocalBusiness/address					
+1082078	0.0113028473	http://schema.org/Product/name	http://schema.org/Product/url						
+1074583	0.0112245583	http://schema.org/Offer/price	http://schema.org/Offer/priceCurrency						
+1036000	0.0108215395	http://schema.org/LocalBusiness/telephone	http://schema.org/LocalBusiness/name						
+1032697	0.010787038	http://schema.org/LocalBusiness/telephone	http://schema.org/LocalBusiness/name	http://schema.org/LocalBusiness/address					
+924876	0.0096607936	http://data-vocabulary.org/Product/description	http://data-vocabulary.org/Product/name						
+915759	0.009565562	http://data-vocabulary.org/Product/image	http://data-vocabulary.org/Product/name						
+899818	0.0093990502	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/addressCountry						
+873164	0.0091206358	http://schema.org/Product/offers	http://schema.org/Product/name	http://schema.org/Product/description	http://schema.org/Product/image				
+848728	0.0088653896	http://schema.org/Offer/price	http://schema.org/Offer/url						
+844276	0.0088188862	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/addressCountry					
+829159	0.0086609816	http://schema.org/Offer/price	http://schema.org/Offer/availability						
+820631	0.0085719023	http://schema.org/Product/offers	http://schema.org/Product/name	http://schema.org/Product/url	http://schema.org/Product/image				
+813389	0.008496256	http://data-vocabulary.org/Product/description	http://data-vocabulary.org/Product/image	http://data-vocabulary.org/Product/name					
+808040	0.008440383	http://schema.org/PostalAddress/postalCode	http://schema.org/PostalAddress/addressLocality	http://schema.org/PostalAddress/addressCountry	http://schema.org/PostalAddress/streetAddress				
+806446	0.0084237329	http://schema.org/Product/offers	http://schema.org/Product/name	http://schema.org/Product/url					
+806446	0.0084237329	http://schema.org/Product/offers	http://schema.org/Product/url	http://schema.org/Product/image					
+799850	0.0083548344	http://data-vocabulary.org/Offer/currency	http://data-vocabulary.org/Offer/price						

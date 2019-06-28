@@ -1,0 +1,786 @@
+Segment Code_Segment Description;GS1 Segment-Google TAX;Family CodeFamily Description;GS1 Family-Google TAX;Class CodeClass Description;GS1 Class-Google TAX
+10000000_Pet Care/Food;10200_Pet Supplies;10100000_Pet Care;;10101700_Pet Accessories;{10214_Pet Agility Equipment, 10215_Pet Apparel Hangers, 10216_Pet Bed Accessories, 10217_Pet Bells & Charms, 10218_Pet Biometric Monitors, 10219_Pet Bowl Mats, 10220_Pet Bowl Stands, 10221_Pet Bowls,Feeders & Waterers, 10222_Pet Carrier & Crate Accessories, 10223_Pet Carriers & Crates,  10224_Pet Collars & Harnesses, 10225_Pet Containment Systems, 10226_Pet Door Accessories, 10227_Pet Doors, 10231_Pet Food Containers, 10232_Pet Food Scoops, 10233_Pet Grooming Supplies, 10234_Pet Heating Pad Accessories, 10235_Pet Heating Pads, 10236_Pet ID Tags, 10237_Pet Leash Extensions, 10238_Pet Leashes, 10244_Pet Playpens, 10245_Pet Steps & Ramps, 10246_Pet Strollers, 10248_Pet Training Aids, 10250_Pet Waste Bag Dispensers & Holders, 10251_Pet Waste Bags, 10252_Pet Waste Disposal Systems & Tools, 10255_Vehicle Pet Barriers, 120307_Bird & Wildlife Feeder Accessories, 120308_Bird & Wildlife Feeders, 120309_Bird & Wildlife House Accessories, 120310_Bird & Wildlife Houses}
+10000000_Pet Care/Food;10200_Pet Supplies;10100000_Pet Care;;10101800_Pet Care Variety Packs;
+10000000_Pet Care/Food;10200_Pet Supplies;10100000_Pet Care;;10101600_Pet Nutritional Supplements;10249_Pet Vitamins & Supplements
+10000000_Pet Care/Food;10200_Pet Supplies;10100000_Pet Care;;10101500_Pet Welfare/Hygiene;{10228_Pet Eye Drops & Lubricants, 10229_Pet First Aid & Emergency Kits, 10230_Pet Flea & Tick Control, 10239_Pet Medical Collars, 10240_Pet Medical Tape & Bandages, 10241_Pet Medicine, 10242_Pet Muzzles, 10243_Pet Oral Care Supplies, 10247_Pet Sunscreen}
+10000000_Pet Care/Food;10200_Pet Supplies;10120000_Pet Care/Food Variety Packs;;10120100_Pet Care/Food Variety Packs;
+10000000_Pet Care/Food;10200_Pet Supplies;10110000_Pet Food/Drinks;;10111500_Pet Drinks;
+10000000_Pet Care/Food;10200_Pet Supplies;10110000_Pet Food/Drinks;;10111600_Pet Food;
+10000000_Pet Care/Food;10200_Pet Supplies;10110000_Pet Food/Drinks;;10111700_Pet Food/Drinks Variety Packs;
+47000000_Cleaning/Hygiene Products;;47100000_Cleaning Products;121006_Household Cleaning Supplies;47101600_Cleaners;
+47000000_Cleaning/Hygiene Products;;47100000_Cleaning Products;121006_Household Cleaning Supplies;47102000_Cleaning Variety Packs;
+47000000_Cleaning/Hygiene Products;;47100000_Cleaning Products;121006_Household Cleaning Supplies;47101500_Fresheners/Deodorisers;{120338_Home Fragrance Accessories, 120339_Home Fragrances}
+47000000_Cleaning/Hygiene Products;;47100000_Cleaning Products;121006_Household Cleaning Supplies;47101700_Laundry;121009_Laundry Supplies
+47000000_Cleaning/Hygiene Products;;47100000_Cleaning Products;121006_Household Cleaning Supplies;47101900_Surface Care;
+47000000_Cleaning/Hygiene Products;;47190000_Cleaning/Hygiene Products Variety Packs;;47190100_Cleaning/Hygiene Products Variety Packs;
+47000000_Cleaning/Hygiene Products;;47200000_Cleaning/Hygiene Supplies;;47200100_Product Supplies Dispensers;
+47000000_Cleaning/Hygiene Products;;47120000_Insect/Pest/Allergen Control;;47121500_Insect/Pest/Allergen Control;121011_Pest Control
+47000000_Cleaning/Hygiene Products;;47210000_Waste Management Products;;47210100_Waste Storage Products;{121005_Garbage Bags, 121016_Trash Compactor Accessories, 121017_Waste Containment, 121018_Waste Containment Accessories}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50200000_Beverages;80100_Beverages;50202200_Alcoholic Beverages;80101_Alcoholic Beverages
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50200000_Beverages;80100_Beverages;50202500_Beverages Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50200000_Beverages;80100_Beverages;50201700_Coffee/Tea/Substitutes;{80103_Coffee, 80113_Tea & Infusions}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50200000_Beverages;80100_Beverages;50202400_Non Alcoholic Beverages – Not Ready to Drink;{80110_Powdered Beverage Mixes}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50200000_Beverages;80100_Beverages;50202300_Non Alcoholic Beverages – Ready to Drink;{80104_Eggnog, 80105_Fruit Flavored Drinks, 80106_Hot Chocolate, 80107_Juice, 80111_Soda, 80112_Sports & Energy Drinks, 80114_Vinegar Drinks,80115_Water}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50180000_Bread/Bakery Products;80201_Bakery;50181700_Baking/Cooking Mixes/Supplies;80205_Cooking & Baking Ingredients
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50180000_Bread/Bakery Products;80201_Bakery;50182100_Biscuits/Cookies;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50180000_Bread/Bakery Products;80201_Bakery;50181900_Bread;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50180000_Bread/Bakery Products;80201_Bakery;50182300_Bread/Bakery Products Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50180000_Bread/Bakery Products;80201_Bakery;50182200_Savoury Bakery Products;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50180000_Bread/Bakery Products;80201_Bakery;50182000_Sweet Bakery Products;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50220000_Cereal/Grain/Pulse Products;;50221300_Cereal/Grain/Pulse Products Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50220000_Cereal/Grain/Pulse Products;;50221000_Grains/Flour;80211_Grains, Rice & Cereal
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50220000_Cereal/Grain/Pulse Products;;50221200_Processed Cereal Products;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50160000_Confectionery/Sugar Sweetening Products;;50161800_Confectionery Products;{80202_Candied & Chocolate Covered Fruit, 80203_Candy & Chocolate}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50160000_Confectionery/Sugar Sweetening Products;;50161900_Confectionery/Sugar Sweetening Products Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50160000_Confectionery/Sugar Sweetening Products;;50161500_Sugars/Sugar Substitute Products;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50230000_Food/Beverage/Tobacco Variety Packs;;50230100_Food/Beverage/Tobacco Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251300_Annona;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251400_Avocados;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50250700_Bananas;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251000_Berries/Small Fruit;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50250600_Citrus;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50252000_Fruits – Unprepared/Unprocessed (Fresh) Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251200_Kiwifruits;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251900_Miscellaneous Fruit;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251700_Papayas;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251600_Passionfruits;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251500_Persimmon;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251100_Pineapples;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50251800_Pitayas;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50250800_Pome Fruits;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50250000_Fruits – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50250900_Stone Fruit;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50270000_Fruits – Unprepared/Unprocessed (Frozen);80210_Fruits & Vegetables;50270100_Fruits – Unprepared/Unprocessed (Frozen);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50310000_Fruits – Unprepared/Unprocessed (Shelf Stable);80210_Fruits & Vegetables;50310100_Fruits – Unprepared/Unprocessed (Shelf Stable);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50100000_Fruits/Vegetables/Nuts/Seeds Prepared/Processed;80210_Fruits & Vegetables;50102000_Fruit – Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50100000_Fruits/Vegetables/Nuts/Seeds Prepared/Processed;80210_Fruits & Vegetables;50101900_Fruit/Nuts/Seeds Combination;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50100000_Fruits/Vegetables/Nuts/Seeds Prepared/Processed;80210_Fruits & Vegetables;50102200_Fruits/Vegetables/Nuts/Seeds Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50100000_Fruits/Vegetables/Nuts/Seeds Prepared/Processed;80210_Fruits & Vegetables;50101800_Nuts/Seeds – Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50100000_Fruits/Vegetables/Nuts/Seeds Prepared/Processed;80210_Fruits & Vegetables;50102100_Vegetables – Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50350000_Leaf Vegetables – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50350100_Chicory Leaves;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50350000_Leaf Vegetables – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50350200_Head Lettuce;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50350000_Leaf Vegetables – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50350600_Leaf Vegetables – Unprepared/Unprocessed Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50350000_Leaf Vegetables – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50350300_Loose Leaf/Multileaf Salad Greens;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50350000_Leaf Vegetables – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50350400_Single Leaf Salad Greens;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50350000_Leaf Vegetables – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50350500_Spinach (Fresh);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50350000_Leaf Vegetables – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50350700_Stem Lettuce;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50240000_Meat/Poultry;80212_Meat, Seafood & Eggs;50240100_Meat/Poultry – Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50240000_Meat/Poultry;80212_Meat, Seafood & Eggs;50240200_Meat/Poultry – Unprepared/Unprocessed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50240000_Meat/Poultry;80212_Meat, Seafood & Eggs;50240300_Meat/Poultry Sausages – Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50131900_Butter/Butter Substitutes;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50131800_Cheese/Cheese Substitutes;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50132000_Cream/Cream Substitutes;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50132600_Dairy Derivatives/By Products;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50132300_Eggs/Eggs Extracts (Industrial Process);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50132500_Eggs/Eggs Substitutes;80212_Meat, Seafood & Eggs
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50132200_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50131700_Milk/Milk Substitutes;{80102_Buttermilk, , 80108_Milk, 80109_Non-Dairy Milk}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50132700_Quark Products;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50130000_Milk/Butter/Cream/Yogurts/Cheese/Eggs/Substitutes;80206_Dairy Products;50132100_Yogurt/Yogurt Substitutes;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50330000_Nuts/Seeds – Unprepared/Unprocessed (Fresh);80213_Nuts & Seeds;50330100_Nuts/Seeds – Unprepared/Unprocessed (Fresh);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50340000_Nuts/Seeds – Unprepared/Unprocessed (Shelf Stable);80213_Nuts & Seeds;50340100_Nuts/Seeds – Unprepared/Unprocessed (Shelf Stable);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50150000_Oils/Fats Edible;;50151600_Fats Edible;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50150000_Oils/Fats Edible;;50151500_Oils Edible;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50150000_Oils/Fats Edible;;50151700_Oils/Fats Edible Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193000_Baby/Infant – Foods/Beverages;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193500_Dairy/Egg Based Products / Meals;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50192300_Desserts/Dessert Sauces/Toppings;80209_Frozen Desserts & Novelties
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193300_Dough Based Products / Meals;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193200_Grain Based Products / Meals;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193600_Meat Substitutes;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50192900_Pasta/Noodles;80214_Pasta & Noodles
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50191500_Prepared Soups;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193400_Prepared/Preserved Foods Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193800_Ready-Made Combination Meals;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50192500_Sandwiches/Filled Rolls/Wraps;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50192100_Snacks;80217_Snack Foods
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50192400_Sweet Spreads;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50190000_Prepared/Preserved Foods;80215_Prepared Foods;50193100_Vegetable Based Products / Meals;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50122000_Aquatic Invertebrates – Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50122300_Aquatic Invertebrates – Unprepared/Unprocessed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50122500_Aquatic Invertebrates/Fish/Shellfish/Seafood Combination;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50122200_Aquatic Plants Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50121800_Aquatic Plants Unprepared/Unprocessed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50121900_Fish – Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50121500_Fish – Unprepared/Unprocessed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50122400_Seafood Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50122100_Shellfish Prepared/Processed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50120000_Seafood;80212_Meat, Seafood & Eggs;50121700_Shellfish Unprepared/Unprocessed;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50170000_Seasonings/Preservatives/Extracts;80216_Seasonings & Spices;50171500_Herbs/Spices/Extracts;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50170000_Seasonings/Preservatives/Extracts;80216_Seasonings & Spices;50171900_Pickles/Relishes/Chutneys/Olives;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50170000_Seasonings/Preservatives/Extracts;80216_Seasonings & Spices;50171800_Sauces/Spreads/Dips/Condiments;{80207_Dips & Spreads, 80204_Condiments & Sauces}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50170000_Seasonings/Preservatives/Extracts;80216_Seasonings & Spices;50172000_Seasonings/Preservatives/Extracts Variety Packs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50170000_Seasonings/Preservatives/Extracts;80216_Seasonings & Spices;50171700_Vinegars/Cooking Wines;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50210000_Tobacco/Smoking Accessories;80300_Tobacco Products;50211500_Tobacco Products/Smoking Accessories;{80301_Chewing Tobacco, 80302_Cigarettes, 80303_Cigars, 80304_Loose Tobacco, 80305_Smoking Pipes, 80306_Vaporizers & Electronic Cigarettes, 121900_Smoking Accessories}
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50290000_Vegetables – Unprepared/Unprocessed (Frozen);80210_Fruits & Vegetables;50290100_Vegetables – Unprepared/Unprocessed (Frozen);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50320000_Vegetables – Unprepared/Unprocessed (Shelf Stable);80210_Fruits & Vegetables;50320100_Vegetables – Unprepared/Unprocessed (Shelf Stable);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261400_Beans (With Pods);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261100_Brassica Vegetables;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260200_Bulb Vegetables;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262200_Chickpeas;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260600_Cucumbers;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260700_Cucurbits – Edible Peel;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260900_Cucurbits – Inedible Peel;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262000_Edible Flowers;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262400_Ferns;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261700_Fungi;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261300_Herbs;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260800_Melons;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261900_Micro Vegetables;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261000_Other Vegetables;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261500_Peas  (With Pods);
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260400_Peppers;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260100_Root/Tuber Vegetables;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262500_Sapote;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262700_Sedges;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260500_Solanacea/Others;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261600_Stem Vegetables;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262300_Succulent;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262600_Sugar Canes;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50262100_Tidal Sea Vegetables;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50260300_Tomatoes;
+50000000_Food/Beverage/Tobacco;80000_Food, Beverages & Tobacco;50260000_Vegetables (Non Leaf) – Unprepared/Unprocessed (Fresh);80210_Fruits & Vegetables;50261800_Vegetables – Unprepared/Unprocessed (Fresh) Variety Packs;
+51000000_Healthcare;110100_Health Care;51110000_Family Planning;;51111500_Barrier Contraception;110105_Condoms
+51000000_Healthcare;110100_Health Care;51110000_Family Planning;;51111800_Family Planning Variety Packs;
+51000000_Healthcare;110100_Health Care;51110000_Family Planning;;51111600_Hormonal Contraception;110107_Contraceptive Cases
+51000000_Healthcare;110100_Health Care;51110000_Family Planning;;51111700_Intra-uterine Contraception;110122_Spermicides
+51000000_Healthcare;110100_Health Care;51120000_Health Enhancement;;51121500_Dietary Aids;
+51000000_Healthcare;110100_Health Care;51120000_Health Enhancement;;51121900_Energy/Stimulant Products;
+51000000_Healthcare;110100_Health Care;51120000_Health Enhancement;;51121800_Health Enhancement Variety Packs;
+51000000_Healthcare;110100_Health Care;51120000_Health Enhancement;;51121600_Vitamins/Minerals/Nutritional Supplements;110109_Fitness & Nutrition
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102200_Baby Treatments;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102400_Bladder/Genital/Rectal Products;110307_Enema Kits & Supplies
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51101600_Drug Administration;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51103200_Enteral Feeding Equipment;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51101700_First Aid;110108_First Aid
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102600_Flower/Homoeopathic/Homeopathic Remedies;110101_Acupuncture
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51101800_Foot/Leg Care/Treatments;{110123_Stump Shrinkers, 110124_Supports & Braces, 110309_Foot Care}
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102700_Gastrointestinal Remedy Products;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51101900_Habit Treatment;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102300_Health Treatments/Aids Variety Packs;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51103300_Oral/Mouth Treatments;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102500_Pain Relief Products;110125_Surgical Lubricants
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51101500_Personal Aids;{110102_Bed Pans, 110117_Mobility & Accessibility}
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102900_Respiratory/Allergy Products;{110120_Respiratory Care, 40302 Nasal Aspirators}
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102100_Sensory Organs Care/Treatments;{110110_Hearing Aids, 110306_Ear Care, 110319_Vision Care}
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51103000_Skin/Scalp Aid Products;
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51102800_Sleeping/Stress Relieving Products;110315_Sleeping Aids
+51000000_Healthcare;110100_Health Care;51100000_Health Treatments/Aids;;51103100_Travel Sickness Products;
+51000000_Healthcare;110100_Health Care;51140000_Healthcare Variety Packs;;51140100_Healthcare Variety Packs;
+51000000_Healthcare;110100_Health Care;51130000_Home Diagnostics;;51131500_Diagnostic Monitors;110103_Biometric Monitor Accessories, 110104_Biometric Monitors
+51000000_Healthcare;110100_Health Care;51130000_Home Diagnostics;;51131600_Diagnostic Tests;{110115_Medical Tests, 110121_Specimen Cups}
+51000000_Healthcare;110100_Health Care;51130000_Home Diagnostics;;51131700_Home Diagnostics Variety Packs;
+51000000_Healthcare;110100_Health Care;51150000_Medical Devices;;51150100_Medical Devices;{51906_Medical Instruments, 110113_Medical Alarm Systems}
+51000000_Healthcare;110100_Health Care;51160000_Pharmaceutical Drugs;;51160100_Pharmaceutical Drugs;110116_Medicine & Drugs
+51000000_Healthcare;110100_Health Care;51170000_Veterinary Healthcare;;51170200_Veterinary Medical Devices;
+51000000_Healthcare;110100_Health Care;51170000_Veterinary Healthcare;;51170100_Veterinary Pharmaceuticals;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53220000_Beauty/Personal Care/Hygiene Variety Packs;;53220100_Beauty/Personal Care/Hygiene Variety Packs;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53200000_Body Products;;53201000_Body Massage/Toning;110311_Massage & Relaxation
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53160000_Cosmetics/Fragrances;110302_Cosmetics;53161500_Aromatherapy;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53160000_Cosmetics/Fragrances;110302_Cosmetics;53161000_Cosmetic Products;{52101 Piercing_Supplies, 52102_Tattooing Supplies}
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53160000_Cosmetics/Fragrances;110302_Cosmetics;53161400_Cosmetics/Fragrances Variety Packs;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53160000_Cosmetics/Fragrances;110302_Cosmetics;53161300_Fragrances;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53160000_Cosmetics/Fragrances;110302_Cosmetics;53161200_Nail Cosmetic/Care Products;51002_Pedicure Chairs
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53140000_Hair Products;110310_Hair Care;53141100_Hair Care Products;{51001_Hairdressing Capes & Neck Covers, 51003_Salon Chairs}
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53140000_Hair Products;110310_Hair Care;53141200_Hair Products Variety Packs;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53140000_Hair Products;110310_Hair Care;53141000_Hair Removal/Masking Products;110318_Tweezers, 110314_Shaving & Grooming
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53180000_Personal Hygiene Products;;53181300_Adult Incontinence;110111_Incontinence Aids
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53180000_Personal Hygiene Products;;53181200_Feminine/Nursing Hygiene;110308_Feminine Sanitary Supplies
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53180000_Personal Hygiene Products;;53181100_General Personal Hygiene;{110303_Cotton Balls, 110304_Cotton Swabs}
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53180000_Personal Hygiene Products;;53181500_Oral Hygiene;110312_Oral Care
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53180000_Personal Hygiene Products;;53181600_Personal Hygiene Products Variety Packs;110305_Deodorant & Anti-Perspirant
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53230000_Personal Intimacy;;53230100_Sexual Toys/Aids;{110313_Personal Lubricants, 140108_Sex Toys}
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53130000_Skin Products;;53131300_Body Washing;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53130000_Skin Products;;53131100_Skin Care;110301_Back Care
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53130000_Skin Products;;53131400_Skin Products Variety Packs;
+53000000_Beauty/Personal Care/Hygiene;110300_Personal Care;53130000_Skin Products;;53131200_Skin Tanning Products;{110316_Spray Tanning Tents,110317_Tanning Beds}
+54000000_Baby Care;40000_Baby & Toddler;54120000_Baby Care Variety Packs;;54120100_Baby Care Variety Packs;
+54000000_Baby Care;40000_Baby & Toddler;54100000_Baby Feeding/Hygiene;{40800_Diapering, 40900_Nursing & Feeding, 40100_Baby Bathing, 41000_Potty Training};54101500_Baby Feeding;{40901_Baby & Toddler Food, 40902_Baby Bottle Nipples & Liners, 40903_Baby Bottles, 40904_Baby Care Timers, 40905_Bibs, 40906_Bottle Warmers & Sterilizers, 40907_Breast Milk Storage Containers, 40908_Breast Pump Accessories, 40909_Breast Pumps, 40910_Burp Cloths, 40911_Nursing Covers, 40912_Nursing Pads & Shields, 40913_Nursing Pillow Covers, 40914_Nursing Pillows, 40915_Sippy Cups}
+54000000_Baby Care;40000_Baby & Toddler;54100000_Baby Feeding/Hygiene;{40800_Diapering, 40900_Nursing & Feeding, 40100_Baby Bathing, 41000_Potty Training};54101700_Baby Feeding/Hygiene Variety Packs;
+54000000_Baby Care;40000_Baby & Toddler;54100000_Baby Feeding/Hygiene;{40800_Diapering, 40900_Nursing & Feeding, 40100_Baby Bathing, 41000_Potty Training};54101600_Baby Hygiene/Grooming;{40101_Baby Bathtubs & Bath Seats, 40102_Shower Visors, 40301_Baby Health & Grooming Kits, 40303_Pacifier Clips & Holders, 40304_Pacifier Wipes, 40305_Pacifiers & Teethers, 40801_Baby Wipe Dispensers & Warmers, 40802_Baby Wipes, 40803_Changing Mat & Tray Covers, 40804_Changing Mats & Trays, 40805_Diaper Kits, 40806_Diaper Liners, 40807_Diaper Organizers, 40808_Diaper Pail Accessories, 40809_Diaper Pails, 40810_Diaper Rash Treatments, 40811_Diaper Wet Bags, 40812_Diapers, 41001_Potty Seats, 41002_Potty Training Kits}
+54000000_Baby Care;40000_Baby & Toddler;54110000_Baby Welfare;{40400_Baby Safety, 40600_Baby Transport, 40700_Baby Transport Accessories, 41100_Swaddling & Receiving Blankets};54111600_Baby Exercisers;{40503_Baby Bouncers & Rockers, 40504_Baby Jumpers & Swings, 40505_Baby Mobile Accessories, 40506_Baby Mobiles, 40507_Baby Soothers, 40508_Baby Walkers & Entertainers, 40509_Play Mats & Gyms, 40510_Play Yards, 40511_Push & Pull Toys}
+54000000_Baby Care;40000_Baby & Toddler;54110000_Baby Welfare;{40400_Baby Safety, 40600_Baby Transport, 40700_Baby Transport Accessories, 41100_Swaddling & Receiving Blankets};54111500_Baby Furniture/Transportation/Safety;{40401_Baby & Pet Gate Accessories, 40402_Baby & Pet Gates, 40403_Baby Monitors, 40404_Baby Safety Harnesses & Leashes, 40405_Baby Safety Locks & Guards, 40406_Baby Safety Rails, 40601_Baby & Toddler Car Seats, 40602_Baby Carriers, 40603_Baby Strollers, 40701_Baby & Toddler Car Seat Accessories, 40702_Baby Carrier Accessories, 40703_Baby Stroller Accessories, 40704_Baby Transport Liners & Sacks, 40705_Shopping Cart & High Chair Covers, 90100_Baby & Toddler Furniture}
+54000000_Baby Care;40000_Baby & Toddler;54110000_Baby Welfare;{40400_Baby Safety, 40600_Baby Transport, 40700_Baby Transport Accessories, 41100_Swaddling & Receiving Blankets};54111700_Baby Welfare Variety Packs;
+58000000_Cross Segment;;58010000_Cross Segment;;58010100_Cross Segment;
+60000000_Textual/Printed/Reference Materials;;60010000_Textual/Printed/Reference Materials;;{60010200_Books, 160100_Book Accessories};{150100_Books, 140101_Erotic Books}
+60000000_Textual/Printed/Reference Materials;;60010000_Textual/Printed/Reference Materials;;60010400_Maps;
+60000000_Textual/Printed/Reference Materials;;60010000_Textual/Printed/Reference Materials;;60010300_Periodicals;{150400_Magazines & Newspapers, 140106_Erotic Magazines}
+60000000_Textual/Printed/Reference Materials;;60010000_Textual/Printed/Reference Materials;;60010100_Textual/Printed/Reference Materials Variety Packs;{50101_Brochures, 150600_Product Manuals}
+61000000_Music;;61010000_Musical Instruments/Accessories;;61010400_Musical Instrument Accessories;30207_Musical Instrument & Orchestra Accessories
+61000000_Music;;61010000_Musical Instruments/Accessories;;61010200_Musical Instruments (Non Powered);30208_Musical Instruments
+61000000_Music;;61010000_Musical Instruments/Accessories;;61010300_Musical Instruments (Powered);30208_Musical Instruments
+61000000_Music;;61010000_Musical Instruments/Accessories;;61010500_Musical Instruments/Accessories Variety Packs;30207_Musical Instrument & Orchestra Accessories
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62050000_Greeting Cards/Gift Wrap/Occasion Supplies;;62050100_Gift Wrap/Accessories;
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62050000_Greeting Cards/Gift Wrap/Occasion Supplies;;62050200_Greeting Cards/Gift Wrap/Occasion Supplies Variety Packs;
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62050000_Greeting Cards/Gift Wrap/Occasion Supplies;;62050300_Greeting Cards/Invitations;
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62050000_Greeting Cards/Gift Wrap/Occasion Supplies;;62050400_Occasion Supplies;30300_Party & Celebration
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060300_Office Machinery;{161001_Calculator Accessories, 161002_Calculators, 161004_Label Makers, 161005_Laminators, 161203_Paper Folding Machines, 161204_Paper Joggers}
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060400_Organizational Planning Stationery;{160300_Filing & Organization, 160404_Labels & Tags}
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060500_Postal/Packaging Equipment/Aids/Accessories;{161400_Shipping Supplies, 161007_Postage Meters, 161103_Letter Openers}
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060600_Presentation Equipment;161300_Presentation Supplies
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060700_Stationery Adhesives/Binders/Fasteners;{160401_Brass Fasteners, 160406_Mounting Putty, 160407_Office Tape, 160408_Paper Clips & Clamps, 160410_Rubber Bands, 160411_Staples, 160412_Tacks & Pushpins, 160500_Impulse Sealers, 161102_Clipboards}
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060800_Stationery Cutters/Trimmers;{161006_Office Shredders, 161202_Hole Punches}
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62061100_Stationery Paper/Card/Film;{160405_Laminating Film, Pouches & Sheets, 160409_Paper Products, 161107_Staple Removers, 161108_Staplers, 161109_Tape Dispensers}
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060900_Stationery Storage/Filing;120312_Bookends
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62061000_Stationery/Office Machinery Variety Packs;
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62060000_Stationery/Office Machinery;;62060100_Writing/Design Implements/Aids;{160402_Correction Fluids, Pens & Tapes, 160403_Erasers, 161105_Office Rubber Stamps, 161106_Pencil Sharpeners, 161110_Writing & Drawing Instrument Accessories, 161111_Writing & Drawing Instruments,161206_Pencil Boards}
+62000000_Stationery/Office Machinery/Occasion Supplies;160000_Office Supplies;62070000_Stationery/Office Machinery/Occasion Supplies Variety Packs;;62070100_Stationery/Office Machinery/Occasion Supplies Variety Packs;
+63000000_Footwear;{20700_Shoe Accessories, 20800_Shoes};63010000_Footwear;;63010100_Athletic Footwear;20800_Shoes
+63000000_Footwear;{20700_Shoe Accessories, 20800_Shoes};63010000_Footwear;;63010200_Footwear Accessories;{20701_Boot Liners, 20702_Gaiters, 20703_Shoe Covers, 20704_Shoelaces, 20705_Spurs, 121013_Shoe Care & Tools}
+63000000_Footwear;{20700_Shoe Accessories, 20800_Shoes};63010000_Footwear;;63010300_General Purpose Footwear;20800_Shoes
+63000000_Footwear;{20700_Shoe Accessories, 20800_Shoes};63010000_Footwear;;63010400_Indoor Footwear;20800_Shoes
+63000000_Footwear;{20700_Shoe Accessories, 20800_Shoes};63010000_Footwear;;63010500_Safety/Protective Footwear;20800_Shoes
+64000000_Personal Accessories;;64010000_Personal Accessories;;64010100_Jewellery;{20601_Anklets, 20602_Body Jewelry, 20603_Bracelets, 20604_Brooches & Lapel Pins, 20605_Charms & Pendants, 20606_Earrings, 20607_Jewelry Sets, 20608_Necklaces, 20609_Rings}
+64000000_Personal Accessories;;64010000_Personal Accessories;;64010400_Personal Accessories Variety Packs;
+64000000_Personal Accessories;;64010000_Personal Accessories;;64010200_Personal Carriers/Accessories;{20400_Handbag & Wallet Accessories, 20500_Handbags, Wallets & Cases, 130000_Luggage & Bags, 122000_Umbrella Sleeves & Cases}
+64000000_Personal Accessories;;64010000_Personal Accessories;;64010300_Watches;{20610_Watch Accessories, 20611_Watches}
+65000000_Computing;;65010000_Computers/Video Games;;65010200_Computer Components;{71701_Computer Monitors, 70709_Computer Components}
+65000000_Computing;;65010000_Computers/Video Games;;65010300_Computer Drives;
+65000000_Computing;;65010000_Computers/Video Games;;65010800_Computer Networking Equipment;71200_Networking
+65000000_Computing;;65010000_Computers/Video Games;;65010100_Computer/Video Game Accessories;{70708_Computer Accessories, 71800_Video Game Console Accessories, 160600_Lap Desks}
+65000000_Computing;;65010000_Computers/Video Games;;65010600_Computer/Video Game Control/Input Devices;
+65000000_Computing;;65010000_Computers/Video Games;;65010700_Computer/Video Game Peripherals;{60208_Webcams, 71300_Print, Copy, Scan & Fax, 71702 Projectors}
+65000000_Computing;;65010000_Computers/Video Games;;65010400_Computer/Video Game Software;{180100_Computer Software, 180200_Digital Goods & Currency, 180300_Video Game Software}
+65000000_Computing;;65010000_Computers/Video Games;;65010500_Computers;{161003_Electronic Dictionaries & Translators, 161009_Transcribers & Dictation Systems, 161010_Typewriters, 70600_Computers}
+65000000_Computing;;65010000_Computers/Video Games;;65010900_Computers/Video Games Variety Packs;
+65000000_Computing;;65010000_Computers/Video Games;;65011000_Video Game Consoles;{71900_Video Game Consoles}
+66000000_Communications;;66010000_Communications;;66010100_Communication Accessories;{70404_Communication Radios, 70405_Intercom Accessories, 70714_Mobile Phone & Tablet Tripods & Monopods}
+66000000_Communications;;66010000_Communications;;66010400_Communication Variety Packs;
+66000000_Communications;;66010000_Communications;;66010200_Fixed Communication Devices;{70401_Answering Machines, 70402_Caller IDs, 70403_Communication Radio Accessories, 70404_Communication Radios, 70405_Intercom Accessories, 70406_Intercoms, 70407_Pagers, 70408_Telephony, 70409_Video Conferencing}
+66000000_Communications;;66010000_Communications;;66010300_Mobile Communication Devices/Services;
+66000000_Communications;;66010000_Communications;;66010500_Signage;52400_Signage
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010100_Clothing Accessories;20200_Clothing Accessories
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67011100_Clothing Variety Packs;
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010200_Full Body Wear;{20103_Dresses, 20106_Outfit Sets, 20113_Suits, 20117_Uniforms, 20118_Wedding & Bridal Party Dresses}
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010300_Lower Body Wear/Bottoms;{20107_Pants, 20109_Shorts, 20110_Skirts, 20111_Skorts}
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010900_Protective Wear;52500_Work Safety Protective Gear
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010500_Sleepwear;20112_Sleepwear & Loungewear
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010600_Sportswear;20101_Activewear
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010700_Underwear;{20114_Swimwear, 20116_Underwear & Socks}
+67000000_Clothing;{20100_Clothing, 20200_Clothing Accessories};67010000_Clothing;;67010800_Upper Body Wear/Tops;{20105_Outerwear, 20108_Shirts & Tops}
+68000000_Audio Visual/Photography;;68010000_Audio Visual Equipment;;68010700_Audio Visual Accessories;70201_Audio Accessories
+68000000_Audio Visual/Photography;;68010000_Audio Visual Equipment;;68010800_Audio Visual Equipment Variety Packs;{70205_DJ & Specialty Audio, 70207_Stage Equipment}
+68000000_Audio Visual/Photography;;68010000_Audio Visual Equipment;;68010400_Home Audio Equipment;{70202_Audio Components, 70203_Audio Players & Recorders}
+68000000_Audio Visual/Photography;;68010000_Audio Visual Equipment;;68010300_Portable Audio/Video;{70204_Bullhorns, 70206_Public Address Systems}
+68000000_Audio Visual/Photography;;68010000_Audio Visual Equipment;;68010100_Televisions;{71703_Satellite & Cable TV, 71704_Televisions}
+68000000_Audio Visual/Photography;;68010000_Audio Visual Equipment;;68010900_Video Receiving/Installation;{70702_Antenna Accessories, 70703_Antennas}
+68000000_Audio Visual/Photography;;68010000_Audio Visual Equipment;;68010200_Video Recording/Playback;{71708_Video Players & Recorders, 71710_Video Transmitters}
+68000000_Audio Visual/Photography;;68040000_Audio Visual Media;;68040100_Pre-Recorded or Digital Content Media;{140103_Erotic DVDs & Videos, 150300_DVDs & Videos, 150500_Music & Sound Recordings}
+68000000_Audio Visual/Photography;;68040000_Audio Visual Media;;68040200_Recordable Media;
+68000000_Audio Visual/Photography;;68050000_Audio Visual/Photography Variety Packs;;68050100_Audio Visual/Photography Variety Packs;
+68000000_Audio Visual/Photography;;68030000_In-car Electronics;;68030200_Car Audio;
+68000000_Audio Visual/Photography;;68030000_In-car Electronics;;68030100_Car Video/Navigation;{70900_GPS Navigation Systems, 71000_GPS Tracking Devices, 71400_Radar Detectors}
+68000000_Audio Visual/Photography;;68030000_In-car Electronics;;68030300_In-car Electronics Variety Packs;
+68000000_Audio Visual/Photography;;68020000_Photography/Optics;{60400_Photography, 60300_Optics};68020200_Optics;{161104_Magnifiers, 60301_Binoculars, 60302_Monoculars, 60303_Rangefinders, 60304_Scopes, 60201_Borescopes, 60102_Camera & Video Camera Lenses, 60103_Camera Lens Accessories, 60104_Camera Parts & Accessories, 60105_Optic Accessories}
+68000000_Audio Visual/Photography;;68020000_Photography/Optics;{60400_Photography, 60300_Optics};68020100_Photography;{60202_Digital Cameras, 60203_Disposable Cameras, 60204_Film Cameras, 60205_Surveillance Cameras, 60206_Trail Cameras, 60207_Video Cameras, 60206_Trail Cameras, 60101_Camera & Optic Replacement Cables, 60102_Camera & Video Camera Lenses, 60103_Camera Lens Accessories, 60104_Camera Parts & Accessories, 60105_Optic Accessories, 60106_Tripod & Monopod Accessories, 60107_Tripods & Monopods}
+68000000_Audio Visual/Photography;;68020000_Photography/Optics;{60400_Photography, 60300_Optics};68020300_Photography Printing/Dark Room Equipment;{60401_Darkroom, 60402_Lighting & Studio,60403_Photo Mounting Supplies, 60404_Photo Negative & Slide Storage}
+68000000_Audio Visual/Photography;;68020000_Photography/Optics;{60400_Photography, 60300_Optics};68020400_Photography/Optics Variety Packs;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010200_Airbrushing Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010100_Artists Painting/Drawing Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70011300_Arts/Crafts Variety Packs;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010600_Basketry Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010900_Candle/Soap Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010800_Glasswork/Enamelling/Marquetry Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010500_Jewellery Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010400_Needlework/Toy Making Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010700_Paper/Card Making Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70011100_Printing Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70010300_Sculptors/Pottery Craft Supplies;
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70011200_Spinning/Weaving Craft Supplies;92508_Sewing Machine Tables
+70000000_Arts/Crafts/Needlework;30201_Arts & Crafts;70010000_Arts/Crafts/Needlework Supplies;;70011000_Wood Burning/Engraving Craft Supplies;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010700_Combat Sports Equipment;{190103_Boxing & Martial Arts, 190125_Wrestling}
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010800_Cycle Sports Equipment;190404_Cycling
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71012100_Fishing/Angling Sports Equipment;190406_Fishing
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011000_Gymnastics Sports Equipment;190114_Gymnastics
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011700_Hunting Sports Aids;190409_Hunting & Shooting
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011100_Kiting/Parachuting Sports Equipment;{190408_Hang Gliding & Skydiving, 190413_Kite Buggying}
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010900_Personal Fitness Sports Equipment;190200_Exercise & Fitness
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010300_Racquet Sports Equipment;{190115_Racquetball & Squash, 190120_Tennis, 190306_Ping Pong}
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011200_Scooter/Skateboard Sports Equipment;190416_Skateboarding
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010500_Snow/Ice Sports Equipment;190417_Winter Sports & Activities
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011600_Sporting Firearms Equipment;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010200_Sports Balls/Pucks/Shuttlecocks/Frisbees/Boomerangs;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010400_Sports Bats/Sticks/Clubs/Cues/Mallets;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011900_Sports Equipment Accessories;190113_General Purpose Athletic Equipment
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71012300_Sports Equipment Variety Packs;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71012000_Sports Personal Protective Equipment;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011400_Sports Tables;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011300_Swimming/Surfing/Diving Sports Equipment;{190410_Hydration System Accessories, 190411_Hydration Systems}
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011500_Target Sports Equipment;190308_Throwing Darts
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010100_Track/Field Sports Equipment;
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71010600_Trekking/Mountaineering Sports Equipment;{190402_Camping & Hiking, 190403_Climbing}
+71000000_Sports Equipment;190000_Sporting Goods;71010000_Sports Equipment;;71011800_Watercraft Sports Equipment (Non Powered);190401_Boating & Water Sports
+72000000_Home Appliances;;72010000_Major Domestic Appliances;;72010600_Kitchen Washing Appliances;
+72000000_Home Appliances;;72010000_Major Domestic Appliances;;72010300_Major Cooking Appliances;121109_Prefabricated Kitchens & Kitchenettes
+72000000_Home Appliances;;72010000_Major Domestic Appliances;;72010500_Major Laundry Appliances;{120908_Laundry Appliances, 120809_Laundry Appliance Accessories}
+72000000_Home Appliances;;72010000_Major Domestic Appliances;;72010700_Major Water Dispensers;
+72000000_Home Appliances;;72010000_Major Domestic Appliances;;72010200_Refrigerating/Freezing Appliances;
+72000000_Home Appliances;;72010000_Major Domestic Appliances;;72010400_Warming Appliances;
+72000000_Home Appliances;;72010000_Major Domestic Appliances;;72010100_Waste Disposing/Compacting Appliances;
+72000000_Home Appliances;;72020000_Small Domestic Appliances;;72020400_Cleaning Appliances;{101451 Polishers & Buffers, 120805_Floor & Steam Cleaner Accessories, 120811_Vacuum Accessories, 120902_Floor & Carpet Dryers, 120903_Floor & Steam Cleaners, 120904_Floor Polishers & Buffers, 120905_Futon Dryers, 120908_Laundry Appliances, 120909_Ultrasonic Cleaners, 120910_Vacuums}
+72000000_Home Appliances;;72020000_Small Domestic Appliances;;72020200_Food/Beverage Preparation Appliances;
+72000000_Home Appliances;;72020000_Small Domestic Appliances;;72020300_Laundry Care Appliances;
+72000000_Home Appliances;;72020000_Small Domestic Appliances;;72020600_Portable Air Control Appliances;
+72000000_Home Appliances;;72020000_Small Domestic Appliances;;72020100_Small Cooking/Heating Appliances;{121106_Kitchen Appliance Accessories, 121107_Kitchen Appliances}
+72000000_Home Appliances;;72020000_Small Domestic Appliances;;72020500_Small Water Dispensers;
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040400_Cookware/Bakeware;121102_Cookware & Bakeware
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73041000_Disposable Food Containers;{121104_Food Storage, 121105_Food Storage Accessories}
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040300_Food Measuring Equipment;
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040600_Food Preparation Equipment;121108_Kitchen Tools & Utensils
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040900_Food/Beverage Presentation Accessories;121103_Food & Beverage Carriers
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040800_Kitchen Merchandise Variety Packs;
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040100_Kitchen Storage;
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040500_Tableware – Serving/Eating/Drinking Equipment;121110_Tableware
+73000000_Kitchen Merchandise;;73040000_Kitchen Merchandise;;73040200_Water/Beverage Equipment;
+74000000_Camping;;74010000_Camping;;74010400_Camping Cooking/Drinking/Eating Equipment;
+74000000_Camping;;74010000_Camping;;74010300_Camping Furniture/Furnishings;
+74000000_Camping;;74010000_Camping;;74010200_Camping Heating/Lighting Equipment;
+74000000_Camping;;74010000_Camping;;74010600_Camping Variety Packs;
+74000000_Camping;;74010000_Camping;;74010500_Camping Washing/Sanitary Equipment;
+74000000_Camping;;74010000_Camping;;74010100_Tents/Weather Structures;
+75000000_Household/Office Furniture/Furnishings;;75020000_Fabric/Textile Furnishings;;75020200_Bedding;{90200_Beds & Accessories, 121501_Bedding}
+75000000_Household/Office Furniture/Furnishings;;75020000_Fabric/Textile Furnishings;;75020300_Fabric/Textile Furnishings Variety Packs;
+75000000_Household/Office Furniture/Furnishings;;75020000_Fabric/Textile Furnishings;;75020100_Household/Office Fabric/Textile Furnishings;{120305_Backrest Pillows, 120314_Chair & Sofa Cushions, 120350_Ottoman Cushions, 120359_Slipcovers, 120363_Throw Pillows, 120372_Window Treatment Accessories, 120373_Window Treatments, 121502_Kitchen Linens Sets, 121503_Table Linens, 121504_Towels}
+75000000_Household/Office Furniture/Furnishings;;75010000_Household/Office Furniture;{91300_Office Furniture, 91400_Office Furniture Accessories};75010700_Display Stands;
+75000000_Household/Office Furniture/Furnishings;;75010000_Household/Office Furniture;{91300_Office Furniture, 91400_Office Furniture Accessories};75010400_Household Beds/Mattresses;
+75000000_Household/Office Furniture/Furnishings;;75010000_Household/Office Furniture;{91300_Office Furniture, 91400_Office Furniture Accessories};75010600_Household/Office Furniture Accessories;{121001_Drawer & Shelf Liners, 121003_Furniture Floor Protectors}
+75000000_Household/Office Furniture/Furnishings;;75010000_Household/Office Furniture;{91300_Office Furniture, 91400_Office Furniture Accessories};75010500_Household/Office Furniture Variety Packs;
+75000000_Household/Office Furniture/Furnishings;;75010000_Household/Office Furniture;{91300_Office Furniture, 91400_Office Furniture Accessories};75010200_Household/Office Seating;{90300_Benches, 90600_Chair Accessories, 90700_Chairs, 91000_Futon Frames, 91100_Futon Pads, 91200_Futons, 91302_Office Chairs,  91402_Office Chair Accessories, 91500_Ottomans, 92200_Sofa Accessories, 92300_Sofas, 160800_Office & Chair Mats}
+75000000_Household/Office Furniture/Furnishings;;75010000_Household/Office Furniture;{91300_Office Furniture, 91400_Office Furniture Accessories};75010100_Household/Office Storage/Display Furniture/Screens;{90400_Cabinets & Storage, 90500_Carts & Islands, 90800_Entertainment Centers & TV Stands, 92000_Shelving, 92100_Shelving Accessories, 160900_Office Carts, 120306_Baskets, 120317_Coat & Hat Racks, 120358_Shadow Boxes, 120364_Trunks, 121015_Storage & Organization}
+75000000_Household/Office Furniture/Furnishings;;75010000_Household/Office Furniture;{91300_Office Furniture, 91400_Office Furniture Accessories};75010300_Household/Office Tables/Desks;{91301_Desks, 91304_Workspace Tables, 91305_Workstations & Cubicles, 92400_Table Accessories, 91401 Desk Parts & Accessories, 91403_Workstation & Cubicle Accessories, 92501_Accent Tables, 92502_Activity Tables, 92503_Folding Tables, 92504_Kitchen & Dining Room Tables, 92505_Kotatsu, 92506_Nightstands, 92507_Poker & Game Tables}
+75000000_Household/Office Furniture/Furnishings;;75030000_Ornamental Furnishings;;75030400_Clocks;{161008_Time & Attendance Clocks, 120315_Clock Parts, 120316_Clocks}
+75000000_Household/Office Furniture/Furnishings;;75030000_Ornamental Furnishings;;75030700_Decorative Banners/Flags;{120331_Flag & Windsock Accessories, 120332_Flags & Windsocks}
+75000000_Household/Office Furniture/Furnishings;;75030000_Ornamental Furnishings;;75030600_Ornamental Furnishings Variety Packs;
+75000000_Household/Office Furniture/Furnishings;;75030000_Ornamental Furnishings;;75030100_Ornaments;{120318_Decorative Bells, 120319_Decorative Bottles, 120320_Decorative Bowls, 120321_Decorative Jars, 120322_Decorative Plaques, 120323_Decorative Plates, 120324_Decorative Trays, 120326_Dreamcatchers, 120327_Dried Flowers, 120328_Ecospheres, 120329_Figurines, 120330_Finials, 120333_Flameless Candles, 120336_Growth Charts, 120337_Home Decor Decals, 120340_Hourglasses, 120347_Music Boxes, 120348_Napkin Rings, 120355_Refrigerator Magnets, 120357_Seasonal & Holiday Decorations, 120360_Snow Globes, 120361_Suncatchers, 120362_Sundials, 120365_Vase Fillers & Table Scatters, 120366_Vases, 120368_Weather Vanes & Roof Decor, 120369_Wind Chimes, 120370_Wind Wheels & Spinners, 120371_Window Magnets ,120374_World Globes, 120375_Wreaths & Garlands}
+75000000_Household/Office Furniture/Furnishings;;75030000_Ornamental Furnishings;;75030200_Pictures/Mirrors/Frames;{120346_Mirrors, 120351_Picture Frames}
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77015100_Automotive Antifreeze;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013500_Automotive Anti-theft Products;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77010400_Automotive Appearance Chemicals;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012900_Automotive Appearance/Fragrance Accessories;210104_Vehicle Maintenance, Care & Décor
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77015000_Automotive Batteries;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77010200_Automotive Body Repair;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77015300_Automotive Brakes;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77010300_Automotive Cargo Management;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77014100_Automotive Decorative Lighting;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77014300_Automotive Electrical;210102_Motor Vehicle Electronics
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012500_Automotive Exterior Accessories – Coverings/Protection;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012300_Automotive Exterior Accessories – Grills/Bumpers;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012200_Automotive Exterior Accessories – Running Boards/Steps;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012400_Automotive Exterior Accessories – Shields/Deflectors;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012600_Automotive Exterior Appearance Accessories;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013800_Automotive Filters;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77014700_Automotive Fluid Change Items;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77014500_Automotive Fluid Management Accessories;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011600_Automotive Interior Accessories – Convenience;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012100_Automotive Interior Accessories – Decorative;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012000_Automotive Interior Accessories – Interior Dash;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011900_Automotive Interior Accessories – Interior Flooring;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011500_Automotive Interior Accessories – Organisation;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011400_Automotive Interior Accessories – Seats;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011800_Automotive Interior Accessories – Steering;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011700_Automotive Interior Accessories – Sun Protection;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77014000_Automotive Light Assemblies;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013900_Automotive Lights/Bulbs;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011200_Automotive Maintenance/Repair;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77010500_Automotive Performance Chemicals;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77011300_Automotive Safety;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013700_Automotive Spark Plugs/Glow Plugs/ Injectors;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013100_Automotive Towing/Hitch;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013200_Automotive Towing/Hitch – Electrical;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013300_Automotive Trailers/Trailer Accessories;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77010900_Automotive Transmission Fluid;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012700_Automotive Tyres/Wheels;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77012800_Automotive Tyres/Wheels Accessories;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013400_Automotive Winches/Winch Accessories;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77014900_Automotive Window Washer Fluid;
+77000000_Automotive;;77010000_Automotive Accessories and Maintenance;;77013600_Automotive Wipers/Wiper Parts;
+77000000_Automotive;;77030000_Cars and Motorcycles;210202_Motor Vehicles;77030100_Cars;
+77000000_Automotive;;77030000_Cars and Motorcycles;210202_Motor Vehicles;77030200_Motorcycles;
+78000000_Electrical Supplies;;78040000_Electrical Cabling/Wiring;101010_Electrical Wires & Cable;78040100_Cabling/Wiring Management/Control;101005_Conduit & Housings
+78000000_Electrical Supplies;;78040000_Electrical Cabling/Wiring;101010_Electrical Wires & Cable;78040300_Electrical Cables;{70706_Cable Management, 70707_Cables}
+78000000_Electrical Supplies;;78040000_Electrical Cabling/Wiring;101010_Electrical Wires & Cable;78040400_Electrical Wiring;
+78000000_Electrical Supplies;;78020000_Electrical Connection/Distribution;;78021100_Batteries/Chargers;{101316_Power Tool Batteries, 101317_Power Tool Chargers}
+78000000_Electrical Supplies;;78020000_Electrical Connection/Distribution;;78020500_Electrical Connection;{101007_Electrical Mount Boxes & Brackets, 101008_Electrical Plug Caps, 101020_Power Outlets & Sockets}
+78000000_Electrical Supplies;;78020000_Electrical Connection/Distribution;;78020600_Electrical Distribution;{70500_Components, 101003_Carbon Brushes, 101004_Circuit Breaker Panels, 101009_Electrical Switches, 101017_Power Converters, 101018_Power Inlets, 101019_Power Inverters, 101023_Voltage Transformers & Regulators, 101027_Wire Terminals & Connectors}
+78000000_Electrical Supplies;;78030000_Electrical Lighting;;78030300_Electric Lamps/Light Bulbs/Lighting;{101478_Work Lights, 121300_Lighting}
+78000000_Electrical Supplies;;78030000_Electrical Lighting;;78030200_Electric Lighting Accessories;{101429_Light Bulb Changers, 121400_Lighting Accessories}
+78000000_Electrical Supplies;;78030000_Electrical Lighting;;78030100_Electric Lighting Control Components;101002_Ballasts & Starters
+78000000_Electrical Supplies;;78030000_Electrical Lighting;;78030400_Portable Electric Lighting;{101306_Flashlight Accessories, 101416_Flashlights & Headlamps}
+78000000_Electrical Supplies;;78050000_Electronic Communication Components;;78050100_Electronic Communication Components;70300_Circuit Boards & Components
+78000000_Electrical Supplies;;78060000_General Electrical Hardware;;78060100_General Electrical Hardware;{101011_Extension Cord Accessories, 101012_Extension Cords, 101024_Wall Plates & Covers}
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010600_Air Conditioning/Cooling/Ventilation Equipment;{100701_Air & Filter Dryers, 100702_Air Ducts, 100703_HVAC Controls, 100704_Vents & Flues, 120801_Air Conditioner Accessories, 120802_Air Purifier Accessories, 120803_Dehumidifier Accessories, 120804_Fan Accessories, 120901_Climate Control Appliances}
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79011000_Backflow Prevention Devices;
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010300_Bathroom Fittings;120100_Bathroom Accessories
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010500_Heating Equipment;{101407_Chimney Brushes, 120500_Fireplace & Wood Stove Accessories, 120600_Fireplaces, 120806_Furnace & Boiler Accessories, 120812_Water Heater Accessories, 120912_Water Heaters, 122100_Wood Stoves}
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010700_Plumbing/Heating Ventilation/Air Conditioning Variety Packs;{120807_Heating Radiator Accessories, 120808_Humidifier Accessories, 120809_Laundry Appliance Accessories, 120810_Patio Heater Accessories}
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010100_Sanitary Ware;
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010900_Waste/Sewage Equipment;101450_Plungers
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010400_Water Storage/Treatment;
+79000000_Plumbing/Heating/Ventilation/Air Conditioning;;79010000_Plumbing/Heating/Ventilation/Air Conditioning;;79010800_Water/Gas Supply;{100900_Plumbing}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011300_Awls/Punches/Nailsets;101454_Punches & Awls
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010400_Carrying/Lifting/Climbing Equipment;101427_Ladders & Scaffolding
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011500_Chisels/Gouges;101405_Carving Chisels & Gouges
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010500_Demolition/Removal;101453_Pry Bars
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011100_Drills – Non Powered;101414_Drills
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010200_Drywall Tools;
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80012400_Funnels;
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011000_Grinders/Sharpeners/Scrapers;{101307_Grinder Accessories, 101455_Putty Knives & Scrapers, 101465_Sharpeners}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011600_Hammers/Mallets/Hatchets/Anvils;{101308_Hammer Accessories, 101402_Anvils, 101420_Hammers}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011400_Knives – Non Powered;101474_Tool Knives
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010300_Masonry/Glass/Tile Tools;{101406_Caulking Tools, 101434_Masonry Tools}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010100_Measuring/Levelling/Marking Tools;{101313_Measuring Tool & Sensor Accessories, 101433_Marking Tools, 101436_Measuring Tools & Sensors}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010600_Nailers/Staplers/Riveting Tools;{101439_Nail Pullers, 101440_Nailers & Staplers, 101457_Riveting Tools}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80012000_Pipe/Tube Tools;{101444_Pipe & Bar Benders, 101445_Pipe & Tube Cleaners, 101446_Pipe Brushes}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011900_Planes/Shapers/Files/Rasps;{101321_Shaper Accessories, 101448_Planes, 101464_Shapers}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010800_Pliers/Pincers/Metal Cutting Tools;101449_Pliers
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011800_Saws – Non Powered;{101310_Jigs, 101320_Saw Accessories, 101323_Tool Blades, 101462_Saws}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010700_Screwdrivers;{101304_Drill & Screwdriver Accessories, 101463_Screwdrivers, 101466_Socket Drivers}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80012200_Threading Taps/Dies – Non Powered;{101468_Tap Reseaters, 101469_Taps & Dies, 101470_Threading Machines}
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80012300_Tools/Equipment – Hand Variety Packs;101475_Tool Sets
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80010900_Vises/Clamps;101471_Tool Clamps & Vises
+80000000_Tools/Equipment – Hand;;80010000_Tools/Equipment – Hand;;80011700_Wrenches/Spanners/Keys;{101473_Tool Keys, 101479_Wrenches}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011700_Lawn/Garden Animal Repellents/Deterrents;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010200_Lawn/Garden Chemicals/Treatments;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010800_Lawn/Garden Cooking/Heating Appliances;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011200_Lawn/Garden Equipment;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010500_Lawn/Garden Fencing;100300_Fencing & Barriers
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011800_Lawn/Garden Floral/Plant Accessories;{120335_Garden & Stepping Stones, 120342_Lawn Ornaments & Garden Sculptures}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010300_Lawn/Garden Furniture/Furnishings;{91600_Outdoor Furniture, 91700_Outdoor Furniture Accessories, 121202_Outdoor Living, 121600_Parasols & Rain Umbrellas}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011300_Lawn/Garden Hand Tools;{101302_Axe Accessories, 101312_Mattock & Pickaxe Accessories, 101435_Mattocks & Pickaxes, 101452_Post Hole Diggers}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011600_Lawn/Garden Lighting;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011000_Lawn/Garden Outdoor Structures;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010600_Lawn/Garden Plants;{121702_Flowers, 121703_Indoor & Outdoor Plants, 121704_Plant & Herb Growing Kits}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010100_Lawn/Garden Pools/Ponds/Water Features and Ornaments;{120311_Bird Baths, 120334_Fountains & Ponds, 120353_Rain Chains, 120354_Rain Gauges, 121801_Pool & Spa Accessories, 121804_Swimming Pools}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010900_Lawn/Garden Power Tools;{121203_Outdoor Power Equipment, 121204_Outdoor Power Equipment Accessories}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011500_Lawn/Garden Soil/Soil Amendments;{100602_Pool, Fountain & Pond Pumps, 100603_Sprinkler, Booster & Irrigation System Pumps, 100606_Well Pumps & Systems}
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011400_Lawn/Garden Testing Diagnostic Equipment;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010700_Lawn/Garden Waste Disposal;
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81010400_Lawn/Garden Watering Equipment;121206_Watering & Irrigation
+81000000_Lawn/Garden Supplies;;81010000_Lawn/Garden Supplies;121201_Gardening;81011100_Lawn/Garden Weather Monitoring/Observation;
+82000000_Tools/Equipment – Power;;82010000_Tools/Equipment – Power;;82010400_Power Tools – Hand-held Portable;{51602_Metal Detectors, 101013_Generator Accessories, 101014_Generators, 101318_Router Accessories, 101322_Soldering Iron Accessories, 101329_Welding Accessories, 101409_Compressors, 101417_Grease Guns, 101418_Grinders, 101423_Heat Guns, 101424_Impact Wrenches & Drivers, 101447_Planers, 101459_Sanders, 101467_Soldering Irons}
+82000000_Tools/Equipment – Power;;82010000_Tools/Equipment – Power;;82010100_Power Tools – Lifting/Handling Equipment;{51101_Chippers, 51801_Conveyors, 51802_Lifts & Hoists}
+82000000_Tools/Equipment – Power;;82010000_Tools/Equipment – Power;;82010300_Power Tools – Stationary/Bench-top;101428_Lathes
+82000000_Tools/Equipment – Power;;82010000_Tools/Equipment – Power;;82010200_Power Tools Variety Packs;101438_Multifunction Power Tools
+83000000_Building Products;;83010000_Building Products;;83011800_Abrasives;{101301_Abrasive Blaster Accessories, 101319_Sanding Accessories, 101460_Sanding Blocks}
+83000000_Building Products;;83010000_Building Products;;83010600_Asphalt/Concrete/Masonry;{100105_Masonry Consumables, 100506_Concrete Molds}
+83000000_Building Products;;83010000_Building Products;;83010500_Building Products Variety Packs;
+83000000_Building Products;;83010000_Building Products;;83012000_Curtain Parts/Accessories;
+83000000_Building Products;;83010000_Building Products;;83011500_Decking/Railing;
+83000000_Building Products;;83010000_Building Products;;83011200_Door Hardware;{100202_Door Hardware, 100515_Hinges}
+83000000_Building Products;;83010000_Building Products;;83011100_Doors;{100203_Doors, 120906_Garage Door Keypads & Remotes, 120907_Garage Door Openers}
+83000000_Building Products;;83010000_Building Products;;83011900_Fixings/Fasteners Hardware;{100102_Hardware Glue & Adhesives, 100103_Hardware Tape, 100109_Solder & Flux, 100501_Brackets & Reinforcement Braces, 100504_Chain, Wire & Rope, 100507_Dowel Pins & Rods, 100514_Hardware Fasteners, 100516_Hooks, Buckles & Fasteners, 100522_Springs, 101309_Industrial Staples, 120405_Furniture Anchors}
+83000000_Building Products;;83010000_Building Products;;83010200_Flooring;{100205_Flooring & Carpet, 120325_Door Mats, 121002_Floor Protection Films & Runners, 121004_Garage Floor Mats, 121012_Rug Pads}
+83000000_Building Products;;83010000_Building Products;;83011300_Glass;100206_Glass
+83000000_Building Products;;83010000_Building Products;;83011400_Guttering/Drainage;
+83000000_Building Products;;83010000_Building Products;;83010300_Insulation;{100209_Insulation, 100216_Sound Dampening Panels & Foam}
+83000000_Building Products;;83010000_Building Products;;83010800_Lumber/Wood Panel/Gypsum;
+83000000_Building Products;;83010000_Building Products;;83011000_Mouldings/Millwork/Stair Parts;{100211_Molding, 100217_Staircases, 121014_Stair Treads}
+83000000_Building Products;;83010000_Building Products;;83010400_Painting;{100106_Painting Consumables, 100110_Solvents, Strippers & Thinners, 101315_Paint Tool Accessories, 101442_Paint Tools}
+83000000_Building Products;;83010000_Building Products;;83011700_Roofing;100213_Roofing
+83000000_Building Products;;83010000_Building Products;;83012100_Sealants/Fillers/Adhesives;100108_Protective Coatings & Sealants
+83000000_Building Products;;83010000_Building Products;;83012300_Siding/Exterior Trim;100215_Siding
+83000000_Building Products;;83010000_Building Products;;83010700_Structural Components/Assemblies;
+83000000_Building Products;;83010000_Building Products;;83010100_Wall/Ceiling Coverings;{100111_Wall Patching Compounds & Plaster, 100218_Wall & Ceiling Tile, 100219_Wall Paneling, 120367_Wallpaper}
+83000000_Building Products;;83010000_Building Products;;83010900_Window Parts/Accessories;{100214_Shutters, 100221_Window Hardware}
+83000000_Building Products;;83010000_Building Products;;83012200_Windows;100222_Windows
+84000000_Tool Storage/Workshop Aids;;84010000_Tool Storage/Workshop Aids;;84010100_Tool Storage;100524_Tool Storage & Organization
+84000000_Tool Storage/Workshop Aids;;84010000_Tool Storage/Workshop Aids;;84010200_Workshop Aids;101461_Saw Horses
+85000000_Safety/Protection – DIY;;85010000_Safety/Protection – DIY;;85010200_Protective Collective Aids – DIY;
+85000000_Safety/Protection – DIY;;85010000_Safety/Protection – DIY;;85010100_Protective Personal Aids – DIY;140200_Weapons
+86000000_Toys/Games;;86020000_Service Provided Gambling Products;;86020100_Service Provided Gambling Products;{200213_Roulette Wheels & Sets, 200214_Slot Machines}
+86000000_Toys/Games;;86010000_Toys/Games;;86010100_Board Games/Cards/Puzzles;{200203_Bingo Sets, 200204_Blackjack & Craps Sets, 200205_Board Games, 200206_Card Game Accessories, 200207_Card Games, 200208_Dexterity Games, 200209_Dice Sets & Games, 200210_Poker Chip Accessories, 200211_Poker Chips & Sets, 200215_Tile Games, 200400_Puzzles}
+86000000_Toys/Games;;86010000_Toys/Games;;86010400_Developmental/Educational Toys;{40501_Alphabet Toys, 40502_Baby Activity Toys, 40505_Baby Mobile Accessories, 40506_Baby Mobiles, 40507_Baby Soothers, 40510_Play Yards, 40511_Push & Pull Toys, 40512_Rattles, 40513_Sorting & Stacking Toys, 200502 Art & Drawing Toys, 200507_Building Toys, 200509_Educational Toys}
+86000000_Toys/Games;;86010000_Toys/Games;;86010200_Dolls/Puppets/Action Figures/Soft Toys;{200508_Dolls, Playsets & Toy Figures, 200511_Flying Toy Accessories, 200512_Flying Toys}
+86000000_Toys/Games;;86010000_Toys/Games;;86010300_Dolls/Puppets/Action Figures/Soft Toys Accessories;
+86000000_Toys/Games;;86010000_Toys/Games;;86010500_Fancy Dress Costumes/Accessories;
+86000000_Toys/Games;;86010000_Toys/Games;;86010600_Musical Toys;200513_Musical Toys
+86000000_Toys/Games;;86010000_Toys/Games;;86010700_Outdoor Games/Play Structures;{200300_Outdoor Play Equipment, 200503_Ball Pit Accessories, 200504_Ball Pits, 200506_Beach & Sand Toys, 200522_Sports Toy Accessories, 200523_Sports Toys}
+86000000_Toys/Games;;86010000_Toys/Games;;86011200_Role Play Toys;{200201_Battle Top Accessories, 200202_Battle Tops, 200516_Pretend Play}
+86000000_Toys/Games;;86010000_Toys/Games;;86010800_Table Games;
+86000000_Toys/Games;;86010000_Toys/Games;;86011100_Toy Vehicles – Non-ride;{200514_Play Vehicle Accessories, 200515_Play Vehicles}
+86000000_Toys/Games;;86010000_Toys/Games;;86011000_Toys – Ride-on;{200519_Riding Toy Accessories, 200520_Riding Toys}
+86000000_Toys/Games;;86010000_Toys/Games;;86010900_Toys/Games Variety Packs;
+87000000_Fuels/Gases;;87020000_Fuel Storage/Transfer;;87020100_Fuel Pumps;100512_Gas Hoses
+87000000_Fuels/Gases;;87020000_Fuel Storage/Transfer;;87020200_Fuel Storage;100400_Fuel Containers & Tanks
+87000000_Fuels/Gases;;87010000_Fuels/Fuel Additives;;87010200_Fuel Additives;
+87000000_Fuels/Gases;;87010000_Fuels/Fuel Additives;;87010500_Fuels/Fuel Additives Variety Packs;
+87000000_Fuels/Gases;;87010000_Fuels/Fuel Additives;;87010100_Fuels/Ignition Aids;101430_Lighters & Matches
+87000000_Fuels/Gases;;87030000_Gases Not Used As Fuels;;87030100_Technical Gases;
+88000000_Lubricants;;88030000_Lubricants Variety Packs;;88030100_Lubricants Variety Packs;
+88000000_Lubricants;;88010000_Lubricants/Protective Compounds;;88010500_Lubricants/Protective Compounds Variety Packs;
+88000000_Lubricants;;88010000_Lubricants/Protective Compounds;;88010100_Lubricating Products;100104_Lubricants
+88000000_Lubricants;;88010000_Lubricants/Protective Compounds;;88010200_Protective Compounds;
+88000000_Lubricants;;88020000_Lubricants/Protective Compounds Storage/Transfer;;88020200_Lubricants/Protective Compounds Storage;
+88000000_Lubricants;;88020000_Lubricants/Protective Compounds Storage/Transfer;;88020100_Lubricating Oil/Fluid Pumps;100517_Lubrication Hoses
+89000000_Live Animals;10100_Live Animals;89020000_Live Animals;10100_Live Animals;89020100_Invertebrates;10100_Live Animals
+89000000_Live Animals;10100_Live Animals;89020000_Live Animals;10100_Live Animals;89020200_Vertebrates;10100_Live Animals
+91000000_Safety/Security/Surveillance;;;;;
+91000000_Safety/Security/Surveillance;;91020000_Environmental Safety/Security;;91020100_Environmental Fire/Chemical Safety Products;{120701_Fire Alarm Control Panels, 120702_Fire Alarms, 120705_Fire Sprinklers, 120706_Heat Detectors, 120707_Smoke & Carbon Monoxide Detectors}
+91000000_Safety/Security/Surveillance;;91020000_Environmental Safety/Security;;91020200_Weather/Natural Disaster Safety Products;{120401_Earthquake Alarms, 120708_Water & Flood Detectors}
+91000000_Safety/Security/Surveillance;;91030000_Home/Business Safety/Security/Surveillance;;91030100_Alarm Systems;120202_Home Alarm Systems
+91000000_Safety/Security/Surveillance;;91030000_Home/Business Safety/Security/Surveillance;;91030700_Crowd Control;
+91000000_Safety/Security/Surveillance;;91030000_Home/Business Safety/Security/Surveillance;;91030200_Door/Window/Perimeter Security Products;100800_Locks & Keys
+91000000_Safety/Security/Surveillance;;91030000_Home/Business Safety/Security/Surveillance;;91030300_Home/Business Fire Extinguishers;{120703_Fire Extinguisher & Equipment Storage, 120704_Fire Extinguishers}
+91000000_Safety/Security/Surveillance;;91030000_Home/Business Safety/Security/Surveillance;;91030600_Home/Business Safety/Security/Surveillance Variety Packs;
+91000000_Safety/Security/Surveillance;;91030000_Home/Business Safety/Security/Surveillance;;91030400_Home/Business Surveillance Equipment;{120201_Dummy Surveillance Cameras, 120203 Motion Sensors, 120204_Safety & Security Mirrors, 120205_Security Lights, 120206_Security Monitors & Recorders, 120209_Security System Sensors}
+91000000_Safety/Security/Surveillance;;91030000_Home/Business Safety/Security/Surveillance;;91030500_Safes;{120207_Security Safe Accessories, 120208_Security Safes}
+91000000_Safety/Security/Surveillance;;91010000_Personal Safety/Security;;91010100_Personal Safety Devices;{60205_Surveillance Cameras, 120402_Emergency Blankets, 120403_Emergency Food Kits, 120404_Emergency Tools & Kits}
+91000000_Safety/Security/Surveillance;;91040000_Safety/Security/Surveillance Variety Packs;;91040100_Safety/Security/Surveillance Variety Packs;
+92000000_Storage/Haulage Containers;;;;;
+92000000_Storage/Haulage Containers;;92010000_Storage Bottles/Cylinders/Barrels (Empty);;92010300_Storage Barrels/Drums (Empty);101200_Storage Tanks
+92000000_Storage/Haulage Containers;;92010000_Storage Bottles/Cylinders/Barrels (Empty);;92010100_Storage Bottles/Cylinders (Empty);
+92000000_Storage/Haulage Containers;;92040000_Storage/Haulage Aids;;92040100_Platform Handling Supports/Converters;{51803_Pallets & Loading Platforms, 101413_Dollies & Hand Trucks}
+92000000_Storage/Haulage Containers;;92020000_Storage/Haulage Boxes/Crates/Trays (Empty);;92020100_Storage/Haulage Boxes/Crates/Trays (Empty);
+92000000_Storage/Haulage Containers;;92030000_Storage/Haulage Freight Containers (Empty);;92030100_Bulk Freight Containers (Empty);
+93000000_Horticulture Plants;;93050000_Bulbs/Corms/Rhizomes/Tubers;;93050100_Bulbs/Corms/Rhizomes/Tubers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010100_Agapanthus – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010200_Alchemilla – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010300_Alstroemeria  – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010400_Anemone  – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010500_Anthurium  – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010600_Antirrhinum  – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010700_Aster – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010800_Bouvardia – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93010900_Celosia  – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011000_Chamelaucium  – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011100_Chrysanthemum – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013500_Cut Flowers Other;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011300_Cut Flowers Variety Packs;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011200_Cymbidium – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011400_Dahlia – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011500_Delphinium – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011600_Dianthus – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011700_Eryngium – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011800_Eustoma – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93011900_Freesia – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012000_Gerbera – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012100_Gladiolus – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012200_Gypsophila – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012300_Helianthus – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012400_Hippeastrum – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012500_Hyacinthus – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012600_Hydrangea – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012700_Hypericum – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012800_Ilex – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93012900_Iris – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013000_Lilium – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013100_Limonium – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013200_Matthiola – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013300_Narcissus – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013400_Ornithogalum – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013600_Paeonia – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013700_Phalaenopsis – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013800_Phlox – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93013900_Pittosporum – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014000_Ranunculus – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014100_Rosa – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014200_Solidago – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014300_Strelitzia – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014400_Syringa – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014500_Tanacetum – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014600_Trachelium – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014700_Tulipa – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014800_Vanda – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93014900_Veronica – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93015000_Viburnum – Cut Flowers;
+93000000_Horticulture Plants;;93010000_Cut Flowers;;93015100_Zantedeschia – Cut Flowers;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020100_Agapanthus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020200_Anthurium – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020300_Asparagus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020400_Aspidistra – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020500_Astilbe – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020600_Brassica – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020700_Carthamus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020800_Corylus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93020900_Crocosmia – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021000_Cucumis – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021100_Cucurbita – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022400_Cut Greens Other;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021200_Cut Greens Variety Packs;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021300_Dracaena – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021400_Eucalyptus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021500_Eupatorium – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021600_Fatsia – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021700_Gomphocarpus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021800_Hydrangea – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93021900_Ilex – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022000_Leucadendron – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022100_Lilium – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022200_Matthiola – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022300_Monstera – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022500_Panicum – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022600_Physalis – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022700_Pittosporum – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022800_Quercus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93022900_Rosa – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023000_Ruscus – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023100_Salix – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023200_Setaria – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023300_Strelitzia – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023400_Symphoricarpos – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023500_Syringa – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023600_Thlaspi – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023700_Viburnum – Cut Greens;
+93000000_Horticulture Plants;;93020000_Cut Greens;;93023800_Zantedeschia – Cut Greens;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030100_Aechmea – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030200_Aeonium – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030300_Agapanthus – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030400_Alocasia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030500_Aloe – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030600_Alstroemeria – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030700_Anemone – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030800_Angelonia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93030900_Anisodontea – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031000_Anthurium – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031100_Antirrhinum – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031200_Argyranthemum – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031300_Armeria – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031400_Aster – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031500_Astilbe – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031600_Aubrieta – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031700_Begonia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031800_Bellis – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93031900_Bidens – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032000_Bougainvillea – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032100_Brachyscome – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032200_Brassica – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032300_Bromelia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032400_Brugmansia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032500_Calathea – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032600_Calibrachoa – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032700_Calocephalus – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032800_Campanula – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93032900_Canna – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033000_Celosia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033100_Chamaedorea – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033200_Chlorophytum – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033300_Chrysanthemum – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033400_Clivia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033500_Cocos – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033600_Codiaeum – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033700_Cordyline – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033800_Coreopsis – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93033900_Cortaderia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034000_Cosmos – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034100_Cuphea – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034200_Cupressus – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034300_Curcuma – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034400_Cycas – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034500_Cyclamen – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034600_Cymbidium – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034700_Cyperus – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034800_Dahlia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93034900_Delphinium – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035000_Dendrobium – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035100_Dianthus – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035200_Dicentra – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035300_Dieffenbachia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035400_Dorotheanthus – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035500_Dracaena – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035600_Dypsis – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035700_Echeveria – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035800_Echinacea – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93035900_Epipremnum – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036000_Euphorbia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036100_Euryops – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036200_Fargesia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036300_Felicia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036400_Festuca – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93037400_Ficus – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036500_Fittonia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036600_Fuchsia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036700_Gardenia – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036800_Gaura – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93036900_Gazania – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93037000_Gentiana – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93037100_Gerbera – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93037200_Guzmania – Live Plants;
+93000000_Horticulture Plants;;93030000_Live Plants (Genus A thru G);;93037300_Gypsophila – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040100_Hedera – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040200_Helianthus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040300_Helichrysum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040400_Heliotropium – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040500_Helleborus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040600_Heuchera – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040700_Hibiscus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040800_Hippeastrum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93040900_Hordeum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041000_Hosta – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041100_Howea – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041200_Hyacinthus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041300_Hydrangea – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041400_Impatiens – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041500_Jasminum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041600_Kalanchoe – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041700_Lantana – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041800_Leucanthemum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93041900_Lewisia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042000_Lilium – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042100_Lithodora – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042200_Live Plant Variety Packs;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044000_Live Plants Other;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042300_Livistona – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042400_Lobelia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042500_Lotus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042600_Lupinus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042700_Mandevilla – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042800_Medinilla – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93042900_Miltonia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043000_Muscari – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043100_Myosotis – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043200_Narcissus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043300_Nephrolepis – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043400_Nolina – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043500_Nymphaea – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043600_Oncidium – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043700_Orchis – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043800_Ornithogalum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93043900_Osteospermum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044100_Pachira – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044200_Paeonia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044300_Papaver – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044400_Paphiopedilum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044500_Pelargonium – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044600_Pennisetum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044700_Petunia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044800_Phalaenopsis – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93044900_Phlox – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045000_Phoenix – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045100_Platycodon – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045200_Plectranthus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045300_Portulaca – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045400_Primula – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045500_Ranunculus – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045600_Rhipsalidopsis – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045700_Rhododendron – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045800_Rosa – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93045900_Saintpaulia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046000_Salvia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046100_Sansevieria – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046200_Sanvitalia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046400_Saxifraga – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046500_Schefflera – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046600_Schlumbergera – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046700_Sedum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046800_Sempervivum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93046900_Senecio – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047000_Sinningia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047100_Solanum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047200_Spathiphyllum – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047300_Stephanotis – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047400_Sutera – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047500_Tagetes – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047600_Tillandsia – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047700_Tulipa – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047800_Vanda – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93047900_Verbena – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93048000_Viola – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93048100_Vriesea – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93048200_XBurrageara – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93048300_XCitrofortunella – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93048400_Yucca – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93048500_Zamioculcas – Live Plants;
+93000000_Horticulture Plants;;93040000_Live Plants (Genus H thru Z);;93048600_Zantedeschia – Live Plants;
+93000000_Horticulture Plants;;93060000_Plants Variety Packs;;93060100_Plants Variety Packs;
+93000000_Horticulture Plants;;93070000_Seeds/Spores;121705_Seeds;93070100_Seeds/Spores;
+93000000_Horticulture Plants;;93080000_Shrubs/Trees;121706_Trees;93080100_Shrubs/Trees;
+93000000_Horticulture Plants;;93090000_Vegetables/Fungi Plants;;93090100_Vegetables/Fungi Plants;

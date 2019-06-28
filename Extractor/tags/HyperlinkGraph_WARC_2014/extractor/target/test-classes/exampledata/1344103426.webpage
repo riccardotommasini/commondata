@@ -1,0 +1,2023 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it"
+      lang="it-it">
+
+  
+    
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <!-- Internet Explorer fix, forces IE8 into newest possible rendering
+         engine even if it's on an intranet. This has to be defined before any
+         script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+      <base href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indice-dei-video/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="kss-base-url" href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indice-dei-video" />
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.arcidiocesibaribitonto.it/portal_javascripts/Diocesi%20Skin/jquery-cachekey5991.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.arcidiocesibaribitonto.it/portal_javascripts/Diocesi%20Skin/resourcebase2-dom-fp-cachekey0176.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.arcidiocesibaribitonto.it/portal_javascripts/Diocesi%20Skin/jquery.tools.min-cachekey6008.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.arcidiocesibaribitonto.it/portal_css/Diocesi%20Skin/base-cachekey3365.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.arcidiocesibaribitonto.it/portal_css/Diocesi%20Skin/maps-cachekey5500.css);</style>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.arcidiocesibaribitonto.it/portal_kss/Diocesi%20Skin/at-cachekey9709.kss" />
+
+
+<title>Indice dei video &mdash; Arcidiocesi di Bari - Bitonto</title>
+
+    <!-- IE6 workaround CSS/JS  -->
+    <!--[if lte IE 7]>
+        <style type="text/css" media="all">@import url(http://www.arcidiocesibaribitonto.it/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://www.arcidiocesibaribitonto.it/iefixes.js">
+        </script>
+    <![endif]-->
+
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.arcidiocesibaribitonto.it/favicon.ico" />
+
+
+
+    <link rel="home"
+          href="http://www.arcidiocesibaribitonto.it"
+          title="Pagina principale" />
+
+    <link rel="contents"
+          href="http://www.arcidiocesibaribitonto.it/sitemap"
+          title="Mappa del sito" />
+
+
+
+
+<link rel="alternate"
+      href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indice-dei-video/RSS"
+      title="RSS 1.0" type="application/rss+xml" />
+
+
+    <link rel="search"
+          href="http://www.arcidiocesibaribitonto.it/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-pubblicazioni template-folder_summary_view"
+        dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video#documentContent">Vai ai contenuti.</a> |
+
+  <a accesskey="6"
+     href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video#portlet-navigation-tree">Spostati sulla navigazione</a>
+</p>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://www.arcidiocesibaribitonto.it/search">
+
+        <label for="searchGadget" class="hiddenStructure">Cerca nel sito</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18"
+               title="Cerca nel sito" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit"
+               value="Cerca" />
+    
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only"
+                   class="noborder" type="checkbox"
+                   name="path"
+                   value="/sito/pubblicazioni/video" />
+            <label for="searchbox_currentfolder_only"
+                   style="cursor: pointer">solo nella sezione corrente</label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.arcidiocesibaribitonto.it/search_form"
+           accesskey="5">Ricerca avanzata…</a>
+    </div>
+
+</div>
+
+<a id="portal-logo" accesskey="1"
+   href="http://www.arcidiocesibaribitonto.it">
+    <img src="http://www.arcidiocesibaribitonto.it/logo.jpg" alt="" title="" height="100" width="624" /></a>
+
+
+    <h5 class="hiddenStructure">Sezioni</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-arcivescovo" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/arcivescovo"
+    title="">Arcivescovo</a></li>
+        <li id="portaltab-curia" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/curia"
+    title="">Curia</a></li>
+        <li id="portaltab-diocesi" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/diocesi"
+    title="">Diocesi</a></li>
+        <li id="portaltab-clero" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/clero"
+    title="">Clero</a></li>
+        <li id="portaltab-luoghi-di-culto" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto"
+    title="">Luoghi di culto</a></li>
+        <li id="portaltab-pubblicazioni" class="selected"><a
+    href="http://www.arcidiocesibaribitonto.it/pubblicazioni"
+    title="">Pubblicazioni</a></li>
+        <li id="portaltab-vita-consacrata" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/vita-consacrata"
+    title="">Vita Consacrata</a></li>
+    </ul>
+
+</div>
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">Tu sei qui:</span>
+    <a href="http://www.arcidiocesibaribitonto.it">Portale</a>
+    <span class="breadcrumbSeparator">
+        &rarr;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni">Pubblicazioni</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>Video</span>
+         
+    </span>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            <td id="portal-column-one">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f7369746f0a6e617669676174696f6e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f7369746f0a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/sitemap"
+           class="tile">Navigazione</a>
+       
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/bollettino-diocesano"
+           class="state-published navTreeFolderish" title="">
+            
+            <span>Bollettino diocesano</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/guida-liturgica"
+           class="state-published navTreeFolderish" title="">
+            
+            <span>Guida Liturgica</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/notiziario-diocesano"
+           class="state-published navTreeFolderish" title="">
+            
+            <span>Notiziario diocesano</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/comunicati-stampa"
+           class="state-published navTreeFolderish" title="">
+            
+            <span>Comunicati stampa</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeCurrentNode navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video"
+           class="state-published navTreeCurrentItem navTreeCurrentNode navTreeFolderish"
+           title="Qui puoi visualizzare i video riguardanti la nostra Arcidiocesi">
+            
+            <span>Video</span>
+        </a>
+        
+    </div>
+
+    <ul class="navTree navTreeLevel1">  
+        
+
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/10b0-anniversario-8-settembre-1999-8-settembre-2009"
+           class="state-published"
+           title="10° Anniversario dell'inizio del ministero pastorale di S. E. Mons. Francesco Cacucci nell'Arcidiocesi di Bari-Bitonto.   ">
+            
+            <span>10° Anniversario: 8 settembre 1999 - 8 settembre 2009</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/la-scuola-di-comunicazioni-sociali-raccontata-da-don-vito-marotta"
+           class="state-published"
+           title="La Scuola di Comunicazioni Sociali dell'Arcidiocesi di Bari-Bitonto è nata nel 1996 da un'idea del sacerdote don Vito Marotta. Da quest'anno la Scuola è stata intitolata proprio a lui. Nel 2003, durante gli anni di preparazione del XXIV Congresso Eucaristico Nazionale che si sarebbe svolto a Bari, don Vito &quot;racconta&quot; la sua scuola attraverso questo video-promo.">
+            
+            <span>La Scuola di Comunicazioni Sociali raccontata da don Vito Marotta</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/in-ricordo-di-mons.-marianno-magrassi"
+           class="state-published"
+           title="«Il Vescovo è l'uomo della sintesi e il ministro della convergenza. Non ha certamente l'insieme dei carismi, ma ha il carisma dell'insieme».">
+            
+            <span>In ricordo di Mons. Mariano Magrassi</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indizione-del-terzo-convegno-ecclesiale-regionale"
+           class="state-published"
+           title="Video di Mons. Francesco Cacucci, Arcivescovo di Bari-Bitonto e Presidente della Conferenza Episcopale Pugliese per l'indizione del Terzo Convegno Ecclesiale Pugliese, “I laici nella chiesa e nella società pugliese, oggi”, che si terrà in San Giovanni Rotondo, dal 28 aprile al 1 maggio 2011.">
+            
+            <span>Indizione del Terzo Convegno Ecclesiale Regionale.</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/iii-domenica-di-quaresima-2010"
+           class="state-published" title="">
+            
+            <span>III Domenica di Quaresima 2010</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/via-crucis-biblica"
+           class="state-published"
+           title="Un aiuto alla preghiera nei venerdì di Quaresima con un Video-Via Crucis Biblica">
+            
+            <span>Via Crucis Biblica</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/alter-christus-fidelitas-christi-fidelitas-sacerdotis"
+           class="state-published"
+           title="Speciale Anno Sacerdotale.
+Qui sotto puoi vedere il filmato. Esso è diviso in tre parti. Puoi vedere le altre parti muovendo il mouse sul filmato e selezionando la parte che desideri.">
+            
+            <span>Alter Christus - Fidelitas Christi, Fidelitas sacerdotis</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/iv-domenica-di-quaresima-2010"
+           class="state-published" title="">
+            
+            <span>IV Domenica di Quaresima 2010</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/v-domenica-di-quaresima-2010"
+           class="state-published" title="">
+            
+            <span>V Domenica di Quaresima 2010</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/domenica-delle-palme"
+           class="state-published" title="">
+            
+            <span>Domenica delle Palme</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/pasqua-del-signore"
+           class="state-published" title="">
+            
+            <span>Pasqua del Signore</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/ii-domenica-di-pasqua"
+           class="state-published" title="">
+            
+            <span>II Domenica di Pasqua</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/iii-domenica-di-pasqua"
+           class="state-published" title="">
+            
+            <span>III Domenica di Pasqua</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/iv-domenica-di-pasqua"
+           class="state-published" title="">
+            
+            <span>IV Domenica di Pasqua</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/v-domenica-di-pasqua"
+           class="state-published" title="">
+            
+            <span>V Domenica di Pasqua</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/vi-domenica-di-pasqua"
+           class="state-published" title="">
+            
+            <span>VI Domenica di Pasqua</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/ascensione-del-signore"
+           class="state-published" title="">
+            
+            <span>Ascensione del Signore</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/in-ricordo-di-giovanni-paolo-ii.-oggi-avrebbe-compiuto-90-anni"
+           class="state-published" title="">
+            
+            <span>In ricordo di Giovanni Paolo II. Il 18 maggio avrebbe compiuto 90 anni</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/domenica-di-pentecoste"
+           class="state-published" title="">
+            
+            <span>Domenica di Pentecoste</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/santissima-trinita"
+           class="state-published" title="">
+            
+            <span>Santissima Trinità</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/corpus-domini"
+           class="state-published" title="">
+            
+            <span>Corpus Domini</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xi-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XI Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xii-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XII Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiii-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XIII Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiv-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XIV Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xv-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XV Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvi-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XVI Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/visita-ad-hong-kong"
+           class="state-published" title="">
+            
+            <span>Visita ad Hong Kong</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvii-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XVII Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/un-intenso-commento-sul-padre-nostro-dalla-voce-di-giovanni-paolo-ii"
+           class="state-published" title="">
+            
+            <span>Un intenso commento sul Padre Nostro dalla voce di Giovanni Paolo II</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xviii-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XVIII Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xix-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XIX Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/assunzione-della-beata-vergine-maria"
+           class="state-published" title="">
+            
+            <span>Assunzione della Beata Vergine Maria</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxii-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XXII Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiii-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XXIII Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiv-domenica-del-tempo-ordinario"
+           class="state-published" title="">
+            
+            <span>XXIV Domenica del tempo Ordinario</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+    </ul>
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/articoli-on-line"
+           class="state-published navTreeFolderish"
+           title="Qui puoi trovare tutti gli articoli pubblicati sul nostro portale">
+            
+            <span>Articoli on-line</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/altre-pubblicazioni"
+           class="state-published navTreeFolderish"
+           title="In questa sezione potrai trovare pubblicazioni inviate alla redazione che riguardano la vita, la storia e le persone della Diocesi.">
+            
+            <span>Altre pubblicazioni</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/visite-virtuali"
+           class="state-published navTreeFolderish"
+           title="In questa sezione potrai visitare alcuni luoghi sacri in maniera virtuale, a portata... di mouse.">
+            
+            <span>Visite Virtuali</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content">
+</div>
+
+                    
+                    <div id="content">
+                      
+                      <div>
+    
+
+        
+
+        
+        
+        <h1 id="parent-fieldname-title"
+            class="documentFirstHeading">
+            Indice dei video
+        </h1>
+        
+        
+        
+
+        
+
+
+
+
+        
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+        
+        
+
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiv-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiv-domenica-del-tempo-ordinario/image_thumb" alt="XXIV Domenica del tempo Ordinario" title="XXIV Domenica del tempo Ordinario" height="93" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiv-domenica-del-tempo-ordinario"
+                           class="summary url">XXIV Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiv-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiii-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiii-domenica-del-tempo-ordinario/image_thumb" alt="XXIII Domenica del tempo Ordinario" title="XXIII Domenica del tempo Ordinario" height="96" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiii-domenica-del-tempo-ordinario"
+                           class="summary url">XXIII Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxiii-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxii-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxii-domenica-del-tempo-ordinario/image_thumb" alt="XXII Domenica del tempo Ordinario" title="XXII Domenica del tempo Ordinario" height="102" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxii-domenica-del-tempo-ordinario"
+                           class="summary url">XXII Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xxii-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/assunzione-della-beata-vergine-maria">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/assunzione-della-beata-vergine-maria/image_thumb" alt="Assunzione della Beata Vergine Maria" title="Assunzione della Beata Vergine Maria" height="89" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/assunzione-della-beata-vergine-maria"
+                           class="summary url">Assunzione della Beata Vergine Maria</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/assunzione-della-beata-vergine-maria">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xix-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xix-domenica-del-tempo-ordinario/image_thumb" alt="XIX Domenica del tempo Ordinario" title="XIX Domenica del tempo Ordinario" height="85" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xix-domenica-del-tempo-ordinario"
+                           class="summary url">XIX Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xix-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xviii-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xviii-domenica-del-tempo-ordinario/image_thumb" alt="XVIII Domenica del tempo Ordinario" title="XVIII Domenica del tempo Ordinario" height="92" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xviii-domenica-del-tempo-ordinario"
+                           class="summary url">XVIII Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xviii-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvii-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvii-domenica-del-tempo-ordinario/image_thumb" alt="XVII Domenica del tempo Ordinario" title="XVII Domenica del tempo Ordinario" height="96" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvii-domenica-del-tempo-ordinario"
+                           class="summary url">XVII Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvii-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/un-intenso-commento-sul-padre-nostro-dalla-voce-di-giovanni-paolo-ii">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/un-intenso-commento-sul-padre-nostro-dalla-voce-di-giovanni-paolo-ii/image_thumb" alt="Un intenso commento sul Padre Nostro dalla voce di Giovanni Paolo II" title="Un intenso commento sul Padre Nostro dalla voce di Giovanni Paolo II" height="82" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/un-intenso-commento-sul-padre-nostro-dalla-voce-di-giovanni-paolo-ii"
+                           class="summary url">Un intenso commento sul Padre Nostro dalla voce di Giovanni Paolo II</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/un-intenso-commento-sul-padre-nostro-dalla-voce-di-giovanni-paolo-ii">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/visita-ad-hong-kong">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/visita-ad-hong-kong/image_thumb" alt="Visita ad Hong Kong" title="Visita ad Hong Kong" height="95" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/visita-ad-hong-kong"
+                           class="summary url">Visita ad Hong Kong</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/visita-ad-hong-kong">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvi-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvi-domenica-del-tempo-ordinario/image_thumb" alt="XVI Domenica del tempo Ordinario" title="XVI Domenica del tempo Ordinario" height="125" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvi-domenica-del-tempo-ordinario"
+                           class="summary url">XVI Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xvi-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xv-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xv-domenica-del-tempo-ordinario/image_thumb" alt="XV Domenica del tempo Ordinario" title="XV Domenica del tempo Ordinario" height="85" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xv-domenica-del-tempo-ordinario"
+                           class="summary url">XV Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xv-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiv-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiv-domenica-del-tempo-ordinario/image_thumb" alt="XIV Domenica del tempo Ordinario" title="XIV Domenica del tempo Ordinario" height="107" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiv-domenica-del-tempo-ordinario"
+                           class="summary url">XIV Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiv-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiii-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiii-domenica-del-tempo-ordinario/image_thumb" alt="XIII Domenica del tempo Ordinario" title="XIII Domenica del tempo Ordinario" height="128" width="91" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiii-domenica-del-tempo-ordinario"
+                           class="summary url">XIII Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xiii-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xii-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xii-domenica-del-tempo-ordinario/image_thumb" alt="XII Domenica del tempo Ordinario" title="XII Domenica del tempo Ordinario" height="128" width="107" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xii-domenica-del-tempo-ordinario"
+                           class="summary url">XII Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xii-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xi-domenica-del-tempo-ordinario">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xi-domenica-del-tempo-ordinario/image_thumb" alt="XI Domenica del tempo Ordinario" title="XI Domenica del tempo Ordinario" height="128" width="106" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xi-domenica-del-tempo-ordinario"
+                           class="summary url">XI Domenica del tempo Ordinario</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/xi-domenica-del-tempo-ordinario">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/corpus-domini">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/corpus-domini/image_thumb" alt="Corpus Domini" title="Corpus Domini" height="87" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/corpus-domini"
+                           class="summary url">Corpus Domini</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/corpus-domini">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/santissima-trinita">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/santissima-trinita/image_thumb" alt="Santissima Trinità" title="Santissima Trinità" height="128" width="106" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/santissima-trinita"
+                           class="summary url">Santissima Trinità</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/santissima-trinita">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/domenica-di-pentecoste">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/domenica-di-pentecoste/image_thumb" alt="Domenica di Pentecoste" title="Domenica di Pentecoste" height="86" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/domenica-di-pentecoste"
+                           class="summary url">Domenica di Pentecoste</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/domenica-di-pentecoste">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/in-ricordo-di-giovanni-paolo-ii.-oggi-avrebbe-compiuto-90-anni">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/in-ricordo-di-giovanni-paolo-ii.-oggi-avrebbe-compiuto-90-anni/image_thumb" alt="In ricordo di Giovanni Paolo II. Il 18 maggio avrebbe compiuto 90 anni" title="In ricordo di Giovanni Paolo II. Il 18 maggio avrebbe compiuto 90 anni" height="128" width="89" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/in-ricordo-di-giovanni-paolo-ii.-oggi-avrebbe-compiuto-90-anni"
+                           class="summary url">In ricordo di Giovanni Paolo II. Il 18 maggio avrebbe compiuto 90 anni</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/in-ricordo-di-giovanni-paolo-ii.-oggi-avrebbe-compiuto-90-anni">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+            
+                <div class="tileItem visualIEFloatFix vevent contenttype-video">
+
+                    <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/ascensione-del-signore">
+                        <img src="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/ascensione-del-signore/image_thumb" alt="Ascensione del Signore" title="Ascensione del Signore" height="96" width="128" class="tileImage" />
+                    </a>
+
+                    <h2 class="tileHeadline">
+
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/ascensione-del-signore"
+                           class="summary url">Ascensione del Signore</a>
+
+                    </h2>
+
+                    
+
+                    <p class="tileBody">
+                        
+                            &nbsp;
+                        
+                        <span class="description"></span>
+                    </p>
+
+                    <p class="tileFooter">
+                        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/ascensione-del-signore">Leggi il resto</a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+            
+
+            <!-- Navigation -->
+            <div class="listingBar">
+
+     
+
+    <span class="next">
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indice-dei-video/folder_summary_view?b_start:int=20&amp;-C=">
+           Successivi 16 elementi
+           &raquo;
+        </a>
+    </span>
+
+    <!-- Link to first -->
+    
+
+    <!-- Pagelist with quantum leap links to previous pages for quick navigation -->
+
+    <!-- Pagelist with links to previous pages for quick navigation -->
+
+    <!-- Current page -->
+    <span class="current">1</span>
+
+    <!-- Pagelist with links to next pages for quick navigation -->
+    
+        <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indice-dei-video/folder_summary_view?b_start:int=20&amp;-C=">2</a>
+    
+
+    <!-- Pagelist with quantum leap links to next pages for quick navigation -->
+
+    <!-- Link to last -->
+    
+
+</div>
+
+        
+        
+            
+        
+
+        
+        
+
+        
+        
+    
+
+        
+
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Azioni sul documento</h5>
+
+    <ul>
+    
+        <li id="document-action-rss">
+            <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indice-dei-video/RSS"
+               title="">Flusso RSS</a>
+        </li>
+    
+    
+        <li id="document-action-sendto">
+            <a href="http://www.arcidiocesibaribitonto.it/pubblicazioni/video/indice-dei-video/sendto_form"
+               title="">Spedisci</a>
+        </li>
+    
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Stampa</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+
+    
+    </div>
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11819317-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Strumenti personali</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+
+    
+        <li>
+            <a href="http://www.arcidiocesibaribitonto.it/login_form">Fatti riconoscere</a>
+        </li>
+    
+
+</ul>
+</div>
+
+<div id="portal-footer">
+    Arcidiocesi di Bari-Bitonto, C.F. 93026440722, Direttore responsabile: <a
+    href="http://www.arcidiocesibaribitonto.it/clero/carlo-cinquepalmi">sac. Carlo Cinquepalmi</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+    href="http://www.arcidiocesibaribitonto.it/contattaci">Contatti</a>
+</div>
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://www.arcidiocesibaribitonto.it/spinner.gif" /></div>
+</body>
+</html>
+
+

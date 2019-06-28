@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apache-nutch-1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/apache-nutch-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

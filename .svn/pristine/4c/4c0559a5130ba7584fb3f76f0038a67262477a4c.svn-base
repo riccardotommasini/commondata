@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="creativecommons1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/creativecommons/creativecommons.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

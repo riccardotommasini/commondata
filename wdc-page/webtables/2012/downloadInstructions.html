@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html><head><title>WDC - Web Table Corpus 2012 - Download Instructions</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Petar Risotski, Christian Bizer, Oliver Lehmberg, Heiko Paulheim">
+<meta name="keywords" content="HTML Table Corpus, Content Table Corpus, Table Search, SearchJoins">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<link rel=Stylesheet href=stylesheet.css>
+    <!--Load the AJAX API-->
+<style>
+
+        @media all {
+            .container_chart { display: block; }
+            .page-break    { display: none; }
+        }
+
+        @media print {
+            * { font-size: 95%; }
+            .container_chart { display: inline-block; }
+            .page-break    { display: inline-block; page-break-after:always; }
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<a name='top'></a><div id="header">
+  <div id="logo2" style="text-align:right; background-color: white;">&nbsp;&nbsp;</div>
+  <div id="header2">
+    <div id="header3">
+      <h1 style="font-size: 250%;">WDC Web Table Corpus 2012 - Download Instructions</h1>
+    </div>
+  </div>
+</div>
+
+<div id="authors">
+<a href="http://www.petarristoski.com">Petar Ristoski</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+<a href="http://www.heikopaulheim.com/">Heiko Paulheim</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="http://www.bizer.de/">Christian Bizer</a><br />
+Alexander Diete </br>
+Nicolas Heist</br>
+Sascha Krstanovic</br>
+Thorsten Andre Knöller</br>
+<br/>
+</div>
+
+
+<br />
+
+<div id="content">
+<p>
+<p>This page describes the data format that is used to represent table data. Further, it contains the download instructions for the WDC Web Table Corpora 2012. General information about the WDC Web Tables Coprus 2012 can be found on the <a href="../index.html#results-2012">overview page</a>.</p>
+</p>
+<h2 id="download">1. Data Formats and Download</h2>
+<p>The main corpus of Web tables is divided into 854,083 gzip files, which are then packed in 885 tar archives. Each tar archive in the complete corpus contains 1,000 gzip files, where each gzip file contains Web tables extracted from a couple thousand Web pages. For each Web page that contains at least one content Web table, we provide the corresponding 
+HTML file, the set of extracted Web tables in CSV format, and a JSON file that contains meta data for the extraction of the Web tables. Each JSON file contains the URL of the Web page, 
+a reference to the corresponding HTML file in the gzip file, and information for each of the extracted Web tables. All files that are referring to the same Web page, share the same file name prefix,
+e.g. a JSON file with the name <code>71657325_XXXXXXX.json</code> would referre to the HTML file <code>71657325_YYYYYY</code>, and a list of CSV files: <code>71657325_0_ZZZZZZZ.csv</code>, <code>71657325_1_ZZZZZZZ.csv</code> etc... 
+For each of the extracted Web tables, the JSON file contains the position of the table inside the HTML file, and basic statistics for the data in the Web tables. The complete JSON Schema can be found <a href="../data/jsonSchema.json">here</a>.
+</p>
+
+<p>To download the corpora of Web table use the following links:</p>
+<table>
+<tr><th>Data Set</th><th>Size</th><th>#Files</th></tr>
+<tr><td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2014-02/completeCorpus/">Relational Corpus 2012</a></td><td>1 020 GB</td><td>885 (.tar)</td></tr>
+<tr><td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/2014-02/englishCorpus/">Enlgish-Language Relational Web Tables</a></td><td>697 GB</td><td>180 (.tar)</td></tr>
+</table>
+
+You can download data samples on the following links:
+<ul>
+<li><a href="../data/sample1K.zip">1000 random Web tables</a></li>
+<li><a href="../data/sample10.zip">10 Web tables related to countries</a></li>
+</ul>
+
+</p>
+<h2 id="feedback">2. Feedback</h2>
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br/><br/>
+More information about Web Data Commons is found <a href="../index.html">here</a>.</p>
+
+<h2 id="acknowledgments">3. Credits</h2>
+<p>The extraction of the Web Table Corpus was supported by the  <a href="http://www.dfg.de/">German Research Foundation (DFG)</a> under grant number PA 2373/1-1 (Mine@LOD), an <a href="http://aws.amazon.com/education/">Amazon Web Services in Education Grant award</a> and by the EU FP7 research project <a href="http://planet-data.eu">PlanetData</a>.</p>
+<a href="http://www.dfg.de/en/"><img src="../../images/dfg_logo.gif" alt="DFG Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://aws.amazon.com/education/"><img src="../../images/aws.png" alt="AWS Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://planet-data.eu"><img src="../../images/pd.gif" alt="PlanetData Logo"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+
+</body></html>

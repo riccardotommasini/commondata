@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="parse-wdc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/parse-wdc/tagsoup-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/parse-wdc/parse-wdc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

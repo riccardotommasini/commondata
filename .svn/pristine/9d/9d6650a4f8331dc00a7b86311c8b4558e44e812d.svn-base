@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlmeta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/urlmeta/urlmeta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

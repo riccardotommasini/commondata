@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlfilter-validator1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/urlfilter-validator/urlfilter-validator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

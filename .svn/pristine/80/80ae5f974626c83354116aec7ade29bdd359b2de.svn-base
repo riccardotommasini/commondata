@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>Fixing Common Errors in Deployed Schema.org Microdata</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body><a name='top'></a>
+<h1>Fixing Common Errors in Deployed Schema.org Microdata</h1>
+<p>This document provides an overview about the most common errors within deployed schema.org Microdata, within the <a href="http://webdatacommons.org/structureddata/2013-11/stats/stats.html">Web Data Commons Microdata corpus</a> which have been extracted from the November 2013 release of the <a href="http://commoncrawl.org/">Common Crawl</a>.</p>
+
+<h2>RDF Description of Schema.org</h2>
+<p>
+In order to identify violations of the suggested schema of <a href="http://schema.org/">Schema.org</a> we extracted the list of all classes and property combination with the expected value types using the official <a href="http://schema.rdfs.org/">Schema.org RDFs</a>. We separated the properties into datatype properties, which expect as range a <code>http://schema.org/DataType</code> and object properties, exptecting any kind of <code>http://schema.org/Thing</code> as range. We also identified a set of properties, which are both, datatype and object properties.</br>
+The list of files which were used can be found below:
+<ul>
+<li><a href="files/ClassesWithDefinedProperties.txt" target=_blank>Class file with all defined properties</a></li>
+<li><a href="files/DatatypePropertiesWithRanges.txt" target=_blank>Datatype properties with defined datatypes</a></li>
+<li><a href="files/ObjectPropertiesWithRanges.txt" target=_blank>Object properties with defined object types</a></li>
+<li><a href="files/UnclearProperties.txt" target=_blank>Hybrid properties, which are defined as datatype and object properties</a></li>
+</ul>
+</p>
+
+<h2>Common Mistakes</h2>
+<p>
+We have followed the analysis of common errors of <i>Weaving the pedantic web. In: Linked Data on the Web</i> by Hogan et al. (2010) for our analysis of errors in the deployment of schema.org within the Web.
+In the following we briefly outline the most common groups of errors which can be found. A more comprehensive analysis can be found within our paper, submitted to the ESWC 2015.
+</p>
+<h3>Wrong Namespaces</h3>
+<p>
+Within the corpus we have found over 360 different namespaces including the two most common: <code>data-vocabulary.org</code> and <code>schema.org</code>. As for our analysis we are only interested in schema.org, we filtered those including at least the substring 'schema.org'. This results in 149 remaning namespaces. The files of the resulting corpus can obtained from the <a href="http://webdatacommons.org/structureddata/2013-11/files/MDSchemaOrgQuad.list">MDSchemaOrgQuads.list</a> file.
+</p>
+The most common errors were:
+<ul>
+<li>Other protocols than http (e.g. https)</li>
+<li>Inclusion of 'www' with the namespace</li>
+<li>Missing slashes</li>
+<li>Capitalization errors (e.g. SChema.org)</li>
+</ul>
+</p>
+<h3>Undefined Types and Properties</h3>
+<p>
+Regarding the types and properties, we found 6.16% pay-level domains making use of not defined types and 8.02% making use of undefined properties.
+Inspecting the errors within the types major reasons are missing slashes and wrong capitalization within the names of the types.
+For the properties, we divide the problem into to: (1) properties which are not defined at all and (2) properties which are not defined for this particular type they are used with.
+For the first case, main reasons are wrong capitalization and spelling errors, as well as newly made up properties as <code>http://schema.org/postId</code>.
+For the second case, the <i>borrowed</i> properties, we found that webmasters seems to forget to model the type in between, e.g. for <code>http://schema.org/Product/</code> they modelled directly a <code>http://schema.org/price</code> instead of adding a <code>http://schema.org/Offer</code> object first.
+</p>
+<h3>Domain/Range Violations</h3>
+<p>
+In the area of domain/range violations for object and datatype properties we found several common mistakes. </br>
+First, over half of the pay-level domains making use of object properties (92 449 PLDs) maintain a datatype as value at least once. This means that e.g. for the property <code>http://schema.org/author</code> a simple string, mostly representing the name of the author is marked up, instead of creating a new entity of type <code>http://schema.org/Person</code> with a name property. The marking up of datatype properties with object is however seldomly done. Only 0.8% of all pay-level domains using datatype properties markup an object as value for those properties at least once.</br>
+
+<h2>Heuristics</h2>
+<p>
+In order to fix most of the common errors mentioned above, we have identified some simple heuristics to reduce the number of erroneous pay-level domains:
+<ul>
+<li>In order to fix the namespaces, leading 'www' should be removed. In addition 'https' should be replaced by 'http' and everything till the third slash should be lower case.</li>
+<li>Whenever missing, the slash behind 'schema.org' needs to be added.</li>
+<li>To increase pay-level domain coverage for types and properties comparisons should only be made on lower cased type and property names.</li>
+<li>For objectproperties with datatypes a set of new triples should be added, which models the missing object and has the original datatype value as <code>http://schema.org/name</code> or <code>http://schema.org/url</code> property. As in some cases, the objectproperties allow different types we recommend to use the the least abstract common supertype of all possible types.</li>
+</ul>
+</p>
+
+<h2>Fixed Version of the Schema.org Microdata Corpus</h2>
+<p>
+Using the heuristics mentioned above, we have created a fixed version of original <a href="how_to_get_the_data.html">Microdata Schema.org corpus</a>. The files of this new fixed corpus are listed in the <a href="http://webdatacommons.org/structureddata/2013-11/files/fixedMDSchemaOrgQuad.list">fixedMDSchemaOrgQuad.list</a> file.<br>
+The corpus can be downloaded using wget with the command <code>wget -i http://webdatacommons.org/structureddata/2013-11/files/fixedMDSchemaOrgQuad.list</code> The quads within this files are sorted by URL and subject.
+</p>
+<!--
+<h2>Statistics of Fixed Corpus</h2>
+<p>
+coming soon.
+</p>
+-->
+<h2>Feedback</h2>
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br/><br/>
+More information about Web Data Commons is found <a href="../index.html">here</a>.</p>
+</body></html>

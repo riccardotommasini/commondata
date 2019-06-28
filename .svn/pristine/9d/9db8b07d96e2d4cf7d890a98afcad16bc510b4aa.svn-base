@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons - 2009/2010 Corpus - Download Instructions</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body><a name='top'></a><h1>Web Data Commons - 2009/2010 Corpus - Download Instructions</h1>
+<p>This file contains the detailed extraction report of the extraction of 2009/2010 of the <a href="http://webdatacommons.org">Web Data Commons</a> project.</p>
+<p>
+All our data and used code is available as download.
+</p>
+<h2>Download the Extracted RDF Data</h2>
+<p>The extracted structured data is provided for download in the <a href="http://sw.deri.org/2008/07/n-quads/">N-Quads</a> RDF encoding and divided according to the format the data was encoded in. Files are  compressed using GZIP and split after reaching a size of 100MB. Overall, 410 files with a total size of 40GB were produced.</p>
+
+<p><a href="http://webdatacommons.org/downloads/2010-09/nquads/files.list">List of download URLs for RDF from the 2009/2010 corpus</a> (<a href="http://webdatacommons.org/index.html#examples">Example Content</a>)</p>
+
+<p>The extracted RDF data can be downloaded using <a href="http://www.gnu.org/software/wget/">wget</a> with the command <code>wget -i http://webdatacommons.org/downloads/2010-09/nquads/files.list</code></p>
+
+<h2>Download the Generated CSV Tables</h2>
+<p>The extracted microformat data are also available for download as CSV tables. The SPARQL queries used for generating the CSV tables are available as well.</p>
+<br />
+
+<table><tbody>
+<tr><th>CSV Table</th><th>SPARQL Query</th></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.hcalendar.csv.gz">hCalendar.csv (~461MB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/hcalendar.rq">HCalendar.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.hcard.csv.gz">hCard.csv (~14GB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/hcard.rq">hCard.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.geo.csv.gz">Geo.csv (~208MB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/geo.rq">Geo.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.hlisting.csv.gz">hListing.csv (~1GB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/hlisting.rq">hListing.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.hresume.csv.gz">hResume.csv (~227MB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/hresume.rq">hResume.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.hreview.csv.gz">hReview.csv (1.4GB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/hreview.rq">hReview.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.hrecipe.csv.gz">hRecipe.csv (~2MB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/hrecipe.rq">hRecipe.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.species.csv.gz">Species.csv (~1MB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/species.rq">species.rq</a></td></tr>
+<tr><td><a href="http://webdatacommons.org/downloads/2010-09/csv/cccsv.xfn.csv.gz">XFN.csv (~390MB)</a></td><td><a href="http://webdatacommons.org/downloads/2010-09/sparql/xfn.rq">XFN.rq</a></td></tr>
+</tbody></table>
+
+<h2>Download the Extraction Statistics</h2>
+<p>To provide a general overview about the URLs using structured data and the to link back to the Common Crawl .arc files the detailed extraction statistic can be used.
+ The extraction statistics record the amount of structured data found for each URL from the crawl data. Be advised to use a parser which is able to skip invalid lines, since they could present in the tab-separated files. The  table contains the following columns (not in this order): 
+</p>
+<h4>Source Data Columns</h4>
+<ul>
+<li><code>uri</code> - The URL of the crawled page (e.g. <code>http://www.example.com</code>)</li>
+<li><code>hostIp</code> - The IP address of the computer the page was crawled from (e.g. <code>192.0.43.10</code>)</li>
+<li><code>mimeType</code> - The MIME type of the page as communicated by the web server (e.g. <code>text/html</code>)</li>
+<li><code>timestamp</code> - Time and date when the page was crawled as UTC UNIX timestamp (e.g. <code>1331642430</code>)</li>
+<li><code>recordLength</code> - Size of the HTML content in Bytes (e.g. <code>5831</code>)</li>
+<li><code>arcFileName</code> - Name of the <a href="http://commoncrawl.org/data/accessing-the-data/">Common Crawl archive file</a> containing the page (e.g. <code>common-crawl/crawl-002/2010/01/06/24/1262851198118_24.arc.gz</code>)</li>
+<li><code>arcFilePos</code> - Byte offset of the page inside the archive file (e.g. <code>81995525</code>)</li>
+</ul>
+
+<h4>Result Data Columns</h4>
+<ul>
+<li><code>detectedMimeType</code> - MIME type as detected by the extractor (e.g. <code>text/html</code>)</li>
+<li><code>html-*</code> - Number of triples found on the page for each <a href="http://webdatacommons.org/index.html#extractors">extractor identifier</a> (e.g. <code>42</code>)</li>
+<li><code>totalTriples</code> - Number of all triples found on this HTML page (e.g. <code>42</code>)</li>
+</ul>
+
+<p>
+<a href="../../samples/pages.sample.csv">Sample Extraction Statistic File (csv)</a><br/>
+<a href="http://webdatacommons.org/downloads/2012-08/pages.csv.gz">Extraction Statistic File (csv)</a><br/>
+</p>
+
+
+</body></html>

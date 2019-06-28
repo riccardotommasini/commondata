@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="parse-zip">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/parse-zip/parse-zip.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

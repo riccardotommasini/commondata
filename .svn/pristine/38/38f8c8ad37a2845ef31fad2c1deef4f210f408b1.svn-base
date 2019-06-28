@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="parse-swf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-swf/parse-swf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/plugins/parse-swf/javaswf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

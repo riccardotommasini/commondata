@@ -1,0 +1,1083 @@
+name	1929891
+date	1695509
+title	967059
+description	801417
+size	778827
+year	621091
+location	573282
+type	565494
+album	527819
+model	442921
+rank	394913
+artist	386832
+city	340997
+rating	338109
+team	322257
+result	318435
+opponent	289804
+address	287753
+length	274639
+age	269042
+order	265006
+status	256155
+dec	224812
+state	219351
+comment	200892
+product	191327
+symbol	191071
+id	184069
+category	183286
+country	178674
+day	158086
+author	156865
+event	153622
+network	153440
+distance	141262
+company	135977
+affiliate	132363
+position	130448
+notes	122774
+format	119091
+topic	115106
+duration	111204
+club	111044
+school	106366
+style	97864
+class	96343
+region	94902
+weight	89166
+part	86915
+code	86325
+manufacturer	74833
+lyrics	71645
+county	59635
+number	58409
+updated	57275
+origin	55430
+tu	54548
+height	53830
+cost	53207
+party	52573
+engine	52367
+season	50345
+brand	49558
+layout	48520
+jockey	44467
+population	43043
+note	42779
+genre	41978
+sex	39851
+free	39541
+language	37549
+license	36407
+definition	36230
+filename	36163
+destination	35798
+nation	34627
+map	34156
+owner	34105
+race	32737
+gender	32396
+translator	32223
+picture	31745
+month	30259
+power	30207
+fees	29729
+wins	29631
+series	29320
+width	29286
+area	29075
+event date	28767
+source	28487
+logo	27600
+district	26878
+domain	26680
+grades	26237
+role	26131
+show	25600
+course	25590
+division	25105
+film	24823
+features	24426
+resolution	24332
+feature	22139
+vehicle	21896
+member	21853
+other	21421
+volume	21280
+occupation	21016
+channel	20980
+team name	20945
+sport	20662
+games	20480
+era	20268
+college	20065
+capacity	19673
+activity	19650
+speaker	19213
+meaning	19136
+colour	19117
+publisher	18530
+reference	18427
+episode	18343
+material	17933
+start date	17648
+route	17422
+field	17401
+added	17019
+competition	17009
+release date	16949
+builder	16754
+service	16703
+gross	16604
+end date	16467
+ranking	16318
+discipline	16174
+salary	16136
+award	15832
+league	15160
+frequency	14904
+common name	14803
+fc	14292
+years	14017
+image size	13150
+review	13037
+board	13002
+ratio	12919
+currency	12822
+tag	12413
+birth date	12392
+project	12308
+species	12304
+elevation	12174
+department	11896
+diameter	11850
+information	11841
+industry	11781
+temperature	11620
+president	11168
+composer	10926
+director	10866
+strength	10822
+depth	10741
+revenue	10611
+range	10602
+band	10380
+movie	9951
+relation	9869
+component	9709
+climate	9680
+sales	9644
+zip code	9615
+denomination	9518
+branch	9287
+trainer	9207
+office	9170
+creator	9133
+quote	9039
+coach	8691
+names	8569
+star rating	8419
+institution	8400
+purpose	8379
+registration	7851
+isbn	7817
+ra	7816
+person	7745
+closed	7548
+spouse	7398
+crew	7220
+education	7146
+area code	7064
+movement	6826
+family	6708
+death date	6690
+residence	6660
+postal code	6657
+block	6600
+body style	6551
+campus	6380
+distributor	6281
+classification	6210
+media type	6148
+credit	5982
+nationality	5720
+fuel	5718
+budget	5690
+access	5661
+density	5657
+cpu	5515
+subdivision	5455
+province	5374
+ground	5366
+transmission	5335
+closing date	5264
+thumbnail	5179
+operator	5147
+birth place	5121
+leader	5114
+sire	5100
+ethnicity	5084
+employer	4993
+nominee	4971
+age range	4969
+champion	4815
+producer	4780
+march	4695
+races	4663
+engine type	4577
+production	4542
+organisation	4452
+manager	4420
+developer	4364
+inn	4297
+head	4289
+measurements	4283
+scale	4215
+opponents	4200
+designer	4110
+presenter	4081
+affiliation	3971
+continent	3959
+agency	3944
+dam	3935
+house	3924
+building	3837
+operating system	3743
+religion	3717
+profession	3716
+poles	3715
+instrument	3711
+unicode	3646
+municipality	3567
+uses	3549
+home town	3502
+weapon	3475
+child	3439
+command	3410
+prefix	3379
+output	3359
+flag	3300
+father	3269
+ingredient	3246
+plays	3233
+assets	3169
+classes	3114
+selection	3093
+magazine	3037
+abbreviation	2986
+collection	2986
+mother	2959
+university	2915
+equipment	2892
+fuel type	2860
+tuition	2855
+water	2815
+cuisine	2804
+mass	2798
+capital	2674
+performer	2668
+judge	2619
+editor	2613
+membership	2602
+associate	2536
+mission	2452
+theology	2447
+tenant	2438
+alias	2368
+space	2354
+technique	2346
+pronunciation	2339
+commune	2323
+partner	2321
+criteria	2321
+stadium	2313
+work	2283
+income	2250
+record date	2244
+shuttle	2229
+english name	2218
+wavelength	2184
+fastest lap	2079
+chairman	2069
+country origin	2059
+time zone	1991
+per capita income	1979
+staff	1976
+citizenship	1975
+current status	1884
+podiums	1877
+committee	1873
+configuration	1858
+senior	1843
+writer	1833
+original title	1820
+trademark	1811
+skills	1797
+interest	1781
+promotion	1744
+parish	1707
+security	1704
+river	1696
+aircraft type	1690
+limit	1616
+arm	1614
+publication date	1604
+commander	1545
+construction	1543
+principal	1537
+requirement	1503
+displacement	1487
+guest	1456
+portfolio	1447
+participant	1447
+call sign	1445
+plant	1425
+tree	1423
+achievement	1402
+rival	1384
+first air date	1338
+alliance	1315
+breeder	1315
+last air date	1309
+procedure	1297
+birth year	1288
+secretary	1284
+fate	1228
+county seat	1217
+airdate	1195
+wingspan	1167
+training	1166
+net income	1158
+unit cost	1151
+territory	1140
+signature	1126
+cas number	1083
+genus	1078
+seating capacity	1066
+parent	1063
+animal	1029
+background	1023
+pastor	1011
+overall record	1011
+starring	993
+satellite	978
+certification	968
+subtitle	954
+debut	953
+architect	907
+island	894
+contractor	873
+jurisdiction	871
+track number	871
+fighter	870
+draft	861
+army	848
+car number	836
+runtime	819
+chromosome	813
+project type	793
+chairperson	787
+photographer	785
+vice president	772
+sea	741
+grid reference	738
+drama	730
+government	722
+start year	720
+canton	706
+incumbent	705
+icao code	693
+compiler	687
+record label	686
+retired	681
+volumes	679
+end year	670
+iata code	658
+networth	650
+established	646
+senator	638
+winning team	635
+aspect ratio	622
+supply	610
+establishment	608
+management	595
+fips code	577
+patent	576
+foundation	575
+top speed	571
+fuel capacity	570
+mayor	569
+eyes	565
+motto	562
+reservations	562
+episode number	560
+cluster	555
+lowest	551
+federal state	550
+introduced	550
+founder	547
+authority	546
+completion date	535
+total population	534
+country rank	530
+floor area	528
+supplies	526
+circulation	526
+general manager	521
+voice	520
+declination	512
+death place	506
+launch	503
+equity	502
+governor	493
+bird	487
+wheelbase	485
+current rank	485
+formation date	465
+parent company	462
+chain	462
+lounge	456
+administrator	454
+webcast	448
+original name	444
+musicians	437
+casualties	429
+date completed	426
+launch date	422
+cultivar	416
+visitors total	414
+flower	392
+ons	388
+epoch	383
+diocese	376
+mascot	375
+picture description	369
+anniversary	367
+championships	361
+tattoo	361
+licensee	360
+school code	360
+hybrid	357
+average speed	353
+enemy	346
+order date	345
+museum	341
+constellation	340
+discharge	340
+waist size	333
+assembly	330
+rocket	329
+battle	326
+death year	325
+missions	323
+relative	319
+compression ratio	319
+mentor	318
+crew size	316
+project coordinator	313
+delivery date	313
+power type	310
+ensemble	310
+issn	301
+kingdom	293
+production company	292
+regency	292
+power output	289
+language code	279
+related	275
+opening date	274
+shoots	274
+voice type	269
+borough	268
+patron	268
+delegation	249
+melting point	246
+prefecture	244
+foal date	244
+launch site	235
+illustrator	232
+first appearance	230
+uci code	229
+chef	228
+leadership	226
+hair color	223
+other name	222
+service number	219
+most wins	213
+feat	213
+settlement	209
+internationally	209
+ascent	207
+superintendent	206
+choreographer	204
+border	203
+synonym	202
+commissioner	199
+programming language	198
+discontinued	194
+first flight	191
+second team	189
+forces	184
+subsystem	184
+engineer	181
+census year	180
+slogan	180
+quotation	179
+surface area	178
+election date	176
+inclination	172
+acceleration	172
+chief executive officer	171
+trustee	169
+diploma	169
+discoverer	167
+flag link	167
+anthem	164
+athletics	164
+visitors per day	161
+pseudonym	160
+eye color	157
+highest rank	157
+impact factor	152
+operating income	152
+allegiance	150
+specialist	150
+last flight	149
+prominence	149
+novel	148
+monarch	147
+alumni	147
+session number	145
+garrison	143
+track length	143
+birth name	140
+number built	135
+named after	134
+feast day	134
+dynasty	133
+prime minister	131
+saint	131
+ist	131
+ethnic group	130
+local authority	130
+decay	130
+life expectancy	130
+population density	129
+old name	129
+successor	128
+managing editor	127
+b side	127
+last win	125
+dress code	125
+irish name	125
+derivative	123
+observatory	123
+original language	119
+arrondissement	115
+booster	113
+boiling point	113
+frozen	112
+binomial	111
+maximum temperature	111
+title date	111
+date closed	110
+opening theme	109
+lower age	109
+upper age	109
+last position	107
+dean	106
+first game	106
+launch vehicle	103
+start point	102
+nearest city	101
+fuel consumption	99
+draft year	98
+explorer	95
+draft round	95
+narrator	93
+painter	93
+cylinder bore	93
+spacecraft	92
+top scorer	91
+flora	90
+deputy	88
+predecessor	87
+watershed	87
+comic	86
+ec number	86
+piston stroke	86
+former name	85
+premiere date	84
+work area	84
+draft pick	83
+discovered	82
+orbital period	82
+spike	82
+parliament	82
+bust size	81
+lcc	80
+rector	79
+national team	78
+fuel system	78
+introduction date	78
+chaplain	77
+team size	73
+location city	72
+boiler	72
+last season	71
+subdivisions	70
+watercourse	70
+homeport	69
+route number	69
+urban area	69
+playing time	68
+alma mater	67
+sibling	67
+current record	67
+highest position	66
+academy award	66
+end point	65
+national ranking	63
+relief	63
+cover artist	62
+last appearance	61
+race track	61
+crew member	60
+subsidiary	60
+iupac name	59
+currency code	59
+former team	58
+massif	58
+latest release date	58
+set designer	57
+gross domestic product	57
+speed limit	57
+decoration	57
+emblem	57
+headquarter	56
+right ascension	56
+governing body	55
+pdb	55
+regime	55
+curator	52
+similar	52
+minimum temperature	52
+last race	51
+ceremonial county	50
+production years	50
+executive producer	49
+mountain range	49
+albedo	49
+circuit length	49
+third team	48
+apparent magnitude	48
+highschool	47
+other appearances	47
+draft team	46
+race length	46
+lieutenant	45
+deanery	45
+geology	45
+congressional district	44
+provides	44
+passengers per year	44
+virtual channel	44
+information name	44
+maximum depth	42
+meeting city	41
+different	41
+death cause	40
+editing	40
+redline	40
+council area	39
+vein	39
+subregion	39
+medalist	39
+date last updated	39
+wars	39
+bed count	38
+endowment	38
+chancellor	37
+next event	37
+complexion	37
+produces	37
+governorate	37
+dissolved	36
+billed	35
+first race	35
+leader name	35
+creative director	35
+custodian	35
+line length	35
+certification date	35
+retirement date	35
+ideology	34
+ruling	34
+largest city	33
+death age	33
+party number	33
+outflow	32
+astrological sign	32
+toll	32
+load limit	32
+date extended	32
+gnl	31
+sequence number	31
+biome	30
+government type	30
+founding date	30
+piercing	30
+hub airport	29
+teaching staff	29
+patron saint	29
+related functions	29
+promoted	29
+crews	29
+hip size	29
+distance traveled	29
+highest break	29
+elo rating	29
+fauna	29
+ordination	29
+television series	28
+wilaya	28
+program cost	28
+us sales	28
+band member	27
+honours	27
+date construction	27
+maximum elevation	27
+nssdc id	27
+utc offset	27
+first win	26
+organ system	25
+former coach	25
+other party	25
+comparable	25
+damsire	25
+commandant	25
+follows	25
+special effects	25
+average depth	25
+notable features	25
+setup time	25
+nerve	24
+daira	24
+crosses	23
+source country	23
+handedness	23
+escape velocity	23
+infant mortality	23
+architectural style	22
+inflow	22
+military unit	22
+official language	22
+heir	22
+cooling system	22
+varietals	22
+co producer	22
+disciple	22
+combatant	22
+seniority	22
+attorney general	21
+squad number	21
+digital channel	21
+career points	21
+artery	20
+disbanded	20
+market capitalisation	20
+population year	20
+school board	19
+orbits	19
+deme	19
+first launch	19
+minimum system requirements	19
+iucn category	18
+map description	18
+launch pad	17
+military branch	17
+costume designer	17
+league champion	17
+project start date	17
+date use	17
+main building	17
+chief editor	16
+spokesperson	16
+associated act	16
+conservation status	16
+mean temperature	16
+believers	16
+location country	15
+assistant principal	15
+autonomy	15
+entourage	15
+vehicle code	15
+project end date	15
+色名	15
+eruption	15
+construction material	14
+absolute magnitude	14
+landing date	14
+oclc	14
+apskritis	14
+barangays	14
+budget year	14
+city rank	14
+historical name	14
+sat score	13
+government region	13
+first owner	13
+unesco	13
+launches	13
+capture date	13
+date act	13
+circuit name	13
+gold medalist	12
+precursor	12
+insee code	12
+facility id	12
+landing site	12
+boiler pressure	11
+key person	11
+region served	11
+animator	11
+opening season	11
+opening year	11
+refseq	11
+price money	11
+name day	11
+broadcast area	10
+current season	10
+population total	10
+school number	10
+rebuild date	10
+analog channel	10
+colonial name	10
+reopened	10
+act score	9
+debut team	9
+music composer	9
+legal form	9
+religious order	9
+coden	9
+jstor	9
+maiden voyage	9
+personname	9
+rotation period	9
+total cargo	9
+outskirts	9
+wing area	9
+head teacher	8
+vice principal	8
+archipelago	8
+influenced	8
+mill type	8
+sport discipline	8
+oversight	8
+total mass	8
+alternative title	8
+date unveiled	8
+flying hours	8
+gaelic name	8
+region link	8
+total tracks	8
+bronze medalist	7
+current member	7
+notable work	7
+fastest driver	7
+landeshauptmann	7
+automobile model	7
+approximate calories	7
+tournament record	7
+cable car	7
+historical region	7
+last launch	7
+maximum area	7
+surface gravity	7
+capital country	6
+academic discipline	6
+capital region	6
+connotation	6
+government position	6
+portrayer	6
+vice chancellor	6
+makeup artist	6
+sexual orientation	6
+source state	6
+area total	6
+contract award	6
+lccn	6
+reporting mark	6
+other wins	6
+geographic coordinates	6
+first mention	6
+ski lift	6
+flag bearer	5
+gene location	5
+administrative district	5
+broadcast network	5
+governor general	5
+principal engineer	5
+provost	5
+unitary authority	5
+home arena	5
+wine region	5
+buildingtype	5
+classis	5
+last champion	5
+area metro	5
+extinction date	5
+orbital inclination	5
+valvetrain	5
+average class size	5
+parking information	5
+area rank	5
+blazon	5
+kanji name	5
+academic advisor	4
+cinematography	4
+highest mountain	4
+literary genre	4
+lymph	4
+main interest	4
+previous work	4
+associate editor	4
+grandsire	4
+solicitor general	4
+founding year	4
+uniprot	4
+roof height	4
+rebuilder	3
+international affiliation	3
+national affiliation	3
+twin city	3
+running mate	3
+largest metro	3
+list item	3
+old district	3
+organisation member	3
+project objective	3
+batting side	3
+bioavailability	3
+commissioning date	3
+demonym	3
+destruction date	3
+final flight	3
+formation year	3
+geologic period	3
+leader title	3
+maiden flight	3
+mesh number	3
+pubchem	3
+city type	3
+former call sign	3
+end reign	3
+flagsize	3
+human development index	3
+minimum area	3
+penalty score	3
+region type	3
+scots name	3
+siren number	3
+first winner	2
+distributing label	2
+frazioni	2
+lieutenancy area	2
+management position	2
+military rank	2
+picture format	2
+previous event	2
+resting place	2
+route start	2
+source region	2
+term period	2
+twin country	2
+royal anthem	2
+first driver	2
+alongside	2
+dfe	2
+mouth state	2
+subprefecture	2
+taoiseach	2
+youth club	2
+season number	2
+coaching record	2
+apoapsis	2
+area land	2
+longname	2
+mean radius	2
+mesh name	2
+passengers per day	2
+periapsis	2
+serving temperature	2
+statistic value	2
+vehicles per day	2
+fare zone	2
+rebuilding year	2
+bowl record	2
+majority leader	2
+access date	2
+affair	2
+annual temperature	2
+bioclimate	2
+coast line	2
+gini coefficient	2
+hairs	2
+licence number	2
+event period	2
+phone prefix	2
+welsh name	2
+project participant	1
+automobile platform	1
+capital position	1
+daylight saving time zone	1
+ending theme	1
+game engine	1
+lowest position	1
+musical artist	1
+programme format	1
+sheading	1
+current partner	1
+current production	1
+highway system	1
+home stadium	1
+oil system	1
+head chef	1
+state delegate	1
+past member	1
+left child	1
+right child	1
+administrative center	1
+enshrined deity	1
+grammy award	1
+most populous country	1
+peabody award	1
+vice leader	1
+chebi	1
+dissolution date	1
+drugbank	1
+floor count	1
+last election date	1
+last publication date	1
+medlineplus	1
+mesh id	1
+mission duration	1
+nuts code	1
+omim id	1
+service module	1
+total launches	1
+imdb id	1
+shoe number	1
+rail gauge	1
+administrative status	1
+city link	1
+city since	1
+continent rank	1
+coronation date	1
+code istat	1
+japan name	1
+purchasing power parity	1
+regional council	1
+service end date	1
+winter temperature	1

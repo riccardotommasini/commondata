@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scoring-link">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/plugins/scoring-link/scoring-link.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

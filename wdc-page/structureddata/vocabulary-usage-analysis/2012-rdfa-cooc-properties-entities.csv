@@ -1,0 +1,111 @@
+17066874	0.1792771425	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name							
+16607200	0.1744485464	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/url							
+16147032	0.1696147612	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type							
+15804461	0.1660162609	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type						
+15762605	0.1655765891	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url					
+15292038	0.1606335686	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url						
+15292038	0.1606335686	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url						
+13848982	0.1454751421	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/image							
+12906742	0.1355774833	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/image						
+12866407	0.1351537887	http://rdf.data-vocabulary.org/url	http://rdf.data-vocabulary.org/title							
+12693672	0.1333393124	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url					
+12582429	0.1321707723	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url				
+11058967	0.1161677296	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description							
+11035164	0.1159176935	http://ogp.me/nsurl	http://ogp.me/nstitle							
+10813954	0.1135940168	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmlapp-id							
+10735710	0.1127721112	http://ogp.me/nstype	http://ogp.me/nstitle							
+10454138	0.1098143684	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle						
+10446269	0.1097317093	http://ogp.me/nssite-name	http://ogp.me/nstitle							
+10433015	0.1095924841	http://ogp.me/nsimage	http://ogp.me/nstitle							
+10393896	0.1091815628	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/url						
+10365240	0.1088805489	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url					
+10362385	0.1088505589	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url				
+10277571	0.1079596393	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+10040381	0.1054681025	http://ogp.me/nssite-name	http://ogp.me/nstitle	http://ogp.me/nstype						
+10026668	0.1053240557	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype					
+9901791	0.1040122987	http://ogp.me/nsimage	http://ogp.me/nsurl	http://ogp.me/nstitle						
+9895909	0.1039505119	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id						
+9895909	0.1039505119	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id						
+9729444	0.1022018982	http://ogp.me/nsimage	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype					
+9474526	0.0995241395	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+9474526	0.0995241395	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+9419791	0.0989491815	http://ogp.me/nsimage	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle				
+9246345	0.0971272367	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url			
+8772411	0.092148848	http://ogp.me/nsdescription	http://ogp.me/nstitle							
+8319917	0.0873956734	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id			
+8291425	0.0870963822	http://ogp.me/nsdescription	http://ogp.me/nsurl	http://ogp.me/nstitle						
+8108677	0.0851767255	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nsurl	http://ogp.me/nstitle					
+7948473	0.0834938798	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle				
+7933148	0.0833329	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype			
+7457863	0.0783403199	http://www.facebook.com/2008/fbmladmins	http://www.facebook.com/2008/fbmlapp-id							
+6655786	0.0699149883	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://www.facebook.com/2008/fbmlapp-id						
+6620483	0.0695441517	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id		
+6282309	0.0659918393	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id			
+6039192	0.0634380429	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+6039192	0.0634380429	http://opengraphprotocol.org/schema/title	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+5612245	0.0589532241	http://opengraphprotocol.org/schema/title	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+5612245	0.0589532241	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+5612245	0.0589532241	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id					
+4781717	0.050229032	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id		
+4230256	0.0444362692	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id							
+4191939	0.0440337724	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id	
+4052868	0.0425729161	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id					
+4045136	0.0424916961	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id				
+3992317	0.0419368646	http://ogp.me/nsurl	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id						
+3992317	0.0419368646	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://www.facebook.com/2008/fbmlapp-id						
+3992317	0.0419368646	http://ogp.me/nsurl	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id						
+3990377	0.0419164861	http://ogp.me/nsimage	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id			
+3328105	0.0349597211	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id		
+2962484	0.0311190946	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id						
+2944890	0.0309342803	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id				
+2905958	0.0305253233	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id			
+2905343	0.0305188631	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id					
+2905343	0.0305188631	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id					
+2905343	0.0305188631	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://www.facebook.com/2008/fbmlapp-id					
+2815840	0.0295786885	http://ogp.me/nsimage	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id		
+2567853	0.0269737357	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmlapp-id							
+2566244	0.0269568341	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://www.facebook.com/2008/fbmlapp-id						
+2499438	0.0262550777	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address							
+2430390	0.0255297704	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id	
+2327344	0.0244473348	http://www.facebook.com/2008/fbmlpage-id	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://www.facebook.com/2008/fbmlapp-id					
+2250806	0.0236433496	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/name							
+2024200	0.0212629912	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id		
+2017833	0.0211961097	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/postal-code							
+1947008	0.0204521362	http://opengraphprotocol.org/schema/title	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id			
+1947008	0.0204521362	http://www.facebook.com/2008/fbmlpage-id	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id			
+1934828	0.0203241927	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/postal-code						
+1889059	0.0198434171	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id	
+1820456	0.0191227843	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+1820456	0.0191227843	http://opengraphprotocol.org/schema/title	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+1820456	0.0191227843	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+1820456	0.0191227843	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id				
+1710139	0.0179639712	http://ogp.me/nssite-name	http://ogp.me/nslocale							
+1580138	0.0165983897	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/region							
+1544354	0.0162225005	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/description	http://www.facebook.com/2008/fbmlpage-id	http://opengraphprotocol.org/schema/site-name	http://www.facebook.com/2008/fbmladmins	http://opengraphprotocol.org/schema/type	http://opengraphprotocol.org/schema/image	http://opengraphprotocol.org/schema/url	http://www.facebook.com/2008/fbmlapp-id
+1526374	0.0160336315	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nstitle						
+1493110	0.0156842134	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstitle					
+1461710	0.0153543755	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/rating							
+1459971	0.0153361084	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle				
+1422671	0.0149442945	http://rdf.data-vocabulary.org/address	http://rdf.data-vocabulary.org/name	http://rdf.data-vocabulary.org/rating						
+1404065	0.0147488498	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/country-name							
+1361500	0.0143017303	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype			
+1360248	0.0142885788	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/country-name						
+1352278	0.0142048588	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://ogp.me/nslocale	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle		
+1320161	0.0138674893	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/region						
+1174854	0.0123411275	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/country-name	http://rdf.data-vocabulary.org/postal-code					
+1143014	0.0120066676	http://creativecommons.org/nsattributionName	http://creativecommons.org/nsattributionURL							
+1126795	0.0118362969	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id					
+1119993	0.011764846	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id				
+1065463	0.0111920415	http://ogp.me/nsimage	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id		
+1059934	0.0111339627	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id			
+1059934	0.0111339627	http://ogp.me/nsimage	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id			
+1058413	0.0111179855	http://ogp.me/nsimage	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstype	http://ogp.me/nstitle	http://www.facebook.com/2008/fbmlapp-id	
+1003456	0.0105406956	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/locale							
+996076	0.0104631732	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/locale	http://opengraphprotocol.org/schema/url						
+992436	0.0104249372	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/locale	http://opengraphprotocol.org/schema/url					
+981227	0.0103071935	http://rdf.data-vocabulary.org/locality	http://rdf.data-vocabulary.org/street-address	http://rdf.data-vocabulary.org/postal-code	http://rdf.data-vocabulary.org/region					
+920418	0.0096684319	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/locality							
+903786	0.0094937228	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/locality	http://opengraphprotocol.org/schema/url						
+893777	0.0093885844	http://www.w3.org/2000/01/rdf-schemalabel	http://purl.org/dc/terms/title							
+876219	0.0092041483	http://opengraphprotocol.org/schema/title	http://opengraphprotocol.org/schema/locality	http://opengraphprotocol.org/schema/site-name	http://opengraphprotocol.org/schema/url					
+872519	0.009165282	http://ogp.me/nsimage	http://ogp.me/nsdescription	http://ogp.me/nssite-name	http://www.facebook.com/2008/fbmlpage-id	http://www.facebook.com/2008/fbmladmins	http://ogp.me/nsurl	http://ogp.me/nstitle	http://ogp.me/nstype	http://www.facebook.com/2008/fbmlapp-id

@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html><head><title>Schema.org Product Categorization</title>
+<link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+  
+	google.load('visualization', '1', {packages: [ 'bar', 'line', 'corechart']});
+	
+	google.setOnLoadCallback(drawMaterial7);	
+	google.setOnLoadCallback(drawMaterial8);
+	google.setOnLoadCallback(drawMaterial9);
+	google.setOnLoadCallback(drawMaterial10);
+	google.setOnLoadCallback(drawMaterial11);
+	google.setOnLoadCallback(drawMaterial12);
+
+	  
+	function drawMaterial7() {
+
+        var gs1_level1 = google.visualization.arrayToDataTable([
+          ['Segment', '#Products'],
+		  ['67000000_Clothing',      4010],
+          ['64000000_Personal Accessories',    492],
+		  ['75000000_Household/Office Furniture/Furnishings',    466],
+		  ['77000000_Automotive',    430],
+		  ['65000000_Computing',    346],
+          ['79000000_Plumbing/Heating/Ventilation/Air Conditioning',     168],
+          ['81000000_Lawn/Garden Supplies',  41],
+          ['60000000_Textual/Printed/Reference Materials', 150],
+		  ['68000000_Audio Visual/Photography',    330],
+          ['78000000_Electrical Supplies',    150],
+          ['73000000_Kitchen Merchandise',    200],
+          ['71000000_Sports Equipment',    241], 
+		  ['51000000_Healthcare',    300],
+		  ['62000000_Stationery/Office Machinery/Occasion Supplies',    135],
+		  ['53000000_Beauty/Personal Care/Hygiene',    172],
+		  ['86000000_Toys/Games',    152],
+		  ['63000000_Footwear',    207],
+		  ['47000000_Cleaning/Hygiene Products',    89],
+		  ['unknown',    187],
+		  ['85000000_Safety/Protection – DIY',    52],
+		  ['61000000_Music',    36],
+		  ['80000000_Tools/Equipment – Hand',    46],
+		  ['72000000_Home Appliances',    40],
+		  ['66000000_Communications',    89],
+		  ['83000000_Building Products',    88],
+		  ['70000000_Arts/Crafts/Needlework',    82],
+		  ['82000000_Tools/Equipment – Power',    56],
+		  ['50000000_Food/Beverage/Tobacco',    226],
+		  ['91000000_Safety/Security/Surveillance',    43],	
+		  ['10000000_Pet Care/Food',    241],
+		  ['89000000_Live Animals',    54],
+		  ['54000000_Baby Care',    26],
+		  ['93000000_Horticulture Plants',    32],
+		  ['92000000_Storage/Haulage Containers',    9],
+		  ['88000000_Lubricants',    2],
+		  ['87000000_Fuels/Gases',    2],
+		  ['84000000_Tool Storage/Workshop Aids',    2]
+
+
+
+        ]);
+
+
+        var options7 = {
+		  width: 450,
+		  height: 400,			
+		  title: 'Domains with Triples',
+		  sliceVisibilityThreshold: 0,
+		  pieSliceTextStyle: {
+            color: 'black',
+          },
+          chartArea: {left:0},
+		  is3D: true
+		};
+
+        var material7 = new google.visualization.PieChart(document.getElementById('level1'));
+        material7.draw(gs1_level1, options7);
+      }
+	  function drawMaterial8() {
+
+        var segments = google.visualization.arrayToDataTable([
+          ['Segment', '#Products'],
+			['Clothing',      4010],
+          ['Personal Accessories',    492],
+		  ['Household/Office Furniture/Furnishings',    466],
+		  ['Automotive',    430],
+		  ['Computing',    346],
+          		  ['Audio Visual/Photography',    330],
+		  ['Healthcare',    300],
+          ['Sports Equipment',    241], 
+		  ['Pet Care/Food',    241],
+		  ['Food/Beverage/Tobacco',    226],
+		  ['Others',    2332]
+
+        ]);
+
+        var options8 = {
+		  width: 550,
+		  height: 400,
+		  sliceVisibilityThreshold: 0,
+		  pieSliceTextStyle: {
+            color: 'black',
+          },
+          chartArea: {left:0},
+		  is3D: true, 
+		  title: 'Top 10 GS1/GPC categories in the created gold standard'			       
+		};
+
+        var material8 = new google.visualization.PieChart(document.getElementById('seg'));
+        material8.draw(segments, options8);
+      }
+	  	 
+		 function drawMaterial9() {
+
+        var gs1_1_google = google.visualization.arrayToDataTable([
+          ['Mapped', '#Categories'],
+			['mapped',      11],
+          ['non-mapped',    27]
+        ]);
+
+        var options9 = {
+		  width: 400,
+		  height: 450,
+		  sliceVisibilityThreshold: 0,
+		  pieSliceTextStyle: {
+            color: 'black',
+          },
+		  is3D: true, 
+		  colors: ['#04B431','#DF0101'],
+		  title: 'GS1 Family (Level 3) - Google Catalogue mapping'			       
+		};
+
+        var material9 = new google.visualization.PieChart(document.getElementById('GS1_1-Google'));
+        material9.draw(gs1_1_google, options9);
+      }
+	  function drawMaterial10() {
+
+        var gs1_2_google = google.visualization.arrayToDataTable([
+          ['Mapped', '#Categories'],
+			['mapped',      29],
+          ['non-mapped',    84]
+		
+        ]);
+
+        var options10 = {
+		  width: 400,
+		  height: 450,
+		  sliceVisibilityThreshold: 0,
+		  pieSliceTextStyle: {
+            color: 'black',
+          },
+		  is3D: true, 
+		  colors: ['#04B431','#DF0101'],
+		  title: 'GS1 Segment (Level 2) - Google Catalogue mapping'			       
+		};
+
+        var material10 = new google.visualization.PieChart(document.getElementById('GS1_2-Google'));
+        material10.draw(gs1_2_google, options10);
+      }
+	  function drawMaterial11() {
+
+        var gs1_3_google = google.visualization.arrayToDataTable([
+          ['Mapped', '#Categories'],
+			['mapped',      242],
+          ['non-mapped',    541]		 
+        ]);
+
+        var options11 = {
+		  width: 400,
+		  height: 450,
+		  sliceVisibilityThreshold: 0,
+		  pieSliceTextStyle: {
+            color: 'black',
+          },
+		  is3D: true, 
+		chartArea: {right:0},
+
+		  colors: ['#04B431','#DF0101'],
+		  title: 'GS1 Class (Level 3) - Google Catalogue mapping'			       
+		};
+
+        var material11 = new google.visualization.PieChart(document.getElementById('GS1_3-Google'));
+        material11.draw(gs1_3_google, options11);
+      }
+	  
+	  function drawMaterial12() {
+      var data = google.visualization.arrayToDataTable([
+        ['Segment', '#Products'],
+			['Clothing',      4010],
+          ['Personal Accessories',    492],
+		  ['Household/Office Furniture/Furnishings',    466],
+		  ['Automotive',    430],
+		  ['Computing',    346],
+          		  ['Audio Visual/Photography',    330],
+		  ['Healthcare',    300],
+          ['Sports Equipment',    241], 
+		  ['Pet Care/Food',    241],
+		  ['Food/Beverage/Tobacco',    226],
+		  ['Others',    2332]
+      ]);
+
+      var options = {
+	  width: 500,
+	  height: 300,
+        chart: {
+          title: 'Top 10 GS1/GPC categories in the created gold standard'
+        },
+        hAxis: {
+          title: '#Entities',
+          minValue: 0,
+        },
+        vAxis: {
+          title: 'Categories'
+        },
+        bars: 'vertical',
+        
+      };
+      var material = new google.charts.Bar(document.getElementById('top_categories'));
+      material.draw(data, options);
+	  }
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body> 
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../../../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">WDC Product Categorization Goldstandard</h1>
+</div>
+
+<div id="tagline">Categorizing Schema.org Product Descriptions into the GS1 Global Product Catalogue</div>
+
+<div id="authors">
+Anna Primpeli</br>
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+</div>
+
+<div id="content">
+<!--Product entities that follow the annotation rules of <a href="http://schema.org/Product">schema.org/Product</a> could potentially be further described by the <a href="http://schema.org/category">category</a> property. It is observed that only 1.65% of the annotated product entities provide information on the category under which the described product could be grouped. 
+A reason for this could be that categorizing the product entity is not obligatory by <a href="https://developers.google.com/structured-data/rich-snippets/products">Google Rich Snippets for Products</a>. However including the category property into a product description can be useful to the better fulfilment of consumer needs. Thus an automated classification process for product categorization would be essential. A first step towards
+this is the creation of a gold standard that contains a big number of randomly chosen annotated schema.org/Product entities together with their manually assigned category labels. Those labels derive from specified product catalogues in order to avoid big categorization variances.
+-->
+<p>
+This page offers a product categorization gold standard for public download. The gold standard categorizes 9,400 <a href="https://schema.org/Product">schema.org product</a> desriptions into the product taxonomy of <a href="http://www.gs1.org/gpc">GS1 Global Product Catalogue</a>. The schema.org product descriptions originate from the <a href="http://webdatacommons.org/structureddata/index.html#toc3">WebDataCommons 2014 Microdata Corpus</a>. 
+Each product is manually assigned into a category on the third level of the GS1 product taxonomy.  
+</p>
+
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+
+<div id="toccontent">
+
+<h2 id="motivation">1. Motivation</h2>
+<p>
+A significant number of e-commerce websites have started to annotate product data within their HTML pages using the schema.org vocabulary in order to be <a href="https://developers.google.com/structured-data/rich-snippets/products">nicely presented within the search results</a> of  search engines such as Google, Bing, Yahoo, and Yandex. The most commonly used classes for representing product data are  <a href="http://schema.org/Product">schema.org/Product</a> and <a href="http://schema.org/Offer">schema.org/Offer</a>. Although schema.org defines a large number of properties for describing products and offers, only a small subset of these properties is used frequently on the Web. We are particularly interested in the usage of the property <a href="http://schema.org/category">category</a>, which is defined to contain a textual description of "A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy." Analyzing WebDataCommons 2014 product data, we observe that only 2,000 out of the 104,000 that annotate product data also provide categorization information for their products. The product categorization taxonomies used by these 2,000 websites are usually website-specific and the categorization information thus very heterogeneous.  In order to calculate statistics  about which e-shop is selling products from which product category, it is thus be necessary to classify the schema.org product data into a single shared product taxonomy such as the <a href="http://www.gs1.org/gpc">GS1 taxonomy</a>. The WDC Product Categorization Gold Standard has been created to evaluate classifiers for solving this task.</p>
+
+<h2 id="about">2. Description of the Gold Standard</h2>
+
+<p>
+For creating the gold standard, we  randomly chose 9,414 product descriptions from the <a href="http://www.webdatacommons.org/structureddata/2014-12/stats/schema_org_subsets.html">WDC 2014 schema.org Product Data Corpus</a>. The product descriptions originate for 818 different e-commerce websites. Every product is described by the following attributes: </p>
+
+<ul>
+  <li><strong>GeneratedID:</strong> A automatic generated identify, unique for each product description.</li>
+  <li><strong>EntityNodeID:</strong> The original entity node of the root entity (schema.org/Product). This id is unique in combination with the URL.</li>
+  <li><strong>URL: </strong>The URL which embedded the product description.</li>
+  <li><strong>HOST:</strong> The host based on the URL. </li>
+  <li><strong>s:name: </strong>The <a href="http://schema.org/name">name</a> property as defined by schema.org </li>
+  <li><strong>s:description:</strong> The <a href="http://schema.org/description">description</a> property as defined by schema.org </li>
+  <li><strong>s:brand: </strong>The <a href="http://schema.org/brand">brand</a> property as defined by schema.org </li>
+  <li><strong>Properties:</strong> All the properties describing the current product entity </li>
+  <li><strong>s:category:</strong> The <a href="http://schema.org/category">property</a>  as defined by schema.org OR</li>
+  <li><strong>s:breadcrumb: </strong>The <a href="https://schema.org/breadcrumb">breadcrumb</a> property as defined by schema.org </li>
+  </ul>
+  
+ <p> Below two example product entities are presented in the same way like they appear in the data set. <a href="data/sample_dataset.xlsx">Here</a> you can download a sample of the product data set.
+</p> 
+
+<table width="100%" style=" table-layout:fixed; word-wrap: break-word" ><tbody>
+<colgroup>
+	<col span="1" style="width:20%;">
+	<col span="1" style="width:40%;">
+	<col span="1" style="width:40%;">
+</colgroup>
+<tr><th></th><td><strong>Example Entity 1</strong></td><td><strong>Example Entity 2</strong></td></tr>
+<tr><th>GeneratedID</th><td>-2118249796</td><td>1187072929</td></tr>
+<tr><th>EntityNodeID</th><td>node5d4c67d3df98cb2aee588545d24306e</td><td>node26f6acb8c1c3a928c126c26a99c6782</td></tr>
+<tr><th>URL</th><td>http://www.tekshop247.com/37tm4zbb-componentrgb-p-155916.html</td><td>http://www.tekshop247.com/phoneeasy-331ph-corded-phone-p-176289.html</td></tr>
+<tr><th>HOST</th><td>www.tekshop247.com</td><td>www.tekshop247.com</td></tr>
+<tr><th>s:name</th><td>Panasonic TY-37TM4ZBB RCA Component/RGB</td><td>Doro PhoneEasy 331ph Corded Phone</td></tr>
+<tr><th>s:description</th><td>RCA Component/RGB s-vid Board For 37 Plasma</td><td>Doro PhoneEasy® 331ph Designed to make using a phone as simple as can be. Big buttons on a clear and spacious keypad make dialling easier than ever while photo memories connect you with special people at the simple press of a button. Visual ring indicator and HAC (Hearing Aid Compatibility).- Very easy to operate - 3 one-touch photo buttons - Easily adjustable volume FeaturesTypeCorded ColourWhite</td></tr>
+<tr><th>s:brand</th><td>Panasonic</td><td>Doro</td></tr>
+<tr><th>Properties</th><td>http://schema.org/Product/offers\|http://schema.org/Product/mpn\|http://schema.org/Product/name\|http://schema.org/Product/description\|http://schema.org/Product/image\|http://schema.org/Product/brand</td><td>http://schema.org/Product/offers\|http://schema.org/Product/mpn\|http://schema.org/Product/name\|http://schema.org/Product/description\|http://schema.org/Product/image\|http://schema.org/Product/brand</td></tr>
+<tr><th>s:category</th><td>Electronics > Video > Video Accessories > Television Accessories</td><td>Electronics > Communications > Telephony > Corded Phones</td></tr>
+<tr><th>s:breadcrumb</th><td>Browse Tekshop247 » Monitors & Tvs » Plasma Accessories » TY-37TM4ZBB</td><td>Browse Tekshop247 » Home Appliances » Telephones » Corded Phone » 4618</td></tr>
+</tbody></table>
+
+<!--
+<table width="1000px" style=" table-layout:fixed; word-wrap: break-word" >
+
+<tbody>
+<colgroup>
+       <col span="1" style="width: 5;">
+       <col span="1" style="width: 5;">
+       <col span="1" style="width: 8;">
+	   <col span="1" style="width: 9;">
+       <col span="1" style="width: 6;">
+       <col span="1" style="width: 10;">
+	   <col span="1" style="width: 19;">
+       <col span="1" style="width: 5;">
+       <col span="1" style="width: 13;">
+	   <col span="1" style="width: 10;">
+       <col span="1" style="width: 10;">
+</colgroup>
+<tr><th></th><th>GeneratedID</th><th>EntityNodeID</th><th>URL</th><th>HOST</th><th>s:name</th><th>s:description</th><th>s:brand</th><th style="width: 10px;">Properties</th><th>s:category</th><th>s:breadcrumb</th></tr>
+<tr><td>Example Entity 1</td><td>-2118249796</td><td>node5d4c67d3df98cb2aee588545d24306e</td><td>http://www.tekshop247.com/37tm4zbb-componentrgb-p-155916.html</td><td>www.tekshop247.com</td><td>Panasonic TY-37TM4ZBB RCA Component/RGB</td><td>RCA Component/RGB s-vid Board For 37 Plasma</td><td>Panasonic</td><td style="width: 10px;">http://schema.org/Product/offers\|http://schema.org/Product/mpn\|http://schema.org/Product/name\|http://schema.org/Product/description\|http://schema.org/Product/image\|http://schema.org/Product/brand</td><td>Electronics > Video > Video Accessories > Television Accessories</td><td>Browse Tekshop247 » Monitors & Tvs » Plasma Accessories » TY-37TM4ZBB</td></tr>
+<tr><td>Example Entity 2</td><td>1187072929</td><td>node26f6acb8c1c3a928c126c26a99c6782</td><td>http://www.tekshop247.com/phoneeasy-331ph-corded-phone-p-176289.html</td><td>www.tekshop247.com</td><td>Doro PhoneEasy 331ph Corded Phone</td><td>Doro PhoneEasy® 331ph Designed to make using a phone as simple as can be. Big buttons on a clear and spacious keypad make dialling easier than ever while photo memories connect you with special people at the simple press of a button. Visual ring indicator and HAC (Hearing Aid Compatibility).- Very easy to operate - 3 one-touch photo buttons - Easily adjustable volume FeaturesTypeCorded ColourWhite</td><td>Doro</td><td style="width: 10px;">http://schema.org/Product/offers\|http://schema.org/Product/mpn\|http://schema.org/Product/name\|http://schema.org/Product/description\|http://schema.org/Product/image\|http://schema.org/Product/brand</td><td>Electronics > Communications > Telephony > Corded Phones</td><td>Browse Tekshop247 » Home Appliances » Telephones » Corded Phone » 4618</td></tr>																														
+</tbody>
+</table>
+-->
+<p>&nbsp;</p>
+
+<h4>Density Statistics</h4>
+<p>The table below contains statistics about the density of the different attributes, meaning for which subset of the 9,414 products the specific attributes are filled.</p>
+<br />
+<table><tbody><tr><th>Total product entries</th><td>9,414</td></tr>
+<tr><th>Distinct PLDs</th><td>818</td></tr>
+<tr><th>Entities with s:category</th><td>7,976 (84%)</td><th>Distinct s:category values</th><td>3,653</td></tr>
+<tr><th>Entities with s:breadcrumb</th><td>1,445 (15%) </td><th>Distinct s:breadcrumb values</th><td>1,019</td></tr>
+<tr><th>Entities with s:name</th><td>9,394 (99%)</td><th>Distinct s:name values</th><td>9,025</td></tr>
+<tr><th>Entities with s:description</th><td>8,738 (92%) </td><th>Distinct s:description values</th><td>7,992</td></tr>
+<tr><th>Entities with s:brand</th><td>4,030 (42%)</td><th>Distinct s:brand values</th><td>1,234</td></tr>
+
+</tbody></table>
+<h2>3. The GS1 Global Product Catalogue</h2>
+<p>
+As it is observed from the table presented in the previous section the current categorization of products is not only rare but it also has a high variance degree.
+Thus a product catalogue for a unified categorization is needed. For this purpose we initially used the product classification proposed by <a href="http://www.gs1.org/gpc">GS1 Global Product Catalogue (GPC)</a>. The version of 01-12-2014 of the GS1/GPC catalogue suggests 6
+different levels of categorization. The specified levels start with the industry segmentation and are then divided into classes and families of products. The example presented below derives from the GS1 website and
+depicts the mapping of a milk product in the first four levels.
+</p>
+<br/>
+<div >
+<div style="float:left; width:450px; margin-right:5% " >
+<h4>GS1 GPC at a glance</h4></br>
+<table ><tbody>
+<tr><th>Categorization Levels</th><td>6</td><td></td></tr>
+<tr><th>Level 1: Segment - Distinct categories</th><td>38</td><td></td></tr>
+<tr><th>Level 2: Family - Distinct categories</th><td>113</td><td></td></tr>
+<tr><th>Level 3: Class - Distinct categories</th><td>783</td><td></td></tr>
+<tr><th>Level 4: Brick - Distinct categories</th><td>3,766</td><td></td></tr>
+<tr><th>Level 5: Core Attribute Type - Distinct categories</th><td>1,858</td><td></td></tr>
+<tr><th>Level 6: Core Attibute Value - Distinct categories</th><td>10,851</td><td></td></tr>
+</tbody></table>
+</div>
+<div style="float:left; width:650px; margin-top:10px; margin-left:0px">
+<figure>
+  <img src="images/GS1_pic.jpg" alt="GPC/GS1 example" width="100%" />
+  <figcaption>GPC/GS1 categorization example</figcaption>
+</figure>
+</div>
+</div>
+
+<h2 id="creation">4. Creation of the Gold Standard based on GS1/GPC</h2>
+<p>
+For the creation of our gold standard we used the three broader classification levels as defined by GS1/GPC namely: <strong><i>segment</i>, <i>family</i> and <i>class</i>.</strong> In order to assign a category label to a product entity we first looked at the title of the product. In the case that the title was not sufficient for giving a category label we turned to the description and
+the website in which the product information was published, which most of the times contained a picture of the described product. </p>
+
+<!--<div style="float:left; margin-left:0px; width:450px">-->
+<h4>Top 10 GS1/GPC Segments in the Gold Standard</h4>
+<p>Below we present statistics about the distribution of the 9,414 schema.org product descriptions in the gold standard over the Top 10 GS1/GPC segments.
+	<table><tbody><tr><th></th><td>Entities#</td><td>Entities%</td></tr>
+	<tr><th>Clothing</th><td>4,010</td><td>42.6%</td></tr>
+	<tr><th>Personal Accessories</th><td>492</td><td>5.2%</td></tr>
+	<tr><th>Household/Office Furniture/Furnishings</th><td>466</td><td>5.0%</td></tr>
+	<tr><th>Automotive</th><td>430</td><td>4.6%</td></tr>
+	<tr><th>Computing</th><td>346</td><td>3.7%</td></tr>
+	<tr><th>Audio Visual/Photography</th><td>330</td><td>3.5%</td></tr>
+	<tr><th>Healthcare</th><td>300</td><td>3.2%</td></tr>
+	<tr><th>Sports Equipment</th><td>241</td><td>2.6%</td></tr>
+	<tr><th>Pet Care/Food</th><td>241</td><td>2.6%</td></tr>
+	<tr><th>Food/Beverage/Tobacco</th><td>226</td><td>2.4%</td></tr>
+	<tr><th>Others</th><td>2,332</td><td>24.8%</td></tr>
+	</tbody></table>
+<!--</div>-->
+</p>
+<!--<div id="top_categories" style="float:left; width:500px; margin-left:5%; margin-top:13px"></div>-->
+<p>
+In addition to the complete gold standard we also provide a filtered version, where we removed all products from non ".com" URLs, as well as URLs which clearly indicate another language than English e.g. including /de/ in the directory path of the URL. We also removed the products we could not assign to any GS1/GPC category.
+</p>
+
+
+<h2 id="mapping">5. Mapping between the GS1/GPC Taxonomy and the Google Product Taxonomy</h2>
+<p>
+During the labelling process, we observed some limitations of the GS1/GPC taxonomy for products such as house amenities, travelling services and job offers. As a result of these limitations 187 product entities could not be classified. 
+For this reason, we further made use of the <a href='https://support.google.com/merchants/answer/160081?hl=en'>Google Product Taxonomy</a> for product categorization which is more focused on the Web.
+This categorization includes three classification levels. As a first step unique identifiers were given to the Google Product Taxonomy categories of all the three levels and then a mapping between the first two levels 
+and the GS1 categories of the first three levels was attempted. These mappings could be partially implemented as there were no exact equivalences between the two catalogues while in some cases there were 1:n relations between the categories.
+Here is an example of a partial mapping between the two standards for the Baby Care product category:
+<div>
+<img src="images/mapping.png" alt="Mapping example" width="650px" />
+</div>
+<br/>
+The charts below depict the percentage of the GS1/GPC categories of the 3 first levels that could be mapped to at least one Google Product Taxonomy category.
+</p>
+<span>
+<div id="GS1_1-Google" style="float:left;  width:330px"  ></div>
+<div id="GS1_2-Google" style="float:left;  width:330px"  ></div>
+<div id="GS1_3-Google" style="float:left;  width:330px"  ></div>
+</span>
+
+<h2 id="download">6. Download </h2>
+<p>You can download both the created gold standard and the file that contains the mappings between GS1/GPC and the Google Product Taxonomy as csv files. 
+In order to increase the readability, we concatinated the ID and the label of the respective category (e.g. "67010000_Clothing").
+The Google Product Taxonomy with the generated IDs can be found <a href="data/googleproductcatalogue_taxonomy_withids.csv">here</a>.
+</p>
+<colgroup>
+	<col span="1" style="width:5%;">
+	<col span="1" style="width:27%;">
+	<col span="1" style="width:27%;">
+</colgroup>
+<table  style=" table-layout:fixed; word-wrap: break-word" ><tbody>
+<tbody>
+	<tr><th>File</th><td><a href="data/goldstandard_v1.csv">Goldstandard</a> (Version 1)<br><a href="data/goldstandard_eng_v1.csv">English Goldstandard</a> (Version 1)</td><td><a href="data/gs1_google_mapping_v1.csv">GS1/GCP <-> Google Product Taxonomy Mapping</a> (Version 1)</td></tr>
+	<tr><th>Format</th><td>csv (";" as separator)</td><td>csv (";" as separator)</td></tr>
+	<tr><th>Size</th><td>8,856 KB</td><td>109 KB</td></tr>
+	<tr><th>#Rows</th><td>9,415</td><td>786</td></tr>
+	<tr><th>Columns</th><td><ul><li>GeneratedID</li><li>EntityNodeID</li><li>URL</li><li>HOST</li><li>s:name</li><li>s:description</li><li>s:brand</li><li>Properties</li><li>s:category</li><li>s:breadcrumb</li><li>GS1_Level1_Category</li><li>GS1_Level2_Category</li><li>GS1_Level3_Category</li></td><td><ul><li>Segment Code_Segment Description</li><li>GS1 Segment-Google TAX</li><li>Family CodeFamily Description</li><li>GS1 Family-Google TAX</li><li>Class CodeClass Description</li><li>GS1 Class-Google TAX</li></ul></td></tr>
+	</tbody></table>
+
+<h2 id="license">7. License</h2>
+<p>The extracted data is provided according the same <a href="http://commoncrawl.org/about/terms-of-use/full-terms-of-use/">terms of use, disclaimer of warranties and limitation of liabilities</a> that apply to the Common Crawl corpus.</p>
+<p>The data, derived from the GS1 Global Product Catalogue as well as the Google Product Taxonomy (e.g. Google Product Taxonomy with IDs) is provided according the  terms of use, disclamer of warranties and limitations of liability defined by the original distributors of the data: GS1 and Google.</p>
+
+<h2 id="references">8. References</h2>
+
+<ul>
+	<li>Robert Meusel, Anna Primpeli, Christian Meilicke, Heiko Paulheim, and Christian Bizer: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-ExploitingMicrodataAnnotations.pdf" target="_blank">Exploiting Microdata Annotations to Consistently Categorize Product Offers at Web Scale</a></a>. 16th International Conference on Electronic Commerce and Web Technologies (EC-Web2015/T2), Valencia, Spain, September 2015.    
+	<li>Robert Meusel, Petar Petrovski and Christian Bizer: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-TheWDCMicrodataRdfaMicroformatsDataSeries-ISWC2014-rbds.pdf" target="_blank">The WebDataCommons Microdata, RDFa and Microformat Dataset Series</a>. 13th International Semantic Web Conference (ISWC2014), pp. 277-292, Riva del Garda, Italy, October 2014.</li>
+	<li>Petar Petrovski, Volha Bryl, Christian Bizer: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/petrovski_bryl_bizer_deos2014.pdf" target="_blank">Integrating Product Data from Websites offering Microdata Markup</a>. 23rd International Conference on World Wide Web (WWW2014 Companion), pp. 1299-1304,  Seoul, Korea, April 2014.</li>
+	</ul>
+<h2 id="datasets">9. Product Datasets</h2>
+<ul>
+  <li><a href="http://www.webdatacommons.org/structureddata/2014-12/stats/schema_org_subsets.html">WebDataCommons schema.org Product Data Corpus</a> containing 287 million product descriptions originating from 104,000 websites. The data set has been extracted from the CommonCrawl web corpus.</li>
+  <li><a href="http://jmcauley.ucsd.edu/data/amazon/">Amazon Product and Review Dataset</a> containing data about 9.4 million products (including categorization information) as well as 147 million product reviews crawled from Amazon.</li>
+</ul>
+
+</div>
+
+</div>
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+</body>
+</html> 

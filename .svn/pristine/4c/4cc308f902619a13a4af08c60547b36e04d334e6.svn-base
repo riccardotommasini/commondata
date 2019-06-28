@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html><head><title>Class by PLDs for 2010-microdata | Web Data Commons Analysis Results</title><link rel='stylesheet' href='http://www4.wiwiss.fu-berlin.de/bizer/sieve/style.css' type='text/css' media='screen'/></head><body><a name='top'></a><h1>Class by PLDs for 2010-microdata</h1><h2>Top Occurrences</h2><br><table><tr><th>Class</th><th>PLDs / Total</th><th>PLDs / Percentage</th></tr><tr style='font-family:monospace;'><td>http://data-vocabulary.org/Address</td><td style='text-align:right;'>456</td><td style='text-align:right;'>37.47%</td></tr>
+<tr style='font-family:monospace;'><td>http://data-vocabulary.org/Organization</td><td style='text-align:right;'>476</td><td style='text-align:right;'>39.11%</td></tr>
+<tr style='font-family:monospace;'><td>http://data-vocabulary.org/Review</td><td style='text-align:right;'>210</td><td style='text-align:right;'>17.26%</td></tr>
+<tr style='font-family:monospace;'><td>http://data-vocabulary.org/Review-aggregate</td><td style='text-align:right;'>150</td><td style='text-align:right;'>12.33%</td></tr>
+<tr style='font-family:monospace;'><td>http://data-vocabulary.org/Rating</td><td style='text-align:right;'>122</td><td style='text-align:right;'>10.02%</td></tr>
+<tr style='font-family:monospace;'><td>http://data-vocabulary.org/Person</td><td style='text-align:right;'>112</td><td style='text-align:right;'>9.2%</td></tr>
+<tr style='font-family:monospace;'><td>http://data-vocabulary.org/Breadcrumb</td><td style='text-align:right;'>105</td><td style='text-align:right;'>8.63%</td></tr>
+<tr style='font-family:monospace;'><td>http://data-vocabulary.org/Event</td><td style='text-align:right;'>102</td><td style='text-align:right;'>8.38%</td></tr>
+</table><br><br><a href='2010-microdata-classes-plds.csv'>CSV version</a><br><br><a href='index.html'>Back</a></body></html>

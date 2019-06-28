@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tld1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/tld/tld.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

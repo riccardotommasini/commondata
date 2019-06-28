@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html><head><title>Vocabulary Usage by Pay-Level Domain | Web Data Commons Analysis Results</title>
+<link rel='stylesheet' href='http://www4.wiwiss.fu-berlin.de/bizer/sieve/style.css' type='text/css' media='screen'/></head>
+
+<body>
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://wbsg.de"><img src="http://webdatacommons.org/images/fu-logo.gif" alt="Freie Universit&auml;t Berlin Logo"></a><br></div>
+
+<div id="header">
+<h1 style="font-size: 250%;">Vocabulary Usage by Pay-Level Domain</h1>
+</div>
+<div id="tagline">Web Data Commons Analysis Result</div>
+
+<div id="authors">
+<strong><a href="http://hannes.muehleisen.org">Hannes M&uuml;hleisen</a></strong>, <a href="http://www.wbsg.de">Web-Based Systems Group</a>
+</div>
+
+<div id="content">
+
+<h2>Motivation</h2>
+<p>
+In the <a href="http://webdatacommons.org/">Web Data Commons project</a>, we have collected structured data embedded in Web pages using a variety of formats and converted them to RDF.  In particular, we have considered <a href="http://microformats.org/">Microformats</a>, <a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a> and <a href="http://www.w3.org/TR/microdata/">Microdata</a> annotations. Microformats uses a set of well-known HTML constructs to add semantics to HTML elements. However, it is limited in its expressivity, as only a limited number of formats for well-defined use cases exist. On the other hand, RDFa and Microdata can use arbitrary vocabularies, and - together with their flexible data formats - are therefore able to express arbitrary data.
+</p>
+
+<p>
+In this analysis, we tried to answer the question of how RDFa and Microdata annotations are used, in particular, what kind of data is annotated using which vocabularies. However, since <a href="http://www.schema.org">many</a> <a href="http://ogp.me">vocabularies</a> cover a wide range of different things, ranging from barber shops to fictional characters, we were also interested in the parts of vocabularies actually used. Therefore, we analyze usage on three levels: vocabulary, class and property.
+</p>
+
+<p>
+In our previous analysis, we have used the number of entities (identifiable subsets of data grouped by an equivalent RDF subject) as a basic metric to track the popularity of classes and properties. However, we have found that this metric is vulnerable. If a single site publishes massive amounts of entities of a single type, this would be reflected in our results. However, adoption from a single organization does in most cases not indicate increased popularity of a format. Counting the amount of URLs a vocabulary, class or property appears on faces similar problems, in particularly when we consider our base data, which covers some websites more thoroughly than others. We have therefore adopted the notion of the Pay-Level Domain (PLD) as an additional dimension for our metrics. The PLD is a sub-domain of a public top-level domain, for which users usually pay for. PLDs allow us to identify a realm, where a single user or organization is likely to be in control. For example, the PLD for <code>www.example.com</code> would be <code>example.com</code>. If we count the occurrence of vocabularies, classes and properties only once per PLD, these figures are likely to be more informative about the actual popularity of the annotation vocabularies. 
+</p>
+
+<h2>Hypothesis</h2>
+<p>
+Between the publication of our two datasets in 2009/2010 and 2012 there has been a tremendous uptake in publishing structured data on web pages, mainly driven by large Internet companies such as Google and Facebook. These large companies benefit from consuming structured data from web pages in the way of being able to display more and more meaningful information to their users. However, both RDFa and Microdata are not fixed on only supporting these consumers. Rather, in theory every group large enough could publish and use their own vocabulary and thereby exchange information in a structured way using only the already existing web pages. However, motivations for this are yet unclear. Our hypothesis for vocabulary usage in embedding structured data on web pages was therefore that only data supported by the large players is published in large amounts and on a large number of Internet properties. Conveniently, the two main vocabularies in this area, schema.org and the Open Graph Protocol recommend (but do not enforce) different encoding formats. We therefore also expect these formats to have the respective popularity.
+</p>
+
+
+<h2>Experimental Setup</h2>
+<p>
+In order to parse and analyze all RDFa and Microdata triples from the two dataset analyzed so far from Web Data Commons, we have chosen to use <a href="http://pig.apache.org/">Apache Pig</a>, which supports Big Data Analysis by providing a convenient scripting front-end for creating <a href="http://hadoop.apache.org/">Hadoop</a> Map/Reduce jobs, which are run on Hadoop. These Hadoop jobs were then run on an <a href="http://aws.amazon.com/elasticmapreduce/">Amazon Elastic MapReduce</a> cluster. From there, we collected and post-processed the results on a local machine. The following metrics were collected for both datasets as well as RDFa and Microdata separately:
+</p>
+<ul>
+<li>Top Vocabularies by Number of Entities using them</li>
+<li>Top Vocabularies by Number of URLs they appear on</li>
+<li>Top Vocabularies by Number of PLDs they appear on</li>
+<li>Top Classes by Number of Entities using them</li>
+<li>Top Classes by Number of URLs they appear on</li>
+<li>Top Classes by Number of PLDs they appear on</li>
+<li>Top Properties by Number of Entities using them</li>
+<li>Top Properties by Number of URLs they appear on</li>
+<li>Top Properties by Number of PLDs they appear on</li>
+<li>Property Co-Occurence by Entities they appear in</li>
+<li>Property Co-Occurence by URLs they appear on</li>
+<li>Property Co-Occurence by PLDs they appear on</li>
+</ul>
+
+<p>
+We have filtered the results two ways: First, we have removed obviously broken vocabulary, class and property URLs (e.g. <code>http:/example.comAsdf</code>). Second, we have removed the long tail from the results. In particular, frequencies below 100 were removed for PLD metrics, and frequencies below 1,000 were removed for the entity and URL metrics. Furthermore, we have calculated the percentage of all frequencies against the total number of entities, URLs and PLDs.
+</p>
+
+<p>
+The Apache Pig scripts used to create these results as well as the required Java library can be found in <a href="https://subversion.assembla.com/svn/commondata/extractor/pig-analysis/">our Subversion Repository</a>.
+</p>
+
+
+<h2>Results and Discussion</h2>
+<p>
+As predicted, using PLDs as a metric greatly increased the clarity of our results. When comparing the used vocabularies, we can see how the <a href="2012-rdfa-vocabs-plds.html">PLD table</a>, we can see for example how the Dbpedia ontology was found on <a href="2012-rdfa-vocabs-urls.html">50,475 URLs</a> with <a href="2012-rdfa-vocabs-entities.html">507,553 entities</a>, but is not present on the PLD table in the 2012-rdfa dataset. This is due to the fact that Dbpedia URLs were rather frequent in the Web crawl we used to collect structured data from. Nonetheless, this vocabulary is not widely used, which clearly shows on the PLD table. The remainder of this section will therefore focus on the PLD tables, we will start by discussing the data sets, omitting the 2010 microdata results due to their size. 
+</p>
+
+<p>
+For the 2010-rdfa data set, we have found a rather diverse number of <a href="2010-rdfa-vocabs-plds.html">vocabularies</a> being used, even though Facebook's Open Graph Protocol (OGP) is already strong, being used on ca. 40% of PLDs. Also strongly represented were the Dublin Core and Creative Commons vocabularies. The <a href="2010-rdfa-classes-plds.html">distribution of classes</a> is rather even, but a tendency towards product data in Google's schema.org predecessor <code>data-vocabulary.org</code> is visible. However, the <a href="2010-rdfa-properties-plds.html">property distribution</a> is another matter altogether. Since many entities do not carry a type (most notably Facebook's OGP templates), the property distribution is also very important to rate an vocabularies popularity. In this case, the property popularity figures confirms our observation from the vocabulary distribution. The <a href="2010-rdfa-cooc-properties-plds.html">property co-occurence groups</a> by PLDs show that only groups with OGP properties, being very like due to people copy-pasting templates from the OGP documentation to their web page. 
+</p>
+
+<p>
+If we compare these results now to the 2012-rdfa data set, we should be able to view the development of data annotated using this formats from the vocabulary usage viewpoint: On the <a href="2012-rdfa-vocabs-plds.html">vocabulary popularity table</a>, we can see rather unchanged popularity for OGP. Furthermore, the <a href="http://www.foaf-project.org/">Friend-of-a-Friend vocabulary</a> enjoys an unexpected increase of popularity by ca. 10%. The same development is visible to a lesser degree for the <a href="http://sioc-project.org/">SIOC</a> and <a href="http://web.resource.org/rss/1.0/modules/content/">RDF Site Summary</a> vocabularies. This development is also reflected in the <a href="2012-rdfa-classes-plds.html">classes</a> and <a href="2012-rdfa-properties-plds.html">properties</a> tables, with the already known difference in class usage between OGP and the other vocabularies. While more <a href="2012-rdfa-cooc-properties-plds.html">co-occurence groups</a> could be identified than in the 2010-rdfa dataset, OGP properties still by far outweighs those of other vocabularies.
+</p>
+
+<p>
+The Microdata annotation format was popularized through the schema.org initiative driven by Bing, Google, Yahoo and Yandex. Therefore it is no surprise, when the <a href="2012-microdata-vocabs-plds.html">vocabulary popularity table for the 2012-microdata data set</a> only shows this vocabulary and its predecessor to be relevant at all. The <a href="2012-microdata-classes-plds.html">classes table</a> now shows us the popular parts of these vast vocabularies: Addresses, page navigation information in th form of "breadcrumbs", products, offers and business information occurred on more then 10% of the PLDs using Microdata annotations. This view is confirmed by the <a href="2012-microdata-properties-plds.html">properties table</a> and the <a href="2012-microdata-cooc-properties-plds.html">co-occurence groups</a>, where properties and groups for these popular classes are also popular.
+</p>
+
+<h3>Conclusion</h3>
+<p>
+From these results, we were able to fully confirm our hypotheses: The recent uptake in embedding structured data into HTML pages is almost single-handedly driven the consumption of this data by large Internet companies. Furthermore, Webmasters seem to strongly respect the recommendations of these data consumers, even down to the encoding format. This movement can be characterized as a pull-effect: Whatever is consumed, is published. Grassroots movements for vocabularies created by communities can only seen in the RDFa dataset to some degree.
+</p>
+
+<h2>Full Results</h2>
+<br>
+<table>
+<tr><th></th><th>2010-rdfa</th><th>2010-microdata</th><th>2012-rdfa</th><th>2012-microdata</th></th></tr>
+<tr><th>Total Entities</th><td style="text-align:right; font-family: monospace;">38,667,304</td><td style="text-align:right; font-family: monospace;">261,397</td><td style="text-align:right; font-family: monospace;">95,198,271</td><td style="text-align:right; font-family: monospace;"><b>95,734,992</b></td></tr>
+<tr><th>Total URLs</th><td style="text-align:right; font-family: monospace;">11,062,802</td><td style="text-align:right; font-family: monospace;">54,678</td><td style="text-align:right; font-family: monospace;"><b>67,091,714</b></td><td style="text-align:right; font-family: monospace;">26,675,080</td></tr>
+<tr><th>Total PLDs</th><td style="text-align:right; font-family: monospace;">62,285</td><td style="text-align:right; font-family: monospace;">1,217</td><td style="text-align:right; font-family: monospace;"><b>241,550</b></td><td style="text-align:right; font-family: monospace;">44,331</td></tr>
+
+<tr><th>Vocabs/Entities</th><td><a href="2010-rdfa-vocabs-entities.html">HTML</a>/<a href="2010-rdfa-vocabs-entities.csv">CSV</a></td><td><a href="2010-microdata-vocabs-entities.html">HTML</a>/<a href="2010-microdata-vocabs-entities.csv">CSV</a></td><td><a href="2012-rdfa-vocabs-entities.html">HTML</a>/<a href="2012-rdfa-vocabs-entities.csv">CSV</a></td><td><a href="2012-microdata-vocabs-entities.html">HTML</a>/<a href="2012-microdata-vocabs-entities.csv">CSV</a></td></tr>
+<tr><th>Vocabs/URLs</th><td><a href="2010-rdfa-vocabs-urls.html">HTML</a>/<a href="2010-rdfa-vocabs-urls.csv">CSV</a></td><td><a href="2010-microdata-vocabs-urls.html">HTML</a>/<a href="2010-microdata-vocabs-urls.csv">CSV</a></td><td><a href="2012-rdfa-vocabs-urls.html">HTML</a>/<a href="2012-rdfa-vocabs-urls.csv">CSV</a></td><td><a href="2012-microdata-vocabs-urls.html">HTML</a>/<a href="2012-microdata-vocabs-urls.csv">CSV</a></td></tr>
+<tr style="font-weight:bold;"><th>Vocabs/PLDs</th><td><a href="2010-rdfa-vocabs-plds.html">HTML</a>/<a href="2010-rdfa-vocabs-plds.csv">CSV</a></td><td><a href="2010-microdata-vocabs-plds.html">HTML</a>/<a href="2010-microdata-vocabs-plds.csv">CSV</a></td><td><a href="2012-rdfa-vocabs-plds.html">HTML</a>/<a href="2012-rdfa-vocabs-plds.csv">CSV</a></td><td><a href="2012-microdata-vocabs-plds.html">HTML</a>/<a href="2012-microdata-vocabs-plds.csv">CSV</a></td></tr>
+
+<tr><th>Classes/Entities</th><td><a href="2010-rdfa-classes-entities.html">HTML</a>/<a href="2010-rdfa-classes-entities.csv">CSV</a></td><td><a href="2010-microdata-classes-entities.html">HTML</a>/<a href="2010-microdata-classes-entities.csv">CSV</a></td><td><a href="2012-rdfa-classes-entities.html">HTML</a>/<a href="2012-rdfa-classes-entities.csv">CSV</a></td><td><a href="2012-microdata-classes-entities.html">HTML</a>/<a href="2012-microdata-classes-entities.csv">CSV</a></td></tr>
+<tr><th>Classes/URLs</th><td><a href="2010-rdfa-classes-urls.html">HTML</a>/<a href="2010-rdfa-classes-urls.csv">CSV</a></td><td><a href="2010-microdata-classes-urls.html">HTML</a>/<a href="2010-microdata-classes-urls.csv">CSV</a></td><td><a href="2012-rdfa-classes-urls.html">HTML</a>/<a href="2012-rdfa-classes-urls.csv">CSV</a></td><td><a href="2012-microdata-classes-urls.html">HTML</a>/<a href="2012-microdata-classes-urls.csv">CSV</a></td></tr>
+<tr style="font-weight:bold;"><th>Classes/PLDs</th><td><a href="2010-rdfa-classes-plds.html">HTML</a>/<a href="2010-rdfa-classes-plds.csv">CSV</a></td><td><a href="2010-microdata-classes-plds.html">HTML</a>/<a href="2010-microdata-classes-plds.csv">CSV</a></td><td><a href="2012-rdfa-classes-plds.html">HTML</a>/<a href="2012-rdfa-classes-plds.csv">CSV</a></td><td><a href="2012-microdata-classes-plds.html">HTML</a>/<a href="2012-microdata-classes-plds.csv">CSV</a></td></tr>
+
+<tr><th>Properties/Entities</th><td><a href="2010-rdfa-properties-entities.html">HTML</a>/<a href="2010-rdfa-properties-entities.csv">CSV</a></td><td><a href="2010-microdata-properties-entities.html">HTML</a>/<a href="2010-microdata-properties-entities.csv">CSV</a></td><td><a href="2012-rdfa-properties-entities.html">HTML</a>/<a href="2012-rdfa-properties-entities.csv">CSV</a></td><td><a href="2012-microdata-properties-entities.html">HTML</a>/<a href="2012-microdata-properties-entities.csv">CSV</a></td></tr>
+<tr><th>Properties/URLs</th><td><a href="2010-rdfa-properties-urls.html">HTML</a>/<a href="2010-rdfa-properties-urls.csv">CSV</a></td><td><a href="2010-microdata-properties-urls.html">HTML</a>/<a href="2010-microdata-properties-urls.csv">CSV</a></td><td><a href="2012-rdfa-properties-urls.html">HTML</a>/<a href="2012-rdfa-properties-urls.csv">CSV</a></td><td><a href="2012-microdata-properties-urls.html">HTML</a>/<a href="2012-microdata-properties-urls.csv">CSV</a></td></tr>
+<tr style="font-weight:bold;"><th>Properties/PLDs</th><td><a href="2010-rdfa-properties-plds.html">HTML</a>/<a href="2010-rdfa-properties-plds.csv">CSV</a></td><td><a href="2010-microdata-properties-plds.html">HTML</a>/<a href="2010-microdata-properties-plds.csv">CSV</a></td><td><a href="2012-rdfa-properties-plds.html">HTML</a>/<a href="2012-rdfa-properties-plds.csv">CSV</a></td><td><a href="2012-microdata-properties-plds.html">HTML</a>/<a href="2012-microdata-properties-plds.csv">CSV</a></td></tr>
+
+<tr><th>Property Co-Occurence/Entities</th><td><a href="2010-rdfa-cooc-properties-entities.html">HTML</a>/<a href="2010-rdfa-cooc-properties-entities.csv">CSV</a></td><td><a href="2010-microdata-cooc-properties-entities.html">HTML</a>/<a href="2010-microdata-cooc-properties-entities.csv">CSV</a></td><td><a href="2012-rdfa-cooc-properties-entities.html">HTML</a>/<a href="2012-rdfa-cooc-properties-entities.csv">CSV</a></td><td><a href="2012-microdata-cooc-properties-entities.html">HTML</a>/<a href="2012-microdata-cooc-properties-entities.csv">CSV</a></td></tr>
+<tr><th>Property Co-Occurence/URLs</th><td><a href="2010-rdfa-cooc-properties-urls.html">HTML</a>/<a href="2010-rdfa-cooc-properties-urls.csv">CSV</a></td><td><a href="2010-microdata-cooc-properties-urls.html">HTML</a>/<a href="2010-microdata-cooc-properties-urls.csv">CSV</a></td><td><a href="2012-rdfa-cooc-properties-urls.html">HTML</a>/<a href="2012-rdfa-cooc-properties-urls.csv">CSV</a></td><td><a href="2012-microdata-cooc-properties-urls.html">HTML</a>/<a href="2012-microdata-cooc-properties-urls.csv">CSV</a></td></tr>
+<tr><th>Property Co-Occurence/PLDs</th><td><a href="2010-rdfa-cooc-properties-plds.html">HTML</a>/<a href="2010-rdfa-cooc-properties-plds.csv">CSV</a></td><td><a href="2010-microdata-cooc-properties-plds.html">HTML</a>/<a href="2010-microdata-cooc-properties-plds.csv">CSV</a></td><td><a href="2012-rdfa-cooc-properties-plds.html">HTML</a>/<a href="2012-rdfa-cooc-properties-plds.csv">CSV</a></td><td><a href="2012-microdata-cooc-properties-plds.html">HTML</a>/<a href="2012-microdata-cooc-properties-plds.csv">CSV</a></td></tr>
+
+</table>
+
+<h2>Additional Downloads</h2>
+<ul>
+<li><a href="vocab-usage-results.zip">All CSV tables linked above as a single Download</a></li>
+<li><a href="https://subversion.assembla.com/svn/commondata/extractor/pig-analysis/wdc-piganalyis-raw-results.tar.bz2">Raw CSV output from Pig scripts</a> (~ 50 MB)</li>
+</ul>
+
+<h2>Related Work</h2>
+<p>
+Peter Mika and Tim Potter, "<a href="http://events.linkeddata.org/ldow2012/papers/ldow2012-inv-paper-1.pdf">Metadata Statistics for a Large Web Corpus</a>", Linked Data on the Web (LDOW2012). They have also performed an analysis using PLDs as a metric. Their results, particularly Table 7 and Table 9 are consistent to ours. This indicates the validity of our methodology and data set.
+</p>
+
+<h2>Acknowledgements</h2>
+<p>
+The author would like to thank <a href="http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/team/SchultzAndreas.html">Andreas Schultz</a> and <a href="http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/team/JentzschAnja.html">Anja Jentsch</a> for their help. We would also like to thank <a href="http://aws.amazon.com/">Amazon Web Services (AWS)</a> for providing us with a <a href="http://aws.amazon.com/education/aws-in-education-research-grants/">research grant</a> to pay for their services.
+</p>
+</div>
+
+</body></html>
+
+
+

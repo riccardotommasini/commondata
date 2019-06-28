@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="headings2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/headings/headings.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

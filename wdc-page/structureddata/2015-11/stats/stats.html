@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>Web Data Commons Extraction Report - November 2015 Corpus</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+  
+	google.load('visualization', '1', {packages: [ 'bar', 'line', 'corechart']});
+	
+	google.setOnLoadCallback(drawMaterial1);
+	google.setOnLoadCallback(drawMaterial2);
+	google.setOnLoadCallback(drawMaterial3);
+	google.setOnLoadCallback(drawMaterial4);
+	
+	function drawMaterial1() {
+
+        var data2015Plds = google.visualization.arrayToDataTable([
+          ['Annotation type', '#Domains with Triples', { role: 'style' }, { role: 'annotation' }],
+		  ['html-microdata',      1100783 , '#D11919', 'Microdata : 1,100,783'],
+		  ['html-mf-hcard',    1095517  , '#FFD633' , 'mf-hcard : 1,095,517'],
+		  ['html-embedded-jsonld',  596229, '#29A329', 'JSON-LD : 596,229'],	  
+		  ['html-rdfa',     521806 , '#5E8FD8' , 'RDFA : 521,806'],
+          ['html-mf-xfn',    139426  , '#FFF5DD' , 'mf-xfn : 139,426'],
+          ['html-mf-hcalendar', 25721 , '#FFDB4D' , 'mf-hcalendar : 25,721'],
+          ['html-mf-hreview',    11469 , '#FFEB99' , 'mf-hreview : 11,469'],
+		  ['others', 21812 , '#FFE066' , 'others : 21,812' ]
+		  
+        ]);
+
+
+        var options1 = {
+		  width: 550,
+		  height: 400,			  
+		  title: 'Domains with Triples',
+		  is3D: true,	
+		  legend: { position: 'none'},		  
+          chartArea: {left:0},
+		  colors: ['#5E8FD8', '#D11919', '#29A329',  '#FFCC00', '#FFD633','#FFDB4D', '#FFE066', '#FFE680', '#FFEB99' ,'#FFF0B2', '#FFF5CC', '#FFF5DD']
+		};
+
+        var material1 = new google.visualization.BarChart(document.getElementById('d2015Plds'));
+        material1.draw(data2015Plds, options1);
+      }
+	  function drawMaterial2() {
+
+        var data2015Urls = google.visualization.arrayToDataTable([
+           ['Annotation type', '#Urls with Triples', { role: 'style' }, { role: 'annotation' }],
+		  ['html-microdata',      312229919 , '#D11919', 'Microdata : 312,229,919'],
+		  ['html-rdfa',     196336975 , '#5E8FD8' , 'RDFA : 196,336,975'],
+		  ['html-mf-hcard',    104318715  , '#FFD633' , 'mf-hcard : 104,318,715'],
+		  ['html-embedded-jsonld',  35486192, '#29A329', 'JSON-LD : 35,486,192'],	  
+          ['html-mf-xfn',    16159224  , '#FFF5DD' , 'mf-xfn : 16,159,224'],
+          ['html-mf-hcalendar', 3007502 , '#FFDB4D' , 'mf-hcalendar : 3,007,502'],
+          ['html-mf-hreview',    1637792 , '#FFEB99' , 'mf-hreview : 1,637,792'],
+		  ['others', 4351283 , '#FFE066' , 'others : 4,351,283' ]
+        ]);
+
+        var options2 = {
+		  width: 550,
+		  height: 400,			  
+		  title: 'URLs with Triples',
+		  is3D: true,	
+		  legend: { position: 'none'},		  
+          chartArea: {left:0},
+		  colors: ['#5E8FD8', '#D11919', '#29A329',  '#FFCC00', '#FFD633','#FFDB4D', '#FFE066', '#FFE680', '#FFEB99' ,'#FFF0B2', '#FFF5CC', '#FFF5DD']		       
+		};
+
+        var material2 = new google.visualization.BarChart(document.getElementById('d2015Urls'));
+        material2.draw(data2015Urls, options2);
+      }
+	  	  function drawMaterial3() {
+
+        var data2015Entities = google.visualization.arrayToDataTable([
+          ['Annotation type', '#Entities'],
+          ['html-rdfa',     405541283],
+          ['html-microdata',      2209497281],
+		  ['html-embedded-jsonld',      72180127],
+          ['html-geo',  7712041],
+          ['html-mf-hcard',    1349620300],
+          ['html-mf-hcalendar', 34595069],		  
+		  ['html-mf-hlisting',    4473631],
+		  ['html-mf-hresume',   82751],
+          ['html-mf-hreview',    16186868],
+          ['html-mf-species',    218463],
+          ['html-mf-hrecipe',    5781217],
+          ['html-mf-xfn',    52187702]
+        ]);
+
+        var options3 = {
+		  width: 550,
+		  height: 400,
+		  title: 'Typed Entities',
+		  sliceVisibilityThreshold: 0,
+		  pieSliceTextStyle: {
+            color: 'black',
+          },
+          chartArea: {left:0},
+		  is3D: true, 
+		  colors: ['#5E8FD8', '#D11919', '#29A329',  '#FFCC00', '#FFD633','#FFDB4D', '#FFE066', '#FFE680', '#FFEB99' ,'#FFF0B2', '#FFF5CC', '#FFF5DD']     
+		};
+
+        var material3 = new google.visualization.PieChart(document.getElementById('d2015Entities'));
+        material3.draw(data2015Entities, options3);
+      }
+	  	  function drawMaterial4() {
+		  
+        var data2015Triples = google.visualization.arrayToDataTable([
+          ['Annotation type', '#Triples'],
+          ['html-rdfa',     2566827347],
+          ['html-microdata',      9438536906],
+		  ['html-embedded-jsonld',      382896204],
+          ['html-geo',  20348760],
+          ['html-mf-hcard',    3850290103],
+          ['html-mf-hcalendar', 169557078],		  
+		  ['html-mf-hlisting',    18838183],
+		  ['html-mf-hresume',   462002],
+          ['html-mf-hreview',    69802632],
+          ['html-mf-species',    653111],
+          ['html-mf-hrecipe',    24756234],
+          ['html-mf-xfn',    219772447]
+        ]);
+
+        var options4 = {
+		  width: 550,
+		  height: 400,
+		  title: 'Triples',
+		  sliceVisibilityThreshold: 0,
+		  pieSliceTextStyle: {
+            color: 'black',
+          },
+          chartArea: {left:0},
+		  is3D: true, 
+		  colors: ['#5E8FD8', '#D11919', '#29A329',  '#FFCC00', '#FFD633','#FFDB4D', '#FFE066', '#FFE680', '#FFEB99' ,'#FFF0B2', '#FFF5CC', '#FFF5DD'] 
+		};
+
+        var material4 = new google.visualization.PieChart(document.getElementById('d2015Triples'));
+        material4.draw(data2015Triples, options4);
+      }
+	
+	  
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+</script> 
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "name":"Web Data Commons - RDFa, Microdata, and Microformat Data Sets",
+  "description":"Microformat, Microdata and RDFa data from the November 2015 Common Crawl web corpus. We found structured data within 541 million HTML pages out of the 1.77 billion pages contained in the crawl (30%). These pages originate from 2.72 million different pay-level-domains out of the 14.41 million pay-level-domains covered by the crawl (19%). Altogether, the extracted data sets consist of 24.38 billion RDF quads.",
+  "url":"http://webdatacommons.org/structureddata/2015-11/stats/stats.html",
+  "version":"November 2015",
+  "keywords":[
+     "Microformat",
+     "Microdata",
+     "RDFa",
+     "schema.org",
+	 "structured data"
+  ],
+  "creator":[
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/",
+		 "name":"Christian Bizer"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/",
+		 "name":"Robert Meusel"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/anna-primpeli/",
+		 "name":"Anna Primpeli"
+	  }
+  ],
+  "distribution":[
+     {
+        "@type":"DataDownload",
+        "fileFormat":"N-Quads",
+        "contentUrl":"http://webdatacommons.org/structureddata/2015-11/stats/how_to_get_the_data.html"
+     }
+  ],
+  "citation":[
+	  "Robert Meusel, Christian Bizer, Heiko Paulheim: A Web-scale Study of the Adoption and Evolution of the schema.org Vocabulary over Time. 5th International Conference on Web Intelligence, Mining and Semantics (WIMS2015), Limassol, Cyprus, July 2015",
+	  "Robert Meusel and Heiko Paulheim: Heuristics for Fixing Common Errors in Deployed schema.org Microdata, Proceedings of the 12th Extended Semantic Web Conference (ESWC 2015), Portoroz, Slovenia, May 2015. ",
+	  "Robert Meusel, Petar Petrovski, Christian Bizer: The WebDataCommons Microdata, RDFa and Microformat Dataset Series. In Proceedings of the 13th International Semantic Web Conference: Replication, Benchmark, Data and Software Track (ISWC2014).",
+	  "Christian Bizer, Kai Eckert, Robert Meusel, Hannes Mühleisen, Michael Schuhmacher, and Johanna Völker: Deployment of RDFa, Microdata, and Microformats on the Web - A Quantitative Analysis. In Proceedings of the 12th International Semantic Web Conference, Part II: In-Use Track, pp.17-32 (ISWC2013)."
+  ]
+  }
+</script>
+
+</head><body><a name='top'></a>
+<h1>Web Data Commons - RDFa, Microdata,  Embedded JSON-LD, and Microformats Data Sets
+- November 2015</h1>
+<span id="test"></span>
+<p>This document provides statistics about the <a target="_blank" href="http://webdatacommons.org/structureddata/">Web Data Commons</a> RDFa, Microdata and Microformats data sets which have been extracted from the November 2015 release of the <a target="_blank" href="http://commoncrawl.org/">Common Crawl</a>.</p>
+<p>In summary, we found structured data within 541 million HTML pages out of the 1.77 billion pages contained in the crawl (30%). 
+These pages originate from 2.72 million  different pay-level-domains out of the 14.41 million pay-level-domains covered by the crawl (19%).
+Altogether, the extracted data sets consist of 24.38 billion <a target="_blank" href="http://www.w3.org/TR/n-quads/">RDF quads</a>.
+</p>
+<p>
+Instructions on how to download the RDFa, Microdata, Embedded JSON-LD and Microformats data sets are given on the page <a href="how_to_get_the_data.html">how to get the data</a>.
+</p>
+<p>
+  Please note that in the following term <i>Domains</i> refers to pay-level-domains. Subdomains are not counted as separate domains. 
+</p>
+<h2>Overall</h2><br />
+<table><tbody><tr><th>Crawl Date</th><td>November 2015</td><td></td></tr>
+<tr><th>Total Data</th><td  align="right">151 Terabyte</td><td>(compressed)</td></tr>
+<tr><th>Parsed HTML URLs</th><td align="right">1,770,525,212</td><td></td></tr>
+<tr><th>URLs with Triples</th><td align="right">541,514,775</td><td></td></tr>
+<tr><th>Domains in Crawl</th><td align="right">14,409,425</td><td></td></tr>
+<tr><th>Domains with Triples</th><td align="right">2,724,591</td><td></td></tr>
+<tr><th>Typed Entities</th><td align="right">6,107,584,968</td><td></td></tr>
+<tr><th>Triples</th><td align="right">24,377,132,352</td><td></td></tr>
+</tbody></table>
+
+<h2>Results per Format</h2><br />
+<table>
+<tbody>
+<tr><td>Format</td><td>Domains</td><td>URLs</td><td>Typed Entities</td><td>Triples</td></tr>
+<tr><th>html-microdata</th><td  align="right">1,100,783</td><td  align="right">312,229,919</td><td  align="right">2,463,165,945</td><td  align="right">13,224,134,881</td></tr>
+<tr><th>html-rdfa</th><td  align="right">521,806</td><td  align="right">196,336,975</td><td  align="right">460,658,558</td><td  align="right">1,598,114,462</td></tr>
+<tr><th>html-embedded-jsonld</th><td  align="right">596,229</td><td  align="right">35,486,192</td><td  align="right">72,180,127</td><td  align="right">382,896,204</td></tr>
+<tr><th>html-mf-adr</th><td  align="right">140,063</td><td  align="right">13,937,305</td><td  align="right">45,073,622</td><td  align="right">146,968,811</td></tr>
+<tr><th>html-mf-geo</th><td  align="right">16,263</td><td  align="right">3,802,038</td><td  align="right">6,995,794</td><td  align="right">17,847,779</td></tr>
+<tr><th>html-mf-hcalendar</th><td  align="right">25,721</td><td  align="right">3,007,502</td><td  align="right">24,846,049</td><td  align="right">119,168,060</td></tr>
+<tr><th>html-mf-hcard</th><td  align="right">1,189,863</td><td  align="right">104,318,715</td><td  align="right">1,471,748,370</td><td  align="right">4,238,311,400</td></tr>
+<tr><th>html-mf-hcard incl. html-mf-adr</th><td  align="right">1,198,702</td><td  align="right">105,712,446</td><td  align="right">1,516,821,992</td><td  align="right">4,385,280,211</td></tr>
+<tr><th>html-mf-hlisting</th><td  align="right">2,484</td><td  align="right">135,780</td><td  align="right">4,043,961</td><td  align="right">16,126,218</td></tr>
+<tr><th>html-mf-hrecipe</th><td  align="right">2,862</td><td  align="right">389,108</td><td  align="right">3,504,888</td><td  align="right">13,456,521</td></tr>
+<tr><th>html-mf-hresume</th><td  align="right">115</td><td  align="right">2,987</td><td  align="right">6,741</td><td  align="right">19,338</td></tr>
+<tr><th>html-mf-hreview</th><td  align="right">11,469</td><td  align="right">1,637,792</td><td  align="right">6,048,539</td><td  align="right">37,280,831</td></tr>
+<tr><th>html-mf-species</th><td  align="right">88</td><td  align="right">21,370</td><td  align="right">138,818</td><td  align="right">382,344</td></tr>
+<tr><th>html-mf-xfn</th><td  align="right">139,426</td><td  align="right">16,159,224</td><td  align="right">32,351,564</td><td  align="right">197,145,292</td></tr>
+<tr><th>overall</th><td  align="right">2,724,591</td><td  align="right">541,514,775</td><td  align="right">6,107,584,968</td><td  align="right">24,377,132,352</td></tr>
+</tbody>
+</table>
+<div>
+<span style="width:2000px;display:inline-block">
+
+<span id="d2015Plds" style="float:left"></span>
+<span id="d2015Urls" style="float:left"></span>
+</span>
+
+<span style="width:2000px;display:inline-block">
+
+<span id="d2015Entities" style="float:left"></span>
+<span id="d2015Triples" style="float:left"></span>
+</span>
+
+</div>
+<br/>
+
+
+<h2>Top Domains by Extracted Triples</h2><br /><ol>
+<li> <a rel="nofollow" target="_blank" href="http://theclothdiaperwhisperer.com">theclothdiaperwhisperer.com</a> (570,484,881 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://blogspot.com">blogspot.com</a> (538,760,931 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://moosejaw.com">moosejaw.com</a> (362,538,262 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hallmark.com">hallmark.com</a> (351,073,701 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://cnbc.com">cnbc.com</a> (340,398,109 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wordpress.com">wordpress.com</a> (213,049,733 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://rent.com">rent.com</a> (189,856,235 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://zap2it.com">zap2it.com</a> (169,534,834 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://gigmasters.com">gigmasters.com</a> (161,002,214 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://apple.com">apple.com</a> (127,552,186 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hotels.com">hotels.com</a> (122,152,702 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://epicsports.com">epicsports.com</a> (114,339,437 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://snagajob.com">snagajob.com</a> (105,647,356 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://competitivecyclist.com">competitivecyclist.com</a> (105,170,966 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://flightaware.com">flightaware.com</a> (102,813,934 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://diaryofaquilter.com">diaryofaquilter.com</a> (101,945,154 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://backcountry.com">backcountry.com</a> (100,449,223 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://eventbrite.com">eventbrite.com</a> (99,028,396 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://go.com">go.com</a> (97,834,845 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://meetup.com">meetup.com</a> (91,931,385 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://razorgator.com">razorgator.com</a> (90,671,418 triples)</li>
+<li><a href="top_domains_by_extracted_triples.html">More</a></li>
+</ol><br /> 
+
+<h2>Top Domains by URLs with Triples</h2><br /><ol>
+<li> <a rel="nofollow" target="_blank" href="http://blogspot.com">blogspot.com</a> (17,945,167 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://stackexchange.com">stackexchange.com</a> (4,094,109 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wordpress.com">wordpress.com</a> (4,074,073 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://oclc.org">oclc.org</a> (3,371,590 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikipedia.org">wikipedia.org</a> (2,924,510 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://google.com">google.com</a> (2,014,975 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hotels.com">hotels.com</a> (1,830,659 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://deviantart.com">deviantart.com</a> (1,808,415 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://yahoo.com">yahoo.com</a> (1,786,726 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://dreamstime.com">dreamstime.com</a> (1,437,273 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://go.com">go.com</a> (1,428,903 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://popsugar.com">popsugar.com</a> (1,405,929 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://agoda.com">agoda.com</a> (1,378,677 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://epicsports.com">epicsports.com</a> (1,167,852 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wsj.com">wsj.com</a> (1,141,992 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://cnet.com">cnet.com</a> (1,114,463 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://meetup.com">meetup.com</a> (1,082,299 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://nytimes.com">nytimes.com</a> (1,075,548 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://flightaware.com">flightaware.com</a> (1,032,731 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://mlb.com">mlb.com</a> (984,393 urls)</li>
+<li> <a rel="nofollow" target="_blank" href="http://polyvore.com">polyvore.com</a> (950,460 urls)</li>
+<li><a href="top_domains_by_urls_with_triples.html">More</a></li>
+</ol><br /> 
+
+<a name='html-rdfa'></a>
+
+<h3>Extractor html-rdfa</h3><br />
+<table><tr><th>Triples Extracted</th><td>1,598,114,462</td></tr>
+<tr><th>URLs with Triples</th><td>196,336,975</td></tr>
+<tr><th>Average Triples per URL</th><td>8.14</td></tr>
+<tr><th>Domains with Triples</th><td>521,806</td></tr>
+<tr><th>Average Triples per Domain</th><td>3,062.66</td></tr>
+<tr><th>Typed Entities</th><td>460,658,558</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('ed09e999-0997-428b-aaa8-0043c084bc03').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='ed09e999-0997-428b-aaa8-0043c084bc03' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://imore.com">imore.com</a> (72610972 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://angieslist.com">angieslist.com</a> (64389888 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://nycgo.com">nycgo.com</a> (49696848 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ifood.tv">ifood.tv</a> (36617942 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://migrationpolicy.org">migrationpolicy.org</a> (23821217 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hotels.com">hotels.com</a> (20444647 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://akihabaranews.com">akihabaranews.com</a> (14247430 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://epicsports.com">epicsports.com</a> (13044756 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://yahoo.com">yahoo.com</a> (10977316 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://lupefiasco.com">lupefiasco.com</a> (10480886 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://pri.org">pri.org</a> (9411232 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://manhattanreview.com">manhattanreview.com</a> (9148722 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://csnmidatlantic.com">csnmidatlantic.com</a> (8811491 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://cnet.com">cnet.com</a> (8489970 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://worldcat.org">worldcat.org</a> (7756180 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://staples.com">staples.com</a> (7103900 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://starpulse.com">starpulse.com</a> (7099403 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hunterindustries.com">hunterindustries.com</a> (6851734 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://guccimaneonline.com">guccimaneonline.com</a> (6732254 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://securitysystemsnews.com">securitysystemsnews.com</a> (6574083 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://instinctmagazine.com">instinctmagazine.com</a> (6569646 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-rdfa.html">More</a></li></ol><br /> 
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('2e0279a5-5885-4af6-b5e1-ef4afb202173').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='2e0279a5-5885-4af6-b5e1-ef4afb202173' style='display:none'>
+<li>website (181,693 Domains)</li>
+<li>article (97,771 Domains)</li>
+<li>gd:Breadcrumb (63,021 Domains)</li>
+<li>foaf:Image (46,984 Domains)</li>
+<li>foaf:Document (44,609 Domains)</li>
+<li>sioc:Item (28,048 Domains)</li>
+<li>blog (15,364 Domains)</li>
+<li>skos:Concept (10,306 Domains)</li>
+<li>product (10,138 Domains)</li>
+<li>sioc:UserAccount (9,865 Domains)</li>
+<li>gd:Review-aggregate (5,278 Domains)</li>
+<li>gd:Rating (3,966 Domains)</li>
+<li>sioc:Post (3,654 Domains)</li>
+<li>object (2,765 Domains)</li>
+<li>company (2,057 Domains)</li>
+<li>sioctypes:BlogPost (1,932 Domains)</li>
+<li>sioctypes:Comment (1,915 Domains)</li>
+<li>vcard2006:Address (1,609 Domains)</li>
+<li>gr:BusinessEntity (1,550 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('2e0279a5-5885-4af6-b5e1-ef4afb202173a').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='2e0279a5-5885-4af6-b5e1-ef4afb202173a' style='display:none'>
+<li>foaf:Image (96083858 Entities)</li>
+<li>gd:Breadcrumb (48656773 Entities)</li>
+<li>article (41891111 Entities)</li>
+<li>foaf:Document (32176784 Entities)</li>
+<li>sioc:Item (31169518 Entities)</li>
+<li>website (17478916 Entities)</li>
+<li>sioc:Post (17005177 Entities)</li>
+<li>sioctypes:Comment (16482209 Entities)</li>
+<li>skos:Concept (9792626 Entities)</li>
+<li>schema:PostalAddress (9198385 Entities)</li>
+<li>schema:LocalBusiness (7875076 Entities)</li>
+<li>sioc:UserAccount (7683561 Entities)</li>
+<li>schema:Recipe (6473462 Entities)</li>
+<li>product (5451804 Entities)</li>
+<li>blog (1680473 Entities)</li>
+<li>gd:Event (1575053 Entities)</li>
+<li>gd:Review-aggregate (1448149 Entities)</li>
+<li>http://www.apple.com/itms/ (1304194 Entities)</li>
+<li>company (1113300 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('3b506885-b422-4e8f-b52a-9f10f8c5a019').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='3b506885-b422-4e8f-b52a-9f10f8c5a019' style='display:none'>
+<li>ogp-og:title (200411 Domains)</li>
+<li>ogp-og:url (198880 Domains)</li>
+<li>ogp-og:site_name (186085 Domains)</li>
+<li>ogp-og:image (140173 Domains)</li>
+<li>ogp-og:description (110229 Domains)</li>
+<li>ogp-me:title (97129 Domains)</li>
+<li>ogp-me:url (84741 Domains)</li>
+<li>ogp-me:description (79620 Domains)</li>
+<li>ogp-me:image (79544 Domains)</li>
+<li>ogp-me:site_name (75560 Domains)</li>
+<li>gd:title (62699 Domains)</li>
+<li>gd:url (62086 Domains)</li>
+<li>dc:title (53304 Domains)</li>
+<li>fb2008:fbmladmins (47012 Domains)</li>
+<li>fb2008:fbmlapp_id (44173 Domains)</li>
+<li>content:encoded (42649 Domains)</li>
+<li>ogp-fbapp_id (33604 Domains)</li>
+<li>ogp-og:locale (30162 Domains)</li>
+<li>ogp-me:locale (26821 Domains)</li>
+<li>sioc:num_replies (25812 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('3b506885-b422-4e8f-b52a-9f10f8c5a019e').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='3b506885-b422-4e8f-b52a-9f10f8c5a019e' style='display:none'>
+<li>fb2008:fbmlapp_id (71614127 Entities)</li>
+<li>ogp-me:title (59660614 Entities)</li>
+<li>ogp-me:image (48163865 Entities)</li>
+<li>ogp-me:url (44885864 Entities)</li>
+<li>gd:url (44719460 Entities)</li>
+<li>gd:title (43960862 Entities)</li>
+<li>ogp-me:site_name (42759312 Entities)</li>
+<li>ogp-og:title (37791913 Entities)</li>
+<li>ogp-me:description (36816275 Entities)</li>
+<li>ogp-og:url (35325548 Entities)</li>
+<li>ogp-og:site_name (35106534 Entities)</li>
+<li>ogp-og:image (32721210 Entities)</li>
+<li>ogp-og:description (29136764 Entities)</li>
+<li>content:encoded (29067594 Entities)</li>
+<li>fb2008:fbmladmins (27662761 Entities)</li>
+<li>dc:date (26818505 Entities)</li>
+<li>ogp-fbapp_id (24929521 Entities)</li>
+<li>dc:title (24136469 Entities)</li>
+<li>dc:created (19131979 Entities)</li>
+<li>sioc:reply_of (16329578 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr>
+  <th>Detailed Statistics as Excel-File</th>
+  <td><a target="_blank" href="html-rdfa.xlsx">html-rdfa.xlsx</a> (127kb)</td>
+</tr>
+</table>
+
+<a name='html-microdata'></a><h3>Extractor html-microdata</h3><br />
+<table><tr><th>Triples Extracted</th><td>19,991,852,141</td></tr>
+<tr><th>URLs with Triples</th><td>312,229,919</td></tr>
+<tr><th>Average Triples per URL</th><td>42.35</td></tr>
+<tr><th>Domains with Triples</th><td>1,100,783</td></tr>
+<tr><th>Average Triples per Domain</th><td>12,013.39</td></tr>
+<tr><th>Typed Entities</th><td>2,463,165,945</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('57b55b12-32de-4903-aa4b-a1a93c11508a').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='57b55b12-32de-4903-aa4b-a1a93c11508a' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://moosejaw.com">moosejaw.com</a> (362537230 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hallmark.com">hallmark.com</a> (351073701 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://cnbc.com">cnbc.com</a> (340398109 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://rent.com">rent.com</a> (189856235 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://zap2it.com">zap2it.com</a> (168676063 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://gigmasters.com">gigmasters.com</a> (160486892 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://apple.com">apple.com</a> (126055759 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://competitivecyclist.com">competitivecyclist.com</a> (105170966 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://flightaware.com">flightaware.com</a> (102813934 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://diaryofaquilter.com">diaryofaquilter.com</a> (101914214 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://epicsports.com">epicsports.com</a> (101294681 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://backcountry.com">backcountry.com</a> (100449223 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://snagajob.com">snagajob.com</a> (100145582 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hotels.com">hotels.com</a> (99844609 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://eventbrite.com">eventbrite.com</a> (98142751 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://go.com">go.com</a> (95913617 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://meetup.com">meetup.com</a> (88541264 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://repairpal.com">repairpal.com</a> (83330512 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://espn.co.uk">espn.co.uk</a> (81928488 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://stackexchange.com">stackexchange.com</a> (77727498 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://apartmentguide.com">apartmentguide.com</a> (76758914 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-microdata.html">More</a></li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('dac3681c-1f52-435e-9f3f-eb75c9fe36bc').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='dac3681c-1f52-435e-9f3f-eb75c9fe36bc' style='display:none'>
+<li>schema:WebPage (293802 Domains)</li>
+<li>schema:Blog (226245 Domains)</li>
+<li>schema:PostalAddress (143229 Domains)</li>
+<li>schema:Article (129086 Domains)</li>
+<li>schema:BlogPosting (118929 Domains)</li>
+<li>schema:Product (108387 Domains)</li>
+<li>schema:SiteNavigationElement (107842 Domains)</li>
+<li>data-voc:Breadcrumb (102787 Domains)</li>
+<li>schema:WPHeader (99803 Domains)</li>
+<li>schema:WPFooter (99568 Domains)</li>
+<li>schema:Offer (82535 Domains)</li>
+<li>schema:Organization (79102 Domains)</li>
+<li>schema:LocalBusiness (77659 Domains)</li>
+<li>schema:Person (74427 Domains)</li>
+<li>schema:WPSideBar (69700 Domains)</li>
+<li>schema:AggregateRating (60036 Domains)</li>
+<li>schema:CreativeWork (44340 Domains)</li>
+<li>schema:ImageObject (30395 Domains)</li>
+<li>schema:WebSite (28653 Domains)</li>
+<li>schema:Review (28356 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('dac3681c-1f52-435e-9f3f-eb75c9fe36bce').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='dac3681c-1f52-435e-9f3f-eb75c9fe36bce' style='display:none'>
+<li>schema:Product (252233322 Entities)</li>
+<li>data-voc:Breadcrumb (238873443 Entities)</li>
+<li>schema:Offer (218384843 Entities)</li>
+<li>schema:Person (168363779 Entities)</li>
+<li>schema:Organization (110247692 Entities)</li>
+<li>schema:AggregateRating (91230049 Entities)</li>
+<li>schema:ImageObject (88024462 Entities)</li>
+<li>schema:PostalAddress (78194892 Entities)</li>
+<li>schema:Article (70514791 Entities)</li>
+<li>data-voc:Person (58397652 Entities)</li>
+<li>schema:TVSeries (51702500 Entities)</li>
+<li>schema:WebPage (46858279 Entities)</li>
+<li>schema:Review (43322033 Entities)</li>
+<li>schema:Place (41960508 Entities)</li>
+<li>schema:Comment (38073402 Entities)</li>
+<li>schema:ListItem (36423130 Entities)</li>
+<li>schema:Rating (36242603 Entities)</li>
+<li>schema:ImageObject (36139834 Entities)</li>
+<li>schema:SiteNavigationElement (35487220 Entities)</li>
+<li>schema:NewsArticle (31770116 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('be3b865d-920c-4666-b514-68d941ab6a63').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='be3b865d-920c-4666-b514-68d941ab6a63' style='display:none'>
+<li>schema:WebPage/name (167405 Domains)</li>
+<li>schema:Blog/name (140668 Domains)</li>
+<li>schema:PostalAddress/addressLocality (131446 Domains)</li>
+<li>schema:PostalAddress/streetAddress (129694 Domains)</li>
+<li>schema:WebPage/url (119912 Domains)</li>
+<li>schema:PostalAddress/postalCode (117218 Domains)</li>
+<li>schema:PostalAddress/addressRegion (111797 Domains)</li>
+<li>schema:WebPage/image (107383 Domains)</li>
+<li>data-voc:Breadcrumb/title (98263 Domains)</li>
+<li>schema:Product/name (97823 Domains)</li>
+<li>data-voc:Breadcrumb/url (96681 Domains)</li>
+<li>schema:Article/name (84336 Domains)</li>
+<li>schema:Offer/price (78111 Domains)</li>
+<li>schema:Product/image (74618 Domains)</li>
+<li>schema:Product/offers (74198 Domains)</li>
+<li>schema:WebPage/thumbnailUrl (69957 Domains)</li>
+<li>schema:Product/description (69315 Domains)</li>
+<li>schema:Person/name (69117 Domains)</li>
+<li>schema:WPHeader/headline (67420 Domains)</li>
+<li>schema:WebPage/description (62230 Domains)</li>
+
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('be3b865d-920c-4666-b514-68d941ab6a63p').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='be3b865d-920c-4666-b514-68d941ab6a63p' style='display:none'>
+<li>schema:Product/name (235426297 Entities)</li>
+<li>data-voc:Breadcrumb/title (225497433 Entities)</li>
+<li>data-voc:Breadcrumb/url (217882632 Entities)</li>
+<li>schema:Offer/price (207417578 Entities)</li>
+<li>schema:Product/image (183189283 Entities)</li>
+<li>schema:Product/offers (164826489 Entities)</li>
+<li>schema:Person/name (145598606 Entities)</li>
+<li>schema:Offer/priceCurrency (132709125 Entities)</li>
+<li>schema:Product/url (106105663 Entities)</li>
+<li>schema:AggregateRating/ratingValue (81490434 Entities)</li>
+<li>schema:Organization/name (79738350 Entities)</li>
+<li>schema:Person/url (78201835 Entities)</li>
+<li>schema:PostalAddress/addressLocality (73364223 Entities)</li>
+<li>schema:Offer/availability (66222573 Entities)</li>
+<li>schema:PostalAddress/addressRegion (65964933 Entities)</li>
+<li>schema:Product/description (61220725 Entities)</li>
+<li>schema:Product/brand (60801904 Entities)</li>
+<li>data-voc:Person/name (57781405 Entities)</li>
+<li>schema:Organization/url (57673071 Entities)</li>
+<li>schema:Offer/itemCondition (54746721 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr>
+  <th>Detailed Statistics as Excel-File</th>
+  <td><a target="_blank" href="html-md.xlsx">html-microdata.xlsx</a> (221kb)</td>
+</tr>
+</table>
+
+<a name='html-microdata'></a><h3>Extractor html-embedded-jsonld</h3><br />
+<table><tr><th>Triples Extracted</th><td>382,896,204</td></tr>
+<tr><th>URLs with Triples</th><td>35,486,192</td></tr>
+<tr><th>Average Triples per URL</th><td>10.79</td></tr>
+<tr><th>Domains with Triples</th><td>596,229</td></tr>
+<tr><th>Average Triples per Domain</th><td>642.20</td></tr>
+<tr><th>Typed Entities</th><td>72,180,127</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('57b55b12-32de-4903-aa4b-a1a93c11508a1').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='57b55b12-32de-4903-aa4b-a1a93c11508a1' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://popsugar.com">popsugar.com</a> (18234333 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://slacker.com">slacker.com</a> (14308545 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://mashable.com">mashable.com</a> (8888153 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://theguardian.com">theguardian.com</a> (8435547 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://elle.com">elle.com</a> (6892935 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://goodhousekeeping.com">goodhousekeeping.com</a> (5911791 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://snagajob.com">snagajob.com</a> (5356134 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://digitalspy.com">digitalspy.com</a> (5189134 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ihg.com">ihg.com</a> (4526401 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://restonhospital.com">restonhospital.com</a> (4102431 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://reuters.com">reuters.com</a> (3873839 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://genengnews.com">genengnews.com</a> (3662154 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://tasteofhome.com">tasteofhome.com</a> (3531814 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://thenextweb.com">thenextweb.com</a> (3502858 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://largomedical.com">largomedical.com</a> (3195168 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wsj.com">wsj.com</a> (3155210 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://jjill.com">jjill.com</a> (3074178 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://memorialhospitaljax.com">memorialhospitaljax.com</a> (2936295 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sportsdaydfw.com">sportsdaydfw.com</a> (2877273 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://farecompare.com">farecompare.com</a> (2842303 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://complex.com">complex.com</a> (2792947 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-embedded-jsonld.html">More</a></li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('dac3681c-1f52-435e-9f3f-eb75c9fe36bc1').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='dac3681c-1f52-435e-9f3f-eb75c9fe36bc1' style='display:none'>
+<li>schema:WebSite (568457 Domains)</li>
+<li>schema:SearchAction (558321 Domains)</li>
+<li>schema:Organization (92316 Domains)</li>
+<li>schema:LocalBusiness (19750 Domains)</li>
+<li>schema:Person (18231 Domains)</li>
+<li>schema:Place (2848 Domains)</li>
+<li>schema:PostalAddress (2656 Domains)</li>
+<li>schema:Event (2599 Domains)</li>
+<li>schema:ContactPoint (2152 Domains)</li>
+<li>schema:Website (1202 Domains)</li>
+<li>schema:Article (931 Domains)</li>
+<li>schema:GeoCoordinates (780 Domains)</li>
+<li>schema:Offer (583 Domains)</li>
+<li>schema:Product (571 Domains)</li>
+<li>schema:NewsArticle (503 Domains)</li>
+<li>schema:WebPage (426 Domains)</li>
+<li>schema:ListItem (407 Domains)</li>
+<li>schema:BreadcrumbList (354 Domains)</li>
+<li>schema:AggregateRating (281 Domains)</li>
+<li>schema:Physician (259 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('dac3681c-1f52-435e-9f3f-eb75c9fe36bce1').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='dac3681c-1f52-435e-9f3f-eb75c9fe36bce1' style='display:none'>
+<li>schema:WebSite (16058638 Entities)</li>
+<li>schema:SearchAction (11453308 Entities)</li>
+<li>schema:Organization (9786895 Entities)</li>
+<li>schema:NewsArticle (7035493 Entities)</li>
+<li>schema:ListItem (3769873 Entities)</li>
+<li>schema:ContactPoint (3495197 Entities)</li>
+<li>schema:Article (2188155 Entities)</li>
+<li>schema:Person (1946842 Entities)</li>
+<li>schema:Place (1724111 Entities)</li>
+<li>schema:PostalAddress (1719300 Entities)</li>
+<li>schema:GeoCoordinates (1526698 Entities)</li>
+<li>schema:Hospital (1510712 Entities)</li>
+<li>schema:WebPage (1379241 Entities)</li>
+<li>schema:ViewAction (1329144 Entities)</li>
+<li>schema:Country (1045744 Entities)</li>
+<li>schema:Offer (778630 Entities)</li>
+<li>schema:ListenAction (514130 Entities)</li>
+<li>schema:Brand (481730 Entities)</li>
+<li>schema:ImageObject (444318 Entities)</li>
+<li>schema:MusicGroup (440879 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('be3b865d-920c-4666-b514-68d941ab6a631').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='be3b865d-920c-4666-b514-68d941ab6a631' style='display:none'>
+<li>schema:url (577669 Domains)</li>
+<li>schema:potentialAction (558356 Domains)</li>
+<li>schema:target (558351 Domains)</li>
+<li>schema:query-input (558321 Domains)</li>
+<li>schema:name (486478 Domains)</li>
+<li>schema:logo (91089 Domains)</li>
+<li>schema:sameAs (66062 Domains)</li>
+<li>schema:alternateName (35435 Domains)</li>
+<li>schema:openingHours (19214 Domains)</li>
+<li>schema:image (6617 Domains)</li>
+<li>schema:address (4987 Domains)</li>
+<li>schema:telephone (4101 Domains)</li>
+<li>schema:description (3650 Domains)</li>
+<li>schema:location (2825 Domains)</li>
+<li>schema:startDate (2689 Domains)</li>
+<li>schema:addressLocality (2661 Domains)</li>
+<li>schema:streetAddress (2645 Domains)</li>
+<li>schema:endDate (2559 Domains)</li>
+<li>schema:postalCode (2510 Domains)</li>
+<li>schema:contactType (2222 Domains)</li>
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('be3b865d-920c-4666-b514-68d941ab6a63p1').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='be3b865d-920c-4666-b514-68d941ab6a63p1' style='display:none'>
+<li>schema:url (39585346 Entities)</li>
+<li>schema:name (21935279 Entities)</li>
+<li>schema:target (13254430 Entities)</li>
+<li>schema:potentialAction (12739829 Entities)</li>
+<li>schema:query-input (11453308 Entities)</li>
+<li>schema:headline (10042336 Entities)</li>
+<li>schema:logo (9878066 Entities)</li>
+<li>schema:sameAs (7709387 Entities)</li>
+<li>schema:articleSection (7358142 Entities)</li>
+<li>schema:thumbnailUrl (6933267 Entities)</li>
+<li>schema:creator (6897257 Entities)</li>
+<li>schema:dateCreated (6863558 Entities)</li>
+<li>schema:keywords (6783833 Entities)</li>
+<li>schema:telephone (5138630 Entities)</li>
+<li>schema:image (4107887 Entities)</li>
+<li>schema:position (3769874 Entities)</li>
+<li>schema:description (3570677 Entities)</li>
+<li>schema:contactType (3498347 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr>
+  <th>Detailed Statistics as Excel-File</th>
+  <td><a target="_blank" href="html-embedded-jsonld.xlsx">html-embedded-jsonld.xlsx</a> (221kb)</td>
+</tr>
+</table>
+
+
+<a name='html-mf-geo'></a><h3>Extractor html-mf-geo</h3><br />
+<table><tr><th>Triples Extracted</th><td>17,847,779</td></tr>
+<tr><th>URLs with Triples</th><td>3,802,038</td></tr>
+<tr><th>Average Triples per URL</th><td>4.69</td></tr>
+<tr><th>Domains with Triples</th><td>16,263</td></tr>
+<tr><th>Average Triples per Domain</th><td>1,097.45</td></tr>
+<tr><th>Typed Entities</th><td>6,995,794</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('f6dda1d4-e2ca-4c30-abe5-523f4047392d').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='f6dda1d4-e2ca-4c30-abe5-523f4047392d' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://wikipedia.org">wikipedia.org</a> (8357916 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://forrent.com">forrent.com</a> (1110619 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wordpress.com">wordpress.com</a> (869706 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://accuweather.com">accuweather.com</a> (523610 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ap.org">ap.org</a> (493683 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://touristlink.com">touristlink.com</a> (438237 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://meetup.com">meetup.com</a> (417873 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ents24.com">ents24.com</a> (362406 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://panoramio.com">panoramio.com</a> (349755 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://automd.com">automd.com</a> (253971 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikitravel.org">wikitravel.org</a> (234375 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://menupages.com">menupages.com</a> (181932 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://artscouncil.org.uk">artscouncil.org.uk</a> (180066 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://onewed.com">onewed.com</a> (168579 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sfstation.com">sfstation.com</a> (166331 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://11870.com">11870.com</a> (157368 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sandiegoreader.com">sandiegoreader.com</a> (143448 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://openstreetmap.org">openstreetmap.org</a> (132450 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://last.fm">last.fm</a> (132231 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://canadiangardening.com">canadiangardening.com</a> (112743 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://easytobook.com">easytobook.com</a> (107835 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://nationalgeographic.com">nationalgeographic.com</a> (81438 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-mf-geo.html">More</a></li></ol><br /> </td></tr>
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('2fbea5a4-aeb3-45e9-9f14-05b37f785875').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='2fbea5a4-aeb3-45e9-9f14-05b37f785875' style='display:none'><li><abbr title='vcard2006:Location'>vcard2006:Location</abbr> (16336 Domains)</li></ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('2fbea5a4-aeb3-45e9-9f14-05b37f785875a').style.display='block';this.style.display='none';return false;">Show top values by entity count </a></small><ol id='2fbea5a4-aeb3-45e9-9f14-05b37f785875a' style='display:none'><li><abbr title='vcard2006:Location'>vcard2006:Location</abbr> (6995794 Entities)</li></ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('c425f1ee-f8e8-461a-bb8b-c62012ce1ee7p').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='c425f1ee-f8e8-461a-bb8b-c62012ce1ee7p' style='display:none'>
+<li><abbr title='vcard2006:latitude'>vcard2006:latitude</abbr> (12092 Domains)</li>
+<li><abbr title='vcard2006:longitude'>vcard2006:longitude</abbr> (12065 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('c425f1ee-f8e8-461a-bb8b-c62012ce1ee7').style.display='block';this.style.display='none';return false;">Show top values by entity count </a></small><ol id='c425f1ee-f8e8-461a-bb8b-c62012ce1ee7' style='display:none'>
+<li><abbr title='vcard2006:latitude'>vcard2006:latitude</abbr> (5540480 Entities)</li>
+<li><abbr title='vcard2006:longitude'>vcard2006:longitude</abbr> (5540374 Entities)</li>
+</ol><br /> 
+</td></tr>
+</table>
+
+<a name='html-mf-hcalendar'></a><h3>Extractor html-mf-hcalendar</h3><br />
+<table><tr><th>Triples Extracted</th><td>119,168,060</td></tr>
+<tr><th>URLs with Triples</th><td>3,007,502</td></tr>
+<tr><th>Average Triples per URL</th><td>39.62</td></tr>
+<tr><th>Domains with Triples</th><td>25,721</td></tr>
+<tr><th>Average Triples per Domain</th><td>4,633.10</td></tr>
+<tr><th>Typed Entities</th><td>24,846,049</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('d6493d82-5088-43f3-bd40-b8b983426e9a').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='d6493d82-5088-43f3-bd40-b8b983426e9a' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://razorgator.com">razorgator.com</a> (28545421 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikipedia.org">wikipedia.org</a> (4340275 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://gustavus.edu">gustavus.edu</a> (4125634 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ticketsinventory.com">ticketsinventory.com</a> (3754713 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://conventionscene.com">conventionscene.com</a> (3578720 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://abctickets.com">abctickets.com</a> (3527606 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://naturalsciences.org">naturalsciences.org</a> (3191131 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ticketnetwork.com">ticketnetwork.com</a> (3055777 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ticketliquidator.com">ticketliquidator.com</a> (2803312 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ticketstub.com">ticketstub.com</a> (2663484 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://iw.edu">iw.edu</a> (2492377 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://yahoo.com">yahoo.com</a> (2465742 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://winecountry.com">winecountry.com</a> (1624346 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://redmountainresort.com">redmountainresort.com</a> (1482118 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://portlandoregon.gov">portlandoregon.gov</a> (1441888 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://yesmagazine.org">yesmagazine.org</a> (1360001 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://alc.edu">alc.edu</a> (1356559 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sfstation.com">sfstation.com</a> (1352293 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://mainlinehealth.org">mainlinehealth.org</a> (1319360 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://texas.gov">texas.gov</a> (1309264 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ropl.org">ropl.org</a> (1294850 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://goshen.edu">goshen.edu</a> (1294684 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-mf-hcalendar.html">More</a></li></ol><br /> </td></tr>
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('4fe43dfd-9dc4-4566-830a-9b7b75b8f4f9c').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='4fe43dfd-9dc4-4566-830a-9b7b75b8f4f9c' style='display:none'>
+<li><abbr title='icaltzd:vcalendar'>icaltzd:vcalendar</abbr> (25819 Domains)</li>
+<li><abbr title='icaltzd:Vevent'>icaltzd:Vevent</abbr> (23907 Domains)</li>
+<li><abbr title='icaltzd:DomainOf_rrule'>icaltzd:DomainOf_rrule</abbr> (14 Domains)</li>
+<li><abbr title='icaltzd:Vtodo'>icaltzd:Vtodo</abbr> (4 Domains)</li>
+<li><abbr title='icaltzd:Vjournal'>icaltzd:Vjournal</abbr> (1 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('4fe43dfd-9dc4-4566-830a-9b7b75b8f4f9').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='4fe43dfd-9dc4-4566-830a-9b7b75b8f4f9' style='display:none'>
+<li><abbr title='icaltzd:Vevent'>icaltzd:Vevent</abbr> (21819371 Entities)</li>
+<li><abbr title='icaltzd:vcalendar'>icaltzd:vcalendar</abbr> (3024996 Entities)</li>
+<li><abbr title='icaltzd:DomainOf_rrule'>icaltzd:DomainOf_rrule</abbr> (1438 Entities)</li>
+<li><abbr title='icaltzd:Vtodo'>icaltzd:Vtodo</abbr> (243 Entities)</li>
+<li><abbr title='icaltzd:Vjournal'>icaltzd:Vjournal</abbr> (1 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('d87a1df8-33bb-4e53-837f-4590b8ee75a1a').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='d87a1df8-33bb-4e53-837f-4590b8ee75a1a' style='display:none'>
+<li>icaltzd:component (23904 Domains)</li>
+<li>icaltzd:summary (21412 Domains)</li>
+<li>icaltzd:dtstart (19913 Domains)</li>
+<li>icaltzd:dtend (15717 Domains)</li>
+<li>icaltzd:location (8809 Domains)</li>
+<li>icaltzd:url (8494 Domains)</li>
+<li>icaltzd:description (7671 Domains)</li>
+<li>icaltzd:uid (1123 Domains)</li>
+<li>icaltzd:categories (553 Domains)</li>
+<li>icaltzd:dtstamp (85 Domains)</li>
+<li>icaltzd:organizer (64 Domains)</li>
+<li>icaltzd:calAddress (62 Domains)</li>
+<li>icaltzd:status (19 Domains)</li>
+<li>icaltzd:rrule (14 Domains)</li>
+<li>icaltzd:class (9 Domains)</li>
+<li>icaltzd:freq (1 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('d87a1df8-33bb-4e53-837f-4590b8ee75a1').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='d87a1df8-33bb-4e53-837f-4590b8ee75a1' style='display:none'>
+<li>icaltzd:summary (19569918 Entities)</li>
+<li>icaltzd:dtstart (16343140 Entities)</li>
+<li>icaltzd:location (13846916 Entities)</li>
+<li>icaltzd:url (13673192 Entities)</li>
+<li>icaltzd:dtend (4050843 Entities)</li>
+<li>icaltzd:description (3382889 Entities)</li>
+<li>icaltzd:component (2887796 Entities)</li>
+<li>icaltzd:categories (1197445 Entities)</li>
+<li>icaltzd:uid (222114 Entities)</li>
+<li>icaltzd:dtstamp (204367 Entities)</li>
+<li>icaltzd:status (32224 Entities)</li>
+<li>icaltzd:calAddress (7260 Entities)</li>
+<li>icaltzd:organizer (4759 Entities)</li>
+<li>icaltzd:rrule (1200 Entities)</li>
+<li>icaltzd:class (970 Entities)</li>
+<li>icaltzd:freq (2 Entities)</li>
+</ol><br /> 
+</td></tr>
+</table>
+
+<a name='html-mf-hcard' id="html-mf-hcard"></a><h3>Extractor html-mf-hcard</h3><br />
+<table><tr><th>Triples Extracted</th><td>4,238,311,400</td></tr>
+<tr><th>URLs with Triples</th><td>104,318,715</td></tr>
+<tr><th>Average Triples per URL</th><td>40.63</td></tr>
+<tr><th>Domains with Triples</th><td>1,189,863</td></tr>
+<tr><th>Average Triples per Domain</th><td>3,562.02</td></tr>
+<tr><th>Typed Entities</th><td>1,471,748,370</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('f47ce239-4335-43b5-9763-7763b7a2e438').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='f47ce239-4335-43b5-9763-7763b7a2e438' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://theclothdiaperwhisperer.com">theclothdiaperwhisperer.com</a> (570484881 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://blogspot.com">blogspot.com</a> (520062315 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wordpress.com">wordpress.com</a> (193682501 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sonsofstevegarvey.com">sonsofstevegarvey.com</a> (55987612 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://mava.org">mava.org</a> (49657820 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://razorgator.com">razorgator.com</a> (47471743 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ticketstogo.com">ticketstogo.com</a> (44669145 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://politico.com">politico.com</a> (43294961 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://nasa.gov">nasa.gov</a> (42508337 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikipedia.org">wikipedia.org</a> (39052877 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://mlblogs.com">mlblogs.com</a> (35867593 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikitravel.org">wikitravel.org</a> (34969818 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://couriernews.com">couriernews.com</a> (29118550 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ugent.be">ugent.be</a> (28430500 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://neb.com">neb.com</a> (27596975 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://bonhams.com">bonhams.com</a> (23981326 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ibm.com">ibm.com</a> (20192986 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://themanchesterenterprise.com">themanchesterenterprise.com</a> (18771599 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ndigo.com">ndigo.com</a> (18387384 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://justanswer.com">justanswer.com</a> (16899059 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://cricutholiday.com">cricutholiday.com</a> (16414625 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-mf-hcard.html">More</a></li></ol><br /> </td></tr>
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('12c6c083-d018-4bb9-9142-af47215331ea').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='12c6c083-d018-4bb9-9142-af47215331ea' style='display:none'>
+<li><abbr title='vcard2006:Name'>vcard2006:Name</abbr> (1193762 Domains)</li>
+<li><abbr title='vcard2006:VCard'>vcard2006:VCard</abbr> (1193168 Domains)</li>
+<li><abbr title='vcard2006:Organization'>vcard2006:Organization</abbr> (109150 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('12c6c083-d018-4bb9-9142-af47215331eax').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='12c6c083-d018-4bb9-9142-af47215331eax' style='display:none'>
+<li><abbr title='vcard2006:Name'>vcard2006:Name</abbr> (700085753 Entities)</li>
+<li><abbr title='vcard2006:VCard'>vcard2006:VCard</abbr> (700018048 Entities)</li>
+<li><abbr title='vcard2006:Organization'>vcard2006:Organization</abbr> (71644569 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('0e65f625-d493-4a1e-8433-e01613df2e7c').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='0e65f625-d493-4a1e-8433-e01613df2e7c' style='display:none'>
+<li>vcard2006:n (1193762 Domains)</li>
+<li>vcard2006:fn (843547 Domains)</li>
+<li>vcard2006:given-name (839566 Domains)</li>
+<li>vcard2006:family-name (839473 Domains)</li>
+<li>vcard2006:url (550283 Domains)</li>
+<li>vcard2006:photo (226616 Domains)</li>
+<li>vcard2006:adr (129567 Domains)</li>
+<li>vcard2006:org (109150 Domains)</li>
+<li>vcard2006:organization-name (109150 Domains)</li>
+<li>vcard2006:tel (106138 Domains)</li>
+<li>vcard2006:email (50955 Domains)</li>
+<li>vcard2006:geo (14084 Domains)</li>
+<li>vcard2006:nickname (9164 Domains)</li>
+<li>vcard2006:title (5657 Domains)</li>
+<li>vcard2006:note (4107 Domains)</li>
+<li>vcard2006:logo (2721 Domains)</li>
+<li>vcard2006:additional-name (1761 Domains)</li>
+<li>vcard2006:role (1742 Domains)</li>
+<li>vcard2006:category (1687 Domains)</li>
+<li>vcard2006:workTel (1461 Domains)</li>
+
+</ol><br />
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('0e65f625-d493-4a1e-8433-e01613df2e7cc').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='0e65f625-d493-4a1e-8433-e01613df2e7cc' style='display:none'>
+<li>vcard2006:n (700085753 Entities)</li>
+<li>vcard2006:fn (451696670 Entities)</li>
+<li>vcard2006:given-name (444043553 Entities)</li>
+<li>vcard2006:family-name (444027456 Entities)</li>
+<li>vcard2006:url (222867077 Entities)</li>
+<li>vcard2006:photo (290564377 Entities)</li>
+<li>vcard2006:adr (34365828 Entities)</li>
+<li>vcard2006:org (71644570 Entities)</li>
+<li>vcard2006:organization-name (71644568 Entities)</li>
+<li>vcard2006:tel (15334504 Entities)</li>
+<li>vcard2006:email (5889552 Entities)</li>
+<li>vcard2006:geo (3552825 Entities)</li>
+<li>vcard2006:nickname (4896747 Entities)</li>
+<li>vcard2006:title (2325984 Entities)</li>
+<li>vcard2006:note (2935846 Entities)</li>
+<li>vcard2006:logo (2051987 Entities)</li>
+<li>vcard2006:additional-name (58425 Entities)</li>
+<li>vcard2006:role (725423 Entities)</li>
+<li>vcard2006:category (1102342 Entities)</li>
+<li>vcard2006:workTel (453698 Entities)</li>
+
+</ol><br /> 
+</td></tr>
+</table>
+
+<a name='html-mf-hlisting'></a><h3>Extractor html-mf-hlisting</h3><br />
+<table><tr><th>Triples Extracted</th><td>16,126,218
+</td></tr>
+<tr><th>URLs with Triples</th><td>135,780
+</td></tr>
+<tr><th>Average Triples per URL</th><td>118.77</td></tr>
+<tr><th>Domains with Triples</th><td>2,484
+</td></tr>
+<tr><th>Average Triples per Domain</th><td>6,492.04</td></tr>
+<tr><th>Typed Entities</th><td>4,043,961
+</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('4b54d136-a9a1-4f72-af12-bea94f8b89a1').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='4b54d136-a9a1-4f72-af12-bea94f8b89a1' style='display:none'><li> <a target="_blank" target="_blank" href="http://gumtree.com">gumtree.com</a> (31,420,916 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://remax.com">remax.com</a> (6628005 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://forrent.com">forrent.com</a> (5243034 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://iberia.com">iberia.com</a> (1079941 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sothebysrealty.com">sothebysrealty.com</a> (894893 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://quoka.de">quoka.de</a> (872751 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://after55.com">after55.com</a> (184926 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://fyndtorget.se">fyndtorget.se</a> (89493 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://forrentuniversity.com">forrentuniversity.com</a> (73709 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://immobilmente.com">immobilmente.com</a> (51728 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://tomshardware.de">tomshardware.de</a> (28350 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://tonkingreen.com">tonkingreen.com</a> (26745 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://piscinas.com">piscinas.com</a> (24147 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://legacysir.com">legacysir.com</a> (20964 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://guialimpieza.com">guialimpieza.com</a> (19592 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://decoracionfigurastematicas.org">decoracionfigurastematicas.org</a> (17557 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://espontaneamentenatural.com">espontaneamentenatural.com</a> (17000 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://yapalim.net">yapalim.net</a> (15300 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://tomsguide.fr">tomsguide.fr</a> (14403 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://attico.it">attico.it</a> (13290 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://paradizo.com">paradizo.com</a> (12844 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://premiersothebysrealty.com">premiersothebysrealty.com</a> (12820 triples)</li>
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('384cdcc7-f773-45ab-a8c9-1436f52e6c4e').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='384cdcc7-f773-45ab-a8c9-1436f52e6c4e' style='display:none'>
+<li><abbr title='hlisting:Lister'>hlisting:Lister</abbr> (2487 Domains)</li>
+<li><abbr title='hlisting:Listing'>hlisting:Listing</abbr> (2487 Domains)</li>
+<li><abbr title='hlisting:Item'>hlisting:Item</abbr> (1944 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('384cdcc7-f773-45ab-a8c9-1436f52e6c4ea').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='384cdcc7-f773-45ab-a8c9-1436f52e6c4ea' style='display:none'>
+<li><abbr title='hlisting:Lister'>hlisting:Lister</abbr> (1548917 Entities)</li>
+<li><abbr title='hlisting:Listing'>hlisting:Listing</abbr> (1548917 Entities)</li>
+<li><abbr title='hlisting:Item'>hlisting:Item</abbr> (946127 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('c10e3355-0be2-4a77-967a-cb42c60d811e').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='c10e3355-0be2-4a77-967a-cb42c60d811e' style='display:none'>
+<li>hlisting:lister (2487 Domains)</li>
+<li>hlisting:price (2219 Domains)</li>
+<li>hlisting:item (1944 Domains)</li>
+<li>hlisting:itemPhoto (1944 Domains)</li>
+<li>hlisting:itemUrl (1944 Domains)</li>
+<li>hlisting:description (1742 Domains)</li>
+<li>hlisting:summary (500 Domains)</li>
+<li>hlisting:action (283 Domains)</li>
+<li>hlisting:itemName (275 Domains)</li>
+<li>hlisting:listerLogo (189 Domains)</li>
+<li>hlisting:listerUrl (188 Domains)</li>
+<li>hlisting:listerName (175 Domains)</li>
+<li>hlisting:listerOrg (131 Domains)</li>
+<li>vcard2006:tel (110 Domains)</li>
+<li>hlisting:dtlisted (86 Domains)</li>
+<li>hlisting:permalink (18 Domains)</li>
+<li>foaf:mbox (7 Domains)</li>
+<li>hlisting:dtexpired (3 Domains)</li>
+<ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('c10e3355-0be2-4a77-967a-cb42c60d811ec').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='c10e3355-0be2-4a77-967a-cb42c60d811ec' style='display:none'>
+<li>hlisting:lister (1548917 Entities)</li>
+<li>hlisting:item (946127 Entities)</li>
+<li>hlisting:itemPhoto (946127 Entities)</li>
+<li>hlisting:itemUrl (946127 Entities)</li>
+<li>hlisting:description (934919 Entities)</li>
+<li>hlisting:itemName (824252 Entities)</li>
+<li>hlisting:price (794641 Entities)</li>
+<li>hlisting:action (750507 Entities)</li>
+<li>hlisting:listerLogo (684676 Entities)</li>
+<li>hlisting:listerUrl (684406 Entities)</li>
+<li>hlisting:listerName (235646 Entities)</li>
+<li>hlisting:summary (127552 Entities)</li>
+<li>vcard2006:tel (116487 Entities)</li>
+<li>hlisting:listerOrg (13419 Entities)</li>
+<li>hlisting:dtlisted (7165 Entities)</li>
+<li>hlisting:permalink (214 Entities)</li>
+<li>foaf:mbox (170 Entities)</li>
+<li>hlisting:dtexpired (82 Entities)</li>
+
+</ol><br /> 
+</td></tr>
+</table>
+
+
+<a name='html-mf-hrecipe' id="html-mf-hrecipe"></a><h3>Extractor html-mf-hrecipe</h3><br />
+<table><tr><th>Triples Extracted</th><td>13,456,521
+</td></tr>
+<tr><th>URLs with Triples</th><td>389,108
+</td></tr>
+<tr><th>Average Triples per URL</th><td>34.58
+</td></tr>
+<tr><th>Domains with Triples</th><td>2,862
+</td></tr>
+<tr><th>Average Triples per Domain</th><td>4,701.79
+</td></tr>
+<tr><th>Typed Entities</th><td>3,504,888
+</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('4b54d136-a9a1-4f72-af12-bea94f8b89a11').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='4b54d136-a9a1-4f72-af12-bea94f8b89a11' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://grouprecipes.com">grouprecipes.com</a> (1899381 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://seriouseats.com">seriouseats.com</a> (1463846 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://bakespace.com">bakespace.com</a> (1306348 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://chefkoch.de">chefkoch.de</a> (1245274 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sheknows.com">sheknows.com</a> (788993 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://deepsouthdish.com">deepsouthdish.com</a> (545342 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://rachaelraymag.com">rachaelraymag.com</a> (266641 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://drinksmixer.com">drinksmixer.com</a> (246840 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://midwestliving.com">midwestliving.com</a> (214594 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://fatsecret.com">fatsecret.com</a> (207650 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://lecker.de">lecker.de</a> (207087 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://canadianliving.com">canadianliving.com</a> (203417 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://bbc.co.uk">bbc.co.uk</a> (194571 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://asiansupper.com">asiansupper.com</a> (132224 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://whatsforlunchhoney.net">whatsforlunchhoney.net</a> (129029 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://journaldesfemmes.com">journaldesfemmes.com</a> (114619 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://campbellskitchen.com">campbellskitchen.com</a> (101443 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://deliaonline.com">deliaonline.com</a> (95696 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://keyingredient.com">keyingredient.com</a> (94705 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://emilybites.com">emilybites.com</a> (92290 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://phamfatale.com">phamfatale.com</a> (91954 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-mf-hrecipe.html">More</a></li></ol><br />
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('384cdcc7-f773-45ab-a8c9-1436f52e6c41').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='384cdcc7-f773-45ab-a8c9-1436f52e6c41' style='display:none'>
+<li><abbr title='hrecipe:Recipe'>sindice:hrecipe/Recipe</abbr> (2916 Domains)</li>
+<li><abbr title='hrecipe:Ingredient'>sindice:hrecipe/Ingredient</abbr> (2022 Domains)</li>
+<li><abbr title='hrecipe:Duration'>sindice:hrecipe/Duration</abbr> (725 Domains)</li>
+<li><abbr title='hrecipe:Nutrition'>sindice:hrecipe/Nutrition</abbr> (260 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('384cdcc7-f773-45ab-a8c9-1436f52e6c41c').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='384cdcc7-f773-45ab-a8c9-1436f52e6c41c' style='display:none'>
+<li><abbr title='hrecipe:Ingredient'>hrecipe:Ingredient</abbr> (2856460 Entities)</li>
+<li><abbr title='hrecipe:Recipe'>hrecipe:Recipe</abbr> (463356 Entities)</li>
+<li><abbr title='hrecipe:Duration'>hrecipe:Duration</abbr> (147167 Entities)</li>
+<li><abbr title='hrecipe:Nutrition'>hrecipe:Nutrition</abbr> (37905 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('c10e3355-0be2-4a77-967a-cb42c60d811e1').style.display='block';this.style.display='none';return false;">Show top values</a></small><ol id='c10e3355-0be2-4a77-967a-cb42c60d811e1' style='display:none'>
+<li>hrecipe:fn (2431 Domains)</li>
+<li>hrecipe:ingredient (2022 Domains)</li>
+<li>hrecipe:ingredientName (2006 Domains)</li>
+<li>hrecipe:instructions (1759 Domains)</li>
+<li>hrecipe:photo (1730 Domains)</li>
+<li>hrecipe:yield (1199 Domains)</li>
+<li>hrecipe:summary (1112 Domains)</li>
+<li>hrecipe:tag (1090 Domains)</li>
+<li>hrecipe:author (1000 Domains)</li>
+<li>hrecipe:duration (725 Domains)</li>
+<li>hrecipe:durationTime (691 Domains)</li>
+<li>hrecipe:published (620 Domains)</li>
+<li>hrecipe:nutrition (260 Domains)</li>
+<li>hrecipe:nutritionValue (224 Domains)</li>
+<li>hrecipe:ingredientQuantity (216 Domains)</li>
+<li>hrecipe:ingredientQuantityType (213 Domains)</li>
+<li>hrecipe:durationTitle (98 Domains)</li>
+<li>hrecipe:nutritionValueType (45 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('c10e3355-0be2-4a77-967a-cb42c60d811e1c').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='c10e3355-0be2-4a77-967a-cb42c60d811e1c' style='display:none'>
+<li>hrecipe:ingredientName (2836218 Entities)</li>
+<li>hrecipe:fn (416769 Entities)</li>
+<li>hrecipe:ingredient (332342 Entities)</li>
+<li>hrecipe:instructions (325890 Entities)</li>
+<li>hrecipe:photo (289657 Entities)</li>
+<li>hrecipe:yield (236386 Entities)</li>
+<li>hrecipe:summary (167124 Entities)</li>
+<li>hrecipe:tag (144711 Entities)</li>
+<li>hrecipe:author (125364 Entities)</li>
+<li>hrecipe:duration (108114 Entities)</li>
+<li>hrecipe:durationTime (91190 Entities)</li>
+<li>hrecipe:ingredientQuantity (91118 Entities)</li>
+<li>hrecipe:ingredientQuantityType (69996 Entities)</li>
+<li>hrecipe:published (63216 Entities)</li>
+<li>hrecipe:nutritionValue (35502 Entities)</li>
+<li>hrecipe:nutrition (30887 Entities)</li>
+<li>hrecipe:nutritionValueType (5513 Entities)</li>
+<li>hrecipe:durationTitle (5427 Entities)</li>
+</ol><br /> 
+</td></tr>
+</table>
+
+<a name='html-mf-hresume'></a><h3>Extractor html-mf-hresume</h3><br />
+<table><tr><th>Triples Extracted</th><td>19,338
+</td></tr>
+<tr><th>URLs with Triples</th><td>2,987
+</td></tr>
+<tr><th>Average Triples per URL</th><td>6.47
+</td></tr>
+<tr><th>Domains with Triples</th><td>115
+</td></tr>
+<tr><th>Average Triples per Domain</th><td>168.16
+</td></tr>
+<tr><th>Typed Entities</th><td>6,741
+</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('e7215d9e-523e-49de-88e1-c87dd428ebac').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='e7215d9e-523e-49de-88e1-c87dd428ebac' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://eurecom.fr">eurecom.fr</a> (8450 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://whatclinic.com">whatclinic.com</a> (6174 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://handi-cv.com">handi-cv.com</a> (242 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://changelog.ca">changelog.ca</a> (209 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikia.com">wikia.com</a> (203 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://chadlindstrom.ca">chadlindstrom.ca</a> (160 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ntoll.org">ntoll.org</a> (148 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://justinhileman.com">justinhileman.com</a> (142 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://dotrob.com">dotrob.com</a> (133 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://rogerrohrbach.com">rogerrohrbach.com</a> (114 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://indeed.com">indeed.com</a> (114 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://paulschmidt.org">paulschmidt.org</a> (110 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://alexrosenkranz.com">alexrosenkranz.com</a> (102 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://dustyjewett.com">dustyjewett.com</a> (93 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://reidsrow.com">reidsrow.com</a> (93 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://shanetomlinson.com">shanetomlinson.com</a> (90 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://cotescu.com">cotescu.com</a> (86 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://stjean.co">stjean.co</a> (75 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://stanford.edu">stanford.edu</a> (73 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://brandi.org">brandi.org</a> (72 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://pkqk.net">pkqk.net</a> (71 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-mf-hresume.html">More</a></li></ol><br /> 
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('7eddb538-f020-43cf-ba57-77b5ca3bd8d9a').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='7eddb538-f020-43cf-ba57-77b5ca3bd8d9a' style='display:none'><li><abbr title='foaf:Person'>foaf:Person</abbr> (116 Domains)</li></ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('7eddb538-f020-43cf-ba57-77b5ca3bd8d9').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='7eddb538-f020-43cf-ba57-77b5ca3bd8d9' style='display:none'><li><abbr title='foaf:Person'>foaf:Person</abbr> (6741 Entities)</li></ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('883a8104-2776-4bbc-bf7f-4ef00e5cdd8e').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='883a8104-2776-4bbc-bf7f-4ef00e5cdd8e' style='display:none'>
+<li>doac:summary (82 Domains)</li>
+<li>doac:experience (62 Domains)</li>
+<li>doac:start-date (61 Domains)</li>
+<li>doac:organization (60 Domains)</li>
+<li>foaf:isPrimaryTopicOf (55 Domains)</li>
+<li>doac:education (55 Domains)</li>
+<li>doac:title (49 Domains)</li>
+<li>doac:end-date (48 Domains)</li>
+<li>doac:skill (42 Domains)</li>
+<li>doac:affiliation (13 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('883a8104-2776-4bbc-bf7f-4ef00e5cdd8ec').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='883a8104-2776-4bbc-bf7f-4ef00e5cdd8ec' style='display:none'>
+<li>foaf:isPrimaryTopicOf (2921 Entities)</li>
+<li>doac:affiliation (2846 Entities)</li>
+<li>doac:summary (2441 Entities)</li>
+<li>doac:skill (716 Entities)</li>
+<li>doac:start-date (573 Entities)</li>
+<li>doac:organization (495 Entities)</li>
+<li>doac:end-date (408 Entities)</li>
+<li>doac:title (365 Entities)</li>
+<li>doac:experience (88 Entities)</li>
+<li>doac:education (78 Entities)</li>
+
+</ol><br /> 
+</td></tr>
+</table>
+
+<a name='html-mf-hreview'></a><h3>Extractor html-mf-hreview</h3><br />
+<table><tr><th>Triples Extracted</th><td>37,280,831
+</td></tr>
+<tr><th>URLs with Triples</th><td>1,637,792
+</td></tr>
+<tr><th>Average Triples per URL</th><td>22.76
+</td></tr>
+<tr><th>Domains with Triples</th><td>11,469
+</td></tr>
+<tr><th>Average Triples per Domain</th><td>3,250.57
+</td></tr>
+<tr><th>Typed Entities</th><td>6,048,539
+</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('afa01704-57c6-4ddc-9796-39a7d42d6103').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='afa01704-57c6-4ddc-9796-39a7d42d6103' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://qvc.com">qvc.com</a> (3414467 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://glassdoor.com">glassdoor.com</a> (1783213 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hotelanacapri.co.uk">hotelanacapri.co.uk</a> (1673840 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://indeed.com">indeed.com</a> (1613141 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://menupages.com">menupages.com</a> (1475240 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://carolinaguesthouse.co.uk">carolinaguesthouse.co.uk</a> (1314670 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://foulsykefarmhouse.co.uk">foulsykefarmhouse.co.uk</a> (1296470 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://theboatsideinn.com">theboatsideinn.com</a> (1044400 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://seabayhotel.com">seabayhotel.com</a> (902310 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://blenheimedge.co.uk">blenheimedge.co.uk</a> (893970 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://gatewayhotel.co.uk">gatewayhotel.co.uk</a> (893760 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://trailspace.com">trailspace.com</a> (872619 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://anypromo.com">anypromo.com</a> (796232 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://austinreed.com">austinreed.com</a> (782110 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://hotelclub.com">hotelclub.com</a> (626889 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://ibm.com">ibm.com</a> (602571 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://digitaltrends.com">digitaltrends.com</a> (601567 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://forrent.com">forrent.com</a> (548276 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://voices.com">voices.com</a> (524985 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://edmunds.com">edmunds.com</a> (492070 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://goodreads.com">goodreads.com</a> (446588 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-mf-hreview.html">More</a></li></ol><br />
+
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('337a5352-7694-435a-abab-49932f6a99c1a').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='337a5352-7694-435a-abab-49932f6a99c1a' style='display:none'><li><abbr title='rev:Review'>rev:Review</abbr> (11537 Domains)</li></ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('337a5352-7694-435a-abab-49932f6a99c1').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='337a5352-7694-435a-abab-49932f6a99c1' style='display:none'><li><abbr title='rev:Review'>rev:Review</abbr> (6048539 Entities)</li></ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('7e28d056-ed4d-4e65-b354-e6e66242b151').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='7e28d056-ed4d-4e65-b354-e6e66242b151' style='display:none'>
+<li>rev:reviewer (9036 Domains)</li>
+<li>rev:hasReview (8472 Domains)</li>
+<li>vcard2006:url (8471 Domains)</li>
+<li>dc:date (7528 Domains)</li>
+<li>rev:rating (6510 Domains)</li>
+<li>vcard2006:fn (6383 Domains)</li>
+<li>rev:title (5423 Domains)</li>
+<li>rev:text (5394 Domains)</li>
+<li>rev:type (1622 Domains)</li>
+<li>vcard2006:photo (1028 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('7e28d056-ed4d-4e65-b354-e6e66242b151b').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='7e28d056-ed4d-4e65-b354-e6e66242b151b' style='display:none'>
+<li>rev:hasReview (4939947 Entities)</li>
+<li>vcard2006:url (4939764 Entities)</li>
+<li>rev:reviewer (3954204 Entities)</li>
+<li>dc:date (3874692 Entities)</li>
+<li>rev:rating (3293759 Entities)</li>
+<li>vcard2006:fn (3217375 Entities)</li>
+<li>rev:text (2858823 Entities)</li>
+<li>rev:title (2641102 Entities)</li>
+<li>vcard2006:photo (662107 Entities)</li>
+<li>rev:type (192560 Entities)</li>
+</ol><br /> 
+</td></tr>
+</table>
+
+<a name='html-mf-species'></a><h3>Extractor html-mf-species</h3><br />
+<table><tr><th>Triples Extracted</th><td>382,344
+</td></tr>
+<tr><th>URLs with Triples</th><td>21,370
+</td></tr>
+<tr><th>Average Triples per URL</th><td>17.89</td></tr>
+<tr><th>Domains with Triples</th><td>88
+</td></tr>
+<tr><th>Average Triples per Domain</th><td>4,344.82</td></tr>
+<tr><th>Typed Entities</th><td>138,818
+</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('f63eea90-f776-4a6c-8537-414d9a53951f').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='f63eea90-f776-4a6c-8537-414d9a53951f' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://wikipedia.org">wikipedia.org</a> (346799 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://preen.com">preen.com</a> (9893 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://thefullwiki.org">thefullwiki.org</a> (4928 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wiktionary.org">wiktionary.org</a> (4079 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://oiseaux.net">oiseaux.net</a> (3909 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://blogspot.com">blogspot.com</a> (3862 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikidoc.org">wikidoc.org</a> (1230 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wikia.com">wikia.com</a> (1040 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://digplanet.com">digplanet.com</a> (775 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://schools-wikipedia.org">schools-wikipedia.org</a> (652 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://bbc.co.uk">bbc.co.uk</a> (582 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://eol.org">eol.org</a> (542 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://wordpress.com">wordpress.com</a> (498 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://birdsguides.com">birdsguides.com</a> (272 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://doleaf.com">doleaf.com</a> (213 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://marefa.org">marefa.org</a> (210 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://freenewspos.com">freenewspos.com</a> (199 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://etceter.com">etceter.com</a> (178 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://tfode.com">tfode.com</a> (178 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://readtiger.com">readtiger.com</a> (176 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://xingyimax.com">xingyimax.com</a> (174 triples)</li>
+</ol><br />
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('dda1dff6-3db1-414f-b7ac-4039df075416').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='dda1dff6-3db1-414f-b7ac-4039df075416' style='display:none'>
+<li>wo:species (88 Domains)</li>
+<li>wo:Genus (57 Domains)</li>
+<li>wo:Family (56 Domains)</li>
+<li>wo:Order (53 Domains)</li>
+<li>wo:Kingdom (51 Domains)</li>
+<li>wo:Phylum (45 Domains)</li>
+<li>wo:Species (43 Domains)</li>
+<li>wo:Class (37 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('dda1dff6-3db1-414f-b7ac-4039df075416a').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='dda1dff6-3db1-414f-b7ac-4039df075416a' style='display:none'>
+<li>wo:species (27368 Entities)</li>
+<li>wo:Genus (18933 Entities)</li>
+<li>wo:Order (17637 Entities)</li>
+<li>wo:Family (17539 Entities)</li>
+<li>wo:Species (17414 Entities)</li>
+<li>wo:Kingdom (17268 Entities)</li>
+<li>wo:Class (11409 Entities)</li>
+<li>wo:Phylum (11250 Entities)</li>
+</ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('6b9cfdeb-8057-4a8a-90b6-743ddddd4dc0').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='6b9cfdeb-8057-4a8a-90b6-743ddddd4dc0' style='display:none'>
+<li>wo:genusName (57 Domains)</li>
+<li>wo:familyName (55 Domains)</li>
+<li>wo:orderName (53 Domains)</li>
+<li>wo:kingdomName (51 Domains)</li>
+<li>wo:speciesName (49 Domains)</li>
+<li>wo:phylumName (45 Domains)</li>
+<li>wo:scientificName (40 Domains)</li>
+<li>wo:className (37 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('6b9cfdeb-8057-4a8a-90b6-743ddddd4dc0a').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='6b9cfdeb-8057-4a8a-90b6-743ddddd4dc0a' style='display:none'>
+<li>wo:speciesName (20272 Entities)</li>
+<li>wo:genusName (18930 Entities)</li>
+<li>wo:scientificName (18254 Entities)</li>
+<li>wo:orderName (17636 Entities)</li>
+<li>wo:familyName (17305 Entities)</li>
+<li>wo:kingdomName (17267 Entities)</li>
+<li>wo:className (11409 Entities)</li>
+<li>wo:phylumName (11250 Entities)</li>
+</ol><br /> 
+</td></tr>
+</table>
+
+<a name='html-mf-xfn'></a><h3>Extractor html-mf-xfn</h3><br />
+<table><tr><th>Triples Extracted</th><td>197,145,292
+</td></tr>
+<tr><th>URLs with Triples</th><td>16,159,224
+</td></tr>
+<tr><th>Average Triples per URL</th><td>12.20
+</td></tr>
+<tr><th>Domains with Triples</th><td>139,426
+</td></tr>
+<tr><th>Average Triples per Domain</th><td>1,413.98
+</td></tr>
+<tr><th>Typed Entities</th><td>32,351,564
+</td></tr>
+<tr><th>Top Domains by Extracted Triples</th><td><small><a href='' onclick="document.getElementById('261c3a32-5631-4553-a1fd-50c45df70418').style.display='block';this.style.display='none';return false;">Show top domains</a></small><ol id='261c3a32-5631-4553-a1fd-50c45df70418' style='display:none'>
+<li> <a rel="nofollow" target="_blank" href="http://wordpress.com">wordpress.com</a> (18424010 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://pond5.com">pond5.com</a> (8215914 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://bergdorfgoodman.com">bergdorfgoodman.com</a> (6131832 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://dribbble.com">dribbble.com</a> (5178656 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://nadaguides.com">nadaguides.com</a> (5157264 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://dreamincode.net">dreamincode.net</a> (4649738 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://grouprecipes.com">grouprecipes.com</a> (4175662 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://contactmusic.com">contactmusic.com</a> (4117956 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://2modern.com">2modern.com</a> (3768940 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://packersproshop.com">packersproshop.com</a> (3700904 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://vimeo.com">vimeo.com</a> (3179080 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://sheknows.com">sheknows.com</a> (2789320 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://knfilters.com">knfilters.com</a> (2697420 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://unvlog.com">unvlog.com</a> (2579002 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://idakoos.com">idakoos.com</a> (2489728 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://fonts.com">fonts.com</a> (2174550 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://katom.com">katom.com</a> (2112166 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://rockfordsquire.com">rockfordsquire.com</a> (1992942 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://heartland.org">heartland.org</a> (1922700 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://cato.org">cato.org</a> (1906774 triples)</li>
+<li> <a rel="nofollow" target="_blank" href="http://trucktrend.com">trucktrend.com</a> (1904176 triples)</li>
+<li><a href="top_domains_by_extracted_triples_for_extractor_html-mf-xfn.html">More</a></li></ol><br />
+<tr><th>Top Classes</th><td><small><a href='' onclick="document.getElementById('13270aae-a203-440c-af29-1848c33681b3').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small><ol id='13270aae-a203-440c-af29-1848c33681b3' style='display:none'><li><abbr title='foaf:Person'>foaf:Person</abbr> (139891 Domains)</li></ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('13270aae-a203-440c-af29-1848c33681b3a').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small><ol id='13270aae-a203-440c-af29-1848c33681b3a' style='display:none'><li><abbr title='foaf:Person'>foaf:Person</abbr> (32351564 Entities)</li></ol><br /> 
+</td></tr>
+<tr><th>Top Properties</th><td><small><a href='' onclick="document.getElementById('656540b0-607c-493e-bed1-bea4dfffbab9').style.display='block';this.style.display='none';return false;">Show top values by domain count</a></small>
+<ol id='656540b0-607c-493e-bed1-bea4dfffbab9' style='display:none'>
+<li>xfn:mePage (139891 Domains)</li>
+<li>xfn:me-hyperlink (105758 Domains)</li>
+<li>xfn:friend (26896 Domains)</li>
+<li>xfn:friend-hyperlink (26892 Domains)</li>
+<li>xfn:colleague (17917 Domains)</li>
+<li>xfn:colleague-hyperlink (17911 Domains)</li>
+<li>xfn:met (16074 Domains)</li>
+<li>xfn:met-hyperlink (16071 Domains)</li>
+<li>xfn:contact (14410 Domains)</li>
+<li>xfn:contact-hyperlink (14401 Domains)</li>
+<li>xfn:acquaintance (9572 Domains)</li>
+<li>xfn:acquaintance-hyperlink (9571 Domains)</li>
+<li>xfn:co-worker (8719 Domains)</li>
+<li>xfn:co-worker-hyperlink (8717 Domains)</li>
+<li>xfn:neighbor (4343 Domains)</li>
+<li>xfn:neighbor-hyperlink (4341 Domains)</li>
+<li>xfn:co-resident (3020 Domains)</li>
+<li>xfn:co-resident-hyperlink (3020 Domains)</li>
+<li>xfn:spouse (2048 Domains)</li>
+<li>xfn:spouse-hyperlink (2047 Domains)</li>
+</ol><br /> 
+</td></tr>
+<tr><th></th><td><small><a href='' onclick="document.getElementById('656540b0-607c-493e-bed1-bea4dfffbab9c').style.display='block';this.style.display='none';return false;">Show top values by entity count</a></small>
+<ol id='656540b0-607c-493e-bed1-bea4dfffbab9c' style='display:none'>
+<li>xfn:mePage (32338600 Entities)</li>
+<li>xfn:me-hyperlink (13692845 Entities)</li>
+<li>xfn:contact (1816471 Entities)</li>
+<li>xfn:contact-hyperlink (1816434 Entities)</li>
+<li>xfn:friend (1290314 Entities)</li>
+<li>xfn:friend-hyperlink (1290286 Entities)</li>
+<li>xfn:colleague (905697 Entities)</li>
+<li>xfn:colleague-hyperlink (905662 Entities)</li>
+<li>xfn:met (671416 Entities)</li>
+<li>xfn:met-hyperlink (671402 Entities)</li>
+<li>xfn:acquaintance (547559 Entities)</li>
+<li>xfn:acquaintance-hyperlink (547552 Entities)</li>
+<li>xfn:co-worker (417171 Entities)</li>
+<li>xfn:co-worker-hyperlink (417105 Entities)</li>
+<li>xfn:neighbor (206316 Entities)</li>
+<li>xfn:neighbor-hyperlink (206309 Entities)</li>
+<li>xfn:co-resident (122841 Entities)</li>
+<li>xfn:co-resident-hyperlink (122841 Entities)</li>
+<li>xfn:muse (74152 Entities)</li>
+<li>xfn:muse-hyperlink (74150 Entities)</li>
+</ol><br /> 
+</td></tr>
+</table>
+
+
+</body></html>

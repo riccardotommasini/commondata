@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" dir="ltr" lang="en-US">
+<head>
+	<title>arbitmba.com   &raquo; GiveIndia</title>
+	
+	
+	<meta name="description" content="Arbit Choudhury Comics &#8211; the MBA comic character" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="keywords" content="official dilbert website, dilbert comic strip, scott adams, Dilbert, Dogbert, Wally, The Pointy Haired Boss, Alice, Asok, Dogbert's New Ruling Class, catbert, ratbert, mashups, animation, comics"> 
+	<meta name="keywords" content="official arbit choudhury website, arbitmba comic strip, shubham choudhury, hemant kumar jain, Arbit, MBA comic, TekNik, Arbit, Prof LR, Maya, Perplexing, Perplex Singh, Macho Mahajan, Anushka, mba humour, office humour, b-school, b schools, bschools, mashups, animation, comics"> 
+
+	<link rel="stylesheet" href="http://arbitmba.com/wp-content/themes/wpcomic/style.css" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" title="arbitmba.com RSS Feed" href="http://arbitmba.com/feed" />
+	<link rel="pingback" href="http://arbitmba.com/xmlrpc.php" />
+		<style type="text/css">
+		a#logo { width:1000px; height:90px; position:absolute; }
+		a#logo img { width:1000px; height:90px; }
+		
+		body {  background: #FFFFFF; }
+		a { color:#007CA5; }
+		a:visited { color:#007CA5; } 
+		a:hover { color:#007CA5;  } 
+		#search_box #searchsubmit {	background: #007CA5; }
+		
+		#nav_bar {  background: #FFFFFF; }
+		/*nav_bar background added by Nikhil Kulkarni @ 25-02-2010*/
+		#nav_bar {  background: url('http://arbitmba.com/wp-content/themes/wpcomic/images/menu_border.jpg') repeat-x bottom; }
+		#nav_bar li {background: #FFFFFF; }
+		#nav_bar li a { color: #6E6E6E; }
+		#nav_bar li a:visited { color: #6E6E6E; } 
+		#nav_bar li a:hover { color: #CCD1DB;  } 
+
+		h1#articlehed a { color:#666666;}
+		h1#articlehed a:visited { color:#666666; }
+		h1#articlehed a:hover { color:#007CA5; }
+		
+		#posts_nav a { color:#007CA5;  }
+		#posts_nav a:visited { color:#007CA5; }
+		#posts_nav a:hover { color:#007CA5; }
+
+		h2#descriptor { color: #525252; background-color: #FBFCFF; }
+		h2#descriptor  a { color:#7D7C7D; }
+		h2#descriptor  a:visited { color:#7D7C7D; }
+		h2#descriptor  a:hover { color:#DDDDDD; }
+		
+		h2#comic-header { color: #525252; background-color: #FBFCFF; }
+		
+		h2.module-header {   color: #525252; background-color: #FBFCFF; }
+		h2.comments-open-header { color: #525252; background-color: #FBFCFF; }
+		
+		.pre-footer { color:#373738; background:#FFFFFF; }
+		.pre-footer-cols li { color:#373738; }
+		.pre-footer-cols li a { color:#416271;}
+		.pre-footer-cols li a:visited { color:#416271; }
+		.pre-footer-cols li a:hover {  color:#80C0DE;}
+		
+		.link_row { color: #C2C2C2; }
+		#footer a:hover { color:#80C0DE; }
+		#foot_row1 { background: #FFFFFF; }
+		#foot_row1 a { color:#C2C2C2; }
+		#foot_row3 { background: #FFFFFF;  }
+		#foot_row3 { color:#416271;  }
+	</style>
+	<script type="text/javascript">
+	<!--
+	function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+	  if (restore) selObj.selectedIndex=0;
+	}
+	//-->
+	</script>
+	<!--inserted by Nikhil Kulkarni to enable scriptculaous -->
+	<script type="text/javascript" src="http://arbitmba.com/wp-includes/js/prototype.js"></script>
+	<script type="text/javascript" src="http://arbitmba.com/wp-includes/js/scriptaculous/scriptaculous.js?load=effects"></script>
+	<!-- Insert end -->
+	
+<script type="text/javascript">
+var TB_pluginPath = 'http://arbitmba.com/wp-content/plugins/tweet-blender';
+var TB_config = {
+'archive_tweets_num':'20',
+'general_timestamp_format':false,
+'general_link_screen_names':true,
+'general_link_hash_tags':true,
+'general_link_urls':true,
+'widget_show_photos':false,
+'widget_show_source':false,
+'widget_show_reply_link':true,
+'widget_show_follow_link':true,
+'archive_show_photos':false,
+'archive_show_source':false,
+'archive_is_disabled':false,
+'archive_show_reply_link':false,
+'archive_show_follow_link':false,
+'advanced_reroute_on':false,
+'advanced_show_limit_msg':false,
+'advanced_disable_cache':false,
+'filter_lang':'en',
+'filter_hide_replies':false,
+'widget_show_header':true,
+'widget_check_sources':true,
+'widget_show_user':true,
+'default_view_more_url':'http://arbitmba.com/tweets-archive'
+}</script>
+<link rel="alternate" type="application/rss+xml" title="arbitmba.com &raquo; GiveIndia Tag Feed" href="http://arbitmba.com/labels/giveindia/feed" />
+<script type='text/javascript' src='http://arbitmba.com/wp-content/plugins/flexo-archives-widget/flexo.js?ver=2.9.2'></script>
+<script type='text/javascript' src='http://arbitmba.com/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://arbitmba.com/wp-content/plugins/tweet-blender/js/jquery.json-2.2.min.js?ver=2.9.2'></script>
+<script type='text/javascript' src='http://arbitmba.com/wp-content/plugins/tweet-blender/js/main.min.js?ver=2.9.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://arbitmba.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://arbitmba.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='arbitmba.com' href='http://arbitmba.com' />
+<meta name="generator" content="WordPress 2.9.2" />
+	
+<meta property="og:title" content="Aid where it matters" />
+<meta property="og:type" content="activity" />
+<meta property="og:url" content="http://arbitmba.com/labels/GiveIndia"/>
+<meta property="og:site_name" content="arbitmba.com" />
+<meta property="fb:admins" content="632431859" />
+<meta property="og:description" content="Arbit Choudhury Comics - the MBA comic character" />
+<meta property="og:image" content="HTTP://" />
+<link type="text/css" media="screen" rel="stylesheet" href="http://arbitmba.com/wp-content/plugins/tweet-blender/css/tweets.css" />
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5506661-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</head>
+<body class="layout-two-column-right">
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId  : '156126764401702',
+      status : true, // check login status
+      cookie : true, // enable cookies to allow the server to access the session
+      xfbml  : true  // parse XFBML
+    });
+  };
+
+  (function() {
+    var e = document.createElement('script');
+    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+    e.async = true;
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+	<div id="shell">
+		<div id="content" class="pkg">
+			<div id="header">
+								<a href="http://arbitmba.com" id="logo"><img src="http://arbitmba.com/wp-content/themes/wpcomic/images/logo.jpg" border="0" /></a>
+							</div>
+
+			<!-- begin navbar --> <!-- home|Blog|Characters|Archive|Contact|Links|-->
+									<div id="nav_bar">
+				<ul id="nav">
+					<li><a href="http://arbitmba.com" title="Click for Home">Home</a></li>
+					<li><a href="http://arbitmba.com/2004/01/birth-and-evolution.html" title="About Arbit">About Arbit</a></li>
+					<li><a href="http://arbitmba.com/2004/01/arbit-family.html" title="Creators">Characters</a></li>
+					<li><a href="http://arbitmba.com/arbit-in-media" title="Arbit in Media">Media Mentions</a></li>
+					<li><a href="http://arbitmba.com/arbit-for-you" title="Using Arbit">Arbit For You</a></li>
+					<li><a href="http://arbitmba.com/2004/01/the-arbit-choudhury-downloads-center.html" title="Downloads">Downloads</a></li>
+					<li><a href="http://arbitmba.com/2004/01/subscribe-to-arbit-choudhury-comics.html" onmouseover="Effect.Appear('grp');" title="Subscribe">Subscribe to Arbit</a></li>
+					<li id="grp" style="display:none; border: 1px #eee solid; position:absolute; top:0px; right:10px;">
+					<a href="http://groups.yahoo.com/group/arbit_mba/"><img src="http://www.arbitmba.com/images/grp.gif" border=0/></a>&nbsp;
+					<a href="http://www.twitter.com/ArbitChoudhury"><img src="http://twitter-badges.s3.amazonaws.com/twitter-c.png" alt="Follow Arbit Choudhury on Twitter"/></a>&nbsp;
+					<a href="http://arbitmba.com/feed"><img class="footer_rss" src="http://arbitmba.com/wp-content/themes/wpcomic/images/footer_r.gif"></a>
+					&nbsp; &nbsp; <a href="#" onclick="Effect.Fade('grp');" >&#215; <span style="text-decoration: underline">Close</span></a>
+					</li>
+									</ul>
+				
+			</div>
+			<!-- end navbar -->			<div id="pagebody">
+				<div id="pagebody-inner" class="pkg">
+					<div id="alpha">
+						<div id="alpha-inner" class="pkg">
+																		  							<h2 id="descriptor">Tag &#8216;GiveIndia&#8217;</h2>
+						  												<!-- If the post is in the comic category , we simply pass to the next post. -->
+						 
+								<div id="article">
+									<div id="article_body">
+										<h1 id="articlehed"  style="color: #000;"><a href="http://arbitmba.com/2009/03/aid-where-it-matters-ac-strip-0605.html">Aid where it matters</a></h1>
+											<div class="date_time">
+												<!--span style="margin-right:20px;"><span id="contributor" class="c cs">By Arbit Choudhury</span></span--><span style="margin-right:20px;">Sunday &#45; March 1st, 2009</span><!--Categories: -->											</div>
+									</div>
+								</div>
+								<div class="entry-content">
+									<div id="article">
+										<div id="article_body">
+											<div id="article_text">
+											<p><span style="white-space: pre-wrap; font-family: monospace; font-size: 13px;"><img src="http://www.arbitmba.com/strips/AC_Strip_0605.jpg" alt="Perplex Singh:- Many economists have raised doubts on the effectiveness of Govt's aid for bankrupt companies. Arbit Choudhury:- Yeah ... But I think one type of aid is bound to succeed every time. Perplex Singh:- Which one? Arbit Choudhury:- Aid for under-privileged children." /> </span></p>
+<div style="display: none;">Perplex Singh:- Many economists have raised doubts on the effectiveness of Govt&#8217;s aid for bankrupt companies. Arbit Choudhury:- Yeah &#8230; But I think one type of aid is bound to succeed every time. Perplex Singh:- Which one? Arbit Choudhury:- Aid for under-privileged children.</div>
+<div class="linkwithin_hook" id="http://arbitmba.com/2009/03/aid-where-it-matters-ac-strip-0605.html"></div><script>
+<!-- //LinkWithinCodeStart
+var linkwithin_site_id = 155706;
+var linkwithin_div_class = "linkwithin_hook";
+//LinkWithinCodeEnd -->
+</script>
+<script src="http://www.linkwithin.com/widget.js"></script>
+<a href="http://www.linkwithin.com/"><img src="http://www.linkwithin.com/pixel.png" alt="Related Posts with Thumbnails" style="border: 0" /></a>												<!--p class="entry-more-link" style="font-weight: bold;"><a href="http://arbitmba.com/2009/03/aid-where-it-matters-ac-strip-0605.html">Continue reading "Aid where it matters" &raquo;</a> </p-->
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="entry-footer">
+								<span style="color:#000;">Tags: </span><a href="http://arbitmba.com/labels/2009" rel="tag">2009</a> | <a href="http://arbitmba.com/labels/finance" rel="tag">Finance</a> | <a href="http://arbitmba.com/labels/financial-meltdown" rel="tag">Financial Meltdown</a> | <a href="http://arbitmba.com/labels/giveindia" rel="tag">GiveIndia</a> | <a href="http://arbitmba.com/labels/perplex-singh" rel="tag">Perplex Singh</a> | <a href="http://arbitmba.com/labels/project-why" rel="tag">Project Why</a> | <a href="http://arbitmba.com/labels/recession" rel="tag">Recession</a> | <a href="http://arbitmba.com/labels/social-responsibility" rel="tag">Social Responsibility</a> | <a href="http://arbitmba.com/labels/tax" rel="tag">Tax</a> <br/>
+									<a href="http://arbitmba.com/2009/03/aid-where-it-matters-ac-strip-0605.html#commentform" style="line-height: 13px; color:#007CA5;">Post Comment</a>&#160;
+						| <a href="http://arbitmba.com/2009/03/aid-where-it-matters-ac-strip-0605.html#comments" style="line-height: 13px; color:#007CA5;">Comments <span style="color:#000;">(0)</span></a> | <a href="http://arbitmba.com/2009/03/aid-where-it-matters-ac-strip-0605.html" style="line-height: 13px; color:#007CA5;">Permalink</a>
+			<br /><br style="clear:both;" />
+        </div>
+												</div>
+						<div id="posts_nav">
+							<ul>
+								<li class="left"></li>
+								<li class="right"></li>
+							</ul>
+						</div>
+					</div>
+										<div id="beta">
+						<div id="beta-inner" class="pkg">
+							<!-- sidebar -->
+								<div id="side_container" style="width: 300px;">
+									<li id="text-3" class="widget widget_text"><h2 class="widgettitle">Search</h2>
+			<div class="textwidget"><div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+  google.load('search', '1', {language : 'en'});
+  google.setOnLoadCallback(function(){
+    var customSearchControl = new google.search.CustomSearchControl('003847400041811660885:dgat8_r1kby');
+    customSearchControl.setResultSetSize(google.search.Search.SMALL_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/minimalist.css" type="text/css" />
+<style type="text/css">
+  .gsc-control-cse {
+    font-family: Arial, sans-serif;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  input.gsc-input {
+    border-color: #777777;
+  }
+  input.gsc-search-button {
+    border-color: #333333;
+    background-color: #333333;
+  }
+  .gsc-tabHeader.gsc-tabhInactive {
+    border-color: #777777;
+    background-color: #777777;
+  }
+  .gsc-tabHeader.gsc-tabhActive {
+    border-color: #333333;
+    background-color: #333333;
+  }
+  .gsc-tabsArea {
+    border-color: #333333;
+  }
+  .gsc-webResult.gsc-result {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+  .gsc-webResult.gsc-result:hover {
+    border-color: #000000;
+    background-color: #FFFFFF;
+  }
+  .gs-webResult.gs-result a.gs-title:link,
+  .gs-webResult.gs-result a.gs-title:link b {
+    color: #444444;
+  }
+  .gs-webResult.gs-result a.gs-title:visited,
+  .gs-webResult.gs-result a.gs-title:visited b {
+    color: #444444;
+  }
+  .gs-webResult.gs-result a.gs-title:hover,
+  .gs-webResult.gs-result a.gs-title:hover b {
+    color: #444444;
+  }
+  .gs-webResult.gs-result a.gs-title:active,
+  .gs-webResult.gs-result a.gs-title:active b {
+    color: #777777;
+  }
+  .gsc-cursor-page {
+    color: #444444;
+  }
+  a.gsc-trailing-more-results:link {
+    color: #444444;
+  }
+  .gs-webResult.gs-result .gs-snippet {
+    color: #333333;
+  }
+  .gs-webResult.gs-result .gs-visibleUrl {
+    color: #000000;
+  }
+  .gs-webResult.gs-result .gs-visibleUrl-short {
+    color: #000000;
+  }
+  .gsc-cursor-box {
+    border-color: #FFFFFF;
+  }
+  .gsc-results .gsc-cursor-page {
+    border-color: #777777;
+    background-color: #FFFFFF;
+  }
+  .gsc-results .gsc-cursor-page.gsc-cursor-current-page {
+    border-color: #333333;
+    background-color: #333333;
+  }
+  .gs-promotion.gs-result {
+    border-color: #CCCCCC;
+    background-color: #E6E6E6;
+  }
+  .gs-promotion.gs-result a.gs-title:link {
+    color: #0000CC;
+  }
+  .gs-promotion.gs-result a.gs-title:visited {
+    color: #0000CC;
+  }
+  .gs-promotion.gs-result a.gs-title:hover {
+    color: #444444;
+  }
+  .gs-promotion.gs-result a.gs-title:active {
+    color: #00CC00;
+  }
+  .gs-promotion.gs-result .gs-snippet {
+    color: #333333;
+  }
+  .gs-promotion.gs-result .gs-visibleUrl,
+  .gs-promotion.gs-result .gs-visibleUrl-short {
+    color: #00CC00;
+  }
+</style>
+</div>
+		</li>
+<li id="text-4" class="widget widget_text">			<div class="textwidget"><h2 id="articlehed"  style="color: #000;">Yearly Collections</h2>
+<div style="font-size:125%">
+<a href="http://www.arbitmba.com/labels/2010">2010</a>&nbsp;|&nbsp;
+<a href="http://www.arbitmba.com/labels/2009">2009</a>&nbsp;|&nbsp;  
+<a href="http://www.arbitmba.com/labels/2008">2008</a>&nbsp;|&nbsp;  
+<a href="http://www.arbitmba.com/labels/2007">2007</a>&nbsp;|&nbsp;  
+<a href="http://www.arbitmba.com/labels/2006">2006</a>&nbsp;|&nbsp;  
+<a href="http://www.arbitmba.com/labels/2005">2005</a>&nbsp;|&nbsp;  
+<a href="http://www.arbitmba.com/labels/2004">2004</a>&nbsp;|&nbsp;  
+<a href="http://arbitmba.com/2004/01/special-releases.html">Special Releases</a>
+</div>
+<br/>
+
+<h2 id="articlehed"  style="color: #000;">Comics by Characters</h2>
+<div style="font-size:125%">
+<a href="http://www.arbitmba.com/labels/Antique%20Jain">Antique Jain</a>&nbsp;|&nbsp;   
+<a href="http://www.arbitmba.com/labels/Perplex%20Singh">Perplex Singh</a>&nbsp;|&nbsp;   
+<a href="http://www.arbitmba.com/labels/TekNik">TekNik</a>&nbsp;|&nbsp;   
+<a href="http://www.arbitmba.com/labels/Maya">Maya</a><br/>   
+<a href="http://www.arbitmba.com/labels/Prof.%20LR">Prof. LR</a>&nbsp;|&nbsp;
+<a href="http://www.arbitmba.com/labels/Macho%20Mahajan">Macho Mahajan</a>&nbsp;|&nbsp;   
+<a href="http://www.arbitmba.com/labels/Anushka">Anushka</a>&nbsp;|&nbsp;   
+<a href="http://www.arbitmba.com/labels/Ganj%20Ganeshan">Ganj Ganeshan</a>  
+</div></div>
+		</li>
+<li><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Farbitmba.com%2Flabels%2FGiveIndia&amp;layout=standard&amp;show_faces=true&amp;width=220&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:220px; background-color:white;"></iframe></li>
+<li id="better-tag-cloud" class="widget widget_nktagcloud"><h2 class="widgettitle">Labels</h2>
+<a href='http://arbitmba.com/labels/4-ps' class='tag-link-8 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>4&nbsp;Ps</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/ad' class='tag-link-46 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Ad</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/asset-liability' class='tag-link-43 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Asset&nbsp;Liability</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/attrition' class='tag-link-86 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Attrition</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/balance-sheet' class='tag-link-44 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Balance&nbsp;Sheet</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/blog' class='tag-link-109 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Blog</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/bpo' class='tag-link-75 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>BPO</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/brand' class='tag-link-113 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Brand</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/b-school-rankings' class='tag-link-47 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>B&nbsp;School&nbsp;Rankings</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/business-plan' class='tag-link-94 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Business&nbsp;Plan</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/case-study' class='tag-link-100 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Case&nbsp;Study</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/change-management' class='tag-link-101 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Change&nbsp;Management</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/consultant' class='tag-link-21 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Consultant</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/core-competence' class='tag-link-57 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Core&nbsp;Competence</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/corporate-financing' class='tag-link-71 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Corporate&nbsp;Financing</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/cost-benefit-analysis' class='tag-link-25 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Cost&nbsp;Benefit&nbsp;Analysis</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/cost-to-company' class='tag-link-72 nktagcloud-9' title='6 topics' rel="tag" style='font-size: 9.22807017544pt;'>Cost&nbsp;To&nbsp;Company</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/cricket' class='tag-link-76 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Cricket</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/debt-equity' class='tag-link-123 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Debt&nbsp;Equity</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/demand-supply' class='tag-link-19 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Demand&nbsp;Supply</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/differentiate-or-die' class='tag-link-32 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Differentiate&nbsp;or&nbsp;Die</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/economics' class='tag-link-35 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>Economics</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/elections' class='tag-link-128 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Elections</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/entry-exit-barrier' class='tag-link-29 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Entry&nbsp;Exit&nbsp;Barrier</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/erp' class='tag-link-78 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>ERP</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/exams' class='tag-link-40 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>Exams</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/finance' class='tag-link-13 nktagcloud-17' title='39 topics' rel="tag" style='font-size: 17.3333333333pt;'>Finance</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/financial-meltdown' class='tag-link-120 nktagcloud-9' title='8 topics' rel="tag" style='font-size: 9.71929824561pt;'>Financial&nbsp;Meltdown</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/first-mover-advantage' class='tag-link-90 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>First&nbsp;Mover&nbsp;Advantage</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/fmcg' class='tag-link-80 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>FMCG</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/gdp' class='tag-link-63 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>GDP</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/girl-friend' class='tag-link-26 nktagcloud-11' title='16 topics' rel="tag" style='font-size: 11.6842105263pt;'>Girl&nbsp;Friend</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/god' class='tag-link-96 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>God</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/hostile-takeover' class='tag-link-87 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Hostile&nbsp;Takeover</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/hr' class='tag-link-38 nktagcloud-10' title='12 topics' rel="tag" style='font-size: 10.701754386pt;'>HR</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/india' class='tag-link-59 nktagcloud-11' title='16 topics' rel="tag" style='font-size: 11.6842105263pt;'>India</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/indifference-curves' class='tag-link-74 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Indifference&nbsp;Curves</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/inflation' class='tag-link-97 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Inflation</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/information-security' class='tag-link-118 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Information&nbsp;Security</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/innovation' class='tag-link-124 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Innovation</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/insurance' class='tag-link-82 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Insurance</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/inventory' class='tag-link-54 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>Inventory</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/investment-banks' class='tag-link-81 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>Investment&nbsp;Banks</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/ipl' class='tag-link-117 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>IPL</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/it' class='tag-link-62 nktagcloud-13' title='24 topics' rel="tag" style='font-size: 13.649122807pt;'>IT</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/jit' class='tag-link-39 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>JIT</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/job' class='tag-link-41 nktagcloud-10' title='11 topics' rel="tag" style='font-size: 10.4561403509pt;'>Job</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/knowledge-management' class='tag-link-61 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Knowledge&nbsp;Management</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/law-of-diminishing-utility' class='tag-link-34 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Law&nbsp;of&nbsp;Diminishing&nbsp;Utility</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/love' class='tag-link-85 nktagcloud-9' title='8 topics' rel="tag" style='font-size: 9.71929824561pt;'>Love</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/management-by-objectives' class='tag-link-116 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Management&nbsp;By&nbsp;Objectives</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/management-funda' class='tag-link-31 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Management&nbsp;Funda</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/management-guru' class='tag-link-58 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Management&nbsp;Guru</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/managers' class='tag-link-42 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Managers</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/marketing' class='tag-link-4 nktagcloud-13' title='23 topics' rel="tag" style='font-size: 13.4035087719pt;'>Marketing</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/marriage' class='tag-link-11 nktagcloud-9' title='9 topics' rel="tag" style='font-size: 9.9649122807pt;'>Marriage</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/maslow-hierarchy' class='tag-link-51 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Maslow&nbsp;Hierarchy</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/mba' class='tag-link-10 nktagcloud-22' title='58 topics' rel="tag" style='font-size: 22pt;'>MBA</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/mba-irony' class='tag-link-52 nktagcloud-9' title='7 topics' rel="tag" style='font-size: 9.47368421053pt;'>MBA&nbsp;Irony</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/merger-acquisition' class='tag-link-14 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Merger&nbsp;Acquisition</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/murphys-law' class='tag-link-133 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Murphy's&nbsp;Law</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/non-performing-assets' class='tag-link-119 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Non&nbsp;Performing&nbsp;Assets</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/onsite-offshore' class='tag-link-108 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Onsite&nbsp;Offshore</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/organizational-behavior' class='tag-link-37 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Organizational&nbsp;Behavior</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/out-of-stock' class='tag-link-53 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Out&nbsp;of&nbsp;Stock</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/outsourcing' class='tag-link-55 nktagcloud-9' title='6 topics' rel="tag" style='font-size: 9.22807017544pt;'>Outsourcing</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/pareto-law' class='tag-link-111 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Pareto&nbsp;Law</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/payback-period' class='tag-link-106 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Payback&nbsp;Period</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/placements' class='tag-link-6 nktagcloud-11' title='16 topics' rel="tag" style='font-size: 11.6842105263pt;'>Placements</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/politics' class='tag-link-60 nktagcloud-10' title='10 topics' rel="tag" style='font-size: 10.2105263158pt;'>Politics</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/presentation' class='tag-link-5 nktagcloud-12' title='18 topics' rel="tag" style='font-size: 12.1754385965pt;'>Presentation</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/project-management' class='tag-link-24 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Project&nbsp;Management</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/quality' class='tag-link-67 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Quality</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/recession' class='tag-link-98 nktagcloud-10' title='10 topics' rel="tag" style='font-size: 10.2105263158pt;'>Recession</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/relationship-management' class='tag-link-84 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Relationship&nbsp;Management</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/roi' class='tag-link-22 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>ROI</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/segmentation' class='tag-link-105 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Segmentation</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/sex' class='tag-link-20 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>Sex</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/six-sigma' class='tag-link-68 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Six&nbsp;Sigma</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/sms-joke' class='tag-link-69 nktagcloud-9' title='8 topics' rel="tag" style='font-size: 9.71929824561pt;'>SMS&nbsp;Joke</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/social-networking' class='tag-link-129 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Social&nbsp;Networking</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/sport' class='tag-link-77 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>Sport</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/statistics' class='tag-link-66 nktagcloud-9' title='7 topics' rel="tag" style='font-size: 9.47368421053pt;'>Statistics</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/stock-market' class='tag-link-48 nktagcloud-9' title='6 topics' rel="tag" style='font-size: 9.22807017544pt;'>Stock&nbsp;Market</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/strategy' class='tag-link-30 nktagcloud-12' title='19 topics' rel="tag" style='font-size: 12.4210526316pt;'>Strategy</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/summer-internship' class='tag-link-88 nktagcloud-8' title='5 topics' rel="tag" style='font-size: 8.98245614035pt;'>Summer&nbsp;Internship</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/supply-chain-management' class='tag-link-17 nktagcloud-12' title='20 topics' rel="tag" style='font-size: 12.6666666667pt;'>Supply&nbsp;Chain&nbsp;Management</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/tax' class='tag-link-89 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Tax</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/usa' class='tag-link-56 nktagcloud-9' title='6 topics' rel="tag" style='font-size: 9.22807017544pt;'>USA</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/variable-fixed-cost' class='tag-link-107 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Variable&nbsp;Fixed&nbsp;Cost</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/vertical-integration' class='tag-link-99 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Vertical&nbsp;Integration</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/viral-marketing' class='tag-link-121 nktagcloud-8' title='1 topic' rel="tag" style='font-size: 8pt;'>Viral&nbsp;Marketing</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/web-2-0' class='tag-link-130 nktagcloud-8' title='3 topics' rel="tag" style='font-size: 8.49122807018pt;'>Web&nbsp;2.0</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/wife' class='tag-link-33 nktagcloud-8' title='4 topics' rel="tag" style='font-size: 8.73684210526pt;'>Wife</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/women' class='tag-link-16 nktagcloud-10' title='13 topics' rel="tag" style='font-size: 10.9473684211pt;'>Women</a><span class="nktagcloud-separator"> | </span>
+<a href='http://arbitmba.com/labels/work-ex' class='tag-link-45 nktagcloud-8' title='2 topics' rel="tag" style='font-size: 8.24561403509pt;'>Work&nbsp;Ex</a><span class="nktagcloud-separator"> | </span></li>
+<li id="tweetblender-3" class="widget widget_tweetblender"><form id="tweetblender-3-f" class="tb-widget-configuration" action="#"><div><input type="hidden" name="sources" value="@arbitchoudhury,#arbitchoudhury" /><input type="hidden" name="refreshRate" value="300" /><input type="hidden" name="tweetsNum" value="4" /><input type="hidden" name="viewMoreUrl" value="http://twitter.com/ArbitChoudhury" /></div></form><div id="tweetblender-3-mc"><div class="tb_header"><img class="tb_twitterlogo" src="http://arbitmba.com/wp-content/plugins/tweet-blender/img/twitter-logo.png" alt="Twitter Logo" /><div class="tb_tools" style="background-image:url(http://arbitmba.com/wp-content/plugins/tweet-blender/img/bg_sm.png)"><a class="tb_infolink" href="http://kirill-novitchenko.com" title="Tweet Blender by Kirill Novitchenko" style="background-image:url(http://arbitmba.com/wp-content/plugins/tweet-blender/img/info-kino.png)"> </a><a class="tb_refreshlink" href="javascript:TB_blend('tweetblender-3');" title="Refresh Tweets"><img src="http://arbitmba.com/wp-content/plugins/tweet-blender/img/ajax-refresh-icon.gif" alt="Refresh" /></a></div></div><div class="tb_tweetlist"><div class="tb_tweet" id="t18776612492"><span class="tb_author"><a rel="nofollow" href="http://twitter.com/ArbitChoudhury">ArbitChoudhury</a>: </span> <span class="tb_msg">Arbit Choudhury Comic No. 0714 | Matrimonial Industry :-) <a rel="nofollow" href="http://twitpic.com/2666yt">http://twitpic.com/2666yt</a></span><br/> <span class="tb_tweet-info"><a rel="nofollow" href="http://twitter.com/ArbitChoudhury/statuses/18776612492">2 months ago</a></span><div class="tweet-tools" style="display:none;"><a rel="nofollow" href="http://twitter.com/home?status=@ArbitChoudhury%20&in_reply_to_status_id=18776612492&in_reply_to=ArbitChoudhury">reply</a> | <a rel="nofollow" href="http://twitter.com/ArbitChoudhury">follow ArbitChoudhury</a></div></div>
+<div class="tb_tweet" id="t17075434917"><span class="tb_author"><a rel="nofollow" href="http://twitter.com/nikhilnk">nikhilnk</a>: </span> <span class="tb_msg"><a rel="nofollow" href="http://twitter.com/kulkarninikhil">@kulkarninikhil</a> Hey Nikhil <a rel="nofollow" href="http://twitter.com/ArbitChoudhury">@ArbitChoudhury</a> has a mention in today's TOI Crest! Congratulations! Great that you are still working on it :)</span><br/> <span class="tb_tweet-info"><a rel="nofollow" href="http://twitter.com/nikhilnk/statuses/17075434917">2 months ago</a></span><div class="tweet-tools" style="display:none;"><a rel="nofollow" href="http://twitter.com/home?status=@nikhilnk%20&in_reply_to_status_id=17075434917&in_reply_to=nikhilnk">reply</a> | <a rel="nofollow" href="http://twitter.com/nikhilnk">follow nikhilnk</a></div></div>
+<div class="tb_tweet" id="t16697792519"><span class="tb_author"><a rel="nofollow" href="http://twitter.com/Vasanthkumark">Vasanthkumark</a>: </span> <span class="tb_msg"><a rel="nofollow" href="http://twitter.com/Aditya__Gupta">@Aditya__Gupta</a> The creators of <a rel="nofollow" href="http://twitter.com/ArbitChoudhury">@ArbitChoudhury</a> are also from <a rel="nofollow" href="http://search.twitter.com/search?q=%23NITIE">#NITIE</a>. And it is evident that they remember the tradition!  :)</span><br/> <span class="tb_tweet-info"><a rel="nofollow" href="http://twitter.com/Vasanthkumark/statuses/16697792519">3 months ago</a></span><div class="tweet-tools" style="display:none;"><a rel="nofollow" href="http://twitter.com/home?status=@Vasanthkumark%20&in_reply_to_status_id=16697792519&in_reply_to=Vasanthkumark">reply</a> | <a rel="nofollow" href="http://twitter.com/Vasanthkumark">follow Vasanthkumark</a></div></div>
+<div class="tb_tweet" id="t16697531974"><span class="tb_author"><a rel="nofollow" href="http://twitter.com/Vasanthkumark">Vasanthkumark</a>: </span> <span class="tb_msg"><a rel="nofollow" href="http://search.twitter.com/search?q=%23NITIE">#NITIE</a>, does it sound familiar?  :D  RT: <a rel="nofollow" href="http://twitter.com/ArbitChoudhury">@ArbitChoudhury</a>: Arbit Choudhury Comic No. 0712 | MBA Irony Series <a rel="nofollow" href="http://twitpic.com/1yqmrl">http://twitpic.com/1yqmrl</a></span><br/> <span class="tb_tweet-info"><a rel="nofollow" href="http://twitter.com/Vasanthkumark/statuses/16697531974">3 months ago</a></span><div class="tweet-tools" style="display:none;"><a rel="nofollow" href="http://twitter.com/home?status=@Vasanthkumark%20&in_reply_to_status_id=16697531974&in_reply_to=Vasanthkumark">reply</a> | <a rel="nofollow" href="http://twitter.com/Vasanthkumark">follow Vasanthkumark</a></div></div>
+</div><div class="tb_footer"><a class="tb_archivelink" href="http://twitter.com/ArbitChoudhury">view more &raquo;</a></div></div></li>
+<li id="flexo-archives" class="widget flexo_widget_archives"><h2 class="widgettitle">Archives</h2>
+<ul><li><a href="http://arbitmba.com/2010" class="flexo-link" id="flexo-2010"  title="Year 2010 archives">2010</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2010/01' title='January'>January</a></li>
+	<li><a href='http://arbitmba.com/2010/02' title='February'>February</a></li>
+	<li><a href='http://arbitmba.com/2010/03' title='March'>March</a></li>
+	<li><a href='http://arbitmba.com/2010/04' title='April'>April</a></li>
+	<li><a href='http://arbitmba.com/2010/05' title='May'>May</a></li>
+	<li><a href='http://arbitmba.com/2010/06' title='June'>June</a></li>
+	<li><a href='http://arbitmba.com/2010/07' title='July'>July</a></li>
+	<li><a href='http://arbitmba.com/2010/08' title='August'>August</a></li>
+	<li><a href='http://arbitmba.com/2010/09' title='September'>September</a></li>
+</ul></li></ul><ul><li><a href="http://arbitmba.com/2009" class="flexo-link" id="flexo-2009"  title="Year 2009 archives">2009</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2009/01' title='January'>January</a></li>
+	<li><a href='http://arbitmba.com/2009/02' title='February'>February</a></li>
+	<li><a href='http://arbitmba.com/2009/03' title='March'>March</a></li>
+	<li><a href='http://arbitmba.com/2009/04' title='April'>April</a></li>
+	<li><a href='http://arbitmba.com/2009/05' title='May'>May</a></li>
+	<li><a href='http://arbitmba.com/2009/06' title='June'>June</a></li>
+	<li><a href='http://arbitmba.com/2009/07' title='July'>July</a></li>
+	<li><a href='http://arbitmba.com/2009/08' title='August'>August</a></li>
+	<li><a href='http://arbitmba.com/2009/09' title='September'>September</a></li>
+	<li><a href='http://arbitmba.com/2009/10' title='October'>October</a></li>
+	<li><a href='http://arbitmba.com/2009/11' title='November'>November</a></li>
+	<li><a href='http://arbitmba.com/2009/12' title='December'>December</a></li>
+</ul></li></ul><ul><li><a href="http://arbitmba.com/2008" class="flexo-link" id="flexo-2008"  title="Year 2008 archives">2008</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2008/01' title='January'>January</a></li>
+	<li><a href='http://arbitmba.com/2008/02' title='February'>February</a></li>
+	<li><a href='http://arbitmba.com/2008/03' title='March'>March</a></li>
+	<li><a href='http://arbitmba.com/2008/04' title='April'>April</a></li>
+	<li><a href='http://arbitmba.com/2008/05' title='May'>May</a></li>
+	<li><a href='http://arbitmba.com/2008/06' title='June'>June</a></li>
+	<li><a href='http://arbitmba.com/2008/07' title='July'>July</a></li>
+	<li><a href='http://arbitmba.com/2008/08' title='August'>August</a></li>
+	<li><a href='http://arbitmba.com/2008/09' title='September'>September</a></li>
+	<li><a href='http://arbitmba.com/2008/10' title='October'>October</a></li>
+	<li><a href='http://arbitmba.com/2008/11' title='November'>November</a></li>
+	<li><a href='http://arbitmba.com/2008/12' title='December'>December</a></li>
+</ul></li></ul><ul><li><a href="http://arbitmba.com/2007" class="flexo-link" id="flexo-2007"  title="Year 2007 archives">2007</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2007/01' title='January'>January</a></li>
+	<li><a href='http://arbitmba.com/2007/02' title='February'>February</a></li>
+	<li><a href='http://arbitmba.com/2007/03' title='March'>March</a></li>
+	<li><a href='http://arbitmba.com/2007/04' title='April'>April</a></li>
+	<li><a href='http://arbitmba.com/2007/05' title='May'>May</a></li>
+	<li><a href='http://arbitmba.com/2007/06' title='June'>June</a></li>
+	<li><a href='http://arbitmba.com/2007/07' title='July'>July</a></li>
+	<li><a href='http://arbitmba.com/2007/08' title='August'>August</a></li>
+	<li><a href='http://arbitmba.com/2007/09' title='September'>September</a></li>
+	<li><a href='http://arbitmba.com/2007/10' title='October'>October</a></li>
+	<li><a href='http://arbitmba.com/2007/11' title='November'>November</a></li>
+	<li><a href='http://arbitmba.com/2007/12' title='December'>December</a></li>
+</ul></li></ul><ul><li><a href="http://arbitmba.com/2006" class="flexo-link" id="flexo-2006"  title="Year 2006 archives">2006</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2006/01' title='January'>January</a></li>
+	<li><a href='http://arbitmba.com/2006/02' title='February'>February</a></li>
+	<li><a href='http://arbitmba.com/2006/03' title='March'>March</a></li>
+	<li><a href='http://arbitmba.com/2006/04' title='April'>April</a></li>
+	<li><a href='http://arbitmba.com/2006/05' title='May'>May</a></li>
+	<li><a href='http://arbitmba.com/2006/06' title='June'>June</a></li>
+	<li><a href='http://arbitmba.com/2006/07' title='July'>July</a></li>
+	<li><a href='http://arbitmba.com/2006/08' title='August'>August</a></li>
+	<li><a href='http://arbitmba.com/2006/09' title='September'>September</a></li>
+	<li><a href='http://arbitmba.com/2006/10' title='October'>October</a></li>
+	<li><a href='http://arbitmba.com/2006/11' title='November'>November</a></li>
+	<li><a href='http://arbitmba.com/2006/12' title='December'>December</a></li>
+</ul></li></ul><ul><li><a href="http://arbitmba.com/2005" class="flexo-link" id="flexo-2005"  title="Year 2005 archives">2005</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2005/01' title='January'>January</a></li>
+	<li><a href='http://arbitmba.com/2005/02' title='February'>February</a></li>
+	<li><a href='http://arbitmba.com/2005/03' title='March'>March</a></li>
+	<li><a href='http://arbitmba.com/2005/04' title='April'>April</a></li>
+	<li><a href='http://arbitmba.com/2005/05' title='May'>May</a></li>
+	<li><a href='http://arbitmba.com/2005/06' title='June'>June</a></li>
+	<li><a href='http://arbitmba.com/2005/07' title='July'>July</a></li>
+	<li><a href='http://arbitmba.com/2005/08' title='August'>August</a></li>
+	<li><a href='http://arbitmba.com/2005/09' title='September'>September</a></li>
+	<li><a href='http://arbitmba.com/2005/10' title='October'>October</a></li>
+	<li><a href='http://arbitmba.com/2005/11' title='November'>November</a></li>
+	<li><a href='http://arbitmba.com/2005/12' title='December'>December</a></li>
+</ul></li></ul><ul><li><a href="http://arbitmba.com/2004" class="flexo-link" id="flexo-2004"  title="Year 2004 archives">2004</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2004/01' title='January'>January</a></li>
+	<li><a href='http://arbitmba.com/2004/03' title='March'>March</a></li>
+	<li><a href='http://arbitmba.com/2004/04' title='April'>April</a></li>
+	<li><a href='http://arbitmba.com/2004/05' title='May'>May</a></li>
+	<li><a href='http://arbitmba.com/2004/06' title='June'>June</a></li>
+	<li><a href='http://arbitmba.com/2004/07' title='July'>July</a></li>
+	<li><a href='http://arbitmba.com/2004/08' title='August'>August</a></li>
+	<li><a href='http://arbitmba.com/2004/09' title='September'>September</a></li>
+	<li><a href='http://arbitmba.com/2004/10' title='October'>October</a></li>
+	<li><a href='http://arbitmba.com/2004/11' title='November'>November</a></li>
+	<li><a href='http://arbitmba.com/2004/12' title='December'>December</a></li>
+</ul></li></ul><ul><li><a href="http://arbitmba.com/2003" class="flexo-link" id="flexo-2003"  title="Year 2003 archives">2003</a><ul class="flexo-list">
+	<li><a href='http://arbitmba.com/2003/08' title='August'>August</a></li>
+</ul></li></ul></li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">Latest Comics</h2>
+		<ul>
+				<li><a href="http://arbitmba.com/2010/09/root-cause-analysis-ac-strip-0717.html" title="Root Cause Analysis">Root Cause Analysis </a></li>
+				<li><a href="http://arbitmba.com/2010/08/marketing-and-branding-ac-strip-0716.html" title="Marketing and Branding">Marketing and Branding </a></li>
+				<li><a href="http://arbitmba.com/2010/08/kashmir-problem-ac-strip-0715.html" title="Kashmir Problem">Kashmir Problem </a></li>
+				<li><a href="http://arbitmba.com/2010/07/matrimonial-industry-ac-strip-0714.html" title="Matrimonial Industry">Matrimonial Industry </a></li>
+				<li><a href="http://arbitmba.com/2010/07/business-jargon-ac-strip-0713.html" title="Business Jargon">Business Jargon </a></li>
+				<li><a href="http://arbitmba.com/2010/06/mba-irony-statistics-ac-strip-0712.html" title="MBA Irony &#8211; Statistics">MBA Irony &#8211; Statistics </a></li>
+				<li><a href="http://arbitmba.com/2010/06/b-school-rankings-ac-strip-0711.html" title="B-school Rankings">B-school Rankings </a></li>
+				<li><a href="http://arbitmba.com/2010/05/globalization-and-india-ac-strip-0710.html" title="Globalization and India">Globalization and India </a></li>
+				<li><a href="http://arbitmba.com/2010/05/murphys-law-of-education-ac-strip-0709.html" title="Murphy&#8217;s Law of Education">Murphy&#8217;s Law of Education </a></li>
+				<li><a href="http://arbitmba.com/2010/04/3-ps-of-it-industry-ac-strip-0708.html" title="3 Ps of IT Industry">3 Ps of IT Industry </a></li>
+				</ul>
+		</li>
+									
+								</div>
+								<br clear="all" />
+							</div>
+						</div> <!-- beta -->					</div>				
+				</div>
+			<div class="clearer"><!--  --></div>
+		<div class="clearer"><!--  --></div>
+		
+		<div class="pre-footer">
+			<div class="pre-footer-cols">
+				<div class="recent-posts-col">
+					<h3>Recent Blog Posts</h3>
+					<ul><li><a href="http://arbitmba.com/2010/09/root-cause-analysis-ac-strip-0717.html"> Root Cause Analysis</a></li><li><a href="http://arbitmba.com/2010/08/marketing-and-branding-ac-strip-0716.html"> Marketing and Branding</a></li><li><a href="http://arbitmba.com/2010/08/kashmir-problem-ac-strip-0715.html"> Kashmir Problem</a></li><li><a href="http://arbitmba.com/2010/07/matrimonial-industry-ac-strip-0714.html"> Matrimonial Industry</a></li><li><a href="http://arbitmba.com/2010/07/business-jargon-ac-strip-0713.html"> Business Jargon</a></li></ul>
+				</div>
+				<div class="recent-comics-col">
+					<!--ul></ul-->
+					<a name="foot_links"><!--to enable linking of footer from header--></a>
+					<div style="float:left;">
+					<h3>Arbit Fan Club</h3>
+					<ul>
+					<li><a href="http://arbitmba.com/2004/01/appreciation-mails.html">Appreciation Mails</a></li>
+					<li><a href="http://arbitmba.com/2004/01/special-visitors.html">Special visitors</a></li>
+					<li><a href="http://arbitmba.com/2004/01/birthday-wishes-from-fans.html">Birthday celebrations</a></li>
+					</ul>
+					</div>
+					<div style="float:left;">
+					<h3>Arbit in Media</h3>
+					<ul>
+					<li><a href="http://arbitmba.com/2004/01/print-media.html">Print Media</a></li>
+					<li><a href="http://arbitmba.com/2004/01/online-media.html">Online Media</a></li>
+					<li><a href="http://arbitmba.com/2004/01/bloggers-park.html">Blogger's Park</a></li>
+					</ul>
+					</div>
+				</div>
+				<div class="recent-comments-col">
+					<!--ul></ul-->
+					<div style="float:left;">
+					<h3>Arbit for You</h3>
+					<ul>
+					<li><a href="http://arbitmba.com/2004/01/the-arbit-success-story.html">Success Story</a></li>
+					<li><a href="http://arbitmba.com/2004/01/value-proposition.html">Value Proposition</a></li>
+					<li><a href="http://arbitmba.com/2004/01/what-arbit-can-do-for-you.html">Using Arbit</a></li>
+					</ul>
+					</div>
+					<div style="float:left;">
+					<h3>Downloads</h3>
+					<ul>
+					<li><a href="http://arbitmba.com/arbit-shop">Arbit Shop</a></li>
+					<li><a href="http://arbitmba.com/2004/01/the-arbit-choudhury-downloads-center.html">Wallpapers</a></li>
+					<li><a href="http://arbitmba.com/2004/01/the-arbit-choudhury-downloads-center.html">Other Stuff</a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- END pre-footer -->
+		<div class="clearer"><!--  --></div>
+		<div id="footer">
+			<div id="foot_row1">
+				<span class="pad">
+					<span class="link_row"><a href="http://arbitmba.com/feed">Entries RSS Feeds</a> | <a href="http://arbitmba.com/comments/feed">Comments RSS Feeds</a> | <a href="http://arbitmba.com/feed"><img src="http://arbitmba.com/wp-content/themes/wpcomic/images/footer_r.gif" class="footer_rss"></a></span>
+					<span class="text_size" id="footer_text_size_widget"></span>
+				</span>
+			</div>
+			<div id="foot_row3">
+				<span class="pad">
+				arbitmba.com is powered by <a href="http://wordpress.org/" target="_blank">WordPress</a> and <a href="http://www.gorillaninja.com/WPComic" target="_blank">WPComic</a>.<br /><br />
+				<span style="font-size:85%">
+				&copy; Hemantkumar Jain and Shubham Choudhury. Both creators assert the moral right to be identified and recognized as the creators of Arbit Choudhury and its comics. All Rights Reserved. No part or whole of the Arbit Choudhury Comic Strips or related literature may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, mechanical, photocopying, recording or otherwise, without the prior written permission of both creators.
+				</span>
+				</span>
+			</div>
+		</div>
+		<a href="http://www.nkuttler.de/wordpress/nktagcloud/">Better Tag Cloud</a><br /></body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons Extraction Report</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30248817-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script></head><body><a name='top'></a><h1>Top Domains by Extracted Triples for Extractor html-mf-hrecipe</h1><br /><a href="stats.html">Back to Statistics</a><br /><br />
+<p>This page contains the list of top domains using the Microformats hrecipe of the extraction of December 2014 of the <a target="_blank" href="http://webdatacommons.org">Web Data Commons</a> project. The page shows the top domains employing Microformats hrecipe within their websites, ordered by the number of triples found in the crawl corpus.</p><br />
+<ol>
+<li> <a rel="nofollow" target="_blank" href="http://grouprecipes.com">grouprecipes.com</a> (2,951,767 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://seriouseats.com">seriouseats.com</a> (1,632,945 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://delish.com">delish.com</a> (1,578,357 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://bakespace.com">bakespace.com</a> (1,462,040 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://landolakes.com">landolakes.com</a> (1,319,922 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://chefkoch.de">chefkoch.de</a> (1,257,352 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://cookingchanneltv.com">cookingchanneltv.com</a> (1,041,434 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://closetcooking.com">closetcooking.com</a> (1,002,235 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://goodhousekeeping.com">goodhousekeeping.com</a> (698,451 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://deepsouthdish.com">deepsouthdish.com</a> (571,984 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://sheknows.com">sheknows.com</a> (554,701 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://womansday.com">womansday.com</a> (446,855 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://yankeemagazine.com">yankeemagazine.com</a> (442,500 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://cooks.com">cooks.com</a> (393,866 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://deliaonline.com">deliaonline.com</a> (380,910 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://wholeliving.com">wholeliving.com</a> (305,654 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://rachaelraymag.com">rachaelraymag.com</a> (278,264 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://drinksmixer.com">drinksmixer.com</a> (259,677 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://bbc.co.uk">bbc.co.uk</a> (258,769 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://recipe.com">recipe.com</a> (237,620 triples) </li>
+<li> <a rel="nofollow" target="_blank" href="http://lecker.de">lecker.de</a> (230,260 triples) </li>
+</ol></body>
+</html>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="urlfilter-domain2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/urlfilter-domain/urlfilter-domain.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

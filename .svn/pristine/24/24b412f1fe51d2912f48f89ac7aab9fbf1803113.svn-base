@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="feed1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/feed/rome-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/feed/feed.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

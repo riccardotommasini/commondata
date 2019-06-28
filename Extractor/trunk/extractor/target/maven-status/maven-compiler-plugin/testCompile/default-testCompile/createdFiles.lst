@@ -1,0 +1,12 @@
+org/fuberlin/wbsg/ccrdf/test/TripleStatTest.class
+org/fuberlin/wbsg/ccrdf/test/WorkerTest.class
+org/fuberlin/wbsg/ccrdf/test/ExtractorTest.class
+org/fuberlin/wbsg/ccrdf/test/FasterTopKTest$TopK$1.class
+org/fuberlin/wbsg/ccrdf/test/FasterTopKTest$TopK.class
+org/fuberlin/wbsg/ccrdf/test/FasterTopKTest.class
+org/fuberlin/wbsg/ccrdf/test/WorkerTest$1.class
+org/fuberlin/wbsg/ccrdf/test/DataStatTest.class
+org/fuberlin/wbsg/ccrdf/test/ItemsetTest.class
+org/fuberlin/wbsg/ccrdf/test/WorkerTest$TestThread.class
+org/fuberlin/wbsg/ccrdf/test/ItemsetTest$1.class
+org/fuberlin/wbsg/ccrdf/test/HCardFailTest.class

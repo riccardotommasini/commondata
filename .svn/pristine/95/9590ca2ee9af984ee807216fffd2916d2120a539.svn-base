@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons - Winter 2013 Corpus - Schema.org Class Specific Subsets</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body><a name='top'></a>
+<h1>Class-Specific Subsets of the Schema.org Data contained in the Winter 2013 Corpus</h1>
+<p>This page provides access  to and statistics about class-specific subsets of the  <a href="http://schema.org">Schema.org</a> data contained in the <a href="http://webdatacommons.org/structureddata/2013-11/stats/stats.html">Winter 2013 version</a> of the <a href="http://webdatacommons.org/structureddata/">Web Data Commons Microdata corpus</a>.</p> 
+
+<h2>Introduction</h2>
+<p>
+As many users are only interested in specific types of Schema.org data (like product data, event data, or address data), we have created class-specific subsets out of the complete <a href="http://webdatacommons.org/structureddata/2013-11/stats/stats.html">Microdata corpus</a> for a selection of <i>schema.org</i> classes.
+The subsets contain all instances of a specific class  as well as all other data that is found on the webpages containing these instances. For example, a page containing data about a product might also contain reviews and offers for this product; a page containing data about an event might also contain data about the location of the event and the persons involved in the event. The data is represented in <a href="http://www.w3.org/TR/n-quads/">N-Quads</a> format, meaning that the forth element of each quad contains the URL of the webpage from which the data was extracted. </p>
+<p><b>Please note that </b>
+<ul>
+  <li>the data in the  files is not disjunct. This means that whenever you combine two files you might end up with duplicated quads, as one webpage can contain more than one class (e.g. schema.org/Product and schema.org/Offer).
+  </li>
+  <li>the  data is only the tip of the iceberg. The <a href="http://commoncrawl.org/">CommonCrawl </a>covers only a subset of all webpages that are offered by a specific website. Thus also only a subset of all data offered by a site is contained in our corpus. I you need more instances of a specific class, you will need to crawl deeper into the websites that we identified to contain specific types of Schema.org data.</li>
+</ul>
+You are welcome to use the datasets and also to tell about your findings. If you find our datasets useful for your research, please quote the paper: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-TheWDCMicrodataRdfaMicroformatsDataSeries-ISWC2014-rbds.pdf" target="_blank"> The WebDataCommons Microdata, RDFa and Microformat Dataset Series</a> by <i>Robert Meusel, Petar Petrovski, and Christian Bizer</i> in the Proceedings of the 13th International Semantic Web Conference: Replication, Benchmark, Data and Software Track (ISWC2014).
+
+</p>
+<h2>Class-Specific Subsets of the Schema.org Data</h2> 
+<p>
+<table style="width:1500px">
+<tr><th style="width:300px">Class Name</th><th style="width:250px">Total Number </th><th style="width:370px">Top 5 Other Classes (Entity Count)</th><th style="width:120px">Total File Size</th><th style="width:220px">Quad File</th></tr>
+<tr><th><a href="http://schema.org/AdministrativeArea">http://schema.org/AdministrativeArea</a></th><td>Number of Quads: 1,747,834 <br>Number of URLs: 96,824 <br> Number of Hosts: 40 <br> Number of Specific Class Entities: 113,972</td><td>http://schema.org/GeoCoordinates (82,812)<br>
+http://schema.org/Country (82,552)<br>
+http://schema.org/Continent (81,839)<br>
+http://schema.org/City (69,743)<br>
+http://schema.org/Place (516)<br>
+</td><td>24 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgAdministrativeArea.nq.gz">schemaorgAdministrativeArea.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgAdministrativeArea.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Airport">http://schema.org/Airport</a></th><td>Number of Quads: 96,213,109 <br>Number of URLs: 920,040 <br> Number of Hosts: 62 <br> Number of Specific Class Entities: 32,026,482</td><td>http://schema.org/PostalAddress (20,469)<br>
+http://schema.org/GeoCoordinates (1,811)<br>
+http://schema.org/WebPage (635)<br>
+http://schema.org/ImageObject (453)<br>
+http://schema.org/Organization (379)<br>
+</td><td>1,058 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgAirport.nq.gz">schemaorgAirport.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgAirport.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/BodyOfWater">http://schema.org/BodyOfWater</a></th><td>Number of Quads: 9,964 <br>Number of URLs: 2,673 <br> Number of Hosts: 9 <br> Number of Specific Class Entities: 2,865</td><td>http://schema.org/ImageObject (151)<br>
+http://schema.org/GeoCoordinates (133)<br>
+http://schema.org/PostalAddress (89)<br>
+http://schema.org/Rating (88)<br>
+http://schema.org/Place (87)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgBodyOfWater.nq.gz">schemaorgBodyOfWater.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgBodyOfWater.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Book">http://schema.org/Book</a></th><td>Number of Quads: 30,540,769 <br>Number of URLs: 2,425,144 <br> Number of Hosts: 1,395 <br> Number of Specific Class Entities: 3,083,586</td><td>http://schema.org/Review (1,259,450)<br>
+http://schema.org/Offer (460,510)<br>
+http://schema.org/Organization (275,575)<br>
+http://schema.org/CreativeWork (174,369)<br>
+http://schema.orgPerson (173,319)<br>
+</td><td>735 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgBook.nq.gz">schemaorgBook.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgBook.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Canal">http://schema.org/Canal</a></th><td>Number of Quads: 1,047 <br>Number of URLs: 101 <br> Number of Hosts: 2 <br> Number of Specific Class Entities: 150</td><td>http://schema.org/ImageObject (39)<br>
+http://schema.org/GeoCoordinates (15)<br>
+http://schema.org/PostalAddress (15)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCanal.nq.gz">schemaorgCanal.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCanal.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/City">http://schema.org/City</a></th><td>Number of Quads: 7,363,976 <br>Number of URLs: 265,552 <br> Number of Hosts: 281 <br> Number of Specific Class Entities: 449,082</td><td>http://schema.org/GeoCoordinates (310,442)<br>
+http://schema.org/Country (247,177)<br>
+http://schema.org/Event (175,750)<br>
+http://schema.org/State (174,652)<br>
+http://schema.org/CreativeWork (143,504)<br>
+</td><td>153 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCity.nq.gz">schemaorgCity.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCity.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/CollegeOrUniversity">http://schema.org/CollegeOrUniversity</a></th><td>Number of Quads: 9,458,481 <br>Number of URLs: 135,355 <br> Number of Hosts: 278 <br> Number of Specific Class Entities: 697,181</td><td>http://schema.org/CreativeWork (582,830)<br>
+http://schema.org/Person (378,943)<br>
+http://schema.org/PostalAddress (369,691)<br>
+http://schema.org/LocalBusiness (349,986)<br>
+http://schema.org/GeoCoordinates (278,805)<br>
+</td><td>189 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCollegeOrUniversity.nq.gz">schemaorgCollegeOrUniversity.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCollegeOrUniversity.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Comment">http://schema.org/Comment</a></th><td>Number of Quads: 6,595,070 <br>Number of URLs: 226,346 <br> Number of Hosts: 409 <br> Number of Specific Class Entities: 1,144,597</td><td>http://schema.org/Person (244,235)<br>
+http://schema.org/AggregateRating (15,781)<br>
+http://schema.org/CreativeWork (14,626)<br>
+http://schema.org/UserComments (14,393)<br>
+http://schema.org/Place (5,483)<br>
+</td><td>239 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgComment.nq.gz">schemaorgComment.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgComment.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Continent">http://schema.org/Continent</a></th><td>Number of Quads: 1,659,862 <br>Number of URLs: 84,141 <br> Number of Hosts: 7 <br> Number of Specific Class Entities: 85,361</td><td>http://schema.org/AdministrativeArea (88,886)<br>
+http://schema.org/Country (84,092)<br>
+http://schema.org/GeoCoordinates (83,913)<br>
+http://schema.org/City (72,670)<br>
+http://schema.org/ImageObject (5)<br>
+</td><td>20 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgContinent.nq.gz">schemaorgContinent.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgContinent.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Country">http://schema.org/Country</a></th><td>Number of Quads: 96,820,864 <br>Number of URLs: 1,067,284 <br> Number of Hosts: 230 <br> Number of Specific Class Entities: 1,941,691</td><td>http://schema.org/Rating (6,305,504)<br>
+http://schema.org/Review (3,117,035)<br>
+http://schema.org/LodgingBusinessAmenity (1,982,229)<br>
+http://schema.org/Hotel (1,735,678)<br>
+http://schema.org/PostalAddress (1,652,713)<br>
+</td><td>1,593 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCountry.nq.gz">schemaorgCountry.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCountry.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/CreativeWork">http://schema.org/CreativeWork</a></th><td>Number of Quads: 51,601,696 <br>Number of URLs: 3,112,912 <br> Number of Hosts: 2,632 <br> Number of Specific Class Entities: 7,057,942</td><td>http://schema.org/Offer (441,360)<br>
+http://schema.org/Person (346,990)<br>
+http://schema.org/Review (284,077)<br>
+http://schema.org/Rating (276,758)<br>
+http://schema.org/AggregateRating (232,423)<br>
+</td><td>1,360 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCreativeWork.nq.gz">schemaorgCreativeWork.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgCreativeWork.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/EducationalOrganization">http://schema.org/ EducationalOrganization</a></th><td>Number of Quads: 2,195,922 <br>Number of URLs: 136,874 <br> Number of Hosts: 645 <br> Number of Specific Class Entities: 179,531</td><td>http://schema.org/Person (109,696)<br>
+http://schema.org/PostalAddress (90,847)<br>
+http://schema.org/GeoCoordinates (49,432)<br>
+http://schema.org/Organization (23,778)<br>
+http://schema.org/Place (15,794)<br>
+</td><td>31 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgEducationalOrganization.nq.gz">schemaorgEducationalOrganization.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgEducationalOrganization.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Event">http://schema.org/Event</a></th><td>Number of Quads: 120,405,048 <br>Number of URLs: 1,275,327 <br> Number of Hosts: 10,219 <br> Number of Specific Class Entities: 10,445,852</td><td>http://schema.org/Place (7,680,824)<br>
+http://schema.org/PostalAddress (7,035,254)<br>
+http://schema.org/Person (802,105)<br>
+http://schema.org/Offer (471,232)<br>
+http://schema.org/GeoCoordinates (434,318)<br>
+</td><td>1,830 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgEvent.nq.gz">schemaorgEvent.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgEvent.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/GeoCoordinates">http://schema.org/GeoCoordinates</a></th><td>Number of Quads: 847,110,997 <br>Number of URLs: 12,644,709 <br> Number of Hosts: 11,453 <br> Number of Specific Class Entities: 19,768,546</td><td>http://schema.org/PostalAdress (69,432,018)<br>
+http://schema.org/LocalBusiness (64,102,127)<br>
+http://schema.org/Rating (8,882,495)<br>
+http://schema.org/Review (7,072,511)<br>
+http://schema.org/AggregateRating (3,990,021)<br>
+</td><td>15,480 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgGeoCoordinates.nq.gz">schemaorgGeoCoordinates.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgGeoCoordinates.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/GovernmentOrganization">http://schema.org/ GovernmentOrganization</a></th><td>Number of Quads: 178,083 <br>Number of URLs: 11,458 <br> Number of Hosts: 89 <br> Number of Specific Class Entities: 16,126</td><td>http://schema.org/PostalAddress (11,281)<br>
+http://schema.org/CreativeWork (1,408)<br>
+http://schema.org/BlogPosting (728)<br>
+http://schema.org/Person (476)<br>
+http://schema.org/GeoCoordinates (344)<br>
+</td><td>2 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgGovernmentOrganization.nq.gz">schemaorgGovernmentOrganization.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgGovernmentOrganization.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Hospital">http://schema.org/Hospital</a></th><td>Number of Quads: 547,411 <br>Number of URLs: 42,300 <br> Number of Hosts: 98 <br> Number of Specific Class Entities: 47,056</td><td>http://schema.org/PostalAddress (30,462)<br>
+http://schema.org/Physician (11,485)<br>
+http://schema.org/MedicalOrganization (1,543)<br>
+http://schema.org/GeoCoordinates (1,092)<br>
+http://schema.org/MedicalSpecialty (869)<br>
+</td><td>7 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgHospital.nq.gz">schemaorgHospital.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgHospital.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Hotel">http://schema.org/Hotel</a></th><td>Number of Quads: 129,277,708 <br>Number of URLs: 2,415,020 <br> Number of Hosts: 3,220 <br> Number of Specific Class Entities: 4,841,353</td><td>http://schema.org/Rating (7,175,013)<br>
+http://schema.org/Review (4,066,365)<br>
+http://schema.org/AggregateRating (2,494,000)<br>
+http://schema.org/PostalAddress (2,455,743)<br>
+http://schema.org/LodgingBusinessAmenity (1,982,229)<br>
+</td><td>2,245 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgHotel.nq.gz">schemaorgHotel.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgHotel.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/JobPosting">http://schema.org/JobPosting</a></th><td>Number of Quads: 220,768,259 <br>Number of URLs: 1,952,187 <br> Number of Hosts: 2,772 <br> Number of Specific Class Entities: 21,154,148</td><td>http://schema.org/Place (16,080,767)<br>
+http://schema.org/Organization (12,472,465)<br>
+http://schema.org/Postaladdress (7,062,608)<br>
+http://schema.org/PostalAddress (2,631,864)<br>
+http://schema.orgPostalAddress (373,288)<br>
+</td><td>4,746 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgJobPosting.nq.gz">schemaorgJobPosting.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgJobPosting.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/LakeBodyOfWater">http://schema.org/LakeBodyOfWater</a></th><td>Number of Quads: 13,228 <br>Number of URLs: 864 <br> Number of Hosts: 8 <br> Number of Specific Class Entities: 1,083</td><td>http://schema.org/ImageObject (563)<br>
+http://schema.org/GeoCoordinates (450)<br>
+http://schema.org/PostalAddress (449)<br>
+http://schema.org/TouristAttraction (8)<br>
+http://schema.org/Mountain (1)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLakeBodyOfWater.nq.gz">schemaorgLakeBodyOfWater.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLakeBodyOfWater.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/LandmarksOrHistoricalBuildings">http://schema.org/ LandmarksOrHistoricalBuildings</a></th><td>Number of Quads: 234,689 <br>Number of URLs: 15,744 <br> Number of Hosts: 49 <br> Number of Specific Class Entities: 24,073</td><td>http://schema.org/PostalAddress (8,014)<br>
+http://schema.org/GeoCoordinates (4,484)<br>
+http://schema.org/ImageObject (1,230)<br>
+http://schema.org/Person (566)<br>
+http://schema.org/Event (416)<br>
+</td><td>4 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLandmarksOrHistoricalBuildings.nq.gz">schemaorgLandmarksOrHistoricalBuildings.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLandmarksOrHistoricalBuildings.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Language">http://schema.org/Language</a></th><td>Number of Quads: 70,229 <br>Number of URLs: 1,087 <br> Number of Hosts: 15 <br> Number of Specific Class Entities: 1,154</td><td>http://schema.org/Attorney (5,188)<br>
+http://schema.org/AlignmentObject (946)<br>
+http://schema.org/Organization (740)<br>
+http://schema.org/openingHoursSpecification (669)<br>
+http://schema.org/Person (527)<br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLanguage.nq.gz">schemaorgLanguage.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLanguage.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Library">http://schema.org/Library</a></th><td>Number of Quads: 169,327 <br>Number of URLs: 14,994 <br> Number of Hosts: 34 <br> Number of Specific Class Entities: 15,754</td><td>http://schema.org/PostalAddress (14,916)<br>
+http://schema.org/GeoCoordinates (157)<br>
+http://schema.org/EducationEvent (94)<br>
+http://schema.orgPostalAddress (92)<br>
+http://schema.org/ImageObject (48)<br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLibrary.nq.gz">schemaorgLibrary.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLibrary.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/LocalBusiness">http://schema.org/LocalBusiness</a></th><td>Number of Quads: 846,073,669 <br>Number of URLs: 12,766,955 <br> Number of Hosts: 47,178 <br> Number of Specific Class Entities: 76,083,241</td><td>http://schema.org/PostalAddress (68,177,366)<br>
+http://schema.org/GeoCoordinates (11,400,407)<br>
+http://schema.org/Rating (8,362,535)<br>
+http://schema.org/Review (6,779,878)<br>
+http://schema.org/AggregateRating (4,959,143)<br>
+</td><td>15,058 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLocalBusiness.nq.gz">schemaorgLocalBusiness.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgLocalBusiness.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Mountain">http://schema.org/Mountain</a></th><td>Number of Quads: 57,593 <br>Number of URLs: 1,842 <br> Number of Hosts: 11 <br> Number of Specific Class Entities: 9,332</td><td>http://schema.org/GeoCoordinates (910)<br>
+http://schema.org/PostalAddress (577)<br>
+http://schema.org/ImageObject (568)<br>
+http://schema.org/Review (146)<br>
+http://schema.org/ItemList (21)<br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMountain.nq.gz">schemaorgMountain.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMountain.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Movie">http://schema.org/Movie</a></th><td>Number of Quads: 43,215,194 <br>Number of URLs: 1,008,132 <br> Number of Hosts: 1,990 <br> Number of Specific Class Entities: 1,416,596</td><td>http://schema.org/Person (5,862,923)<br>
+http://schema.org/AggregateRating (312,668)<br>
+http://schema.org/Review (291,882)<br>
+http://schema.org/Organization (288,073)<br>
+http://schema.org/Rating (231,069)<br>
+</td><td>1,002 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMovie.nq.gz">schemaorgMovie.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMovie.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Museum">http://schema.org/Museum</a></th><td>Number of Quads: 30,783 <br>Number of URLs: 1,442 <br> Number of Hosts: 37 <br> Number of Specific Class Entities: 2,075</td><td>http://schema.org/PostalAddress (1,422)<br>
+http://schema.org/GeoCoordinates (1,131)<br>
+http://schema.org/ImageObject (871)<br>
+http://schema.org/Event (95)<br>
+http://schema.org/Review (76)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMuseum.nq.gz">schemaorgMuseum.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMuseum.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/MusicAlbum">http://schema.org/MusicAlbum</a></th><td>Number of Quads: 58,347,745 <br>Number of URLs: 1,009,313 <br> Number of Hosts: 318 <br> Number of Specific Class Entities: 2,825,741</td><td>http://schema.org/MusicRecording (6,580,012)<br>
+http://schema.org/MusicGroup (929,603)<br>
+http://schema.org/NewsArticle (60,471)<br>
+http://schema.org/Person (50,528)<br>
+http://schema.org/Offer (46,761)<br>
+</td><td>992 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMusicAlbum.nq.gz">schemaorgMusicAlbum.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMusicAlbum.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/MusicRecording">http://schema.org/MusicRecording</a></th><td>Number of Quads: 123,744,357 <br>Number of URLs: 2,259,451 <br> Number of Hosts: 712 <br> Number of Specific Class Entities: 16,861,677</td><td>http://schema.org/MusicGroup (3,453,068)<br>
+http://schema.org/MusicAlbum (975,872)<br>
+http://schema.org/AudioObject (801,064)<br>
+http://schema.org/Offer (189,330)<br>
+http://schema.org/AggregateRating (54,046)<br>
+</td><td>1,870 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMusicRecording.nq.gz">schemaorgMusicRecording.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgMusicRecording.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Offer">http://schema.org/Offer</a></th><td>Number of Quads: 1,504,775,271 <br>Number of URLs: 22,403,706 <br> Number of Hosts: 70,335 <br> Number of Specific Class Entities: 152,038,124</td><td>http://schema.org/Product (123,950,578)<br>
+http://schema.org/ImageObject (16,549,776)<br>
+http://schema.org/Person (16,501,700)<br>
+http://schema.org/AggregateRating (16,131,215)<br>
+http://schema.org/Review (8,209,544)<br>
+</td><td>38,007 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgOffer.nq.gz">schemaorgOffer.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgOffer.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Organization">http://schema.org/Organization</a></th><td>Number of Quads: 780,340,011 <br>Number of URLs: 55,476,207 <br> Number of Hosts: 80,846 <br> Number of Specific Class Entities: 90,407,559</td><td>http://schema.org/Product (21,810,409)<br>
+http://schema.org/JobPosting (11,952,752)<br>
+http://schema.org/Place (11,146,253)<br>
+http://schema.org/AggregateOffer (9,465,800)<br>
+http://schema.org/AggregateRating (7,854,036)<br>
+</td><td>16,503 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgOrganization.nq.gz">schemaorgOrganization.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgOrganization.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Painting">http://schema.org/Painting</a></th><td>Number of Quads: 47,425 <br>Number of URLs: 5,810 <br> Number of Hosts: 45 <br> Number of Specific Class Entities: 6,019</td><td>http://schema.org/CreativeWork (3,156)<br>
+http://schema.org/Offer (707)<br>
+http://schema.org/Person (363)<br>
+http://schema.org/AggregateRating (184)<br>
+http://schema.org/SiteNavigationElement (40)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPainting.nq.gz">schemaorgPainting.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPainting.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Park">http://schema.org/Park</a></th><td>Number of Quads: 35,173 <br>Number of URLs: 2,326 <br> Number of Hosts: 23 <br> Number of Specific Class Entities: 2,741</td><td>http://schema.org/PostalAddress (1,299)<br>
+http://schema.org/ImageObject (1,247)<br>
+http://schema.org/GeoCoordinates (1,164)<br>
+http://schema.org/Event (539)<br>
+http://schema.org/Organization (110)<br>
+</td><td>1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPark.nq.gz">schemaorgPark.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPark.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Person">http://schema.org/Person</a></th><td>Number of Quads: 1,133,864,240 <br>Number of URLs: 15,488,405 <br> Number of Hosts: 55,052 <br> Number of Specific Class Entities: 142,880,756</td><td>http://schema.org/PostalAddress (24,633,649)<br>
+http://schema.org/ImageObject (18,108,510)<br>
+http://schema.org/Offer (16,381,535)<br>
+http://schema.org/Product (16,379,629)<br>
+http://schema.org/NewsArticle (5,080,043)<br>
+</td><td>33,328 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPerson.nq.gz">schemaorgPerson.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPerson.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Place">http://schema.org/Place</a></th><td>Number of Quads: 491,819,695 <br>Number of URLs: 4,357,752 <br> Number of Hosts: 9,922 <br> Number of Specific Class Entities: 37,956,782</td><td>http://schema.org/PostalAddress (19,146,160)<br>
+http://schema.org/JobPosting (15,639,768)<br>
+http://schema.org/Organization (10,521,772)<br>
+http://schema.org/Event (7,903,211)<br>
+http://schema.org/Postaladdress (6,967,460)<br>
+</td><td>8,932 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPlace.nq.gz">schemaorgPlace.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPlace.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/PostalAddress">http://schema.org/PostalAddress</a></th><td>Number of Quads: 1,528,535,906 <br>Number of URLs: 19,797,815 <br> Number of Hosts: 70,690 <br> Number of Specific Class Entities: 124,287,861</td><td>http://schema.org/LocalBusiness (68,675,720)<br>
+http://schema.org/Person (40,953,026)<br>
+http://schema.org/Place (19,700,994)<br>
+http://schema.org/GeoCoordinates (18,832,241)<br>
+http://schema.org/Rating (10,333,227)<br>
+</td><td>28,058 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPostalAddress.nq.gz">schemaorgPostalAddress.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgPostalAddress.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Product">http://schema.org/Product</a></th><td>Number of Quads: 1,878,219,841 <br>Number of URLs: 37,448,498 <br> Number of Hosts: 67,813 <br> Number of Specific Class Entities: 177,992,114</td><td>http://schema.org/Offer (143,493,748)<br>
+http://schema.org/AggregateRating (27,047,142)<br>
+http://schema.org/Review (20,072,936)<br>
+http://schema.org/Rating (17,229,400)<br>
+http://schema.org/Person (16,665,525)<br>
+</td><td>50,542 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgProduct.nq.gz">schemaorgProduct.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgProduct.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/RadioStation">http://schema.org/RadioStation</a></th><td>Number of Quads: 305,605 <br>Number of URLs: 65,576 <br> Number of Hosts: 27 <br> Number of Specific Class Entities: 76,933</td><td>http://schema.org/AggregateRating (12,969)<br>
+http://schema.org/Review (9,273)<br>
+http://schema.org/Rating (9,266)<br>
+http://schema.org/UserComments (167)<br>
+http://schema.org/Person (165)<br>
+</td><td>6 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRadioStation.nq.gz">schemaorgRadioStation.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRadioStation.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Recipe">http://schema.org/Recipe</a></th><td>Number of Quads: 47,195,499 <br>Number of URLs: 1,276,631 <br> Number of Hosts: 9,193 <br> Number of Specific Class Entities: 1,508,400</td><td>http://schema.org/Review (1,386,410)<br>
+http://schema.org/AggregateRating (807,847)<br>
+http://schema.org/NutritionInformation (687,031)<br>
+http://schema.org/Rating (608,266)<br>
+http://schema.org/Person (184,062)<br>
+</td><td>904 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRecipe.nq.gz">schemaorgRecipe.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRecipe.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Restaurant">http://schema.org/Restaurant</a></th><td>Number of Quads: 12,157,258 <br>Number of URLs: 493,892 <br> Number of Hosts: 4,772<br> Number of Specific Class Entities: 558,432</td><td>http://schema.org/PostalAddress (713,135)<br>
+http://schema.org/Photograph (329,684)<br>
+http://schema.org/Review (199,608)<br>
+http://schema.org/AggregateRating (191,362)<br>
+http://schema.org/Rating (172,802)<br>
+</td><td>200 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRestaurant.nq.gz">schemaorgRestaurant.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRestaurant.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/RiverBodyOfWater">http://schema.org/RiverBodyOfWater</a></th><td>Number of Quads: 18,553 <br>Number of URLs: 1,770 <br> Number of Hosts: 8 <br> Number of Specific Class Entities: 2,485</td><td>http://schema.org/GeoCoordinates (468)<br>
+http://schema.org/PostalAddress (440)<br>
+http://schema.org/ImageObject (406)<br>
+http://schema.org/WebPage (2)<br>
+http://schema.org/City (2)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRiverBodyOfWater.nq.gz">schemaorgRiverBodyOfWater.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgRiverBodyOfWater.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/School">http://schema.org/School</a></th><td>Number of Quads: 2,771,521 <br>Number of URLs: 197,657 <br> Number of Hosts: 122 <br> Number of Specific Class Entities: 211,468</td><td>http://schema.org/PostalAddress (204,921)<br>
+http://schema.org/Review (76,581)<br>
+http://schema.org/AggregateRating (38,266)<br>
+http://schema.org/Rating (37,685)<br>
+http://schema.org/Product (5,275)<br>
+</td><td>46 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSchool.nq.gz">schemaorgSchool.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSchool.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/Sculpture">http://schema.org/Sculpture</a></th><td>Number of Quads: 3,079 <br>Number of URLs: 374 <br> Number of Hosts: 15 <br> Number of Specific Class Entities: 394</td><td>http://schema.org/CreativeWork (303)<br>
+http://schema.org/Offer (20)<br>
+http://schema.org/ImageObject (17)<br>
+http://schema.org/PostalAddress (14)<br>
+http://schema.org/GeoCoordinates (13)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSculpture.nq.gz">schemaorgSculpture.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSculpture.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/SeaBodyOfWater">http://schema.org/SeaBodyOfWater</a></th><td>Number of Quads: 825 <br>Number of URLs: 119 <br> Number of Hosts: 5 <br> Number of Specific Class Entities: 179</td><td>http://schema.org/OceanBodyOfWater (8)<br>
+http://schema.org/BodyOfWater (4)<br>
+http://schema.org/GeoCoordinates (2)<br>
+http://schema.org/WebPage (1)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSeaBodyOfWater.nq.gz">schemaorgSeaBodyOfWater.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSeaBodyOfWater.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/ShoppingCenter">http://schema.org/ShoppingCenter</a></th><td>Number of Quads: 26,918 <br>Number of URLs: 1,034 <br> Number of Hosts: 40 <br> Number of Specific Class Entities: 2,215</td><td>http://schema.org/Corporation (853)<br>
+http://schema.org/PostalAddress (517)<br>
+http://schema.org/GeoCoordinates (464)<br>
+http://schema.org/ImageObject (317)<br>
+http://schema.org/Organization (309)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgShoppingCenter.nq.gz">schemaorgShoppingCenter.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgShoppingCenter.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/SkiResort">http://schema.org/SkiResort</a></th><td>Number of Quads: 4,076 <br>Number of URLs: 319 <br> Number of Hosts: 19 <br> Number of Specific Class Entities: 329</td><td>http://schema.org/ImageObject (104)<br>
+http://schema.org/PostalAddress (102)<br>
+http://schema.org/GeoCoordinates (101)<br>
+http://schema.org/Residence (37)<br>
+http://schema.org/Product (36)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSkiResort.nq.gz">schemaorgSkiResort.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSkiResort.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/SportsEvent">http://schema.org/SportsEvent</a></th><td>Number of Quads: 36,752,762 <br>Number of URLs: 43,781 <br> Number of Hosts: 290 <br> Number of Specific Class Entities: 2,326,173</td><td>http://schema.org/Place (2,256,293)<br>
+http://schema.org/PostalAddress (2,217,326)<br>
+http://schema.org/AggregateOffer (1,465,575)<br>
+http://schema.org/SportsTeam (82,827)<br>
+http://schema.org/Offer (72,425)<br>
+</td><td>524 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSportsEvent.nq.gz">schemaorgSportsEvent.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSportsEvent.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/SportsTeam">http://schema.org/SportsTeam</a></th><td>Number of Quads: 1,335,194 <br>Number of URLs: 54,110 <br> Number of Hosts: 108 <br> Number of Specific Class Entities: 160,520</td><td>http://schema.org/SportsEvent (42,976)<br>
+http://schema.org/SportsAthlete (34,309)<br>
+http://schema.org/Person (22,453)<br>
+http://schema.org/VideoObject (9,981)<br>
+http://schema.org/SportsEvent/Match (8,504)<br>
+</td><td>19 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSportsTeam.nq.gz">schemaorgSportsTeam.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgSportsTeam.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/StadiumOrArena">http://schema.org/StadiumOrArena</a></th><td>Number of Quads: 174,111 <br>Number of URLs: 971 <br> Number of Hosts: 32 <br> Number of Specific Class Entities: 9,554</td><td>http://schema.org/SportsTeam (17,180)<br>
+http://schema.org/SportsEvent/Match (8,504)<br>
+http://schema.org/PostalAddress (8,020)<br>
+http://schema.org/Person/SoccerPlayer (3,356)<br>
+http://schema.org/Event (753)<br>
+</td><td>2 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgStadiumOrArena.nq.gz">schemaorgStadiumOrArena.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgStadiumOrArena.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/TelevisionStation">http://schema.org/TelevisionStation</a></th><td>Number of Quads: 40,261 <br>Number of URLs: 299 <br> Number of Hosts: 14 <br> Number of Specific Class Entities: 8,595</td><td>http://schema.org/Event (615)<br>
+http://schema.org/ItemList (228)<br>
+http://schema.org/PostalAddress (129)<br>
+http://schema.org/GeoCoordinates (63)<br>
+http://schema.org/Review (27)<br>
+</td><td><1 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgTelevisionStation.nq.gz">schemaorgTelevisionStation.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgTelevisionStation.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/TVEpisode">http://schema.org/TVEpisode</a></th><td>Number of Quads: 23,195,139 <br>Number of URLs: 478,653 <br> Number of Hosts: 199 <br> Number of Specific Class Entities: 949,901</td><td>http://schema.org/Person (2,584,910)<br>
+http://schema.org/TVSeries (289,669)<br>
+http://schema.org/AggregateRating (241,698)<br>
+http://schema.org/TVSeason (239,155)<br>
+http://schema.org/Organization (146,446)<br>
+</td><td>333 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgTvEpisode.nq.gz">schemaorgTvEpisode.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgTvEpisode.nq.sample.txt">(sample)</a></td> </tr>
+<tr><th><a href="http://schema.org/WebPage">http://schema.org/WebPage</a></th><td>Number of Quads: 259,853,161 <br>Number of URLs: 29,930,289 <br> Number of Hosts: 88,201 <br> Number of Specific Class Entities: 32,885,430</td><td>http://schema.org/Rating (7,365,413)<br>
+http://schema.org/Review (3,681,762)<br>
+http://schema.org/Person (3,234,161)<br>
+http://schema.org/AggregateRating (2,769,813)<br>
+http://schema.org/Place (2,753,956)<br>
+</td><td>6,400 MB</td><td><a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgWebPage.nq.gz">schemaorgWebPage.nq.gz</a> <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/2013-11/quads/schemaOrgDatasetsByPage/schemaorgWebPage.nq.sample.txt">(sample)</a></td> </tr>
+</table>
+<p>
+In case you are interested in a particular class or set of classes which is not listed above, please get in contact with the WebDataCommons team via <a href="http://groups.google.com/group/web-data-commons">Mailing List</a> or our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Google Group</a>.
+</p>
+
+<h2>Get the Code</h2>
+
+<p>
+The source code can be checked out from our <a href="https://www.assembla.com/code/commondata/subversion/nodes/extractor">Subversion repository</a>. The extraction of Winter 2013 was done with <a href="https://www.assembla.com/code/commondata/subversion/nodes/Extractor/tags/0/0/2">version 0.0.2 of the extractor</a>. Having checked-out the source code, create your own configuration by copying <code>src/main/resources/ccrdf.properties.dist</code> to <code>src/main/resources/ccrdf.properties</code>, then fill in your AWS authentication information and bucket names. Compilation is performed using <a href="http://maven.apache.org/">Maven</a>, thus changing into the source root directory and typing <code>mvn install</code> should be sufficient to create a build. In order to run the extractor on more than 10 EC2 nodes, you will have to request an <a href="http://aws.amazon.com/contact-us/ec2-request/">EC2 instance limit increase</a> for your AWS account. More information about running the extractor is provided in the file <code>readme.txt</code>.
+</p>
+
+<h2>Get Support</h2>
+<p></p>
+
+<p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.</p>
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    } 
+});
+</script>
+
+</body></html>

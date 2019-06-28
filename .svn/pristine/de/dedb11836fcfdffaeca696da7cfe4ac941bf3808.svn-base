@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="index-anchor1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/index-anchor/index-anchor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

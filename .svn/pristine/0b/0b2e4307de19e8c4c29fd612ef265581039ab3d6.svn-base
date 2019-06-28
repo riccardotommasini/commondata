@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>Web Data Commons - Web Tables (English Subset)</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Dominique Ritze, Oliver Lehmberg, Christian Bizer">
+<meta name="keywords" content="Web Tables, HTML table corpus, English subset">
+<link rel=Stylesheet href=stylesheet.css>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+<script type="text/javascript">
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+		//create histogram for table - class distribution
+	   var headerData= new google.visualization.DataTable();
+        headerData.addColumn('string', '#Category');
+        headerData.addColumn('number', 'Number of tables');
+        headerData.addRows([
+		['Populated Place' ,  163],
+		['Organization' , 141],
+		['Work' ,  119],
+		['Thing' , 118],
+		['Species' ,   71],
+		['Person' ,  65],
+		['Architectural Structure' ,  43],
+		['Natural Place' ,  36]
+        ]);
+		
+		// Set chart options
+        var optionsHead = {'title':' Assigned DBpedia classes',
+                       'width':1500,
+                       'height':400,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0, 'maxValue' :170,  logScale: false}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders = new google.visualization.ColumnChart(document.getElementById('headersDiv'));
+        chartHeaders.draw(headerData, optionsHead);
+		
+		//create histogram for instance table - class distribution
+	   var instanceData= new google.visualization.DataTable();
+        instanceData.addColumn('string', '#Header');
+        instanceData.addColumn('number', 'Number of tables');
+        instanceData.addRows([
+		['Populated Place' ,  50],
+		['Work' ,  47],
+		['Organization' , 39],
+		['Person' ,  34],
+		['Natural Place' ,  30],
+		['Architectural Structure' ,  29],
+		['Species' ,   14]
+        ]);
+		
+		// Set chart options
+        var optionsHead1 = {'title':'Categories for Instance Tables',
+                       'width':1500,
+                       'height':400,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: false}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders1 = new google.visualization.ColumnChart(document.getElementById('instanceDiv'));
+        chartHeaders1.draw(instanceData, optionsHead1);
+		
+		//create piechart for column datatypes
+		var dataE = google.visualization.arrayToDataTable([
+          ['datatype', '#Columns'],
+          ['String', 2130],
+          ['Numeric', 591],
+          ['Unit', 310],
+          ['Date', 136],
+		  ['List', 52],
+		  ['Boolean', 38],
+		  ['Hyperlink', 7],
+		  ['Coordinate', 3]
+        ]);
+
+        var optionsE = {
+          title: 'Column Data Types'
+        };
+		var chart1E = new google.visualization.PieChart(document.getElementById('piechartDatatypesEn'));
+        chart1E.draw(dataE, optionsE);		
+		
+		//create histogram for instance table - class distribution
+	   var instanceAllData= new google.visualization.DataTable();
+        instanceAllData.addColumn('string', '#Header');
+        instanceAllData.addColumn('number', 'Number of correspondences');
+        instanceAllData.addRows([
+		['Populated Place' ,  6489],
+		['Work' ,  6158],
+		['Species' ,   3508],
+		['Person' ,  3039],
+		['Organization' , 2533],
+		['Natural Place' ,  2495],
+		['Architectural Structure' ,  2170]
+        ]);
+		
+		// Set chart options
+        var optionsHead2= {'title':'Topical categories of the tables',
+                       'width':1500,
+                       'height':400,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: false}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders2 = new google.visualization.ColumnChart(document.getElementById('instanceAllDiv'));
+        chartHeaders2.draw(instanceAllData, optionsHead2);
+		
+		var propertyData= new google.visualization.DataTable();
+        propertyData.addColumn('string', '#Property');
+        propertyData.addColumn('number', 'Number of mappings');
+        propertyData.addRows([
+            ['language',	74],
+			['industry',	61],
+			['country',	60],
+			['currency',	57],
+			['populationTotal',	46],
+			['location',	36],
+			['currencyCode',	34],
+			['releaseDate',	33],
+			['city',	29],
+			['capital',	27],
+			['commonName',	23],
+			['director',	21],
+			['revenue',	21],
+			['address',	18],
+			['elevation',	18],
+			['collectionSize',	17],
+			['assets',	16],
+			['publisher',	16],
+			['sales',	16],
+			['runtime',	16]
+        ]);
+
+        var optionsHead3 = {'title':'Top 20 DBpedia properties',
+                       'width':1500,
+                       'height':400,
+               'colors': ['#e6693e'],
+               'vAxis': {'minValue' :0,  logScale: false}};
+			   // Instantiate and draw our chart, passing in some options.
+        var chartHeaders3 = new google.visualization.ColumnChart(document.getElementById('properties'));
+        chartHeaders3.draw(propertyData, optionsHead3);
+		
+      }
+    </script>
+    <style>
+
+        @media all {
+            .container_chart { display: block; }
+            .page-break    { display: none; }
+        }
+
+        @media print {
+            * { font-size: 95%; }
+            .container_chart { display: inline-block; }
+            .page-break    { display: inline-block; page-break-after:always; }
+        }
+
+    </style>
+	<style type="text/css">
+		.todo {
+		background-color: yellow; color: red; font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<a name='top'></a><div id="header">
+  <h1 style="font-size: 250%;">T2D  Gold Standard for Matching Web Tables to DBpedia</h1></div>
+<div id="tagline">Gold Standard Design, Statistics, and Download</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dominique-ritze/">Dominique Ritze</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/">Oliver Lehmberg</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+<br/>
+<br/>
+</div>
+
+<br />
+
+<div id="content">
+
+<p>This page describes the <strong>T2D Gold Standard</strong> for evaluating matching systems on the task of matching Web tables to the DBpedia knowledge base.</p>
+
+<h2>News</h2>
+<ul>  
+  <li><strong>2017-02-07: </strong>A second version of the T2D gold standard <a href="http://webdatacommons.org/webtables/goldstandardV2.html">T2Dv2</a> has been released.</li>
+  <li><strong>2016-10-15: </strong></strong>Paper about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Ritze-Bizer-FeatureUtilityStudy.pdf">Matching Web Tables To DBpedia - A Feature Utility Study</a> has been accepted at the <a href="http://edbticdt2017.unive.it/">EDBT'17</a> conference in Venice, Italy.</li>
+  <li><strong>2016-02-01: </strong>Poster about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Lehmberg-WTCorpus.pdf">A Large Public Corpus of Web Tables containing Time and Context Metadata</a> (<a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Lehmberg-WTCorpus-Poster.pdf">poster</a>) has been accepted as poster at the <a href="http://www2016.ca/">WWW'16</a> conference in Montréal, Canada.</li>
+  <li><strong>2015-12-15: </strong>Paper about <a href="http://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Ritze-etal-ProfilingWebTables.pdf">Profiling the Potential of Web Tables for Augmenting Cross-domain Knowledge Bases</a> has been accepted at the <a href="http://www2016.ca/">WWW'16</a> conference in Montréal, Canada.</li>
+</ul>
+
+<p>Many HTML tables on the Web are used for layout purposes, but a small fraction of all tables contains structured data [<a href="#Cafarella2008">Cafarella2008</a>][<a href="#Crestan2011">Crestan2011</a>]. As  this data has a wide coverage, it could potentially be very valuable for  filling missing values   and extending cross-domain knowledge bases such as <a href="http://wiki.dbpedia.org/">DBpedia</a>, <a href="http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/">YAGO</a> or the <a href="http://www.google.com/insidesearch/features/search/knowledge.html">Google Knowledge Graph</a>. As a prerequisite for being able to use  table data for knowledge base extension, the Web tables need to be matched to the knowledge base in question, meaning that correspondences between the rows of the tables and the entities described in the knowledge base as well as between the columns of the tables and the schema of the knowledge base need to be found. </p>
+<p>Different systems have been developed to solve this matching task [<a href="#Venetis2010">Venetis2010</a>][<a href="#Limaye2010">Limaye 2010</a>][<a href="#Ellis2014">Ellis2014</a>][<a href="#Zhang2014">Zhang2014</a>] . Up till now, it was difficult to compare the performance of these systems as they were evaluated using in part non-public Web tables data as well as different knowledge bases. The T2D Gold Standard tries to fill this gap by providing a large set of human-generated correspondences between a public Web table corpus and the DBpedia knowledge base. </p>
+<p>T2D Gold Standard contains schema-level correspondences  between 1748 Web tables from the <a href="http://webdatacommons.org/webtables/englishTables.html">English-language subset</a> of the <a href="http://webdatacommons.org/webtables/">Web Data Commons Web Tables Corpus</a> and <a href="http://wiki.dbpedia.org/Downloads2014">DBpedia Version 2014</a>. For 233 out of these tables, all rows have been manually mapped to entities in the DBpedia knowledge base which resulted in  26,124 entity-level correspondences). All correspondences were generated manually, which resulted in an overall effort of about 6 person weeks.</p>
+<p>The T2D Gold standard is provided under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache license</a> for public download below.</p>
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+
+<h2 id="overview">1.T2D Gold Standard Overview</h2>
+<p>
+The T2D gold standard was designed to fulfill the following requirements:
+<ol>
+  <li>the gold standard should contain a balanced sample with respect to the 
+    <ol>
+      <li>number of rows per table</li>
+      <li>topics covered</li>
+      <li>number of property mappings per table</li>
+      </ol>
+  </li>
+  <li>it should cover a realistic subset with characteristics similar to the whole web tables corpus</li>
+  <li>it should contain high precision correspondences (in case of ambiguous or fuzzy mappings, we decide to exclude it)</li>
+  </ol>
+<p>In order to address the requirements of having a gold standard that is as large as possible and having correspondences on instance-level (between rows in the web table and resources in DBpedia), the gold standard consists of two parts: </p>
+<ul>
+  <li><strong>The schema-level gold standard </strong>contains 1748 tables of which 762 can be mapped to DBpedia classes and 7983 columns which correspond to DBpedia properties.</li>
+  <li><strong>The entity-level gold standard</strong> contains 26124 row-to-entity correspondences covering all matchable rows in a subset of 233 tables from the schema-level gold standard. </li>
+</ul>
+The selection strategy for including Web tables into the gold standard was to first take a random sample from the complete Table corpus. 
+The majority of the tables in this sample could not be mapped to DBpedia or were even non-relational (i.e. layout tables) due to errors make by the <a href="http://webdatacommons.org/webtables/">table classifier</a>.
+However, these tables can be helpful to distinguish between tables that describe entities that exist in DBpedia  and tables for which an algorithm should detect that no rows can be mapped to DBpedia entities. 
+To increase the amount of actually mappable tables in the gold standard, we specifically searched the corpus for mappable tables (i.e. have at least some overlapping values). 
+For this task we used the <a href="http://searchjoins.webdatacommons.org/">Mannheim Search Joins Engine</a> with input tables from DBpedia covering different topics.
+
+<h2 id="statistics">2. Table Characteristics</h2>
+<p>The table below provides basic statistics about the size of the tables covered by the schema-level gold standard as well as the number of columns of each table that can be mapped to DBpedia properties.</p>
+<table >
+<tr><th>number of rows</th><th>no property mapping</th><th>1 property mapping</th><th>>1 property mapping</th><th>sum</th></tr>
+<tr><th><20</th><td>805</td><td>45</td><td>346</td><td>1196</td></tr>
+<tr><th><100</th><td>193</td><td>17</td><td>69</td><td>279</td></tr>
+<tr><th>>100</th><td>59</td><td>70</td><td>144</td><td>273</td></tr>
+<tr><th>sum</th><td>1057</td><td>132</td><td>559</td><td>1748</td></tr>
+</table>
+<p>
+With the largest amount of tables having less than 20 columns and no mapping to a DBpedia property at all, we address the representativeness requirement. 
+Thus, we try to cover a realistic scenario with a lot of non-matchable tables with only few rows. 
+Dividing the gold standard according to the two dimensions can also help to see for which tables a system performs well and where it can be improved.
+</p>
+<p>
+Concerning the matching task, we call a table a <i>content table</i> if it contains relational data and has at least one column (i.e. the "key column") that is mappable to DBpedia.
+In the complete gold standard, we have about 763 of these content tables. 
+They are usually larger than the other tables (Ø 206.87 rows, Ø 4.7 columns). 
+Since it is not useful to assign DBpedia classes or properties to non-content tables, only content tables are annotated with this information. 
+</p>
+<p>
+Altogether, the gold standard contains table-to-class correspondences for 91 different DBpedia classes which ensures a broad coverage of different topics. 
+We grouped these classes based on their super classes (called categories) and show the distribution of tables being mapped to each category in Figure 1. 
+All classes that only have the super class "Thing" are assigned to this category. 
+One example of such a class is the class "Drug". 
+Other classes can be consolidated to a category covering different but related classes, e.g. the category "Organization" contains tables about companies, universities political parties, airlines, schools etc.
+</p>
+
+<div style="width:1000px;">
+    <div id="headersDiv" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 1 - Distribution of mapped tables by topical category.</p>
+</div>
+
+<h2 id="column">3. Column Characteristics</h2>
+<p>
+IThe tables in the schema-level gold standard alltogether contain 7983 columns of which 4100 columns originate from content tables. 
+Since it is again useless to map a column in a layout table to a DBpedia property, we only create column-to-property correspondences for column of content tables. 
+This results in 2084 correspondences to DBpedia properties. 
+750 of these are correspondences from the key column to rdfs:label, the other ones are from non-key columns to properties of the DBpedia ontology namespace. 
+All the correspondences together cover 298 different properties.
+</p>
+<p>Figure 2 shows the top 20 properties (without rdfs:label).</p>
+<div style="width:720px;">
+    <div id="properties" style="width: 900px; height: 500px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 2 - Top 20 DBpedia properties</p>
+</div>
+<p>
+Only having columns of a certain data type could also bias the gold standard and encourage system that focus only on matching this data type. 
+Thus, we took almost the same column data type distribution as it is present in the whole corpus. 
+While the gold standard covers 65% columns of type string, the whole corpus has 68%, similar holds for the other data types. 
+</p>
+
+<p>Figure 3 shows the distribution of column data types.</p>
+<div style="width:720px;">
+    <div id="piechartDatatypesEn" style="width: 900px; height: 500px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 3 - Column Data Type Distribution</p>
+</div>
+</p>
+<p>
+Including columns with different data types shows the strengths and weaknesses of the  similarity functions employed by the matching systems/algorithms.
+</p>
+
+<h2 id="instance">4. Entity-Level Gold Standard</h2>
+<h4>
+A second version of the T2D Entity-Level Gold Standard (<a href="http://webdatacommons.org/webtables/goldstandardV2.html">T2Dv2</a>) is available.
+<h4>
+<p>
+The entity-level gold standard contains 233 tables that have been annotated with a table-to-class correspondence, column-to-property correspondences, and row-to-entity correspondences. 
+Again, we used the Mannheim Search Joins Engine to obtain tables that are likely to be content tables. 
+This subset of the schema-level gold standard covers 33 DBpedia classes and contains 26,124 row-to-entity correspondences. 
+In order to give an overview of the topics of the tables, we used the same categories as before.
+</p>
+<p>Figure 4 shows the distribution of tables per category.</p>
+<div style="width:1000px;">
+    <div id="instanceDiv" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 4 - Distribution of Tables per Category</p>
+</div>
+<p>
+The distribution of tables according to the categories does not seem to be very balanced. 
+This results from the fact that tables of different categories significantly differ in their amount of row-to-entity correspondences. 
+Having a look at the amount of correspondences per category (Figure 5), the difference becomes visible.
+</p>
+<div style="width:1000px;">
+    <div id="instanceAllDiv" style="width: 1000px; height: 470px;"></div>
+    <p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 5- Distribution of the Row-to-Entity Correspondences per Category.</p>
+</div>
+
+<p>The table below provides the average number of correspondences and mapped columns per category.<p>
+<table >
+<tr><th>Category</th>
+<th>avg. # of entity corresp.</th><th>avg. # of mapped columns</th><th>
+<tr><th>Work</th><td>131</td><td>3.2</td></tr>
+<tr><th>Organization</th><td>65</td><td>2.2</td></tr>
+<tr><th>Architectural Structure</th><td>67</td><td>2.3</td></tr>
+<tr><th>Person</th><td>89</td><td>1.5</td></tr>
+<tr><th>Species</th><td>250</td><td>2.4</td></tr>
+<tr><th>Natural Place</th><td>83</td><td>2.1</td></tr>
+<tr><th>Populated Place</th><td>130</td><td>4.1</td></tr>
+</table>
+<p>
+While tables of the category "Species" can be mapped to a lot of resources, tables about "Architectural Structure" have a tendency to contain less correspondences. 
+Similar holds for the number of mappings to properties, e.g. tables of the category "Populated Place" can on average be mapped to 4 properties while tables of the category "Person" only to 1.5 properties. 
+Besides other characteristics, these differences significantly influence the difficulty of matching a certain table. 
+Having a lot of column-to-property correspondences can help to find better row-to-entity correspondences since more property values are exploitable. 
+The same holds vice versa, with more correspondences to entities exist, the easier becomes the task of finding schem-level correspondences. 
+</p>
+<p>
+As result from the <a href="http://webdatacommons.org/webtables/#results-2015">WDC Web Table Extraction 2015</a>, we can extract context information for the tables used in the gold standard. Besides the page title, the text before and after the table, 47 timestamps before a table and 97 timestamps after a table have been identified. Further, for 7 tables we can find a caption of the table.
+</p>
+<h2 id="download">5. Data Format </h2>
+
+<p>
+The Web tables and the correspondences are provided as CSV files (except for tables with context information, see the <a href="http://webdatacommons.org/webtables/2015/downloadInstructions.html">download instructions</a>). Fields are separated by the comma (' , ') character and all values are double quoted (' " ').
+There are three different files types for the gold standard: the class correspondence files, the attribute correspondence files, and the entity correspondence files.
+In all files, tables are uniquely identified by their name, which is the  name of the file that contains the table without extension.
+The class file contains the class correspondences and the header information for each table. It has the following structure:
+</p>
+
+<table>
+<tr>
+<td>table name</td>
+<td>DBpedia class name</td>
+<td>DBpedia class URI</td>
+<td>Header row indices (comma-separated list)</td>
+</tr>
+</table>
+
+The attributes files contain the attribute correspondences and the key information for the tables. For each table, one attribute file with the same name exists. These files have the following structure:
+
+<table>
+<tr>
+<td>DBpedia property URI</td>
+<td>Column header (value from the first row)</td>
+<td>Is key column (boolean)</td>
+<td>Column index</td>
+</tr>
+</table>
+
+The entity files contain the entity correspondences for the tables. For each table, one entity file with the same name exists. These files have the following structure:
+
+<table>
+<tr>
+<td>DBpedia resource URI</td>
+<td>Key value</td>
+<td>Row index</td>
+</tr>
+</table>
+
+<h2>6. Download</h2>
+
+<p>To download the corpus of Web tables as well as the correspondences use the following links:</p>
+
+<table>
+<tr>
+<th>Gold Standard</th>
+<th>Tables</th>
+<th>Class Correspondences</th>
+<th>Attribute<br>
+  Correspondences</th>
+<th>Entity<br>
+  Correspondences</th>
+</tr>
+<tr>
+<td>Example tables / correspondences</td>
+<td><a href="sample_table.csv">sample_table.csv</a></td>
+<td><a href="sample_classes.csv">sample_classes.csv</a></td>
+<td><a href="sample_attributes.csv">sample_attributes.csv</a></td>
+<td><a href="sample_entities.csv">sample_entities.csv</a></td>
+</tr>
+<tr>
+<td>Complete gold standard</td>
+<td><a href="tables_complete.tar.gz">tables_complete.tar.gz</a></td>
+<td><a href="classes_complete.csv">classes_complete.csv</a></td>
+<td><a href="attributes_complete.tar.gz">attributes_complete.tar.gz</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Instance-level gold standard</td>
+<td><a href="tables_instance.tar.gz">tables_instance.tar.gz</a></td>
+<td><a href="classes_instance.csv">classes_instance.csv</a></td>
+<td><a href="attributes_instance.tar.gz">attributes_instance.tar.gz</a></td>
+<td><a href="entities_instance.tar.gz">entities_instance.tar.gz</a></td>
+</tr>
+<tr>
+<td>Instance-level goldstandard with context</td>
+<td><a href="tables_instance_context.tar.gz">tables_instance_context.tar.gz</a></td>
+</tr>
+<tr>
+<td>Extended Instance-level goldstandard containing negative examples</td>
+<td><a href="extended_instance_goldstandard.tar.gz">extended_instance_goldstandard.tar.gz</a></td>
+</tr>
+<tr>
+<td>Extended gold standard with manual fixes</td>
+<td><a href="extended_instance_goldstandard.tar.gz">extendedv2.tar.gz</a></td>
+</tr>
+<tr>
+<td>DBpedia subset</td>
+<td><a href="http://data.dws.informatik.uni-mannheim.de/webtables/dbpedia_subset.tar.gz">dbpedia_subset.tar.gz</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<h2 id="license">7. License</h2>
+<p>The correspondences of the T2D Gold standard is provided under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache license</a>. The Web tables are provided according the same <a href="http://commoncrawl.org/about/terms-of-use/full-terms-of-use/">terms of use, disclaimer of warranties and limitation of liabilities</a> that apply to the Common Crawl corpus. The DBpedia subset is licensed under the terms of the <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" title="externer Verweis">Creative Commons Attribution-ShareAlike License</a> and the <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License" title="externer Verweis">GNU Free Documentation License</a> that applies to DBpedia.</p>
+
+<h2 id="acknowledgments">6. Acknowledgements</h2>
+
+<p>We would like to thank Oktie Hassanzadeh, Mariano Rodriguez, Kavitha Srinivas and Michael J. Ward for their feedback on our gold standard.</p>
+
+<h2 id="feedback">8. Feedback</h2>
+<p>Please send questions and feedback to directly to the authors (listed above) or  post them in the <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web Data Commons Google Group</a>.<br/>
+</p>
+
+<h2 id="othercorpera">9. References</h2>
+<ol>
+<li>[<a name="Cafarella2008">Cafarella2008</a>] Michael J. Cafarella, Eugene Wu, Alon Halevy, Yang Zhang, Daisy Zhe Wang: <a href='http://dl.acm.org/citation.cfm?id=1453916'>WebTables: exploring the power of tables on the web.</a> VLDB 2008.</li>
+<li>[<a name="Crestan2011">Crestan2011</a>] Eric Crestan and Patrick Pantel: <a href="http://dl.acm.org/citation.cfm?id=1935904">Web-scale table census and classification.</a> WSDM 2011.</li>
+<li>[<a name="Cafarella2009">Cafarella2009</a>] Michael J. Cafarella, Alon Halevy, and Nodira Khoussainova: <a href="http://dl.acm.org/citation.cfm?id=1687750">Data integration for the relational web.</a> Proc. VLDB Endow. 2009. </li>
+<li>[<a name="Venetis2010">Venetis2010</a>] Venetis, Petros, Alon Halevy, Jayant Madhavan, Marius Pasca, Warren Shen, Fei Wu, Gengxin Miao, and Chung Wu: <a href="http://grafia.cs.ucsb.edu/gengxin/pdf/tables.pdf">Table Search Using Recovered Semantics.</a> 2010. </li>
+<li>[<a name="Limaye2010">Limaye 2010</a>] Girija Limaye, Sunita Sarawagi, and Soumen Chakrabarti: <a href="http://dl.acm.org/citation.cfm?id=1920841.1921005&coll=DL&dl=GUIDE&CFID=489610762&CFTOKEN=92550669">Annotating and searching web tables using entities, types and relationships</a>. <em>Proc. VLDB Endow.</em> 3, 1-2, 2010.</li>
+<li>[<a name="Zhang2013">Zhang2013</a>] Zhang, Xiaolu, et al.: <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-37450-0_8">Mapping entity-attribute web tables to web-scale knowledge bases.</a> In: Database Systems for Advanced Applications. Springer, 2013.</li>
+<li>[<a name="Wang2012">Wang2012</a>] Jingjing Wang, Haixun Wang, Zhongyuan Wang, and Kenny Q. Zhu: <a href="http://dl.acm.org/citation.cfm?id=2427537">Understanding tables on the web.</a> In Proceedings of the 31st international conference on Conceptual Modeling (ER'12), 2012.</li>
+<li>[<a name ="Ellis2014">Ellis2014</a>]Jason Ellis, Achille Fokoue, Okite Hassanzadeh, Anastasios Kementsietsidis, Kavitha Srinivas, Michael J. Ward:<a href="http://doi.acm.org/10.1145/2737817.2737829">Exploring Big Data with Helix: Finding Needles in a Big Haystack.</a> In ACM SIGMOD Record, Volume 43 Issue 4, 2014.</li> 
+<li>[<a name ="Zhang2014">Zhang2014</a>]Ziqi Zhang:<a href="http://link.springer.com/chapter/10.1007%2F978-3-319-11964-9_31">Towards efficient and effective semantic table interpretation.</a> In Proceedings of the 13th International Semantic Web Conference (ISWC 2014), 2014.</li>
+</ol>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+
+</body></html>

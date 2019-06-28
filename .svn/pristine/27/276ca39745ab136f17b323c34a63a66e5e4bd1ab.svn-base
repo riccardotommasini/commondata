@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="feed">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/feed/feed.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

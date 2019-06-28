@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+
+<property>
+  <name>wdc.outputPath</name>
+  <value>/user/nutch/</value>
+  <description> Where to store the extraction result
+  </description>
+</property>
+<property>
+ <name>wdc.evilNamespaces</name>
+  <value>http://vocab.sindice.net/any23#,http://www.w3.org/1999/xhtml/vocab#</value>
+  <description>Exclude namesspaces which cause title and css links to be included as triples.</description>
+</property>
+<property>
+ <name>wdc.noEvilNamespaces</name>
+  <value>http://vocab.sindice.net/any23#hrecipe/</value>
+  <description>Allow namespaces which are subsets of evilNamespaces to be included.</description>
+</property>
+<property>
+  <name>wdc.extractors.contain.RDFaExtractor</name>
+  <value>true</value>
+  <description>Toggle RDFaExtractor</description>
+</property>
+<property>
+ <name>wdc.extractors.contain.RDFa11Extractor</name>
+  <value>false</value>
+  <description>Toggle RDFa11Extractor</description>
+</property>
+<property>
+ <name>wdc.extractors.contain.MicrodataExtractor</name>
+  <value>true</value>
+  <description>Toggle MicrodataExtractor</description>
+</property>
+<property>
+ <name>wdc.extractors.contain.GeoExtractor</name>
+  <value>false</value>
+  <description>Toggle GeoExtractor</description>
+</property>
+</configuration>

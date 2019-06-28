@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><head><title>Web Data Commons - Extraction Feb 2012</title>
+<link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://raw.github.com/jgallen23/toc/master/dist/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<div id="header">
+<h1 style="font-size: 250%;">Web Data Commons - Extraction Feb 2012</h1>
+</div>
+
+<p>
+This page contains shows the results of the pre-released 2012 corpus which was published by Common Crawl in February. The pages contained in the pre-release are a subset of the pages contained in the August 2012 Common Crawl Corpus. We also extracted the structured data from this pre-release. The resulting of the complete 2012 corpus can be found <a href="../2012-08/stats/stats.html">here</a>.
+</p>
+<br/>
+<p>
+The February 2012 Common Crawl Corpus is part of the August 2012 Common Crawl Corpus and is no longer available as separate download.
+</p>
+<h4>Extraction Statistics</h4>
+<br />
+
+<table><tbody><tr><th>Crawl Date</th><td>Feb 2012</td><td></td></tr>
+<tr><th>Total Data</th><td>20.9 Terabyte</td><td>(compressed)</td></tr>
+<tr><th>Total URLs</th><td>1,700,611,442</td><td></td></tr>
+<tr><th>Parsed HTML URLs</th><td>1,486,186,868</td><td></td></tr>
+<tr><th>Domains with Triples</th><td>65,408,946</td><td></td></tr>
+<tr><th>URLs with Triples</th><td>188.821.015</td><td></td></tr>
+<tr><th>Typed Entities</th><td>1,222,563,749</td><td></td></tr>
+<tr><th>Triples</th><td>3,294,248,652</td><td></td></tr></tbody></table>
+
+<h4>Format Breakdown</h4><br />
+<img src="https://chart.googleapis.com/chart?chtt=Domains%20with%20Triples&amp;chs=500x300&amp;chds=a&amp;cht=p&amp;chd=t:16976232,3952674,897080,629319,30417192,69569,9890,615681,4109,127381,11709819&amp;chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" alt="">
+
+<img src="https://chart.googleapis.com/chart?chtt=URLs%20with%20Triples&amp;chs=500x300&amp;chds=a&amp;cht=p&amp;chd=t:67901246,26929865,2491933,1506379,61360686,197027,20762,1971870,14033,422289,26004925&amp;chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" alt="">
+
+<ul>
+<li><a href="stats/stats.html">Detailed Statistics for the February 2012 corpus (HTML)</a></li>
+<li><a href="downloads/2012-02/stats/pages.csv.gz">Raw Extraction Statistics (compressed CSV, 12.1 GB)</a> (<a href="#statinfo">Format Documentation</a>)</li>
+<li><a href="stats/how_to_get_the_data.html">Download Instructions to access the Data</a></li>
+<li><a href="stats/format_development.html">Statistics about Format Development between the Feb 2012 and the 2009/2010 crawl</a></li>
+</ul>
+
+<h4>Extraction Costs</h4>
+<p>
+The costs for parsing the 20.9 Terabytes of compressed input data of the Feburary 2012 Common Crawl corpus, extracting the RDF data and storing the extracted data on S3 totaled 523 EUR (excluding VAT) in Amazon EC2 fees. We used 100 spot instances of type <code>c1.xlarge</code> for the extraction which altogether required 3,007 machine hours.
+</p>
+</body>
+</html> 

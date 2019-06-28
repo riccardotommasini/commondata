@@ -1,0 +1,1074 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it"
+      lang="it-it">
+
+  
+    
+    
+    
+    
+    
+    
+
+  
+
+  <head>
+
+    <meta http-equiv="Content-Type"
+          content="text/html;charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <!-- Internet Explorer fix, forces IE8 into newest possible rendering
+         engine even if it's on an intranet. This has to be defined before any
+         script/style tags. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    
+      <base href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    <link rel="kss-base-url" href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1" />
+
+  
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.arcidiocesibaribitonto.it/portal_javascripts/Diocesi%20Skin/jquery-cachekey5991.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.arcidiocesibaribitonto.it/portal_javascripts/Diocesi%20Skin/resourcebase2-dom-fp-cachekey0176.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.arcidiocesibaribitonto.it/portal_javascripts/Diocesi%20Skin/maps-config-cachekey2100.js">
+      </script>
+    
+    
+    
+  
+
+  
+    
+    
+      <script type="text/javascript"
+              src="http://www.arcidiocesibaribitonto.it/portal_javascripts/Diocesi%20Skin/jquery.tools.min-cachekey6008.js">
+      </script>
+    
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.arcidiocesibaribitonto.it/portal_css/Diocesi%20Skin/base-cachekey3365.css);</style>
+    
+    
+    
+  
+
+  
+    
+    
+    
+      <style type="text/css">@import url(http://www.arcidiocesibaribitonto.it/portal_css/Diocesi%20Skin/maps-cachekey5500.css);</style>
+    
+    
+    
+  
+
+
+  
+  <link rel="kinetic-stylesheet" type="text/css"
+        href="http://www.arcidiocesibaribitonto.it/portal_kss/Diocesi%20Skin/at-cachekey9709.kss" />
+
+
+<title>Santissimo Sacramento &mdash; Arcidiocesi di Bari - Bitonto</title>
+
+    <!-- IE6 workaround CSS/JS  -->
+    <!--[if lte IE 7]>
+        <style type="text/css" media="all">@import url(http://www.arcidiocesibaribitonto.it/IEFixes.css);</style>
+        
+        <script type="text/javascript"
+                src="http://www.arcidiocesibaribitonto.it/iefixes.js">
+        </script>
+    <![endif]-->
+
+    <meta content="Parrocchia in Bitonto" name="description" />
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="http://www.arcidiocesibaribitonto.it/favicon.ico" />
+
+
+
+    <link rel="home"
+          href="http://www.arcidiocesibaribitonto.it"
+          title="Pagina principale" />
+
+    <link rel="contents"
+          href="http://www.arcidiocesibaribitonto.it/sitemap"
+          title="Mappa del sito" />
+
+
+
+
+
+
+    <link rel="search"
+          href="http://www.arcidiocesibaribitonto.it/search_form"
+          title="Search this site" />
+
+
+
+    <!-- Disable IE6 image toolbar -->
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+  </head>
+
+  <body class="section-luoghi-di-culto template-view"
+        dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+<p class="hiddenStructure">
+  <a accesskey="2"
+     href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1#documentContent">Vai ai contenuti.</a> |
+
+  <a accesskey="6"
+     href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1#portlet-navigation-tree">Spostati sulla navigazione</a>
+</p>
+
+<div id="portal-searchbox">
+    <form name="searchform"
+          action="http://www.arcidiocesibaribitonto.it/search">
+
+        <label for="searchGadget" class="hiddenStructure">Cerca nel sito</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18"
+               title="Cerca nel sito" accesskey="4"
+               class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit"
+               value="Cerca" />
+    
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only"
+                   class="noborder" type="checkbox"
+                   name="path"
+                   value="/sito/luoghi-di-culto/santissimo-sacramento-1" />
+            <label for="searchbox_currentfolder_only"
+                   style="cursor: pointer">solo nella sezione corrente</label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.arcidiocesibaribitonto.it/search_form"
+           accesskey="5">Ricerca avanzata…</a>
+    </div>
+
+</div>
+
+<a id="portal-logo" accesskey="1"
+   href="http://www.arcidiocesibaribitonto.it">
+    <img src="http://www.arcidiocesibaribitonto.it/logo.jpg" alt="" title="" height="100" width="624" /></a>
+
+
+    <h5 class="hiddenStructure">Sezioni</h5>
+
+    <ul id="portal-globalnav">
+        <li id="portaltab-arcivescovo" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/arcivescovo"
+    title="">Arcivescovo</a></li>
+        <li id="portaltab-curia" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/curia"
+    title="">Curia</a></li>
+        <li id="portaltab-diocesi" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/diocesi"
+    title="">Diocesi</a></li>
+        <li id="portaltab-clero" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/clero"
+    title="">Clero</a></li>
+        <li id="portaltab-luoghi-di-culto" class="selected"><a
+    href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto"
+    title="">Luoghi di culto</a></li>
+        <li id="portaltab-pubblicazioni" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/pubblicazioni"
+    title="">Pubblicazioni</a></li>
+        <li id="portaltab-vita-consacrata" class="plain"><a
+    href="http://www.arcidiocesibaribitonto.it/vita-consacrata"
+    title="">Vita Consacrata</a></li>
+    </ul>
+
+</div>
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">Tu sei qui:</span>
+    <a href="http://www.arcidiocesibaribitonto.it">Portale</a>
+    <span class="breadcrumbSeparator">
+        &rarr;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto">Luoghi di culto</a>
+            <span class="breadcrumbSeparator">
+                &rarr;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>Santissimo Sacramento</span>
+         
+    </span>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+            <td id="portal-column-one">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a6c756f676f646963756c746f0a6d6170732d706f72746c6574"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a6c756f676f646963756c746f0a6d6170732d706f72746c6574">
+<dl class="portlet portletRedturtleMapsPortlet">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        Location
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd">
+                
+        <div class="googleMapView googleMapLocation">
+          <dl>
+        
+          <dt class="title">
+            <img src="http://www.arcidiocesibaribitonto.it/marker-yellow.png" alt="Yellow Marker" width="20" height="34" class="marker" />
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1">Santissimo Sacramento</a>
+          </dt>
+          <dd class="tab" title="Descrizione">
+            <div>Parrocchia in Bitonto</div>
+          </dd>
+          <dd class="geo">
+            <span class="latitude">41.1107485</span>
+            <span class="longitude">16.7011767</span>
+          </dd>
+          
+          
+        
+        </dl>          
+        </div>
+            &nbsp; 
+    </dd>
+
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a6c756f676f646963756c746f0a6e617669676174696f6e"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a6c756f676f646963756c746f0a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1/sitemap"
+           class="tile">Navigazione</a>
+       
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker">
+
+    
+
+      <div>
+
+        <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1/storia"
+           class="state-published" title="">
+            
+            <span>Storia</span>
+        </a>
+        
+    </div>
+
+    
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a6c756f676f646963756c746f0a6c756f6768692d6369747461"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a6c756f676f646963756c746f0a6c756f6768692d6369747461"><div>
+<dl class="portlet portletLuoghi"> 
+    <dt class="portletHeader"> 
+        <span class="portletTopLeft"></span> 
+        Nella stessa citt&agrave;... 
+        <span class="portletTopRight"></span> 
+    </dt>
+    
+        <dd class="portletItem odd">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/cristo-re-universale"
+               title="Cristo Re Universale"> 
+                Cristo Re Universale
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem even">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/maria-santissima-assunta-concattedrale"
+               title="Maria Santissima Assunta (Concattedrale)"> 
+                Maria Santissima Assunta (Concattedrale)
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem odd">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/san-giovanni-evangelista"
+               title="San Giovanni Evangelista"> 
+                San Giovanni Evangelista
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem even">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/san-leone-magno"
+               title="San Leone Magno"> 
+                San Leone Magno
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem odd">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/san-leucio"
+               title="San Leucio"> 
+                San Leucio
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem even">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/san-silvestro-papa"
+               title="San Silvestro papa"> 
+                San Silvestro papa
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem odd">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santandrea-apostolo"
+               title="Sant'Andrea apostolo"> 
+                Sant'Andrea apostolo
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem even">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santegidio-abate"
+               title="Sant'Egidio abate"> 
+                Sant'Egidio abate
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem odd">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santa-caterina-vergine-e-martire"
+               title="Santa Caterina vergine e martire"> 
+                Santa Caterina vergine e martire
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem even">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santi-medici-cosma-e-damiano"
+               title="Santi Medici Cosma e Damiano"> 
+                Santi Medici Cosma e Damiano
+            </a> 
+        </dd> 
+    
+    
+        <dd class="portletItem odd">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santuario-santi-medici-cosma-e-damiano"
+               title="Santuario Santi Medici Cosma e Damiano"> 
+                Santuario Santi Medici Cosma e Damiano
+            </a> 
+        </dd> 
+     
+    <dd class="portletFooter"> 
+        <span class="portletBottomLeft"></span>
+        <a href="../vicaria?vicaria=Vicariato Episcopale Territoriale Bitonto-Palo"> I luoghi di culto della Vicariato Episcopale Territoriale Bitonto-Palo</a>
+        <span class="portletBottomRight"></span> 
+    </dd> 
+</dl>
+</div>
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+
+            
+            <td id="portal-column-content">
+
+              
+                <div class="">
+
+                  
+
+
+                  <div id="region-content" class="documentContent">
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+                    
+                    <a name="documentContent"></a>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+                    
+                    <div id="viewlet-above-content">
+</div>
+
+                    
+                    <div id="content">
+                      
+                      
+      
+
+        
+
+          
+          
+          
+        
+        <h1 id="parent-fieldname-title"
+            class="documentFirstHeading">
+            Santissimo Sacramento
+        </h1>
+        
+        
+        
+    
+          
+
+
+
+        
+        <!-- CONTENT -->
+        <h4>Parrocchia in Bitonto</h4>
+        <img src="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1/image_big" alt="Santissimo Sacramento" title="Santissimo Sacramento" height="300" width="168" class="image-right" />
+        <p><span>Via Gen. F. Planelli</span><br />
+        <span>Vicariato Episcopale Territoriale Bitonto-Palo</span></p>
+        <p>
+            Consacrata il 02/12/2001
+        </p>
+        <p> Patrono/Festa esterna: Corpus Domini</p>
+        <p>
+            <b>Parroco</b>
+      
+
+        
+            
+
+            <a href="http://www.arcidiocesibaribitonto.it/clero/p.-natale-re"
+               class="clero">P. Natale Re</a>
+
+            
+
+            
+
+        
+
+        
+
+      
+    
+        </p>
+        <div>
+            <b>Vice parroco: </b>
+            
+      
+
+        
+
+        <ul>
+          
+          
+            
+              <li>
+                    
+                    <a href="http://www.arcidiocesibaribitonto.it/clero/p.-simone-panzeri"
+                       class="clero">P. Simone Panzeri</a>
+    
+                    
+    
+                    
+              </li>
+            
+          
+        </ul>
+
+      
+    
+        </div>
+        
+        
+        
+        <h2>Contatti</h2>
+        <p><b>Recapiti telefonici</b><br />
+            
+    
+      <span>0803748025</span><br />
+    
+        </p>
+        <p><br />
+            
+        <span class="" id="parent-fieldname-faxluogo">
+            
+        </span>
+    
+        </p>
+        <p><br />
+            
+        </p>
+        <p><b>Indirizzo di posta elettronica</b><br />
+            
+        <span class="" id="parent-fieldname-emailuogo">
+            sacramento@tin.it
+        </span>
+    
+        </p>
+        
+        <!-- END CONTENT -->        
+        
+            <div class="relatedItems">
+    
+        
+            
+        
+    
+</div>
+    
+            
+
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+    
+
+    <h5 class="hiddenStructure">Azioni sul documento</h5>
+
+    <ul>
+    
+        <li id="document-action-sendto">
+            <a href="http://www.arcidiocesibaribitonto.it/luoghi-di-culto/santissimo-sacramento-1/sendto_form"
+               title="">Spedisci</a>
+        </li>
+    
+    
+        <li id="document-action-print">
+            <a href="javascript:this.print();" title="">Stampa</a>
+        </li>
+    
+
+    </ul>
+    
+
+    
+
+</div>
+
+        
+      
+    
+                    </div>
+                    
+
+                    
+                    
+                      
+    
+
+
+
+
+                    
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                  </div>
+
+                </div>
+
+              
+            </td>
+            
+
+            
+            <td id="portal-column-two">
+              <div class="visualPadding">
+                
+                  
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7369746f0a6e657773"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7369746f0a6e657773"><dl class="portlet portletNews"
+    xmlns="http://www.w3.org/1999/xhtml">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.arcidiocesibaribitonto.it/news"
+           class="tile">Ultime notizie</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+    <dd class="portletItem odd">
+
+        <a href="http://www.arcidiocesibaribitonto.it/news/il-villaggio-giovani-alla-fiera-del-levante"
+           class="tile" title="">
+            
+            Il "Villaggio Giovani" alla Fiera del Levante
+            <span class="portletItemDetails">06/09/2010</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+
+        <a href="http://www.arcidiocesibaribitonto.it/news/credito-e-speranza-seminario-di-studi-a-bari"
+           class="tile"
+           title="Verso la Settimana Sociale dei Cattolici Italiani">
+            
+            "Credito è speranza", seminario di studi a Bari
+            <span class="portletItemDetails">04/09/2010</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+
+        <a href="http://www.arcidiocesibaribitonto.it/news/il-crocifisso-sorgente-e-modello-di-perdono"
+           class="tile" title="">
+            
+            Il Crocifisso sorgente e modello di perdono
+            <span class="portletItemDetails">30/08/2010</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+
+        <a href="http://www.arcidiocesibaribitonto.it/news/assemblea-diocesana"
+           class="tile" title="">
+            
+            Assemblea Diocesana
+            <span class="portletItemDetails">30/08/2010</span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+
+        <a href="http://www.arcidiocesibaribitonto.it/news/incontri-di-formazione-per-operatori-della-pastorale-missionaria"
+           class="tile" title="">
+            
+            Incontri di formazione per operatori della pastorale missionaria
+            <span class="portletItemDetails">30/08/2010</span>
+        </a>
+    </dd>
+    
+
+    <dd class="portletFooter">
+        <span class="portletBottomLeft"></span>
+        <a href="http://www.arcidiocesibaribitonto.it/news">Altre notizie…</a>
+        <span class="portletBottomRight"></span>
+    </dd>
+    
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7369746f0a6576656e7473"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7369746f0a6576656e7473"><dl class="portlet portletEvents"
+    xmlns="http://www.w3.org/1999/xhtml">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="http://www.arcidiocesibaribitonto.it/events"
+           class="tile">Prossimi eventi</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    
+    <dd class="portletItem odd">
+        <a href="http://www.arcidiocesibaribitonto.it/events/incontri-di-formazione-per-operatori-della-pastorale-missionaria-1"
+           class="tile" title="Presso la Casa del Clero">
+            
+            Incontri di formazione per operatori della pastorale missionaria
+            <span class="portletItemDetails">
+                
+                    Casa del Clero - Bari, <br />
+                
+                09/09/2010
+            </span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.arcidiocesibaribitonto.it/events/event.2010-07-27.9367438854"
+           class="tile" title="S. Messa">
+            
+            Agenda dell'Arcivescovo
+            <span class="portletItemDetails">
+                
+                    Parrocchia S. Pio X - Bari, <br />
+                
+                09/09/2010
+            </span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.arcidiocesibaribitonto.it/events/event.2010-07-27.0757679175"
+           class="tile" title="Convegno">
+            
+            Agenda dell'Arcivescovo
+            <span class="portletItemDetails">
+                
+                    Palazzo Ateneo, Salone degli Affreschi - Bari, <br />
+                
+                10/09/2010
+            </span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem even">
+        <a href="http://www.arcidiocesibaribitonto.it/events/incontri-di-formazione-per-operatori-della-pastorale-missionaria-2"
+           class="tile" title="Presso la Casa del Clero">
+            
+            Incontri di formazione per operatori della pastorale missionaria
+            <span class="portletItemDetails">
+                
+                    Casa del Clero - Bari, <br />
+                
+                10/09/2010
+            </span>
+        </a>
+    </dd>
+    
+    
+    <dd class="portletItem odd">
+        <a href="http://www.arcidiocesibaribitonto.it/events/event.2010-07-28.2807661650"
+           class="tile"
+           title="Inaugurazione Fiera del Levante">
+            
+            Agenda dell'Arcivescovo
+            <span class="portletItemDetails">
+                
+                    Fiera del Levante - Bari, <br />
+                
+                11/09/2010
+            </span>
+        </a>
+    </dd>
+    
+
+    <dd class="portletFooter">
+        <a href="http://www.arcidiocesibaribitonto.it/events/aggregator/previous"
+           class="tile">
+            <span>Eventi precedenti…</span>
+        </a>
+    </dd>
+
+    <dd class="portletFooter">
+        <a href="http://www.arcidiocesibaribitonto.it/events"
+           class="tile">Prossimi eventi…</a>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+</div>
+
+<div id="portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7369746f0a63616c656e646172"
+     class="portletWrapper kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f7369746f0a63616c656e646172"><dl class="portlet portletCalendar"
+    xmlns="http://www.w3.org/1999/xhtml">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="?month:int=8&amp;year:int=2010&amp;orig_query="
+           rel="nofollow" title="Mese precedente"
+           id="calendar-previous"
+           class="kssCalendarChange kssattr-year-2010 kssattr-month-8 calendarPrevious">&laquo;</a>
+
+        settembre 2010
+
+        <a href="?month:int=10&amp;year:int=2010&amp;orig_query="
+           rel="nofollow" title="Mese successivo"
+           id="calendar-next"
+           class="kssCalendarChange kssattr-year-2010 kssattr-month-10 calendarNext">&raquo;</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem">
+        <table class="ploneCalendar" summary="Calendario">
+            <caption class="hiddenStructure">settembre</caption>
+            <thead>
+                <tr class="weekdays"><th scope="col">lu</th><th
+    scope="col">ma</th><th scope="col">me</th><th
+    scope="col">gi</th><th scope="col">ve</th><th
+    scope="col">sa</th><th scope="col">do</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-4+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-4+00%3A00%3A00&amp;end.range:record=min"
+                             title="04/09/2010
+19:00-20:00 Agenda dell'Arcivescovo">4</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-5+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-5+00%3A00%3A00&amp;end.range:record=min"
+                             title="05/09/2010
+11:00-12:00 Agenda dell'Arcivescovo">5</a></strong></td>
+                </tr>
+                <tr><td>6</td><td class="event"><strong><a
+    href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-7+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-7+00%3A00%3A00&amp;end.range:record=min"
+    title="07/09/2010
+17:30-19:00 Riapertura della Cappella “Corpus Domini”
+17:30-19:00 Agenda dell'Arcivescovo">7</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-8+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-8+00%3A00%3A00&amp;end.range:record=min"
+                             title="08/09/2010
+10:30-12:30 Conferenza Stampa di Presentazione del &quot;Villaggio Giovani&quot;
+16:30-18:00 Incontri di formazione per operatori della pastorale missionaria
+19:00-20:00 Agenda dell'Arcivescovo">8</a></strong></td><td
+    class="todayevent"><strong><a
+    href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-9+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-9+00%3A00%3A00&amp;end.range:record=min"
+    title="09/09/2010
+16:30-18:00 Incontri di formazione per operatori della pastorale missionaria
+18:30-19:30 Agenda dell'Arcivescovo">9</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-10+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-10+00%3A00%3A00&amp;end.range:record=min"
+                             title="10/09/2010
+09:30-12:30 Agenda dell'Arcivescovo
+16:30-18:00 Incontri di formazione per operatori della pastorale missionaria">10</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-11+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-11+00%3A00%3A00&amp;end.range:record=min"
+                             title="11/09/2010
+10:00-12:00 Agenda dell'Arcivescovo
+19:00-20:00 Agenda dell'Arcivescovo">11</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-12+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-12+00%3A00%3A00&amp;end.range:record=min"
+                             title="12/09/2010
+19:00-20:00 Agenda dell'Arcivescovo
+19:00-20:00 Trigesimo di don Vito Rescina">12</a></strong></td>
+                </tr>
+                <tr><td class="event"><strong><a
+    href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-13+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-13+00%3A00%3A00&amp;end.range:record=min"
+    title="13/09/2010
+19:30-21:30 Il Crocifisso sorgente e modello di perdono">13</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-14+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-14+00%3A00%3A00&amp;end.range:record=min"
+                             title="14/09/2010
+19:00-20:00 Agenda dell'Arcivescovo
+19:30-21:00 Incontro responsabili gruppi giovanili">14</a></strong></td><td>15</td><td>16</td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-17+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-17+00%3A00%3A00&amp;end.range:record=min"
+                             title="17/09/2010
+18:00-21:00 Agenda dell'Arcivescovo
+18:00-21:00 Assemblea Diocesana">17</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-18+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-18+00%3A00%3A00&amp;end.range:record=min"
+                             title="18/09/2010
+09:00-13:00 Convegno di Studi Chiesa e Mezzogiorno
+09:00-12:00 Agenda dell'Arcivescovo">18</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-19+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-19+00%3A00%3A00&amp;end.range:record=min"
+                             title="19/09/2010
+10:30-11:30 Agenda dell'Arcivescovo
+19:00-21:00 Agenda dell'Arcivescovo">19</a></strong></td>
+                </tr>
+                <tr><td>20</td><td class="event"><strong><a
+    href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-21+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-21+00%3A00%3A00&amp;end.range:record=min"
+    title="21/09/2010
+11:00-12:30 Agenda dell'Arcivescovo
+17:30-19:30 Consulta Pastorale della Salute">21</a></strong></td><td>22</td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-23+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-23+00%3A00%3A00&amp;end.range:record=min"
+                             title="23/09/2010
+17:00-20:00 Incontro dei Diaconi permanenti">23</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-24+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-24+00%3A00%3A00&amp;end.range:record=min"
+                             title="24/09/2010
+09:30-14:00 Cenacolo UAC">24</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-25+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-25+00%3A00%3A00&amp;end.range:record=min"
+                             title="25/09/2010
+18:00-20:00 Agenda dell'Arcivescovo">25</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-26+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-26+00%3A00%3A00&amp;end.range:record=min"
+                             title="26/09/2010
+18:30-20:00 Agenda dell'Arcivescovo">26</a></strong></td>
+                </tr>
+                <tr><td class="event"><strong><a
+    href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-27+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-27+00%3A00%3A00&amp;end.range:record=min"
+    title="27/09/2010
+00:00 - Agenda dell'Arcivescovo
+18:00-20:30 Scuola per i candidati al diaconato
+18:30-20:30 Incontri di formazione per catechisti e lettori">27</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-28+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-28+00%3A00%3A00&amp;end.range:record=min"
+                             title="28/09/2010
+Agenda dell'Arcivescovo
+18:30-20:30 Incontri di formazione per catechisti e lettori
+20:00-21:00 Monastero S. Giuseppe">28</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-29+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-29+00%3A00%3A00&amp;end.range:record=min"
+                             title="29/09/2010
+Agenda dell'Arcivescovo - 23:59
+18:30-20:30 Incontri di formazione per catechisti e lettori">29</a></strong></td><td
+    class="event"><strong><a href="http://www.arcidiocesibaribitonto.it/search?review_state=published&amp;amp;start.query:record:list:date=2010-9-30+23%3A59%3A59&amp;start.range:record=max&amp;end.query:record:list:date=2010-9-30+00%3A00%3A00&amp;end.range:record=min"
+                             title="30/09/2010
+00:00 - Agenda dell'Arcivescovo
+18:30-20:30 Incontri di formazione per catechisti e lettori">30</a></strong></td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+</div>
+
+
+
+
+                
+                &nbsp;
+              </div>
+            </td>
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+      
+      
+
+      
+
+        <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11819317-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Strumenti personali</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+   
+
+    
+        <li>
+            <a href="http://www.arcidiocesibaribitonto.it/login_form">Fatti riconoscere</a>
+        </li>
+    
+
+</ul>
+</div>
+
+<div id="portal-footer">
+    Arcidiocesi di Bari-Bitonto, C.F. 93026440722, Direttore responsabile: <a
+    href="http://www.arcidiocesibaribitonto.it/clero/carlo-cinquepalmi">sac. Carlo Cinquepalmi</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+    href="http://www.arcidiocesibaribitonto.it/contattaci">Contatti</a>
+</div>
+
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<div id="kss-spinner"><img alt=""
+                           src="http://www.arcidiocesibaribitonto.it/spinner.gif" /></div>
+</body>
+</html>
+
+

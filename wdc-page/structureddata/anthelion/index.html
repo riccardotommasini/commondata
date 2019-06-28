@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html><head><title>Anthelion - Crawling for Structured Data</title>
+<link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body> 
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="/images/ma-logo.gif" alt="University of Mannheim - Logo"></a>&nbsp;&nbsp;&nbsp;<a href="http://labs.yahoo.com/location/barcelona/"><img src="http://l.yimg.com/rz/d/yahoo_labs_en-US_s_f_p_bestfit_labs_2x.png" alt="Yaho! Labs Barcelona, Spain"></a>&nbsp;&nbsp;<br></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">Anthelion</h1>
+</div>
+
+<div id="tagline">Focused Crawling for Structured Data</div>
+
+<div id="authors">
+<a href="http://robert.dwslab.de">Robert Meusel</a><br />
+<a href="">Peter Mika</a><br/>
+<a href="">Roi Blanco</a><br/>
+</div>
+
+<div id="content">
+
+<p>
+The Web is rapidly transforming from a pure document collection to the largest connected public data space. Semantic annotations of web pages make it notably easier to extract and reuse data and are increasingly used by both search engines and social media sites to provide better search experiences through rich snippets, faceted search, task completion etc. On this page, we present the results of our study of the novel problem of crawling structured data embedded inside HTML pages. We describe <b>Anthelion</b>, the first focused crawler addressing this task. We propose new methods of focused crawling specifically designed for collecting data-rich pages with greater efficiency. In particular, we propose a novel combination of <b>online learning</b> and <b>bandit-based explore/exploit</b> approaches to predict data-rich web pages based on the context of the page as well as using feedback from the extraction of metadata from previously seen pages. We show that these techniques significantly outperform  state-of-the-art approaches for focused crawling, measured as the ratio of relevant pages and non-relevant pages collected within a given budget.
+</p>
+
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+
+<div id="toccontent">
+
+<h2 id="desc">1. Methodology</h2>
+<p>
+In the following, we are presenting the two general approaches to machine learning (online classification and bandit-based selection) that we adapt to the domain of focused crawling, and in particular to the task of collecting structured data from web pages.
+</p>
+<h3 id="onlineclassification">1.1. Online Classification</h3>
+<p>
+Crawling pages that embody markup data can be cast as a focused crawling task, as their general aim is to devise an algorithm to gather as quickly as possible  
+web pages relevant for a given objective function.
+Standard focused crawling approaches target pages that include information about a given topic, like sports, politics, events and so on.
+<br>
+Focused crawlers make use of topic specific seeds and operate by training a classifier that is able to predict
+whether a newly discovered web page (before downloading and parsing its content)
+is relevant for the given target or not. Thus, it is mandatory to 
+assemble a training set, find suitable topic seeds and learn a classifier <i>before</i> the crawling commences. 
+<br>
+On the other hand, online learning approaches adapt the underlying model used for classification
+on the fly with new labeled examples. In the case of a crawler this would be suitable provided that it is possible to automatically acquire a label for a web page as soon as the content of the crawled page has been parsed.
+This approach is appealing because not only it is not necessary to create 
+a training set in advanced but also the classifier adapts itself over time. 
+In the case of the Web, where the distribution of single features is hard to
+predict it might happen that, while discovering larger amounts of pages the actual distribution
+differs strongly from the one of the training set. This adaptability is useful to ensure
+suitable classification results.
+<br>
+In order to predict the relevance of an unseen newly discovered page it is necessary to 
+extract features which the classifier can take into account to make its prediction.
+We considered three major sources of features which are (partly) available for a web page
+before downloading and parsing it:
+<ul>
+
+	<li><b>the URL</b>, which can be handled using natural language processing (NLP) 
+	techniques to transform them into a feature vector.</li>
+	<li><b>information coming from the parents of a page</b>, whose content has been already downloaded and the
+	relevance for a given objective function is known.</li>
+	<li><b>information coming from the siblings of a page</b>, meaning other pages which were found on the parent page, 
+	and whose relevance for a given target might already been known.</li>
+</ul>
+We note that these sources of features may become gradually available during the crawling process. We will always know
+the URL of candidate pages, but we might not have discovered <i>every</i> parent of a page; furthermore, 
+information about siblings could not be available at all. 
+<br>
+There are several possibilities to extract features from the URL of a page. In general the URL is 
+split into tokens whenever there is a non alphanumeric character (punctuation, slashes and so on) and these tokens can be directly used as features of the page.
+In order to reduce the sparseness of the generated feature vectors, and potentially improve the accuracy of the classifier,
+it is possible to apply several pre-processing steps for the extracted tokens
+before finally transforming them into features.
+Among standard transformations, for example, we include removing tokens consisting of too few or too 
+many characters. Another technique consists in mapping different spellings of a given token into
+its normalized version, or replacing tokens only made up by numbers with one static token representing <i>any</i> number.
+<br>
+We also extract features from the parents and siblings of a page. These features are based on labels assigned to parent/sibling pages previously. 
+For example, we introduce as a feature the number of parents/siblings labeled with the target class, and a binary feature
+representing the existence of at least one parent or sibling labeled with the target class.
+</p>
+<h3 id="bandit">1.2. Bandit-Based Selection Approach</h3>
+<p>
+A bandit-based selection approach estimates the relevance of a group of items for a given target, and performs this selection based on the expected gain (or relevance) of the groups.
+The bandit operates as follows: at each round <i><b>t</b></i> we have a set of actions <i><b>A</b></i> (or <i>arms</i>), and we choose one of them <i><b>a(t)</i></b> from <i><b>A</b></i>; then, we observe a reward <i><b>r(a,t)</i></b>, and the goal is to find a policy for selecting actions such as the cumulative reward over time is maximized. The main idea is that the algorithm can improve its arm-selection strategy over time with every new observation. It is important to remark that the algorithm receives no feedback for unchosen arms.
+<br>
+An ideal bandit would like to maximize the expected reward. If we just want to maximize the immediate reward (exploitation) we need to choose an action where calculated possible reward is largest. However, in an exploration/exploitation setting we want to randomly select an action <i><b>a</b></i> according to its probability of being Bayes-optimal. (For more detailed information have a look at Section 3.2 within the <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-FocusedCrawlingForStructuredData-CIKM14.pdf">paper</a>).
+<br>
+In the case of our crawler, we will use our bandit-based approach to make a first selection of the host to be crawled. This is motivated by the observation that the decision to use structured data markup is performed at a host-level in most cases. Informally, we represent each host with a bandit that represents the value of all discovered pages belonging to this host. The available functions to calculate the score for a host and by this the estimated relevance for a target are diverse and described next. It is important to remark that selecting an arm (action) in this context would mean to select the host, which at a given point in time <i><b>t</b></i> has the highest expected value to include pages which are relevant for our target. Once we have selected the host, we follow by selecting a page from that host using the online classifier described above.
+<br>
+We have defined several scoring functions to estimate the expected gain of each bandit, which are also implemented within the tool:
+<ul>
+<li><b>Negative Absolute Bad</b> function, where the score of a host is the negative number of already crawled pages not belonging to the target class of this host.</li>
+<li><b>Best Score</b> function, where the score of a host is defined by the maximal confidence for the target class of one of its containing pages. This represents, when lambda is equal to 0 a pure online classification based selection appraoch.</li>
+<li><b>Success Rate</b> function, where the score of a host is defined by the ratio between the number of pages crawled, belonging to the target class and those not belonging to this class. The ratio is initialized with prior parameters alpha and beta which we set both to 1.</li>
+<li><b>Thompson Sampling</b> function, where the score of a host is defined as a random number, drawn from a beta-distribution with prior parameters alpha and beta. This function is based on the <i>K-armed Bernoulli bandit</i> approach introduced by Chapelle et al. in 2011.</li>
+<li><b>Absolute Good &middot; Best Score</b> function, where the score is the product of the absolute number of already crawled relevant pages and the <i>best score function</i>.</li>
+<li><b>Thompson Sampling &middot; Best Score</b> function, where the score is the product of the <i>thompson sampling function</i> and the <i>best score function</i>.</li>
+<li><b>Success Rate &middot; Best Score</b> function, where the score is the product of the <i>success rate function</i> and the i>best score function</i>.</li>
+</ul>
+</p>
+<h2 id="arch">2. System Architecture</h2>
+<p>
+We implemented our system as module to replace the selection strategy of an existing crawler. 
+The architecture is described in detail within section 4.1 within the <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-FocusedCrawlingForStructuredData-CIKM14.pdf">paper</a> presented at CIKM 2014. 
+<br>
+The following diagram illustrates the process flow of the system:
+<br>
+<br>
+<img src="image/anthelion_process.png">
+<br>
+The crawling process starts with a number of initial seed pages (0). 
+Then, the pages are pulled into the Sieve. Before adding each page into the corresponding host bin,
+the page is classified using the online classifier. In the online setting starts off with an empty model as no training data (pages) are available so far.
+Whenever needed the bandit selects one host based on the given score of the host and the set lambda (1).
+The selected host is inserted into the Queue. 
+For each host, the URL with the highest confidence for the target class is 
+selected and pushed into the Crawler (2). The reordered pages are now ready to be handled by other components of the crawler.
+After downloading (3) and parsing (4) the page, the newly found links are added into the Sieve after classification (5).
+In addition, the label of the crawled pages is returned as feedback to classifier which updates its classification model (6). 
+</p>
+<h2 id="code">3. Code and Data</h2>
+<p>
+For the experiments presented in our work <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-FocusedCrawlingForStructuredData-CIKM14.pdf">Focused Crawling for Structured Data</a> used the 2012 corpus of the Common Crawl foundation. For our experiments we crawled (within the Common Crawl Corpus) over 5 million pages, starting from seeds from <a href="http://www.dmoz.org/">the Open Directory Project</a>. The data files can be found <a href="http://data.dws.informatik.uni-mannheim.de/structureddata/anthelion/data/">here</a>. 
+The code which was used to perform the experiments, as well as a ready-to-run Apache Nutch plugin is provided within the open source project released in <a href="https://github.com/yahoo/anthelion">github</a> under Apache License 2.0. 
+</p>
+<!--
+<h2 id="lice">4. License</h2>
+-->
+<h2 id="refe">4. References</h2>
+<p>
+<ul>
+<li>Robert Meusel, Peter Mika, Roi Blanco: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-FocusedCrawlingForStructuredData-CIKM14.pdf">Focused Crawling for Structured Data</a>. in the proceedings of the 23th ACM International Conference on Information and Knowledge Management (CIKM'14)</li>
+</ul>
+</p>
+
+</div>
+
+</div>
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    }
+});
+</script>
+</body>
+</html> 

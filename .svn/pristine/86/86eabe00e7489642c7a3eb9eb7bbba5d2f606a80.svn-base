@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="parse-metatags2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/parse-metatags/parse-metatags.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

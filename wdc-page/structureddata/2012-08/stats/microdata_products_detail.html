@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html><head><meta name="robots" content="nofollow"/><title>Web Data Commons Microdata Product Classification - August 2012 Corpus</title><link rel='stylesheet' href='http://webdatacommons.org/style.css' type='text/css' media='screen'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://raw.github.com/jgallen23/toc/master/dist/jquery.toc.min.js"></script>
+
+
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data1 = new google.visualization.DataTable();
+        data1.addColumn('string', 'Product Category');
+        data1.addColumn('number', 'Number of Offers');
+        data1.addRows([
+          ['Books', 233439],
+          ['Movies, Music & Games', 186832],
+          ['Electronics & Computers', 219118],
+          ['Home, Garden & Tools', 186495],
+          ['Grocery, Health & Beauty', 120573],
+          ['Toys, Kids, Baby & Pets', 114263],
+          ['Clothing, Shoes & Jewelry', 206315],
+          ['Sports & Outdoors', 143156],
+          ['Automotive & Industrial', 168547],
+          ['Other Products', 407621]
+        ]);
+
+        // Set chart options
+        var options1 = {'title':'Number of Offers per Category',
+                       'width':720,
+                       'height':480,
+		       'colors': ['#e6693e'],
+		       'vAxis': {'minValue' :0, 'maxValue' :300000}};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart1 = new google.visualization.ColumnChart(document.getElementById('chart_div1'));
+        chart1.draw(data1, options1);
+
+
+        // Create the data table.
+        var data2 = new google.visualization.DataTable();
+        data2.addColumn('string', 'Product Category');
+        data2.addColumn('number', 'Number of Shops');
+        data2.addRows([
+          ['Books', 2974],
+          ['Movies, Music & Games', 1892],
+          ['Electronics & Computers', 2486],
+          ['Home, Garden & Tools', 2896],
+          ['Grocery, Health & Beauty', 2635],
+          ['Toys, Kids, Baby & Pets', 2200],
+          ['Clothing, Shoes & Jewelry', 2864],
+          ['Sports & Outdoors', 1877],
+          ['Automotive & Industrial', 1466]
+        ]);
+
+        // Set chart options
+        var options2 = {'title':'Number of Shops offering Products of a specific Category',
+                       'width':720,
+                       'height':480,
+		       'colors': ['#e6693e'],
+		       'vAxis': {'minValue' :0, 'maxValue' :3000}};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart2 = new google.visualization.ColumnChart(document.getElementById('chart_div2'));
+        chart2.draw(data2, options2);
+
+
+        // Create the data table.
+        var data3 = new google.visualization.DataTable();
+        data3.addColumn('string', 'Product Category');
+        data3.addColumn('number', 'Number of Shops');
+        data3.addRows([
+          ['1', 2279],
+          ['2', 1233],
+          ['3', 873],
+          ['4', 685],
+          ['5', 749],
+          ['6', 535],
+          ['7', 452],
+          ['8', 125],
+          ['9', 68]
+        ]);
+
+        // Set chart options
+        var options3 = {'title':'Number of Product Categories offered by individual Shops',
+                       'width':720,
+                       'height':480,
+		       'colors': ['#e6693e']};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart3 = new google.visualization.ColumnChart(document.getElementById('chart_div3'));
+        chart3.draw(data3, options3);
+	/*var rect = $('chart_div3').find(">:first-child").find(">:first-child").find(">:first-child").find(">:nth-child(2)");
+	rect.attr('height', '460');*/
+
+      }
+    </script>
+    <style>
+	
+		
+		@media all {
+			.container_chart { display: block; }
+			.page-break	{ display: none; }
+		}
+
+		@media print {
+			* { font-size: 95%; }
+			.container_chart { display: inline-block; }
+			.page-break	{ display: inline-block; page-break-after:always; }
+		}
+		
+    </style>
+
+</head>
+<body>
+<div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+<a name='top'></a><div id="header"><h1>Analysis of the Types of Products offered by 9240 E-Shops using Microdata Markup</h1></div>
+<div id="tagline">Web Data Commons Analysis Result</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/petar-petrovski">Petar Petrovski</a>, , <a href="http://dws.informatik.uni-mannheim.de">Research Group Data and Web Science</a><br />
+</div>
+
+
+<br />
+
+<div id="content">
+<p>Many e-Shops have started to markup the products that they are offering within their HTML pages using the Microdata markup format. Within this document, we analyze 1,986,359 product offers originating from 9240 different e-shops that use Microdata markup and classify the offers into the 9 main product categories of the Amazon product catalog. The offers are taken from the <a href="http://webdatacommons.org">Web Data Commons</a> data set that has been extracted from the <a href="stats.html">August 2012</a> version of the Common Crawl.</p>
+<p>
+In addition to the  <a href="additional_stats.html">basic statistics</a> about the microdata product descriptions, this document analyzes: </p>
+<ol>
+<li>The distribution of the offers over the 9 main product categories from Amazon.</li>
+<li>The number of e-shops offering products from a specific category.</li>
+<li>The number of product categories offered by individual e-shops.</li>
+</ol>
+<p>We first present the results of the analysis. Afterwards, we describe the <a href="#methodology">methodology</a> that was used for classifing the offers into the product categories.</p>
+
+
+<h2 id="results">1. Results</h2>
+
+<h3 id="results">1.1 Number of Offers per Product Category</h3>
+
+<p>Figure 1 shows the total number of offers per product category. The most offered product category is Books with 233439 products offered. Close second and third most offered product categories are 'Electronics & Computers' and 'Clothing, Shoes & Jewelry', with 219188 and 206315 products offered respectively. The least offered product category is 'Toys, Kids, Baby & Pets' with 114263. The mean of the product offers for the 9 categories is 175,415.</p>
+
+
+<div style="width:720px;">
+	<div id="chart_div1" class="container_chart"></div>
+	<p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 1 - Number of Offers per Product Category (including the generic catgegory Other Products)</p>
+</div>
+
+<h3 id="results">1.2 Number of e-Shops offering Products beloning to a specific Category</h3>
+
+<p>Figure 2 shows the number of e-shops offering products from a specific category. 'Books' is the most offered product category with 2974 e-shops. 'Automotive & Industrial' is the least offered product category with 1446 shops. The average number of e-shops per  product category is 2,365.
+</p>
+
+
+<div style="width:720px;">
+	<div id="chart_div2" class="container_chart"></div>
+	<p style="margin:20px auto 20px auto; font-weight:normal; text-align:center; width:500px;">Fig. 2 - Number of e-stores offering a certain class</p>
+</div>
+
+<h3 id="results">1.3 Number of Product Categories offered by individual Shops</h3>
+
+<p >Figure 3 shows the number of product categories offered by individual e-shops. The distribution is left-skewed with most shops offering only products from one to two product categories. This is to be expected because most of the e-stores are small companies specialized for a particular product category. 
+</p>
+<div style="width:720px;">
+	<div id="chart_div3" class="container_chart"></div>
+    
+<p style="margin:0 auto 0 auto; font-weight:normal; text-align:center; width:500px">Fig. 3 - Number of product categories offered by individual Shops.</p>
+</div><br /><br />
+
+
+<h2 id="methodology">2. Methodology</h2><br />
+
+<p>This section describes the methodology used for classifying the offers into the different product categories. The basic approach is to use product descriptions from Amazon to train and validate a classifier and to apply the classifier afterwards to the WebDataCommons data.</p>
+
+<h3>Microdata Vocabularies, Classes and Properties</h3>
+<p style="margin:20px 0 10px 0;">There are three main vocabularies with which products are marked up in Microdata: schema (http://schema.org/), data-voc (http://data-vocabulary.org/) and gr (http://purl.org/goodrelations/v1#). The main class for marking up products in schema and data-voc is "Product" with more than 95% percent usage, the other < 5% being marked up with the class "Offer" or "ProductService" in gr. As stated in <a href="additional_stats.html">additional statistic page</a> most frequent Microdata properties that are used to describe products are <i>title</i> and <i>description</i> with 86% and 61% presence respectively. All other more specific properties are used within less than 50% of the descriptions.
+</p>
+<h3>Dataset and Training Set</h3>
+<p style="margin:20px 0 40px 0;">
+As we only have <i>title</i> and <i>description</i>  property values for most offers, we needed to treat the task as a text classification problem and learn a classifier for these two properties. As a training set for our model we chose 18000 labeled products with titles and descriptions (Editorial review) from Amazon.com spread into 9 product categories. We filtered the WebDataCommons product descriptions to only contain English descriptions that are at least 20 words long in order to give the classifier a fair chance to determine the correct category. This reduced the overall number of offers contained in the WebDataCommons data set from  9,454,403 to 1,986,359 offers originating from 9240 e-shops. The data set used for the analysis is available for <a href="how_to_get_the_data.html">download</a> and can be used for further investigations.
+</p>
+
+<h3>Feature Generation</h3>
+<p style="margin:20px 0 10px 0;">The process of feature generation is a 4-step process that is based on generating a word vector from the documents (title + description) from our training set. The first step is tokenizing (by non-alpha characters) the text and removing stop words. The second step employed multiple pruning techniques in order to reduce the number of features. First we prune by the relative frequency of the terms in the documents, with a lower bound of 0.2% and a upper bound of 98%. In addition to the relative frequency pruning, weighted association analysis was computed in order to determine the terms association to a certain class. The computed weights served as a pruning bound if a certain term is only weakly associated with any class (the maximum weight given to a term is smaller than 0.2) or if a certain term is highly associated with multiple classes (the second highest weight is within 50% of the max weight assigned to a term). The third step is creating 1 to 4-grams out of the remaining terms. As a result we get ~3600 features for which the TF-IDF is computed as the last step. </p>
+
+<h3>Model-Training and Application</h3>
+<p style="margin:20px 0 10px 0;">The model we chose is the Naive Bayes classification model. This allows products to be labeled as non-matching against any of the 9 classes, which in turn allows better precision in classifying. The model was trained with the generated features (explained above). To improve the precision of the model two threshold functions were applied. First, a flat threshold of 0.15 was applied i.e. if a products highest probability given by the Naive Bayes model is lower than 0.15 the product was assigned to the 'Other Products' category. To determine the threshold value we simplified the problem to binomial classification (match or a non-match against a certain class) and compared the ROC curves. Furthermore, an analysis on the probabilities given for all the classes for a given product was conducted. The analysis determines if a the maximum probability for a given product is greater than the other probabilities with a margin big enough that maximizes the certainty of the prediction. This in turn is used as the second threshold for improving our models' precision. </p>
+
+
+<h3 id="crawl-relevance">Validation and Evaluation</h3><br />
+
+<p style="margin:0 0 20px 0;">
+To validate the model with 10-fold cross-validation against the training set (18000 labeled products from Amazon) using stratified sampling. The results of the cross-validation are found in Table 1.      
+</p>
+<div style="margin:0; padding:5px; width:450px;">
+<table>
+<tr><th>Categories</th><td>Precision %</td><td>Recall %</td></tr>
+<tr><th></th></tr>
+<tr><th>Books</th><td>86.58</td><td>87.95</td></tr>
+<tr><th>Movies, Music & Games</th><td>89.81</td><td>70.63</td></tr>
+<tr><th>Electronics & Computers</th><td>92.98</td><td>88.00</td></tr>
+<tr><th>Home, Garden & Tools</th><td>73.81</td><td>60.78</td></tr>
+<tr><th>Grocery, Health & Beauty</th><td>70.20</td><td>72.86</td></tr>
+<tr><th>Toys, Kids, Baby & Pets</th><td>75.00</td><td>64.85</td></tr>
+<tr><th>Clothing, Shoes & Jewelry</th><td>88.56</td><td>89.93</td></tr>
+<tr><th>Sports & Outdoors</th><td>72.83</td><td>67.90</td></tr>
+<tr><th>Automotive & Industrial</th><td>73.06</td><td>65.50</td></tr>
+<tr><th></th></tr>
+<tr>
+  <th>Average</th><td>80.31</td><td>74.26</td></tr>
+</table> 
+<div style="margin:10px auto 0 auto; font-weight:normal; text-align:center; width:350px"><p>Table 1 - Precision and Recall table out of cross validation (per class)</p></div>
+</div>
+</div>
+
+</body></html>

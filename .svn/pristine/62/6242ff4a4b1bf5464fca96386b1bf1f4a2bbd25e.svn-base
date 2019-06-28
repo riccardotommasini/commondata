@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html><head><title>Topology of the 2012 WDC Hyperlink Graph</title>
+<link rel="stylesheet" href="/style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org/",
+  "@type":"Dataset",
+  "name":"2012 WDC Hyperlink Graph",
+  "description":"This dataset contains the hyperlink graph extracted from the Common Crawl 2012 web corpus. The graph covers 3.5 billion web pages and 128 billion hyperlinks between these pages.",
+  "url":"http://webdatacommons.org/hyperlinkgraph/2012-08/topology.html",
+  "version":"2012",
+  "keywords":[
+     "hyperlink graph"
+  ],
+  "creator":[
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/",
+		 "name":"Christian Bizer"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/",
+		 "name":"Robert Meusel"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://dws.informatik.uni-mannheim.de/en/people/researchers/oliver-lehmberg/",
+		 "name":"Oliver Lehmberg"
+	  },
+	  {
+		 "@type":"Person",
+		 "url": "http://vigna.di.unimi.it/",
+		 "name":"Sebastiano Vigna"
+	  }
+  ],
+  "distribution":[
+     {
+        "@type":"DataDownload",
+        "fileFormat":[
+			"Index/Arc",
+			"WebGraph Framework",
+			"Pajek NET"
+		],
+        "contentUrl":"http://webdatacommons.org/hyperlinkgraph/2012-08/download.html"
+     }
+  ],
+  "citation":[
+	  "Robert Meusel, Sebastiano Vigna, Oliver Lehmberg, Christian Bizer: The Graph Structure in the Web - Analyzed on Different Aggregation Levels. Journal of Web Science: Vol. 1: No. 1, pp 33-47, 2015.",
+	  "Oliver Lehmberg, Robert Meusel, Christian Bizer: The Graph Structure of the Web aggregated by Pay-Level Domain. ACM Web Science 2014 Conference (WebSci2014), Bloomington, USA, June 2014.",
+	  "Robert Meusel, Sebastiano Vigna, Oliver Lehmberg, Christian Bizer: Graph Structure in the Web - Revisited. 23rd International World Wide Web Conference (WWW2014), Web Science Track, Seoul, Korea, April 2014."
+  ]
+  }
+</script>
+
+</head>
+<body> 
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="/images/ma-logo.gif" alt="University of Mannheim - Logo"></a>&nbsp;&nbsp;<br></div>
+
+
+<div id="header">
+<h1 style="font-size: 250%;">Topology of the 2012 WDC Hyperlink Graph</h1>
+</div>
+
+<div id="tagline">Basic Statistics</div>
+
+<div id="authors">
+<a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/robert-meusel/">Robert Meusel
+</a><br />
+<a href="">Oliver Lehmberg</a><br />
+<a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+<a href="http://vigna.di.unimi.it/">Sebastiano Vigna</a><br />
+</div>
+
+<div id="content">
+
+<p> This document provides basic statistics about the topology of the <a href="../index.html">Web Data Commons - Hyperlink Graph</a> extracted from the 2012 Common Crawl Corpus covering 3.5 billion web pages and 128 billion hyperlinks between these pages. <br>We analyze the page-level graph as well as a pay-level-domain aggregation of the graph.
+</p>
+
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+
+
+<h2 id="examples">1. Page Graph</h2>
+<p>
+The page graph consists of over 3.5 billion nodes and over 128 billion arcs between those nodes. 
+In the following we will report about the basic findings within the page graph. A more detailed
+analysis can be found in: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-GraphStructureOfTheWeb.pdf">Graph Structure in the Web - Revisited</a></b> by Robert Meusel, Sebastiano Vigna, Oliver Lehmberg, Christian Bizer, an accepted paper at the <a href="http://www2014.kr/">23rd International World Wide Web Conference</a> (WWW2014), Web Science Track, Seoul, Korea, April 2014
+</p>
+</p>
+<h3>1.1 Indegree and Outdegree Distribution</h3>
+<p>
+The following two figures show frequency plots of indegrees
+and outdegrees in log-log scale. For each <code>d</code>, we plot a point with
+an ordinate equal to the number of pages with that have degree <code>d</code>. Note that
+<i>we included the data for degree zero</i>, which is omitted in most of the
+literature. We then aggregate the values using <i>Fibonacci
+binning</i> to show the approximate shape of the distribution.
+We find the page with the highest indegree to be referenced by of 95 million other pages and
+the page with the largest number of links to contain almost 56 thousand references to other pages.
+<br>
+<br>
+<div align="center">
+<table>
+<tr><td><div align="center">
+<img src="image/in_dist_nopl.png" width="500px" alt="Indegree Frequency Plot" ><br>
+Frequency plot of the indegree distribution
+</div>
+</td>
+<td>
+<div align="center">
+<img src="image/out_dist_nopl.png" width="500px" alt="Outdegree Frequency Plot"><br>
+Frequency plot of the outdegree distribution
+</div>
+</td>
+</tr>
+</table>
+</div>
+</p>
+
+<h3>1.2 Connected Components</h3>
+<p>
+The following figure (left) shows the distribution of the sizes of the
+weakly connected components using a visualization similar to the previous
+figures. The largest component (rightmost grey point) contains about around 94% of
+the whole graph (over 3.34 billion pages).<br\>
+The right shows the distribution of the sizes of the strongly connected components. 
+The largest component (rightmost grey point) contains 51.3% (over 1.82 billion pages).
+
+<div align="center">
+<table>
+<tr><td><div align="center">
+<img src="image/wcc_dist_nopl.png" width="500px" alt="WCCs Frequency Plot" ><br>
+Frequency plot of the distribution of WCCs
+</div>
+</td>
+<td>
+<div align="center">
+<img src="image/scc_dist_nopl.png" width="500px" alt="SCCs Frequency Plot"><br>
+Frequency plot of the distribution of SCCs
+</div>
+</td>
+</tr>
+</table>
+</div>
+</p>
+
+<h3>1.3 Bow-Tie Structure</h3>
+<p>
+Having identified the giant strongly connected component, we can determine 
+the so-called <i>bow tie</i>, a depiction of the structure of the web
+suggested by Broder et al..
+The bow tie is made of six different components:
+<ul>
+<li>the core is given by the giant strongly connected component (LSCC);</li>
+<li>the IN component contains non-core pages that can reach the core via a directed path;</li>
+<li>the OUT component contains non-core pages that can be reached from the core;</li>
+<li>the TUBES are formed by non-core pages reachable from IN and that can reach OUT;</li>
+<li>pages reachable from IN, or that can reach OUT, but are not listed above, are called TENDRILS;</li>
+<li>the remaining pages are DISCONNECTED. </li>
+</ul>
+
+All these components are easily computed by visiting the <i>direct acyclic graph of strongly connected components</i> (SCC DAG):
+it is a graph having one node for each strongly connected component with an arc from <code>x</code> to <code>y</code> if some node in the
+component associated with <code>x</code> is connected with a node in the component associated with <code>y</code>. 
+The bow tie of the page graph is shown in the following figure:
+</p>
+<div align="center">
+<img src="image/bowtie-page.png" width="500px" alt="Bow-Tie Structure of the Page Graph"><br>
+Bow-Tie Structure of the Page Graph
+</div>
+
+<h2>2. Pay-Level-Domain Graph</h2>
+<p>
+The PLD Graph is created from the Page Graph by aggregating all pages that belong to a pay-level-domain (PLD) into a single node. For example, the pay-level-domain of <code>dws.informatik.uni-mannheim.de</code> is <code>uni-mannheim.de</code>. All pages under one PLD are aggregated into one node and all internal links are removed. External links, i.e. those leading to other PLDs, are kept, but only once. 
+<br>The PLD graph consists of over 43 million websites/nodes and over 623 million distinct arcs between those nodes.</p>
+
+<h3>2.1 Weakly and Strongly Connected Components</h3>
+
+<p>The PLD graph contains one giant weakly connected component that consists of 39.4 million nodes (92%). The following diagrams show the distribution of the weakly connected components (WCC) and the strongly connected components (SCC) in the PLD graph. The x-axis charts the size of the components and the y-axis draws the number of components for a particular size. Both axes are log-scaled. 
+    The respective distribution is marked by the blue dots and the calculated power law distributions are shown as black lines.
+    The distribution of the sizes of WCCs follows a power law with an exponent of 1.411. The power law is calculated excluding the giant component.</p>
+ 
+
+<div align="center">
+<table>
+<tr><td><div align="center">
+<img src="image/pld-wcc.png" width="500px" alt="wcc distribution" ><br>
+Distribution of the Weakly Connected Components (PLD-Level)
+</div>
+</td>
+<td>
+<div align="center">
+<img src="image/pld-scc.png" width="500px" alt="wcc distribution" ><br>
+Distribution of the Strongly Connected Components (PLD-Level)
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+
+<h3>2.2 In- and Out-Degree Distribution</h3>
+
+<p>The following diagrams show the in- and out-degree distributions of the PLD graph.
+    The respective distribution is marked by the blue dots and the calculated power law distributions are shown as black lines.
+
+Both distributions follow a power law, where the exponent for in-degree is 1.56 and the exponent for the out-degree distribution is 1.49.</p>
+<br>
+<br>
+<div align="center">
+<table>
+<tr><td><div align="center">
+<img src="image/pld-in-degree.PNG" width="500px" alt="indegree distribution" ><br>
+In-Degree Distribution (PLD-Level)
+</div>
+</td>
+<td>
+<div align="center">
+<img src="image/pld-out-degree.png" width="500px" alt="outdegree distribution" ><br>
+Out-Degree Distribution (PLD-Level)
+</div>
+</td>
+</tr>
+</table>
+</div>
+<br>
+
+
+</p>
+
+<h3 id="bowtie">2.3 Bow-Tie</h3>
+<p> We further determine the Bow-Tie structure of the PLD Graph. The Bow-Tie structure consists of the largest strongly connected component (LSCC) that is flanked by two other components, IN and OUT.
+    The IN component contains all nodes that are not part of the LSCC, but are connected to it via a directed path.
+    Similarly, the OUT component contains nodes that are, via a directed path, reachable from the LSSC.
+    Connected to the IN and OUT component, there are TENDRILS that lead away from the IN or towards the OUT component respectively.
+    If two such TENDRILS are connected, they form TUBES.
+    The TUBES component contains nodes that directly connect the IN and OUT components, without going through the LSCC.
+    All remaining nodes, i.e. those that are not part of the largest weakly connected component, belong to the DISCONNECTED component.
+</p>
+<img src="image/bowtie-pld.png" width="800px" alt="Bow-Tie of the PLD Graph" />
+
+<h3>2.4 Frequently Interlinked PLDs</h3>
+
+<p>We also identified weakly connected components (WCC) of frequently interlinked websites. The picture below shows one WCC in which all websites are interlinked by at least 500,000 links connecting individual pages of both websites.
+</p>
+<div align="center">
+<a href="image/labelled_example_graph.jpg" target=_blank><img src="image/labelled_example_graph.jpg" width="1500px" alt="WCC of Strongly Interlinked PLDs"></a>
+</div>
+
+<h3 id="toplists">2.5 PLDs ranked by In- and Out-Degree</h3>
+<p>
+    The following table shows the pay-level-domains with the highest in- and out-degree.</p>
+	<p>
+    <table border="1" cellpadding="0" cellspacing="0" style="float:left">
+    	<tr>
+    		<th>Rank</th>
+    		<th>PLD</th>
+    		<th>out-degree</th>
+    	</tr>
+		<tr>
+			<td valign="top">
+			1
+			</td>
+			<td valign="top">
+			blogspot.com
+			</td>
+			<td valign="top">
+			3,898,561
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			2
+			</td>
+			<td valign="top">
+			wordpress.com
+			</td>
+			<td valign="top">
+			2,249,553
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			3
+			</td>
+			<td valign="top">
+			youtube.com
+			</td>
+			<td valign="top">
+			1,078,938
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			4
+			</td>
+			<td valign="top">
+			wikipedia.org
+			</td>
+			<td valign="top">
+			862,705
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			5
+			</td>
+			<td valign="top">
+			serebella.com
+			</td>
+			<td valign="top">
+			699,609
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			6
+			</td>
+			<td valign="top">
+			refertus.info
+			</td>
+			<td valign="top">
+			668,271
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			7
+			</td>
+			<td valign="top">
+			top20directory.com
+			</td>
+			<td valign="top">
+			650,884
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			8
+			</td>
+			<td valign="top">
+			typepad.com
+			</td>
+			<td valign="top">
+			551,360
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			9
+			</td>
+			<td valign="top">
+			botw.org
+			</td>
+			<td valign="top">
+			496,645
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			10
+			</td>
+			<td valign="top">
+			tumblr.com
+			</td>
+			<td valign="top">
+			496,045
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			11
+			</td>
+			<td valign="top">
+			dmoz.org
+			</td>
+			<td valign="top">
+			476,890
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			12
+			</td>
+			<td valign="top">
+			vindhetviahier.nl
+			</td>
+			<td valign="top">
+			424,646
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			13
+			</td>
+			<td valign="top">
+			jcsearch.com
+			</td>
+			<td valign="top">
+			423,918
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			14
+			</td>
+			<td valign="top">
+			startpagina.nl
+			</td>
+			<td valign="top">
+			392,543
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			15
+			</td>
+			<td valign="top">
+			yahoo.com
+			</td>
+			<td valign="top">
+			371,087
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			16
+			</td>
+			<td valign="top">
+			tatu.us
+			</td>
+			<td valign="top">
+			370,918
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			17
+			</td>
+			<td valign="top">
+			freeseek.org
+			</td>
+			<td valign="top">
+			362,310
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			18
+			</td>
+			<td valign="top">
+			lap.hu
+			</td>
+			<td valign="top">
+			352,668
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			19
+			</td>
+			<td valign="top">
+			blau-webkatalog.com
+			</td>
+			<td valign="top">
+			312,924
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			20
+			</td>
+			<td valign="top">
+			allepaginas.nl
+			</td>
+			<td valign="top">
+			276,578
+			</td>
+		</tr>
+	</table>
+    <table border="1" cellpadding="0" cellspacing="0">
+    	<tr>
+    		<th>PLD</th>
+    		<th>in-degree</th>
+    	</tr>
+		<tr>
+			<td valign="top">
+			wordpress.org
+			</td>
+			<td valign="top">
+			1,822,440
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			youtube.com
+			</td>
+			<td valign="top">
+			1,319,548
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			wikipedia.org
+			</td>
+			<td valign="top">
+			1,243,291
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			gmpg.org
+			</td>
+			<td valign="top">
+			1,156,727
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			blogspot.com
+			</td>
+			<td valign="top">
+			1,034,450
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			google.com
+			</td>
+			<td valign="top">
+			782,660
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			wordpress.com
+			</td>
+			<td valign="top">
+			710,590
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			twitter.com
+			</td>
+			<td valign="top">
+			646,239
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			yahoo.com
+			</td>
+			<td valign="top">
+			554,251
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			flickr.com
+			</td>
+			<td valign="top">
+			339,231
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			facebook.com
+			</td>
+			<td valign="top">
+			314,051
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			apple.com
+			</td>
+			<td valign="top">
+			312,396
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			miibeian.gov.cn
+			</td>
+			<td valign="top">
+			289,605
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			vimeo.com
+			</td>
+			<td valign="top">
+			269,003
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			tumblr.com
+			</td>
+			<td valign="top">
+			226,596
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			joomla.org
+			</td>
+			<td valign="top">
+			201,863
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			amazon.com
+			</td>
+			<td valign="top">
+			196,690
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			w3.org
+			</td>
+			<td valign="top">
+			196,507
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			nytimes.com
+			</td>
+			<td valign="top">
+			193,907
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			sourceforge.net
+			</td>
+			<td valign="top">
+			189,663
+			</td>
+		</tr>
+	</table>
+</p>
+
+
+<h3 id="tld">2.6 Top-Level-Domain Distribution</h3>
+<p>
+    The following table shows the distribution of top-level-domains in our PLD Graph.
+    The third column of the table compares the ranking of the PLDs with the ranking published in the <a href="http://www.verisigninc.com/assets/domain-name-brief-oct2012.pdf">Verisign Domain Name Industry Brief</a> from the same time when the crawl was gathered.
+    According to the Verisign statistics, our PLD Graph contains 18% of all registered pay-level-domains.
+  <table border="1" cellpadding="0" cellspacing="0">
+	  <tr>
+		  <th>
+		  TLD
+		  </th>
+		  <th>
+		  PLDs
+		  </th>
+		  <th>
+		  Percent
+		  </th>
+		  <th>
+		  Rank
+		  </th>
+		  <th>
+		  Verisign Rank
+		  </th>
+	  </tr>
+	  <tr>
+		  <td >
+		  com
+		  </td>
+		  <td >
+		  21,205,742
+		  </td>
+		  <td >
+		  49.44%
+		  </td>
+		  <td >1</td>
+		  <td >1</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  de
+		  </td>
+		  <td >
+		  2,994,885
+		  </td>
+		  <td >
+		  6.98%
+		  </td>
+		  <td >2</td>
+		  <td >2</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  net
+		  </td>
+		  <td >
+		  2,321,230
+		  </td>
+		  <td >
+		  5,41%
+		  </td>
+		  <td >3</td>
+		  <td >3</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  org
+		  </td>
+		  <td >
+		  2,194,525
+		  </td>
+		  <td >
+		  5.12%
+		  </td>
+		  <td >4</td>
+		  <td>6</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  co.uk
+		  </td>
+		  <td >
+		  1,547,132
+		  </td>
+		  <td >
+		  3.61%
+		  </td>
+		  <td >5</td>
+		  <td >5</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  nl
+		  </td>
+		  <td >
+		  1,017,387
+		  </td>
+		  <td >
+		  2.37%
+		  </td>
+		  <td >6</td>
+		  <td >8</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  ru
+		  </td>
+		  <td >
+		  724,943
+		  </td>
+		  <td >
+		  1.69%
+		  </td>
+		  <td >7</td>
+		  <td>9</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  info
+		  </td>
+		  <td >
+		  697,814
+		  </td>
+		  <td >
+		  1.63%
+		  </td>
+		  <td >8</td>
+		  <td >7</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  it
+		  </td>
+		  <td >
+		  646,139
+		  </td>
+		  <td >
+		  1.51%
+		  </td>
+		  <td >9</td>
+		  <td >-</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  com.br
+		  </td>
+		  <td >
+		  524,610
+		  </td>
+		  <td >
+		  1.22%
+		  </td>
+		  <td >10</td>
+		  <td >-</td>
+	  </tr>
+	  <tr>
+		  <td >
+		  others
+		  </td>
+		  <td >
+		  9,015,393
+		  </td>
+		  <td >
+		  21.02%
+		  </td>
+		  <td >-</td>
+		  <td >-</td>
+	  </tr>
+  </table>
+</p>
+<h3>2.7 Linkage of Websites grouped by TLD</h3>
+<p>
+Beside the general connectivity of the different pay-level-domains we analysed the connectivity of pay-level-domains 
+between the different top-level-domains they belong to.
+The figure below shows the hyperlinks of the pay-level-domains aggregated by their top-level-domain of the 10 largest TLDs.
+All remaining domains are collected in the group named "others".
+In this diagram, the outermost circle labelled with percentages represents the total number of links for each group.
+Directly adjacent to this circle are two smaller bars for each group. The outer bar represents the number of in-links while the inner bar represents the number of out-links.
+Further to the centre there is another circle labelled with absolute numbers.
+This circle, again, represents the total number of links.
+From this circle ribbons spanning through the middle represent interconnections between the different groups.
+Incoming links have a white gap between the ribbon spanning in the middle and the circle part labelled with absolute numbers. 
+Also, the ribbon has the same colour as the group that it originates from.
+<br>
+<a href="image/tld_linkage.png" target="_blank"><img src="image/tld_linkage.png" width="800px" alt="Linkage of Websites grouped by TLD"></a>
+<br>
+For the two largest groups of websites, ".com" and ".de" we find that the percentage of intra-TLD links is outstandingly high.
+These domains tend to strongly link within their top-level-domain.
+The opposite we find for the ".org"- and ".net"-TLDs. 
+Both only have a small fraction of intra-TLD-links compared to inter-TLD-links.
+</p>
+<h2 id="code">3. Code used for the Analysis</h2>
+
+<p>The source code that we used to generate the statistics presented above can also be downloaded from our <a href="https://www.assembla.com/code/commondata/subversion/nodes/247/webgraph/analysis" target="_blank">Subversion repository</a>.</p>
+
+<h2 id="acknowledgments">4. Credits</h2>
+
+<p>Lots of thanks to</p>
+<ul>
+  	<li>the <a href="http://commoncrawl.org/">Common Crawl project</a> for providing their great web crawl and thus enabling the creation of the WDC Hyperlink Graph.</li>
+	<li>Sebastiano Vigna for providing and supporting us with his amazing Java <a href="http://webgraph.di.unimi.it/">WebGraph</a> library.</li>
+	<li>Andrej Mrvar for his fast and detailed answers about the usage of specific function in <a href="http://pajek.imfm.si/doku.php">Pajek</a>.</li>
+</ul>
+<p>The creation of the WDC Hyperlink Graph was supported by the EU research project <a href="http://planet-data.eu">PlanetData</a> and by <a href="http://aws.amazon.com/education/">Amazon Web Services</a> through a Machine Learning Research Grant. We thank your sponsors a lot for supporting Web Data Commons. 
+</p>
+<a href="http://planet-data.eu"><img src="/images/pd.gif" alt="PlanetData Logo"></a>&nbsp;&nbsp;&nbsp;
+<a href="http://aws.amazon.com/education/"><img src="/images/aws.png" alt="AWS Logo"></a>&nbsp;&nbsp;&nbsp;
+<!--<h2 id="references">7. References</h2>
+<p>
+</p>
+-->
+</div>
+
+</div>
+
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    } 
+});
+</script>
+
+</body>
+</html> 

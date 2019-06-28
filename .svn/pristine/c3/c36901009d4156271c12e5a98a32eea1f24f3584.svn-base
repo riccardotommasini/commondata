@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="index-metadata1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/index-metadata/index-metadata.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

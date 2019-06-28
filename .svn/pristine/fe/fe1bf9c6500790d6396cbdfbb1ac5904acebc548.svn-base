@@ -1,0 +1,678 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es-ES">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Observatorio Ateo de Argentina   &raquo; Separación Iglesia-Estado</title>
+
+<meta name="generator" content="WordPress 2.5.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.argatea.com.ar/blog/wp-content/themes/argatea/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Observatorio Ateo de Argentina RSS Feed" href="http://www.blog.argatea.com.ar/feed/" />
+<link rel="pingback" href="http://www.argatea.com.ar/blog/xmlrpc.php" />
+
+<meta name="description" content="ArgAtea - Asociaci�n Civil de Ateos en Argentina." />
+<meta name="keywords" content="ateos argentina, ateismo argentina, ateos, agnosticos Argentina, agnosticismo argentina,ateismo, agnosticismo, Laicismo, laicismo, laico, humanismo, humanista, Camap�a atea" />
+<meta name="robots" content="index, follow" />
+<base href="http://argatea.com.ar/" />
+<link rel="alternate" type="application/rss+xml" title="Asociaci�n Civil de Ateos en Argentina" href="http://argatea.com.ar/index2.php?option=com_rss&amp;feed=RSS2.0&amp;no_html=1" />
+<link rel="shortcut icon" href="http://argatea.com.ar/images/favicon.ico" />
+<link rel="stylesheet" href="http://argatea.com.ar/templates/Flexi/css/template_css.css" type="text/css"/><link rel="shortcut icon" href="http://argatea.com.ar/templates/Flexi/images/favicon.ico" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.argatea.com.ar/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.argatea.com.ar/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 2.5.1" />
+
+<style type='text/css'>
+<!--#header { background: url('http://www.argatea.com.ar/blog/wp-content/themes/argatea/images/header-img.php?upper=FBAF5C&lower=FBAF5C') no-repeat bottom center; }
+--></style>
+</head>
+<body>
+<div id="page" align="center">
+		
+	<div id="wrapper" style="width: 760px;">
+		
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		
+		
+		<!-- BEGIN TOP BAR AREA -->
+		<div id="topbar">
+
+			<div id="topcontent">
+				<div style="float: left; display: block;">
+					<!-- normally for topmenu -->
+					<div style="float: left; display: block;"><ul id="mainlevel-nav"><li><a href="http://argatea.com.ar/" class="mainlevel-nav" >Inicio</a></li><li><a href="http://argatea.com.ar/component/option,com_joomlaboard/Itemid,54/" class="mainlevel-nav" >Foro</a></li><li><a href="http://argatea.com.ar/content/blogcategory/0/35/" class="mainlevel-nav" >Novedades</a></li><li><a href="http://argatea.com.ar/component/option,com_contact/Itemid,3/" class="mainlevel-nav" >Contactar</a></li></ul></div>					<div align="right" id="topsearch">
+						<!-- normally for mini search -->
+						
+<form action="index.php?option=com_search&amp;Itemid=5" method="get">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="search" class="inputbox" type="text" size="20" value="buscar..."  onblur="if(this.value=='') this.value='buscar...';" onfocus="if(this.value=='buscar...') this.value='';" />	</div>
+
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="5" />	
+</form>					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!-- BEGIN TOP BAR AREA -->
+		
+		
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		
+		
+		<!-- BEGIN HEADER AREA -->
+		<div id="headerbar">
+			<div id="headerleft"><img src="templates/Flexi/images/header_curve_left.gif"  alt=" " /></div>
+			<div id="headercontent">
+				<div id="headerlogo" align="left">
+					<img src="templates/Flexi/images/logo.png" height="200" alt="ateismo en argentina" />
+					<img src="templates/Flexi/images/logo_separator.gif"  alt="asociacion civil de ateos en argentina" height="100" style="vertical-align:top; margin-top:50px;"/>
+					<!-- MODIFICACION DEL RATA en las 2 lineas anteriores gif->png height=100->200 y todo el style de la 2da linea -->
+				</div>
+				<div id="headersitename">
+					<a href="index.php">
+					Asociaci&oacute;n Civil de Ateos en Argentina					</a>
+				</div>
+			</div>			
+			<div id="headerright"><img src="templates/Flexi/images/header_curve_right.gif" alt=" " /></div>
+		</div>
+		<!-- END TOP BAR AREA -->
+
+
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		
+		
+		<!-- BEGIN PATHWAY AREA -->
+
+		<div id="pathwaybar">
+			<div id="pathwayleft"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+			<div id="pathwaycontent"><span class="pathway">Inicio </span></div>
+			<div id="pathwayright"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+		</div>
+
+		<!-- END PATHWAY AREA -->
+
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>
+
+		<!-- BEGIN CONTENT AREA -->
+		<div id="maincontent" align="left">
+
+	<div id="content" class="narrowcolumn">
+
+		
+		 		<h2 class="pagetitle">Archive for the &#8216;Separación Iglesia-Estado&#8217; Category</h2>
+
+ 	  
+
+		<div class="navigation">
+			<div class="alignleft"><a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/page/2/">&laquo; Previous Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post">
+				<h3 id="post-1182"><a href="http://www.blog.argatea.com.ar/2010/07/09/campana-del-inadi-por-el-matrimonio-igualitario-%c2%bfsabias-que/" rel="bookmark" title="Permanent Link to Campaña del INADI por el Matrimonio Igualitario: ¿Sabias  que?">Campaña del INADI por el Matrimonio Igualitario: ¿Sabias  que?</a></h3>
+				<small>Viernes, Julio 9th, 2010</small>
+
+				<div class="entry">
+					<h2 style="text-align: center;"><span style="color: #800000;"><strong>¿Sabias  que?</strong></span></h2>
+<p style="text-align: center;"><strong><a href="http://www.youtube.com/watch?v=4urNS9rzPgY">http://www.youtube.com/watch?v=4urNS9rzPgY</a></strong></p>
+<p style="text-align: center;"><span style="font-family: Arial; font-size: x-small;"><span style="font-size: 11pt; font-family: Arial;"><em></em><strong><span style="font-weight: bold;"><br />
+</span></strong></span></span></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/07/09/campana-del-inadi-por-el-matrimonio-igualitario-%c2%bfsabias-que/#respond" title="Comentarios en Campaña del INADI por el Matrimonio Igualitario: ¿Sabias  que?">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1158"><a href="http://www.blog.argatea.com.ar/2010/06/11/por-una-santa-fe-laica/" rel="bookmark" title="Permanent Link to Por una Santa Fe Laica">Por una Santa Fe Laica</a></h3>
+				<small>Viernes, Junio 11th, 2010</small>
+
+				<div class="entry">
+					<p>La Cámara de Diputados de la Provincia de Santa Fe, con el apoyo del Frente Progresista y la oposición del Partido Justicialista, aprobó el Proyecto de Declaración de la diputada provincial del partido SI (Solidaridad e Igualdad) en el Frente Progresista, Dra. Alicia Gutiérrez, que reclama una Reforma Constitucional para promover en Santa Fe la libertad religiosa y una provincia laica. Esta propuesta parte de la Asociación Rosario Atea que se encuentra juntando firmas con ese objetivo.</p>
+<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="350" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/TFwd5olAAhE" /><embed type="application/x-shockwave-flash" width="425" height="350" src="http://www.youtube.com/v/TFwd5olAAhE"></embed></object></p>
+<p style="text-align: justify;">El proyecto, presentado por la diputada del SI, Alicia Gutierrez <strong>solicita la reforma constitucional en el artículo 3|. El mismo establece: “La religión de la provincia es la Católica, Apostólica y Romana, a la que le prestará su protección más decidida, sin perjuicio de la libertad religiosa que gozan sus habitantes”.</strong><br />
+Según lo presentado por la lesgisladora, <strong>la constitución se encuentra desactualizada y es ”la más vieja del país, en cuestiones que no solamente hacen al laicismo, sino también a la falta de Derechos de Tercera generación.<br />
+“Las creencias y prácticas religiosas son absolutamente relacionadas con la privacidad de las personas y no de incumbencia del Estado, por lo tanto quienes pagamos nuestros impuestos no debemos solventar instituciones privadas de índole religiosa”, sostiene Gutierrez.</strong><br />
+El objetivo que se persigue es que Santa Fe se transforme, como otras provincias tales como Neuquén, Río Negro y Santa Cruz, en un Estado laico.</p>
+<p style="text-align: justify;">El Enfoque</p>
+<p style="text-align: justify;"><a href="http://www.elenfoqueweb.com.ar/2010/06/08/por-una-santa-fe-laica/ Ileana Rio – Gonzalo J. García">http://www.elenfoqueweb.com.ar/2010/06/08/por-una-santa-fe-laica/<br />
+Ileana Rio – Gonzalo J. García</a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/06/11/por-una-santa-fe-laica/#respond" title="Comentarios en Por una Santa Fe Laica">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1114"><a href="http://www.blog.argatea.com.ar/2010/03/28/el-vaticano-a-la-defensiva-por-abusos-sexuales/" rel="bookmark" title="Permanent Link to El Vaticano a la defensiva por abusos sexuales">El Vaticano a la defensiva por abusos sexuales</a></h3>
+				<small>Domingo, Marzo 28th, 2010</small>
+
+				<div class="entry">
+					<p>Redacción</p>
+<p>BC Mundo</p>
+<div class="image img-w226">
+<p class="caption" style="text-align: left;">Es la primera vez en varios años que un escándalo afecta la credibilidad del líder de la Iglesia Católica.</p>
+<p style="text-align: left;">El Vaticano está rompiendo su silencio sobre un tema considerado tabú durante mucho tiempo: la pederastia.</p>
+<p>Además, tras las denuncias de abuso sexual por parte de sacerdotes católicos en Alemania y otras partes del mundo, el papa Benedicto XVI se ha visto involucrado indirectamente en el escándalo.</p>
+<p style="text-align: left;">&#8220;En los cuatro años que llevo informando desde el Vaticano, no he visto una crisis tan grave que afecte la credibilidad del líder de la organización internacional más grande del planeta: la Iglesia Católica Romana&#8221;, comentó David Willey, corresponsal de la BBC en Roma.</p>
+<p style="text-align: left;"><a class="page" href="http://www.bbc.co.uk/mundo/internacional/2010/03/100319_0907_papa_carta_abusos_firma_gtg.shtml"><span class="label">clic </span><span class="link-title"> Opine: ¿tiembla la fe católica?</span></a></p>
+<p style="text-align: left;">En las últimas semanas, el pontífice ha tenido que lidiar con acusaciones muy serias, documentadas por el gobierno irlandés, sobre el comportamiento sistemático de líderes de la Iglesia que han ocultado casos de abusos sexuales a menores por parte de clérigos.</p>
+<p style="text-align: left;">El papa ha estado muy ocupado escribiendo nuevas instrucciones a sacerdotes y fieles de la Irlanda católica sobre cómo prevenir y castigar estos casos.</p>
+<p style="text-align: left;">No obstante, no ha sido la investigación de las autoridades irlandesas lo que ha sacudido a la cúpula de la iglesia, sino los escándalos de abuso sexual y maltrato a menores de la tierra natal de benedicto XVI, Alemania, incluyendo uno en el mismo pueblo donde enseñó en la universidad y donde su hermano dirigía un famoso coro de niños.</p>
+<h2>¿Informado o no?</h2>
+<div class="module ">
+<div class="image img-w226">Las denuncias de abusos sexuales en Alemania coinciden con el lugar y tiempo en que Ratzinger era arzobispo.</p>
+<p>Sus antecedentes como arzobispo de Munich a fines de la década de los años 70 y principios de los 80 están siendo escudriñados sin piedad por la prensa internacional.</p>
+<p>¿Estaba o no estaba informado Joseph Ratzinger de los casos de abusos sexuales en su propia diócesis?</p>
+<p>Si la respuesta es afirmativa, ¿por qué no actuó con disciplina y retiró a los implicados de sus cargos?, ¿por qué no informó a la policía?</p>
+<p>Según Willey, en Alemania se ha admitido que los abusos por parte de sacerdotes se encubrieron, de la misma forma que sucedió en otros países donde salieron a la luz pública casos similares.</p>
+<p>Sin embargo, el Vaticano ha dicho con insistencia que esta hipótesis, en lo que le concierne al Papa, es &#8220;falsa y difamatoria&#8221;.</p>
+<p>Lo que nos lleva a la otra posible respuesta a la pregunta: no. De ser así, parece legítimo preguntar si el arzobispo Ratzinger, cargo que tenía entonces, estaba cumpliendo con su trabajo.</p>
+<p>&#8220;Como es de esperar, el departamento de relaciones públicas del Vaticano ha estado trabajando a destajo para desviar del pontífice toda crítica personal&#8221;, dijo Willey.</p>
+<p>Un prelado alemán cargó con la culpa de Munich. La versión del Vaticano es que Benedicto XVI no tuvo conocimiento de un preocupante y bien documentado caso que ha dominado los titulares durante varios días.</p>
+<p><a class="page" href="http://www.bbc.co.uk/mundo/internacional/2010/03/100315_0233_sacerdote_alemania_abusos_jg.shtml"><span class="label">clic </span><span class="link-title"> Lea: suspenden a cura pederasta</span></a></p>
+<p>Un escándalo que, sumado a las múltiples denuncias de abusos sexuales en otras partes del mundo, ha hecho que católicos de muchos países hagan preguntas sobre un tema que tradicionalmente ha sido tabú en el Vaticano.</p>
+<p><a class="page" href="http://www.bbc.co.uk/mundo/internacional/2010/03/100317_1250_iglesia_catolica_pederastia_escandalos_lectores_testimonios_alf.shtml"><span class="label">clic </span><span class="link-title"> Lea: &#8220;La iglesia debe actuar&#8221;, exigen los lectores</span></a></p>
+<h2>&#8220;Sabiduría y coraje&#8221;</h2>
+<p>Monseñor Charles Scicluna, un afable sacerdote de Malta con autoridad en el Vaticano (ostenta el título de Promotor de la Justicia), ofreció una larga entrevista sobre cómo el centro de operaciones en Roma ha estado reaccionando al creciente número de casos de abusos de clérigos reportados al Papa durante la última década.</p>
+<p>&#8220;Él dijo que su escritorio está abarrotado de acusaciones de delitos sexuales contra menores por parte de sacerdotes, sobre todo de Estados Unidos entre 2003 y 2004&#8243;, aseguró Willey.</p>
+<div class="module ">
+<div class="image img-w226">
+<p class="caption" style="text-align: left;">El hermano de Ratzinger, Georg, director del coro de niños Domspatzen, reconoció haber abofeteado a sus alumnos.</p>
+<p style="text-align: left;">El entonces cardenal Ratzinger era jefe del departamento responsable de disciplinar seriamente a clérigos denunciados en todo el mundo.</p>
+<p style="text-align: left;">Ratzinger ha demostrado &#8220;sabiduría y coraje&#8221; manejando estos casos, aseguró monseñor Scicluna.</p>
+<p style="text-align: left;">El religioso también ofreció estadísticas de las acciones que la iglesia ha tomado en el pasado. La Oficina Santa recibió 3.000 casos de sacerdotes católicos denunciados por sus obispos a Roma. Los expedientes incluían delitos sexuales.</p>
+<p style="text-align: left;">El 10% de eso casos (o 300 curas) eran, según Scicluna, incidentes de pederastia. El resto, aclaró, tenían que ver con la violación del celibato tanto en actos homosexuales como heterosexuales.</p>
+<p style="text-align: left;">Scicluna admitió que 300 era un número alto, pero agregó que &#8220;el fenómeno no está tan extendido como se ha hecho creer&#8221;.</p>
+<h2 style="text-align: left;">&#8220;Mal interpretado&#8221;</h2>
+<p style="text-align: left;">Hay quienes consideran que algunas de las excusas que ha ofrecido el Vaticano son cuanto menos &#8220;pobres&#8221;.</p>
+<p style="text-align: left;">Por ejemplo, el padre Frederico Lombardi, portavoz oficial de la Santa Sede, indicó que el problema de la pederastia no es exclusivo de las instituciones de la Iglesia Católica.</p>
+<p style="text-align: left;">También negó que Ratzinger haya levantado en 2001 un &#8220;muro de silencio&#8221; cuando firmó un documento oficial del Vaticano en el que le pedía a obispos de todo el mundo que guardaran secreto sobre los detalles de los casos de mala conducta informados a Roma.</p>
+<p style="text-align: left;">Según Scicluna, se ha malinterpretado el texto. &#8220;A la iglesia no le gusta hacer propaganda de la justicia, pero nunca ha prohibido denunciar los crímenes a las autoridades civiles&#8221;.</p>
+<p style="text-align: left;">Incluso en Italia están surgiendo acusaciones de pederastia: unas 80, de acuerdo con los fiscales.</p>
+<p style="text-align: left;">En uno de los casos, el sacerdote se defendió basándose en que sinceramente creía que no era pecado tener relaciones sexuales.</p>
+<p style="text-align: left;">&#8220;Toda la polémica sobre el sacerdocio y el sexo está siendo discutida de una forma que no se ha hecho antes&#8221;, explicó Willey. &#8220;Por primera vez, importantes figuras católicas están empezando a hacer un llamado público para que se reexamine la norma del celibato pastoral&#8221;.</p>
+<p style="text-align: left;">Algunos se han retractado, claramente bajo instrucciones de Roma, pero la tendencia no tiene equívoco. &#8220;El punto de inflexión se ha producido este año debido a la incapacidad del Vaticano de contener la marea de escándalos&#8221;, apuntó el corresponsal de la BBC.</p>
+<p style="text-align: left;"><a href="http://www.bbc.co.uk/mundo/internacional/2010/03/100319_1019_vaticano_abuso_sexual_gtg.shtml">http://www.bbc.co.uk/mundo/internacional/2010/03/100319_1019_vaticano_abuso_sexual_gtg.shtml</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/noticias/nacionales/" title="Ver todas las entradas en Nacionales" rel="category tag">Nacionales</a>,  <a href="http://www.blog.argatea.com.ar/category/opiniones/" title="Ver todas las entradas en Opiniones" rel="category tag">Opiniones</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/03/28/el-vaticano-a-la-defensiva-por-abusos-sexuales/#respond" title="Comentarios en El Vaticano a la defensiva por abusos sexuales">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1113"><a href="http://www.blog.argatea.com.ar/2010/03/28/%c2%bfpuede-un-papa-renunciar/" rel="bookmark" title="Permanent Link to ¿Puede un Papa renunciar?">¿Puede un Papa renunciar?</a></h3>
+				<small>Domingo, Marzo 28th, 2010</small>
+
+				<div class="entry">
+					<p>Redacción<br />
+BBC Mundo<br />
+En medio del escándalo por los abusos sexuales de menores por parte de curas de la Iglesia Católica se han levantado voces para indicar que el papa Benedicto XVI debería renunciar.</p>
+<p>Ningún Papa ha renunciado en los tiempos modernos.</p>
+<p>¿Es posible esto? David Willey, corresponsal de la BBC en el Vaticano, examina la cuestión.</p>
+<p>En teoría, no hay nada que frene al Papa a tomar un pedazo de papel de su escritorio y escribir una carta de renuncia al Colegio Cardenalicio, el cuerpo de cardenales de la Iglesia Católica y órgano supremo electoral dentro de la institución.</p>
+<p>Bajo el derecho canónico, las únicas condiciones para la validez de una renuncia de ese tipo son que se haga libremente y que sea debidamente publicada.</p>
+<p>Pero ningún Papa lo ha hecho en los tiempos modernos.</p>
+<p><a class="page" href="http://www.bbc.co.uk/mundo/internacional/2010/03/100326_timeline_abuso_sexual_iglesia_pl.shtml"><span class="label">clic </span><span class="link-title"> Cronología de los escándalos de abuso sexual dentro de la Iglesia Católica</span></a></p>
+<p>Ha habido, sin embargo, una persistente especulación de historiadores de que durante la Segunda Guerra Mundial, el papa Pío XII elaboró un documento asegurando que si él era secuestrado por los nazis se considerara que había renunciado y que su sucesor debía ser elegido.</p>
+<p>Como el Vaticano ha retrasado la publicación completa de sus archivos relativos al pontificado de Pío, a causa de una disputa sobre su reacción ante el Holocausto nazi, no hay manera de verificar si esto es verdad.</p>
+<p><a class="page" href="http://newsforums.bbc.co.uk/ws/es/thread.jspa?forumID=11409"><span class="label">clic </span><span class="link-title"> Participe: ¿qué debe hacer la jerarquía eclesiástica?</span></a></p>
+<h2>Pretendientes</h2>
+<p>Yendo más atrás en el tiempo, el último caso de un Papa renunciante se remonta a más de cinco siglos. El papa Gregorio XII, que reinó desde 1406 hasta 1415, lo hizo para poner fin a lo que se llamó el Cisma de Occidente.</p>
+<p>Había tres pretendientes al trono papal en ese momento: el Papa romano Gregorio XII, el Papa de Aviñón Benedicto XIII y el antipapa Juan XXIII.</p>
+<div class="module ">
+<div class="image img-w226"><img src="http://www.bbc.co.uk/worldservice/assets/images/2010/03/27/100327173106_sp_protestas_afp_226x170.jpg" alt="Protesta de víctimas de abusos frente a la plaza San Pedro en el Vaticano" width="226" height="170" /></p>
+<p class="caption">El Vaticano ha defendido enérgicamente los cinco años de papado y la conducta previa de Benedicto XVI.</p>
+</div>
+</div>
+<p>Antes de renunciar, Gregorio XII formalmente convocó a un concilio de la Iglesia y lo autorizó a elegir su sucesor.</p>
+<p><a class="page" href="http://www.bbc.co.uk/mundo/internacional/2010/03/100326_1325_papa_abuso_analisis_wbm.shtml"><span class="label">clic </span><span class="link-title"> Análisis: inquietud e indignación en el Vaticano</span></a></p>
+<p>El único otro ejemplo significativo de una renuncia papal se remonta aún más lejos en el tiempo.</p>
+<p>En 1294, el papa Celestino V, apenas cinco meses después de su elección, emitió un decreto declarando solemnemente que estaba permitido que un Papa dimitiera. Y luego lo hizo.</p>
+<p>Vivió durante dos años más como un ermitaño y más tarde fue declarado santo. El decreto que emitió terminó con cualquier duda entre los especialistas de derecho canónico sobre la validez de una renuncia papal.</p>
+<p>Habiendo dicho todo esto, explica el corresponsal en el Vaticano, la probabilidad de que el papa Benedicto XVI renuncie voluntariamente a su cargo es escasa.</p>
+<p>El Vaticano hasta ahora ha defendido enérgicamente sus cinco años de papado y la conducta previa de Benedicto XVI durante el período en que fue cardenal arzobispo de Munich y, posteriormente, líder de la Congregación para la Doctrina de la Fe, el departamento de vigilancia del Vaticano responsable de la disciplina de los sacerdotes culpables de mala conducta.</p>
+<p><a class="page" href="http://www.bbc.co.uk/mundo/internacional/2010/03/100326_0309_perfil_congregacion_doctrina_fe_vaticano_lf.shtml"><span class="label">clic </span><span class="link-title"><br />
+Lea: El guardián del Vaticano en problemas</span></a></p>
+<p><a href="http://www.bbc.co.uk/mundo/internacional/2010/03/100327_papa_benedicto_renuncia_iglesia_catolica_escandalo_abusos_jp.shtml">http://www.bbc.co.uk/mundo/internacional/2010/03/100327_papa_benedicto_renuncia_iglesia_catolica_escandalo_abusos_jp.shtml</a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/03/28/%c2%bfpuede-un-papa-renunciar/#respond" title="Comentarios en ¿Puede un Papa renunciar?">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1095"><a href="http://www.blog.argatea.com.ar/2010/02/27/mar-del-plata-ateos-de-la-argentina-unidos-por-la-libertad/" rel="bookmark" title="Permanent Link to Mar del Plata: Ateos de la Argentina, unidos por la &#8220;libertad&#8221;">Mar del Plata: Ateos de la Argentina, unidos por la &#8220;libertad&#8221;</a></h3>
+				<small>S&aacute;bado, Febrero 27th, 2010</small>
+
+				<div class="entry">
+					<p>Sábado, 27 de febrero de 2010</p>
+<p>En Mar del Plata habrá colectivos con una publicidad antirreligiosa</p>
+<h3>Ateos de la Argentina, uníos</h3>
+<h3>“Probablemente Dios no existe, deja de preocuparte y disfruta la vida”, dice el mensaje que ya pasó por Londres, Roma y Barcelona. Es el prólogo del Segundo Congreso Nacional de Ateísmo que se celebrará en Semana Santa en esa ciudad.</h3>
+<div id="imagen">
+<div id="epigrafe">La frase, en catalán, recorrió las calles de Barcelona el año pasado.</div>
+</div>
+<div id="cuerpo">
+<p class="margen0">Mijail Bakunin, Karl Marx, Frederich Nietzche, Albert Camus y Jean-Paul Sartre sonreirían pero ya no podrán ver el aviso, mientras que el coterráneo y contemporáneo artista plástico León Ferrari podría mudarse a Mar del Plata desde hoy para ver un mensaje afín a su obra, en el transporte público de la ciudad balnearia: “Probablemente Dios no existe, deja de preocuparte y disfruta de la vida”. Es la frase que llevarán algunos colectivos de línea en Mar del Plata como parte de la iniciativa internacional Bus Ateo –dio su primera vuelta en 2009 en Londres– y en vísperas del Segundo Congreso Nacional de Ateísmo en Argentina. “La religión plantea una realidad absoluta, mientras que este mensaje plantea una duda para que la gente se pregunte y no decida cómo vivir por tradición. Se habla del derecho al culto y no al derecho de no tenerlo”, explicó Fernando Lozada, presidente de Ateos Mar del Plata.</p>
+<p>El primer bus ateo recorrió las calles de Londres en marzo de 2009 por inciativa de la periodista británica Ariane Sherine y rápidamente contó con el respaldo de organizaciones de derechos humanos y el científico evolucionista Richard Dawkins. La campaña se extendió a otras ciudades británicas por el aporte voluntario de los ciudadanos, que llegaron a sumar 150 mil euros. Desde la isla, el mensaje llegó al transporte público en Estados Unidos, Italia, España, Canadá, Alemania, Finlandia y otros países y provocó que algunas personas no quisieran subir a las unidades que llevaban la leyenda.</p>
+<p>Con la llegada a Mar del Plata, sería la primera vez del slogan ateo en una ciudad de América latina. “En la vía pública se ven muchas afirmaciones acerca de la existencia de divinidades y sus propiedades y nadie piensa que puede ofender a un ateo. Por eso, la campaña no debería ofender porque planteemos la posibilidad de que lo sobrenatural sea sólo ficción”, resaltó Lozada.</p>
+<p>Con la frase sobre algunas de las unidades de la empresa más grande de Mar del Plata, la compañía 25 de Mayo, su presencia en las calles será de veinte horas diarias, por lo que la lectura y la pregunta existencial será inevitable. Aunque la campaña sólo durará treinta días debido a una decisión del Concejo Deliberante local de quitar las publicidades del transporte público. Sin embargo, con el respaldo de la campaña por parte de la Asociación Civil de Ateos en Argentina (ArgAtea) y la revista La Res Pública se puede esperar que el mensaje llegue a las calles porteñas.</p>
+<p>“¿De dónde sacás tu ética si no tenés religión? Eso lo piensa mucha gente y asocian el ateísmo con lo inmoral. Lo importante es ser reconocido como individuo dentro de la sociedad con la misma posibilidad de ser bueno o malo, seas creyente o ateo. Ser ateo garantiza estar desprendido de tabúes y prejuicios provenientes de una visión paternalista y autoritaria, a partir de ahí hay que construir un ética propia”, indicó Lozada.</p>
+<p>Por eso, la Asociación Civil Ateos Mar del Plata decidió realizar la segunda edición del Congreso Nacional de Ateísmo durante Semana Santa en la ciudad balnearia, hito con pocas réplicas en el mundo y respaldado por el Inadi en su primera edición. Por tratarse del año del Bicentenario, esta edición tendrá como tema central “la libertad”.</p>
+<p>Durante el congreso no se pretende debatir sobre la existencia o no de Dios, sino que las mesas de diálogo y los especialistas invitados –artistas, filósofos, periodistas– están llamados a agregar sus conocimientos en temáticas difíciles de incluir en la discusión con la Iglesia, como género, aborto y muerte digna. El objetivo es que “cada persona construya su propio sistema de creencias. La lucha no es por los derechos del ateo, sino por los derechos universales”, resaltó el presidente de la asociación, artista y especialista en biotecnología.</p>
+<p>En los próximos treinta días, los marplatenses revivirán la disputa de poner el centro de la vida en Dios o en el hombre, entre la fe y la razón. Pero quienes aún no están preparados para someterse a ese duelo interno podrán volcarse a las sagradas escrituras o “no hipotecar el presente por una supuesta vida posmorten que ni siquiera da la seguridad de que existe”, señaló Lozada.</p>
+<p><strong>Informe</strong>: Nahuel Lag.</p>
+</div>
+<div id="permalink">Link a la nota:<br />
+<a href="http://www.pagina12.com.ar/imprimir/diario/sociedad/3-141107-2010-02-27.html">http://www.pagina12.com.ar/imprimir/diario/sociedad/3-141107-2010-02-27.html</a></div>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/02/27/mar-del-plata-ateos-de-la-argentina-unidos-por-la-libertad/#comments" title="Comentarios en Mar del Plata: Ateos de la Argentina, unidos por la &#8220;libertad&#8221;">2 Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1062"><a href="http://www.blog.argatea.com.ar/2010/01/13/francia-el-75-de-los-franceses-que-va-a-misa-disiente-de-la-doctrina-catolica/" rel="bookmark" title="Permanent Link to Francia: El 75% de los franceses que va a misa disiente de la doctrina católica">Francia: El 75% de los franceses que va a misa disiente de la doctrina católica</a></h3>
+				<small>Mi&eacute;rcoles, Enero 13th, 2010</small>
+
+				<div class="entry">
+					<h3><strong>Apenas 800.000 católicos aceptan en su totalidad el Magisterio.</strong></h3>
+<p>13 Enero 2010 Madrid 					             		             		            		     		                    		- Pablo J. Ginés<br />
+El diario francés «La Croix» publicó hace unos días los resultados de un sondeo estadístico del Instituto Francés de Opinión Pública sobre el catolicismo.</p>
+<p>Realizó 131.000 entrevistas durante 5 años:19.000 entrevistados se declararon católicos practicantes y 65.000 católicos no practicantes. La principal conclusión: <strong>apenas un 5 por ciento de franceses va a misa los domingos, y de los que se declaran practicantes, sólo uno de cada cuatro cree que la Iglesia debe mantener su enseñanza sobre la anticoncepción; el 68 por ciento cree que debe cambiar su enseñanza sobre el aborto y la mitad pide cambiar la doctrina sobre la homosexualidad.</strong></p>
+<p>Así pues, de 65 millones de franceses, los católicos que van a misa el domingo y aceptan plenamente las enseñanzas católicas son aproximadamente unos 800.000. De esos 3,2 millones de franceses practicantes, el 46 por ciento son jubilados, y otro 18 por ciento no tiene empleo.</p>
+<p>En un rebaño tan pequeño, la relevancia de las nuevas realidades eclesiales es superlativa. Por ejemplo, las grandes comunidades carismáticas como Bienaventuranzas, Emmanuel, Palabra de Vida o Camino Nuevo, que suman unas cien mil personas de doctrina fiel al Magisterio, representarían casi uno de cada ocho católicos «fieles».<br />
+En abril de 2008, el periodista Henri Tincq publicaba un libro titulado «Les catholiques», donde hablaba de ocho tipos de católicos franceses y calculaba que los practicantes eran un diez por ciento. Si son un 5 por ciento y sólo una cuarta parte de ellos acepta el Magisterio pleno, el rebaño queda muy reducido.</p>
+<p><strong>El 28 por ciento de los franceses se declara «sin religión» (aunque los sociólogos suelen advertir que esa categoría incluye a muchas personas que creen «en Dios pero no en la religión»).</strong> De estos arreligiosos, <strong>siete de cada diez están en desacuerdo con Sarkozy cuando habla del «papel civilizador de las religiones»</strong>; <strong>al 63 por ciento le molesta que hable de las «raíces cristianas de Francia»</strong> y sólo uno de cada tres piensa que «los mensajes y valores del cristianismo aún tienen actualidad». Uno de cada  diez arreligiosos incluso piensa que los católicos son demasiado visibles.<br />
+<strong>Francia, con Turquía y México, es uno de los pocos estados oficialmente laicista.</strong> En 2007, el obispo de Toulon, Dominique Rey, ligado a la Comunidad de Emmanuel, publicaba un libro sobre la masonería indicando que era poderosa en la política y la cultura y una causa de la descristianización del país.</p>
+<p><strong>Ocho tipos de fieles</strong></p>
+<p><strong>1/ Tradicionalistas</strong>: Sumando los lefebvrianos y los fieles a Roma se calcula que son unos 150.000, muy bien organizados.<br />
+<strong>2/ Nuevos Movimientos</strong>: Henri Tincq les llama «la infantería». Incluye aquí al Opus Dei, Regnum Christi, Comunión y Liberación, etc&#8230;<br />
+<strong>3/ Carismáticos</strong><span style="font-weight: bold;">:</span><span style="font-weight: bold;"> </span>Modernos en las formas pero ortodoxos en la moral, son unos 100.000 agrupados en 9 grandes comunidades.<br />
+<strong>4/ Los Ermitaños</strong>:<span style="font-weight: bold;"> </span>Tincq les llama «silenciosos».  No son muchos, pero son gente de oración, eremitas urbanos y contemplativos.<br />
+<strong>5/ Los Comprometidos</strong>: Son activistas solidarios. Se declaran católicos, aunque muchos no practican o disienten del Magisterio.<br />
+<strong>6/ Los Observantes</strong>: Tincq llama así a los que simplemente van a misa con cierta frecuencia, por cumplir, sin más ligazón con la Iglesia.<br />
+<strong>7/ Los Rebeldes:</strong><span style="font-weight: bold;"> </span>Dicen ser católicos, pero activamente se dedican a promover la desobediencia al Magisterio y su moral.<br />
+<strong>8/ Los del «Zapping»</strong>: Son los católicos no practicantes, que van y vienen para algún sacramento y viven una fe individualista.</p>
+<p><img src="http://www.larazon.es/images/uploads/image/filename/164395/c617x266_Sin_t_tulo-15555.jpg?1263344599" alt="" width="641" height="308" /></p>
+<p><strong><a href="http://www.larazon.es/documents/get_document/29122">Bajar Documento completo</a></strong></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/01/13/francia-el-75-de-los-franceses-que-va-a-misa-disiente-de-la-doctrina-catolica/#respond" title="Comentarios en Francia: El 75% de los franceses que va a misa disiente de la doctrina católica">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1056"><a href="http://www.blog.argatea.com.ar/2010/01/04/los-abogados-del-bergoglio-pedido-judicial-para-que-se-anule-matrimonio-gay/" rel="bookmark" title="Permanent Link to Los abogados del Bergoglio: Pedido judicial para que se anule matrimonio gay">Los abogados del Bergoglio: Pedido judicial para que se anule matrimonio gay</a></h3>
+				<small>Lunes, Enero 4th, 2010</small>
+
+				<div class="entry">
+					<h2>Matrimonio de “desobedientes”<strong></strong></h2>
+<p>Un abogado vinculado con el <strong><span style="color: #800000;">nacionalismo católico</span></strong> presentó ante la Cámara Nacional en lo Civil un recurso para que se declare nulo el matrimonio entre Freyre y Di Bello. Y pidió que los esposos y la gobernadora Fabiana Ríos sean investigados por “desobediencia”.</p>
+<p>El abogado reclamó que la Justicia secuestre el acta de matrimonio firmada en la ciudad de Ushuaia.</p>
+<p>El casamiento de <strong>Alex Freyre y José María Di Bello</strong> fue un “verdadero escándalo” que está cerca de configurar delito de “desobediencia”, argumentó el abogado Pedro Javier María Andereggen al momento de presentar, sobre el filo de la feria judicial, un pedido de nulidad del matrimonio ya formalizado.</p>
+<p class="margen0">El abogado vinculado fuertemente a los <span style="color: #800000;"><strong>sectores nacionalistas católicos de la revista Cabildo y la Asociación Cristo Sacerdote,</strong></span> entre otras agrupaciones, realizó el trámite ante la Cámara Nacional en lo Civil, a la que demandó que los flamantes esposos y la gobernadora de Tierra del Fuego, Fabiana Ríos, sean investigados penalmente por desobedientes. Andereggen, además, solicitó que la Justicia anule el matrimonio proceda a secuestrar “la partida y libreta”, aun cuando el segundo documento no existe porque el Registro Civil fueguino está en deuda con la entrega de libretas desde hace dos años.</p>
+<p>La presentación, que hasta el momento es la primera, sostiene que Freyre, Di Bello y Ríos, al realizar la boda, obraron “en abierta violación a la medida cautelar” dictada el 1º de diciembre por la Sala E de la Cámara Civil nacional. “En tales condiciones, la desobediencia judicial resulta evidente y manifiesta por parte de los Sres. Alejandro Freyre y José María Di Bello”, porque Freyre sería parte de la causa judicial abierta en la ciudad de Buenos Aires y por lo tanto habría sido notificado de la suspensión de su boda.</p>
+<p>La nueva demanda, sin embargo, es falaz al menos en ese término: la causa previa que refiere como impedimento no involucra a Freyre. Se trata, en realidad, según publicó este diario el 5 de diciembre, de la consecuencia de un pedido realizado el 17 de noviembre, y que la jueza María Rosa Bosio, del Juzgado Civil 92 había rechazado por improcedente (de la misma opinión fue la fiscal Raquel Mercante): Andereggen pedía la nulidad de la autorización de Seijas que posibilitaba el matrimonio, argumentando que esa magistrada no tenía competencia para revisar una cuestión de fondo relacionada con el Código Civil. Luego de que Bosio desestimara la demanda, Andereggen encontró aliados en la Sala E de la Cámara (integrada por los jueces Juan Carlos Dupuis, Fernando Racimo y Mario Calatayud), que el mismo 1º de diciembre, fecha del casamiento, dictó la medida cautelar y la notificó sin demoras al Registro Civil, mientras Freyre y Di Bello esperaban el inicio de la ceremonia.</p>
+<p>En lo que a Ríos refiere, Andereggen solicitó que se inicie una investigación por desobediencia para determinar “si existe imputación de ese delito también a la gobernadora”. Los contrayentes y la funcionaria habrían violado, según entiende el abogado también conocido porque en 2004 pidió el cierre de la exposición antológica de León Ferrari en el Centro Cultural Recoleta, la mismísima lógica. “Se extiende la demanda de nulidad planteada en estos autos, por lógica consecuencia, a este hecho nuevo, es decir al matrimonio celebrado en la ciudad de Ushuaia”, escribió Andereggen, quien pidió a la Cámara Civil que habilite la feria judicial para tratar su pedido de anulación del matrimonio.</p>
+<p>Alex Freyre y José María Di Bello lograron convertirse en marido y marido el lunes 28 de diciembre, en la que fue la última boda de 2009 celebrada en Ushuaia. Lo consiguieron luego de que el Registro Civil fueguino les denegara el turno para casarse y, así, les diera pie a presentar un recurso jerárquico, en el que, por el camino administrativo, solicitaron la intervención del Poder Ejecutivo provincial. Ríos, tras un dictamen favorable de los abogados de la gobernación, firmó el decreto que autorizó la celebración del matrimonio, habida cuenta del fallo de Seijas, el planteo de inconstitucionalidad del impedimento, y una recomendación presentada por el Inadi.</p>
+<p>Inicialmente, la pareja planeaba casarse en la ciudad de Buenos Aires el 1º de diciembre. En una decisión que sorprendió a propios y ajenos, el jefe de Gobierno Mauricio Macri no había apelado el fallo de la jueza porteña Seijas, por lo que ya había quedado firme y despejaba el camino para celebrar el matrimonio. Sin embargo, a horas del inicio de la ceremonia, un juzgado y la propia Cámara Civil del ámbito nacional decidieron suspenderla.</p>
+<p><img src="http://www.pagina12.com.ar/fotos/thumb/232/20100102/notas/na12fo10.jpg" alt="" width="232" height="161" /></p>
+<div id="permalink">Link a la nota:</p>
+<p><a href="http://www.pagina12.com.ar/imprimir/diario/sociedad/3-137927.html">http://www.pagina12.com.ar/imprimir/diario/sociedad/3-137927.html</a></div>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/entrevistas/" title="Ver todas las entradas en Entrevistas" rel="category tag">Entrevistas</a>,  <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a>,  <a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas en Personajes" rel="category tag">Personajes</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2010/01/04/los-abogados-del-bergoglio-pedido-judicial-para-que-se-anule-matrimonio-gay/#respond" title="Comentarios en Los abogados del Bergoglio: Pedido judicial para que se anule matrimonio gay">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-1004"><a href="http://www.blog.argatea.com.ar/2009/08/23/bendita-soja/" rel="bookmark" title="Permanent Link to BENDITA SOJA">BENDITA SOJA</a></h3>
+				<small>Domingo, Agosto 23rd, 2009</small>
+
+				<div class="entry">
+					<p>9/07/08</p>
+<p><img id="BLOGGER_PHOTO_ID_5221152986695560050" style="margin: 0px 0px 10px 10px; float: right;" src="http://3.bp.blogspot.com/_SBP5ycDJZhM/SHVC-oH1a3I/AAAAAAAACSs/g5iOpjjkSHs/s400/pecado.jpg" border="0" alt="" width="244" height="343" /></p>
+<h3 class="post-title entry-title"><strong> </strong></h3>
+<div class="post-body entry-content"><strong><a href="http://3.bp.blogspot.com/_SBP5ycDJZhM/SHVC-oH1a3I/AAAAAAAACSs/g5iOpjjkSHs/s1600-h/pecado.jpg"></a></strong><a href="http://lomasnuevoolomasviejo-besuzzo.blogspot.com/">http://lomasnuevoolomasviejo-besuzzo.blogspot.com/</a></p>
+<p><strong></strong></p>
+<div><a href="http://lomasnuevoolomasviejo-besuzzo.blogspot.com/2008_07_01_archive.html"><span style="font-size: 180%; font-family: trebuchet ms;"><strong><strong><em>Bendita soja</em></strong></strong></span></a></div>
+<div><span style="font-size: 180%; font-family: trebuchet ms;"><strong><strong><em><br />
+</em></strong></strong></span><strong>Por Horacio Verbitsky<br />
+El Grupo de Reflexión Rural, que orienta el militante de la resistencia peronista Jorge Eduardo Rulli, reveló que <em><span style="color: #ff0000;"><strong>una rama de la Federación Agraria Argentina, en combinación con la transnacional Monsanto, introdujo el cultivo de su variedad transgénica en el país y que la Iglesia Católica tiene interés directo en el negocio</strong>. </span></em>En el editorial de su programa Horizonte Sur que, pese a su posición hipercrítica hacia el gobierno, se sigue transmitiendo por Radio Nacional, <strong><em><span style="color: #ff6666;"><span style="color: #ff0000;">Rulli recordó que desde la Central de los Trabajadores Argentinos, CTA, denunció a la Federación Agraria, a fines de la década pasada, “por haber multiplicado las primeras semillas de soja RR en combinación con Monsanto</span>”</span></em></strong>. En ese momento el secretario general de la CTA era Víctor De Gennaro. Ante la desmentida de Buzzi<a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVMcb0BRcI/AAAAAAAACUE/HU9yb9E7Gcg/s1600-h/images.jpg"><img id="BLOGGER_PHOTO_ID_5221163394391950786" style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVMcb0BRcI/AAAAAAAACUE/HU9yb9E7Gcg/s400/images.jpg" border="0" alt="" /></a><br />
+el Grupo de Reflexión Rural emprendió una investigación en <strong><em><span style="color: #ff0000;">el archivo de la Federación Agraria. Allí descubrió que el negocio con las semillas de Monsanto<a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVLSejpLnI/AAAAAAAACT8/bJ2WhLEHSuw/s1600-h/250px-MonsantoLogo.png"><img id="BLOGGER_PHOTO_ID_5221162123818249842" style="margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVLSejpLnI/AAAAAAAACT8/bJ2WhLEHSuw/s400/250px-MonsantoLogo.png" border="0" alt="" /></a> lo había realizado AFA, “una rama de la Federación Agraria, en manos de los pro-chinos”. Es decir, de la fracción que conducen el presidente de la Federación Agraria de Entre Ríos, Alfredo De Angeli<a href="http://1.bp.blogspot.com/_SBP5ycDJZhM/SHVGic6sPrI/AAAAAAAACTk/fQl8o-B14Yo/s1600-h/damdgeli.jpg"><img id="BLOGGER_PHOTO_ID_5221156900697816754" style="margin: 0px 0px 10px 10px; float: right;" src="http://1.bp.blogspot.com/_SBP5ycDJZhM/SHVGic6sPrI/AAAAAAAACTk/fQl8o-B14Yo/s400/damdgeli.jpg" border="0" alt="" width="276" height="138" /></a>, y su vicepresidente y responsable del Partido Comunista Revolucionario, Juan Alberto Echeverría, con varias condenas por evasión fiscal. Rulli sostiene que “Buzzi lo sabía y nos podría haber evitado tanta búsqueda y esfuerzo”. El orientador del Grupo de Reflexión Rural también recordó que “hace ocho o nueve años”, durante un retiro cerrado de Caritas, le entregó en mano al obispo Jorge Casaretto<br />
+“una carpeta con evidencias científicas sobre los daños que la ingesta de soja ocasiona en el </span></em></strong></strong><strong><strong><em><span style="color: #ff0000;"><a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGXhz8HrI/AAAAAAAACS8/8LBytBqWjnM/s1600-h/cassretto.jpg"><img id="BLOGGER_PHOTO_ID_5221156713033113266" class="alignright" style="border: 0pt none; margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGXhz8HrI/AAAAAAAACS8/8LBytBqWjnM/s400/cassretto.jpg" border="0" alt="" width="260" height="206" /></a></span></em></strong></strong><strong><strong><em><span style="color: #ff0000;">desarrollo neurológico y hormonal de los niños”.</span></em></strong> </strong></div>
+<div><strong>Por eso, el obispo “no puede ignorar las consecuencias de aquellos supuestos planes solidarios que implementaba la institución que presidía”. </strong></div>
+<div><strong>Se refiere a los cursos que Caritas organizó en todo el país para incluir la soja en la dieta diaria. </strong></div>
+<div><strong>Rulli también discutió el tema con el <span style="color: #ff0000;"><em><strong>ingeniero<br />
+Eduardo Luis Serantes, presidente de la institución de beneficencia de la Iglesia Católica. “Me respondió con desplante que contaba con todo el respaldo de la Secretaría de Agricultura y del gobierno”, en la gestión de Fernando </strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong><a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGiMOK9cI/AAAAAAAACTc/woZxoNBe7mw/s1600-h/serantes.jpg"><img id="BLOGGER_PHOTO_ID_5221156896216118722" style="margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGiMOK9cI/AAAAAAAACTc/woZxoNBe7mw/s400/serantes.jpg" border="0" alt="" width="239" height="209" /></a></strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong>de la Rúa. Rulli añade que Serantes sigue siendo presidente de Caritas y al mismo tiempo director de la empresa de agronegocios Cazenave y Asociados,</strong></em></span></strong></div>
+<div><strong><span style="color: #ff0000;"><em><strong><a href="http://www.e-cazenave.com.ar/"> http://www.e-cazenave.com.ar/</a> </strong></em></span></strong></div>
+<div><strong><span style="color: #ff0000;"><em><strong>una consultora que brinda servicios agropecuarios a empresas exportadoras. También es responsable del fondo agrícola de inversión de Molinos y asesor de empresas agroindustriales y de servicios, como Dow Agro Sciences SA. En su publicación oficial Huellas de Esperanza Caritas anunció recetas de milanesas de soja y en las páginas interiores encomió los planes de “ayuda solidaria” organizados por las grandes empresas sojeras y un proyecto de fabricación de hamburguesas de soja en Entre Ríos, en colaboración con Aapresid, la Asociación de Siembra Directa, promotora del modelo sojero. En la semana previa al acto del 25 de mayo de este año en Rosario, Casaretto y Serantes </strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong><a href="http://4.bp.blogspot.com/_SBP5ycDJZhM/SHVGiT9zZgI/AAAAAAAACTs/l89uOTJfggk/s1600-h/cea.jpg"><img id="BLOGGER_PHOTO_ID_5221156898294949378" style="margin: 0px 0px 10px 10px; float: right;" src="http://4.bp.blogspot.com/_SBP5ycDJZhM/SHVGiT9zZgI/AAAAAAAACTs/l89uOTJfggk/s400/cea.jpg" border="0" alt="" width="142" height="165" /></a></strong></em></span></strong><strong><span style="color: #ff0000;"><em><strong>recibieron en San Isidro al presidente de la Sociedad Rural, Luciano Miguens, quien les pidió ayuda para forzar al gobierno a una negociación. La respuesta fue la declaración del Episcopado que instó al diálogo, y que la Comisión de Enlace mencionó para explicar la suspensión del lockout patronal. Fue la primera declaración en muchos años en la que la conducción episcopal no mencionó el grave problema de la pobreza.,<a href="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGYNLWNJI/AAAAAAAACTU/1udKBI7Bpto/s1600-h/huellas-logo.gif"><img id="BLOGGER_PHOTO_ID_5221156724674016402" class="alignleft" style="margin: 0px 0px 10px 10px; float: right;" src="http://2.bp.blogspot.com/_SBP5ycDJZhM/SHVGYNLWNJI/AAAAAAAACTU/1udKBI7Bpto/s400/huellas-logo.gif" border="0" alt="" width="194" height="47" /></a><br />
+</strong></em></span></strong></div>
+<p><strong><em><strong></strong></em> </strong></p>
+</div>
+<div class="addthis_toolbox addthis_default_style"><strong><a class="addthis_button_facebook at300b" title="Send to Facebook" href="http://www.addthis.com/bookmark.php?pub=walterbesuzzo&amp;v=250&amp;source=tbx-250&amp;s=facebook&amp;url=http%3A%2F%2Flomasnuevoolomasviejo-besuzzo.blogspot.com%2F2008%2F07%2Fbendita-soja.html&amp;title=Bendita%20soja&amp;content=" target="_blank"></a> <a class="addthis_button_email at300b" title="Email"></a> <a class="addthis_button_favorites at300b" title="Save to Favorites"></a> <a class="addthis_button_print at300b" title="Print"></a> </strong></div>
+<p><a href="http://lomasnuevoolomasviejo-besuzzo.blogspot.com/2008_07_01_archive.html"><span class="post-author vcard"><strong><br />
+</strong></span></a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a>,  <a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas en Personajes" rel="category tag">Personajes</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2009/08/23/bendita-soja/#respond" title="Comentarios en BENDITA SOJA">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-999"><a href="http://www.blog.argatea.com.ar/2009/08/13/victor-heredia-le-contesto-al-polemico-cura-de-malargue-por-la-censura-a-los-artistas/" rel="bookmark" title="Permanent Link to Víctor Heredia le contestó al polémico cura de Malargüe por la censura a los artistas">Víctor Heredia le contestó al polémico cura de Malargüe por la censura a los artistas</a></h3>
+				<small>Jueves, Agosto 13th, 2009</small>
+
+				<div class="entry">
+					<p>25 de Marzo de 2009 |12:10<br />
+Víctor Heredia le contestó al polémico cura de Malargüe por la censura a los artistas<br />
+El popular intérprete hizo llegar a MDZ una nota donde se &#8220;apena&#8221; de la tergiversación de la que ha sido objeto. Asimismo, defiende su obra Taki-Ongoy y celebra la difusión de la carta que en 2004 el párroco le enviara al entonces intendente Rodríguez pidiendo la censura de diversos artistas.<br />
+por MDZ<br />
+El músico y escritor Víctor Heredia se hizo eco de la polémica reflotada por MDZ al publicar la carta que en 2004 le dirigió el cura párroco de Malargüe, Ramiro Sáenz, al entonces intendente departamental Raúl Rodríguez, pidiendo la censura de diversos artistas, entre otros, el propio Heredia.<br />
+El artista confiesa estar apenado por la “miopía de quién investido por un poder eclesiástico se arroga el derecho a censurar y tergiversar, como en este caso específico lo hace el párroco Ramiro Sáenz”. Luego, asegura que esa costumbre debe haber sido “heredada de sus ancestros inquisidores, por los cuales, huelga decirlo ya pidió perdón la iglesia misma a raí¬z de los atropellos y crímenes cometidos en el mundo”.<br />
+Más adelante, y luego de defender su obra Taky Ongoy, que asegura no es “anticristiana” sino de denuncia a los “falsos cristianos quienes bajo la excusa de catequizar robaban el oro de nuestros pueblos originarios mediante torturas y crímenes aberrantes que no invento yo”, para lo cual cita textos y autores.<br />
+Fiel a su pluma combativa, Heredia se permite asimismo darle la razón a Saénz <strong>“en una sola cosa”, y asegura: “soy un hombre peligroso, lo soy tanto como lo es la verdad”. Y argumenta aún más diciendo que ni Dios, ni su hijo Jesús defenderían la censura.</strong></p>
+<p><!--[if gte mso 9]--> Finalmente, Heredia toma partido en otra de las polémicas suscitadas en torno a la publicación de MDZ: la oportunidad de la difusión de un texto de hace cuatro años. Y allí,el artista dice: “<strong>Su carta recién aparece y sin embargo a pesar del tiempo no es vieja, sigue ofendiendo al progreso y desarrollo de un país que apuesta por la diversidad y la convivencia. Por mi parte seguiré trabajando para eso”.</strong> Con ello, finaliza su argumentación que sin duda no hace más que generar más polémica <strong>en torno de la controvertida figura del padre Ramiro Sáenz.</strong></p>
+<p>Link permanente: <strong><a href="http://www.mdzol.com/mdz/nota/113816">http://www.mdzol.com/mdz/nota/113816</a></strong></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2009/08/13/victor-heredia-le-contesto-al-polemico-cura-de-malargue-por-la-censura-a-los-artistas/#respond" title="Comentarios en Víctor Heredia le contestó al polémico cura de Malargüe por la censura a los artistas">No Comments &#187;</a></p>
+
+			</div>
+
+				<div class="post">
+				<h3 id="post-993"><a href="http://www.blog.argatea.com.ar/2009/08/03/argentina-pastores-del-orden/" rel="bookmark" title="Permanent Link to Argentina: Pastores del orden">Argentina: Pastores del orden</a></h3>
+				<small>Lunes, Agosto 3rd, 2009</small>
+
+				<div class="entry">
+					<p><!--[endif]--></p>
+<table class="MsoTableGrid" style="border: medium none; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="border: 1pt solid windowtext; padding: 0cm 5.4pt; width: 398.1pt;" width="531" valign="top">
+<p class="MsoNormal" style="text-align: justify;">Romina De Luca (MOMARANDU)</p>
+<p class="MsoNormal" style="text-align: justify;">Hace más de un año que se le   dio sanción a la Ley 26.150, más conocida como “Programa Nacional de   Educación Sexual Integral”. Se trata de un intento de reglamentar su   enseñanza obligatoria desde el nivel inicial hasta el superior.</p>
+<p class="MsoNormal" style="text-align: justify;">El kirchnerismo, una vez más,   quiso hacer alarde de un supuesto progresismo en materia educativa.</p>
+<p class="MsoNormal" style="text-align: justify;">La Iglesia católica reaccionó   imponiendo sus condiciones y aprovechó para avanzar en su armado político y   cultural. En primer término, bloqueó el tratamiento del tema. Cuando su   salida se mostró inevitable, logró varios gobiernos provinciales tardaran en   adherir al proyecto. Por último, y como instancia final, garantizó una ley a   su medida. Como arma de combate, editó su propio libro de educación sexual.   Más vale tarde… El texto legal establece, a modo genérico, el derecho de los   alumnos a recibir educación sexual integral en los establecimientos   educativos. La categoría “integral” implica que se entiende a la sexualidad   como parte del ser humano y por lo tanto su tratamiento debe darse en todas   las etapas y fases de la vida. La ley sólo formula lo que podríamos llamar   declaraciones de principios, donde indica la necesidad de transmitir   conocimientos pertinentes, precisos y confiables sobre los distintos aspectos   de la sexualidad.</p>
+<p class="MsoNormal" style="text-align: justify;">Al mismo tiempo se fomenta la   promoción de conductas “responsables” para la prevención de problemas de   salud sexual y/o reproductiva. Para su implementación se dispuso todo el   tiempo del mundo. El Ministerio de la Nación dispone de un plazo mínimo de   180 días para la elaboración de los contenidos curriculares que las   provincias deben tomar como base para luego elaborar sus propios contenidos.   A tales efectos, conformó una Comisión Interdisciplinaria, que estuvo más de   seis meses paralizada. A su vez, se previó una implementación “gradual y   progresiva, con un plazo de hasta cuatro años” (artículo 10º). No obstante,   estos puntos resultan menores frente al famoso artículo 5º. En éste, se   dispone que los contenidos de enseñanza deberán estar en consonancia con los   “idearios” de cada comunidad educativa. Tal como sospechará el lector, este   punto abre la puerta para que las escuelas religiosas elaboren sus propios   proyectos.</p>
+<h3 class="MsoNormal" style="text-align: justify;">Este artículo no aparece en la   ley por “gracia divina”, sino que responde a las presiones políticas del   clero. Veamos algunos ejemplos significativos. Por la gracia del señor En la   Ciudad de Buenos Aires, durante el año 2004, la Legislatura trató el proyecto   de “educación sexual”. Allí, la Iglesia libró una batalla para lograr que   cada escuela privada pudiera elaborar su propio proyecto educativo.1 Si bien   este objetivo puede parecer “defensivo”, en realidad equivale a una cobertura   legal para que los sacerdotes operen ideológicamente.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">Para llevar adelante su   propuesta, el clero se valió de los legisladores macristas.2 La organización   clerical ACIERA expresó que Mauricio representaba la concepción de la   “educación sexual basada en los valores del reino de Dios” con la familia   como principal actor.3 Para ambos, la enseñanza sexual debería ser una tarea   privativa de la familia en tanto ella constituiría el agente educador   natural; además debería impartirse a partir del séptimo grado. Así, el   proyecto PRO se limitaba a proponer talleres de formación y orientación para   padres y docentes.4 En diciembre de 2004, la sesión dedicada al tema terminó   en escándalo cuando las dos partes, oficialismo y oposición, no dieron   quórum.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">En ese momento, el futuro jefe   de gobierno porteño, Mauricio Macri operó para que sus legisladores no   votaran el proyecto K.5 Sin embargo, finalmente el proyecto se aprobó con la   inclusión del polémico artículo 5° de la ley nacional, que en este caso,   llevó el número 8º, en 2006. Luego de la sanción, ambos “contendientes” (el   kirchnerismo y el macrismo) se felicitaron.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">La Provincia de Buenos Aires   aprobó un proyecto de educación sexual obligatoria en todos los niveles, en   2004. Sin embargo, éste no prosperó puesto que la Iglesia logró que fuera   vetado por Felipe Solá. Hoy día, la Provincia no ha avanzado aún en la promulgación   de ningún proyecto. Producto de la discusión de 2004, sólo posee un programa   piloto que se aplica en 75 escuelas. Todavía no se sancionó una ley   específica para el conjunto de la provincia y solamente se han introducido   algunos contenidos en otras materias como “construcción de ciudadanía”.   Adriana Puiggrós, la otrora “progresista”, tuvo un alineamiento poco ambiguo:   “hay contenidos mínimos, en función de la libertad de conciencia, hay un   margen de libertad para que las escuelas elijan”.6 Es decir, pretende   obstaculizar todo avance contra el clero.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">En Córdoba, el Ministro de   Educación, Eduardo Mundet, declaró, a fines del 2006, que no se implementaría   la Ley durante el 2007, porque los docentes, según él, no estarían aún   “capacitados”. Recién en octubre del corriente año se incorporaron dos   documentos de base para la discusión sobre los contenidos.7 La concreción del   proyecto aparece como algo remoto. Similar es la situación de Chaco.8 En la   provincia de Julio Cobos, el “ladero” de Cristina, tampoco se avanzó   demasiado. La ministra de Educación, Emma Cunietti, se reunió con los   referentes del Consejo de Educación Católica (CONSEC).</h3>
+<h3 class="MsoNormal" style="text-align: justify;">Allí, la Iglesia, en la voz del   padre Augusto Baracchini, sostuvo que no se oponía a la Ley, pero que ésta   debía propugnar el sexo “con amor”.9 “Amor”, esconde, en el lenguaje   clerical, la obligación del matrimonio.</h3>
+<h3 class="MsoNormal" style="text-align: justify;">En Corrientes directamente se   desconocía el asunto. Hasta agosto, la provincia no había adherido a la Ley   Nacional. Aquí también la Iglesia demostró una gran capacidad militante: el   obispo Carmelo Giaquinta llamó a la desobediencia civil contra la nueva   ley.10 Por su parte, el Centro de Investigación y Capacitación Social, de   orientación católica, desarrolló distintas actividades promoviendo una sola   voz: el Estado no debe olvidarse de la familia.11</h3>
+<h3 class="MsoNormal" style="text-align: justify;">Entre Ríos merece un capítulo   aparte. La ley 9.501, que incorporaba la educación sexual, fue sancionada   tempranamente: en el 2003. Pero, el gobernador Jorge Busti, junto a la   Iglesia, impidió su ejecución. Al punto tal que, en 2005, sectores laicos   iniciaron una campaña para interpelar al gobernador.12 La Iglesia respondió   con un contragolpe y se encargó de recolectar 15.000 firmas que fueron   presentadas a la cámara de senadores para que se revisara el proyecto   original.13 Exigía que se incorporaran una serie de reformas: reconocimiento   de los padres como principales educadores de sus hijos, eliminación de las   menciones de género y de toda alusión al problema de los embarazos no   deseados y, por último, el rechazo a la participación de profesionales de la   salud y de ciencias sociales en la elaboración de los contenidos. En el mes   de agosto, sin debate, las modificaciones fueron aprobadas.14 Por su parte,   el proyecto K tampoco resulta progresista y evidencia sus limitaciones. No   sólo por la presencia de cláusulas que habilitan a las comunidades religiosas   a enseñar lo que quieran sino también porque un debate serio sobre la   sexualidad no se debería limitar a la resolución individual de los problemas.   El aborto libre y gratuito como opción debería aparecer en la agenda.15 Sin   embargo, no aparece en ningún lado y en su reemplazo se ofrece la vasectomía,   es decir, la mutilación.</h3>
+<p class="MsoNormal" style="text-align: justify;">
+<p class="MsoNormal" style="text-align: justify;">El reino de las tinieblas</p>
+<p class="MsoNormal" style="text-align: justify;">La Iglesia no sólo resistió los   embates, sino que tomó la ofensiva editando su propio manual de educación   sexual: Educación para el amor.16 Allí, se imparten las directivas   educacionales a directivos, docentes y padres.17 Bien, veamos cómo se   entienden la sexualidad allí. El manual explica la cuestión como una forma   positiva si va unida a los principios morales de la familia patriarcal   jerárquica cristiana y destinada a la procreación. Para la juventud se   pregona el pudor, la virginidad y la castidad.18 En un libro presentado como   orientador sobre educación sexual, uno esperaría que se desarrollaran temas   básicos en la materia, tal como postulan, “científicamente”. Sin embargo, la   concepción aparece como una obra de creación divina, mágica. Ella sería el   primer objetivo primero de la mujer-madre tal como María, en tanto, “la   femineidad se manifiesta y se revela hasta el fondo, mediante la maternidad”   (p. 30 y 108). Así, el rol de la mujer en la sociedad se subordina a mera   parturienta. La única forma “normal” de familia es la patriarcal. Las otras   formas son “no modélicas”, que el señor acoge sólo por su divina gracia y   capacidad de perdón (p. 53-54 y 72). Es decir, los homosexuales deberían   pasar su vida (y la eternidad posterior…) en penitencia. El SIDA aparece en   el mismo punto en el que se desarrolla la homosexualidad (p. 30). No hay que   ser muy suspicaces para advertir la relación que se traza entre ambos. En   relación a los métodos anticonceptivos, se presentan sus peligros en lugar de   sus beneficios. En todo caso, y como última instancia, se avalan los métodos   naturales que, como todos sabemos, tienen una efectividad más que dudosa.</p>
+<p class="MsoNormal" style="text-align: justify;">La Iglesia propone así una   visión mística del mundo y de la sexualidad. Se encarga de negar el carácter   placentero del sexo y lo reduce a la procreación dentro de la familia   patriarcal. No debería llamarnos mucho la atención. Encarnando la   justificación general de las relaciones de explotación, machaca sobre dos   puntos: la familia y el sufrimiento o lo que es lo mismo, el orden y la   explotación.</p>
+<p class="MsoNormal" style="text-align: justify;">El kirchnerismo ha intentado   realizar algunas tibias reformas de tipo progresista, en particular en   materia cultural. Sin embargo, como podemos observar, la Iglesia ha logrado   elaborar una respuesta contundente. Ha organizado sus fuerzas no sólo para   obstaculizar los tímidos proyectos presidenciales. Para ello estableció   alianzas con sectores de la derecha argentina, pero también con gobernadores   oficialistas, como Felipe Solá o Jorge Busti. Asimismo, no se limitó a   obstaculizar el programa K, sino que tomó la ofensiva ideológica, como   organización cultural que es. En ese sentido, elaboró los contenidos y las   herramientas para difundirlo, algo que el oficialismo no hizo. La “acometida”   K se mostró sumamente endeble, revelando dos cuestiones. En primer lugar, al   vitalidad de la Iglesia como partido político. En segundo, la debilidad del   armado cultural educacional kirchnerista. En el momento en que necesitaba   expropiar políticamente a las fuerzas que brotaron del Argentinazo, Kirchner   se animó a desafiar ideológicamente a la Iglesia, llegando a amagar con la   despenalización del aborto como táctica electoral. La profundización del   reflujo libra a la pareja presidencial de tales avatares, como la presidenta   acaba de confirmar, y deja a la educación a merced del avance clerical.</p>
+<p class="MsoNormal" style="text-align: justify;">Notas:</p>
+<p class="MsoNormal" style="text-align: justify;">1) Ley nº 2.110, sancionada el   12/10/2006, BOCBA Nº 2569 del 20/11/2006. http://www.cedom. gov.ar</p>
+<p class="MsoNormal" style="text-align: justify;">2) Fue impulsado por Jorge   Enríquez, Santiago de Estrada y Juan Carlos Lynch y recibió en la Cámara el   despacho por minoría.</p>
+<p class="MsoNormal" style="text-align: justify;">3) ACIERA: Alianza Cristiana de   Iglesias Evangélicas de la República Argentina, está conformada por diez mil   quinientas iglesias. Documentos emitidos el 05, 16 y 25 de noviembre de 2004.   www.aciera. org/declaraciones/educacionsexual.doc</p>
+<p class="MsoNormal" style="text-align: justify;">4) Véase   www.diariodegestion.com.ar/index.php/jorgeenriquez/ 2006/06/08</p>
+<p class="MsoNormal" style="text-align: justify;">5) Diario La Nación, 15/10/2004   www.lanacion. com.ar</p>
+<p class="MsoNormal" style="text-align: justify;">6) Declaraciones del 10/07/2007   en www.abc.gov.ar</p>
+<p class="MsoNormal" style="text-align: justify;">7) Véase www.cba.gov.ar</p>
+<p class="MsoNormal" style="text-align: justify;">) Ley nº 5.811 más conocida   como Ley Dumrauf.</p>
+<p class="MsoNormal" style="text-align: justify;">9) “Estamos de acuerdo con una   educación integral, y la sexualidad es una faceta importante. Además la   iglesia en sus escuelas hace muchos años que esta dando educación sexual,   pero como algo integral planteando dos morales, una objetiva y otra   subjetiva. Sobre la primera es que trabajamos, planteando un ideal de sexo   con amor, porque últimamente se ha vaciado el amor del sexo” en: http//   weblog.mendoza.edu.ar</p>
+<p class="MsoNormal" style="text-align: justify;">10) Ver:   www.corrientesonline.com/2005/11/07/</p>
+<p class="MsoNormal" style="text-align: justify;">11) Ver:   http://cicsoboletin.blogspot.com/2007/08</p>
+<p class="MsoNormal" style="text-align: justify;">12) Ver:   www.cronistadigital.com.ar, 21/05/2007</p>
+<p class="MsoNormal" style="text-align: justify;">13)   www.larepublicadigital.com.ar</p>
+<p class="MsoNormal" style="text-align: justify;">14) Véase www.mujereshoy.com</p>
+<p class="MsoNormal" style="text-align: justify;">15) Véase Rosana López   Rodríguez: “Maternidad y Barbarie”, en El Aromo, nº 17, diciembre de 2004.</p>
+<p class="MsoNormal" style="text-align: justify;">16) Conferencia Episcopal   Argentina: Educación para el amor. Plan General y Cartillas, Buenos Aires,   CEA, 2006.</p>
+<p class="MsoNormal" style="text-align: justify;">17) Idem, p. 5.</p>
+<p class="MsoNormal" style="text-align: justify;">18) Recuperan los principios   fijados por el Papa Juan Pablo II en la Familiares Consortio, nº 37, en   Ibidem, p.11.</p>
+<p class="MsoNormal" style="text-align: justify;">
+<p class="MsoNormal" style="text-align: justify;">Romina De Luca es integrante   del Grupo de Investigación de Historia de la Educación Argentina – CEICS</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><a href="http://www.argenpress.info/2009/08/argentina-pastores-del-orden.html">http://www.argenpress.info/2009/08/argentina-pastores-del-orden.html</a></p>
+				</div>
+
+				<p class="postmetadata">Posted in <a href="http://www.blog.argatea.com.ar/category/entrevistas/" title="Ver todas las entradas en Entrevistas" rel="category tag">Entrevistas</a>,  <a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas en General" rel="category tag">General</a>,  <a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas en Investigaciones" rel="category tag">Investigaciones</a>,  <a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas en Personajes" rel="category tag">Personajes</a>,  <a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas en Separación Iglesia-Estado" rel="category tag">Separación Iglesia-Estado</a> |   <a href="http://www.blog.argatea.com.ar/2009/08/03/argentina-pastores-del-orden/#respond" title="Comentarios en Argentina: Pastores del orden">No Comments &#187;</a></p>
+
+			</div>
+
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/page/2/">&laquo; Previous Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+
+	
+	</div>
+
+	<div id="sidebar">
+		<ul>
+					<li id="search" class="widget widget_search">			<form id="searchform" method="get" action="http://www.blog.argatea.com.ar">
+			<div>
+			<input type="text" name="s" id="s" size="15" /><br />
+			<input type="submit" value="Buscar" />
+			</div>
+			</form>
+		</li><li id="linkcat-372" class="widget widget_links"><h2 class="widgettitle"></h2>
+	<ul>
+<li><a href="http://ateus.org/?page_id=32">Ateus de Catalunya</a></li>
+<li><a href="http://blog-sin-dioses.blogspot.com/" title="No dejes de visitar nuestro sitio principal en www.sindioses.org">Blog Sin Dioses</a></li>
+<li><a href="http://www.foroateo.com/">Cyberateos</a></li>
+<li><a href="http://www.federacionatea.org/">FIDA</a></li>
+<li><a href="http://es.groups.yahoo.com/group/laicismohoy/">Laicismo hoy</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-370" class="widget widget_links"><h2 class="widgettitle">Enlaces</h2>
+	<ul>
+<li><a href="http://www.atheistalliance.org/About-AAI.html" title="El propósito de AAI es trabajar por una sociedad que apoya y respeta una visión del mundo basada en los valores de la razón, el empirismo y el naturalismo, y protege y respeta la separación de la religión y el gobierno. (Aprobada enero 2009)" target="_top">AAI Atheist Alliance International</a></li>
+<li><a href="http://www.positiveatheism.org/tocindia.htm#INTRO" title="Atheism in India">Atheism in India</a></li>
+<li><a href="http://www.redcritica.org/" title="Red de Blogs Ateos">Red Atea</a></li>
+<li><a href="http://www.formauri.es/personal/enlacesCriticos/" title="Red por una informaciÃ³n crÃ­tica">Sitios Criticos y Escepticos</a></li>
+<li><a href="http://www.terceracultura.net/tc/" title="Cultura 3.0 es una iniciativa dedicada a propagar la ciencia de vanguardia y los valores seculares en nuestra sociedad. Nuestros intereses abarcan la cultura científica, política, tecnológica, literaria, artística y lúdica, enfocados desde una nueva conci" target="_top">Tercera Cultura</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-409" class="widget widget_links"><h2 class="widgettitle">Laicismo</h2>
+	<ul>
+<li><a href="http://www.apostasiacolectiva.org/" title="El colectivo Apostasía Colectiva quiere expresar un enérgico repudio a las expresiones del arzobispo de Granada, quien en una reciente homilía afirmó que &#8220;si la mujer aborta, entonces el hombre puede abusar de ella&#8221; y a la vez que comparó al aborto con el">Apostasía Colectiva en Argentina</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-698" class="widget widget_links"><h2 class="widgettitle">Periodismo Para Pensar</h2>
+	<ul>
+<li><a href="http://www.elenfoqueweb.com.ar/">elenfoqueweb</a></li>
+<li><a href="http://www.larespublica.com/">la rezpublica</a></li>
+
+	</ul>
+</li>
+<li id="archives" class="widget widget_archive"><h2 class="widgettitle">Archivos</h2>		<ul>
+			<li><a href='http://www.blog.argatea.com.ar/2010/08/' title='Agosto 2010'>Agosto 2010</a>&nbsp;(11)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/07/' title='Julio 2010'>Julio 2010</a>&nbsp;(29)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/06/' title='Junio 2010'>Junio 2010</a>&nbsp;(19)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/05/' title='Mayo 2010'>Mayo 2010</a>&nbsp;(12)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/04/' title='Abril 2010'>Abril 2010</a>&nbsp;(24)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/03/' title='Marzo 2010'>Marzo 2010</a>&nbsp;(20)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/02/' title='Febrero 2010'>Febrero 2010</a>&nbsp;(27)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2010/01/' title='Enero 2010'>Enero 2010</a>&nbsp;(18)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/12/' title='Diciembre 2009'>Diciembre 2009</a>&nbsp;(10)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/11/' title='Noviembre 2009'>Noviembre 2009</a>&nbsp;(10)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/10/' title='Octubre 2009'>Octubre 2009</a>&nbsp;(13)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/09/' title='Septiembre 2009'>Septiembre 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/08/' title='Agosto 2009'>Agosto 2009</a>&nbsp;(21)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/07/' title='Julio 2009'>Julio 2009</a>&nbsp;(16)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/06/' title='Junio 2009'>Junio 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/05/' title='Mayo 2009'>Mayo 2009</a>&nbsp;(9)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/04/' title='Abril 2009'>Abril 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/03/' title='Marzo 2009'>Marzo 2009</a>&nbsp;(5)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/02/' title='Febrero 2009'>Febrero 2009</a>&nbsp;(12)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2009/01/' title='Enero 2009'>Enero 2009</a>&nbsp;(17)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/12/' title='Diciembre 2008'>Diciembre 2008</a>&nbsp;(37)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/11/' title='Noviembre 2008'>Noviembre 2008</a>&nbsp;(27)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/10/' title='Octubre 2008'>Octubre 2008</a>&nbsp;(7)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/09/' title='Septiembre 2008'>Septiembre 2008</a>&nbsp;(26)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/08/' title='Agosto 2008'>Agosto 2008</a>&nbsp;(40)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/07/' title='Julio 2008'>Julio 2008</a>&nbsp;(17)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/06/' title='Junio 2008'>Junio 2008</a>&nbsp;(34)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/05/' title='Mayo 2008'>Mayo 2008</a>&nbsp;(41)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/04/' title='Abril 2008'>Abril 2008</a>&nbsp;(32)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/03/' title='Marzo 2008'>Marzo 2008</a>&nbsp;(37)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/02/' title='Febrero 2008'>Febrero 2008</a>&nbsp;(28)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2008/01/' title='Enero 2008'>Enero 2008</a>&nbsp;(43)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/12/' title='Diciembre 2007'>Diciembre 2007</a>&nbsp;(26)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/11/' title='Noviembre 2007'>Noviembre 2007</a>&nbsp;(22)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/10/' title='Octubre 2007'>Octubre 2007</a>&nbsp;(28)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/09/' title='Septiembre 2007'>Septiembre 2007</a>&nbsp;(29)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/08/' title='Agosto 2007'>Agosto 2007</a>&nbsp;(27)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/07/' title='Julio 2007'>Julio 2007</a>&nbsp;(21)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/06/' title='Junio 2007'>Junio 2007</a>&nbsp;(42)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/05/' title='Mayo 2007'>Mayo 2007</a>&nbsp;(36)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/04/' title='Abril 2007'>Abril 2007</a>&nbsp;(54)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/03/' title='Marzo 2007'>Marzo 2007</a>&nbsp;(34)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/02/' title='Febrero 2007'>Febrero 2007</a>&nbsp;(34)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2007/01/' title='Enero 2007'>Enero 2007</a>&nbsp;(39)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/12/' title='Diciembre 2006'>Diciembre 2006</a>&nbsp;(12)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/11/' title='Noviembre 2006'>Noviembre 2006</a>&nbsp;(17)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/10/' title='Octubre 2006'>Octubre 2006</a>&nbsp;(16)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/09/' title='Septiembre 2006'>Septiembre 2006</a>&nbsp;(20)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/08/' title='Agosto 2006'>Agosto 2006</a>&nbsp;(36)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/07/' title='Julio 2006'>Julio 2006</a>&nbsp;(2)</li>
+	<li><a href='http://www.blog.argatea.com.ar/2006/06/' title='Junio 2006'>Junio 2006</a>&nbsp;(23)</li>
+		</ul>
+</li>		<li id="meta" class="widget widget_meta">			<h2 class="widgettitle">Meta</h2>			<ul>
+						<li><a href="http://www.argatea.com.ar/blog/wp-login.php">Iniciar Sesi&oacute;n</a></li>
+			<li><a href="http://www.blog.argatea.com.ar/feed/" title="Sindicar este sitio usando RSS 2.0">Entradas <abbr title="Sindicaci&oacute;n Realmente Simple">RSS</abbr></a></li>
+			<li><a href="http://www.blog.argatea.com.ar/comments/feed/" title="&Uacute;ltimos comentarios a todas las entradas en RSS">Comentarios <abbr title="Sindicaci&oacute;n Realmente Simple">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Gestionado con WordPress, una avanzada plataforma sem&aacute;ntica de publicaci&oacute;n personal.">WordPress.org</a></li>
+						</ul>
+		</li><li id="categories-117534311" class="widget widget_categories"><h2 class="widgettitle">Categor&iacute;as</h2>		<ul>
+			<li class="cat-item cat-item-423"><a href="http://www.blog.argatea.com.ar/category/artes-y-espectaculos/" title="Ver todas las entradas de Artes y Espectáculos">Artes y Espectáculos</a>
+</li>
+	<li class="cat-item cat-item-426"><a href="http://www.blog.argatea.com.ar/category/artes-y-espectaculos/cine/" title="Ver todas las entradas de Cine">Cine</a>
+</li>
+	<li class="cat-item cat-item-424"><a href="http://www.blog.argatea.com.ar/category/divulgacion/" title="Ver todas las entradas de Divulgación">Divulgación</a>
+</li>
+	<li class="cat-item cat-item-418"><a href="http://www.blog.argatea.com.ar/category/entrevistas/" title="Ver todas las entradas de Entrevistas">Entrevistas</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://www.blog.argatea.com.ar/category/estadisticas/" title="Ver todas las entradas de estadÃ­sticas">estadÃ­sticas</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.blog.argatea.com.ar/category/general/" title="Ver todas las entradas de General">General</a>
+</li>
+	<li class="cat-item cat-item-422"><a href="http://www.blog.argatea.com.ar/category/noticias/internacionales/" title="Ver todas las entradas de Internacionales">Internacionales</a>
+</li>
+	<li class="cat-item cat-item-428"><a href="http://www.blog.argatea.com.ar/category/investigaciones/" title="Ver todas las entradas de Investigaciones">Investigaciones</a>
+</li>
+	<li class="cat-item cat-item-409"><a href="http://www.blog.argatea.com.ar/category/laicismo/" title="Ver todas las entradas de Laicismo">Laicismo</a>
+</li>
+	<li class="cat-item cat-item-427"><a href="http://www.blog.argatea.com.ar/category/artes-y-espectaculos/literatura/" title="Ver todas las entradas de Literatura">Literatura</a>
+</li>
+	<li class="cat-item cat-item-429"><a href="http://www.blog.argatea.com.ar/category/medios-de-comunicacion/" title="Ver todas las entradas de Medios de comunicación">Medios de comunicación</a>
+</li>
+	<li class="cat-item cat-item-421"><a href="http://www.blog.argatea.com.ar/category/noticias/nacionales/" title="Ver todas las entradas de Nacionales">Nacionales</a>
+</li>
+	<li class="cat-item cat-item-419"><a href="http://www.blog.argatea.com.ar/category/noticias/" title="Ver todas las entradas de Noticias">Noticias</a>
+</li>
+	<li class="cat-item cat-item-420"><a href="http://www.blog.argatea.com.ar/category/opiniones/" title="Ver todas las entradas de Opiniones">Opiniones</a>
+</li>
+	<li class="cat-item cat-item-425"><a href="http://www.blog.argatea.com.ar/category/organizaciones-ateas/" title="Ver todas las entradas de Organizaciones ateas">Organizaciones ateas</a>
+</li>
+	<li class="cat-item cat-item-436"><a href="http://www.blog.argatea.com.ar/category/personajes/" title="Ver todas las entradas de Personajes">Personajes</a>
+</li>
+	<li class="cat-item cat-item-440 current-cat"><a href="http://www.blog.argatea.com.ar/category/separacion-iglesia-estado/" title="Ver todas las entradas de Separación Iglesia-Estado">Separación Iglesia-Estado</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.blog.argatea.com.ar/category/sociedad/" title="Ver todas las entradas de Sociedad">Sociedad</a>
+</li>
+		</ul>
+</li><li id="tag_cloud" class="widget widget_tag_cloud"><h2 class="widgettitle">Etiquetas</h2><a href='http://www.blog.argatea.com.ar/tag/aborto/' class='tag-link-56' title='104 temas' rel="tag" style='font-size: 22pt;'>aborto</a>
+<a href='http://www.blog.argatea.com.ar/tag/abuso-de-menores/' class='tag-link-119' title='14 temas' rel="tag" style='font-size: 8.304347826087pt;'>abuso&nbsp;sexual</a>
+<a href='http://www.blog.argatea.com.ar/tag/acoso-moral-y-religion/' class='tag-link-127' title='18 temas' rel="tag" style='font-size: 8.9130434782609pt;'>acoso</a>
+<a href='http://www.blog.argatea.com.ar/tag/anticoncepcion/' class='tag-link-62' title='12 temas' rel="tag" style='font-size: 8pt;'>anticoncepción</a>
+<a href='http://www.blog.argatea.com.ar/tag/apostasia/' class='tag-link-86' title='12 temas' rel="tag" style='font-size: 8pt;'>apostasía</a>
+<a href='http://www.blog.argatea.com.ar/tag/ateismo/' class='tag-link-63' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>ateÃ­smo</a>
+<a href='http://www.blog.argatea.com.ar/tag/benedicto-xvi/' class='tag-link-78' title='33 temas' rel="tag" style='font-size: 11.195652173913pt;'>Benedicto&nbsp;XVI</a>
+<a href='http://www.blog.argatea.com.ar/tag/bergoglio/' class='tag-link-103' title='47 temas' rel="tag" style='font-size: 13.326086956522pt;'>Bergoglio</a>
+<a href='http://www.blog.argatea.com.ar/tag/brasil/' class='tag-link-36' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>Brasil</a>
+<a href='http://www.blog.argatea.com.ar/tag/ciencia/' class='tag-link-14' title='25 temas' rel="tag" style='font-size: 9.9782608695652pt;'>ciencia</a>
+<a href='http://www.blog.argatea.com.ar/tag/cordoba/' class='tag-link-13' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>Cordoba</a>
+<a href='http://www.blog.argatea.com.ar/tag/corrupcion/' class='tag-link-54' title='12 temas' rel="tag" style='font-size: 8pt;'>corrupciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/curas-pederastas/' class='tag-link-482' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>curas&nbsp;pederastas</a>
+<a href='http://www.blog.argatea.com.ar/tag/derechos-humanos/' class='tag-link-32' title='52 temas' rel="tag" style='font-size: 14.086956521739pt;'>DD.HH.</a>
+<a href='http://www.blog.argatea.com.ar/tag/derecho-a-decidir/' class='tag-link-157' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>derechos</a>
+<a href='http://www.blog.argatea.com.ar/tag/dictadura-militar-iglesia-catolica-ultraconservadora/' class='tag-link-128' title='31 temas' rel="tag" style='font-size: 10.891304347826pt;'>dictadura&nbsp;militar</a>
+<a href='http://www.blog.argatea.com.ar/tag/discriminacion/' class='tag-link-70' title='48 temas' rel="tag" style='font-size: 13.478260869565pt;'>discriminaciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/educacion/' class='tag-link-8' title='33 temas' rel="tag" style='font-size: 11.195652173913pt;'>educaciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/eeuu/' class='tag-link-28' title='16 temas' rel="tag" style='font-size: 8.6086956521739pt;'>EE.UU</a>
+<a href='http://www.blog.argatea.com.ar/tag/entre-rios/' class='tag-link-48' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>Entre&nbsp;Rios</a>
+<a href='http://www.blog.argatea.com.ar/tag/estadisticas/' class='tag-link-55' title='15 temas' rel="tag" style='font-size: 8.4565217391304pt;'>estadÃ­sticas</a>
+<a href='http://www.blog.argatea.com.ar/tag/fudamentalismos/' class='tag-link-164' title='41 temas' rel="tag" style='font-size: 12.413043478261pt;'>fundamentalismo</a>
+<a href='http://www.blog.argatea.com.ar/tag/iglesia-cata%c2%b3lica/' class='tag-link-548' title='14 temas' rel="tag" style='font-size: 8.304347826087pt;'>Iglesia&nbsp;CatÃ³lica</a>
+<a href='http://www.blog.argatea.com.ar/tag/intolerancia/' class='tag-link-41' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>intolerancia</a>
+<a href='http://www.blog.argatea.com.ar/tag/islam/' class='tag-link-5' title='19 temas' rel="tag" style='font-size: 9.0652173913043pt;'>Islam</a>
+<a href='http://www.blog.argatea.com.ar/tag/laicismo/' class='tag-link-409' title='37 temas' rel="tag" style='font-size: 11.804347826087pt;'>Laicismo</a>
+<a href='http://www.blog.argatea.com.ar/tag/legislacion/' class='tag-link-33' title='41 temas' rel="tag" style='font-size: 12.413043478261pt;'>legislaciÃ³n</a>
+<a href='http://www.blog.argatea.com.ar/tag/mar-del-plata/' class='tag-link-42' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>Mar&nbsp;del&nbsp;Plata</a>
+<a href='http://www.blog.argatea.com.ar/tag/mendoza/' class='tag-link-44' title='23 temas' rel="tag" style='font-size: 9.6739130434783pt;'>Mendoza</a>
+<a href='http://www.blog.argatea.com.ar/tag/moda-sotana/' class='tag-link-130' title='12 temas' rel="tag" style='font-size: 8pt;'>moda</a>
+<a href='http://www.blog.argatea.com.ar/tag/mexico/' class='tag-link-6' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>MÃ©xico</a>
+<a href='http://www.blog.argatea.com.ar/tag/obispado-castrense/' class='tag-link-161' title='28 temas' rel="tag" style='font-size: 10.434782608696pt;'>obispados</a>
+<a href='http://www.blog.argatea.com.ar/tag/opus-dei/' class='tag-link-59' title='21 temas' rel="tag" style='font-size: 9.3695652173913pt;'>Opus&nbsp;Dei</a>
+<a href='http://www.blog.argatea.com.ar/tag/pobreza-y-religion/' class='tag-link-111' title='13 temas' rel="tag" style='font-size: 8.1521739130435pt;'>pobreza</a>
+<a href='http://www.blog.argatea.com.ar/tag/politica-y-religion/' class='tag-link-546' title='23 temas' rel="tag" style='font-size: 9.6739130434783pt;'>política&nbsp;y&nbsp;religión</a>
+<a href='http://www.blog.argatea.com.ar/tag/salta/' class='tag-link-45' title='23 temas' rel="tag" style='font-size: 9.6739130434783pt;'>Salta</a>
+<a href='http://www.blog.argatea.com.ar/tag/sectas/' class='tag-link-229' title='17 temas' rel="tag" style='font-size: 8.7608695652174pt;'>sectas</a>
+<a href='http://www.blog.argatea.com.ar/tag/sociedad/' class='tag-link-17' title='25 temas' rel="tag" style='font-size: 9.9782608695652pt;'>Sociedad</a>
+<a href='http://www.blog.argatea.com.ar/tag/vaticano/' class='tag-link-53' title='42 temas' rel="tag" style='font-size: 12.565217391304pt;'>Vaticano</a>
+<a href='http://www.blog.argatea.com.ar/tag/christian-von-wernich/' class='tag-link-144' title='18 temas' rel="tag" style='font-size: 8.9130434782609pt;'>Von&nbsp;Wernich</a></li>		</ul>
+	</div>
+
+
+		</div>
+		<!-- END CONTENT AREA -->
+
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>	
+		
+		<!-- BEGIN FOOTER -->
+		<div id="footer">
+		<div id="footerbar" align="center">
+			<div id="footerleft"><img src="templates/Flexi/images/footer_curve_left.gif" alt=" " /></div>
+			<div id="footercontent" align="center">
+				<div align="center">
+	&copy; 2007 Asociaci�n Civil de Ateos en Argentina</div>
+
+<div align="center">
+	<a href="http://www.joomla.org">Joomla!</a> es Software Libre distribuido bajo licencia GNU/GPL.</div>				
+			</div>
+			<div id="footerright"><img src="templates/Flexi/images/footer_curve_right.gif" alt=" " /></div>
+		</div>
+		</div>
+		<!-- END FOOTER -->
+		
+		<!-- 10x10 spacer image -->
+		<div class="spacer"><img src="templates/Flexi/images/spacer.gif" alt=" " /></div>	
+	</div>
+	<br />
+</div>
+
+<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
+
+		</body>
+</html>
+

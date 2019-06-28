@@ -1,0 +1,2111 @@
+<html>
+
+<head>
+  <title>WDC - RDFa, Microdata, and Microformat Data Sets</title>
+  <link rel="stylesheet" href="http://webdatacommons.org/style.css" type="text/css" media="screen" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('43', {
+      packages: ['bar', 'line', 'corechart']
+    });
+
+    google.charts.setOnLoadCallback(drawMaterial3);
+    google.charts.setOnLoadCallback(drawMaterial4);
+    google.charts.setOnLoadCallback(drawMaterial5);
+    google.charts.setOnLoadCallback(drawMaterial6);
+    google.charts.setOnLoadCallback(drawMaterial1);
+    google.charts.setOnLoadCallback(drawMaterial2);
+
+
+    google.charts.setOnLoadCallback(drawMaterial7);
+    google.charts.setOnLoadCallback(drawMaterial8);
+    google.charts.setOnLoadCallback(drawMaterial71);
+    google.charts.setOnLoadCallback(drawMaterial81);
+    google.charts.setOnLoadCallback(drawMaterial9);
+    google.charts.setOnLoadCallback(drawMaterial10);
+    google.charts.setOnLoadCallback(drawMaterial11);
+    google.charts.setOnLoadCallback(drawMaterial12);
+    google.charts.setOnLoadCallback(drawMaterial13);
+    google.charts.setOnLoadCallback(drawMaterial14);
+    google.charts.setOnLoadCallback(drawMaterial15);
+    google.charts.setOnLoadCallback(drawMaterial16);
+    google.charts.setOnLoadCallback(drawMaterial17);
+    google.charts.setOnLoadCallback(drawMaterial18);
+    google.charts.setOnLoadCallback(drawMaterial19);
+    google.charts.setOnLoadCallback(drawMaterial20);
+
+    function drawMaterial1() {
+      var data = google.visualization.arrayToDataTable([
+        ['Crawl', 'RDFa', 'Microdata', 'hCard', 'JSON-LD'],
+        ['2012', 519379, 140312, 1511855, 0],
+        ['2013', 471406, 463539, 995258, 0],
+        ['2014', 571581, 819990, 1095517, 0],
+        ['2015', 521806, 1100783, 1095517, 596229],
+        ['2016', 938830, 2537539, 1668039, 2116755],
+        ['2017', 1209430, 3743822, 2758884, 2685738],
+        ['2018', 1382497, 5183199, 3399902, 3835046]
+
+      ]);
+
+      var options = {
+        width: 500,
+        height: 300,
+        chart: {
+          title: 'Number of PLDs Deploying the four Major Markup Formats'
+        },
+        hAxis: {
+          title: '#PLDs',
+          minValue: 0,
+        },
+        vAxis: {
+          title: 'Year of Crawl'
+        },
+        bars: 'vertical',
+
+      };
+      var material = new google.charts.Bar(document.getElementById('dev_plds'));
+      material.draw(data, options);
+    }
+
+    function drawMaterial2() {
+      var data2 = google.visualization.arrayToDataTable([
+        ['Crawl', 'RDFa', 'Microdata', 'hCard', 'JSON-LD'],
+        ['2012', 1079175202, 1488063426, 3547824107, 0],
+        ['2013', 2636964693, 8795074538, 4884918863, 0],
+        ['2014', 2566827347, 9438536906, 3850290103, 0],
+        ['2015', 1598114462, 13224134881, 4238311400, 382896204],
+        ['2016', 2216933416, 34637805559, 4600477456, 1880721886],
+        ['2017', 1629581643, 24359443316, 8371745745, 3623025088],
+        ['2018', 1207733576, 20318437064, 5374115412, 4159835616],
+
+      ]);
+
+      var options2 = {
+        width: 500,
+        height: 300,
+        chart: {
+          title: 'Number of Triples marked up by the four Major Markup Formats'
+        },
+        hAxis: {
+          title: '#Triples',
+          minValue: 0,
+        },
+        vAxis: {
+          title: 'Year of Crawl'
+        },
+        bars: 'vertical',
+
+      };
+      var material2 = new google.charts.Bar(document.getElementById('dev_triple'));
+      material2.draw(data2, options2);
+    }
+
+    function drawMaterial3() {
+      var dataRdf1 = google.visualization.arrayToDataTable([
+        ['Crawl', 'og:website', 'og:article', 'foaf:Document', 'gd:breadcrumb', 'og:product'],
+        ['2012', 56573, 183046, 49252, 9054, 19107],
+        ['2013', 71590, 167544, 45542, 39561, 13813],
+        ['2014', 164324, 141679, 51694, 49771, 14592],
+        ['2015', 181693, 97771, 44609, 63021, 10138],
+        ['2016', 406441, 130211, 81345, 92574, 9009],
+        ['2017', 365470, 105811, 85180, 287356, 10241],
+        ['2018', 89940, 87425, 74298, 304278, 20013]
+
+      ]);
+
+      var options3 = {
+        width: 500,
+        height: 300,
+        chart: {
+          title: 'Development of Selected Classes by #PLDs'
+        },
+        hAxis: {
+          title: 'Year of Crawl',
+          minValue: 0,
+        },
+        vAxis: {
+          title: '#PLDs'
+        },
+
+      };
+      var materia3l = new google.charts.Line(document.getElementById('rdf_pld'));
+      materia3l.draw(dataRdf1, options3);
+    }
+
+    function drawMaterial4() {
+
+      var dataRdf2 = google.visualization.arrayToDataTable([
+        ['Crawl', 'og:website', 'og:article', 'foaf:Document', 'gd:breadcrumb', 'og:product'],
+        ['2012', 9197072, 35438354, 3709728, 52521380, 7517484],
+        ['2013', 24951292, 82882535, 31601886, 53156451, 13199034],
+        ['2014', 23429568, 65233945, 35991377, 56755178, 9955913],
+        ['2015', 17478916, 41891111, 32176784, 48656773, 5451804],
+        ['2016', 24081040, 49108112, 21848027, 175035307, 9247359],
+        ['2017', 9000298, 14031296, 18171969, 127159418, 2352200],
+        ['2018', 6450222, 15218991, 13752361, 101264815, 2371099]
+
+      ]);
+
+      var options4 = {
+        width: 500,
+        height: 300,
+        chart: {
+          title: 'Development of Selected Classes by #Entities'
+        },
+        hAxis: {
+          title: 'Year of Crawl',
+          minValue: 0,
+        },
+        vAxis: {
+          title: '#Triples'
+        },
+
+      };
+      var material3 = new google.charts.Line(document.getElementById('rdf_triple'));
+      material3.draw(dataRdf2, options4);
+    }
+
+    function drawMaterial5() {
+      var dataMD1 = google.visualization.arrayToDataTable([
+        ['Crawl', 'schema:PostalAddress', 'schema:Product', 'schema:LocalBusiness', 'schema:Review',
+          'schema:Rating'
+        ],
+        ['2012', 19592, 16612, 16383, 2585, 7711],
+        ['2013', 52446, 56388, 35264, 13137, 8360],
+        ['2014', 101086, 89608, 62191, 20124, 12187],
+        ['2015', 143229, 108387, 77659, 28356, 16356],
+        ['2016', 338058, 249947, 192558, 55189, 31762],
+        ['2017', 418807, 581482, 230844, 104576, 77731],
+        ['2018', 502615, 812205, 294390, 124022, 90369]
+
+      ]);
+
+      var options5 = {
+        width: 600,
+        height: 300,
+        chart: {
+          title: 'Development of Selected Classes by #PLDs'
+        },
+        hAxis: {
+          title: 'Year of Crawl',
+          minValue: 0,
+        },
+        vAxis: {
+          title: '#PLDs'
+        },
+
+      };
+      var material5 = new google.charts.Line(document.getElementById('md_pld'));
+      material5.draw(dataMD1, options5);
+    }
+
+    function drawMaterial6() {
+
+      var dataMD2 = google.visualization.arrayToDataTable([
+        ['Crawl', 'schema:PostalAddress', 'schema:Product', 'schema:LocalBusiness', 'schema:Review',
+          'schema:Rating'
+        ],
+        ['2012', 9513985, 19386194, 5089, 3114006, 1777255],
+        ['2013', 125780525, 178334394, 76317387, 35213270, 30887676],
+        ['2014', 48804397, 288082823, 20194229, 42561245, 39170723],
+        ['2015', 78194892, 252233322, 77659, 43322033, 36242603],
+        ['2016', 291970567, 682850010, 99543802, 69789534, 56250927],
+        ['2017', 13713813, 439832806, 66794473, 46319490, 41478065],
+        ['2018', 89524321, 306531345, 39875083, 31526486, 28831167]
+
+      ]);
+
+      var options6 = {
+        width: 600,
+        height: 300,
+        chart: {
+          title: 'Development of Selected Classes by #Entities'
+        },
+        hAxis: {
+          title: 'Year of Crawl',
+          minValue: 0,
+        },
+        vAxis: {
+          title: '#Triples'
+        },
+
+      };
+      var material6 = new google.charts.Line(document.getElementById('md_triple'));
+      material6.draw(dataMD2, options6);
+    }
+
+    function drawMaterial7() {
+
+      var data2014Plds = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Domains with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-mf-hcard', 1095517, '#FFD633', 'mf-hcard : 1,095,517'],
+        ['html-microdata', 819990, '#D11919', 'Microdata : 819,990'],
+        ['html-rdfa', 571581, '#5E8FD8', 'RDFA :571,581'],
+        ['html-mf-xfn', 170202, '#FFF5DD', 'mf-xfn : 170,202'],
+        ['html-mf-hcalendar', 24208, '#FFDB4D', 'mf-hcalendar : 24,208'],
+        ['html-geo', 20261, '#29A329', 'geo : 20,261'],
+        ['html-mf-hreview', 13772, '#FFEB99', 'mf-hreview : 13,772'],
+        ['others', 6894, '#FFE066', 'others : 6,894']
+      ]);
+
+
+      var options7 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material7 = new google.visualization.BarChart(document.getElementById('d2014Plds'));
+      material7.draw(data2014Plds, options7);
+    }
+
+    function drawMaterial8() {
+
+      var data2014Urls = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Urls with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 292601824, '#D11919', 'Microdata : 292,601,824'],
+        ['html-rdfa', 257251367, '#5E8FD8', 'RDFA : 257,251,367'],
+        ['html-mf-hcard', 101606009, '#FFD633', 'mf-hcard : 101,606,009'],
+        ['html-mf-xfn', 17032646, '#FFF5DD', 'mf-xfn : 17,032,646'],
+        ['html-geo', 4619664, '#29A329', 'geo : 4,619,664'],
+        ['html-mf-hcalendar', 3496061, '#FFDB4D', 'mf-hcalendar : 3,496,061'],
+        ['html-mf-hreview', 2496303, '#FFEB99', 'mf-hreview : 2,496,303'],
+        ['others', 881078, '#FFE066', 'others : 881,078']
+
+      ]);
+
+      var options8 = {
+        width: 550,
+        height: 400,
+        title: 'URLs with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material8 = new google.visualization.BarChart(document.getElementById('d2014Urls'));
+      material8.draw(data2014Urls, options8);
+    }
+
+    function drawMaterial71() {
+
+      var data2015Plds = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Domains with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 1100783, '#D11919', 'Microdata : 1,100,783'],
+        ['html-mf-hcard', 1095517, '#FFD633', 'mf-hcard : 1,095,517'],
+        ['html-embedded-jsonld', 596229, '#29A329', 'JSON-LD : 596,229'],
+        ['html-rdfa', 521806, '#5E8FD8', 'RDFA : 521,806'],
+        ['html-mf-xfn', 139426, '#FFF5DD', 'mf-xfn : 139,426'],
+        ['html-mf-hcalendar', 25721, '#FFDB4D', 'mf-hcalendar : 25,721'],
+        ['html-mf-hreview', 11469, '#FFEB99', 'mf-hreview : 11,469'],
+        ['others', 21812, '#FFE066', 'others : 21,812']
+
+
+      ]);
+
+
+      var options71 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material71 = new google.visualization.BarChart(document.getElementById('d2015Plds'));
+      material71.draw(data2015Plds, options71);
+    }
+
+    function drawMaterial81() {
+
+      var data2015Urls = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Urls with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 312229919, '#D11919', 'Microdata : 312,229,919'],
+        ['html-rdfa', 196336975, '#5E8FD8', 'RDFA : 196,336,975'],
+        ['html-mf-hcard', 104318715, '#FFD633', 'mf-hcard : 104,318,715'],
+        ['html-embedded-jsonld', 35486192, '#29A329', 'JSON-LD : 35,486,192'],
+        ['html-mf-xfn', 16159224, '#FFF5DD', 'mf-xfn : 16,159,224'],
+        ['html-mf-hcalendar', 3007502, '#FFDB4D', 'mf-hcalendar : 3,007,502'],
+        ['html-mf-hreview', 1637792, '#FFEB99', 'mf-hreview : 1,637,792'],
+        ['others', 4351283, '#FFE066', 'others : 4,351,283']
+      ]);
+
+      var options81 = {
+        width: 550,
+        height: 400,
+        title: 'URLs with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material81 = new google.visualization.BarChart(document.getElementById('d2015Urls'));
+      material81.draw(data2015Urls, options81);
+    }
+
+    function drawMaterial9() {
+
+      var data2013Plds = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Domains with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-mf-hcard', 995258, '#FFD633', 'mf-hcard : 995,258'],
+        ['html-rdfa', 471406, '#5E8FD8', 'RDFA : 471,406'],
+        ['html-microdata', 463539, '#D11919', 'Microdata : 463,539'],
+        ['html-mf-xfn', 195663, '#FFF5DD', 'mf-xfn : 195,663'],
+        ['html-geo', 23044, '#29A329', 'geo : 23,044'],
+        ['html-mf-hcalendar', 20981, '#FFDB4D', 'mf-hcalendar : 20,981'],
+        ['html-mf-hreview', 12880, '#FFEB99', 'mf-hreview : 12,880'],
+        ['others', 6485, '#FFE066', 'others : 6,485']
+      ]);
+
+      var options9 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material9 = new google.visualization.BarChart(document.getElementById('n2013Plds'));
+      material9.draw(data2013Plds, options9);
+    }
+
+    function drawMaterial10() {
+
+      var data2013Urls = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Urls with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-rdfa', 296005115, '#5E8FD8', 'RDFA : 296,005,115'],
+        ['html-microdata', 276348609, '#D11919', 'Microdata : 276,348,609'],
+        ['html-mf-hcard', 113402968, '#FFD633', 'mf-hcard : 113,402,968'],
+        ['html-mf-xfn', 18467168, '#FFF5DD', 'mf-xfn : 18,467,168'],
+        ['html-geo', 14436467, '#29A329', 'geo : 14,436,467'],
+        ['html-mf-hcalendar', 3683002, '#FFDB4D', 'mf-hcalendar : 3,683,002'],
+        ['html-mf-hreview', 3504643, '#FFEB99', 'mf-hreview : 3,504,643'],
+        ['others', 1418274, '#FFE066', 'others : 1,418,274']
+      ]);
+
+      var options10 = {
+        width: 550,
+        height: 400,
+        title: 'URLs with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material10 = new google.visualization.BarChart(document.getElementById('n2013Urls'));
+      material10.draw(data2013Urls, options10);
+    }
+
+    function drawMaterial11() {
+
+      var data2012Plds = google.visualization.arrayToDataTable([
+
+        ['Annotation type', '#Plds with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-mf-hcard', 1511855, '#FFD633', 'mf-hcard : 1,511,855'],
+        ['html-rdfa', 519379, '#5E8FD8', 'RDFA : 519,379'],
+        ['html-mf-xfn', 490286, '#FFF5DD', 'mf-xfn : 490,286'],
+        ['html-microdata', 140312, '#D11919', 'Microdata : 140,312'],
+        ['html-geo', 48415, '#29A329', 'geo : 48,415'],
+        ['html-mf-hcalendar', 37620, '#FFDB4D', 'mf-hcalendar : 37,620'],
+        ['html-mf-hreview', 20781, '#FFEB99', 'mf-hreview : 20,781'],
+        ['others', 8659, '#FFE066', 'others : 8,659']
+      ]);
+
+      var options11 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material11 = new google.visualization.BarChart(document.getElementById('n2012Plds'));
+      material11.draw(data2012Plds, options11);
+    }
+
+    function drawMaterial12() {
+
+      var data2012Urls = google.visualization.arrayToDataTable([
+
+        ['Annotation type', '#Urls with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-rdfa', 168654234, '#5E8FD8', 'RDFA : 168,654,234'],
+        ['html-mf-hcard', 120027602, '#FFD633', 'mf-hcard : 120,027,602'],
+        ['html-microdata', 97048329, '#D11919', 'Microdata : 97,048,329'],
+        ['html-mf-xfn', 40123185, '#FFF5DD', 'mf-xfn : 40,123,185'],
+        ['html-geo', 6602779, '#29A329', 'geo : 6,602,779'],
+        ['html-mf-hreview', 4959672, '#FFEB99', 'mf-hreview : 4,959,672'],
+        ['html-mf-hcalendar', 3745051, '#FFDB4D', 'mf-hcalendar : 3,745,051'],
+        ['others', 1959712, '#FFE066', 'others : 1,959,712']
+      ]);
+
+      var options12 = {
+        width: 550,
+        height: 400,
+        title: 'URLs with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material12 = new google.visualization.BarChart(document.getElementById('n2012Urls'));
+      material12.draw(data2012Urls, options12);
+    }
+
+    function drawMaterial13() {
+
+      var data2010Plds = google.visualization.arrayToDataTable([
+
+        ['Annotation type', '#Plds with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-mf-hcard', 12502500, '#FFD633', 'mf-hcard : 12,502,500'],
+        ['html-mf-xfn', 5323335, '#FFF5DD', 'mf-xfn : 5,323,335'],
+        ['html-rdfa', 537820, '#5E8FD8', 'RDFA : 537,820'],
+        ['html-geo', 244838, '#29A329', 'geo : 244,838'],
+        ['html-mf-hcalendar', 226279, '#FFDB4D', 'mf-hcalendar : 226,279'],
+        ['html-mf-hreview', 216331, '#FFEB99', 'mf-hreview : 216,331'],
+        ['html-microdata', 3930, '#D11919', 'Microdata : 3,930'],
+        ['others', 58896, '#FFE066', 'others : 58,896']
+      ]);
+
+      var options13 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material13 = new google.visualization.BarChart(document.getElementById('2010Plds'));
+      material13.draw(data2010Plds, options13);
+    }
+
+    function drawMaterial14() {
+
+      var data2010Urls = google.visualization.arrayToDataTable([
+
+        ['Annotation type', '#Urls with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-mf-hcard', 83583167, '#FFD633', 'mf-hcard : 83,583,167'],
+        ['html-mf-xfn', 37526630, '#FFF5DD', 'mf-xfn : 37,526,630'],
+        ['html-rdfa', 14314036, '#5E8FD8', 'RDFA : 14,314,036'],
+        ['html-geo', 5051622, '#29A329', 'geo : 5,051,622'],
+        ['html-mf-hreview', 2836701, '#FFEB99', 'mf-hreview : 2,836,701'],
+        ['html-mf-hcalendar', 2747276, '#FFDB4D', 'mf-hcalendar : 2,747,276'],
+        ['html-microdata', 56964, '#D11919', 'Microdata : 56,964'],
+        ['others', 1755441, '#FFE066', 'others : 1,755,441']
+      ]);
+
+      var options14 = {
+        width: 550,
+        height: 400,
+        title: 'URLs with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+      };
+
+      var material14 = new google.visualization.BarChart(document.getElementById('2010Urls'));
+      material14.draw(data2010Urls, options14);
+    }
+
+    function drawMaterial15() {
+
+      var data2016Plds = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Domains with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 2537539, '#D11919', 'Microdata : 2,537,539'],
+        ['html-embedded-jsonld', 2116755, '#29A329', 'JSON-LD : 2,116,755'],
+        ['html-mf-hcard', 1668039, '#FFD633', 'mf-hcard : 1,668,039'],
+        ['html-rdfa', 938830, '#5E8FD8', 'RDFA : 938,830'],
+        ['html-mf-xfn', 195595, '#FFF5DD', 'mf-xfn : 195,595'],
+        ['html-mf-hcalendar', 22313, '#FFDB4D', 'mf-hcalendar : 22,313'],
+        ['html-mf-hreview', 16984, '#FFEB99', 'mf-hreview : 16,984'],
+        ['others', 9311, '#FFE066', 'others : 9,311']
+
+      ]);
+
+      var options15 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+
+
+      };
+
+      var material15 = new google.visualization.BarChart(document.getElementById('d2016Plds'));
+      material15.draw(data2016Plds, options15);
+    }
+
+    function drawMaterial16() {
+
+      var data2016Urls = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Urls with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 901118191, '#D11919', 'Microdata : 901,118,191'],
+        ['html-rdfa', 311533110, '#5E8FD8', 'RDFA : 311,533,110'],
+        ['html-mf-hcard', 159748255, '#FFD633', 'mf-hcard : 159,748,255'],
+        ['html-embedded-jsonld', 111411049, '#29A329', 'JSON-LD : 111,411,049'],
+        ['html-mf-xfn', 24242546, '#FFF5DD', 'mf-xfn : 24,242,546'],
+        ['html-mf-hreview', 4551011, '#FFEB99', 'mf-hreview : 4,551,011'],
+        ['html-mf-hcalendar', 3450075, '#FFDB4D', 'mf-hcalendar : 3,450,075'],
+        ['others', 7454214, '#FFE066', 'others :7,454,214']
+      ]);
+
+      var options16 = {
+        width: 650,
+        height: 400,
+        title: 'URLs with Triples',
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+
+      };
+
+      var material16 = new google.visualization.BarChart(document.getElementById('d2016Urls'));
+      material16.draw(data2016Urls, options16);
+    }
+
+    function drawMaterial17() {
+
+      var data2017Plds = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Domains with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 3743822, '#D11919', 'Microdata : 3,743,822 '],
+        ['html-embedded-jsonld', 2685738, '#29A329', 'JSON-LD : 2,685,738'],
+        ['html-mf-hcard', 2758884, '#FFD633', 'mf-hcard : 2,758,884'],
+        ['html-rdfa', 1209430, '#5E8FD8', 'RDFA : 1,209,430 '],
+        ['html-mf-xfn', 392035, '#FFF5DD', 'mf-xfn : 392,035'],
+        ['html-mf-hcalendar', 40257, '#FFDB4D', 'mf-hcalendar : 40,257 '],
+        ['html-mf-hreview', 27181, '#FFEB99', 'mf-hreview : 27,181'],
+        ['others', 244865, '#FFE066', 'others : 244,865 ']
+      ]);
+
+
+      var options17 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        sliceVisibilityThreshold: 0,
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+
+
+      };
+
+      var material17 = new google.visualization.BarChart(document.getElementById('d2017Plds'));
+      material17.draw(data2017Plds, options17);
+    }
+
+    function drawMaterial18() {
+
+      var data2017Urls = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Urls with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 646409625, '#D11919', 'Microdata : 646,409,625'],
+        ['html-embedded-jsonld', 190890906, '#29A329', 'JSON-LD : 190,890,906'],
+        ['html-mf-hcard', 418095860, '#FFD633', 'mf-hcard :  418,095,860'],
+        ['html-rdfa', 220889867, '#5E8FD8', 'RDFA : 220,889,867'],
+        ['html-mf-xfn', 27320114, '#FFF5DD', 'mf-xfn : 27,320,114'],
+        ['html-mf-hcalendar', 2343185, '#FFDB4D', 'mf-hcalendar : 2,343,185'],
+        ['html-mf-hreview', 3702554, '#FFEB99', 'mf-hreview : 3,702,554'],
+        ['others', 5622284, '#FFE066', 'others : 5,622,284']
+
+      ]);
+
+      var options18 = {
+        width: 550,
+        height: 400,
+        title: 'URLs with Triples',
+        sliceVisibilityThreshold: 0,
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        }
+      };
+
+      var material18 = new google.visualization.BarChart(document.getElementById('d2017Urls'));
+      material18.draw(data2017Urls, options18);
+    }
+
+    function drawMaterial19() {
+
+      var data2018Plds = google.visualization.arrayToDataTable([
+        ['Annotation type', '#Domains with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 5183199, '#D11919', 'Microdata : 5,183,199 '],
+        ['html-embedded-jsonld', 3835046, '#29A329', 'JSON-LD : 3,835,046'],
+        ['html-mf-hcard', 3399902, '#FFD633', 'mf-hcard : 3,399,902'],
+        ['html-rdfa', 1382497, '#5E8FD8', 'RDFA : 1,382,497 '],
+        ['html-mf-xfn', 390343, '#FFF5DD', 'mf-xfn : 390,343 '],
+        ['html-mf-hcalendar', 44238, '#FFDB4D', 'mf-hcalendar : 44,238 '],
+        ['html-mf-hreview', 32408, '#FFEB99', 'mf-hreview : 32,408 '],
+        ['others', 288482, '#FFE066', 'others : 288,482 ']
+      ]);
+
+
+      var options1 = {
+        width: 550,
+        height: 400,
+        title: 'Domains with Triples',
+        sliceVisibilityThreshold: 0,
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+
+
+      };
+
+      var material1 = new google.visualization.BarChart(document.getElementById('d2018Plds'));
+      material1.draw(data2018Plds, options1);
+    }
+
+    function drawMaterial20() {
+
+      var data2018Urls = google.visualization.arrayToDataTable([
+        ['Annotation type', '#URLs with Triples', {
+          role: 'style'
+        }, {
+          role: 'annotation'
+        }],
+        ['html-microdata', 556088266, '#D11919', 'Microdata : 556,088,266 '],
+        ['html-embedded-jsonld', 194648550, '#29A329', 'JSON-LD : 194,648,550'],
+        ['html-mf-hcard', 248130845, '#FFD633', 'mf-hcard : 248,130,845'],
+        ['html-rdfa', 154260198, '#5E8FD8', 'RDFA : 154,260,198 '],
+        ['html-mf-xfn', 19292875, '#FFF5DD', 'mf-xfn : 19,292,875 '],
+        ['html-mf-hcalendar', 1940859, '#FFDB4D', 'mf-hcalendar : 1,940,859 '],
+        ['html-mf-hreview', 2699433, '#FFEB99', 'mf-hreview : 2,699,433 '],
+        ['others', 16736309, '#FFE066', 'others : 16,736,309 ']
+      ]);
+
+      var options2 = {
+        width: 550,
+        height: 400,
+        title: 'URLs with Triples',
+        sliceVisibilityThreshold: 0,
+        is3D: true,
+        legend: {
+          position: 'none'
+        },
+        chartArea: {
+          left: 0
+        },
+        colors: ['#5E8FD8', '#D11919', '#29A329', '#FFCC00', '#FFD633', '#FFDB4D', '#FFE066', '#FFE680', '#FFEB99',
+          '#FFF0B2', '#FFF5CC', '#FFF5DD'
+        ]
+
+
+      };
+
+      var material2 = new google.visualization.BarChart(document.getElementById('d2018Urls'));
+      material2.draw(data2018Urls, options2);
+    }
+  </script>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30248817-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+        '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+</head>
+
+<body>
+
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img
+        src="../images/ma-logo.gif" alt="University of Mannheim - Logo"></a></div>
+
+
+  <div id="header">
+    <h1 style="font-size: 250%;">Web Data Commons - RDFa, Microdata, and Microformat Data Sets</h1>
+  </div>
+
+  <div id="tagline">Extracting Structured Data from the Common Web Crawl</div>
+
+  <div id="authors">
+    <a href="http://dws.informatik.uni-mannheim.de/en/people/professors/prof-dr-christian-bizer/">Christian Bizer</a><br />
+    <a href="http://robert.dwslab.de">Robert Meusel</a><br />
+    <a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/anna-primpeli/">Anna Primpeli</a></br>
+  </div>
+
+  <div id="content">
+
+    <p>
+      More and more websites have started to embed structured data describing products, people, organizations, places,
+      events into their HTML pages using markup standards such as RDFa, Microdata and Microformats. The Web Data
+      Commons project extracts this data from several billion web pages. The project provides the extracted data for
+      download and publishes statistics about the deployment of the different formats.
+    </p>
+
+    <h2 id="news">News</h2>
+    <ul>
+      <li><strong>2019-01-17: We have released the WDC <a href="#results-2018-1">RDFa, Microdata, Microformat, and
+            Embedded JSON-LD</a> data sets extracted from the November 2018 Common Crawl corpus and created multiple <a
+            href="2018-12/stats/schema_org_subsets.html">schema.org class-specific subsets</a>. </strong></li>
+
+      <li><strong>2018-12-20: We have released the <a href="http://webdatacommons.org/largescaleproductcorpus/index.html">WDC
+            Training Dataset and Gold Standard for Large-Scale Product Matching</a>.</strong></li>
+      <li><strong>2018-01-08: <a href="#results-2017-1">RDFa, Microdata, Microformat, and Embedded JSON-LD</a> data
+          sets extracted from the November 2017 Common Crawl corpus available for download.</strong></li>
+      <li><strong>2018-01-08: We have created several <a href="2017-12/stats/schema_org_subsets.html">Class-Specific
+            Subsets and statistics of the Schema.org Data contained in the 2017 Microdata Corpus</a> (e.g.
+          schema.org/Product and schema.org/Offer) in order to make it easier to work with the data.</strong></li>
+      <li><strong>2017-01-17: <a href="#results-2016-1">RDFa, Microdata, Microformat, and Embedded JSON-LD</a> data
+          sets extracted from the October 2016 Common Crawl corpus available for download.</strong></li>
+      <li><strong>2017-01-17: We have created several <a href="2016-10/stats/schema_org_subsets.html">Class-Specific
+            Subsets and statistics of the Schema.org Data contained in the 2016 Microdata Corpus</a> (e.g.
+          schema.org/Product and schema.org/Offer) in order to make it easier to work with the data.</strong></li>
+      <li><strong>2016-04-25: <a href="#results-2015-1">RDFa, Microdata, Microformat, and Embedded JSON-LD</a> data
+          sets extracted from the November 2015 Common Crawl corpus available for download.</strong></li>
+      <li><strong>2015-06-20: Paper about <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-Schema-org-Adoption-WIMS2015.pdf">A
+            Web-scale Study of the Adoption and Evolution of the schema.org Vocabulary over Time</a> accepted at <a
+            href="http://easyconferences.eu/?portfolio=wims-2015">WIMS2015</a> conference in Limassol, Cyprus.</strong></li>
+      <li><strong>2015-04-02: <a href="#results-2014-1">RDFa, Microdata, and Microformat</a> data sets extracted from
+          the December 2014 Common Crawl corpus available for download.</strong></li>
+      <li><strong>2015-03-30: Paper about <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/MeuselPaulheim-HeuristicsForFixingCommonErrorsInDeployedSchemaOrgMicrodata-ESWC2015.pdf">Heuristics
+            for Fixing Common Errors in Deployed schema.org Microdata</a> accepted at <a href="http://2015.eswc-conferences.org/">ESWC2015</a>
+          conference in Portoroz, Slovenia.</strong></li>
+      <li><strong>2014-12-04: We have created several <a href="structureddata/2013-11/stats/schema_org_subsets.html">Class-Specific
+            Subsets of the Schema.org Data contained in the Winter 2013 Microdata Corpus</a> (e.g. schema.org/Product
+          and schema.org/Offer) in order to make it easier to work with the data.</strong></li>
+      <li><strong>2014-08-27: We have released an easy to customize version of the <a href="framework/index.html">WDC
+            Extraction Framework</a> including a tutorial, which explains the usage and customization in detail. See
+          also our <a href="http://blog.commoncrawl.org/2014/08/web-data-commons-extraction-framework-for-the-distributed-processing-of-cc-data/">guest
+            post</a> at the Common Crawl Blog.</strong></li>
+      <li><strong>2014-07-06: Paper about WebDataCommons Microdata, Rdfa and Microformats Dataset Series accepted at <a
+            href="http://iswc2014.semanticweb.org/">ISWC'14</a> conference in Riva del Garda - Trentino, Italy: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-TheWDCMicrodataRdfaMicroformatsDataSeries-ISWC2014-rbds.pdf"
+            target="_blank"> The WebDataCommons Microdata, RDFa and Microformat Dataset Series</a></strong></li>
+      <li><strong>2014-04-01: <a href="#results-2013-1">RDFa, Microdata, and Microformat</a> data sets extracted from
+          the Winter 2013 Common Crawl corpus available for download.</strong></li>
+      <li><strong>2014-01-20: Paper about the integration of product data from the WDC Microdata data set accpeted at
+          the DEOS2014 workshop at the WWW2014 conference in Seoul: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/petrovski_bryl_bizer_deos2014.pdf"
+            target="_blank"> Integrating Product Data from Websites offering Microdata Markup</a></strong></li>
+    </ul>
+
+    <h2>Contents</h2>
+    <div id="toc" class="toc"></div>
+
+    <div id="toccontent">
+
+      <h2 id="about">1. About Web Data Commons</h2>
+      <div>
+        <p>More and more websites embed structured data describing for instance products, people, organizations,
+          places,
+          events, resumes, and cooking recipes into their HTML pages using markup formats such as RDFa, Microdata and
+          Microformats. The Web Data Commons project extracts all Microformat, Microdata and RDFa data from the <a href="http://www.commoncrawl.org">Common
+            Crawl web corpus</a>, the largest and most up-to-data web corpus that is currently available to the public,
+          and provide the extracted data for download in the form of <a href="http://www.w3.org/TR/n-quads/">RDF-quads</a>.
+          In addition, we calculate and publish statistics about the deployment of the different formats as well as the
+          vocabularies that are used together with each format.</p>
+
+        <p>Up till now, we have extracted all RDFa, Microdata and Microformats data from the following releases of the
+          Common Crawl web corpora:</p>
+        <ul>
+          <li><a href="#results-2018-1">November 2018</a></li>
+          <li><a href="#results-2017-1">November 2017</a></li>
+          <li><a href="#results-2016-1">October 2016</a></li>
+          <li><a href="#results-2015-1">November 2015</a></li>
+          <li><a href="#results-2014-1">December 2014</a></li>
+          <li><a href="#results-2013-1">November 2013</a></li>
+          <li><a href="#results-2012-1">August 2012</a></li>
+          <li><a href="#results-2010">2009/2010</a></li>
+        </ul>
+        <p>For the future, we plan to rerun our extraction on a regular basis as new Common Crawl corpora are becoming
+          available.</p>
+        <p>
+          Below, you find information about the extracted data formats and detailed statistics about the extraction
+          results. In addition we have analyzed trends in the deployment of the most widely spread formats as well as
+          in
+          the deployment of selected RDFa and Microdata classes. This analysis can be found <a href="#trend-2012-2014">here</a>.
+        </p>
+      </div>
+
+      <h2 id="extractors">2. Extracted Data Formats</h2>
+      <div>
+        <p>
+          The table below provides an overview of the different structured data formats that we extract from the Common
+          Crawl. The table contains references to the specifications of the formats as well as short descriptions of
+          the
+          formats. Web Data Commons packages the extracted data for each format separately for download. The table also
+          defines the format identifiers that are used in the following.
+        </p>
+
+        <table style="width:60%">
+          <tr>
+            <th>Format</th>
+            <th>Description</th>
+            <th style="width:20%">Identifier</th>
+          </tr>
+
+          <tr>
+            <td><a href="http://www.w3.org/TR/xhtml-rdfa-primer/">RDFa</a></td>
+            <td>
+              RDFa is a specification for attributes to express structured data in any markup language, e.g HTML. The
+              underlying abstract representation is RDF, which lets publishers build their own vocabulary, extend
+              others,
+              and evolve their vocabulary with maximal interoperability over time.
+            </td>
+            <td><code>html-rdfa</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://www.w3.org/TR/microdata/">HTML&nbsp;Microdata</a></td>
+            <td>
+              Microdata allows nested groups of name-value pairs to be added to HTML documents, in parallel with the
+              existing content.
+            </td>
+            <td><code>html-microdata</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/hcalendar">hCalendar&nbsp;Microformat</a></td>
+            <td>
+              hCalendar is a calendaring and events format, using a 1:1 representation of standard <a href="http://www.ietf.org/rfc/rfc2445.txt">iCalendar
+                (RFC2445)</a> VEVENT properties and values in HTML.
+            </td>
+            <td><code>html-mf-hcard</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/hcard">hCard&nbsp;Microformat</a></td>
+            <td>
+              hCard is a format for representing people, companies, organizations, and places, using a 1:1
+              representation
+              of <a href="http://www.ietf.org/rfc/rfc2426.txt">vCard (RFC2426)</a> properties and values in HTML.
+            </td>
+            <td><code>html-mf-hcard</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/geo">Geo&nbsp;Microformat</a></td>
+            <td>
+              Geo a 1:1 representation of the "geo" property from the vCard standard, reusing the geo property and
+              sub-properties as-is from the hCard microformat. It can be used to markup latitude/longitude coordinates
+              in
+              HTML.
+            </td>
+            <td><code>html-mf-geo</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/hlisting">hListing&nbsp;Microformat</a></td>
+            <td>
+              hListing is a proposal for a listings (UK English: small-ads; classifieds) format suitable for embedding
+              in
+              HTML.
+            </td>
+            <td><code>html-mf-hlisting</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/hresume">hResume&nbsp;Microformat</a></td>
+            <td>
+              The hResume format is based on a set of fields common to numerous resumes published today on the web
+              embedded in HTML.
+            </td>
+            <td><code>html-mf-hresume</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/hreview">hReview&nbsp;Microformat</a></td>
+            <td>
+              hReview is a format suitable for embedding reviews (of products, services, businesses, events, etc.) in
+              HTML.
+            </td>
+            <td><code>html-mf-hreview</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/hrecipe">hRecipe&nbsp;Microformat</a></td>
+            <td>
+              hRecipe is a format suitable for embedding information about recipes for cooking in HTML.
+            </td>
+            <td><code>html-mf-recipe</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://microformats.org/wiki/species">Species&nbsp;Microformat</a></td>
+            <td>
+              The Species proposal enables marking up taxonomic names for species in HTML.
+            </td>
+            <td><code>html-mf-species</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://gmpg.org/xfn/">XFN&nbsp;Microformat</a></td>
+            <td>
+              XFN (XHTML Friends Network) is a simple format to represent human relationships using hyperlinks.
+            </td>
+            <td><code>html-mf-xfn</code></td>
+          </tr>
+
+          <tr>
+            <td><a href="http://json-ld.org/">Embedded JSON-LD</a></td>
+            <td>
+              JSON-LD is a lightweight Linked Data format. It is easy for humans to read and write.
+            </td>
+            <td><code>html-embeddedjsonld</code></td>
+          </tr>
+
+        </table>
+      </div>
+
+      <h2 id="results">3. Extraction Results</h2>
+
+      <h3 id="trend-2012-2014">3.1. Trends</h3>
+      <p>
+        We give an overview of the structured data adoption through the years by analyzing trends in the deployment of
+        the most widely spread formats as well as in the
+        deployment of selected RDFa and Microdata classes. For this analysis we use the data sets released between 2012
+        and 2018.
+        </br>
+        It is important to mention that the corresponding CommonCrawl web corpora have different sizes (2 billion to 3
+        billion HTML pages), cover different amounts of websites (12 million PLDs to 40 million PLDs, selection by
+        importance of PLD) and also only partly overlap in the covered HTML pages. Thus, the following trends must be
+        interpreted with caution.
+      </p>
+      <h4>Adoption by Format</h4>
+      <p>
+        The diagram below shows the total number of pay-level domains (PLD) making use of one of the four most widely
+        spread markup formats (RDFa, Microdata, Microformat hCard and Embedded JSON-LD) within the seven crawls.
+        Although it seems the total number of domains using Microformats hCard has decreased from 2012 to 2015 one has
+        to keep
+        in mind, that the first crawl contains 50% more HTML pages than the latter two while the last crawl is almost
+        double the size. For Microdata and especially <code>schema.org</code>, we find an increase in deployment since
+        2012. In total we see a continuous increase in the deployment of structured data. However, Microdata
+        and JSON-LD formats have a faster growing rate in comparison to the hCard and RDFa formats.
+        The second diagram shows how the amount of triples that we extracted from the crawls for has developed
+        between 2012 and 2018.
+      </p>
+      <div>
+        <span id="dev_plds" style="width:500px"></span>
+        <span id="dev_triple" style="width:500px"></span>
+      </div>
+
+      <h4>Adoption of Selected Schema.org Classes</h4>
+      <p>
+        Below, we analyze the development of the adoption of schema.org classes embedded using the Microdata syntax.
+        The two diagrams below show again the deployment of those classes by number of deploying PLDs and number of
+        entities extracted from the crawls. We can see a continuous increase in the number of PLDs adopting the
+        schema.org classes. This is also reflected in the number of entities within the datasets, where the slight
+        decrease in 2015 of the two classes <code>PostalAddress</code> and <code>LocalBusiness</code> might originate
+        from the characteristics of the third crawl, which contains a similar number of pages as the second crawl, but
+        covers a larger number of PLDs. This has likely resulted in a more shallow coverage of websites that contain
+        schema.org data and thus in a smaller number of extracted entities.
+      </p>
+      <div>
+        <span id="md_pld" style="width:500px"></span>
+        <span id="md_triple" style="width:500px"></span>
+      </div>
+      </p>
+
+
+      <h4>Adoption of Selected RDFa Classes</h4>
+      <p>
+        In the following we report trends in the adoption of selected RDFa classes. The first diagram shows the number
+        of PLDs using each class. The second diagram shows the total number of entities of each class contained in the
+        WDC RDFa data sets. We see that the number of websites deploying the Facebook Open Graph Protocol classes <code>og:article</code>
+        and <code>og:product</code> as well as <code>foaf:Document</code> stays approximately constant. The deployment
+        of <code>og:website</code> and <code>gd:breadcrumb</code> is increasing.
+      </p>
+
+      <div id=="rdf_pld"></div>
+      <div id=="rdf_triple"></div>
+
+      <span id="rdf_pld" style="width:500px"></span>
+      <span id="rdf_triple" style="width:500px"></span>
+
+      <h3 id="results-2018-1">3.2. Extraction Results from the November 2018 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The November 2018 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in
+          the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/crawl-data/CC-MAIN-2018-47/</code>
+          .
+        </p>
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <th>Crawl Date</th>
+              <td>November 2018</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Data</th>
+              <td align="right">54 Terabyte</td>
+              <td>(compressed)</td>
+            </tr>
+            <tr>
+              <th>Parsed HTML URLs</th>
+              <td align="right">2,544,381,895</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>URLs with Triples</th>
+              <td align="right">944,883,841</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains in Crawl</th>
+              <td align="right">32,884,530</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains with Triples</th>
+              <td align="right">9,650,571</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Typed Entities</th>
+              <td align="right">7,096,578,647</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Triples</th>
+              <td align="right">31,563,782,097</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Size of Extracted Data</th>
+              <td align="right">739GB</td>
+              <td>(compressed)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <span style="width:2000px;display:inline-block">
+          <span id="d2018Plds" style="float:left"></span>
+          <span id="d2018Urls" style="float:left"></span>
+        </span>
+
+        <ul style="clear: left">
+          <li><a href="2018-12/stats/stats.html">Detailed Statistics for the November 2018 corpus (HTML)</a></li>
+          <li><a href="2018-12/stats/how_to_get_the_data.html">Download Instructions for the whole corpus</a></li>
+          <li><a href="2018-12/stats/schema_org_subsets.html">Schema.org Class Specific Data-Subsets and Statistics</a></li>
+        </ul>
+      </div>
+
+
+
+      <h3 id="results-2017-1">3.2. Extraction Results from the November 2017 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The November 2017 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in
+          the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/crawl-data/CC-MAIN-2017-47/</code>
+          .
+        </p>
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <th>Crawl Date</th>
+              <td>November 2017</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Data</th>
+              <td align="right">66 Terabyte</td>
+              <td>(compressed)</td>
+            </tr>
+            <tr>
+              <th>Parsed HTML URLs</th>
+              <td align="right">3,155,601,774</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>URLs with Triples</th>
+              <td align="right">1,228,129,002</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains in Crawl</th>
+              <td align="right">26,271,491</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains with Triples</th>
+              <td align="right">7,422,886</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Typed Entities</th>
+              <td align="right">9,430,164,323</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Triples</th>
+              <td align="right">38,721,044,133</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <span style="width:2000px;display:inline-block">
+          <span id="d2017Plds" style="float:left"></span>
+          <span id="d2017Urls" style="float:left"></span>
+        </span>
+
+        <ul style="clear: left">
+          <li><a href="2017-12/stats/stats.html">Detailed Statistics for the November 2017 corpus (HTML)</a></li>
+          <li><a href="2017-12/stats/how_to_get_the_data.html">Download Instructions for the whole corpus</a></li>
+          <li><a href="2017-12/stats/schema_org_subsets.html">Schema.org Class Specific Data-Subsets and Statistics</a></li>
+        </ul>
+      </div>
+
+      <h3 id="results-2016-1">3.3. Extraction Results from the October 2016 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The October 2016 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/crawl-data/CC-MAIN-2016-44/</code>
+          .
+        </p>
+
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <th>Crawl Date</th>
+              <td>October 2016</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Data</th>
+              <td align="right">56 Terabyte</td>
+              <td>(compressed)</td>
+            </tr>
+            <tr>
+              <th>Parsed HTML URLs</th>
+              <td align="right">3,181,199,447</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>URLs with Triples</th>
+              <td align="right">1,242,727,852</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains in Crawl</th>
+              <td align="right">34,076,469</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains with Triples</th>
+              <td align="right">5,638,796</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Typed Entities</th>
+              <td align="right">9,590,731,005</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Triples</th>
+              <td align="right">44,242,655,138</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <span style="width:2000px;display:inline-block">
+          <span id="d2016Plds" style="float:left"></span>
+          <span id="d2016Urls" style="float:left"></span>
+        </span>
+
+        <ul style="clear: left">
+          <li><a href="2016-10/stats/stats.html">Detailed Statistics for the October 2016 corpus (HTML)</a></li>
+          <li><a href="2016-10/stats/how_to_get_the_data.html">Download Instructions for the whole corpus</a></li>
+          <li><a href="2016-10/stats/schema_org_subsets.html">Schema.org Class Specific Data-Subsets and Statistics</a></li>
+        </ul>
+      </div>>
+
+      <h3 id="results-2015-1">3.4. Extraction Results from the November 2015 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The November 2015 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in
+          the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/crawl-data/CC-MAIN-2015-48/</code>
+          .
+        </p>
+
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <th>Crawl Date</th>
+              <td>November 2015</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Data</th>
+              <td align="right">151 Terabyte</td>
+              <td>(compressed)</td>
+            </tr>
+            <tr>
+              <th>Parsed HTML URLs</th>
+              <td align="right">1,770,525,212</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>URLs with Triples</th>
+              <td align="right">541,514,775</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains in Crawl</th>
+              <td align="right">14,409,425</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains with Triples</th>
+              <td align="right">2,724,591</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Typed Entities</th>
+              <td align="right">6,107,584,968</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Triples</th>
+              <td align="right">24,377,132,352</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Format Breakdown</h4><br />
+        <span>
+          <div id="d2015Plds" style="float:left"></div>
+          <div id="d2015Urls" style="float:left"></div>
+          <div id="ldiv">
+            As the charts show a large fraction of websites make already use of embedded JSON-LD. In most cases (>90%)
+            the websites use the syntax to enable Google to create a search box within the search results, as
+            annonced by <a href="https://webmasters.googleblog.com/2014/09/improved-sitelinks-search-box.html">Google
+              in
+              September 2014</a>.
+            A interesting discussion about the topic can be found in the <a href="https://plus.google.com/106943062990152739506/posts/5mF7ehWkyrx">Google+
+              Posting by Aaron Bradley</a>.
+            <div>
+        </span>
+
+        <ul style="clear: left">
+          <li><a href="2015-11/stats/stats.html">Detailed Statistics for the November 2015 corpus (HTML)</a></li>
+          <li><a href="2015-11/stats/how_to_get_the_data.html">Download Instructions for the whole corpus</a></li>
+          <li><a href="2015-11/stats/schema_org_subsets.html">Schema.org Class Specific Data-Subsets and Statistics</a></li>
+        </ul>
+      </div>>
+
+      <h3 id="results-2014-1">3.5. Extraction Results from the December 2014 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The December 2014 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in
+          the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/crawl-data/CC-MAIN-2014-52/</code>
+          .
+        </p>
+
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <th>Crawl Date</th>
+              <td>Winter 2014</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Data</th>
+              <td>64 Terabyte</td>
+              <td>(compressed)</td>
+            </tr>
+            <tr>
+              <th>Parsed HTML URLs</th>
+              <td>2,014,175,679</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>URLs with Triples</th>
+              <td>620,151,400</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains in Crawl</th>
+              <td>15,668,667</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains with Triples</th>
+              <td>2,722,425</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Typed Entities</th>
+              <td>5,516,068,263</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Triples</th>
+              <td>20,484,755,485</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Format Breakdown</h4><br />
+
+        <span>
+          <div id="d2014Plds" style="float:left"></div>
+          <div id="d2014Urls" style="float:left"></div>
+        </span>
+        <!--
+<img src="https://chart.googleapis.com/chart?chtt=Domains%20with%20Triples&chs=500x300&chds=a&cht=p&chd=t:571581,819990,20261,24208,1095517,3167,155,13772,96,3476,170202&chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" />
+<img src="https://chart.googleapis.com/chart?chtt=URLs%20with%20Triples&chs=500x300&chds=a&cht=p&chd=t:257251367,292601824,4619664,3496061,101606009,202889,16343,2496303,31444,630402,17032646&chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" /><br />
+-->
+
+        <ul style="clear: left">
+          <li><a href="2014-12/stats/stats.html">Detailed Statistics for the December 2014 corpus (HTML)</a></li>
+          <li><a href="2014-12/stats/how_to_get_the_data.html">Download Instructions for the whole corpus</a></li>
+          <li><a href="2014-12/stats/schema_org_subsets.html">Schema.org Class Specific Data-Subsets and Statistics</a></li>
+        </ul>
+      </div>
+
+      <h3 id="results-2013-1">3.6. Extraction Results from the November 2013 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The November 2013 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in
+          the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/crawl-data/CC-MAIN-2013-48/</code>
+          .
+        </p>
+
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <th>Crawl Date</th>
+              <td>Winter 2013</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Data</th>
+              <td>44 Terabyte</td>
+              <td>(compressed)</td>
+            </tr>
+            <tr>
+              <th>Parsed HTML URLs</th>
+              <td>2,224,829,946</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>URLs with Triples</th>
+              <td>585,792,337</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains in Crawl</th>
+              <td>12,831,509</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains with Triples</th>
+              <td>1,779,935</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Typed Entities</th>
+              <td>4,264,562,758</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Triples</th>
+              <td>17,241,313,916</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Format Breakdown</h4><br />
+
+        <div>
+          <span id="n2013Plds" style="float:left"></span>
+          <span id="n2013Urls" style="float:left"></span>
+        </div>
+
+        <!--
+<img src="https://chart.googleapis.com/chart?chtt=Domains%20with%20Triples&chs=500x300&chds=a&cht=p&chd=t:471406,463539,23044,20981,995258,2584,262,12880,109,3530,195663&chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" />
+<img src="https://chart.googleapis.com/chart?chtt=URLs%20with%20Triples&chs=500x300&chds=a&cht=p&chd=t:296005115,276348609,14436467,3683002,113402968,528387,52675,3504643,22419,814793,18467168&chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" /><br />
+-->
+        <ul style="clear: left">
+          <li><a href="2013-11/stats/stats.html">Detailed Statistics for the November 2013 corpus (HTML)</a></li>
+          <li><a href="2013-11/stats/how_to_get_the_data.html">Download Instructions for the whole corpus</a></li>
+          <li><a href="2013-11/stats/schema_org_subsets.html">Schema.org Class Specific Data-Subsets and Statistics</a></li>
+        </ul>
+      </div>
+
+      <h3 id="results-2012-1">3.6. Extraction Results from the August 2012 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The August 2012 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/parse-output/segment/</code>
+          .
+        </p>
+
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <th>Crawl Date</th>
+              <td>January-June 2012</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total Data</th>
+              <td>40.1 Terabyte</td>
+              <td>(compressed)</td>
+            </tr>
+            <tr>
+              <th>Parsed HTML URLs</th>
+              <td>3,005,629,093</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>URLs with Triples</th>
+              <td>369,254,196</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains in Crawl</th>
+              <td>40,600,000</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Domains with Triples</th>
+              <td>2,286,277</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Typed Entities</th>
+              <td>1,811,471,956</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Triples</th>
+              <td>7,350,953,995</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Format Breakdown</h4><br />
+
+        <div>
+          <span id="n2012Plds" style="float:left"></span>
+          <span id="n2012Urls" style="float:left"></span>
+        </div>
+
+        <!--
+<img src="https://chart.googleapis.com/chart?chtt=Domains%20with%20Triples&chs=500x300&chds=a&cht=p&chd=t:519379,140312,48415,37620,1511855,4030,1257,20781,91,3281,490286&chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" />
+<img src="https://chart.googleapis.com/chart?chtt=URLs%20with%20Triples&chs=500x300&chds=a&cht=p&chd=t:168654234,97048329,6602779,3745051,120027602,772402,39412,4959672,37186,1110712,40123185&chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" /><br />
+-->
+        <ul style="clear: left">
+          <li><a href="2012-08/stats/stats.html">Detailed Statistics for the August 2012 corpus (HTML)</a></li>
+          <li><a href="2012-08/stats/additional_stats.html">Additional Statistics and Analysis for the August 2012
+              corpus
+              (HTML)</a></li>
+          <li><a href="2012-08/stats/how_to_get_the_data.html">Download Instructions</a></li>
+        </ul>
+
+        <h4>Extraction Costs</h4>
+        <p>
+          The costs for parsing the 40.1 Terabytes of compressed input data of the August 2012 Common Crawl corpus,
+          extracting the RDF data and storing the extracted data on S3 totaled 398 USD in Amazon EC2 fees. We used 100
+          spot instances of type <code>c1.xlarge</code> for the extraction which altogether required 5,636 machine
+          hours.
+        </p>
+      </div>>
+
+      <h4 id="results-2012-2">3.7b. Extraction Results from the February 2012 Common Crawl Corpus</h4>
+      <div>
+        <p>
+          Common Crawl did publish a pre-release version of its 2012 corpus in February. The pages contained in the
+          pre-release are a subset of the pages contained in the August 2012 Common Crawl corpus. We also extracted the
+          structured data from this pre-release. The resulting statistics are found <a href="2012-02/index.html">here</a>,
+          but are superseded by the August 2012 statistics.
+        </p>
+      </div>
+
+      <h3 id="results-2010">3.8. Extraction Results from the 2009/2010 Common Crawl Corpus</h3>
+      <div>
+        <p>
+          The 2009/2010 Common Crawl Corpus is available on <a href="http://aws.amazon.com/s3/">Amazon S3</a> in the
+          bucket <code>aws-publicdatasets</code> under the key prefix <code>/common-crawl/crawl-002/</code> .
+        </p>
+
+        <h4>Extraction Statistics</h4>
+        <br />
+        <table>
+          <tr>
+            <th>Crawl Dates</th>
+            <td>Sept 2009 (4 TB)<br>Jan 2010 (6.9 TB)<br>Feb 2010 (4.3 TB)<br>Apr 2010 (4.4 TB)<br>Aug 2010 (3.6 TB)<br>Sept
+              2010 (6 TB)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Total Data</th>
+            <td>28.9 Terabyte</td>
+            <td>(compressed)</td>
+          </tr>
+          <tr>
+            <th>Total URLs</th>
+            <td>2,804,054,789</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Parsed HTML URLs</th>
+            <td>2,565,741,671</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Domains with Triples</th>
+            <td>19,113,929</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>URLs with Triples</th>
+            <td>147,871,837</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Typed Entities</th>
+            <td>1,546,905,880</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Triples</th>
+            <td>5,193,276,058</td>
+            <td></td>
+          </tr>
+        </table>
+
+        <h4>Format Breakdown</h4><br />
+
+        <div>
+          <span id="2010Plds" style="float:left"></span>
+          <span id="2010Urls" style="float:left"></span>
+        </div>
+
+        <!--
+<img src="https://chart.googleapis.com/chart?chtt=Domains%20with%20Triples&amp;chs=500x300&amp;chds=a&amp;cht=p&amp;chd=t:537820,3930,244838,226279,12502500,31871,10419,216331,3244,13362,5323335&amp;chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" alt="">
+<img src="https://chart.googleapis.com/chart?chtt=URLs%20with%20Triples&amp;chs=500x300&amp;chds=a&amp;cht=p&amp;chd=t:14314036,56964,5051622,2747276,83583167,1227574,387364,2836701,25158,115345,37526630&amp;chl=html-rdfa|html-microdata|html-mf-geo|html-mf-hcalendar|html-mf-hcard|html-mf-hlisting|html-mf-hresume|html-mf-hreview|html-mf-species|html-mf-hrecipe|html-mf-xfn" alt="">
+-->
+        <ul style="clear: left">
+          <li><a href="2010-09/stats/stats.html">Detailed Statistics for the 2009/2010 corpus (HTML)</a></li>
+          <li><a href="2010-09/stats/how_to_get_the_data.html">Download Instructions</a></li>
+        </ul>
+      </div>
+
+      <h4>Extraction Costs</h4>
+      <p>
+        The costs for parsing the 28.9 Terabytes of compressed input data of the 2009/2010 Common Crawl corpus,
+        extracting the RDF data and storing the extracted data on S3 totaled 576 EUR (excluding VAT) in Amazon EC2
+        fees. We used 100 spot instances of type <code>c1.xlarge</code> for the extraction which altogether required
+        3,537 machine hours.
+      </p>
+
+
+      <h2 id="examples">4. Example Data</h2>
+      <p>
+        For each data format, we provide a small subset of the extracted data below for testing purposes. The data is
+        encoded as <a href="https://www.w3.org/TR/n-quads/">N-Quads</a>, with the forth element used to represent the
+        provenance of each triple (the URL of the page the triple was extracted from). Be advised to use a parser which
+        is able to skip invalid lines, since they could present in the data files.
+      </p>
+      <ul>
+        <li><a href="samples/data/ccrdf.html-rdfa.sample.nq ">html-rdfa</a></li>
+        <li><a href="samples/data/ccrdf.html-microdata.sample.nq">html-microdata</a></li>
+        <li><a href="samples/data/ccrdf.html-jsonld.sample.nq">html-embedded-jsonld</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-hcard.sample.nq">html-mf-hcard</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-hcalendar.sample.nq">html-mf-hcalendar</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-xfn.sample.nq">html-mf-xfn</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-geo.sample.nq">html-mf-geo</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-hlisting.sample.nq">html-mf-hlisting</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-hrecipe.sample.nq">html-mf-hrecipe</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-hresume.sample.nq">html-mf-hresume</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-hreview.sample.nq">html-mf-hreview</a></li>
+        <li><a href="samples/data/ccrdf.html-mf-species.sample.nq">html-mf-species</a></li>
+      </ul>
+
+      <h2 id="disclaimer">5. Note about the N-Quads Download Files</h2>
+      <p>
+        It is important to note that the N-Quads download files do not conform completely with the <a href="https://www.w3.org/TR/n-quads/#BNodes">N-Quads
+          specification</a> concerning blank node identifiers. The specification
+        requires labels of distinct blank nodes to be unique with respect to the complete N-Quads document. In our
+        N-Quads files, the blank node labels are unique only with
+        respect to the HTML page from which the data was extracted. This means that different blank nodes in a download
+        file may have the same label. For distinguishing
+        between these nodes, the blank node label needs to be considered together with the URL of the page from which
+        the data was extracted (the fourth element of the quad).
+        This issue is due to 100 machines working in parallel on the extraction of the data from the web corpus without
+        communicating with each other. We may fix this issue
+        in upcoming WDC releases by renaming the blank nodes.
+
+        <h2 id="conversionTool">6. Conversion to Other Formats</h2>
+        <p>
+          We provide the extracted data for download using <a href="#disclaimer">a variation of the N-Quads format</a>.
+          For users who prefer other formats, we provide <a href="https://app.assembla.com/spaces/commondata/subversion/source/HEAD/StructuredDataProfiler/trunk">code</a>
+          for converting the download files into the <a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a>
+          and <a href="http://www.json.org/">JSON</a> formats, which are supported by a wider range of spreadsheet
+          applications, relational databases are data mining tools.
+          </br>
+          </br>
+          The conversion tool takes the following parameters:
+          </br>
+
+          <table>
+            <tr>
+              <th>Parameter Name</th>
+              <th>Description</th>
+            </tr>
+
+            <tr>
+              <td>out</td>
+              <td>Folder where the outputfile(s) are written to</td>
+            </tr>
+            <tr>
+              <td>in</td>
+              <td>Folder containing WDC download files in N-Quads format</td>
+            </tr>
+            <tr>
+              <td>threads</td>
+              <td>Number of threads used for the conversion</td>
+            </tr>
+            <tr>
+              <td>convert</td>
+              <td>Indicates the output format. Supported formats: JSON, CSV</td>
+            </tr>
+            <tr>
+              <td>density</td>
+              <td>Indicates the minimum density of properties in order be included in the output file. Range: 0 - 1. A
+                density of 0.2 indicates that the properties that have more than 20% non-null values will be included
+                in the output .</td>
+            </tr>
+            <tr>
+              <td>multiplePropValues</td>
+              <td>Indicates if the converted result should contain all property values for a certain property of a
+                subject or if one value per property is enough. Range: [true/false] </td>
+            </tr>
+
+          </table>
+        </p>
+
+        <p>
+          Below you can find an example command which transforms the files found in the input directory to JSON files
+          using 5 threads and density as well as property value filtering.
+          <pre><code>java -cp  StatsCreator-0.0.2-SNAPSHOT-jar-with-dependencies.jar org.webdatacommons.structureddata.stats.WDCQuadConverter  -out "output_convert"
+</br>-in "input_convert" -threads 5 -tp "http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://ogp.me/ns#type,http://opengraphprotocol.org/schema/type" 
+</br>-convert "JSON" -density 0.15 -multiplePropValues true</code></pre>
+        </p>
+
+        <h4>File Structure</h4>
+        <p>
+          <h5>CSV file format</h5>
+          Each file starts with three fixed headers [graph, subject, type] followed by the property set of headers.
+          Every line after the header represents one entity.
+          You can find a sample CSV file with the structure of the conversion output <a href="samples/conversion/csv_sample.csv">here</a>.
+
+          <h5>JSON file format</h5>
+          Each file contains a list of JSON objects with three fixed properties [graph, subject, type] followed by the
+          property set describing the concrete entity. Every JSON object in the file represents one entity.
+          You can find a sample JSON file with the structure of the conversion output <a href="samples/conversion/json_sample.json"
+            download="json_sample.json">here</a>.
+        </p>
+        <h4>Conversion Process</h4>
+        <p>
+          In the following, we document the conversion process that is performed by the tool: The first step of the
+          conversion process is to sort the input .nq file by subject and URL. For this purpose a temporary file
+          containing the sorted entities is created and deleted by the end of the conversion. The size of the
+          temporary file is equal to the size of the input .nq file.
+          Next, the retrieved entities are written in the converted file. In the case of the CSV file format, all the
+          distinct predicates are stored during parsing for the header row to be filled. In the case of the JSON file
+          format
+          the entities are transformed from Java objects to JSON ones with the help of the <a href="https://github.com/google/gson">Gson
+            library</a>. The provided tool supports parallel execution on the directory level, meaning that multiple
+          files can be converted simultaneously. In addition, the conversion tool provides <i>density</i> and <i>property
+            value</i> filtering. In the case of density filtering the user can set a density threshold in order to
+          filter uncommon properties. Please note that
+          in the average case the maximum property density is calculated to be 35%, so a relatively high threshold
+          could lead to empty property value results. In the case of property value filtering, the user can choose if
+          the converted file
+          should keep track of all the multiple values of a certain property belonging to a certain subject or if one
+          value is enough for his/ her purposes.
+
+          </br>
+          </br>
+
+
+
+          <h2 id="process">7. Extraction Process</h2>
+          <p>
+            Since the Common Crawl data sets are stored in the <a href="http://aws.amazon.com/s3/">AWS Simple Storage
+              Service (S3)</a>, it made sense to perform the extraction in the <a href="http://aws.amazon.com/ec2/">Amazon
+              cloud (EC2)</a>. The main criteria here is the cost to achieve a certain task. Instead of using the
+            ubiquitous <a href="http://hadoop.apache.org/">Hadoop framework</a>, we found using the <a href="http://aws.amazon.com/sqs/">Simple
+              Queue Service (SQS)</a> for our extraction process increased efficiency. SQS provides a message queue
+            implementation, which we use to co-ordinate the extraction nodes. The Common Crawl dataset is readily
+            partitioned into compressed files of around 100MB each. We add the identifiers of each of these files as
+            messages to the queue. A number of EC2 nodes monitor this queue, and take file identifiers from it. The
+            corresponding file is then downloaded from S3. Using the <a href="https://github.com/commoncrawl/commoncrawl/blob/master/src/org/commoncrawl/util/shared/ArcFileReader.java">ARC
+              file parser</a> from the Common Crawl codebase, the file is split into individual web pages. On each
+            page, we run our RDF extractor based on the <a href="http://code.google.com/p/any23/">Anything To Triples
+              (Any23)</a> library. The resulting RDF triples are then written back to S3 together with the extraction
+            statistics, which are later collected. The advantage of this queue is that messages have to be explicitly
+            marked as processed, which is done after the entire file has been extracted. Should any error occur, the
+            message is requeued after some time and processed again.
+          </p>
+
+          <p>
+            Any23 parses web pages for structured data by building a <a href="http://www.w3.org/TR/DOM-Level-2-Core/introduction.html">DOM
+              tree</a> and then evaluates <a href="http://www.w3.org/TR/xpath/">XPath expressions</a> to find
+            structured data. While profiling, we found this tree generation to account for much of the parsing cost,
+            and we have thus searched for a way to reduce the number of times this tree is built. Our solution is to
+            run <a href="http://docs.oracle.com/javase/tutorial/essential/regex/">(Java) regular expressions</a>
+            against each webpages prior to extraction, which detect the presence of a microformat in a HTML page, and
+            then only run the Any23 extractor when the regular expression find potentional matches. The formats <a href="http://microformats.org/wiki/hcard">html-mf-hcard</a>,
+            <a href="http://microformats.org/wiki/hcalendar">html-mf-hcalendar</a>, <a href="http://microformats.org/wiki/hlisting">html-mf-hlisting</a>,
+            <a href="http://microformats.org/wiki/hresume">html-mf-hresume</a>, <a href="http://microformats.org/wiki/hreview">html-mf-hreview</a>
+            and <a href="http://microformats.org/wiki/hrecipe">html-mf-recipe</a> define unique enough class names, so
+            that the presence of the class name in the HTML document is ample indication of the Microformat being
+            present. For the remaining formats, the following table shows the used regular expressions.
+          </p>
+
+          <table>
+            <tr>
+              <th>Format</th>
+              <th>Regular Expression</th>
+            </tr>
+
+            <tr>
+              <td><a href="http://www.w3.org/TR/xhtml-rdfa-primer/">html-rdfa</a></td>
+              <td><code>(property|typeof|about|resource)\\s*=</code></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.w3.org/TR/microdata/">html-microdata</a></td>
+              <td><code>(itemscope|itemprop\\s*=)</code></td>
+            </tr>
+            <tr>
+              <td><a href="http://gmpg.org/xfn/">html-mf-xfn</a></td>
+              <td><code>&lt;a[^&gt;]*rel\\s*=\\s*(\"|')[^\"']*(contact|acquaintance|friend|met|co-worker|colleague|co-resident|neighbor|child|parent|sibling|spouse|kin|muse|crush|date|sweetheart|me)</code></td>
+            </tr>
+            <tr>
+              <td><a href="http://microformats.org/wiki/geo">html-mf-geo</a></td>
+              <td><code>class\\s*=\\s*(\"|')[^\"']*geo</code></td>
+            </tr>
+            <tr>
+              <td><a href="http://microformats.org/wiki/species">html-mf-species</a></td>
+              <td><code>class\\s*=\\s*(\"|')[^\"']*species</code></td>
+            </tr>
+          </table>
+
+          <h2 id="source">8. Source Code</h2>
+          <p>
+            The source code can be checked out from our <a href="https://www.assembla.com/code/commondata/subversion/nodes/extractor">Subversion
+              repository</a>. Afterwards, create your own configuration by copying <code>src/main/resources/ccrdf.properties.dist</code>
+            to <code>src/main/resources/ccrdf.properties</code>, then fill in your AWS authentication information and
+            bucket names. Compilation is performed using <a href="http://maven.apache.org/">Maven</a>, thus changing
+            into the source root directory and typing <code>mvn install</code> should be sufficient to create a build.
+            In order to run the extractor on more than 10 EC2 nodes, you will have to request an <a href="http://aws.amazon.com/contact-us/ec2-request/">EC2
+              instance limit increase</a> for your AWS account. More information about running the extractor is
+            provided in the file <code>readme.txt</code> .
+          </p>
+
+
+          <h2 id="license">9. License</h2>
+          <p>The Web Data Commons extraction framework can be used under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache
+              Software License</a>. </p>
+
+
+
+        </p>
+        <h2 id="feedback">10. Feedback</h2>
+        <p>Please send questions and feedback to the <a href="http://groups.google.com/group/web-data-commons">Web Data
+            Commons mailing list</a> or post them in our <a href="https://groups.google.com/forum/?fromgroups#!forum/web-data-commons">Web
+            Data Commons Google Group</a>.<br /><br />
+          More information about Web Data Commons is found <a href="../index.html">here</a>.</p>
+
+        <h2 id="acknowledgments">11. Credits</h2>
+        <p>Web Data Commons has started as a joint effort of the <a href="http://www.fu-berlin.de/"> Freie
+            Univerist&auml;t Berlin</a> and the <a href="http://www.aifb.kit.edu">Institute AIFB</a> at the Karlsruhe
+          Institute of Technology in early 2012.
+          Now it is mainly maintained by the <a href="http://dws.informatik.uni-mannheim.de/en/research/">Research
+            Group Data and Web Science</a> at the University of Mannheim.
+        </p>
+        <p>We thank our former contributors for the help and support:</p>
+        <ul>
+          <li><a href="http://hannes.muehleisen.org/">Hannes M&uuml;hleisen</a>, now working at CWI in Amsterdam for
+            the initial version of the extraction code and the first two releases.</li>
+          <li><a href="http://harth.org/andreas/">Andreas Harth</a> and <a href="http://www.aifb.kit.edu/web/Steffen_Stadtm%C3%BCller/en">Steffen
+              Stadtm&uuml;ller</a>, working at <a href="http://www.aifb.kit.edu">Institute AIFB</a> at KIT for their
+            support during the first releases in 2012 and the hosting parts of the data.</li>
+          <li><a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/michael-schuhmacher/">Michael
+              Schuhmacher</a>, <a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dr-johanna-voelker/">Johanna
+              V&ouml;lker</a> working at the <a href="http://dws.informatik.uni-mannheim.de/en/research/">DWS Group</a>
+            and <a href="http://dws.informatik.uni-mannheim.de/en/people/researchers/dr-kai-eckert/">Kai Eckert</a>,
+            now working at the <a href="https://www.hdm-stuttgart.de/">Hochschule der Medien</a> in Stuttgart for their
+            support creating the expressive statistics of the release in 2012.</li>
+          <li><a href="http://dws.informatik.uni-mannheim.de/en/people/alumni/petar-petrovski/">Petar Petrovski</a> for
+            extracting the data and creating the statistics for the 2013 release.</li>
+        </ul>
+
+        <p> Also lots of thanks to</p>
+        <ul>
+          <li>the <a href="http://commoncrawl.org/">Common Crawl project</a> for providing their great web crawl and
+            thus enabling Web Data Commons.</li>
+          <li>the <a href="http://code.google.com/p/any23/">Any23 project</a> for providing their great library of
+            structured data parsers.</li>
+        </ul>
+        <p>Web Data Commons was supported by the <a href="http://planet-data.eu">PlanetData</a> and <a href="http://lod2.eu">LOD2</a>
+          research projects.
+          <p>The extraction and analysis of the October 2016 and the November 2017 corpora was supported by the <a href="https://www.alwr-bw.de/kooperationen/vice/">ViCE</a>
+            research project and the <a href="https://mwk.baden-wuerttemberg.de/de/startseite/">Ministry of Economy,
+              Research and Arts of Baden - Württemberg </a>.
+          </p>
+          <a href="http://planet-data.eu"><img src="../images/pd.gif" alt="PlanetData Logo"></a>&nbsp;&nbsp;&nbsp;
+          <a href="http://lod2.eu"><img src="../images/lod2.gif" alt="LOD2 Logo"></a>
+          <a href="https://mwk.baden-wuerttemberg.de/de/startseite/"><img src="../images/mwk.png" height="130" alt="MWK_BW Logo"></a>
+          <h2 id="references">12. References</h2>
+
+          <ul>
+            <li>Robert Meusel, Christian Bizer, Heiko Paulheim: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-Schema-org-Adoption-WIMS2015.pdf">A
+                Web-scale Study of the Adoption and Evolution of the schema.org Vocabulary over Time</a>. <a href="http://easyconferences.eu/?portfolio=wims-2015">5th
+                International Conference on Web Intelligence, Mining and Semantics (WIMS2015)</a>, Limassol, Cyprus,
+              July 2015.</li>
+            <li>Robert Meusel and Heiko Paulheim: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/MeuselPaulheim-HeuristicsForFixingCommonErrorsInDeployedSchemaOrgMicrodata-ESWC2015.pdf">Heuristics
+                for Fixing Common Errors in Deployed schema.org Microdata</a>, To appear in: Proceedings of the 12th
+              Extended Semantic Web Conference (ESWC 2015), Portoroz, Slovenia, May 2015.
+            <li>Robert Meusel, Petar Petrovski, Christian Bizer: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Meusel-etal-TheWDCMicrodataRdfaMicroformatsDataSeries-ISWC2014-rbds.pdf"
+                target="_blank"> The WebDataCommons Microdata, RDFa and Microformat Dataset Series</a>. In Proceedings
+              of the 13th International Semantic Web Conference: Replication, Benchmark, Data and Software Track
+              (ISWC2014).</li>
+            <li>Christian Bizer, Kai Eckert, Robert Meusel, Hannes M&uuml;hleisen, Michael Schuhmacher, and Johanna
+              V&ouml;lker: <a href="https://www.wim.uni-mannheim.de/fileadmin/lehrstuehle/ki/pub/Bizer-etal-DeploymentRDFaMicrodataMicroformats-ISWC-InUse-2013.pdf">Deployment
+                of RDFa, Microdata, and Microformats on the Web - A Quantitative Analysis</a>. In Proceedings of the
+              12th International Semantic Web Conference, Part II: In-Use Track, pp.17-32 (ISWC2013).</li>
+            <li>Hannes M&uuml;hleisen, Christian Bizer: <a href="http://ceur-ws.org/Vol-937/ldow2012-inv-paper-2.pdf">Web
+                Data Commons - Extracting Structured Data from Two Large Web Corpora</a>. In Proceedings of the WWW2012
+              Workshop on Linked Data on the Web (LDOW2012).</li>
+            <li>Peter Mika, Tim Potter: <a href="http://ceur-ws.org/Vol-937/ldow2012-inv-paper-1.pdf">Metadata
+                Statistics for a Large Web Corpus</a>. In Proceedings of the WWW2012 Workshop on Linked Data on the Web
+              (LDOW2012).</li>
+            <li>Peter Mika: <a href="http://tripletalk.wordpress.com/2011/01/25/rdfa-deployment-across-the-web/">Microformats
+                and RDFa deployment across the Web</a>. Blog Post.</li>
+            <li><a href="http://sindice.com/stats/direct/basic-class-stats?settings=%7B%22iCreate%22%3A1355143360824%2C%22iStart%22%3A0%2C%22iEnd%22%3A50%2C%22iLength%22%3A50%2C%22sFilter%22%3A%22%22%2C%22sFilterEsc%22%3Atrue%2C%22aaSorting%22%3A%5B%5B4%2C%22desc%22%5D%5D%2C%22aaSearchCols%22%3A%5B%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%2C%5B%22%22%2Ctrue%5D%5D%2C%22abVisCols%22%3A%5Btrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%5D%2C%22ssDelta%22%3A%22%22%7D">Class
+                Statistics</a> from the Sindice data search engine.</li>
+          </ul>
+
+    </div>
+
+  </div>
+  <script type="text/javascript">
+    $('#toc').toc({
+      'selectors': 'h2,h3', //elements to use as headings
+      'container': '#toccontent', //element to find all selectors in
+      'smoothScrolling': true, //enable or disable smooth scrolling on click
+      'prefix': 'toc', //prefix for anchor tags and class names
+      'highlightOnScroll': true, //add class to heading that is currently in focus
+      'highlightOffset': 100, //offset to trigger the next headline
+      'anchorName': function (i, heading, prefix) { //custom function for anchor name
+        return prefix + i;
+      }
+    });
+  </script>
+</body>
+
+</html>

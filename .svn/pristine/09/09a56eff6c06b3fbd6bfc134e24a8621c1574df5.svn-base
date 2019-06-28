@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="protocol-http1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/runtime/local/plugins/protocol-http/protocol-http.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

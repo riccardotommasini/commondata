@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html><head><title>Top Pages by In- and Outdegree</title>
+<link rel="stylesheet" href="../style.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/jquery.toc.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30248817-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body> 
+<!--
+  <div id="logo" style="text-align:right; background-color: white;">&nbsp;&nbsp;<a href="http://dws.informatik.uni-mannheim.de"><img src="../images/ma-logo.gif" alt="University of Mannheim - Logo"></a>&nbsp;&nbsp;<br></div>
+-->
+
+<div id="header">
+<h1 style="font-size: 250%;">Top Pages by In- and Outdegree</h1>
+</div>
+
+<div id="content">
+
+<p> This pages gives an overview about the top pages ranked by indegree and outdegree. The pages lists for both types two rankings. The first ranking is calculated based on all links in the graph (marked with "all"). The second ranking is based only on links from or to external pages (marked as "external"). To calculate the degrees for the external links, we removed all links from the graph between two pages which belong to the same website (in our case the same pay-level-domain).
+</p>
+
+<h2>Contents</h2>
+<div id="toc" class="toc"></div>
+<div id="toccontent">
+
+
+<h2 id="indegree">1. Top Pages By Indegree (all)</h2>
+<p>
+<table>
+<tr><th>	Rank	</th><th>	Indegree	</th><th>	URL	</th></tr>
+<tr><td>	1	</td><td>	95,041,133	</td><td>	http://www.youtube.com/	</td></tr>
+<tr><td>	2	</td><td>	72,428,837	</td><td>	http://wordpress.org/	</td></tr>
+<tr><td>	3	</td><td>	69,418,359	</td><td>	http://www.youtube.com/t/about_youtube	</td></tr>
+<tr><td>	4	</td><td>	69,418,242	</td><td>	http://www.youtube.com/t/copyright_center	</td></tr>
+<tr><td>	5	</td><td>	69,418,179	</td><td>	http://www.youtube.com/t/press	</td></tr>
+<tr><td>	6	</td><td>	69,417,748	</td><td>	http://www.youtube.com/testtube	</td></tr>
+<tr><td>	7	</td><td>	39,507,938	</td><td>	http://www.youtube.com/t/privacy_at_youtube	</td></tr>
+<tr><td>	8	</td><td>	32,322,484	</td><td>	http://gmpg.org/xfn/11	</td></tr>
+<tr><td>	9	</td><td>	26,690,212	</td><td>	http://www.google.com/	</td></tr>
+<tr><td>	10	</td><td>	24,410,970	</td><td>	http://www.google.com/intl/en/policies/	</td></tr>
+<tr><td>	11	</td><td>	12,173,620	</td><td>	http://www.google.com/intl/en/policies/privacy/	</td></tr>
+<tr><td>	12	</td><td>	11,692,697	</td><td>	http://www.addthis.com/bookmark.php	</td></tr>
+<tr><td>	13	</td><td>	10,045,478	</td><td>	http://creativecommons.org/licenses/by-sa/3.0/	</td></tr>
+<tr><td>	14	</td><td>	9,185,655	</td><td>	http://www.flickr.com/	</td></tr>
+<tr><td>	15	</td><td>	9,001,624	</td><td>	http://www.google.com/policies/	</td></tr>
+<tr><td>	16	</td><td>	8,935,854	</td><td>	http://www.youtube.com/music	</td></tr>
+<tr><td>	17	</td><td>	8,411,358	</td><td>	http://www.addtoany.com/share_save	</td></tr>
+<tr><td>	18	</td><td>	8,398,156	</td><td>	http://www.miibeian.gov.cn/	</td></tr>
+<tr><td>	19	</td><td>	7,835,127	</td><td>	http://www.tumblr.com/	</td></tr>
+<tr><td>	20	</td><td>	7,302,907	</td><td>	http://www.facebook.com/	</td></tr>
+<tr><td>	21	</td><td>	7,248,892	</td><td>	http://www.amazon.com/	</td></tr>
+<tr><td>	22	</td><td>	7,051,864	</td><td>	http://disqus.com/	</td></tr>
+<tr><td>	23	</td><td>	6,991,593	</td><td>	http://www.myhabit.com/	</td></tr>
+<tr><td>	24	</td><td>	6,858,949	</td><td>	http://www.amazon.co.jp/	</td></tr>
+<tr><td>	25	</td><td>	6,671,420	</td><td>	http://www.amazon.de/	</td></tr>
+<tr><td>	26	</td><td>	6,642,835	</td><td>	http://www.phplinkdirectory.com/	</td></tr>
+<tr><td>	27	</td><td>	6,620,116	</td><td>	http://www.amazon.co.uk/	</td></tr>
+<tr><td>	28	</td><td>	6,618,222	</td><td>	http://www.histats.com/	</td></tr>
+<tr><td>	29	</td><td>	6,590,675	</td><td>	http://www.imdb.com/	</td></tr>
+<tr><td>	30	</td><td>	6,505,874	</td><td>	http://www.amazon.fr/	</td></tr>
+<tr><td>	31	</td><td>	6,436,908	</td><td>	http://www.flickr.com/photos/	</td></tr>
+<tr><td>	32	</td><td>	6,402,632	</td><td>	http://www.linkwithin.com/	</td></tr>
+<tr><td>	33	</td><td>	6,371,339	</td><td>	http://www.amazon.ca/	</td></tr>
+<tr><td>	34	</td><td>	6,313,171	</td><td>	http://www.flickr.com/creativecommons/	</td></tr>
+<tr><td>	35	</td><td>	6,311,457	</td><td>	http://www.flickr.com/explore/	</td></tr>
+<tr><td>	36	</td><td>	6,311,452	</td><td>	http://www.flickr.com/tour/	</td></tr>
+<tr><td>	37	</td><td>	6,310,148	</td><td>	http://www.flickr.com/explore/interesting/7days/	</td></tr>
+<tr><td>	38	</td><td>	6,307,776	</td><td>	http://www.flickr.com/commons/	</td></tr>
+<tr><td>	39	</td><td>	6,306,973	</td><td>	http://www.flickr.com/cameras/	</td></tr>
+<tr><td>	40	</td><td>	6,306,884	</td><td>	http://www.flickr.com/photos/tags/	</td></tr>
+<tr><td>	41	</td><td>	6,306,312	</td><td>	http://www.flickr.com/services/	</td></tr>
+<tr><td>	42	</td><td>	6,306,152	</td><td>	http://www.flickr.com/map/	</td></tr>
+<tr><td>	43	</td><td>	6,305,954	</td><td>	http://code.flickr.com/	</td></tr>
+<tr><td>	44	</td><td>	6,305,680	</td><td>	http://www.flickr.com/help/	</td></tr>
+<tr><td>	45	</td><td>	6,305,669	</td><td>	http://www.flickr.com/places/	</td></tr>
+<tr><td>	46	</td><td>	6,305,613	</td><td>	http://www.flickr.com/mobile	</td></tr>
+<tr><td>	47	</td><td>	6,305,579	</td><td>	http://www.flickr.com/galleries/	</td></tr>
+<tr><td>	48	</td><td>	6,305,542	</td><td>	http://www.flickr.com/gettyimages	</td></tr>
+<tr><td>	49	</td><td>	6,213,979	</td><td>	http://www.amazon.cn/	</td></tr>
+<tr><td>	50	</td><td>	6,201,811	</td><td>	http://www.amazon.it/	</td></tr>
+<tr><td>	51	</td><td>	6,193,878	</td><td>	http://www.amazon.es/	</td></tr>
+<tr><td>	52	</td><td>	6,076,782	</td><td>	http://twitter.com/	</td></tr>
+<tr><td>	53	</td><td>	5,951,886	</td><td>	http://www.flickr.com/services/api/	</td></tr>
+<tr><td>	54	</td><td>	5,950,946	</td><td>	http://blog.flickr.net/	</td></tr>
+<tr><td>	55	</td><td>	5,948,514	</td><td>	http://safely.yahoo.com/	</td></tr>
+<tr><td>	56	</td><td>	5,940,834	</td><td>	http://www.flickr.com/about/	</td></tr>
+<tr><td>	57	</td><td>	5,940,099	</td><td>	http://www.flickr.com/help/faq/	</td></tr>
+<tr><td>	58	</td><td>	5,939,838	</td><td>	http://info.yahoo.com/relevantads	</td></tr>
+<tr><td>	59	</td><td>	5,933,486	</td><td>	http://www.flickr.com/help/privacy-policy/	</td></tr>
+<tr><td>	60	</td><td>	5,933,485	</td><td>	http://www.flickr.com/help/terms/	</td></tr>
+<tr><td>	61	</td><td>	5,903,519	</td><td>	http://www.zappos.com/	</td></tr>
+<tr><td>	62	</td><td>	5,813,523	</td><td>	http://www.yahoo.com/	</td></tr>
+<tr><td>	63	</td><td>	5,772,548	</td><td>	http://www.amazon.com/gp/cart/view.html	</td></tr>
+<tr><td>	64	</td><td>	5,770,927	</td><td>	http://www.amazon.com/gp/goldbox	</td></tr>
+<tr><td>	65	</td><td>	5,770,361	</td><td>	http://www.amazon.com/gp/site-directory	</td></tr>
+<tr><td>	66	</td><td>	5,763,089	</td><td>	http://www.amazon.com/gp/gift-central	</td></tr>
+<tr><td>	67	</td><td>	5,756,356	</td><td>	http://www.simplemachines.org/	</td></tr>
+<tr><td>	68	</td><td>	5,706,582	</td><td>	http://www.dpreview.com/	</td></tr>
+<tr><td>	69	</td><td>	5,706,143	</td><td>	http://www.youtube.com/recommended	</td></tr>
+<tr><td>	70	</td><td>	5,677,976	</td><td>	http://wordpress.com/	</td></tr>
+<tr><td>	71	</td><td>	5,578,141	</td><td>	http://www.audible.com/	</td></tr>
+<tr><td>	72	</td><td>	5,548,438	</td><td>	http://wireless.amazon.com/	</td></tr>
+<tr><td>	73	</td><td>	5,505,524	</td><td>	http://www.abebooks.com/	</td></tr>
+<tr><td>	74	</td><td>	5,389,334	</td><td>	http://www.phpbb.com/	</td></tr>
+<tr><td>	75	</td><td>	5,312,324	</td><td>	http://www.fabric.com/	</td></tr>
+<tr><td>	76	</td><td>	5,290,211	</td><td>	http://askville.amazon.com/	</td></tr>
+<tr><td>	77	</td><td>	5,289,223	</td><td>	http://www.shopbop.com/welcome	</td></tr>
+<tr><td>	78	</td><td>	5,274,657	</td><td>	http://www.woot.com/	</td></tr>
+<tr><td>	79	</td><td>	5,252,337	</td><td>	http://www.smallparts.com/	</td></tr>
+<tr><td>	80	</td><td>	5,238,332	</td><td>	http://www.diapers.com/	</td></tr>
+<tr><td>	81	</td><td>	5,222,419	</td><td>	http://www.amazon.com/gp/css/returns/homepage.html	</td></tr>
+<tr><td>	82	</td><td>	5,221,302	</td><td>	http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=468496	</td></tr>
+<tr><td>	83	</td><td>	5,220,964	</td><td>	http://www.soap.com/	</td></tr>
+<tr><td>	84	</td><td>	5,220,549	</td><td>	http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=468520	</td></tr>
+<tr><td>	85	</td><td>	5,219,137	</td><td>	http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=508510	</td></tr>
+<tr><td>	86	</td><td>	5,217,912	</td><td>	http://www.amazon.com/b?ie=UTF8&node=13786321	</td></tr>
+<tr><td>	87	</td><td>	5,215,613	</td><td>	http://www.endless.com/f/welcome/ref=amznfooter	</td></tr>
+<tr><td>	88	</td><td>	5,215,421	</td><td>	http://www.amazon.com/gp/prime	</td></tr>
+<tr><td>	89	</td><td>	4,675,445	</td><td>	http://www.joomla.org/	</td></tr>
+<tr><td>	90	</td><td>	4,654,102	</td><td>	http://www.simplemachines.org/about/copyright.php	</td></tr>
+<tr><td>	91	</td><td>	4,352,049	</td><td>	http://www.amazon.com/books-used-books-textbooks/b?ie=UTF8&node=283155	</td></tr>
+<tr><td>	92	</td><td>	4,014,753	</td><td>	http://jigsaw.w3.org/css-validator/	</td></tr>
+<tr><td>	93	</td><td>	3,925,615	</td><td>	http://www.roytanck.com/	</td></tr>
+<tr><td>	94	</td><td>	3,774,551	</td><td>	http://gmpg.org/xfn/	</td></tr>
+<tr><td>	95	</td><td>	3,414,798	</td><td>	http://www.xt-commerce.com/	</td></tr>
+<tr><td>	96	</td><td>	3,376,463	</td><td>	http://www.amazon.com/Childrens-Books/b?ie=UTF8&node=4	</td></tr>
+<tr><td>	97	</td><td>	3,375,937	</td><td>	http://www.amazon.com/New-Used-Textbooks-Books/b?ie=UTF8&node=465600	</td></tr>
+<tr><td>	98	</td><td>	3,324,731	</td><td>	http://www.amazon.com/gp/bestsellers/books	</td></tr>
+<tr><td>	99	</td><td>	3,322,982	</td><td>	http://www.amazon.com/gp/new-releases/books	</td></tr>
+<tr><td>	100	</td><td>	3,322,961	</td><td>	http://www.amazon.com/Advanced-Search-Books/b?ie=UTF8&node=241582011	</td></tr>
+</table>
+</p>
+<h2 id="indegreeext">3. Top Pages By Indegree (external)</h2>
+<p>
+<table>
+<tr><th>	Rank	</th><th>	Indegree	</th><th>	URL	</th></tr>
+<tr><td>	1	</td><td>	72,104,473	</td><td>	http://wordpress.org/	</td></tr>
+<tr><td>	2	</td><td>	32,321,786	</td><td>	http://gmpg.org/xfn/11	</td></tr>
+<tr><td>	3	</td><td>	25,606,837	</td><td>	http://www.google.com/	</td></tr>
+<tr><td>	4	</td><td>	24,408,648	</td><td>	http://www.google.com/intl/en/policies/	</td></tr>
+<tr><td>	5	</td><td>	12,173,358	</td><td>	http://www.google.com/intl/en/policies/privacy/	</td></tr>
+<tr><td>	6	</td><td>	11,692,141	</td><td>	http://www.addthis.com/bookmark.php	</td></tr>
+<tr><td>	7	</td><td>	10,044,909	</td><td>	http://creativecommons.org/licenses/by-sa/3.0/	</td></tr>
+<tr><td>	8	</td><td>	8,999,360	</td><td>	http://www.google.com/policies/	</td></tr>
+<tr><td>	9	</td><td>	8,411,288	</td><td>	http://www.addtoany.com/share_save	</td></tr>
+<tr><td>	10	</td><td>	8,397,944	</td><td>	http://www.miibeian.gov.cn/	</td></tr>
+<tr><td>	11	</td><td>	7,223,513	</td><td>	http://www.facebook.com/	</td></tr>
+<tr><td>	12	</td><td>	7,044,585	</td><td>	http://disqus.com/	</td></tr>
+<tr><td>	13	</td><td>	6,991,593	</td><td>	http://www.myhabit.com/	</td></tr>
+<tr><td>	14	</td><td>	6,642,772	</td><td>	http://www.phplinkdirectory.com/	</td></tr>
+<tr><td>	15	</td><td>	6,618,113	</td><td>	http://www.histats.com/	</td></tr>
+<tr><td>	16	</td><td>	6,402,626	</td><td>	http://www.linkwithin.com/	</td></tr>
+<tr><td>	17	</td><td>	6,250,223	</td><td>	http://www.imdb.com/	</td></tr>
+<tr><td>	18	</td><td>	6,202,034	</td><td>	http://www.amazon.cn/	</td></tr>
+<tr><td>	19	</td><td>	6,192,963	</td><td>	http://www.amazon.it/	</td></tr>
+<tr><td>	20	</td><td>	6,192,344	</td><td>	http://www.amazon.es/	</td></tr>
+<tr><td>	21	</td><td>	6,177,057	</td><td>	http://www.amazon.ca/	</td></tr>
+<tr><td>	22	</td><td>	6,111,613	</td><td>	http://www.amazon.co.uk/	</td></tr>
+<tr><td>	23	</td><td>	6,068,387	</td><td>	http://www.amazon.fr/	</td></tr>
+<tr><td>	24	</td><td>	6,045,008	</td><td>	http://www.amazon.co.jp/	</td></tr>
+<tr><td>	25	</td><td>	5,969,937	</td><td>	http://www.amazon.de/	</td></tr>
+<tr><td>	26	</td><td>	5,946,684	</td><td>	http://blog.flickr.net/	</td></tr>
+<tr><td>	27	</td><td>	5,943,611	</td><td>	http://safely.yahoo.com/	</td></tr>
+<tr><td>	28	</td><td>	5,939,829	</td><td>	http://info.yahoo.com/relevantads	</td></tr>
+<tr><td>	29	</td><td>	5,756,043	</td><td>	http://www.simplemachines.org/	</td></tr>
+<tr><td>	30	</td><td>	5,672,161	</td><td>	http://www.dpreview.com/	</td></tr>
+<tr><td>	31	</td><td>	5,594,818	</td><td>	http://twitter.com/	</td></tr>
+<tr><td>	32	</td><td>	5,577,650	</td><td>	http://www.audible.com/	</td></tr>
+<tr><td>	33	</td><td>	5,570,006	</td><td>	http://www.zappos.com/	</td></tr>
+<tr><td>	34	</td><td>	5,384,581	</td><td>	http://www.phpbb.com/	</td></tr>
+<tr><td>	35	</td><td>	5,295,586	</td><td>	http://www.fabric.com/	</td></tr>
+<tr><td>	36	</td><td>	5,289,221	</td><td>	http://www.shopbop.com/welcome	</td></tr>
+<tr><td>	37	</td><td>	5,272,239	</td><td>	http://www.abebooks.com/	</td></tr>
+<tr><td>	38	</td><td>	5,263,338	</td><td>	http://www.woot.com/	</td></tr>
+<tr><td>	39	</td><td>	5,252,080	</td><td>	http://www.smallparts.com/	</td></tr>
+<tr><td>	40	</td><td>	5,238,323	</td><td>	http://www.diapers.com/	</td></tr>
+<tr><td>	41	</td><td>	5,220,961	</td><td>	http://www.soap.com/	</td></tr>
+<tr><td>	42	</td><td>	5,215,613	</td><td>	http://www.endless.com/f/welcome/ref=amznfooter	</td></tr>
+<tr><td>	43	</td><td>	4,654,097	</td><td>	http://www.simplemachines.org/about/copyright.php	</td></tr>
+<tr><td>	44	</td><td>	4,612,067	</td><td>	http://www.joomla.org/	</td></tr>
+<tr><td>	45	</td><td>	4,333,687	</td><td>	http://www.yahoo.com/	</td></tr>
+<tr><td>	46	</td><td>	4,012,875	</td><td>	http://jigsaw.w3.org/css-validator/	</td></tr>
+<tr><td>	47	</td><td>	3,925,059	</td><td>	http://www.roytanck.com/	</td></tr>
+<tr><td>	48	</td><td>	3,774,500	</td><td>	http://gmpg.org/xfn/	</td></tr>
+<tr><td>	49	</td><td>	3,379,238	</td><td>	http://www.xt-commerce.com/	</td></tr>
+<tr><td>	50	</td><td>	3,124,650	</td><td>	http://purl.org/metadata/dublin_core_elements	</td></tr>
+<tr><td>	51	</td><td>	3,110,742	</td><td>	http://www.php.net/	</td></tr>
+<tr><td>	52	</td><td>	3,003,844	</td><td>	http://blogplay.com/	</td></tr>
+<tr><td>	53	</td><td>	2,938,436	</td><td>	http://www.aol.com/	</td></tr>
+<tr><td>	54	</td><td>	2,937,487	</td><td>	http://www.toplist.cz/	</td></tr>
+<tr><td>	55	</td><td>	2,921,880	</td><td>	http://digg.com/	</td></tr>
+<tr><td>	56	</td><td>	2,882,967	</td><td>	http://www.mysql.com/	</td></tr>
+<tr><td>	57	</td><td>	2,879,711	</td><td>	http://www.flickr.com/	</td></tr>
+<tr><td>	58	</td><td>	2,762,734	</td><td>	http://www.authorize.net/	</td></tr>
+<tr><td>	59	</td><td>	2,685,501	</td><td>	http://wordpress.org/extend/themes/	</td></tr>
+<tr><td>	60	</td><td>	2,665,254	</td><td>	http://wordpress.org/support/	</td></tr>
+<tr><td>	61	</td><td>	2,629,450	</td><td>	http://www.twitter.com/	</td></tr>
+<tr><td>	62	</td><td>	2,618,410	</td><td>	http://planet.wordpress.org/	</td></tr>
+<tr><td>	63	</td><td>	2,615,929	</td><td>	http://www.engadget.com/	</td></tr>
+<tr><td>	64	</td><td>	2,573,027	</td><td>	http://creativecommons.org/licenses/by-nc-nd/3.0/	</td></tr>
+<tr><td>	65	</td><td>	2,565,917	</td><td>	http://www.ivgstores.com/	</td></tr>
+<tr><td>	66	</td><td>	2,558,509	</td><td>	http://www.mister-wong.de/	</td></tr>
+<tr><td>	67	</td><td>	2,514,972	</td><td>	http://www.stumbleupon.com/	</td></tr>
+<tr><td>	68	</td><td>	2,512,116	</td><td>	http://codex.wordpress.org/	</td></tr>
+<tr><td>	69	</td><td>	2,478,288	</td><td>	http://wordpress.org/extend/plugins/	</td></tr>
+<tr><td>	70	</td><td>	2,453,943	</td><td>	http://www.rtalabel.org/	</td></tr>
+<tr><td>	71	</td><td>	2,392,810	</td><td>	http://drupal.org/	</td></tr>
+<tr><td>	72	</td><td>	2,377,238	</td><td>	http://www.huffingtonpost.com/	</td></tr>
+<tr><td>	73	</td><td>	2,372,727	</td><td>	http://www.orkut.com.br/Main	</td></tr>
+<tr><td>	74	</td><td>	2,370,362	</td><td>	http://www.addthis.com/bookmark.php?v=20	</td></tr>
+<tr><td>	75	</td><td>	2,367,473	</td><td>	http://wordpress.org/extend/ideas/	</td></tr>
+<tr><td>	76	</td><td>	2,358,114	</td><td>	http://www.neoease.com/	</td></tr>
+<tr><td>	77	</td><td>	2,325,611	</td><td>	http://lukemorton.co.uk/	</td></tr>
+<tr><td>	78	</td><td>	2,321,517	</td><td>	http://www.globalcar.com/	</td></tr>
+<tr><td>	79	</td><td>	2,321,515	</td><td>	http://www.geestkunde.net/	</td></tr>
+<tr><td>	80	</td><td>	2,321,496	</td><td>	http://www.rozemarijnonline.net/	</td></tr>
+<tr><td>	81	</td><td>	2,321,463	</td><td>	http://www.multienlaces.com/	</td></tr>
+<tr><td>	82	</td><td>	2,321,459	</td><td>	http://www.nederlandwerkt.net/	</td></tr>
+<tr><td>	83	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Asia/Japan/All/1.htm	</td></tr>
+<tr><td>	84	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Asia/Japan/Mazda/All/1.htm	</td></tr>
+<tr><td>	85	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Asia/Japan/Toyota/All/1.htm	</td></tr>
+<tr><td>	86	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Asia/Nissan/All/1.htm	</td></tr>
+<tr><td>	87	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Asia/Singapore/BMW/All/1.htm	</td></tr>
+<tr><td>	88	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Asia/Singapore/Toyota/All/1.htm	</td></tr>
+<tr><td>	89	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Europe/Audi/All/1.htm	</td></tr>
+<tr><td>	90	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Europe/BMW/All/1.htm	</td></tr>
+<tr><td>	91	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Europe/Ferrari/All/1.htm	</td></tr>
+<tr><td>	92	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/Europe/Mercedes-Benz/All/1.htm	</td></tr>
+<tr><td>	93	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/U.S.A./Ford/All/1.htm	</td></tr>
+<tr><td>	94	</td><td>	2,321,458	</td><td>	http://www.globalcar.com/searchcar/U.S.A./Hummer/All/1.htm	</td></tr>
+<tr><td>	95	</td><td>	2,321,444	</td><td>	http://www.fiestaza.com/	</td></tr>
+<tr><td>	96	</td><td>	2,321,436	</td><td>	http://www.elmenudeldia.net/	</td></tr>
+<tr><td>	97	</td><td>	2,321,371	</td><td>	http://www.guiamedicasalud.com/	</td></tr>
+<tr><td>	98	</td><td>	2,321,245	</td><td>	http://www.guiaconstruccion.net/	</td></tr>
+<tr><td>	99	</td><td>	2,311,857	</td><td>	http://reader.youdao.com/	</td></tr>
+<tr><td>	100	</td><td>	2,302,416	</td><td>	http://www.farlex.com/	</td></tr>
+
+</table>
+</p>
+<h2 id="outdegree">3. Top Pages By Outdegree (all)</h2>
+<p>
+<table>
+<tr><th>	Rank	</th><th>	Outdegree	</th><th>	URL	</th></tr>
+<tr><td>	1	</td><td>	55,931	</td><td>	http://photoshare.ru/user.html	</td></tr>
+<tr><td>	2	</td><td>	48,164	</td><td>	http://www.dvderotik.com/catalog/all_products.php	</td></tr>
+<tr><td>	3	</td><td>	35,278	</td><td>	http://www.zoover.be/frankrijk/sitemap	</td></tr>
+<tr><td>	4	</td><td>	34,192	</td><td>	http://cran.r-project.org/web/checks/check_summary_by_maintainer.html	</td></tr>
+<tr><td>	5	</td><td>	34,166	</td><td>	http://cran.rakanu.com/web/checks/check_summary.html	</td></tr>
+<tr><td>	6	</td><td>	34,146	</td><td>	http://www.linkagogo.com/go/Members	</td></tr>
+<tr><td>	7	</td><td>	34,129	</td><td>	http://www.cran.r-project.org/web/checks/check_summary.html	</td></tr>
+<tr><td>	8	</td><td>	33,732	</td><td>	http://www.fussballdaten.de/spieler/	</td></tr>
+<tr><td>	9	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/abadchev/	</td></tr>
+<tr><td>	10	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/braun2/	</td></tr>
+<tr><td>	11	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/canizalezmaycoll/	</td></tr>
+<tr><td>	12	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/canizalezmaycoll/2002/	</td></tr>
+<tr><td>	13	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/durmeric/	</td></tr>
+<tr><td>	14	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/durmeric/2011/	</td></tr>
+<tr><td>	15	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/fedornicolas/	</td></tr>
+<tr><td>	16	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/giannigianni/	</td></tr>
+<tr><td>	17	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/maslenkinanatoli/	</td></tr>
+<tr><td>	18	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/maslenkinanatoli/1962/	</td></tr>
+<tr><td>	19	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/moritz/	</td></tr>
+<tr><td>	20	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/moritz/2003/	</td></tr>
+<tr><td>	21	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/muellerlars/	</td></tr>
+<tr><td>	22	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/muellerlars/1997/	</td></tr>
+<tr><td>	23	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/ozanyilmaz/	</td></tr>
+<tr><td>	24	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/ozanyilmaz/2012/	</td></tr>
+<tr><td>	25	</td><td>	33,703	</td><td>	http://www.fussballdaten.de/spieler/sadishaben/	</td></tr>
+<tr><td>	26	</td><td>	33,459	</td><td>	http://www.fussballdaten.de/spieler/ngongcaanele/	</td></tr>
+<tr><td>	27	</td><td>	33,083	</td><td>	http://www.payday2go.com/Site-Map.aspx	</td></tr>
+<tr><td>	28	</td><td>	31,220	</td><td>	http://www.neti.ee/cgi-bin/serverid	</td></tr>
+<tr><td>	29	</td><td>	31,198	</td><td>	http://www.satelliteview.org/maps/Poland	</td></tr>
+<tr><td>	30	</td><td>	30,914	</td><td>	http://www.satelliteview.org/maps/United_States	</td></tr>
+<tr><td>	31	</td><td>	29,730	</td><td>	http://www.aharrisonbarnes.com/directory-of-us-associations/	</td></tr>
+<tr><td>	32	</td><td>	29,336	</td><td>	http://www.itaste.com/list/restaurant/en/index.php	</td></tr>
+<tr><td>	33	</td><td>	29,170	</td><td>	http://overzicht.goedbegin.goedbegin.nl/	</td></tr>
+<tr><td>	34	</td><td>	28,845	</td><td>	http://startpaginas.goedbegin.goedbegin.nl/	</td></tr>
+<tr><td>	35	</td><td>	28,472	</td><td>	http://www.itaste.com/list/restaurant/fr/index.php	</td></tr>
+<tr><td>	36	</td><td>	28,371	</td><td>	http://www.allmovieportal.com/b/	</td></tr>
+<tr><td>	37	</td><td>	28,371	</td><td>	http://www.allmovieportal.com/b/index.html	</td></tr>
+<tr><td>	38	</td><td>	27,625	</td><td>	http://www.telauskunft.de/plz/postleitzahlen-oesterreich.html	</td></tr>
+<tr><td>	39	</td><td>	27,584	</td><td>	http://concordances.org/hebrew/	</td></tr>
+<tr><td>	40	</td><td>	27,152	</td><td>	http://www.zoover.be/duitsland/sitemap	</td></tr>
+<tr><td>	41	</td><td>	26,864	</td><td>	http://www.loomji.fr/france/communes/	</td></tr>
+<tr><td>	42	</td><td>	26,391	</td><td>	http://cran.r-project.org/web/checks/check_summary.html	</td></tr>
+<tr><td>	43	</td><td>	26,329	</td><td>	http://www.zoover.nl/duitsland/sitemap	</td></tr>
+<tr><td>	44	</td><td>	26,232	</td><td>	http://www.allmovieportal.com/b/indexforus.html	</td></tr>
+<tr><td>	45	</td><td>	26,111	</td><td>	http://www.aibang.com/caipu1/index.html	</td></tr>
+<tr><td>	46	</td><td>	26,074	</td><td>	http://www.eu-gsm.nl/htmlsitemap.php	</td></tr>
+<tr><td>	47	</td><td>	26,074	</td><td>	http://www.summer-daycamps.com/site_map.html	</td></tr>
+<tr><td>	48	</td><td>	25,623	</td><td>	http://www.privesexgids.nl/sitemap.php	</td></tr>
+<tr><td>	49	</td><td>	25,622	</td><td>	http://www.zoover.de/frankreich/sitemap	</td></tr>
+<tr><td>	50	</td><td>	25,338	</td><td>	http://www.cran.r-project.org/web/checks/check_summary_by_maintainer.html	</td></tr>
+<tr><td>	51	</td><td>	25,319	</td><td>	http://cran.rakanu.com/web/checks/check_summary_by_maintainer.html	</td></tr>
+<tr><td>	52	</td><td>	24,816	</td><td>	http://www.yoursloan.biz/map.php	</td></tr>
+<tr><td>	53	</td><td>	23,878	</td><td>	http://www.irandirectory.com/listing/alllocations.php	</td></tr>
+<tr><td>	54	</td><td>	23,779	</td><td>	http://www.wordaxis.com/containing/y	</td></tr>
+<tr><td>	55	</td><td>	23,761	</td><td>	http://www.wordaxis.com/containing/y/no-of-letters_minimum_4	</td></tr>
+<tr><td>	56	</td><td>	23,633	</td><td>	http://www.wordaxis.com/containing/y/no-of-letters_not-equal-to_4	</td></tr>
+<tr><td>	57	</td><td>	23,612	</td><td>	http://www.tabutv.hu/celeb/adatlap//	</td></tr>
+<tr><td>	58	</td><td>	23,559	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_minimum_9	</td></tr>
+<tr><td>	59	</td><td>	23,341	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_not-equal-to_7	</td></tr>
+<tr><td>	60	</td><td>	23,242	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_not-equal-to_5	</td></tr>
+<tr><td>	61	</td><td>	23,236	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_minimum_7	</td></tr>
+<tr><td>	62	</td><td>	23,214	</td><td>	http://www.wordaxis.com/ending-with/s	</td></tr>
+<tr><td>	63	</td><td>	23,212	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_minimum_3	</td></tr>
+<tr><td>	64	</td><td>	23,211	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_maximum_29	</td></tr>
+<tr><td>	65	</td><td>	23,211	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_not-equal-to_2	</td></tr>
+<tr><td>	66	</td><td>	23,210	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_not-equal-to_29	</td></tr>
+<tr><td>	67	</td><td>	23,202	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_minimum_5	</td></tr>
+<tr><td>	68	</td><td>	23,200	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_maximum_19	</td></tr>
+<tr><td>	69	</td><td>	23,195	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_not-equal-to_19	</td></tr>
+<tr><td>	70	</td><td>	23,156	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_not-equal-to_9	</td></tr>
+<tr><td>	71	</td><td>	23,154	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_not-equal-to_15	</td></tr>
+<tr><td>	72	</td><td>	23,112	</td><td>	http://www.irandirectory.com/event/alllocations.php	</td></tr>
+<tr><td>	73	</td><td>	23,081	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_maximum_15	</td></tr>
+<tr><td>	74	</td><td>	23,000	</td><td>	http://www.411webconnect.com/promotion/alllocations.php	</td></tr>
+<tr><td>	75	</td><td>	22,834	</td><td>	http://www.411webconnect.com/listing/alllocations.php	</td></tr>
+<tr><td>	76	</td><td>	22,600	</td><td>	http://www.rofo.com/cities	</td></tr>
+<tr><td>	77	</td><td>	22,496	</td><td>	http://www.wordaxis.com/ending-with/s/no-of-letters_maximum_9	</td></tr>
+<tr><td>	78	</td><td>	22,336	</td><td>	http://www.toolwall.co.uk/sitemap.php	</td></tr>
+<tr><td>	79	</td><td>	22,309	</td><td>	http://www.wordaxis.com/containing/es	</td></tr>
+<tr><td>	80	</td><td>	22,278	</td><td>	http://www.wordaxis.com/containing/es/no-of-letters_minimum_5	</td></tr>
+<tr><td>	81	</td><td>	22,160	</td><td>	http://www.wordaxis.com/containing/es/no-of-letters_not-equal-to_5	</td></tr>
+<tr><td>	82	</td><td>	21,989	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/ins	</td></tr>
+<tr><td>	83	</td><td>	21,072	</td><td>	http://www.wordaxis.com/containing/b	</td></tr>
+<tr><td>	84	</td><td>	21,047	</td><td>	http://www.wordaxis.com/containing/b/no-of-letters_minimum_4	</td></tr>
+<tr><td>	85	</td><td>	21,013	</td><td>	http://www.tourismguide.ro/harta_site.php	</td></tr>
+<tr><td>	86	</td><td>	20,980	</td><td>	http://www.wordaxis.com/containing/b/no-of-letters_not-equal-to_4	</td></tr>
+<tr><td>	87	</td><td>	20,855	</td><td>	http://www.zoover.de/italien/sitemap	</td></tr>
+<tr><td>	88	</td><td>	20,834	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/st	</td></tr>
+<tr><td>	89	</td><td>	20,822	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/so	</td></tr>
+<tr><td>	90	</td><td>	20,690	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/nas	</td></tr>
+<tr><td>	91	</td><td>	20,686	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/as	</td></tr>
+<tr><td>	92	</td><td>	20,619	</td><td>	http://www.wordaxis.com/containing/s	</td></tr>
+<tr><td>	93	</td><td>	20,616	</td><td>	http://www.wordaxis.com/containing/s/no-of-letters_minimum_3	</td></tr>
+<tr><td>	94	</td><td>	20,612	</td><td>	http://www.wordaxis.com/containing/s/no-of-letters_not-equal-to_3	</td></tr>
+<tr><td>	95	</td><td>	20,604	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/am	</td></tr>
+<tr><td>	96	</td><td>	20,454	</td><td>	http://www.datameteo.com/meteo/previsioni_Italia.php	</td></tr>
+<tr><td>	97	</td><td>	20,407	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/on	</td></tr>
+<tr><td>	98	</td><td>	20,253	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/ait	</td></tr>
+<tr><td>	99	</td><td>	20,135	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/el	</td></tr>
+<tr><td>	100	</td><td>	20,106	</td><td>	http://www.wordaxis.com/advanced-anagram/parent-words/ain	</td></tr>
+
+</table>
+</p>
+<h2 id="outdegreeext">4. Top Pages By Outdegree (external)</h2>
+<p>
+<table>
+</table>
+</p>
+<tr><th>	Rank	</th><th>	Outdegree	</th><th>	URL	</th></tr>
+<tr><td>	1	</td><td>	31,292	</td><td>	http://cran.rakanu.com/web/checks/check_summary.html	</td></tr>
+<tr><td>	2	</td><td>	31,213	</td><td>	http://www.neti.ee/cgi-bin/serverid	</td></tr>
+<tr><td>	3	</td><td>	29,661	</td><td>	http://www.aharrisonbarnes.com/directory-of-us-associations/	</td></tr>
+<tr><td>	4	</td><td>	22,580	</td><td>	http://cran.rakanu.com/web/checks/check_summary_by_maintainer.html	</td></tr>
+<tr><td>	5	</td><td>	22,027	</td><td>	http://www.tabutv.hu/celeb/adatlap//	</td></tr>
+<tr><td>	6	</td><td>	17,932	</td><td>	http://var.astro.cz/meduza/novinky.php	</td></tr>
+<tr><td>	7	</td><td>	16,486	</td><td>	http://www.kundenserviceblog.com/article/exzellenter_service_zahlt_sich_aus_weltweit	</td></tr>
+<tr><td>	8	</td><td>	15,251	</td><td>	http://www.austria.info.at/orte/	</td></tr>
+<tr><td>	9	</td><td>	15,251	</td><td>	http://www.linz.info.at/orte/	</td></tr>
+<tr><td>	10	</td><td>	15,251	</td><td>	http://www.urlaub.eu/orte/	</td></tr>
+<tr><td>	11	</td><td>	15,250	</td><td>	http://www.aberg.info.at/orte/	</td></tr>
+<tr><td>	12	</td><td>	15,250	</td><td>	http://www.abern.info.at/orte/	</td></tr>
+<tr><td>	13	</td><td>	15,250	</td><td>	http://www.abetzberg.info.at/orte/	</td></tr>
+<tr><td>	14	</td><td>	15,250	</td><td>	http://www.abfaltersbach.info.at/orte/	</td></tr>
+<tr><td>	15	</td><td>	15,250	</td><td>	http://www.absam.info.at/orte/	</td></tr>
+<tr><td>	16	</td><td>	15,250	</td><td>	http://www.abschlag.info.at/orte/	</td></tr>
+<tr><td>	17	</td><td>	15,250	</td><td>	http://www.absdorf.info.at/orte/	</td></tr>
+<tr><td>	18	</td><td>	15,250	</td><td>	http://www.abstaetten.info.at/orte/	</td></tr>
+<tr><td>	19	</td><td>	15,250	</td><td>	http://www.abstetten.info.at/orte/	</td></tr>
+<tr><td>	20	</td><td>	15,250	</td><td>	http://www.abtei.info.at/orte/	</td></tr>
+<tr><td>	21	</td><td>	15,250	</td><td>	http://www.abtenau.info.at/orte/	</td></tr>
+<tr><td>	22	</td><td>	15,250	</td><td>	http://www.abtissendorf.info.at/orte/	</td></tr>
+<tr><td>	23	</td><td>	15,250	</td><td>	http://www.abtsdorf.info.at/orte/	</td></tr>
+<tr><td>	24	</td><td>	15,250	</td><td>	http://www.abwerzg.info.at/orte/	</td></tr>
+<tr><td>	25	</td><td>	15,250	</td><td>	http://www.ach.info.at/orte/	</td></tr>
+<tr><td>	26	</td><td>	15,250	</td><td>	http://www.achalm.info.at/orte/	</td></tr>
+<tr><td>	27	</td><td>	15,250	</td><td>	http://www.acharting.info.at/orte/	</td></tr>
+<tr><td>	28	</td><td>	15,250	</td><td>	http://www.achatzberg.info.at/orte/	</td></tr>
+<tr><td>	29	</td><td>	15,250	</td><td>	http://www.achau.info.at/orte/	</td></tr>
+<tr><td>	30	</td><td>	15,250	</td><td>	http://www.achenkirch.info.at/orte/	</td></tr>
+<tr><td>	31	</td><td>	15,250	</td><td>	http://www.achenlohe.info.at/orte/	</td></tr>
+<tr><td>	32	</td><td>	15,250	</td><td>	http://www.aching.info.at/orte/	</td></tr>
+<tr><td>	33	</td><td>	15,250	</td><td>	http://www.achleit.info.at/orte/	</td></tr>
+<tr><td>	34	</td><td>	15,250	</td><td>	http://www.achleiten.info.at/orte/	</td></tr>
+<tr><td>	35	</td><td>	15,250	</td><td>	http://www.achomitz.info.at/orte/	</td></tr>
+<tr><td>	36	</td><td>	15,250	</td><td>	http://www.achtal.info.at/orte/	</td></tr>
+<tr><td>	37	</td><td>	15,250	</td><td>	http://www.ackersberg.info.at/orte/	</td></tr>
+<tr><td>	38	</td><td>	15,250	</td><td>	http://www.adeldorf.info.at/orte/	</td></tr>
+<tr><td>	39	</td><td>	15,250	</td><td>	http://www.adelsgrub.info.at/orte/	</td></tr>
+<tr><td>	40	</td><td>	15,250	</td><td>	http://www.adenberg.info.at/orte/	</td></tr>
+<tr><td>	41	</td><td>	15,250	</td><td>	http://www.adenbruck.info.at/orte/	</td></tr>
+<tr><td>	42	</td><td>	15,250	</td><td>	http://www.adenbrunn.info.at/orte/	</td></tr>
+<tr><td>	43	</td><td>	15,250	</td><td>	http://www.ader.info.at/orte/	</td></tr>
+<tr><td>	44	</td><td>	15,250	</td><td>	http://www.aderklaa.info.at/orte/	</td></tr>
+<tr><td>	45	</td><td>	15,250	</td><td>	http://www.adletzberg.info.at/orte/	</td></tr>
+<tr><td>	46	</td><td>	15,250	</td><td>	http://www.adlhaming.info.at/orte/	</td></tr>
+<tr><td>	47	</td><td>	15,250	</td><td>	http://www.adligen.info.at/orte/	</td></tr>
+<tr><td>	48	</td><td>	15,250	</td><td>	http://www.adlwang.info.at/orte/	</td></tr>
+<tr><td>	49	</td><td>	15,250	</td><td>	http://www.admont.info.at/orte/	</td></tr>
+<tr><td>	50	</td><td>	15,250	</td><td>	http://www.adnet.info.at/orte/	</td></tr>
+<tr><td>	51	</td><td>	15,250	</td><td>	http://www.adneter-riedl.info.at/orte/	</td></tr>
+<tr><td>	52	</td><td>	15,250	</td><td>	http://www.adneterriedl.info.at/orte/	</td></tr>
+<tr><td>	53	</td><td>	15,250	</td><td>	http://www.adriach.info.at/orte/	</td></tr>
+<tr><td>	54	</td><td>	15,250	</td><td>	http://www.adrischendorf.info.at/orte/	</td></tr>
+<tr><td>	55	</td><td>	15,250	</td><td>	http://www.aepfelberg.info.at/orte/	</td></tr>
+<tr><td>	56	</td><td>	15,250	</td><td>	http://www.aeussere-einoede.info.at/orte/	</td></tr>
+<tr><td>	57	</td><td>	15,250	</td><td>	http://www.aeussere-kainisch.info.at/orte/	</td></tr>
+<tr><td>	58	</td><td>	15,250	</td><td>	http://www.aeussere-wimitz.info.at/orte/	</td></tr>
+<tr><td>	59	</td><td>	15,250	</td><td>	http://www.aeussereeinoede.info.at/orte/	</td></tr>
+<tr><td>	60	</td><td>	15,250	</td><td>	http://www.aeusserekainisch.info.at/orte/	</td></tr>
+<tr><td>	61	</td><td>	15,250	</td><td>	http://www.aeusserewimitz.info.at/orte/	</td></tr>
+<tr><td>	62	</td><td>	15,250	</td><td>	http://www.aferhagen.info.at/orte/	</td></tr>
+<tr><td>	63	</td><td>	15,250	</td><td>	http://www.affelsdorf.info.at/orte/	</td></tr>
+<tr><td>	64	</td><td>	15,250	</td><td>	http://www.affenberg.info.at/orte/	</td></tr>
+<tr><td>	65	</td><td>	15,250	</td><td>	http://www.affetschlag.info.at/orte/	</td></tr>
+<tr><td>	66	</td><td>	15,250	</td><td>	http://www.afiesl.info.at/orte/	</td></tr>
+<tr><td>	67	</td><td>	15,250	</td><td>	http://www.afing.info.at/orte/	</td></tr>
+<tr><td>	68	</td><td>	15,250	</td><td>	http://www.aflenz-an-der-sulm.info.at/orte/	</td></tr>
+<tr><td>	69	</td><td>	15,250	</td><td>	http://www.aflenz-land.info.at/orte/	</td></tr>
+<tr><td>	70	</td><td>	15,250	</td><td>	http://www.aflenz.info.at/orte/	</td></tr>
+<tr><td>	71	</td><td>	15,250	</td><td>	http://www.aflenzandersulm.info.at/orte/	</td></tr>
+<tr><td>	72	</td><td>	15,250	</td><td>	http://www.aflenzland.info.at/orte/	</td></tr>
+<tr><td>	73	</td><td>	15,250	</td><td>	http://www.afling.info.at/orte/	</td></tr>
+<tr><td>	74	</td><td>	15,250	</td><td>	http://www.afram.info.at/orte/	</td></tr>
+<tr><td>	75	</td><td>	15,250	</td><td>	http://www.afritz-am-see.info.at/orte/	</td></tr>
+<tr><td>	76	</td><td>	15,250	</td><td>	http://www.afritzamsee.info.at/orte/	</td></tr>
+<tr><td>	77	</td><td>	15,250	</td><td>	http://www.afterbach.info.at/orte/	</td></tr>
+<tr><td>	78	</td><td>	15,250	</td><td>	http://www.aggsbach-dorf.info.at/orte/	</td></tr>
+<tr><td>	79	</td><td>	15,250	</td><td>	http://www.aggsbach-markt.info.at/orte/	</td></tr>
+<tr><td>	80	</td><td>	15,250	</td><td>	http://www.aggsbach.info.at/orte/	</td></tr>
+<tr><td>	81	</td><td>	15,250	</td><td>	http://www.aggsbachdorf.info.at/orte/	</td></tr>
+<tr><td>	82	</td><td>	15,250	</td><td>	http://www.aggsbachmarkt.info.at/orte/	</td></tr>
+<tr><td>	83	</td><td>	15,250	</td><td>	http://www.aggstein.info.at/orte/	</td></tr>
+<tr><td>	84	</td><td>	15,250	</td><td>	http://www.aglasberg.info.at/orte/	</td></tr>
+<tr><td>	85	</td><td>	15,250	</td><td>	http://www.agoritschach.info.at/orte/	</td></tr>
+<tr><td>	86	</td><td>	15,250	</td><td>	http://www.agsdorf-gegend.info.at/orte/	</td></tr>
+<tr><td>	87	</td><td>	15,250	</td><td>	http://www.agsdorf.info.at/orte/	</td></tr>
+<tr><td>	88	</td><td>	15,250	</td><td>	http://www.agsdorfgegend.info.at/orte/	</td></tr>
+<tr><td>	89	</td><td>	15,250	</td><td>	http://www.aham.info.at/orte/	</td></tr>
+<tr><td>	90	</td><td>	15,250	</td><td>	http://www.ahorn.info.at/orte/	</td></tr>
+<tr><td>	91	</td><td>	15,250	</td><td>	http://www.ahornleiten.info.at/orte/	</td></tr>
+<tr><td>	92	</td><td>	15,250	</td><td>	http://www.ahrenberg.info.at/orte/	</td></tr>
+<tr><td>	93	</td><td>	15,250	</td><td>	http://www.aibl.info.at/orte/	</td></tr>
+<tr><td>	94	</td><td>	15,250	</td><td>	http://www.aich-an-der-strasse.info.at/orte/	</td></tr>
+<tr><td>	95	</td><td>	15,250	</td><td>	http://www.aich.info.at/orte/	</td></tr>
+<tr><td>	96	</td><td>	15,250	</td><td>	http://www.aichanderstrasse.info.at/orte/	</td></tr>
+<tr><td>	97	</td><td>	15,250	</td><td>	http://www.aichau.info.at/orte/	</td></tr>
+<tr><td>	98	</td><td>	15,250	</td><td>	http://www.aichbach.info.at/orte/	</td></tr>
+<tr><td>	99	</td><td>	15,250	</td><td>	http://www.aichberg.info.at/orte/	</td></tr>
+<tr><td>	100	</td><td>	15,250	</td><td>	http://www.aichbichl.info.at/orte/	</td></tr>
+
+</div>
+</div>
+<script type="text/javascript">
+$('#toc').toc({
+    'selectors': 'h2,h3', //elements to use as headings
+    'container': '#toccontent', //element to find all selectors in
+    'smoothScrolling': true, //enable or disable smooth scrolling on click
+    'prefix': 'toc', //prefix for anchor tags and class names
+    'highlightOnScroll': true, //add class to heading that is currently in focus
+    'highlightOffset': 100, //offset to trigger the next headline
+    'anchorName': function(i, heading, prefix) { //custom function for anchor name
+        return prefix+i;
+    } 
+});
+</script>
+
+</body>
+</html> 

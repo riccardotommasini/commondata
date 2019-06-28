@@ -1,0 +1,4 @@
+#!/bin/bash
+JAR=`ls target/ccrdf-*.jar`
+
+exec java -cp $JAR org.webdatacommons.Indexer "$@"

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/creativecommons/src/creativecommons.iml" filepath="$PROJECT_DIR$/src/plugin/creativecommons/src/creativecommons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/feed/src/feed.iml" filepath="$PROJECT_DIR$/src/plugin/feed/src/feed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/headings/src/headings.iml" filepath="$PROJECT_DIR$/src/plugin/headings/src/headings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/index-anchor/src/index-anchor.iml" filepath="$PROJECT_DIR$/src/plugin/index-anchor/src/index-anchor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/index-basic/src/index-basic.iml" filepath="$PROJECT_DIR$/src/plugin/index-basic/src/index-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/index-metadata/src/index-metadata.iml" filepath="$PROJECT_DIR$/src/plugin/index-metadata/src/index-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/index-more/src/index-more.iml" filepath="$PROJECT_DIR$/src/plugin/index-more/src/index-more.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/index-static/src/index-static.iml" filepath="$PROJECT_DIR$/src/plugin/index-static/src/index-static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/language-identifier/src/language-identifier.iml" filepath="$PROJECT_DIR$/src/plugin/language-identifier/src/language-identifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/lib-http/src/lib-http.iml" filepath="$PROJECT_DIR$/src/plugin/lib-http/src/lib-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/lib-regex-filter/src/lib-regex-filter.iml" filepath="$PROJECT_DIR$/src/plugin/lib-regex-filter/src/lib-regex-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/microformats-reltag/src/microformats-reltag.iml" filepath="$PROJECT_DIR$/src/plugin/microformats-reltag/src/microformats-reltag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/nutch.iml" filepath="$PROJECT_DIR$/src/nutch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-ext/src/parse-ext.iml" filepath="$PROJECT_DIR$/src/plugin/parse-ext/src/parse-ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-html/src/parse-html.iml" filepath="$PROJECT_DIR$/src/plugin/parse-html/src/parse-html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-js/src/parse-js.iml" filepath="$PROJECT_DIR$/src/plugin/parse-js/src/parse-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-metatags/src/parse-metatags.iml" filepath="$PROJECT_DIR$/src/plugin/parse-metatags/src/parse-metatags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-swf/src/parse-swf.iml" filepath="$PROJECT_DIR$/src/plugin/parse-swf/src/parse-swf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-tika/src/parse-tika.iml" filepath="$PROJECT_DIR$/src/plugin/parse-tika/src/parse-tika.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-wdc/src/parse-wdc.iml" filepath="$PROJECT_DIR$/src/plugin/parse-wdc/src/parse-wdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/parse-zip/src/parse-zip.iml" filepath="$PROJECT_DIR$/src/plugin/parse-zip/src/parse-zip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/protocol-file/src/protocol-file.iml" filepath="$PROJECT_DIR$/src/plugin/protocol-file/src/protocol-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/protocol-ftp/src/protocol-ftp.iml" filepath="$PROJECT_DIR$/src/plugin/protocol-ftp/src/protocol-ftp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/protocol-http/src/protocol-http.iml" filepath="$PROJECT_DIR$/src/plugin/protocol-http/src/protocol-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/protocol-httpclient/src/protocol-httpclient.iml" filepath="$PROJECT_DIR$/src/plugin/protocol-httpclient/src/protocol-httpclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/scoring-link/src/scoring-link.iml" filepath="$PROJECT_DIR$/src/plugin/scoring-link/src/scoring-link.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/scoring-opic/src/scoring-opic.iml" filepath="$PROJECT_DIR$/src/plugin/scoring-opic/src/scoring-opic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/subcollection/src/subcollection.iml" filepath="$PROJECT_DIR$/src/plugin/subcollection/src/subcollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/tld/src/tld.iml" filepath="$PROJECT_DIR$/src/plugin/tld/src/tld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlfilter-automaton/src/urlfilter-automaton.iml" filepath="$PROJECT_DIR$/src/plugin/urlfilter-automaton/src/urlfilter-automaton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlfilter-domain/src/urlfilter-domain.iml" filepath="$PROJECT_DIR$/src/plugin/urlfilter-domain/src/urlfilter-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlfilter-domainblacklist/src/urlfilter-domainblacklist.iml" filepath="$PROJECT_DIR$/src/plugin/urlfilter-domainblacklist/src/urlfilter-domainblacklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlfilter-prefix/src/urlfilter-prefix.iml" filepath="$PROJECT_DIR$/src/plugin/urlfilter-prefix/src/urlfilter-prefix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlfilter-regex/src/urlfilter-regex.iml" filepath="$PROJECT_DIR$/src/plugin/urlfilter-regex/src/urlfilter-regex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlfilter-suffix/src/urlfilter-suffix.iml" filepath="$PROJECT_DIR$/src/plugin/urlfilter-suffix/src/urlfilter-suffix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlfilter-validator/src/urlfilter-validator.iml" filepath="$PROJECT_DIR$/src/plugin/urlfilter-validator/src/urlfilter-validator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlmeta/src/urlmeta.iml" filepath="$PROJECT_DIR$/src/plugin/urlmeta/src/urlmeta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlnormalizer-basic/src/urlnormalizer-basic.iml" filepath="$PROJECT_DIR$/src/plugin/urlnormalizer-basic/src/urlnormalizer-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlnormalizer-host/src/urlnormalizer-host.iml" filepath="$PROJECT_DIR$/src/plugin/urlnormalizer-host/src/urlnormalizer-host.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlnormalizer-pass/src/urlnormalizer-pass.iml" filepath="$PROJECT_DIR$/src/plugin/urlnormalizer-pass/src/urlnormalizer-pass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/plugin/urlnormalizer-regex/src/urlnormalizer-regex.iml" filepath="$PROJECT_DIR$/src/plugin/urlnormalizer-regex/src/urlnormalizer-regex.iml" />
+    </modules>
+  </component>
+</project>
+
